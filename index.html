@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pronavakr Lifecare</title>
+    <title>Navkar & Pronavakr</title>
     
     <script src="product_data.js"></script>
     <script src="otc_data.js"></script>
@@ -12,29 +12,27 @@
         /* Brand Colors: #068586 (Main), #f7d127 (Accent) */
         body { 
             font-family: 'Segoe UI', Arial, sans-serif; 
-            background: #2c3e50; /* Computer par background dark dikhega taaki mobile frame highlight ho */
+            background: #2c3e50; 
             margin: 0; 
             padding: 0;
             display: flex;
             justify-content: center;
-            align-items: flex-start;
             min-height: 100vh;
         }
 
-        /* 9:16 Container (Mobile Frame) */
+        /* 9:16 Mobile Frame */
         .container { 
             width: 100%;
-            max-width: 450px; /* Standard Mobile Width */
-            min-height: 100vh; /* Pooray phone ki height */
+            max-width: 450px; 
+            min-height: 100vh;
             background: white; 
             padding: 20px; 
             box-sizing: border-box;
             box-shadow: 0 0 50px rgba(0,0,0,0.5);
             border-top: 8px solid #068586;
-            position: relative;
         }
         
-        /* Logo Section - 1x1 Square */
+        /* Logo Section */
         .logo-container { 
             text-align: center; 
             margin-top: 10px;
@@ -42,32 +40,42 @@
             justify-content: center;
         }
         .logo-container img { 
-            width: 100px;
-            height: 100px;
+            width: 110px;
+            height: 110px;
             object-fit: contain;
-            border-radius: 10px;
         } 
 
-        /* Header Styling */
-        .header-section { text-align: center; margin-top: 15px; margin-bottom: 25px; } 
+        /* Header Styling - Corrected Names */
+        .header-section { text-align: center; margin-top: 15px; margin-bottom: 25px; }
+        
         .main-title { 
             color: #068586; 
-            font-size: 1.3rem; 
+            font-size: 1.5rem; 
             font-weight: 800; 
             text-transform: uppercase;
+            margin: 0;
+            display: block;
             letter-spacing: 0.5px;
-            margin: 5px 0;
+        }
+        
+        .sub-title { 
+            color: #068586; 
+            font-size: 1.3rem; 
+            font-weight: 700; 
+            text-transform: uppercase;
+            margin-top: 4px;
             display: block;
         }
+
         .title-underline { 
-            width: 60px; 
-            height: 4px; 
+            width: 100px; 
+            height: 5px; 
             background: #f7d127; 
-            margin: auto; 
+            margin: 12px auto 0; 
             border-radius: 10px;
         }
         
-        /* Dropdowns Styling */
+        /* Dropdowns */
         .filter-group { display: flex; flex-direction: column; gap: 15px; margin-bottom: 20px; }
         label { font-weight: bold; color: #068586; display: block; margin-bottom: 5px; font-size: 13px; }
         
@@ -78,15 +86,14 @@
             border-radius: 10px; 
             font-size: 14px; 
             outline: none; 
-            background: #fdfdfd; 
-            cursor: pointer;
+            background: #fdfdfd;
         }
         select:focus { border-color: #068586; }
 
-        /* Table Styling - 9:16 ke liye optimized */
+        /* Table Area */
         .table-container { 
             margin-top: 10px; 
-            max-height: 55vh; /* Table ki height control ki taaki scrollable rahe */
+            max-height: 50vh; 
             overflow-y: auto; 
             border: 1px solid #eee; 
             border-radius: 12px; 
@@ -97,14 +104,13 @@
         td { padding: 10px; border-bottom: 1px solid #f1f1f1; font-size: 13px; color: #333; }
         tr:hover { background: rgba(247, 209, 39, 0.1); }
         
-        /* Count Badge */
         .count-tag { 
             margin-top: 5px; 
             font-weight: bold; 
             color: #068586; 
             display: none; 
             font-size: 12px; 
-            padding: 6px 10px;
+            padding: 6px 12px;
             background: #f7d127;
             border-radius: 5px;
             margin-bottom: 10px;
@@ -119,22 +125,23 @@
     </div>
 
     <div class="header-section">
-        <span class="main-title">Pronavakr Lifecare</span>
+        <span class="main-title">Navkar Apotek LLP</span>
+        <span class="sub-title">Pronavakr Lifecare LLP</span>
         <div class="title-underline"></div>
     </div>
     
     <div class="filter-group">
         <div>
-            <label>Step 1: Category</label>
+            <label>Select Category</label>
             <select id="categorySelect" onchange="updateCompanyDropdown()">
-                <option value="">-- Select --</option>
+                <option value="">-- Choose --</option>
                 <option value="generic">Generic Product List</option>
                 <option value="otc">OTC Product List</option>
             </select>
         </div>
 
         <div>
-            <label>Step 2: Company Name</label>
+            <label>Company Name</label>
             <select id="companySelect" onchange="showProducts()" disabled>
                 <option value="">-- Select Category First --</option>
             </select>
@@ -213,7 +220,7 @@
 
         tbody.innerHTML = rows;
         tableWrapper.style.display = "block";
-        countTag.innerHTML = `✅ ${filtered.length} Items`;
+        countTag.innerHTML = `✅ ${filtered.length} Items Found`;
         countTag.style.display = "inline-block";
     }
 </script>
