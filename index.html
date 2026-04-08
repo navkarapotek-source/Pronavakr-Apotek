@@ -751,6 +751,7 @@
             const dateStr = now.toLocaleDateString('en-IN');
             const timeStr = now.toLocaleTimeString('en-IN');
             const pageWidth = doc.internal.pageSize.getWidth();
+            const centerX = pageWidth / 2;
 
             let yPosition = 15;
 
@@ -774,18 +775,19 @@
             doc.setFontSize(12);
             doc.setFont(undefined, 'bold');
             doc.setTextColor(6, 133, 134);
-            doc.text('Product List Report', 15, yPosition);
-            yPosition += 7;
+            doc.text('Product List Report', pageWidth / 2, yPosition, { align: 'center', maxWidth: pageWidth - 30 });
+            yPosition += 8;
 
             doc.setFontSize(10);
             doc.setFont(undefined, 'normal');
             doc.setTextColor(80, 80, 80);
-            doc.text(`Company: ${currentCompany}`, 15, yPosition);
+            doc.text(`Company: ${currentCompany}`, centerX, yPosition, { align: 'center', maxWidth: pageWidth - 30 });
             yPosition += 6;
+            
             doc.setFontSize(9);
             doc.setTextColor(150, 150, 150);
-            doc.text(`Generated: ${dateStr} at ${timeStr}`, 15, yPosition);
-            yPosition += 12;
+            doc.text(`Generated: ${dateStr} at ${timeStr}`, centerX, yPosition, { align: 'center', maxWidth: pageWidth - 30 });
+            yPosition += 15;
 
             const tableData = filteredProducts.map(item => [
                 item["Product Name"] || 'N/A',
@@ -832,16 +834,10 @@
 
             yPosition = doc.lastAutoTable.finalY + 10;
 
-            doc.setFillColor(249, 249, 249);
-            doc.rect(15, yPosition, pageWidth - 30, 12, 'F');
-            doc.setDrawColor(6, 133, 134);
-            doc.setLineWidth(0.5);
-            doc.line(15, yPosition, 20, yPosition);
-
             doc.setFontSize(10);
             doc.setFont(undefined, 'bold');
             doc.setTextColor(6, 133, 134);
-            doc.text(`Total Products: ${filteredProducts.length}`, 25, yPosition + 8);
+            doc.text(`Total Products: ${filteredProducts.length}`, centerX, yPosition + 8, { align: 'center' });
 
             const filename = `${currentCompany}_products_${now.toISOString().split('T')[0]}.pdf`;
             doc.save(filename);
