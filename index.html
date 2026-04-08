@@ -7,113 +7,534 @@
     
     <script src="product_data.js"></script>
     <script src="otc_data.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.31/jspdf.plugin.autotable.min.js"></script>
 
     <style>
-        /* Brand Colors: #068586 (Main), #f7d127 (Accent) */
-        body { 
-            font-family: 'Segoe UI', Arial, sans-serif; 
-            background: #2c3e50; 
-            margin: 0; 
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            min-height: 100vh;
+        :root {
+            --primary-color: #068586;
+            --accent-color: #f7d127;
+            --text-dark: #333333;
+            --text-light: #666666;
+            --bg-light: #f9f9f9;
+            --border-color: #e0e0e0;
+            --hover-bg: rgba(6, 133, 134, 0.05);
+            --error-color: #dc3545;
+            --success-color: #28a745;
         }
 
-        /* 9:16 Mobile Frame */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); 
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            padding: 10px;
+        }
+
         .container { 
             width: 100%;
-            max-width: 450px; 
-            min-height: 100vh;
+            max-width: 500px; 
             background: white; 
             padding: 20px; 
-            box-sizing: border-box;
-            box-shadow: 0 0 50px rgba(0,0,0,0.5);
-            border-top: 8px solid #068586;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+            border-top: 6px solid var(--primary-color);
+            margin-top: 20px;
         }
         
-        /* Logo Section */
         .logo-container { 
             text-align: center; 
-            margin-top: 10px;
-            display: flex;
-            justify-content: center;
+            margin-bottom: 20px;
         }
-        .logo-container img { 
-            width: 110px;
-            height: 110px;
-            object-fit: contain;
-        } 
 
-        /* Header Styling - Corrected Names */
-        .header-section { text-align: center; margin-top: 15px; margin-bottom: 25px; }
+        .logo-container img { 
+            width: 90px;
+            height: 90px;
+            object-fit: contain;
+            border-radius: 10px;
+        }
+
+        .header-section { 
+            text-align: center; 
+            margin-bottom: 25px; 
+        }
         
         .main-title { 
-            color: #068586; 
-            font-size: 1.5rem; 
+            color: var(--primary-color); 
+            font-size: 1.4rem; 
             font-weight: 800; 
             text-transform: uppercase;
-            margin: 0;
-            display: block;
             letter-spacing: 0.5px;
+            margin-bottom: 5px;
         }
         
         .sub-title { 
-            color: #068586; 
-            font-size: 1.3rem; 
-            font-weight: 700; 
+            color: var(--primary-color); 
+            font-size: 1.1rem; 
+            font-weight: 600; 
             text-transform: uppercase;
-            margin-top: 4px;
-            display: block;
+            margin-bottom: 10px;
         }
 
         .title-underline { 
-            width: 100px; 
-            height: 5px; 
-            background: #f7d127; 
-            margin: 12px auto 0; 
-            border-radius: 10px;
+            width: 80px; 
+            height: 4px; 
+            background: var(--accent-color); 
+            margin: 0 auto;
+            border-radius: 2px;
         }
         
-        /* Dropdowns */
-        .filter-group { display: flex; flex-direction: column; gap: 15px; margin-bottom: 20px; }
-        label { font-weight: bold; color: #068586; display: block; margin-bottom: 5px; font-size: 13px; }
+        .filter-section { 
+            margin-bottom: 20px; 
+        }
+
+        .filter-group { 
+            display: flex; 
+            flex-direction: column; 
+            gap: 12px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        label { 
+            font-weight: 600; 
+            color: var(--primary-color); 
+            font-size: 13px; 
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
         
-        select { 
+        select, input[type="text"] { 
             width: 100%; 
-            padding: 12px; 
-            border: 2px solid #e0e0e0; 
-            border-radius: 10px; 
+            padding: 11px 12px; 
+            border: 2px solid var(--border-color); 
+            border-radius: 8px; 
             font-size: 14px; 
             outline: none; 
-            background: #fdfdfd;
+            background: white;
+            transition: all 0.3s ease;
+            color: var(--text-dark);
         }
-        select:focus { border-color: #068586; }
 
-        /* Table Area */
-        .table-container { 
-            margin-top: 10px; 
-            max-height: 50vh; 
-            overflow-y: auto; 
-            border: 1px solid #eee; 
-            border-radius: 12px; 
-            display: none; 
+        select:hover, input[type="text"]:hover {
+            border-color: var(--primary-color);
+            background: #fafafa;
         }
-        table { width: 100%; border-collapse: collapse; }
-        th { background: #068586; color: white; padding: 10px; text-align: left; position: sticky; top: 0; font-size: 13px; }
-        td { padding: 10px; border-bottom: 1px solid #f1f1f1; font-size: 13px; color: #333; }
-        tr:hover { background: rgba(247, 209, 39, 0.1); }
-        
-        .count-tag { 
-            margin-top: 5px; 
-            font-weight: bold; 
-            color: #068586; 
-            display: none; 
-            font-size: 12px; 
+
+        select:focus, input[type="text"]:focus { 
+            border-color: var(--primary-color); 
+            box-shadow: 0 0 0 3px rgba(6, 133, 134, 0.1);
+            background: white;
+        }
+
+        select:disabled {
+            background-color: #f5f5f5;
+            color: #999;
+            cursor: not-allowed;
+        }
+
+        .search-container {
+            position: relative;
+        }
+
+        .search-icon {
+            position: absolute;
+            right: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-light);
+            pointer-events: none;
+            font-size: 16px;
+        }
+
+        .info-bar { 
+            display: flex; 
+            justify-content: space-between;
+            align-items: center;
+            margin: 15px 0; 
+            padding: 12px 14px;
+            background: linear-gradient(135deg, var(--accent-color) 0%, rgba(247, 209, 39, 0.85) 100%);
+            border-radius: 8px; 
+            display: none;
+            gap: 10px;
+        }
+
+        .info-bar.show { display: flex; }
+
+        .info-text { 
+            font-weight: 600; 
+            color: #1a1a1a; 
+            font-size: 13px; 
+        }
+
+        .export-btn {
             padding: 6px 12px;
-            background: #f7d127;
-            border-radius: 5px;
-            margin-bottom: 10px;
+            background: #1a1a1a;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .export-btn:hover {
+            background: #333;
+            transform: scale(1.05);
+        }
+
+        .export-btn:active {
+            transform: scale(0.98);
+        }
+
+        .export-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: scale(1);
+        }
+
+        .table-container { 
+            max-height: 55vh; 
+            overflow-y: auto; 
+            border: 2px solid var(--border-color); 
+            border-radius: 10px; 
+            display: none;
+            background: white;
+        }
+
+        .table-container.show { display: block; }
+
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+        }
+
+        th { 
+            background: linear-gradient(135deg, var(--primary-color) 0%, #055c5d 100%);
+            color: white; 
+            padding: 12px; 
+            text-align: left; 
+            position: sticky; 
+            top: 0; 
+            font-size: 12px; 
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        td { 
+            padding: 11px 12px; 
+            border-bottom: 1px solid var(--border-color); 
+            font-size: 13px; 
+            color: var(--text-dark);
+        }
+
+        tbody tr {
+            transition: background-color 0.2s ease;
+        }
+
+        tbody tr:hover { 
+            background: var(--hover-bg);
+        }
+
+        .product-name {
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        .pack-info {
+            color: var(--text-light);
+            font-size: 12px;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 40px 20px;
+            color: var(--text-light);
+        }
+
+        .empty-state-icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+            opacity: 0.5;
+        }
+
+        .empty-state-text {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .error-message {
+            background: #fee;
+            color: var(--error-color);
+            padding: 12px 14px;
+            border-radius: 8px;
+            border-left: 4px solid var(--error-color);
+            margin-bottom: 15px;
+            font-size: 13px;
+            display: none;
+        }
+
+        .error-message.show { display: block; }
+
+        .success-message {
+            background: #efe;
+            color: var(--success-color);
+            padding: 12px 14px;
+            border-radius: 8px;
+            border-left: 4px solid var(--success-color);
+            margin-bottom: 15px;
+            font-size: 13px;
+            display: none;
+            animation: slideIn 0.3s ease;
+        }
+
+        .success-message.show { display: block; }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+
+        @keyframes shimmer {
+            0% { background-position: -1000px 0; }
+            100% { background-position: 1000px 0; }
+        }
+
+        body {
+            animation: fadeIn 0.6s ease-in-out;
+        }
+
+        .container {
+            animation: slideUp 0.5s ease-out;
+        }
+
+        .logo-container img {
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        .header-section {
+            animation: slideIn 0.6s ease-out 0.1s both;
+        }
+
+        .filter-section {
+            animation: slideUp 0.5s ease-out 0.2s both;
+        }
+
+        .form-group {
+            animation: slideUp 0.5s ease-out;
+        }
+
+        .form-group:nth-child(1) { animation-delay: 0.25s; }
+        .form-group:nth-child(2) { animation-delay: 0.35s; }
+        .form-group:nth-child(3) { animation-delay: 0.45s; }
+
+        label {
+            transition: color 0.3s ease, text-shadow 0.3s ease;
+        }
+
+        select:hover, input[type="text"]:hover {
+            animation: none;
+        }
+
+        select:focus, input[type="text"]:focus {
+            animation: pulse 2s infinite;
+        }
+
+        .info-bar {
+            animation: slideDown 0.4s ease-out;
+        }
+
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .info-bar.show {
+            animation: slideDown 0.4s ease-out;
+        }
+
+        table {
+            animation: fadeIn 0.6s ease-out;
+        }
+
+        tbody tr {
+            animation: slideUp 0.3s ease-out;
+        }
+
+        tbody tr:nth-child(1) { animation-delay: 0.05s; }
+        tbody tr:nth-child(2) { animation-delay: 0.1s; }
+        tbody tr:nth-child(3) { animation-delay: 0.15s; }
+        tbody tr:nth-child(4) { animation-delay: 0.2s; }
+        tbody tr:nth-child(5) { animation-delay: 0.25s; }
+        tbody tr:nth-child(n+6) { animation-delay: 0.3s; }
+
+        tbody tr:hover {
+            animation: none;
+            background: var(--hover-bg) !important;
+        }
+
+        .export-btn {
+            transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .export-btn::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.3);
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+
+        .export-btn:active::before {
+            width: 300px;
+            height: 300px;
+        }
+
+        .export-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(6, 133, 134, 0.25);
+        }
+
+        .error-message {
+            animation: slideIn 0.4s ease-out;
+        }
+
+        .error-message.show {
+            animation: slideIn 0.4s ease-out;
+        }
+
+        .success-message {
+            animation: slideIn 0.4s ease-out, slideOut 0.4s ease-in 2.6s forwards;
+        }
+
+        @keyframes slideOut {
+            from { opacity: 1; transform: translateY(0); }
+            to { opacity: 0; transform: translateY(-10px); }
+        }
+
+        .success-message.show {
+            animation: slideIn 0.4s ease-out;
+        }
+
+        .empty-state {
+            animation: slideUp 0.5s ease-out;
+        }
+
+        .empty-state-icon {
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        .title-underline {
+            animation: scaleWidth 0.8s ease-out 0.3s both;
+        }
+
+        @keyframes scaleWidth {
+            from { width: 0; }
+            to { width: 80px; }
+        }
+
+        .table-container {
+            animation: slideUp 0.5s ease-out;
+        }
+
+        .table-container.show {
+            animation: slideUp 0.5s ease-out;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+
+        .scrollbar-style::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .scrollbar-style::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        .scrollbar-style::-webkit-scrollbar-thumb {
+            background: var(--primary-color);
+            border-radius: 3px;
+        }
+
+        .scrollbar-style::-webkit-scrollbar-thumb:hover {
+            background: #055c5d;
+        }
+
+        .table-container {
+            scrollbar-color: var(--primary-color) #f1f1f1;
+            scrollbar-width: thin;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+                border-radius: 12px;
+                margin-top: 10px;
+            }
+
+            .main-title {
+                font-size: 1.2rem;
+            }
+
+            .sub-title {
+                font-size: 0.95rem;
+            }
+
+            td, th {
+                padding: 10px 8px;
+                font-size: 12px;
+            }
+
+            .info-bar {
+                flex-wrap: wrap;
+            }
+
+            .export-btn {
+                padding: 5px 10px;
+                font-size: 11px;
+            }
         }
     </style>
 </head>
@@ -125,104 +546,336 @@
     </div>
 
     <div class="header-section">
-        <span class="main-title">Navkar Apotek LLP</span>
-        <span class="sub-title">Pronavakr Lifecare LLP</span>
+        <div class="main-title">Navkar Apotek LLP</div>
+        <div class="sub-title">Pronavakr Lifecare LLP</div>
         <div class="title-underline"></div>
     </div>
-    
-    <div class="filter-group">
-        <div>
-            <label>Select Category</label>
-            <select id="categorySelect" onchange="updateCompanyDropdown()">
-                <option value="">-- Choose --</option>
-                <option value="generic">Generic Product List</option>
-                <option value="otc">OTC Product List</option>
-            </select>
-        </div>
 
-        <div>
-            <label>Company Name</label>
-            <select id="companySelect" onchange="showProducts()" disabled>
-                <option value="">-- Select Category First --</option>
-            </select>
+    <div id="errorMessage" class="error-message"></div>
+    <div id="successMessage" class="success-message"></div>
+    
+    <div class="filter-section">
+        <div class="filter-group">
+            <div class="form-group">
+                <label for="categorySelect">Select Category</label>
+                <select id="categorySelect" onchange="updateCompanyDropdown()">
+                    <option value="">-- Choose Category --</option>
+                    <option value="generic">Generic Product List</option>
+                    <option value="otc">OTC Product List</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="companySelect">Company Name</label>
+                <select id="companySelect" onchange="showProducts()" disabled>
+                    <option value="">-- Select Category First --</option>
+                </select>
+            </div>
+
+            <div class="form-group search-container">
+                <label for="searchInput">Search Products</label>
+                <input type="text" id="searchInput" placeholder="Enter product name..." onkeyup="filterProducts()" disabled>
+                <span class="search-icon">🔍</span>
+            </div>
         </div>
     </div>
 
-    <div id="countTag" class="count-tag"></div>
+    <div id="infoBar" class="info-bar">
+        <span class="info-text" id="infoText"></span>
+        <button class="export-btn" id="exportBtn" onclick="exportToPDF()" title="Export to PDF">Export PDF</button>
+    </div>
 
-    <div id="tableWrapper" class="table-container">
+    <div id="tableWrapper" class="table-container scrollbar-style">
         <table>
             <thead>
                 <tr>
-                    <th>Product</th>
-                    <th>Pack</th>
+                    <th>Product Name</th>
+                    <th>Pack Size</th>
                 </tr>
             </thead>
             <tbody id="productTableBody"></tbody>
         </table>
     </div>
+
+    <div id="emptyState" class="empty-state" style="display: none;">
+        <div class="empty-state-icon">📦</div>
+        <div class="empty-state-text">No products found. Please select a company to view products.</div>
+    </div>
 </div>
 
 <script>
-    let activeData = [];
+    let allProducts = [];
+    let filteredProducts = [];
+    let currentCompany = '';
+    let currentCategory = '';
 
     function updateCompanyDropdown() {
         const category = document.getElementById('categorySelect').value;
         const companySelect = document.getElementById('companySelect');
+        const searchInput = document.getElementById('searchInput');
+        const infoBar = document.getElementById('infoBar');
         const tableWrapper = document.getElementById('tableWrapper');
-        const countTag = document.getElementById('countTag');
+        const emptyState = document.getElementById('emptyState');
         
         companySelect.innerHTML = '<option value="">-- Choose Company --</option>';
-        tableWrapper.style.display = "none";
-        countTag.style.display = "none";
+        searchInput.value = '';
+        searchInput.disabled = true;
+        infoBar.classList.remove('show');
+        tableWrapper.classList.remove('show');
+        emptyState.style.display = 'none';
 
         if (!category) {
             companySelect.disabled = true;
             return;
         }
 
-        if (category === "generic") {
-            activeData = (typeof productData !== 'undefined') ? productData : [];
-        } else {
-            activeData = (typeof otcData !== 'undefined') ? otcData : [];
-        }
+        try {
+            if (category === "generic") {
+                allProducts = (typeof productData !== 'undefined' && Array.isArray(productData)) ? productData : [];
+            } else if (category === "otc") {
+                allProducts = (typeof otcData !== 'undefined' && Array.isArray(otcData)) ? otcData : [];
+            }
 
-        const companies = [...new Set(activeData.map(item => item["Company Name"]))].sort();
-        companies.forEach(comp => {
-            if(comp) {
+            if (allProducts.length === 0) {
+                showError("No data available for this category");
+                companySelect.disabled = true;
+                return;
+            }
+
+            currentCategory = category;
+            const companies = [...new Set(
+                allProducts
+                    .filter(item => item && item["Company Name"])
+                    .map(item => item["Company Name"])
+            )].sort();
+
+            companies.forEach(comp => {
                 let opt = document.createElement('option');
                 opt.value = comp;
-                opt.innerHTML = comp;
+                opt.textContent = comp;
                 companySelect.appendChild(opt);
-            }
-        });
-        companySelect.disabled = false;
+            });
+
+            companySelect.disabled = false;
+        } catch (err) {
+            showError("Error loading category data");
+            console.error(err);
+        }
     }
 
     function showProducts() {
         const company = document.getElementById('companySelect').value;
-        const tbody = document.getElementById('productTableBody');
-        const tableWrapper = document.getElementById('tableWrapper');
-        const countTag = document.getElementById('countTag');
+        const searchInput = document.getElementById('searchInput');
+        
+        currentCompany = company;
+        searchInput.disabled = !company;
+        searchInput.value = '';
+        
+        if (company) {
+            displayProducts(allProducts.filter(item => item["Company Name"] === company));
+        }
+    }
 
-        if (!company) {
-            tableWrapper.style.display = "none";
+    function filterProducts() {
+        const searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
+        
+        if (!currentCompany) {
             return;
         }
 
-        const filtered = activeData.filter(item => item["Company Name"] === company);
-        const rows = filtered.map(item => `
-            <tr>
-                <td><strong>${item["Product Name"]}</strong></td>
-                <td>${item["Pack"] || '-'}</td>
-            </tr>
-        `).join('');
+        const company = currentCompany;
+        let toDisplay = allProducts.filter(item => item["Company Name"] === company);
+
+        if (searchTerm) {
+            toDisplay = toDisplay.filter(item => {
+                const productName = (item["Product Name"] || '').toLowerCase();
+                const pack = (item["Pack"] || '').toLowerCase();
+                return productName.includes(searchTerm) || pack.includes(searchTerm);
+            });
+        }
+
+        displayProducts(toDisplay);
+    }
+
+    function displayProducts(products) {
+        const tbody = document.getElementById('productTableBody');
+        const tableWrapper = document.getElementById('tableWrapper');
+        const infoBar = document.getElementById('infoBar');
+        const infoText = document.getElementById('infoText');
+        const emptyState = document.getElementById('emptyState');
+
+        filteredProducts = products;
+
+        if (!products || products.length === 0) {
+            tableWrapper.classList.remove('show');
+            infoBar.classList.remove('show');
+            emptyState.style.display = 'block';
+            tbody.innerHTML = '';
+            return;
+        }
+
+        const rows = products.map(item => {
+            const productName = item["Product Name"] || 'N/A';
+            const pack = item["Pack"] || '-';
+            return `
+                <tr>
+                    <td class="product-name">${escapeHtml(productName)}</td>
+                    <td class="pack-info">${escapeHtml(pack)}</td>
+                </tr>
+            `;
+        }).join('');
 
         tbody.innerHTML = rows;
-        tableWrapper.style.display = "block";
-        countTag.innerHTML = `✅ ${filtered.length} Items Found`;
-        countTag.style.display = "inline-block";
+        tableWrapper.classList.add('show');
+        emptyState.style.display = 'none';
+
+        const searchTerm = document.getElementById('searchInput').value;
+        const displayCount = products.length;
+        infoText.textContent = searchTerm 
+            ? `${displayCount} product(s) found` 
+            : `${displayCount} product(s) available`;
+        
+        infoBar.classList.add('show');
     }
+
+    function exportToPDF() {
+        if (!filteredProducts || filteredProducts.length === 0) {
+            showError("No products to export");
+            return;
+        }
+
+        try {
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF();
+            const now = new Date();
+            const dateStr = now.toLocaleDateString('en-IN');
+            const timeStr = now.toLocaleTimeString('en-IN');
+            const pageWidth = doc.internal.pageSize.getWidth();
+
+            let yPosition = 15;
+
+            doc.setTextColor(6, 133, 134);
+            doc.setFontSize(20);
+            doc.setFont(undefined, 'bold');
+            doc.text('Navkar Apotek LLP', pageWidth / 2, yPosition, { align: 'center' });
+            yPosition += 8;
+
+            doc.setFontSize(14);
+            doc.setFont(undefined, 'normal');
+            doc.setTextColor(6, 133, 134);
+            doc.text('Pronavakr Lifecare LLP', pageWidth / 2, yPosition, { align: 'center' });
+            yPosition += 10;
+
+            doc.setDrawColor(247, 209, 39);
+            doc.setLineWidth(1);
+            doc.line(50, yPosition, pageWidth - 50, yPosition);
+            yPosition += 8;
+
+            doc.setFontSize(12);
+            doc.setFont(undefined, 'bold');
+            doc.setTextColor(6, 133, 134);
+            doc.text('Product List Report', 15, yPosition);
+            yPosition += 7;
+
+            doc.setFontSize(10);
+            doc.setFont(undefined, 'normal');
+            doc.setTextColor(80, 80, 80);
+            doc.text(`Company: ${currentCompany}`, 15, yPosition);
+            yPosition += 6;
+            doc.setFontSize(9);
+            doc.setTextColor(150, 150, 150);
+            doc.text(`Generated: ${dateStr} at ${timeStr}`, 15, yPosition);
+            yPosition += 12;
+
+            const tableData = filteredProducts.map(item => [
+                item["Product Name"] || 'N/A',
+                item["Pack"] || '-'
+            ]);
+
+            doc.autoTable({
+                startY: yPosition,
+                head: [['Product Name', 'Pack Size']],
+                body: tableData,
+                columnStyles: {
+                    0: { cellWidth: 100 },
+                    1: { cellWidth: 60 }
+                },
+                headStyles: {
+                    fillColor: [6, 133, 134],
+                    textColor: [255, 255, 255],
+                    fontStyle: 'bold',
+                    halign: 'left',
+                    fontSize: 11
+                },
+                bodyStyles: {
+                    textColor: [51, 51, 51],
+                    fontSize: 10
+                },
+                alternateRowStyles: {
+                    fillColor: [249, 249, 249]
+                },
+                margin: { left: 15, right: 15 },
+                didDrawPage: function(data) {
+                    const pageSize = doc.internal.pageSize;
+                    const pageHeight = pageSize.getHeight();
+                    const pageWidth = pageSize.getWidth();
+
+                    doc.setTextColor(150, 150, 150);
+                    doc.setFontSize(9);
+                    doc.text(
+                        `Page ${data.pageNumber} of ${doc.internal.pages.length - 1}`,
+                        pageWidth - 30,
+                        pageHeight - 10
+                    );
+                }
+            });
+
+            yPosition = doc.lastAutoTable.finalY + 10;
+
+            doc.setFillColor(249, 249, 249);
+            doc.rect(15, yPosition, pageWidth - 30, 12, 'F');
+            doc.setDrawColor(6, 133, 134);
+            doc.setLineWidth(0.5);
+            doc.line(15, yPosition, 20, yPosition);
+
+            doc.setFontSize(10);
+            doc.setFont(undefined, 'bold');
+            doc.setTextColor(6, 133, 134);
+            doc.text(`Total Products: ${filteredProducts.length}`, 25, yPosition + 8);
+
+            const filename = `${currentCompany}_products_${now.toISOString().split('T')[0]}.pdf`;
+            doc.save(filename);
+            showSuccess(`${filteredProducts.length} product(s) exported to PDF successfully`);
+
+        } catch (err) {
+            showError("Failed to export PDF");
+            console.error('PDF Export Error:', err);
+        }
+    }
+
+    function escapeHtml(text) {
+        const div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+    }
+
+    function showError(message) {
+        const errorMsg = document.getElementById('errorMessage');
+        errorMsg.textContent = message;
+        errorMsg.classList.add('show');
+        setTimeout(() => errorMsg.classList.remove('show'), 4000);
+    }
+
+    function showSuccess(message) {
+        const successMsg = document.getElementById('successMessage');
+        successMsg.textContent = message;
+        successMsg.classList.add('show');
+        setTimeout(() => successMsg.classList.remove('show'), 3000);
+    }
+
+    window.addEventListener('load', () => {
+        console.log('Data loaded - Generic:', typeof productData, '| OTC:', typeof otcData);
+    });
 </script>
 
 </body>
