@@ -4,7 +4,7 @@ A professional web-based management platform designed for pharmaceutical and ret
 
 ## 🔗 Live Preview
 Check out the live website here:
-👉 **[Insert Your Domain/GitHub Pages Link Here]**
+👉 **[https://navkarapotek.com]**
 
 ## 🌟 Key Features
 * **Dynamic Data Rendering:** Uses centralized JavaScript data structures (`product_data.js` and `otc_data.js`) for easy updates.
