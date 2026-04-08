@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pronavakr Lifecare</title>
+    
+    <script src="product_data.js"></script>
+    <script src="otc_data.js"></script>
+
+    <style>
+        /* Brand Colors: #068586 (Main), #f7d127 (Accent) */
+        body { 
+            font-family: 'Segoe UI', Arial, sans-serif; 
+            background: #2c3e50; /* Computer par background dark dikhega taaki mobile frame highlight ho */
+            margin: 0; 
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+
+        /* 9:16 Container (Mobile Frame) */
+        .container { 
+            width: 100%;
+            max-width: 450px; /* Standard Mobile Width */
+            min-height: 100vh; /* Pooray phone ki height */
+            background: white; 
+            padding: 20px; 
+            box-sizing: border-box;
+            box-shadow: 0 0 50px rgba(0,0,0,0.5);
+            border-top: 8px solid #068586;
+            position: relative;
+        }
+        
+        /* Logo Section - 1x1 Square */
+        .logo-container { 
+            text-align: center; 
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+        }
+        .logo-container img { 
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            border-radius: 10px;
+        } 
+
+        /* Header Styling */
+        .header-section { text-align: center; margin-top: 15px; margin-bottom: 25px; } 
+        .main-title { 
+            color: #068586; 
+            font-size: 1.3rem; 
+            font-weight: 800; 
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin: 5px 0;
+            display: block;
+        }
+        .title-underline { 
+            width: 60px; 
+            height: 4px; 
+            background: #f7d127; 
+            margin: auto; 
+            border-radius: 10px;
+        }
+        
+        /* Dropdowns Styling */
+        .filter-group { display: flex; flex-direction: column; gap: 15px; margin-bottom: 20px; }
+        label { font-weight: bold; color: #068586; display: block; margin-bottom: 5px; font-size: 13px; }
+        
+        select { 
+            width: 100%; 
+            padding: 12px; 
+            border: 2px solid #e0e0e0; 
+            border-radius: 10px; 
+            font-size: 14px; 
+            outline: none; 
+            background: #fdfdfd; 
+            cursor: pointer;
+        }
+        select:focus { border-color: #068586; }
+
+        /* Table Styling - 9:16 ke liye optimized */
+        .table-container { 
+            margin-top: 10px; 
+            max-height: 55vh; /* Table ki height control ki taaki scrollable rahe */
+            overflow-y: auto; 
+            border: 1px solid #eee; 
+            border-radius: 12px; 
+            display: none; 
+        }
+        table { width: 100%; border-collapse: collapse; }
+        th { background: #068586; color: white; padding: 10px; text-align: left; position: sticky; top: 0; font-size: 13px; }
+        td { padding: 10px; border-bottom: 1px solid #f1f1f1; font-size: 13px; color: #333; }
+        tr:hover { background: rgba(247, 209, 39, 0.1); }
+        
+        /* Count Badge */
+        .count-tag { 
+            margin-top: 5px; 
+            font-weight: bold; 
+            color: #068586; 
+            display: none; 
+            font-size: 12px; 
+            padding: 6px 10px;
+            background: #f7d127;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="logo-container">
+        <img src="logo.png" alt="Navkar Logo" onerror="this.style.display='none'">
+    </div>
+
+    <div class="header-section">
+        <span class="main-title">Pronavakr Lifecare</span>
+        <div class="title-underline"></div>
+    </div>
+    
+    <div class="filter-group">
+        <div>
+            <label>Step 1: Category</label>
+            <select id="categorySelect" onchange="updateCompanyDropdown()">
+                <option value="">-- Select --</option>
+                <option value="generic">Generic Product List</option>
+                <option value="otc">OTC Product List</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Step 2: Company Name</label>
+            <select id="companySelect" onchange="showProducts()" disabled>
+                <option value="">-- Select Category First --</option>
+            </select>
+        </div>
+    </div>
+
+    <div id="countTag" class="count-tag"></div>
+
+    <div id="tableWrapper" class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Pack</th>
+                </tr>
+            </thead>
+            <tbody id="productTableBody"></tbody>
+        </table>
+    </div>
+</div>
+
+<script>
+    let activeData = [];
+
+    function updateCompanyDropdown() {
+        const category = document.getElementById('categorySelect').value;
+        const companySelect = document.getElementById('companySelect');
+        const tableWrapper = document.getElementById('tableWrapper');
+        const countTag = document.getElementById('countTag');
+        
+        companySelect.innerHTML = '<option value="">-- Choose Company --</option>';
+        tableWrapper.style.display = "none";
+        countTag.style.display = "none";
+
+        if (!category) {
+            companySelect.disabled = true;
+            return;
+        }
+
+        if (category === "generic") {
+            activeData = (typeof productData !== 'undefined') ? productData : [];
+        } else {
+            activeData = (typeof otcData !== 'undefined') ? otcData : [];
+        }
+
+        const companies = [...new Set(activeData.map(item => item["Company Name"]))].sort();
+        companies.forEach(comp => {
+            if(comp) {
+                let opt = document.createElement('option');
+                opt.value = comp;
+                opt.innerHTML = comp;
+                companySelect.appendChild(opt);
+            }
+        });
+        companySelect.disabled = false;
+    }
+
+    function showProducts() {
+        const company = document.getElementById('companySelect').value;
+        const tbody = document.getElementById('productTableBody');
+        const tableWrapper = document.getElementById('tableWrapper');
+        const countTag = document.getElementById('countTag');
+
+        if (!company) {
+            tableWrapper.style.display = "none";
+            return;
+        }
+
+        const filtered = activeData.filter(item => item["Company Name"] === company);
+        const rows = filtered.map(item => `
+            <tr>
+                <td><strong>${item["Product Name"]}</strong></td>
+                <td>${item["Pack"] || '-'}</td>
+            </tr>
+        `).join('');
+
+        tbody.innerHTML = rows;
+        tableWrapper.style.display = "block";
+        countTag.innerHTML = `✅ ${filtered.length} Items`;
+        countTag.style.display = "inline-block";
+    }
+</script>
+
+</body>
+</html>
