@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navkar & Pronavakr</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Navkar & Pronavakr - Smart Search</title>
     
+    <!-- Pronavakr Data Files -->
     <script src="product_data.js"></script>
     <script src="otc_data.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.31/jspdf.plugin.autotable.min.js"></script>
+    
+    <!-- Navkar Data Files -->
+    <script src="navkar_coldchain.js"></script>
+    <script src="navkar_medicine.js"></script>
 
     <style>
         :root {
@@ -17,10 +20,17 @@
             --text-dark: #333333;
             --text-light: #666666;
             --bg-light: #f9f9f9;
+            --bg-white: #ffffff;
             --border-color: #e0e0e0;
             --hover-bg: rgba(6, 133, 134, 0.05);
-            --error-color: #dc3545;
-            --success-color: #28a745;
+            --card-bg: linear-gradient(135deg, #068586 0%, #055c5d 100%);
+            --body-bg: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            --table-header: linear-gradient(135deg, #068586 0%, #055c5d 100%);
+            --shadow-color: rgba(0, 0, 0, 0.3);
+            --error-bg: #fee;
+            --success-bg: #efe;
+            --select-bg: #ffffff;
+            --input-bg: #ffffff;
         }
 
         * {
@@ -31,33 +41,42 @@
 
         body { 
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); 
+            background: var(--body-bg); 
             display: flex;
             justify-content: center;
             align-items: flex-start;
             min-height: 100vh;
             padding: 10px;
+            position: relative;
         }
 
         .container { 
             width: 100%;
             max-width: 500px; 
-            background: white; 
+            background: var(--bg-white); 
             padding: 20px; 
             border-radius: 15px;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 10px 40px var(--shadow-color);
             border-top: 6px solid var(--primary-color);
             margin-top: 20px;
+            position: relative;
+            animation: slideUp 0.5s ease-out;
         }
         
         .logo-container { 
-            text-align: center; 
+            text-align: center;
             margin-bottom: 20px;
+            margin-top: 5px;
+        }
+
+        .logo-container:empty {
+            margin-bottom: 0;
+            margin-top: 0;
         }
 
         .logo-container img { 
-            width: 90px;
-            height: 90px;
+            width: 80px;
+            height: 80px;
             object-fit: contain;
             border-radius: 10px;
         }
@@ -92,8 +111,158 @@
             border-radius: 2px;
         }
         
+        /* Dynamic Stats Cards */
+        .stats-cards {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .stat-card {
+            flex: 1;
+            background: var(--card-bg);
+            border-radius: 10px;
+            padding: 12px 8px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 2px 8px rgba(6, 133, 134, 0.2);
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .stat-number {
+            font-size: 22px;
+            font-weight: 800;
+            margin-bottom: 4px;
+            letter-spacing: 0.5px;
+        }
+
+        .stat-label {
+            font-size: 9px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            opacity: 0.9;
+            line-height: 1.2;
+        }
+
+        /* Smart Search Box */
+        .smart-search-section {
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .smart-search-label {
+            font-weight: 600;
+            color: var(--primary-color);
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .smart-search-container {
+            position: relative;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .smart-search-input {
+            flex: 1;
+            padding: 12px 15px;
+            border: 2px solid var(--border-color);
+            border-radius: 50px;
+            font-size: 14px;
+            outline: none;
+            background: var(--input-bg);
+            color: var(--text-dark);
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .smart-search-input:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(6, 133, 134, 0.1);
+        }
+
+        .clear-search-btn {
+            padding: 12px 20px;
+            background: #dc3545;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+
+        .clear-search-btn:hover {
+            background: #c82333;
+            transform: scale(1.02);
+        }
+
+        /* Search Suggestions */
+        .search-suggestions {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: var(--bg-white);
+            border: 2px solid var(--border-color);
+            border-top: none;
+            border-radius: 0 0 10px 10px;
+            max-height: 250px;
+            overflow-y: auto;
+            z-index: 1000;
+            display: none;
+            box-shadow: 0 4px 15px var(--shadow-color);
+        }
+
+        .search-suggestions.show {
+            display: block;
+        }
+
+        .suggestion-item {
+            padding: 12px 15px;
+            cursor: pointer;
+            border-bottom: 1px solid var(--border-color);
+            transition: all 0.2s ease;
+            color: var(--text-dark);
+        }
+
+        .suggestion-item:hover {
+            background: var(--hover-bg);
+        }
+
+        .suggestion-product {
+            font-weight: 600;
+            color: var(--primary-color);
+            font-size: 13px;
+        }
+
+        .suggestion-company {
+            font-size: 11px;
+            color: var(--text-light);
+            margin-left: 8px;
+        }
+
+        .suggestion-pack {
+            font-size: 10px;
+            color: var(--text-light);
+            margin-top: 4px;
+        }
+
         .filter-section { 
             margin-bottom: 20px; 
+            background: var(--bg-light);
+            padding: 15px;
+            border-radius: 10px;
         }
 
         .filter-group { 
@@ -111,32 +280,26 @@
         label { 
             font-weight: 600; 
             color: var(--primary-color); 
-            font-size: 13px; 
+            font-size: 12px; 
             text-transform: uppercase;
             letter-spacing: 0.3px;
         }
         
         select, input[type="text"] { 
             width: 100%; 
-            padding: 11px 12px; 
+            padding: 10px 12px; 
             border: 2px solid var(--border-color); 
             border-radius: 8px; 
             font-size: 14px; 
             outline: none; 
-            background: white;
-            transition: all 0.3s ease;
+            background: var(--select-bg);
             color: var(--text-dark);
-        }
-
-        select:hover, input[type="text"]:hover {
-            border-color: var(--primary-color);
-            background: #fafafa;
+            transition: all 0.3s ease;
         }
 
         select:focus, input[type="text"]:focus { 
             border-color: var(--primary-color); 
             box-shadow: 0 0 0 3px rgba(6, 133, 134, 0.1);
-            background: white;
         }
 
         select:disabled {
@@ -145,23 +308,9 @@
             cursor: not-allowed;
         }
 
-        .search-container {
-            position: relative;
-        }
-
-        .search-icon {
-            position: absolute;
-            right: 12px;
-            top: 50%;
-            transform: translateY(-50%);
-            color: var(--text-light);
-            pointer-events: none;
-            font-size: 16px;
-        }
-
         .info-bar { 
             display: flex; 
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
             margin: 15px 0; 
             padding: 12px 14px;
@@ -171,39 +320,16 @@
             gap: 10px;
         }
 
-        .info-bar.show { display: flex; }
+        .info-bar.show { 
+            display: flex; 
+            justify-content: center;
+        }
 
         .info-text { 
             font-weight: 600; 
             color: #1a1a1a; 
             font-size: 13px; 
-        }
-
-        .export-btn {
-            padding: 6px 12px;
-            background: #1a1a1a;
-            color: white;
-            border: none;
-            border-radius: 6px;
-            font-size: 12px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.2s ease;
-        }
-
-        .export-btn:hover {
-            background: #333;
-            transform: scale(1.05);
-        }
-
-        .export-btn:active {
-            transform: scale(0.98);
-        }
-
-        .export-btn:disabled {
-            background: #ccc;
-            cursor: not-allowed;
-            transform: scale(1);
+            text-align: center;
         }
 
         .table-container { 
@@ -212,7 +338,7 @@
             border: 2px solid var(--border-color); 
             border-radius: 10px; 
             display: none;
-            background: white;
+            background: var(--bg-white);
         }
 
         .table-container.show { display: block; }
@@ -223,7 +349,7 @@
         }
 
         th { 
-            background: linear-gradient(135deg, var(--primary-color) 0%, #055c5d 100%);
+            background: var(--table-header);
             color: white; 
             padding: 12px; 
             text-align: left; 
@@ -240,10 +366,6 @@
             border-bottom: 1px solid var(--border-color); 
             font-size: 13px; 
             color: var(--text-dark);
-        }
-
-        tbody tr {
-            transition: background-color 0.2s ease;
         }
 
         tbody tr:hover { 
@@ -277,41 +399,32 @@
             line-height: 1.6;
         }
 
-        .error-message {
-            background: #fee;
-            color: var(--error-color);
+        .error-message, .success-message {
             padding: 12px 14px;
             border-radius: 8px;
-            border-left: 4px solid var(--error-color);
-            margin-bottom: 15px;
-            font-size: 13px;
-            display: none;
-        }
-
-        .error-message.show { display: block; }
-
-        .success-message {
-            background: #efe;
-            color: var(--success-color);
-            padding: 12px 14px;
-            border-radius: 8px;
-            border-left: 4px solid var(--success-color);
             margin-bottom: 15px;
             font-size: 13px;
             display: none;
             animation: slideIn 0.3s ease;
         }
 
-        .success-message.show { display: block; }
+        .error-message {
+            background: var(--error-bg);
+            color: #dc3545;
+            border-left: 4px solid #dc3545;
+        }
+
+        .success-message {
+            background: var(--success-bg);
+            color: #28a745;
+            border-left: 4px solid #28a745;
+        }
+
+        .error-message.show, .success-message.show { display: block; }
 
         @keyframes slideIn {
             from { opacity: 0; transform: translateY(-10px); }
             to { opacity: 1; transform: translateY(0); }
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
         }
 
         @keyframes slideUp {
@@ -319,192 +432,22 @@
             to { opacity: 1; transform: translateY(0); }
         }
 
-        @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.7; }
-        }
-
-        @keyframes shimmer {
-            0% { background-position: -1000px 0; }
-            100% { background-position: 1000px 0; }
-        }
-
-        body {
-            animation: fadeIn 0.6s ease-in-out;
-        }
-
-        .container {
-            animation: slideUp 0.5s ease-out;
-        }
-
-        .logo-container img {
-            animation: fadeIn 0.8s ease-out;
-        }
-
-        .header-section {
-            animation: slideIn 0.6s ease-out 0.1s both;
-        }
-
-        .filter-section {
-            animation: slideUp 0.5s ease-out 0.2s both;
-        }
-
-        .form-group {
-            animation: slideUp 0.5s ease-out;
-        }
-
-        .form-group:nth-child(1) { animation-delay: 0.25s; }
-        .form-group:nth-child(2) { animation-delay: 0.35s; }
-        .form-group:nth-child(3) { animation-delay: 0.45s; }
-
-        label {
-            transition: color 0.3s ease, text-shadow 0.3s ease;
-        }
-
-        select:hover, input[type="text"]:hover {
-            animation: none;
-        }
-
-        select:focus, input[type="text"]:focus {
-            animation: pulse 2s infinite;
-        }
-
-        .info-bar {
-            animation: slideDown 0.4s ease-out;
-        }
-
-        @keyframes slideDown {
-            from { opacity: 0; transform: translateY(-10px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        .info-bar.show {
-            animation: slideDown 0.4s ease-out;
-        }
-
-        table {
-            animation: fadeIn 0.6s ease-out;
-        }
-
-        tbody tr {
-            animation: slideUp 0.3s ease-out;
-        }
-
-        tbody tr:nth-child(1) { animation-delay: 0.05s; }
-        tbody tr:nth-child(2) { animation-delay: 0.1s; }
-        tbody tr:nth-child(3) { animation-delay: 0.15s; }
-        tbody tr:nth-child(4) { animation-delay: 0.2s; }
-        tbody tr:nth-child(5) { animation-delay: 0.25s; }
-        tbody tr:nth-child(n+6) { animation-delay: 0.3s; }
-
-        tbody tr:hover {
-            animation: none;
-            background: var(--hover-bg) !important;
-        }
-
-        .export-btn {
-            transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .export-btn::before {
-            content: '';
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 0;
-            height: 0;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.3);
-            transform: translate(-50%, -50%);
-            transition: width 0.6s, height 0.6s;
-        }
-
-        .export-btn:active::before {
-            width: 300px;
-            height: 300px;
-        }
-
-        .export-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(6, 133, 134, 0.25);
-        }
-
-        .error-message {
-            animation: slideIn 0.4s ease-out;
-        }
-
-        .error-message.show {
-            animation: slideIn 0.4s ease-out;
-        }
-
-        .success-message {
-            animation: slideIn 0.4s ease-out, slideOut 0.4s ease-in 2.6s forwards;
-        }
-
-        @keyframes slideOut {
-            from { opacity: 1; transform: translateY(0); }
-            to { opacity: 0; transform: translateY(-10px); }
-        }
-
-        .success-message.show {
-            animation: slideIn 0.4s ease-out;
-        }
-
-        .empty-state {
-            animation: slideUp 0.5s ease-out;
-        }
-
-        .empty-state-icon {
-            animation: pulse 2s ease-in-out infinite;
-        }
-
-        .title-underline {
-            animation: scaleWidth 0.8s ease-out 0.3s both;
-        }
-
-        @keyframes scaleWidth {
-            from { width: 0; }
-            to { width: 80px; }
-        }
-
-        .table-container {
-            animation: slideUp 0.5s ease-out;
-        }
-
-        .table-container.show {
-            animation: slideUp 0.5s ease-out;
-        }
-
-        @media (prefers-reduced-motion: reduce) {
-            * {
-                animation-duration: 0.01ms !important;
-                animation-iteration-count: 1 !important;
-                transition-duration: 0.01ms !important;
-            }
-        }
-
-        .scrollbar-style::-webkit-scrollbar {
+        /* Scrollbar Styles */
+        .table-container::-webkit-scrollbar {
             width: 6px;
         }
 
-        .scrollbar-style::-webkit-scrollbar-track {
+        .table-container::-webkit-scrollbar-track {
             background: #f1f1f1;
         }
 
-        .scrollbar-style::-webkit-scrollbar-thumb {
+        .table-container::-webkit-scrollbar-thumb {
             background: var(--primary-color);
             border-radius: 3px;
         }
 
-        .scrollbar-style::-webkit-scrollbar-thumb:hover {
+        .table-container::-webkit-scrollbar-thumb:hover {
             background: #055c5d;
-        }
-
-        .table-container {
-            scrollbar-color: var(--primary-color) #f1f1f1;
-            scrollbar-width: thin;
         }
 
         @media (max-width: 600px) {
@@ -527,13 +470,29 @@
                 font-size: 12px;
             }
 
-            .info-bar {
-                flex-wrap: wrap;
+            .stats-cards {
+                gap: 8px;
             }
 
-            .export-btn {
-                padding: 5px 10px;
-                font-size: 11px;
+            .stat-number {
+                font-size: 18px;
+            }
+            
+            .stat-label {
+                font-size: 8px;
+            }
+
+            .smart-search-container {
+                flex-direction: column;
+            }
+
+            .clear-search-btn {
+                width: 100%;
+            }
+
+            .logo-container img {
+                width: 65px;
+                height: 65px;
             }
         }
     </style>
@@ -541,6 +500,7 @@
 <body>
 
 <div class="container">
+    <!-- Logo Container - Center -->
     <div class="logo-container">
         <img src="logo.png" alt="Navkar Logo" onerror="this.style.display='none'">
     </div>
@@ -554,14 +514,43 @@
     <div id="errorMessage" class="error-message"></div>
     <div id="successMessage" class="success-message"></div>
     
+    <!-- DYNAMIC STATS CARDS -->
+    <div class="stats-cards" id="statsContainer">
+        <div class="stat-card">
+            <div class="stat-number" id="stat1Value">0</div>
+            <div class="stat-label" id="stat1Label">Total Medicines</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number" id="stat2Value">0</div>
+            <div class="stat-label" id="stat2Label">Total Companies</div>
+        </div>
+    </div>
+    
+    <!-- SMART SEARCH SECTION -->
+    <div class="smart-search-section">
+        <label class="smart-search-label">Smart Medicine Search</label>
+        <div class="smart-search-container">
+            <input type="text" id="smartSearch" class="smart-search-input" placeholder="Type medicine name... (e.g., Paracetamol, Dolo, etc.)" autocomplete="off">
+            <button class="clear-search-btn" onclick="clearSmartSearch()">Clear</button>
+        </div>
+        <div id="searchSuggestions" class="search-suggestions"></div>
+    </div>
+    
     <div class="filter-section">
         <div class="filter-group">
             <div class="form-group">
+                <label for="companyTypeSelect">Select Company</label>
+                <select id="companyTypeSelect" onchange="updateCategoryDropdown()">
+                    <option value="">-- Choose Company --</option>
+                    <option value="pronavakr">Pronavakr Lifecare LLP</option>
+                    <option value="navkar">Navkar Apotek LLP</option>
+                </select>
+            </div>
+
+            <div class="form-group">
                 <label for="categorySelect">Select Category</label>
-                <select id="categorySelect" onchange="updateCompanyDropdown()">
-                    <option value="">-- Choose Category --</option>
-                    <option value="generic">Generic Product List</option>
-                    <option value="otc">OTC Product List</option>
+                <select id="categorySelect" onchange="updateCompanyDropdown()" disabled>
+                    <option value="">-- Select Company First --</option>
                 </select>
             </div>
 
@@ -571,27 +560,17 @@
                     <option value="">-- Select Category First --</option>
                 </select>
             </div>
-
-            <div class="form-group search-container">
-                <label for="searchInput">Search Products</label>
-                <input type="text" id="searchInput" placeholder="Enter product name..." onkeyup="filterProducts()" disabled>
-                <span class="search-icon">🔍</span>
-            </div>
         </div>
     </div>
 
     <div id="infoBar" class="info-bar">
         <span class="info-text" id="infoText"></span>
-        <button class="export-btn" id="exportBtn" onclick="exportToPDF()" title="Export to PDF">Export PDF</button>
     </div>
 
-    <div id="tableWrapper" class="table-container scrollbar-style">
+    <div id="tableWrapper" class="table-container">
         <table>
             <thead>
-                <tr>
-                    <th>Product Name</th>
-                    <th>Pack Size</th>
-                </tr>
+                <tr><th>Product Name</th><th>Pack Size</th></tr>
             </thead>
             <tbody id="productTableBody"></tbody>
         </table>
@@ -599,7 +578,7 @@
 
     <div id="emptyState" class="empty-state" style="display: none;">
         <div class="empty-state-icon">📦</div>
-        <div class="empty-state-text">No products found. Please select a company to view products.</div>
+        <div class="empty-state-text">No products found. Please search for a medicine or select a company.</div>
     </div>
 </div>
 
@@ -608,104 +587,369 @@
     let filteredProducts = [];
     let currentCompany = '';
     let currentCategory = '';
+    let currentCompanyType = '';
+    let masterProductList = [];
 
+    // Load all products into master list
+    function loadMasterProductList() {
+        masterProductList = [];
+        
+        if (typeof productData !== 'undefined' && Array.isArray(productData)) {
+            productData.forEach(item => {
+                if (item && (item["Product Name"] || item["Company Name"])) {
+                    masterProductList.push({
+                        ...item,
+                        companyType: 'pronavakr',
+                        category: 'generic',
+                        displayCompany: item["Company Name"] || item["Company"] || 'Pronavakr'
+                    });
+                }
+            });
+        }
+        
+        if (typeof otcData !== 'undefined' && Array.isArray(otcData)) {
+            otcData.forEach(item => {
+                if (item && (item["Product Name"] || item["Company Name"])) {
+                    masterProductList.push({
+                        ...item,
+                        companyType: 'pronavakr',
+                        category: 'otc',
+                        displayCompany: item["Company Name"] || item["Company"] || 'Pronavakr'
+                    });
+                }
+            });
+        }
+        
+        if (typeof navkarColdchainData !== 'undefined' && Array.isArray(navkarColdchainData)) {
+            navkarColdchainData.forEach(item => {
+                if (item && (item["Product Name"] || item["Company"])) {
+                    masterProductList.push({
+                        ...item,
+                        companyType: 'navkar',
+                        category: 'coldchain',
+                        displayCompany: item["Company Name"] || item["Company"] || 'Navkar'
+                    });
+                }
+            });
+        }
+        
+        if (typeof navkarMedicineData !== 'undefined' && Array.isArray(navkarMedicineData)) {
+            navkarMedicineData.forEach(item => {
+                if (item && (item["Product Name"] || item["Company"])) {
+                    masterProductList.push({
+                        ...item,
+                        companyType: 'navkar',
+                        category: 'medicine',
+                        displayCompany: item["Company Name"] || item["Company"] || 'Navkar'
+                    });
+                }
+            });
+        }
+        
+        // Default view: Show overall total
+        updateStatsOverall();
+        console.log(`Master list loaded: ${masterProductList.length} products`);
+    }
+    
+    // NEW: Show overall stats (Default)
+    function updateStatsOverall() {
+        const totalMedicines = masterProductList.length;
+        const uniqueCompanies = [...new Set(masterProductList.map(item => item.displayCompany))];
+        
+        document.getElementById('stat1Value').textContent = totalMedicines;
+        document.getElementById('stat1Label').textContent = 'Total Medicines';
+        
+        document.getElementById('stat2Value').textContent = uniqueCompanies.length;
+        document.getElementById('stat2Label').textContent = 'Total Companies';
+    }
+
+    // NEW: Show category-wise stats based on company
+    function updateStatsDynamic(companyType) {
+        const companyProducts = masterProductList.filter(item => item.companyType === companyType);
+        
+        if (companyType === 'navkar') {
+            const coldCount = companyProducts.filter(item => item.category === 'coldchain').length;
+            const medCount = companyProducts.filter(item => item.category === 'medicine').length;
+            
+            document.getElementById('stat1Value').textContent = coldCount;
+            document.getElementById('stat1Label').textContent = 'Cold Chain Products';
+            
+            document.getElementById('stat2Value').textContent = medCount;
+            document.getElementById('stat2Label').textContent = 'Medicines';
+            
+        } else if (companyType === 'pronavakr') {
+            const genericCount = companyProducts.filter(item => item.category === 'generic').length;
+            const otcCount = companyProducts.filter(item => item.category === 'otc').length;
+            
+            document.getElementById('stat1Value').textContent = genericCount;
+            document.getElementById('stat1Label').textContent = 'Generic Products';
+            
+            document.getElementById('stat2Value').textContent = otcCount;
+            document.getElementById('stat2Label').textContent = 'OTC Products';
+        }
+    }
+
+    function setupSmartSearch() {
+        const searchInput = document.getElementById('smartSearch');
+        const suggestionsDiv = document.getElementById('searchSuggestions');
+        
+        // Event Delegation for safe clicking (handles quotes in names)
+        suggestionsDiv.addEventListener('click', function(e) {
+            const item = e.target.closest('.suggestion-item');
+            if (!item) return;
+            selectProduct(item.dataset.name, item.dataset.type, item.dataset.cat, item.dataset.comp);
+        });
+        
+        searchInput.addEventListener('input', function() {
+            const searchTerm = this.value.toLowerCase().trim();
+            
+            if (searchTerm.length < 2) {
+                suggestionsDiv.classList.remove('show');
+                return;
+            }
+            
+            let matches = masterProductList.filter(item => {
+                const productName = (item["Product Name"] || '').toLowerCase();
+                const pack = (item["Pack"] || '').toLowerCase();
+                return productName.includes(searchTerm) || pack.includes(searchTerm);
+            });
+
+            // Remove exact duplicate product names for cleaner suggestions
+            const seen = new Set();
+            const uniqueMatches = matches.filter(item => {
+                const key = (item["Product Name"] || '').toLowerCase();
+                if (seen.has(key)) return false;
+                seen.add(key);
+                return true;
+            }).slice(0, 10);
+            
+            if (uniqueMatches.length > 0) {
+                suggestionsDiv.innerHTML = uniqueMatches.map(match => {
+                    const name = escapeHtml(match["Product Name"]);
+                    const comp = escapeHtml(match.displayCompany);
+                    const pack = escapeHtml(match["Pack"] || '-');
+                    
+                    return `
+                        <div class="suggestion-item" 
+                             data-name="${name}" 
+                             data-type="${match.companyType}" 
+                             data-cat="${match.category}" 
+                             data-comp="${comp}">
+                            <div>
+                                <span class="suggestion-product">${name}</span>
+                                <span class="suggestion-company">(${comp})</span>
+                            </div>
+                            <div class="suggestion-pack">📦 ${pack}</div>
+                        </div>
+                    `;
+                }).join('');
+                suggestionsDiv.classList.add('show');
+            } else {
+                suggestionsDiv.classList.remove('show');
+            }
+        });
+        
+        document.addEventListener('click', function(e) {
+            if (!searchInput.contains(e.target) && !suggestionsDiv.contains(e.target)) {
+                suggestionsDiv.classList.remove('show');
+            }
+        });
+        
+        searchInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                const searchTerm = this.value.toLowerCase().trim();
+                if (searchTerm) {
+                    const matches = masterProductList.filter(item => {
+                        const productName = (item["Product Name"] || '').toLowerCase();
+                        return productName.includes(searchTerm);
+                    });
+                    if (matches.length > 0) {
+                        selectProduct(matches[0]["Product Name"], matches[0].companyType, matches[0].category, matches[0].displayCompany);
+                    }
+                    suggestionsDiv.classList.remove('show');
+                }
+            }
+        });
+    }
+    
+    function selectProduct(productName, companyType, category, companyName) {
+        document.getElementById('searchSuggestions').classList.remove('show');
+        
+        const companyTypeSelect = document.getElementById('companyTypeSelect');
+        companyTypeSelect.value = companyType;
+        updateCategoryDropdown();
+        
+        setTimeout(() => {
+            const categorySelect = document.getElementById('categorySelect');
+            categorySelect.value = category;
+            updateCompanyDropdown();
+            
+            setTimeout(() => {
+                const companySelect = document.getElementById('companySelect');
+                for(let i = 0; i < companySelect.options.length; i++) {
+                    if(companySelect.options[i].text === companyName) {
+                        companySelect.value = companySelect.options[i].value;
+                        break;
+                    }
+                }
+                
+                showProducts();
+                
+                setTimeout(() => {
+                    const searchInput = document.getElementById('smartSearch');
+                    searchInput.value = productName;
+                    filterProductsToSpecific(productName);
+                    showSuccess(`✅ Found: ${productName}`);
+                }, 100);
+            }, 100);
+        }, 100);
+    }
+    
+    function filterProductsToSpecific(productName) {
+        if (!currentCompany) return;
+        
+        let toDisplay = allProducts.filter(item => {
+            const itemCompany = item["Company Name"] || item["Company"];
+            return itemCompany === currentCompany;
+        });
+        
+        toDisplay = toDisplay.filter(item => {
+            const itemProductName = (item["Product Name"] || '').toLowerCase();
+            return itemProductName === productName.toLowerCase();
+        });
+        
+        displayProducts(toDisplay);
+        
+        if(toDisplay.length > 0) {
+            const infoText = document.getElementById('infoText');
+            infoText.textContent = `🔍 Showing results for "${productName}"`;
+        }
+    }
+    
+    function clearSmartSearch() {
+        document.getElementById('smartSearch').value = '';
+        document.getElementById('searchSuggestions').classList.remove('show');
+        
+        if(currentCompany) {
+            showProducts();
+        }
+    }
+    
+    function updateCategoryDropdown() {
+        const companyType = document.getElementById('companyTypeSelect').value;
+        const categorySelect = document.getElementById('categorySelect');
+        const companySelect = document.getElementById('companySelect');
+        
+        currentCompanyType = companyType;
+        categorySelect.innerHTML = '<option value="">-- Choose Category --</option>';
+        companySelect.innerHTML = '<option value="">-- Select Category First --</option>';
+        companySelect.disabled = true;
+        
+        document.getElementById('smartSearch').value = '';
+        
+        // NEW: Update stats dynamically based on company
+        if (companyType === '') {
+            updateStatsOverall(); // Reset to default if nothing selected
+        } else {
+            updateStatsDynamic(companyType); // Show specific category counts
+        }
+        
+        if (!companyType) {
+            categorySelect.disabled = true;
+            return;
+        }
+        
+        if (companyType === 'pronavakr') {
+            categorySelect.innerHTML += '<option value="generic">Generic Product List</option>';
+            categorySelect.innerHTML += '<option value="otc">OTC Product List</option>';
+        } else if (companyType === 'navkar') {
+            categorySelect.innerHTML += '<option value="coldchain">Cold Chain Products</option>';
+            categorySelect.innerHTML += '<option value="medicine">Medicine</option>';
+        }
+        
+        categorySelect.disabled = false;
+    }
+    
     function updateCompanyDropdown() {
         const category = document.getElementById('categorySelect').value;
         const companySelect = document.getElementById('companySelect');
-        const searchInput = document.getElementById('searchInput');
-        const infoBar = document.getElementById('infoBar');
-        const tableWrapper = document.getElementById('tableWrapper');
-        const emptyState = document.getElementById('emptyState');
         
         companySelect.innerHTML = '<option value="">-- Choose Company --</option>';
-        searchInput.value = '';
-        searchInput.disabled = true;
-        infoBar.classList.remove('show');
-        tableWrapper.classList.remove('show');
-        emptyState.style.display = 'none';
-
+        document.getElementById('smartSearch').value = '';
+        
         if (!category) {
             companySelect.disabled = true;
             return;
         }
-
+        
         try {
-            if (category === "generic") {
-                allProducts = (typeof productData !== 'undefined' && Array.isArray(productData)) ? productData : [];
-            } else if (category === "otc") {
-                allProducts = (typeof otcData !== 'undefined' && Array.isArray(otcData)) ? otcData : [];
+            let data = [];
+            
+            if (currentCompanyType === 'pronavakr') {
+                if (category === 'generic') {
+                    data = (typeof productData !== 'undefined' && Array.isArray(productData)) ? productData : [];
+                } else if (category === 'otc') {
+                    data = (typeof otcData !== 'undefined' && Array.isArray(otcData)) ? otcData : [];
+                }
+            } else if (currentCompanyType === 'navkar') {
+                if (category === 'coldchain') {
+                    data = (typeof navkarColdchainData !== 'undefined' && Array.isArray(navkarColdchainData)) ? navkarColdchainData : [];
+                } else if (category === 'medicine') {
+                    data = (typeof navkarMedicineData !== 'undefined' && Array.isArray(navkarMedicineData)) ? navkarMedicineData : [];
+                }
             }
-
+            
+            allProducts = data;
+            
             if (allProducts.length === 0) {
                 showError("No data available for this category");
                 companySelect.disabled = true;
                 return;
             }
-
+            
             currentCategory = category;
             const companies = [...new Set(
                 allProducts
-                    .filter(item => item && item["Company Name"])
-                    .map(item => item["Company Name"])
+                    .filter(item => item && (item["Company Name"] || item["Company"]))
+                    .map(item => item["Company Name"] || item["Company"])
             )].sort();
-
+            
             companies.forEach(comp => {
                 let opt = document.createElement('option');
                 opt.value = comp;
                 opt.textContent = comp;
                 companySelect.appendChild(opt);
             });
-
+            
             companySelect.disabled = false;
         } catch (err) {
             showError("Error loading category data");
             console.error(err);
         }
     }
-
+    
     function showProducts() {
         const company = document.getElementById('companySelect').value;
-        const searchInput = document.getElementById('searchInput');
-        
         currentCompany = company;
-        searchInput.disabled = !company;
-        searchInput.value = '';
+        document.getElementById('smartSearch').value = '';
         
         if (company) {
-            displayProducts(allProducts.filter(item => item["Company Name"] === company));
+            displayProducts(allProducts.filter(item => {
+                const itemCompany = item["Company Name"] || item["Company"];
+                return itemCompany === company;
+            }));
         }
     }
-
-    function filterProducts() {
-        const searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
-        
-        if (!currentCompany) {
-            return;
-        }
-
-        const company = currentCompany;
-        let toDisplay = allProducts.filter(item => item["Company Name"] === company);
-
-        if (searchTerm) {
-            toDisplay = toDisplay.filter(item => {
-                const productName = (item["Product Name"] || '').toLowerCase();
-                const pack = (item["Pack"] || '').toLowerCase();
-                return productName.includes(searchTerm) || pack.includes(searchTerm);
-            });
-        }
-
-        displayProducts(toDisplay);
-    }
-
+    
     function displayProducts(products) {
         const tbody = document.getElementById('productTableBody');
         const tableWrapper = document.getElementById('tableWrapper');
         const infoBar = document.getElementById('infoBar');
         const infoText = document.getElementById('infoText');
         const emptyState = document.getElementById('emptyState');
-
+        
         filteredProducts = products;
-
+        
         if (!products || products.length === 0) {
             tableWrapper.classList.remove('show');
             infoBar.classList.remove('show');
@@ -713,7 +957,7 @@
             tbody.innerHTML = '';
             return;
         }
-
+        
         const rows = products.map(item => {
             const productName = item["Product Name"] || 'N/A';
             const pack = item["Pack"] || '-';
@@ -724,153 +968,51 @@
                 </tr>
             `;
         }).join('');
-
+        
         tbody.innerHTML = rows;
         tableWrapper.classList.add('show');
         emptyState.style.display = 'none';
-
-        const searchTerm = document.getElementById('searchInput').value;
-        const displayCount = products.length;
-        infoText.textContent = searchTerm 
-            ? `${displayCount} product(s) found` 
-            : `${displayCount} product(s) available`;
         
+        const productCount = products.length;
+        const message = productCount === 1 ? `${productCount} Product available` : `${productCount} Products available`;
+        infoText.textContent = message;
         infoBar.classList.add('show');
     }
-
-    function exportToPDF() {
-        if (!filteredProducts || filteredProducts.length === 0) {
-            showError("No products to export");
-            return;
-        }
-
-        try {
-            const { jsPDF } = window.jspdf;
-            const doc = new jsPDF();
-            const now = new Date();
-            const dateStr = now.toLocaleDateString('en-IN');
-            const timeStr = now.toLocaleTimeString('en-IN');
-            const pageWidth = doc.internal.pageSize.getWidth();
-            const centerX = pageWidth / 2;
-
-            let yPosition = 15;
-
-            doc.setTextColor(6, 133, 134);
-            doc.setFontSize(20);
-            doc.setFont(undefined, 'bold');
-            doc.text('Navkar Apotek LLP', pageWidth / 2, yPosition, { align: 'center' });
-            yPosition += 8;
-
-            doc.setFontSize(14);
-            doc.setFont(undefined, 'normal');
-            doc.setTextColor(6, 133, 134);
-            doc.text('Pronavakr Lifecare LLP', pageWidth / 2, yPosition, { align: 'center' });
-            yPosition += 10;
-
-            doc.setDrawColor(247, 209, 39);
-            doc.setLineWidth(1);
-            doc.line(50, yPosition, pageWidth - 50, yPosition);
-            yPosition += 8;
-
-            doc.setFontSize(12);
-            doc.setFont(undefined, 'bold');
-            doc.setTextColor(6, 133, 134);
-            doc.text('Product List Report', pageWidth / 2, yPosition, { align: 'center', maxWidth: pageWidth - 30 });
-            yPosition += 8;
-
-            doc.setFontSize(10);
-            doc.setFont(undefined, 'normal');
-            doc.setTextColor(80, 80, 80);
-            doc.text(`Company: ${currentCompany}`, centerX, yPosition, { align: 'center', maxWidth: pageWidth - 30 });
-            yPosition += 6;
-            
-            doc.setFontSize(9);
-            doc.setTextColor(150, 150, 150);
-            doc.text(`Generated: ${dateStr} at ${timeStr}`, centerX, yPosition, { align: 'center', maxWidth: pageWidth - 30 });
-            yPosition += 15;
-
-            const tableData = filteredProducts.map(item => [
-                item["Product Name"] || 'N/A',
-                item["Pack"] || '-'
-            ]);
-
-            doc.autoTable({
-                startY: yPosition,
-                head: [['Product Name', 'Pack Size']],
-                body: tableData,
-                columnStyles: {
-                    0: { cellWidth: 100 },
-                    1: { cellWidth: 60 }
-                },
-                headStyles: {
-                    fillColor: [6, 133, 134],
-                    textColor: [255, 255, 255],
-                    fontStyle: 'bold',
-                    halign: 'left',
-                    fontSize: 11
-                },
-                bodyStyles: {
-                    textColor: [51, 51, 51],
-                    fontSize: 10
-                },
-                alternateRowStyles: {
-                    fillColor: [249, 249, 249]
-                },
-                margin: { left: 15, right: 15 },
-                didDrawPage: function(data) {
-                    const pageSize = doc.internal.pageSize;
-                    const pageHeight = pageSize.getHeight();
-                    const pageWidth = pageSize.getWidth();
-
-                    doc.setTextColor(150, 150, 150);
-                    doc.setFontSize(9);
-                    doc.text(
-                        `Page ${data.pageNumber} of ${doc.internal.pages.length - 1}`,
-                        pageWidth - 30,
-                        pageHeight - 10
-                    );
-                }
-            });
-
-            yPosition = doc.lastAutoTable.finalY + 10;
-
-            doc.setFontSize(10);
-            doc.setFont(undefined, 'bold');
-            doc.setTextColor(6, 133, 134);
-            doc.text(`Total Products: ${filteredProducts.length}`, centerX, yPosition + 8, { align: 'center' });
-
-            const filename = `${currentCompany}_products_${now.toISOString().split('T')[0]}.pdf`;
-            doc.save(filename);
-            showSuccess(`${filteredProducts.length} product(s) exported to PDF successfully`);
-
-        } catch (err) {
-            showError("Failed to export PDF");
-            console.error('PDF Export Error:', err);
-        }
-    }
-
+    
     function escapeHtml(text) {
+        if (!text) return '';
         const div = document.createElement('div');
         div.textContent = text;
         return div.innerHTML;
     }
-
+    
     function showError(message) {
         const errorMsg = document.getElementById('errorMessage');
         errorMsg.textContent = message;
         errorMsg.classList.add('show');
         setTimeout(() => errorMsg.classList.remove('show'), 4000);
     }
-
+    
     function showSuccess(message) {
         const successMsg = document.getElementById('successMessage');
         successMsg.textContent = message;
         successMsg.classList.add('show');
         setTimeout(() => successMsg.classList.remove('show'), 3000);
     }
-
+    
     window.addEventListener('load', () => {
-        console.log('Data loaded - Generic:', typeof productData, '| OTC:', typeof otcData);
+        loadMasterProductList();
+        setupSmartSearch();
+        
+        console.log(`✅ Smart Search Ready! Total products: ${masterProductList.length}`);
+        if(masterProductList.length === 0) {
+            showError("⚠️ No data files found! Please check that all data JS files are loaded.");
+        } else {
+            showSuccess(`✅ Loaded ${masterProductList.length} products. Start searching!`);
+            setTimeout(() => {
+                document.getElementById('successMessage').classList.remove('show');
+            }, 3000);
+        }
     });
 </script>
 
