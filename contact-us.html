@@ -1,0 +1,1341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Contact Us - Navkar & Pronavakr | Get In Touch</title>
+
+    <style>
+        /* ============================================
+           SAME DESIGN SYSTEM AS INDEX.HTML
+           ============================================ */
+        :root {
+            /* Primary Colors */
+            --primary-color: #068586;
+            --primary-dark: #055c5d;
+            --primary-light: #0899a0;
+            --accent-color: #f7d127;
+            --accent-hover: #e6be22;
+            
+            /* Text Colors */
+            --text-dark: #1a1a1a;
+            --text-medium: #4a5568;
+            --text-light: #718096;
+            
+            /* Background Colors */
+            --bg-body: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --bg-white: #ffffff;
+            --bg-light: #f7fafc;
+            --bg-card: rgba(255, 255, 255, 0.95);
+            
+            /* Border & Shadow */
+            --border-color: #e2e8f0;
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+            --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.12);
+            --shadow-lg: 0 10px 40px rgba(0, 0, 0, 0.15);
+            --shadow-primary: 0 8px 32px rgba(6, 133, 134, 0.25);
+            
+            /* Gradients */
+            --gradient-primary: linear-gradient(135deg, #068586 0%, #0899a0 50%, #055c5d 100%);
+            --gradient-accent: linear-gradient(135deg, #f7d127 0%, #f4c430 100%);
+            --gradient-email: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            
+            /* Spacing */
+            --spacing-xs: 4px;
+            --spacing-sm: 8px;
+            --spacing-md: 12px;
+            --spacing-lg: 20px;
+            --spacing-xl: 30px;
+            
+            /* Border Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 16px;
+            --radius-xl: 24px;
+            --radius-full: 50px;
+            
+            /* Transitions */
+            --transition-fast: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-base: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-smooth: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: var(--bg-body);
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            padding: var(--spacing-md);
+            line-height: 1.6;
+            color: var(--text-dark);
+            overflow-x: hidden;
+        }
+
+        /* ============================================
+           MAIN CONTAINER
+           ============================================ */
+        .container {
+            width: 100%;
+            max-width: 520px;
+            background: var(--bg-card);
+            backdrop-filter: blur(20px);
+            padding: var(--spacing-xl);
+            border-radius: var(--radius-xl);
+            box-shadow: 
+                var(--shadow-lg),
+                0 0 0 1px rgba(255, 255, 255, 0.1),
+                inset 0 1px 0 rgba(255, 255, 255, 0.3);
+            margin-top: var(--spacing-lg);
+            opacity: 0;
+            animation: containerFadeIn 0.6s ease-out forwards;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--gradient-primary);
+        }
+
+        @keyframes containerFadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px) scale(0.98);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
+
+        /* ============================================
+           HEADER SECTION
+           ============================================ */
+        .header-section {
+            text-align: center;
+            margin-bottom: var(--spacing-xl);
+            position: relative;
+        }
+
+        .contact-icon-large {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto var(--spacing-lg);
+            background: var(--gradient-primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            box-shadow: var(--shadow-primary);
+            animation: iconFloat 3s ease-in-out infinite;
+        }
+
+        @keyframes iconFloat {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-8px); }
+        }
+
+        .main-title {
+            color: var(--text-dark);
+            font-size: 1.8rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: var(--spacing-xs);
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.2;
+        }
+
+        .sub-title {
+            color: var(--text-light);
+            font-size: 1rem;
+            font-weight: 500;
+            margin-top: var(--spacing-sm);
+            line-height: 1.5;
+        }
+
+        .title-underline {
+            width: 80px;
+            height: 4px;
+            background: var(--gradient-accent);
+            margin: var(--spacing-md) auto 0;
+            border-radius: var(--radius-full);
+            box-shadow: 0 2px 8px rgba(247, 209, 39, 0.4);
+        }
+
+        /* ============================================
+           SELECTOR SECTION COMMON STYLES
+           ============================================ */
+        .selector-section {
+            background: linear-gradient(135deg, var(--bg-light) 0%, #ffffff 100%);
+            padding: var(--spacing-xl);
+            border-radius: var(--radius-lg);
+            border: 2px solid var(--border-color);
+            margin-bottom: var(--spacing-lg);
+            position: relative;
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .selector-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--gradient-accent);
+        }
+
+        .section-title {
+            font-size: 16px;
+            font-weight: 800;
+            color: var(--text-dark);
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            margin-bottom: var(--spacing-lg);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: var(--spacing-sm);
+        }
+
+        .section-title::before,
+        .section-title::after {
+            content: '';
+            flex: 1;
+            height: 2px;
+            background: var(--border-color);
+            max-width: 60px;
+        }
+
+        .dropdown-wrapper {
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .dropdown-label {
+            display: block;
+            font-weight: 700;
+            color: var(--text-dark);
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .dropdown-label::before {
+            content: '▸ ';
+            color: var(--primary-color);
+        }
+
+        .custom-select {
+            width: 100%;
+            padding: 14px 16px;
+            border: 2px solid var(--border-color);
+            border-radius: var(--radius-md);
+            font-size: 14px;
+            outline: none;
+            background: var(--bg-white);
+            color: var(--text-dark);
+            transition: var(--transition-smooth);
+            font-family: inherit;
+            font-weight: 600;
+            cursor: pointer;
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23068586' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 14px center;
+            padding-right: 40px;
+            box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.04);
+        }
+
+        .custom-select:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 4px rgba(6, 133, 134, 0.1);
+            transform: translateY(-1px);
+        }
+
+        /* Display Card Common Styles */
+        .display-card {
+            border-radius: var(--radius-lg);
+            padding: var(--spacing-lg);
+            text-align: center;
+            opacity: 0;
+            transform: scale(0.95);
+            transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: var(--shadow-primary);
+            display: none;
+        }
+
+        .display-card.show {
+            display: block;
+            opacity: 1;
+            transform: scale(1);
+            animation: popIn 0.4s ease-out;
+        }
+
+        @keyframes popIn {
+            0% {
+                opacity: 0;
+                transform: scale(0.8) translateY(10px);
+            }
+            50% {
+                transform: scale(1.02) translateY(-2px);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
+        }
+
+        .display-label {
+            font-size: 11px;
+            font-weight: 700;
+            color: rgba(255, 255, 255, 0.85);
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .display-value {
+            font-size: 22px;
+            font-weight: 800;
+            color: white;
+            letter-spacing: 1px;
+            margin-bottom: var(--spacing-md);
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+            word-break: break-all;
+        }
+
+        /* Default State Message */
+        .default-message {
+            text-align: center;
+            padding: var(--spacing-lg);
+            color: var(--text-light);
+            font-size: 13px;
+            font-weight: 500;
+        }
+
+        .default-message-icon {
+            font-size: 36px;
+            margin-bottom: var(--spacing-sm);
+            opacity: 0.5;
+        }
+
+        /* Phone Card Specific */
+        .phone-display-card {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
+        }
+
+        .phone-number-main {
+            font-size: 26px;
+            direction: ltr;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .alternative-numbers {
+            margin-top: var(--spacing-md);
+            padding-top: var(--spacing-md);
+            border-top: 2px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .alt-numbers-label {
+            font-size: 10px;
+            font-weight: 700;
+            color: rgba(255, 255, 255, 0.7);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .alt-number-item {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: rgba(255, 255, 255, 0.15);
+            padding: 8px 14px;
+            border-radius: var(--radius-full);
+            margin: 4px;
+            font-size: 15px;
+            font-weight: 700;
+            color: white;
+            text-decoration: none;
+            transition: var(--transition-smooth);
+            border: 2px solid transparent;
+        }
+
+        .alt-number-item:hover {
+            background: rgba(255, 255, 255, 0.25);
+            border-color: rgba(255, 255, 255, 0.4);
+            transform: translateX(3px);
+        }
+
+        .alt-number-icon {
+            font-size: 14px;
+        }
+
+        /* Primary Call Button */
+        .call-buttons-container {
+            display: flex;
+            flex-direction: column;
+            gap: var(--spacing-sm);
+            margin-top: var(--spacing-md);
+        }
+
+        .action-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--spacing-sm);
+            padding: 14px 28px;
+            background: white;
+            color: var(--primary-color);
+            border: none;
+            border-radius: var(--radius-full);
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            width: 100%;
+            justify-content: center;
+        }
+
+        .action-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+            background: var(--accent-color);
+            color: #1a1a1a;
+        }
+
+        .action-btn:active {
+            transform: translateY(0);
+        }
+
+        .btn-icon {
+            font-size: 18px;
+            animation: iconBounce 1.5s ease-in-out infinite;
+        }
+
+        @keyframes iconBounce {
+            0%, 100% { transform: rotate(0deg); }
+            25% { transform: rotate(15deg); }
+            75% { transform: rotate(-15deg); }
+        }
+
+        .call-icon {
+            animation: ring 1.5s ease-in-out infinite;
+        }
+
+        @keyframes ring {
+            0%, 100% { transform: rotate(0deg); }
+            25% { transform: rotate(20deg); }
+            75% { transform: rotate(-20deg); }
+        }
+
+        /* Email Card Specific */
+        .email-display-card {
+            background: var(--gradient-email);
+        }
+
+        .email-address {
+            font-size: 16px;
+            direction: ltr;
+        }
+
+        .email-icon {
+            animation: mailFloat 2s ease-in-out infinite;
+        }
+
+        @keyframes mailFloat {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-3px); }
+        }
+
+        /* ============================================
+           GOOGLE MAP SECTION
+           ============================================ */
+        .map-section {
+            background: linear-gradient(135deg, var(--bg-light) 0%, #ffffff 100%);
+            padding: var(--spacing-xl);
+            border-radius: var(--radius-lg);
+            border: 2px solid var(--border-color);
+            margin-bottom: var(--spacing-lg);
+            position: relative;
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .map-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--gradient-accent);
+        }
+
+        .map-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: var(--spacing-sm);
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .map-icon {
+            width: 40px;
+            height: 40px;
+            background: var(--gradient-primary);
+            border-radius: var(--radius-md);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            box-shadow: 0 4px 12px rgba(6, 133, 134, 0.25);
+        }
+
+        .map-title {
+            font-size: 16px;
+            font-weight: 800;
+            color: var(--text-dark);
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+        }
+
+        .map-container {
+            position: relative;
+            width: 100%;
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: 
+                0 4px 20px rgba(0, 0, 0, 0.15),
+                inset 0 0 0 2px rgba(255, 255, 255, 0.5);
+            border: 3px solid var(--border-color);
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+            display: block;
+            filter: grayscale(20%) contrast(1.1);
+            transition: filter 0.3s ease;
+        }
+
+        .map-container:hover iframe {
+            filter: grayscale(0%) contrast(1);
+        }
+
+        .map-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 100%);
+            padding: var(--spacing-md);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            pointer-events: none;
+        }
+
+        .map-location-text {
+            color: white;
+            font-size: 13px;
+            font-weight: 600;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .map-directions-btn {
+            background: var(--primary-color);
+            color: white;
+            padding: 8px 16px;
+            border-radius: var(--radius-full);
+            font-size: 12px;
+            font-weight: 700;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            pointer-events: auto;
+            transition: var(--transition-smooth);
+            box-shadow: 0 2px 8px rgba(6, 133, 134, 0.35);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .map-directions-btn:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(6, 133, 134, 0.45);
+        }
+
+        /* ============================================
+           WORKING HOURS CARD
+           ============================================ */
+        .contact-info-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: var(--spacing-md);
+            margin-bottom: var(--spacing-xl);
+        }
+
+        .contact-info-card {
+            background: linear-gradient(135deg, var(--bg-light) 0%, #ffffff 100%);
+            padding: var(--spacing-lg);
+            border-radius: var(--radius-lg);
+            border: 2px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-md);
+            transition: var(--transition-smooth);
+            cursor: default;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .contact-info-card::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: var(--gradient-primary);
+            transform: scaleY(0);
+            transition: var(--transition-smooth);
+        }
+
+        .contact-info-card:hover {
+            transform: translateX(5px);
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary-color);
+        }
+
+        .contact-info-card:hover::before {
+            transform: scaleY(1);
+        }
+
+        .info-icon {
+            width: 50px;
+            height: 50px;
+            background: var(--gradient-primary);
+            border-radius: var(--radius-md);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            flex-shrink: 0;
+            box-shadow: 0 4px 12px rgba(6, 133, 134, 0.25);
+        }
+
+        .info-content {
+            flex: 1;
+        }
+
+        .info-label {
+            font-size: 11px;
+            font-weight: 700;
+            color: var(--text-light);
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            margin-bottom: 4px;
+        }
+
+        .info-value {
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--text-dark);
+            word-break: break-word;
+        }
+
+        /* ============================================
+           BACK TO HOME BUTTON
+           ============================================ */
+        .back-home-section {
+            text-align: center;
+            margin-top: var(--spacing-lg);
+            padding-top: var(--spacing-lg);
+            border-top: 2px solid var(--border-color);
+        }
+
+        .back-home-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--spacing-sm);
+            padding: 12px 28px;
+            background: linear-gradient(135deg, var(--accent-color) 0%, #f4c430 100%);
+            color: #1a1a1a;
+            border: none;
+            border-radius: var(--radius-full);
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+            box-shadow: 0 4px 16px rgba(247, 209, 39, 0.35);
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .back-home-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 24px rgba(247, 209, 39, 0.45);
+            background: linear-gradient(135deg, #f4c430 0%, #e6be22 100%);
+        }
+
+        /* ============================================
+           RESPONSIVE DESIGN
+           ============================================ */
+        @media (max-width: 600px) {
+            body {
+                padding: var(--spacing-sm);
+            }
+
+            .container {
+                padding: var(--spacing-lg) var(--spacing-md);
+                border-radius: var(--radius-lg);
+                margin-top: var(--spacing-sm);
+            }
+
+            .main-title {
+                font-size: 1.5rem;
+            }
+
+            .contact-icon-large {
+                width: 80px;
+                height: 80px;
+                font-size: 40px;
+            }
+
+            .contact-info-card {
+                padding: var(--spacing-md);
+            }
+
+            .info-icon {
+                width: 45px;
+                height: 45px;
+                font-size: 20px;
+            }
+
+            .info-value {
+                font-size: 14px;
+            }
+
+            .selector-section,
+            .map-section {
+                padding: var(--spacing-lg);
+            }
+
+            .display-value {
+                font-size: 18px;
+            }
+
+            .phone-number-main {
+                font-size: 22px;
+            }
+
+            .alt-number-item {
+                font-size: 13px;
+                padding: 6px 10px;
+            }
+
+            .map-container iframe {
+                height: 250px;
+            }
+
+            .map-overlay {
+                flex-direction: column;
+                gap: var(--spacing-sm);
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Header Section -->
+    <div class="header-section">
+        <div class="contact-icon-large">📞</div>
+        <h1 class="main-title">Contact Us</h1>
+        <p class="sub-title">We'd love to hear from you!<br>Get in touch with our team.</p>
+        <div class="title-underline"></div>
+    </div>
+
+    <!-- ============================================
+         DEPARTMENT PHONE SELECTOR (WITH MULTI-NUMBER SUPPORT)
+         ============================================ -->
+    <div class="selector-section" id="phoneSection">
+        <h2 class="section-title">📱 Department Phone Directory</h2>
+        
+        <div class="dropdown-wrapper">
+            <label class="dropdown-label" for="departmentSelect">Select Department / Area</label>
+            <select id="departmentSelect" class="custom-select" onchange="showPhoneNumber()">
+                <option value="">-- 👇 Select Department / Area --</option>
+                
+                <optgroup label="🏢 NAVKAR APOTEK LLP - Departments">
+                    <option value="reception">📞 Reception</option>
+                    <option value="complaint_navkar">⚠️ Complaint</option>
+                    <option value="accounts_navkar">💰 Accounts</option>
+                    <option value="expiry_navkar">📅 Expiry</option>
+                    <option value="night_shift">🌙 Night Shift</option>
+                    <option value="dispatch">🚚 Dispatch</option>
+                </optgroup>
+                
+                <optgroup label="📍 NAVKAR APOTEK LLP - Areas">
+                    <option value="walchandnagar">📍 Walchandnagar</option>
+                    <option value="baramati">📍 Baramati</option>
+                    <option value="gunaware">📍 Gunaware</option>
+                    <option value="saswad">📍 Saswad</option>
+                    <option value="daund_navkar">📍 Daund</option>
+                    <option value="bhigwan_navkar">📍 Bhigwan</option>
+                    <option value="nira_navkar">📍 Nira</option>
+                    <option value="indapur">📍 Indapur</option>
+                    <option value="kedgaon_rashin">📍 Kedgaon / Rashin</option>
+                    <option value="phalthan_lonand">📍 Phalthan / Lonand</option>
+                </optgroup>
+                
+                <optgroup label="🏢 PRONAVAKR LIFECARE LLP - Areas">
+                    <option value="daund_pronavakr">📍 Daund / Walchandnagar</option>
+                    <option value="kedgaon">📍 Kedgaon / Saswad / Pusegaon / Shrigonda</option>
+                    <option value="local1">📍 LOCAL / Phalthan / Malegoan (Line 1)</option>
+                    <option value="local2">📍 LOCAL / Phalthan / Malegoan (Line 2)</option>
+                    <option value="bhigwan">📍 Bhigwan / Kashti / Karmala / Kettur / Jeur</option>
+                    <option value="nira">📍 Nira / Rashin / Lonand / Pusegaon</option>
+                    <option value="natepute">📍 Natepute / Indapur</option>
+                </optgroup>
+                
+                <optgroup label="💼 Other Departments">
+                    <option value="accounts_main">💰 Main Account Department</option>
+                    <option value="complaint_main">⚠️ Main Complaint Number</option>
+                </optgroup>
+            </select>
+        </div>
+
+        <!-- Phone Number Display with Multi-Number Support -->
+        <div id="phoneDisplayCard" class="display-card phone-display-card">
+            <div class="display-label">📞 Phone Number(s)</div>
+            
+            <!-- Main Number Display -->
+            <div class="display-value phone-number-main" id="displayPhoneNumber"></div>
+            
+            <!-- Alternative Numbers Section -->
+            <div class="alternative-numbers" id="alternativeNumbers" style="display: none;">
+                <div class="alt-numbers-label">🔄 Alternative Numbers (Try if busy):</div>
+                <div id="altNumbersList"></div>
+            </div>
+            
+            <!-- Call Buttons -->
+            <div class="call-buttons-container">
+                <a href="#" id="callButtonLink" class="action-btn">
+                    <span class="btn-icon call-icon">📲</span>
+                    <span>Call Main Number</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Default Message -->
+        <div id="phoneDefaultMessage" class="default-message">
+            <div class="default-message-icon">🔍</div>
+            <p><strong>Select a department from above</strong></p>
+            <p>to view their phone number(s)</p>
+        </div>
+    </div>
+
+    <!-- ============================================
+         EMAIL SELECTOR
+         ============================================ -->
+    <div class="selector-section" id="emailSection">
+        <h2 class="section-title">✉️ Email Directory</h2>
+        
+        <div class="dropdown-wrapper">
+            <label class="dropdown-label" for="emailSelect">Select Email Department</label>
+            <select id="emailSelect" class="custom-select" onchange="showEmailAddress()">
+                <option value="">-- 👇 Select Email Department --</option>
+                
+                <optgroup label="🏢 Navkar Apotek LLP">
+                    <option value="navkar1">📧 navkarapotek@gmail.com</option>
+                    <option value="navkar2">📧 info@navkarapotke.com</option>
+                    <option value="navkar3">📧 sales@navkarapotek.com</option>
+                    <option value="navkar4">📧 purchase@navkarapotek.com</option>
+                    <option value="navkar5">📧 expiry@navkarapotek.com</option>
+                    <option value="navkar6">📧 accounts@navkarapotek.com</option>
+                </optgroup>
+                
+                <optgroup label="🏢 Pronavakr Lifecare LLP">
+                    <option value="pronavakr1">📧 pronavkarlifecare@gmail.com</option>
+                </optgroup>
+            </select>
+        </div>
+
+        <!-- Email Address Display -->
+        <div id="emailDisplayCard" class="display-card email-display-card">
+            <div class="display-label">✉️ Email Address</div>
+            <div class="display-value email-address" id="displayEmailAddress"></div>
+            <a href="#" id="emailButtonLink" class="action-btn">
+                <span class="btn-icon email-icon">✉️</span>
+                <span>Send Email</span>
+            </a>
+        </div>
+
+        <!-- Default Message -->
+        <div id="emailDefaultMessage" class="default-message">
+            <div class="default-message-icon">📧</div>
+            <p><strong>Select an email department from above</strong></p>
+            <p>to view their email address</p>
+        </div>
+    </div>
+
+    <!-- ============================================
+         GOOGLE MAP SECTION
+         ============================================ -->
+    <div class="map-section">
+        <div class="map-header">
+            <div class="map-icon">🗺️</div>
+            <h2 class="map-title">Our Location</h2>
+        </div>
+        
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d588.0633677285485!2d74.58691358036211!3d18.15238994782608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc3a0221082122d%3A0xe6d105cdd55ca2bf!2sAkshay%20Anand%20Community%20Center!5e1!3m2!1sen!2sin!4v1777286699545!5m2!1sen!2sin" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            
+            <div class="map-overlay">
+                <div class="map-location-text">
+                    📍 Akshay Anand Community Center
+                </div>
+                <a href="https://www.google.com/maps/dir/?api=1&destination=Akshay+Anand+Community+Center" 
+                   target="_blank" 
+                   class="map-directions-btn">
+                    🧭 Directions
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================================
+         WORKING HOURS CARD
+         ============================================ -->
+    <div class="contact-info-grid">
+        
+        <div class="contact-info-card">
+            <div class="info-icon">🕐</div>
+            <div class="info-content">
+                <div class="info-label">Working Hours</div>
+                <div class="info-value">
+                    Mon - Sat: 10:00 AM - 7:30 PM<br>Sunday: Closed
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Back to Home Button -->
+    <div class="back-home-section">
+        <a href="index.html" class="back-home-btn">
+            ← Back to Home
+        </a>
+    </div>
+</div>
+
+<script>
+    /**
+     * =====================================================
+     * CONTACT US PAGE - WITH SMART MULTI-NUMBER SYSTEM
+     * =====================================================
+     * Features:
+     * ✅ Shows primary number prominently
+     * ✅ Lists all alternative numbers
+     * ✅ Individual call buttons for each number
+     * ✅ Smart parsing of "8956172559 / 61" format
+     * =====================================================
+     */
+
+    // ============================================
+    // PHONE DATA - WITH ALTERNATIVE NUMBERS SUPPORT
+    // Format: Each entry can have:
+    //   - phone: Main display number (string)
+    //   - fullPhone: Primary clickable number
+    //   - altNumbers: Array of alternative objects
+    //     - number: The alternative number string
+    //     - fullNumber: Clickable tel: link
+    //     - label: Optional label like "61", "57", etc.
+    // ============================================
+    const departmentPhoneData = {
+        // ===== NAVKAR APOTEK LLP - DEPARTMENTS =====
+        reception: {
+            name: "Reception",
+            phone: "8956172570",
+            fullPhone: "+918956172570",
+            altNumbers: []
+        },
+        complaint_navkar: {
+            name: "Complaint (Navkar)",
+            phone: "9529337113",
+            fullPhone: "+919529337113",
+            altNumbers: []
+        },
+        accounts_navkar: {
+            name: "Accounts (Navkar)",
+            phone: "8459417044",
+            fullPhone: "+918459417044",
+            altNumbers: []
+        },
+        expiry_navkar: {
+            name: "Expiry",
+            phone: "8956172569",
+            fullPhone: "+918956172569",
+            altNumbers: []
+        },
+        night_shift: {
+            name: "Night Shift",
+            phone: "8956172594",
+            fullPhone: "+918956172594",
+            altNumbers: []
+        },
+        dispatch: {
+            name: "Dispatch",
+            phone: "8956172597",
+            fullPhone: "+918956172597",
+            altNumbers: []
+        },
+
+        // ===== NAVKAR APOTEK LLP - AREAS (WITH ALTERNATIVES) =====
+        walchandnagar: {
+            name: "Walchandnagar",
+            phone: "8956172560",
+            fullPhone: "+918956172560",
+            altNumbers: [
+                { number: "8956172568", fullNumber: "+918956172568", label: "Alt 68" }
+            ]
+        },
+        baramati: {
+            name: "Baramati",
+            phone: "8956172556",
+            fullPhone: "+918956172556",
+            altNumbers: [
+                { number: "8956172557", fullNumber: "+918956172557", label: "Alt 57" },
+                { number: "8956172562", fullNumber: "+918956172562", label: "Alt 62" },
+                { number: "8956172566", fullNumber: "+918956172566", label: "Alt 66" }
+            ]
+        },
+        gunaware: {
+            name: "Gunaware",
+            phone: "8956172559",
+            fullPhone: "+918956172559",
+            altNumbers: [
+                { number: "8956172561", fullNumber: "+918956172561", label: "Alt 61" }
+            ]
+        },
+        saswad: {
+            name: "Saswad",
+            phone: "8956172563",
+            fullPhone: "+918956172563",
+            altNumbers: [
+                { number: "8956172564", fullNumber: "+918956172564", label: "Alt 64" }
+            ]
+        },
+        daund_navkar: {
+            name: "Daund (Navkar)",
+            phone: "8956172558",
+            fullPhone: "+918956172558",
+            altNumbers: [
+                { number: "8956172568", fullNumber: "+918956172568", label: "Alt 68" }
+            ]
+        },
+        bhigwan_navkar: {
+            name: "Bhigwan (Navkar)",
+            phone: "8956172563",
+            fullPhone: "+918956172563",
+            altNumbers: [
+                { number: "8956172567", fullNumber: "+918956172567", label: "Alt 67" }
+            ]
+        },
+        nira_navkar: {
+            name: "Nira (Navkar)",
+            phone: "8956172560",
+            fullPhone: "+918956172560",
+            altNumbers: [
+                { number: "8956172563", fullNumber: "+918956172563", label: "Alt 63" }
+            ]
+        },
+        indapur: {
+            name: "Indapur",
+            phone: "8956172558",
+            fullPhone: "+918956172558",
+            altNumbers: [
+                { number: "8956172567", fullNumber: "+918956172567", label: "Alt 67" }
+            ]
+        },
+        kedgaon_rashin: {
+            name: "Kedgaon / Rashin",
+            phone: "8956172564",
+            fullPhone: "+918956172564",
+            altNumbers: [
+                { number: "8956172565", fullNumber: "+918956172565", label: "Alt 65" }
+            ]
+        },
+        phalthan_lonand: {
+            name: "Phalthan / Lonand",
+            phone: "8956172559",
+            fullPhone: "+918956172559",
+            altNumbers: [
+                { number: "8956172561", fullNumber: "+918956172561", label: "Alt 61" }
+            ]
+        },
+
+        // ===== PRONAVAKR LIFECARE LLP - AREAS =====
+        daund_pronavakr: {
+            name: "Daund / Walchandnagar (Pronavakr)",
+            phone: "895677003",
+            fullPhone: "+91895677003",
+            altNumbers: []
+        },
+        kedgaon: {
+            name: "Kedgaon / Saswad / Pusegaon / Shrigonda",
+            phone: "8956477001",
+            fullPhone: "+918956477001",
+            altNumbers: []
+        },
+        local1: {
+            name: "LOCAL / Phalthan / Malegoan (Line 1)",
+            phone: "8983753108",
+            fullPhone: "+918983753108",
+            altNumbers: []
+        },
+        local2: {
+            name: "LOCAL / Phalthan / Malegoan (Line 2)",
+            phone: "8484021008",
+            fullPhone: "+918484021008",
+            altNumbers: []
+        },
+        bhigwan: {
+            name: "Bhigwan / Kashti / Karmala / Kettur / Jeur",
+            phone: "893758108",
+            fullPhone: "+91893758108",
+            altNumbers: []
+        },
+        nira: {
+            name: "Nira / Rashin / Lonand / Pusegaon",
+            phone: "8484981008",
+            fullPhone: "+918484981008",
+            altNumbers: []
+        },
+        natepute: {
+            name: "Natepute / Indapur",
+            phone: "84840331008",
+            fullPhone: "+9184840331008",
+            altNumbers: []
+        },
+
+        // ===== OTHER DEPARTMENTS =====
+        accounts_main: {
+            name: "Main Account Department",
+            phone: "8600981008",
+            fullPhone: "+918600981008",
+            altNumbers: []
+        },
+        complaint_main: {
+            name: "Main Complaint Number",
+            phone: "8180068108",
+            fullPhone: "+918180068108",
+            altNumbers: []
+        }
+    };
+
+    // ============================================
+    // EMAIL DATA
+    // ============================================
+    const departmentEmailData = {
+        navkar1: {
+            company: "Navkar Apotek LLP",
+            department: "General",
+            email: "navkarapotek@gmail.com"
+        },
+        navkar2: {
+            company: "Navkar Apotek LLP",
+            department: "Information",
+            email: "info@navkarapotke.com"
+        },
+        navkar3: {
+            company: "Navkar Apotek LLP",
+            department: "Sales",
+            email: "sales@navkarapotek.com"
+        },
+        navkar4: {
+            company: "Navkar Apotek LLP",
+            department: "Purchase",
+            email: "purchase@navkarapotek.com"
+        },
+        navkar5: {
+            company: "Navkar Apotek LLP",
+            department: "Expiry",
+            email: "expiry@navkarapotek.com"
+        },
+        navkar6: {
+            company: "Navkar Apotek LLP",
+            department: "Accounts",
+            email: "accounts@navkarapotek.com"
+        },
+        pronavakr1: {
+            company: "Pronavakr Lifecare LLP",
+            department: "General",
+            email: "pronavkarlifecare@gmail.com"
+        }
+    };
+
+    // ============================================
+    // SHOW PHONE NUMBER FUNCTION - WITH MULTI-NUMBERS
+    // ============================================
+    function showPhoneNumber() {
+        const select = document.getElementById('departmentSelect');
+        const selectedValue = select.value;
+        const phoneCard = document.getElementById('phoneDisplayCard');
+        const defaultMsg = document.getElementById('phoneDefaultMessage');
+        const phoneNumberEl = document.getElementById('displayPhoneNumber');
+        const callButtonLink = document.getElementById('callButtonLink');
+        const altNumbersDiv = document.getElementById('alternativeNumbers');
+        const altNumbersList = document.getElementById('altNumbersList');
+
+        if (!selectedValue || selectedValue === "") {
+            phoneCard.classList.remove('show');
+            defaultMsg.style.display = 'block';
+            return;
+        }
+
+        const deptData = departmentPhoneData[selectedValue];
+        
+        if (deptData) {
+            defaultMsg.style.display = 'none';
+            
+            // Set main phone number
+            phoneNumberEl.textContent = deptData.phone;
+            
+            // Set primary call button link
+            callButtonLink.href = `tel:${deptData.fullPhone}`;
+            
+            // Handle alternative numbers
+            if (deptData.altNumbers && deptData.altNumbers.length > 0) {
+                // Show alternative numbers section
+                altNumbersDiv.style.display = 'block';
+                
+                // Generate HTML for each alternative number
+                let altHtml = '';
+                deptData.altNumbers.forEach((alt, index) => {
+                    altHtml += `
+                        <a href="tel:${alt.fullNumber}" class="alt-number-item">
+                            <span class="alt-number-icon">📞</span>
+                            <span>${alt.number}</span>
+                            ${alt.label ? `<small>(${alt.label})</small>` : ''}
+                        </a>
+                    `;
+                });
+                
+                altNumbersList.innerHTML = altHtml;
+                
+                console.log(`📞 ${deptData.name}: Main=${dept.phone}, Alternatives=${deptData.altNumbers.length}`);
+            } else {
+                // Hide alternative numbers section if no alternatives
+                altNumbersDiv.style.display = 'none';
+            }
+            
+            // Show the card with animation
+            phoneCard.classList.add('show');
+            
+            console.log(`✅ Selected: ${deptData.name}`);
+            console.log(`📱 Primary: ${deptData.phone}`);
+        }
+    }
+
+    // ============================================
+    // SHOW EMAIL ADDRESS FUNCTION
+    // ============================================
+    function showEmailAddress() {
+        const select = document.getElementById('emailSelect');
+        const selectedValue = select.value;
+        const emailCard = document.getElementById('emailDisplayCard');
+        const defaultMsg = document.getElementById('emailDefaultMessage');
+        const emailAddressEl = document.getElementById('displayEmailAddress');
+        const emailButtonLink = document.getElementById('emailButtonLink');
+
+        if (!selectedValue || selectedValue === "") {
+            emailCard.classList.remove('show');
+            defaultMsg.style.display = 'block';
+            return;
+        }
+
+        const emailData = departmentEmailData[selectedValue];
+        
+        if (emailData) {
+            defaultMsg.style.display = 'none';
+            emailAddressEl.textContent = emailData.email;
+            emailButtonLink.href = `mailto:${emailData.email}`;
+            emailCard.classList.add('show');
+            
+            console.log(`✉️ Selected: ${emailData.company} - ${emailData.department}`);
+            console.log(`📧 Email: ${emailData.email}`);
+        }
+    }
+
+    // ============================================
+    // INITIALIZATION
+    // ============================================
+    document.addEventListener('DOMContentLoaded', () => {
+        console.log('📞 Contact page loaded successfully!');
+        console.log(`📋 Total Phone Entries: ${Object.keys(departmentPhoneData).length}`);
+        console.log(`📧 Total Emails: ${Object.keys(departmentEmailData).length}`);
+        console.log('💡 TIP: Some entries have multiple numbers - check alternatives!');
+        
+        // Set initial states
+        document.getElementById('phoneDisplayCard').classList.remove('show');
+        document.getElementById('phoneDefaultMessage').style.display = 'block';
+        
+        document.getElementById('emailDisplayCard').classList.remove('show');
+        document.getElementById('emailDefaultMessage').style.display = 'block';
+        
+        // Animate cards on load
+        const cards = document.querySelectorAll('.contact-info-card');
+        cards.forEach((card, index) => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+            
+            setTimeout(() => {
+                card.style.transition = 'all 0.4s ease-out';
+                card.style.opacity = '1';
+                card.style.transform = 'translateY(0)';
+            }, 100 + (index * 100));
+        });
+    });
+</script>
+
+</body>
+</html>
