@@ -313,7 +313,7 @@ It helps others discover the project and shows appreciation for our work.
 *Professional Pharmaceutical Management Solution*
 
 </div>
-```
+
 
 ---
 
@@ -348,27 +348,5 @@ It helps others discover the project and shows appreciation for our work.
 - Tech stack table (HTML5, CSS3, Vanilla JS)
 - Getting Started instructions (Clone/Download/Local server)
 - Code examples for customization
-
----
-
-## 📝 **HOW TO USE THIS README:**
-
-### **Option 1: Copy-Paste Entire Content**
-1. Open your GitHub repository
-2. Click on `README.md` file
-3. Click **Edit** (pencil icon)
-4. **Delete everything** (Ctrl+A then Delete)
-5. **Paste** above code (Ctrl+V)
-6. Click **Commit changes** at bottom
-7. Write commit message: `docs: update readme with latest features`
-8. Click **Commit file**
-
-Done! ✅
-
-### **Option 2: Save as File First**
-1. Copy above code
-2. Save as `README.md` on your computer
-3. Upload to GitHub repository (drag & drop or upload button)
-4. Commit changes
 
 ---
