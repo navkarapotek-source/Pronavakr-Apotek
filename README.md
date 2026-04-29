@@ -5,7 +5,7 @@
 ![GitHub Release Date](https://img.shields.io/github/release-date/Pronavakr-Apotek/Pronavakr-Apotek?style=flat-square&logo=github&color=orange)
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/Pronavakr-Apotek/Pronavakr-Apotek?style=flat-square&logo=green)
 
-```markdown
+
 # 🏥 Pronavakr-Apotek
 
 ---
@@ -63,7 +63,7 @@
 
 ## 📂 Project Architecture
 
-```
+
 pronavakr-apotek/
 │
 ├── 📄 index.html              # Main entry point & UI layout
