@@ -7,9 +7,12 @@
     <!-- ============================================
        SECURITY FIXES (CWE-942, CWE-1021, CWE-693)
        ============================================ -->
-    <!-- Fixes CORS leakage, Clickjacking, and Lack of CSP -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none';">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'; object-src 'none'; base-uri 'self';">
     <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
 
     <title>Navkar & Pronavakr - Smart Search | Premium Edition</title>
     
@@ -19,65 +22,42 @@
     <script src="navkar_medicine.js"></script>
 
     <style>
-        /* ============================================
-           ENHANCED DESIGN SYSTEM - PREMIUM EDITION
-           ============================================ */
         :root {
-            /* Primary Colors */
             --primary-color: #068586;
             --primary-dark: #055c5d;
             --primary-light: #0899a0;
             --accent-color: #f7d127;
             --accent-hover: #e6be22;
-            
-            /* Text Colors */
             --text-dark: #1a1a1a;
             --text-medium: #4a5568;
             --text-light: #718096;
-            
-            /* Background Colors */
-           --bg-body: linear-gradient(135deg, #0d9488 0%, #14b8a6 50%, #5eead4 100%);
+            --bg-body: linear-gradient(135deg, #0d9488 0%, #14b8a6 50%, #5eead4 100%);
             --bg-white: #ffffff;
             --bg-light: #f7fafc;
             --bg-card: rgba(255, 255, 255, 0.95);
-            
-            /* Border & Shadow */
             --border-color: #e2e8f0;
             --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
             --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.12);
             --shadow-lg: 0 10px 40px rgba(0, 0, 0, 0.15);
             --shadow-primary: 0 8px 32px rgba(6, 133, 134, 0.25);
-            
-            /* Gradients */
             --gradient-primary: linear-gradient(135deg, #068586 0%, #0899a0 50%, #055c5d 100%);
             --gradient-accent: linear-gradient(135deg, #f7d127 0%, #f4c430 100%);
-            --gradient-header: linear-gradient(135deg, rgba(6, 133, 134, 0.05) 0%, rgba(247, 209, 39, 0.05) 100%);
-            
-            /* Spacing */
             --spacing-xs: 4px;
             --spacing-sm: 8px;
             --spacing-md: 12px;
             --spacing-lg: 20px;
             --spacing-xl: 30px;
-            
-            /* Border Radius */
             --radius-sm: 6px;
             --radius-md: 10px;
             --radius-lg: 16px;
             --radius-xl: 24px;
             --radius-full: 50px;
-            
-            /* Transitions */
             --transition-fast: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
             --transition-base: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
             --transition-smooth: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -92,9 +72,6 @@
             overflow-x: hidden;
         }
 
-        /* ============================================
-           MAIN CONTAINER - GLASSMORPHISM EFFECT
-           ============================================ */
         .container {
             width: 100%;
             max-width: 520px;
@@ -102,10 +79,7 @@
             backdrop-filter: blur(20px);
             padding: var(--spacing-xl);
             border-radius: var(--radius-xl);
-            box-shadow: 
-                var(--shadow-lg),
-                0 0 0 1px rgba(255, 255, 255, 0.1),
-                inset 0 1px 0 rgba(255, 255, 255, 0.3);
+            box-shadow: var(--shadow-lg), 0 0 0 1px rgba(255,255,255,0.1), inset 0 1px 0 rgba(255,255,255,0.3);
             margin-top: var(--spacing-lg);
             opacity: 0;
             animation: containerFadeIn 0.6s ease-out forwards;
@@ -114,28 +88,14 @@
         }
 
         @keyframes containerFadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(30px) scale(0.98);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0) scale(1);
-            }
+            from { opacity: 0; transform: translateY(30px) scale(0.98); }
+            to { opacity: 1; transform: translateY(0) scale(1); }
         }
 
-        /* ============================================
-           LOGO SECTION - ENHANCED
-           ============================================ */
-        .logo-container {
-            text-align: center;
-            margin-bottom: var(--spacing-lg);
-            position: relative;
-        }
+        .logo-container { text-align: center; margin-bottom: var(--spacing-lg); position: relative; }
 
         .logo-wrapper {
-            width: 90px;
-            height: 90px;
+            width: 90px; height: 90px;
             margin: 0 auto var(--spacing-md);
             background: var(--gradient-primary);
             border-radius: var(--radius-lg);
@@ -150,34 +110,21 @@
             50% { transform: translateY(-5px); }
         }
 
-        .logo-wrapper:hover {
-            transform: translateY(-5px) rotate(2deg);
-            box-shadow: 0 12px 40px rgba(6, 133, 134, 0.35);
-        }
+        .logo-wrapper:hover { transform: translateY(-5px) rotate(2deg); box-shadow: 0 12px 40px rgba(6,133,134,0.35); }
 
         .logo-container img {
-            width: 100%;
-            height: 100%;
+            width: 100%; height: 100%;
             object-fit: contain;
             border-radius: calc(var(--radius-lg) - 4px);
             background: white;
         }
 
-        /* ============================================
-           HEADER SECTION - MODERN TYPOGRAPHY
-           ============================================ */
-        .header-section {
-            text-align: center;
-            margin-bottom: var(--spacing-xl);
-            position: relative;
-        }
+        .header-section { text-align: center; margin-bottom: var(--spacing-xl); position: relative; }
 
         .main-title {
             color: var(--text-dark);
-            font-size: 1.6rem;
-            font-weight: 800;
-            text-transform: uppercase;
-            letter-spacing: 1px;
+            font-size: 1.6rem; font-weight: 800;
+            text-transform: uppercase; letter-spacing: 1px;
             margin-bottom: var(--spacing-xs);
             background: var(--gradient-primary);
             -webkit-background-clip: text;
@@ -188,124 +135,66 @@
 
         .sub-title {
             color: var(--primary-color);
-            font-size: 1.15rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
+            font-size: 1.15rem; font-weight: 700;
+            text-transform: uppercase; letter-spacing: 0.5px;
             margin-bottom: var(--spacing-sm);
         }
 
         .title-underline {
-            width: 80px;
-            height: 4px;
+            width: 80px; height: 4px;
             background: var(--gradient-accent);
             margin: var(--spacing-md) auto 0;
             border-radius: var(--radius-full);
-            box-shadow: 0 2px 8px rgba(247, 209, 39, 0.4);
+            box-shadow: 0 2px 8px rgba(247,209,39,0.4);
         }
 
-        /* ============================================
-           MESSAGE ALERTS - FIXED! NO MORE RED LINE
-           ============================================ */
-        .message-container {
-            margin-bottom: var(--spacing-md);
-        }
+        .message-container { margin-bottom: var(--spacing-md); }
 
-        .error-message,
-        .success-message {
+        .error-message, .success-message {
             padding: 14px 18px;
             border-radius: var(--radius-md);
-            font-size: 13px;
-            font-weight: 600;
-            display: none; 
+            font-size: 13px; font-weight: 600;
+            display: none;
             animation: slideInAlert 0.4s ease-out;
             border-left: 4px solid;
             align-items: center;
             gap: var(--spacing-sm);
         }
 
-        .error-message {
-            background: linear-gradient(to right, #fee, #fff5f5);
-            color: #dc3545;
-            border-left-color: #dc3545;
-        }
-
-        .success-message {
-            background: linear-gradient(to right, #efe, #f0fff4);
-            color: #28a745;
-            border-left-color: #28a745;
-        }
-
-        .error-message.show,
-        .success-message.show {
-            display: flex;
-        }
+        .error-message { background: linear-gradient(to right, #fee, #fff5f5); color: #dc3545; border-left-color: #dc3545; }
+        .success-message { background: linear-gradient(to right, #efe, #f0fff4); color: #28a745; border-left-color: #28a745; }
+        .error-message.show, .success-message.show { display: flex; }
 
         @keyframes slideInAlert {
-            from {
-                opacity: 0;
-                transform: translateX(-20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateX(0);
-            }
+            from { opacity: 0; transform: translateX(-20px); }
+            to { opacity: 1; transform: translateX(0); }
         }
 
-        /* ============================================
-           SMART SEARCH SECTION - PREMIUM DESIGN
-           ============================================ */
-        .smart-search-section {
-            margin-bottom: var(--spacing-lg);
-            position: relative;
-        }
+        .smart-search-section { margin-bottom: var(--spacing-lg); position: relative; }
 
         .smart-search-label {
-            font-weight: 700;
-            color: var(--primary-color);
-            font-size: 13px;
-            text-transform: uppercase;
-            letter-spacing: 0.8px;
+            font-weight: 700; color: var(--primary-color);
+            font-size: 13px; text-transform: uppercase; letter-spacing: 0.8px;
             margin-bottom: var(--spacing-sm);
-            display: block;
-            display: flex;
-            align-items: center;
-            gap: var(--spacing-sm);
+            display: flex; align-items: center; gap: var(--spacing-sm);
         }
 
         .label-icon {
-            width: 20px;
-            height: 20px;
-            background: var(--primary-color);
-            color: white;
+            width: 20px; height: 20px;
+            background: var(--primary-color); color: white;
             border-radius: 50%;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
+            display: inline-flex; align-items: center; justify-content: center;
             font-size: 11px;
         }
 
-        .smart-search-container {
-            position: relative;
-            display: flex;
-            gap: var(--spacing-sm);
-            align-items: stretch;
-        }
-
-        .input-wrapper {
-            flex: 1;
-            position: relative;
-        }
+        .smart-search-container { position: relative; display: flex; gap: var(--spacing-sm); align-items: stretch; }
+        .input-wrapper { flex: 1; position: relative; }
 
         .search-icon-input {
-            position: absolute;
-            left: 16px;
-            top: 50%;
+            position: absolute; left: 16px; top: 50%;
             transform: translateY(-50%);
-            color: var(--text-light);
-            font-size: 16px;
-            pointer-events: none;
-            transition: var(--transition-fast);
+            color: var(--text-light); font-size: 16px;
+            pointer-events: none; transition: var(--transition-fast);
         }
 
         .smart-search-input {
@@ -313,385 +202,191 @@
             padding: 14px 16px 14px 45px;
             border: 2px solid var(--border-color);
             border-radius: var(--radius-full);
-            font-size: 14px;
-            outline: none;
+            font-size: 14px; outline: none;
             background: linear-gradient(to bottom, #ffffff, #fafbfc);
             color: var(--text-dark);
             transition: var(--transition-smooth);
             font-weight: 500;
-            box-shadow: 
-                inset 0 2px 4px rgba(0, 0, 0, 0.04),
-                0 2px 8px rgba(0, 0, 0, 0.02);
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.04), 0 2px 8px rgba(0,0,0,0.02);
         }
 
         .smart-search-input:focus {
             border-color: var(--primary-color);
-            box-shadow: 
-                0 0 0 4px rgba(6, 133, 134, 0.1),
-                inset 0 2px 4px rgba(0, 0, 0, 0.02),
-                0 4px 16px rgba(6, 133, 134, 0.1);
+            box-shadow: 0 0 0 4px rgba(6,133,134,0.1), inset 0 2px 4px rgba(0,0,0,0.02), 0 4px 16px rgba(6,133,134,0.1);
             transform: translateY(-1px);
-        }
-
-        .smart-search-input:focus + .search-icon-input,
-        .smart-search-input:focus ~ .search-icon-input {
-            color: var(--primary-color);
         }
 
         .clear-search-btn {
             padding: 14px 24px;
             background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
-            color: white;
-            border: none;
+            color: white; border: none;
             border-radius: var(--radius-full);
-            font-size: 13px;
-            font-weight: 700;
-            cursor: pointer;
-            transition: var(--transition-smooth);
+            font-size: 13px; font-weight: 700;
+            cursor: pointer; transition: var(--transition-smooth);
             white-space: nowrap;
-            box-shadow: 0 4px 12px rgba(220, 53, 69, 0.25);
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
+            box-shadow: 0 4px 12px rgba(220,53,69,0.25);
+            text-transform: uppercase; letter-spacing: 0.5px;
         }
 
-        .clear-search-btn:hover {
-            background: linear-gradient(135deg, #c82333 0%, #a71d2a 100%);
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(220, 53, 69, 0.35);
-        }
-
-        .clear-search-btn:active {
-            transform: translateY(0);
-        }
+        .clear-search-btn:hover { background: linear-gradient(135deg, #c82333 0%, #a71d2a 100%); transform: translateY(-2px); box-shadow: 0 6px 20px rgba(220,53,69,0.35); }
+        .clear-search-btn:active { transform: translateY(0); }
 
         .search-loading {
-            display: none;
-            align-items: center;
-            justify-content: center;
-            gap: var(--spacing-sm);
-            padding: var(--spacing-md);
-            color: var(--primary-color);
-            font-size: 13px;
-            font-weight: 600;
-            background: rgba(6, 133, 134, 0.05);
-            border-radius: var(--radius-md);
-            margin-top: var(--spacing-sm);
-            animation: fadeIn 0.3s ease-out;
+            display: none; align-items: center; justify-content: center;
+            gap: var(--spacing-sm); padding: var(--spacing-md);
+            color: var(--primary-color); font-size: 13px; font-weight: 600;
+            background: rgba(6,133,134,0.05); border-radius: var(--radius-md);
+            margin-top: var(--spacing-sm); animation: fadeIn 0.3s ease-out;
         }
 
-        .search-loading.show {
-            display: flex;
-        }
+        .search-loading.show { display: flex; }
 
         .loading-spinner {
-            width: 18px;
-            height: 18px;
-            border: 2px solid rgba(6, 133, 134, 0.2);
+            width: 18px; height: 18px;
+            border: 2px solid rgba(6,133,134,0.2);
             border-top-color: var(--primary-color);
             border-radius: 50%;
             animation: spin 0.8s linear infinite;
         }
 
-        @keyframes spin {
-            to { transform: rotate(360deg); }
-        }
+        @keyframes spin { to { transform: rotate(360deg); } }
 
         .search-suggestions {
-            position: absolute;
-            top: calc(100% + 8px);
-            left: 0;
-            right: 0;
+            position: absolute; top: calc(100% + 8px); left: 0; right: 0;
             background: var(--bg-white);
-            border: 2px solid var(--border-color);
-            border-top: none;
+            border: 2px solid var(--border-color); border-top: none;
             border-radius: 0 0 var(--radius-lg) var(--radius-lg);
-            max-height: 320px;
-            overflow-y: auto;
-            z-index: 1000;
-            display: none;
+            max-height: 320px; overflow-y: auto;
+            z-index: 1000; display: none;
             box-shadow: var(--shadow-lg);
             animation: slideDown 0.25s ease-out;
         }
 
-        .search-suggestions.show {
-            display: block;
-        }
+        .search-suggestions.show { display: block; }
 
         @keyframes slideDown {
-            from {
-                opacity: 0;
-                transform: translateY(-10px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
         .suggestion-item {
-            padding: 14px 16px;
-            cursor: pointer;
+            padding: 14px 16px; cursor: pointer;
             border-bottom: 1px solid var(--border-color);
-            transition: var(--transition-fast);
-            position: relative;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            transition: var(--transition-fast); position: relative;
+            display: flex; justify-content: space-between; align-items: center;
         }
 
-        .suggestion-item:last-child {
-            border-bottom: none;
+        .suggestion-item:last-child { border-bottom: none; }
+
+        .suggestion-item:hover, .suggestion-item.highlighted {
+            background: linear-gradient(to right, rgba(6,133,134,0.08), rgba(6,133,134,0.03));
+            border-left: 3px solid var(--primary-color); padding-left: 13px;
         }
 
-        .suggestion-item:hover,
-        .suggestion-item.highlighted {
-            background: linear-gradient(to right, rgba(6, 133, 134, 0.08), rgba(6, 133, 134, 0.03));
-            border-left: 3px solid var(--primary-color);
-            padding-left: 13px;
-        }
+        .suggestion-content { flex: 1; }
+        .suggestion-product { font-weight: 700; color: var(--primary-color); font-size: 14px; display: block; margin-bottom: 2px; }
+        .suggestion-company { font-size: 11px; color: var(--text-light); font-weight: 500; }
+        .suggestion-pack { font-size: 11px; color: var(--text-medium); background: var(--bg-light); padding: 4px 10px; border-radius: var(--radius-full); font-weight: 600; white-space: nowrap; }
 
-        .suggestion-content {
-            flex: 1;
-        }
-
-        .suggestion-product {
-            font-weight: 700;
-            color: var(--primary-color);
-            font-size: 14px;
-            display: block;
-            margin-bottom: 2px;
-        }
-
-        .suggestion-company {
-            font-size: 11px;
-            color: var(--text-light);
-            font-weight: 500;
-        }
-
-        .suggestion-pack {
-            font-size: 11px;
-            color: var(--text-medium);
-            background: var(--bg-light);
-            padding: 4px 10px;
-            border-radius: var(--radius-full);
-            font-weight: 600;
-            white-space: nowrap;
-        }
-
-        /* ============================================
-           FILTER SECTION - MODERN CARD DESIGN
-           ============================================ */
         .filter-section {
             margin-bottom: var(--spacing-lg);
             background: linear-gradient(135deg, var(--bg-light) 0%, #ffffff 100%);
-            padding: var(--spacing-lg);
-            border-radius: var(--radius-lg);
-            border: 1px solid var(--border-color);
-            box-shadow: var(--shadow-sm);
-            position: relative;
-            overflow: hidden;
+            padding: var(--spacing-lg); border-radius: var(--radius-lg);
+            border: 1px solid var(--border-color); box-shadow: var(--shadow-sm);
+            position: relative; overflow: hidden;
         }
 
         .filter-section::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 3px;
-            background: var(--gradient-accent);
+            content: ''; position: absolute; top: 0; left: 0; right: 0;
+            height: 3px; background: var(--gradient-accent);
         }
 
-        .filter-group {
-            display: flex;
-            flex-direction: column;
-            gap: var(--spacing-md);
-        }
-
-        .form-group {
-            display: flex;
-            flex-direction: column;
-            gap: var(--spacing-sm);
-        }
+        .filter-group { display: flex; flex-direction: column; gap: var(--spacing-md); }
+        .form-group { display: flex; flex-direction: column; gap: var(--spacing-sm); }
 
         label {
-            font-weight: 700;
-            color: var(--text-dark);
-            font-size: 12px;
-            text-transform: uppercase;
-            letter-spacing: 0.8px;
-            display: flex;
-            align-items: center;
-            gap: var(--spacing-xs);
+            font-weight: 700; color: var(--text-dark);
+            font-size: 12px; text-transform: uppercase; letter-spacing: 0.8px;
+            display: flex; align-items: center; gap: var(--spacing-xs);
         }
 
-        label::before {
-            content: '▸';
-            color: var(--primary-color);
-            font-size: 10px;
-        }
+        label::before { content: '▸'; color: var(--primary-color); font-size: 10px; }
 
         select {
-            width: 100%;
-            padding: 12px 16px;
-            border: 2px solid var(--border-color);
-            border-radius: var(--radius-md);
-            font-size: 14px;
-            outline: none;
-            background: var(--bg-white);
-            color: var(--text-dark);
-            transition: var(--transition-smooth);
-            font-weight: 500;
-            cursor: pointer;
-            appearance: none;
+            width: 100%; padding: 12px 16px;
+            border: 2px solid var(--border-color); border-radius: var(--radius-md);
+            font-size: 14px; outline: none; background: var(--bg-white);
+            color: var(--text-dark); transition: var(--transition-smooth);
+            font-weight: 500; cursor: pointer; appearance: none;
             background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23666' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
-            background-repeat: no-repeat;
-            background-position: right 12px center;
-            padding-right: 36px;
+            background-repeat: no-repeat; background-position: right 12px center; padding-right: 36px;
         }
 
-        select:focus {
-            border-color: var(--primary-color);
-            box-shadow: 0 0 0 3px rgba(6, 133, 134, 0.1);
-        }
+        select:focus { border-color: var(--primary-color); box-shadow: 0 0 0 3px rgba(6,133,134,0.1); }
+        select:disabled { background-color: #f5f7fa; color: #a0aec0; cursor: not-allowed; opacity: 0.7; }
 
-        select:disabled {
-            background-color: #f5f7fa;
-            color: #a0aec0;
-            cursor: not-allowed;
-            opacity: 0.7;
-        }
-
-        /* ============================================
-           INFO BAR - ENHANCED NOTIFICATION
-           ============================================ */
         .info-bar {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: var(--spacing-lg) 0;
-            padding: 14px 20px;
-            background: linear-gradient(135deg, var(--accent-color) 0%, rgba(247, 209, 39, 0.85) 100%);
-            border-radius: var(--radius-full);
-            gap: var(--spacing-sm);
+            display: flex; justify-content: center; align-items: center;
+            margin: var(--spacing-lg) 0; padding: 14px 20px;
+            background: linear-gradient(135deg, var(--accent-color) 0%, rgba(247,209,39,0.85) 100%);
+            border-radius: var(--radius-full); gap: var(--spacing-sm);
             transition: var(--transition-smooth);
-            opacity: 0;
-            transform: scale(0.95);
-            box-shadow: 0 4px 16px rgba(247, 209, 39, 0.3);
+            opacity: 0; transform: scale(0.95);
+            box-shadow: 0 4px 16px rgba(247,209,39,0.3);
         }
 
-        .info-bar.show {
-            opacity: 1;
-            transform: scale(1);
-        }
+        .info-bar.show { opacity: 1; transform: scale(1); }
 
         .info-text {
-            font-weight: 700;
-            color: #1a1a1a;
-            font-size: 13px;
-            text-align: center;
-            display: flex;
-            align-items: center;
-            gap: var(--spacing-sm);
+            font-weight: 700; color: #1a1a1a; font-size: 13px;
+            text-align: center; display: flex; align-items: center; gap: var(--spacing-sm);
         }
 
-        /* ============================================
-           TABLE CONTAINER - VIRTUAL SCROLL READY
-           ============================================ */
         .table-container {
-            max-height: 50vh;
-            overflow-y: auto;
-            border: 2px solid var(--border-color);
-            border-radius: var(--radius-lg);
-            display: none;
-            background: var(--bg-white);
-            transition: var(--transition-smooth);
-            opacity: 0;
-            box-shadow: var(--shadow-md);
-            position: relative;
+            max-height: 50vh; overflow-y: auto;
+            border: 2px solid var(--border-color); border-radius: var(--radius-lg);
+            display: none; background: var(--bg-white);
+            transition: var(--transition-smooth); opacity: 0;
+            box-shadow: var(--shadow-md); position: relative;
         }
 
-        .table-container.show {
-            display: block;
-            opacity: 1;
-            animation: fadeInScale 0.4s ease-out;
-        }
+        .table-container.show { display: block; opacity: 1; animation: fadeInScale 0.4s ease-out; }
 
         @keyframes fadeInScale {
-            from {
-                opacity: 0;
-                transform: scale(0.97);
-            }
-            to {
-                opacity: 1;
-                transform: scale(1);
-            }
+            from { opacity: 0; transform: scale(0.97); }
+            to { opacity: 1; transform: scale(1); }
         }
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
+        table { width: 100%; border-collapse: collapse; }
 
         th {
-            background: var(--gradient-primary);
-            color: white;
-            padding: 14px 16px;
-            text-align: left;
-            position: sticky;
-            top: 0;
-            z-index: 10;
-            font-size: 12px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.8px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            background: var(--gradient-primary); color: white;
+            padding: 14px 16px; text-align: left;
+            position: sticky; top: 0; z-index: 10;
+            font-size: 12px; font-weight: 700;
+            text-transform: uppercase; letter-spacing: 0.8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
 
         td {
-            padding: 13px 16px;
-            border-bottom: 1px solid var(--border-color);
-            font-size: 13px;
-            color: var(--text-dark);
-            transition: var(--transition-fast);
+            padding: 13px 16px; border-bottom: 1px solid var(--border-color);
+            font-size: 13px; color: var(--text-dark); transition: var(--transition-fast);
         }
 
-        tbody tr {
-            transition: var(--transition-fast);
-        }
+        tbody tr { transition: var(--transition-fast); }
+        tbody tr:hover { background: linear-gradient(to right, rgba(6,133,134,0.05), rgba(6,133,134,0.02)); transform: translateX(3px); }
+        .product-name { font-weight: 700; color: var(--primary-color); }
+        .pack-info { color: var(--text-light); font-size: 12px; font-weight: 500; }
 
-        tbody tr:hover {
-            background: linear-gradient(to right, rgba(6, 133, 134, 0.05), rgba(6, 133, 134, 0.02));
-            transform: translateX(3px);
-        }
-
-        .product-name {
-            font-weight: 700;
-            color: var(--primary-color);
-        }
-
-        .pack-info {
-            color: var(--text-light);
-            font-size: 12px;
-            font-weight: 500;
-        }
-
-        .skeleton-loader {
-            display: none;
-            padding: var(--spacing-lg);
-        }
-
-        .skeleton-loader.show {
-            display: block;
-        }
+        .skeleton-loader { display: none; padding: var(--spacing-lg); }
+        .skeleton-loader.show { display: block; }
 
         .skeleton-row {
             height: 52px;
             background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
             background-size: 200% 100%;
             animation: skeleton-loading 1.5s infinite;
-            margin-bottom: var(--spacing-sm);
-            border-radius: var(--radius-md);
+            margin-bottom: var(--spacing-sm); border-radius: var(--radius-md);
         }
 
         @keyframes skeleton-loading {
@@ -699,133 +394,57 @@
             100% { background-position: -200% 0; }
         }
 
-        /* ============================================
-           EMPTY STATE - FRIENDLY DESIGN
-           ============================================ */
-        .empty-state {
-            text-align: center;
-            padding: 50px 20px;
-            color: var(--text-light);
-            display: none;
-        }
-
-        .empty-state.show {
-            display: block;
-            animation: fadeIn 0.4s ease-out;
-        }
-
-        .empty-state-icon {
-            font-size: 64px;
-            margin-bottom: var(--spacing-md);
-            opacity: 0.4;
-            animation: bounce 2s ease-in-out infinite;
-        }
+        .empty-state { text-align: center; padding: 50px 20px; color: var(--text-light); display: none; }
+        .empty-state.show { display: block; animation: fadeIn 0.4s ease-out; }
+        .empty-state-icon { font-size: 64px; margin-bottom: var(--spacing-md); opacity: 0.4; animation: bounce 2s ease-in-out infinite; }
 
         @keyframes bounce {
             0%, 100% { transform: translateY(0); }
             50% { transform: translateY(-10px); }
         }
 
-        .empty-state-text {
-            font-size: 15px;
-            line-height: 1.6;
-            font-weight: 500;
-        }
+        .empty-state-text { font-size: 15px; line-height: 1.6; font-weight: 500; }
 
-        /* ============================================
-           CONTACT US BUTTON - NEW FEATURE
-           ============================================ */
         .contact-us-section {
-            margin-top: var(--spacing-lg);
-            text-align: center;
-            padding-top: var(--spacing-lg);
-            border-top: 2px solid var(--border-color);
+            margin-top: var(--spacing-lg); text-align: center;
+            padding-top: var(--spacing-lg); border-top: 2px solid var(--border-color);
         }
 
         .contact-btn {
-            display: inline-flex;
-            align-items: center;
-            gap: var(--spacing-sm);
+            display: inline-flex; align-items: center; gap: var(--spacing-sm);
             padding: 14px 32px;
             background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
-            color: white;
-            border: none;
-            border-radius: var(--radius-full);
-            font-size: 15px;
-            font-weight: 700;
-            cursor: pointer;
+            color: white; border: none; border-radius: var(--radius-full);
+            font-size: 15px; font-weight: 700; cursor: pointer;
             transition: var(--transition-smooth);
-            box-shadow: 0 4px 20px rgba(6, 133, 134, 0.35);
-            text-decoration: none;
-            text-transform: uppercase;
-            letter-spacing: 0.8px;
-            position: relative;
-            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(6,133,134,0.35);
+            text-decoration: none; text-transform: uppercase; letter-spacing: 0.8px;
+            position: relative; overflow: hidden;
         }
 
         .contact-btn::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 100%;
+            content: ''; position: absolute; top: 0; left: -100%;
+            width: 100%; height: 100%;
             background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
             transition: left 0.5s;
         }
 
-        .contact-btn:hover::before {
-            left: 100%;
-        }
-
-        .contact-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 28px rgba(6, 133, 134, 0.45);
-            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-color) 100%);
-        }
-
-        .contact-btn:active {
-            transform: translateY(-1px);
-        }
-
-        .contact-icon {
-            font-size: 18px;
-            animation: pulse 2s ease-in-out infinite;
-        }
+        .contact-btn:hover::before { left: 100%; }
+        .contact-btn:hover { transform: translateY(-3px); box-shadow: 0 8px 28px rgba(6,133,134,0.45); background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-color) 100%); }
+        .contact-btn:active { transform: translateY(-1px); }
+        .contact-icon { font-size: 18px; animation: pulse 2s ease-in-out infinite; }
 
         @keyframes pulse {
             0%, 100% { transform: scale(1); }
             50% { transform: scale(1.1); }
         }
 
-        .contact-text {
-            position: relative; z-index: 1;
-        }
+        .contact-text { position: relative; z-index: 1; }
 
-        /* ============================================
-           SCROLLBAR CUSTOMIZATION
-           ============================================ */
-        .table-container::-webkit-scrollbar,
-        .search-suggestions::-webkit-scrollbar {
-            width: 8px;
-        }
+        .table-container::-webkit-scrollbar, .search-suggestions::-webkit-scrollbar { width: 8px; }
+        .table-container::-webkit-scrollbar-track, .search-suggestions::-webkit-scrollbar-track { background: #f1f1f1; border-radius: var(--radius-full); }
+        .table-container::-webkit-scrollbar-thumb, .search-suggestions::-webkit-scrollbar-thumb { background: var(--primary-color); border-radius: var(--radius-full); border: 2px solid #f1f1f1; }
 
-        .table-container::-webkit-scrollbar-track,
-        .search-suggestions::-webkit-scrollbar-track {
-            background: #f1f1f1;
-            border-radius: var(--radius-full);
-        }
-
-        .table-container::-webkit-scrollbar-thumb,
-        .search-suggestions::-webkit-scrollbar-thumb {
-            background: var(--primary-color);
-            border-radius: var(--radius-full);
-            border: 2px solid #f1f1f1;
-        }
-
-        /* ============================================
-           RESPONSIVE DESIGN - MOBILE OPTIMIZED
-           ============================================ */
         @media (max-width: 600px) {
             body { padding: var(--spacing-sm); }
             .container { padding: var(--spacing-lg) var(--spacing-md); border-radius: var(--radius-lg); margin-top: var(--spacing-sm); }
@@ -869,7 +488,7 @@
         </label>
         <div class="smart-search-container">
             <div class="input-wrapper">
-                <input type="text" id="smartSearch" class="smart-search-input" placeholder="Type medicine name... (e.g., Paracetamol)" autocomplete="off">
+                <input type="text" id="smartSearch" class="smart-search-input" placeholder="Type medicine name... (e.g., Paracetamol)" autocomplete="off" maxlength="100">
                 <span class="search-icon-input">🔎</span>
             </div>
             <button class="clear-search-btn" onclick="clearSmartSearch()">Clear</button>
@@ -944,14 +563,9 @@
 </div>
 
 <script>
-    /**
-     * =====================================================
-     * NAVKAR & PRONAVAKR SMART SEARCH - PREMIUM EDITION
-     * SECURITY ENFORCED - FIXED CORS, CLICKJACKING, CSP
-     * =====================================================
-     */
-
-    // FRAME-BUSTER SCRIPT (Anti-Clickjacking defense)
+    // =====================================================
+    // SECURITY: Frame-buster (Anti-Clickjacking)
+    // =====================================================
     if (top !== self) {
         top.location.replace(self.location.href);
     }
@@ -961,58 +575,63 @@
     let currentCategory = '';
     let currentCompanyType = '';
     let masterProductList = [];
-    
-    const performanceMetrics = {
-        searchCount: 0,
-        averageSearchTime: 0,
-        lastSearchTime: 0
-    };
 
+    // =====================================================
+    // SECURITY FIX: Input sanitizer — strips HTML/JS chars
+    // =====================================================
+    function sanitizeInput(input) {
+        if (!input) return '';
+        return String(input)
+            .replace(/[<>'"&]/g, '')
+            .replace(/javascript:/gi, '')
+            .replace(/on\w+\s*=/gi, '')
+            .trim()
+            .substring(0, 100);
+    }
+
+    // =====================================================
+    // SECURITY FIX: Safe text output — never use innerHTML
+    // for user/data content. Use textContent always.
+    // =====================================================
+    function safeText(text) {
+        if (!text) return '';
+        return String(text);
+    }
+
+    // =====================================================
+    // Memory Optimizer (unchanged, safe)
+    // =====================================================
     class MemoryOptimizer {
         constructor() {
             this.cache = new Map();
             this.maxCacheSize = 1500;
             this.cleanupInterval = null;
         }
-        
         init() {
             this.cleanupInterval = setInterval(() => this.cleanup(), 300000);
             window.addEventListener('beforeunload', () => this.destroy());
         }
-        
         addToCache(key, value) {
             if (this.cache.size >= this.maxCacheSize) {
                 const firstKey = this.cache.keys().next().value;
                 this.cache.delete(firstKey);
             }
-            this.cache.set(key, { value: value, timestamp: Date.now(), accessCount: 0 });
+            this.cache.set(key, { value, timestamp: Date.now(), accessCount: 0 });
         }
-        
         getFromCache(key) {
             const item = this.cache.get(key);
-            if (item) {
-                item.accessCount++;
-                item.lastAccessed = Date.now();
-                return item.value;
-            }
+            if (item) { item.accessCount++; item.lastAccessed = Date.now(); return item.value; }
             return null;
         }
-        
         cleanup() {
             const now = Date.now();
-            const maxAge = 600000;
             for (const [key, item] of this.cache.entries()) {
-                if (now - item.timestamp > maxAge) this.cache.delete(key);
+                if (now - item.timestamp > 600000) this.cache.delete(key);
             }
         }
-        
         destroy() {
             if (this.cleanupInterval) clearInterval(this.cleanupInterval);
             this.cache.clear();
-        }
-        
-        getStats() {
-            return { size: this.cache.size, maxSize: this.maxCacheSize, usage: `${((this.cache.size / this.maxCacheSize) * 100).toFixed(1)}%` };
         }
     }
 
@@ -1020,15 +639,26 @@
 
     function debounce(func, wait) {
         let timeout;
-        return function executedFunction(...args) {
-            const later = () => {
-                clearTimeout(timeout);
-                func(...args);
-            };
+        return function(...args) {
             clearTimeout(timeout);
-            timeout = setTimeout(later, wait);
+            timeout = setTimeout(() => func(...args), wait);
         };
     }
+
+    // =====================================================
+    // Rate Limiter — prevents search DoS abuse
+    // =====================================================
+    const searchRateLimiter = {
+        count: 0,
+        resetTime: Date.now() + 60000,
+        limit: 60,
+        check() {
+            if (Date.now() > this.resetTime) { this.count = 0; this.resetTime = Date.now() + 60000; }
+            if (this.count >= this.limit) return false;
+            this.count++;
+            return true;
+        }
+    };
 
     function loadMasterProductList() {
         masterProductList = [];
@@ -1066,29 +696,35 @@
             showError("Error loading product data");
         }
     }
-    
+
     function setupSmartSearch() {
         const searchInput = document.getElementById('smartSearch');
         const suggestionsDiv = document.getElementById('searchSuggestions');
         let currentIndex = -1;
-        
+
         const debouncedSearch = debounce((searchTerm) => {
+            // Rate limit check
+            if (!searchRateLimiter.check()) { showError('Too many searches. Please wait.'); return; }
             performOptimizedSearch(searchTerm);
         }, 300);
 
+        // SECURITY FIX: Use event delegation safely (no innerHTML in handler)
         suggestionsDiv.addEventListener('click', function(e) {
             const item = e.target.closest('.suggestion-item');
             if (!item) return;
+            // Read from dataset (set via textContent/dataset — safe)
             selectProduct(item.dataset.name, item.dataset.type, item.dataset.cat, item.dataset.comp);
         });
 
         searchInput.addEventListener('input', function() {
-            const searchTerm = this.value.toLowerCase().trim();
+            // SECURITY FIX: Sanitize input before search
+            const rawTerm = this.value;
+            const searchTerm = sanitizeInput(rawTerm).toLowerCase();
             currentIndex = -1;
-            if (searchTerm.length < 2) { 
-                suggestionsDiv.classList.remove('show'); 
+            if (searchTerm.length < 2) {
+                suggestionsDiv.classList.remove('show');
                 hideSearchLoading();
-                return; 
+                return;
             }
             showSearchLoading();
             debouncedSearch(searchTerm);
@@ -1099,7 +735,7 @@
                 suggestionsDiv.classList.remove('show');
             }
         });
-        
+
         searchInput.addEventListener('keydown', function(e) {
             const items = suggestionsDiv.querySelectorAll('.suggestion-item');
             if (e.key === 'ArrowDown') {
@@ -1120,7 +756,7 @@
     function performOptimizedSearch(searchTerm) {
         const cachedResults = memoryOptimizer.getFromCache(`search_${searchTerm}`);
         if (cachedResults) { displaySuggestions(cachedResults); hideSearchLoading(); return; }
-        
+
         let matches = masterProductList.filter(item => {
             const productName = (item["Product Name"] || '').toLowerCase();
             const pack = (item["Pack"] || '').toLowerCase();
@@ -1133,24 +769,55 @@
             if (seen.has(key)) return false;
             seen.add(key); return true;
         }).slice(0, 12);
-        
+
         memoryOptimizer.addToCache(`search_${searchTerm}`, uniqueMatches);
         displaySuggestions(uniqueMatches);
         hideSearchLoading();
     }
 
+    // =====================================================
+    // SECURITY FIX: displaySuggestions — NO innerHTML
+    // Uses createElement + textContent only (XSS safe)
+    // =====================================================
     function displaySuggestions(matches) {
         const suggestionsDiv = document.getElementById('searchSuggestions');
+        suggestionsDiv.innerHTML = ''; // Clear only — no user data here
+
         if (matches.length > 0) {
-            suggestionsDiv.innerHTML = matches.map(match => `
-                <div class="suggestion-item" data-name="${escapeHtml(match["Product Name"])}" data-type="${match.companyType}" data-cat="${match.category}" data-comp="${escapeHtml(match.displayCompany)}">
-                    <div class="suggestion-content">
-                        <span class="suggestion-product">${escapeHtml(match["Product Name"])}</span>
-                        <span class="suggestion-company">${escapeHtml(match.displayCompany)}</span>
-                    </div>
-                    <span class="suggestion-pack">${escapeHtml(match["Pack"] || '-')}</span>
-                </div>
-            `).join('');
+            const fragment = document.createDocumentFragment();
+
+            matches.forEach(match => {
+                const div = document.createElement('div');
+                div.className = 'suggestion-item';
+                // dataset assignment is safe — no HTML parsing
+                div.dataset.name = safeText(match["Product Name"]);
+                div.dataset.type = safeText(match.companyType);
+                div.dataset.cat  = safeText(match.category);
+                div.dataset.comp = safeText(match.displayCompany);
+
+                const contentDiv = document.createElement('div');
+                contentDiv.className = 'suggestion-content';
+
+                const productSpan = document.createElement('span');
+                productSpan.className = 'suggestion-product';
+                productSpan.textContent = safeText(match["Product Name"]); // textContent = safe
+
+                const companySpan = document.createElement('span');
+                companySpan.className = 'suggestion-company';
+                companySpan.textContent = safeText(match.displayCompany);
+
+                const packSpan = document.createElement('span');
+                packSpan.className = 'suggestion-pack';
+                packSpan.textContent = safeText(match["Pack"]) || '-';
+
+                contentDiv.appendChild(productSpan);
+                contentDiv.appendChild(companySpan);
+                div.appendChild(contentDiv);
+                div.appendChild(packSpan);
+                fragment.appendChild(div);
+            });
+
+            suggestionsDiv.appendChild(fragment);
             suggestionsDiv.classList.add('show');
         } else {
             suggestionsDiv.classList.remove('show');
@@ -1159,10 +826,8 @@
 
     function highlightSuggestion(items, index) {
         items.forEach((item, i) => {
-            if (i === index) {
-                item.classList.add('highlighted');
-                item.scrollIntoView({ block: 'nearest' });
-            } else { item.classList.remove('highlighted'); }
+            if (i === index) { item.classList.add('highlighted'); item.scrollIntoView({ block: 'nearest' }); }
+            else { item.classList.remove('highlighted'); }
         });
     }
 
@@ -1178,31 +843,32 @@
             updateCompanyDropdown();
             setTimeout(() => {
                 const companySelect = document.getElementById('companySelect');
-                for(let i = 0; i < companySelect.options.length; i++) {
-                    if(companySelect.options[i].text === companyName) { companySelect.value = companySelect.options[i].value; break; }
+                for (let i = 0; i < companySelect.options.length; i++) {
+                    if (companySelect.options[i].text === companyName) { companySelect.value = companySelect.options[i].value; break; }
                 }
                 showProducts();
                 setTimeout(() => {
-                    document.getElementById('smartSearch').value = productName;
+                    // SECURITY FIX: Use value assignment (safe), not innerHTML
+                    document.getElementById('smartSearch').value = safeText(productName);
                     filterProductsToSpecific(productName);
-                    showSuccess(`✅ Found: ${productName}`);
+                    showSuccess('Found: ' + safeText(productName));
                 }, 100);
             }, 100);
         }, 100);
     }
-    
+
     function filterProductsToSpecific(productName) {
         if (!currentCompany) return;
         let toDisplay = allProducts.filter(item => (item["Company Name"] || item["Company"]) === currentCompany);
         toDisplay = toDisplay.filter(item => (item["Product Name"] || '').toLowerCase() === productName.toLowerCase());
         displayProducts(toDisplay);
     }
-    
+
     function clearSmartSearch() {
         document.getElementById('smartSearch').value = '';
         document.getElementById('searchSuggestions').classList.remove('show');
         hideSearchLoading();
-        if(currentCompany) showProducts();
+        if (currentCompany) showProducts();
     }
 
     function updateCategoryDropdown() {
@@ -1221,7 +887,7 @@
         }
         categorySelect.disabled = false;
     }
-    
+
     function updateCompanyDropdown() {
         const category = document.getElementById('categorySelect').value;
         const companySelect = document.getElementById('companySelect');
@@ -1241,19 +907,24 @@
             const companies = [...new Set(allProducts.map(item => (item["Company Name"] || item["Company"] || "").trim()).filter(Boolean))].sort();
             companies.forEach(comp => {
                 const opt = document.createElement('option');
-                opt.value = comp; opt.textContent = comp;
+                opt.value = comp;
+                opt.textContent = comp; // textContent — safe
                 companySelect.appendChild(opt);
             });
             companySelect.disabled = false;
         } catch (err) { showError("Error loading category data"); }
     }
-    
+
     function showProducts() {
         const company = document.getElementById('companySelect').value;
         currentCompany = company;
         if (company) displayProducts(allProducts.filter(item => (item["Company Name"] || item["Company"]).trim() === company));
     }
 
+    // =====================================================
+    // SECURITY FIX: displayProducts — NO innerHTML for data
+    // Uses createElement + textContent (XSS safe)
+    // =====================================================
     function displayProducts(products) {
         const tbody = document.getElementById('productTableBody');
         const tableWrapper = document.getElementById('tableWrapper');
@@ -1261,61 +932,77 @@
         const infoText = document.getElementById('infoText');
         const emptyState = document.getElementById('emptyState');
         const skeletonLoader = document.getElementById('tableSkeleton');
-        
+
         tableWrapper.classList.remove('show');
         infoBar.classList.remove('show');
         emptyState.classList.remove('show');
         skeletonLoader.classList.add('show');
-        
+
         setTimeout(() => {
             skeletonLoader.classList.remove('show');
-            if (!products || products.length === 0) { emptyState.classList.add('show'); tbody.innerHTML = ''; return; }
+            if (!products || products.length === 0) {
+                emptyState.classList.add('show');
+                tbody.innerHTML = '';
+                return;
+            }
             const fragment = document.createDocumentFragment();
             products.forEach(item => {
                 const row = document.createElement('tr');
-                row.innerHTML = `<td class="product-name">${escapeHtml(item["Product Name"] || 'N/A')}</td><td class="pack-info">${escapeHtml(item["Pack"] || '-')}</td>`;
+
+                // SECURITY FIX: textContent instead of innerHTML
+                const td1 = document.createElement('td');
+                td1.className = 'product-name';
+                td1.textContent = safeText(item["Product Name"]) || 'N/A';
+
+                const td2 = document.createElement('td');
+                td2.className = 'pack-info';
+                td2.textContent = safeText(item["Pack"]) || '-';
+
+                row.appendChild(td1);
+                row.appendChild(td2);
                 fragment.appendChild(row);
             });
             tbody.innerHTML = '';
             tbody.appendChild(fragment);
             tableWrapper.classList.add('show');
-            infoText.innerHTML = `📦 ${products.length.toLocaleString()} Products available`;
+
+            // SECURITY FIX: textContent for count display
+            infoText.textContent = '📦 ' + products.length.toLocaleString() + ' Products available';
             infoBar.classList.add('show');
         }, 300);
     }
 
-    function escapeHtml(text) {
-        if (!text) return '';
-        const div = document.createElement('div');
-        div.textContent = text;
-        return div.innerHTML;
-    }
-    
+    // =====================================================
+    // SECURITY FIX: showError/showSuccess — textContent only
+    // =====================================================
     function showError(message) {
         const errorMsg = document.getElementById('errorMessage');
-        errorMsg.innerHTML = `<span>❌</span> ${message}`;
+        errorMsg.textContent = '❌ ' + safeText(message);
         errorMsg.classList.add('show');
         setTimeout(() => errorMsg.classList.remove('show'), 4500);
     }
-    
+
     function showSuccess(message) {
         const successMsg = document.getElementById('successMessage');
-        successMsg.innerHTML = `<span>✅</span> ${message}`;
+        successMsg.textContent = '✅ ' + safeText(message);
         successMsg.classList.add('show');
         setTimeout(() => successMsg.classList.remove('show'), 3500);
     }
 
+    // =====================================================
+    // Init
+    // =====================================================
     window.addEventListener('load', () => {
         loadMasterProductList();
         setupSmartSearch();
         memoryOptimizer.init();
-        if(masterProductList.length === 0) showError("⚠️ No data files found!");
-        else showSuccess(`✅ System Secure & Loaded!`);
+        if (masterProductList.length === 0) showError("No data files found!");
+        else showSuccess("System Secure & Loaded!");
     });
 
     document.addEventListener('visibilitychange', () => {
-        if (document.hidden) console.log('⏸️ Security Monitor: Paused');
-        else console.log('▶️ Security Monitor: Resumed');
+        if (document.hidden) console.log('Security Monitor: Paused');
+        else console.log('Security Monitor: Resumed');
     });
 </script>
 
