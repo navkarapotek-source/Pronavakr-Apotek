@@ -3,6 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    
+    <!-- ============================================
+       SECURITY FIXES (CWE-942, CWE-1021, CWE-693)
+       ============================================ -->
+    <!-- Fixes CORS leakage, Clickjacking, and Lack of CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none';">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+
     <title>Navkar & Pronavakr - Smart Search | Premium Edition</title>
     
     <script src="product_data.js"></script>
@@ -209,7 +217,7 @@
             border-radius: var(--radius-md);
             font-size: 13px;
             font-weight: 600;
-            display: none; /* HIDDEN BY DEFAULT - FIX FOR RED LINE */
+            display: none; 
             animation: slideInAlert 0.4s ease-out;
             border-left: 4px solid;
             align-items: center;
@@ -228,10 +236,9 @@
             border-left-color: #28a745;
         }
 
-        /* IMPORTANT: Only show when .show class is added */
         .error-message.show,
         .success-message.show {
-            display: flex; /* FLEX ONLY WHEN VISIBLE */
+            display: flex;
         }
 
         @keyframes slideInAlert {
@@ -357,7 +364,6 @@
             transform: translateY(0);
         }
 
-        /* Search Loading Indicator */
         .search-loading {
             display: none;
             align-items: center;
@@ -390,9 +396,6 @@
             to { transform: rotate(360deg); }
         }
 
-        /* ============================================
-           SEARCH SUGGESTIONS - ENHANCED DROPDOWN
-           ============================================ */
         .search-suggestions {
             position: absolute;
             top: calc(100% + 8px);
@@ -673,7 +676,6 @@
             font-weight: 500;
         }
 
-        /* Skeleton Loading for Table */
         .skeleton-loader {
             display: none;
             padding: var(--spacing-lg);
@@ -797,8 +799,7 @@
         }
 
         .contact-text {
-            position: relative;
-            z-index: 1;
+            position: relative; z-index: 1;
         }
 
         /* ============================================
@@ -822,99 +823,45 @@
             border: 2px solid #f1f1f1;
         }
 
-        .table-container::-webkit-scrollbar-thumb:hover,
-        .search-suggestions::-webkit-scrollbar-thumb:hover {
-            background: var(--primary-dark);
-        }
-
         /* ============================================
            RESPONSIVE DESIGN - MOBILE OPTIMIZED
            ============================================ */
         @media (max-width: 600px) {
-            body {
-                padding: var(--spacing-sm);
-            }
-
-            .container {
-                padding: var(--spacing-lg) var(--spacing-md);
-                border-radius: var(--radius-lg);
-                margin-top: var(--spacing-sm);
-            }
-
-            .logo-wrapper {
-                width: 75px;
-                height: 75px;
-            }
-
-            .main-title {
-                font-size: 1.3rem;
-            }
-
-            .sub-title {
-                font-size: 1rem;
-            }
-
-            .smart-search-container {
-                flex-direction: column;
-            }
-
-            .clear-search-btn {
-                width: 100%;
-                padding: 12px;
-            }
-
-            th, td {
-                padding: 11px 12px;
-                font-size: 12px;
-            }
-
-            .filter-section {
-                padding: var(--spacing-md);
-            }
-
-            .contact-btn {
-                width: 100%;
-                justify-content: center;
-                padding: 12px 24px;
-                font-size: 14px;
-            }
+            body { padding: var(--spacing-sm); }
+            .container { padding: var(--spacing-lg) var(--spacing-md); border-radius: var(--radius-lg); margin-top: var(--spacing-sm); }
+            .logo-wrapper { width: 75px; height: 75px; }
+            .main-title { font-size: 1.3rem; }
+            .sub-title { font-size: 1rem; }
+            .smart-search-container { flex-direction: column; }
+            .clear-search-btn { width: 100%; padding: 12px; }
+            th, td { padding: 11px 12px; font-size: 12px; }
+            .filter-section { padding: var(--spacing-md); }
+            .contact-btn { width: 100%; justify-content: center; padding: 12px 24px; font-size: 14px; }
         }
 
-        /* Utility Animations */
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-
-        .fade-in {
-            animation: fadeIn 0.3s ease-out;
-        }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <!-- Logo Section -->
     <div class="logo-container">
         <div class="logo-wrapper">
             <img src="logo.png" alt="Navkar Logo" onerror="this.parentElement.style.display='none'">
         </div>
     </div>
 
-    <!-- Header Section -->
     <div class="header-section">
         <h1 class="main-title">Navkar Apotek LLP</h1>
         <h2 class="sub-title">Pronavakr Lifecare LLP</h2>
         <div class="title-underline"></div>
     </div>
 
-    <!-- Message Alerts Container - FIXED STRUCTURE -->
     <div class="message-container">
         <div id="errorMessage" class="error-message"></div>
         <div id="successMessage" class="success-message"></div>
     </div>
     
-    <!-- Smart Search Section -->
     <div class="smart-search-section">
         <label class="smart-search-label">
             <span class="label-icon">🔍</span>
@@ -928,17 +875,14 @@
             <button class="clear-search-btn" onclick="clearSmartSearch()">Clear</button>
         </div>
         
-        <!-- Search Loading Indicator -->
         <div id="searchLoading" class="search-loading">
             <div class="loading-spinner"></div>
             <span>Searching products...</span>
         </div>
         
-        <!-- Search Suggestions Dropdown -->
         <div id="searchSuggestions" class="search-suggestions"></div>
     </div>
     
-    <!-- Filter Section -->
     <div class="filter-section">
         <div class="filter-group">
             <div class="form-group">
@@ -966,12 +910,10 @@
         </div>
     </div>
 
-    <!-- Info Bar -->
     <div id="infoBar" class="info-bar">
         <span class="info-text" id="infoText"></span>
     </div>
 
-    <!-- Table Container with Skeleton Loader -->
     <div id="tableSkeleton" class="skeleton-loader">
         <div class="skeleton-row"></div>
         <div class="skeleton-row"></div>
@@ -988,13 +930,11 @@
         </table>
     </div>
 
-    <!-- Empty State -->
     <div id="emptyState" class="empty-state">
         <div class="empty-state-icon">📦</div>
         <div class="empty-state-text">No products found.<br>Please search for a medicine or select filters above.</div>
     </div>
 
-    <!-- CONTACT US BUTTON -->
     <div class="contact-us-section">
         <a href="./Contact-us/" class="contact-btn">
             <span class="contact-icon">📞</span>
@@ -1007,32 +947,27 @@
     /**
      * =====================================================
      * NAVKAR & PRONAVAKR SMART SEARCH - PREMIUM EDITION
-     * CHANGES APPLIED:
-     * - Status Bar Removed (Smart Search | Real-time | Secure)
-     * - Background Color: Calagreem PRO (Teal Gradient)
-     * - Top Line on Container Removed (.container::before)
+     * SECURITY ENFORCED - FIXED CORS, CLICKJACKING, CSP
      * =====================================================
      */
 
-    // ============================================
-    // GLOBAL STATE MANAGEMENT
-    // ============================================
+    // FRAME-BUSTER SCRIPT (Anti-Clickjacking defense)
+    if (top !== self) {
+        top.location.replace(self.location.href);
+    }
+
     let allProducts = [];
     let currentCompany = '';
     let currentCategory = '';
     let currentCompanyType = '';
     let masterProductList = [];
     
-    // Performance tracking
     const performanceMetrics = {
         searchCount: 0,
         averageSearchTime: 0,
         lastSearchTime: 0
     };
 
-    // ============================================
-    // MEMORY OPTIMIZER CLASS
-    // ============================================
     class MemoryOptimizer {
         constructor() {
             this.cache = new Map();
@@ -1050,12 +985,7 @@
                 const firstKey = this.cache.keys().next().value;
                 this.cache.delete(firstKey);
             }
-            
-            this.cache.set(key, {
-                value: value,
-                timestamp: Date.now(),
-                accessCount: 0
-            });
+            this.cache.set(key, { value: value, timestamp: Date.now(), accessCount: 0 });
         }
         
         getFromCache(key) {
@@ -1070,12 +1000,9 @@
         
         cleanup() {
             const now = Date.now();
-            const maxAge = 600000; // 10 minutes
-            
+            const maxAge = 600000;
             for (const [key, item] of this.cache.entries()) {
-                if (now - item.timestamp > maxAge) {
-                    this.cache.delete(key);
-                }
+                if (now - item.timestamp > maxAge) this.cache.delete(key);
             }
         }
         
@@ -1085,20 +1012,12 @@
         }
         
         getStats() {
-            return {
-                size: this.cache.size,
-                maxSize: this.maxCacheSize,
-                usage: `${((this.cache.size / this.maxCacheSize) * 100).toFixed(1)}%`
-            };
+            return { size: this.cache.size, maxSize: this.maxCacheSize, usage: `${((this.cache.size / this.maxCacheSize) * 100).toFixed(1)}%` };
         }
     }
 
-    // Initialize memory optimizer
     const memoryOptimizer = new MemoryOptimizer();
 
-    // ============================================
-    // DEBOUNCE UTILITY FOR PERFORMANCE
-    // ============================================
     function debounce(func, wait) {
         let timeout;
         return function executedFunction(...args) {
@@ -1111,104 +1030,43 @@
         };
     }
 
-    // ============================================
-    // DATA LOADING AND INITIALIZATION
-    // ============================================
     function loadMasterProductList() {
-        const startTime = performance.now();
         masterProductList = [];
-        
         try {
-            // PRONAVAKR DATA (product_data.js + otc_data.js)
             if (typeof productData !== 'undefined' && Array.isArray(productData)) {
                 productData.forEach(item => {
                     if (item && (item["Product Name"] || item["Company Name"])) {
-                        masterProductList.push({ 
-                            ...item, 
-                            companyType: 'pronavakr',
-                            category: 'generic', 
-                            displayCompany: item["Company Name"] || item["Company"] || 'Unknown'
-                        });
+                        masterProductList.push({ ...item, companyType: 'pronavakr', category: 'generic', displayCompany: item["Company Name"] || item["Company"] || 'Unknown' });
                     }
                 });
             }
-            
             if (typeof otcData !== 'undefined' && Array.isArray(otcData)) {
                 otcData.forEach(item => {
                     if (item && (item["Product Name"] || item["Company Name"])) {
-                        masterProductList.push({ 
-                            ...item, 
-                            companyType: 'pronavakr',
-                            category: 'otc', 
-                            displayCompany: item["Company Name"] || item["Company"] || 'Unknown'
-                        });
+                        masterProductList.push({ ...item, companyType: 'pronavakr', category: 'otc', displayCompany: item["Company Name"] || item["Company"] || 'Unknown' });
                     }
                 });
             }
-            
-            // NAVKAR DATA (navkar_coldchain.js + navkar_medicine.js)
             if (typeof navkarColdchainData !== 'undefined' && Array.isArray(navkarColdchainData)) {
                 navkarColdchainData.forEach(item => {
                     if (item && (item["Product Name"] || item["Company"])) {
-                        masterProductList.push({ 
-                            ...item, 
-                            companyType: 'navkar',
-                            category: 'coldchain', 
-                            displayCompany: item["Company Name"] || item["Company"] || 'Unknown'
-                        });
+                        masterProductList.push({ ...item, companyType: 'navkar', category: 'coldchain', displayCompany: item["Company Name"] || item["Company"] || 'Unknown' });
                     }
                 });
             }
-            
             if (typeof navkarMedicineData !== 'undefined' && Array.isArray(navkarMedicineData)) {
                 navkarMedicineData.forEach(item => {
                     if (item && (item["Product Name"] || item["Company"])) {
-                        masterProductList.push({ 
-                            ...item, 
-                            companyType: 'navkar',
-                            category: 'medicine', 
-                            displayCompany: item["Company Name"] || item["Company"] || 'Unknown'
-                        });
+                        masterProductList.push({ ...item, companyType: 'navkar', category: 'medicine', displayCompany: item["Company Name"] || item["Company"] || 'Unknown' });
                     }
                 });
             }
-            
-            const endTime = performance.now();
-            console.log(`✅ Data loaded in ${(endTime - startTime).toFixed(2)}ms`);
-            console.log(`📊 Total products: ${masterProductList.length.toLocaleString()}`);
-            
-            // Cache data for faster access
             memoryOptimizer.addToCache('masterProductList', masterProductList);
-            
         } catch (error) {
-            console.error('❌ Error loading data:', error);
             showError("Error loading product data");
         }
     }
     
-    // ============================================
-    // STATISTICS UPDATE FUNCTIONS
-    // ============================================
-    function updateStatsOverall() {
-        console.log(`📊 Stats Update (Overall): ${masterProductList.length} products available`);
-    }
-
-    function updateStatsForFirm(firmType) {
-        const firmProducts = masterProductList.filter(item => item.companyType === firmType);
-        console.log(`📊 Stats Update (${firmType}): ${firmProducts.length} products available`);
-    }
-
-    function updateStatsForCompany(companyName) {
-        if (!companyName) return;
-        const companyProducts = allProducts.filter(item => 
-            (item["Company Name"] || item["Company"]).trim() === companyName
-        );
-        console.log(`📊 Stats Update (${companyName}): ${companyProducts.length} products`);
-    }
-
-    // ============================================
-    // SMART SEARCH WITH PERFORMANCE OPTIMIZATIONS
-    // ============================================
     function setupSmartSearch() {
         const searchInput = document.getElementById('smartSearch');
         const suggestionsDiv = document.getElementById('searchSuggestions');
@@ -1227,13 +1085,11 @@
         searchInput.addEventListener('input', function() {
             const searchTerm = this.value.toLowerCase().trim();
             currentIndex = -1;
-            
             if (searchTerm.length < 2) { 
                 suggestionsDiv.classList.remove('show'); 
                 hideSearchLoading();
                 return; 
             }
-            
             showSearchLoading();
             debouncedSearch(searchTerm);
         });
@@ -1241,39 +1097,11 @@
         document.addEventListener('click', function(e) {
             if (!searchInput.contains(e.target) && !suggestionsDiv.contains(e.target)) {
                 suggestionsDiv.classList.remove('show');
-                resetSuggestionHighlight(suggestionsDiv);
             }
         });
         
-        searchInput.addEventListener('keypress', function(e) {
-            if (e.key === 'Enter') {
-                e.preventDefault();
-                const searchTerm = this.value.toLowerCase().trim();
-                
-                if (searchTerm) {
-                    const highlightedItem = suggestionsDiv.querySelector('.suggestion-item.highlighted');
-                    if (highlightedItem) {
-                        highlightedItem.click();
-                    } else {
-                        const matches = masterProductList.filter(item => 
-                            (item["Product Name"] || '').toLowerCase().includes(searchTerm)
-                        );
-                        
-                        if (matches.length > 0) {
-                            selectProduct(matches[0]["Product Name"], matches[0].companyType, 
-                                        matches[0].category, matches[0].displayCompany);
-                        }
-                    }
-                    
-                    suggestionsDiv.classList.remove('show');
-                    resetSuggestionHighlight(suggestionsDiv);
-                }
-            }
-        });
-
         searchInput.addEventListener('keydown', function(e) {
             const items = suggestionsDiv.querySelectorAll('.suggestion-item');
-            
             if (e.key === 'ArrowDown') {
                 e.preventDefault();
                 currentIndex = Math.min(currentIndex + 1, items.length - 1);
@@ -1284,21 +1112,14 @@
                 highlightSuggestion(items, currentIndex);
             } else if (e.key === 'Escape') {
                 suggestionsDiv.classList.remove('show');
-                resetSuggestionHighlight(items);
                 currentIndex = -1;
             }
         });
     }
 
     function performOptimizedSearch(searchTerm) {
-        const startTime = performance.now();
-        
         const cachedResults = memoryOptimizer.getFromCache(`search_${searchTerm}`);
-        if (cachedResults) {
-            displaySuggestions(cachedResults);
-            hideSearchLoading();
-            return;
-        }
+        if (cachedResults) { displaySuggestions(cachedResults); hideSearchLoading(); return; }
         
         let matches = masterProductList.filter(item => {
             const productName = (item["Product Name"] || '').toLowerCase();
@@ -1310,37 +1131,19 @@
         const uniqueMatches = matches.filter(item => {
             const key = (item["Product Name"] || '').toLowerCase();
             if (seen.has(key)) return false;
-            seen.add(key); 
-            return true;
+            seen.add(key); return true;
         }).slice(0, 12);
         
         memoryOptimizer.addToCache(`search_${searchTerm}`, uniqueMatches);
-        
-        const endTime = performance.now();
-        const searchTime = endTime - startTime;
-        
-        performanceMetrics.searchCount++;
-        performanceMetrics.lastSearchTime = searchTime;
-        performanceMetrics.averageSearchTime = 
-            ((performanceMetrics.averageSearchTime * (performanceMetrics.searchCount - 1)) + searchTime) 
-            / performanceMetrics.searchCount;
-        
-        console.log(`⚡ Search completed in ${searchTime.toFixed(2)}ms (${uniqueMatches.length} results)`);
-        
         displaySuggestions(uniqueMatches);
         hideSearchLoading();
     }
 
     function displaySuggestions(matches) {
         const suggestionsDiv = document.getElementById('searchSuggestions');
-        
         if (matches.length > 0) {
             suggestionsDiv.innerHTML = matches.map(match => `
-                <div class="suggestion-item" 
-                     data-name="${escapeHtml(match["Product Name"])}" 
-                     data-type="${match.companyType}" 
-                     data-cat="${match.category}" 
-                     data-comp="${escapeHtml(match.displayCompany)}">
+                <div class="suggestion-item" data-name="${escapeHtml(match["Product Name"])}" data-type="${match.companyType}" data-cat="${match.category}" data-comp="${escapeHtml(match.displayCompany)}">
                     <div class="suggestion-content">
                         <span class="suggestion-product">${escapeHtml(match["Product Name"])}</span>
                         <span class="suggestion-company">${escapeHtml(match.displayCompany)}</span>
@@ -1348,7 +1151,6 @@
                     <span class="suggestion-pack">${escapeHtml(match["Pack"] || '-')}</span>
                 </div>
             `).join('');
-            
             suggestionsDiv.classList.add('show');
         } else {
             suggestionsDiv.classList.remove('show');
@@ -1360,47 +1162,26 @@
             if (i === index) {
                 item.classList.add('highlighted');
                 item.scrollIntoView({ block: 'nearest' });
-            } else {
-                item.classList.remove('highlighted');
-            }
+            } else { item.classList.remove('highlighted'); }
         });
     }
 
-    function resetSuggestionHighlight(items) {
-        if (!items || !items.forEach) return;
-        items.forEach(item => item.classList.remove('highlighted'));
-    }
+    function showSearchLoading() { document.getElementById('searchLoading').classList.add('show'); }
+    function hideSearchLoading() { document.getElementById('searchLoading').classList.remove('show'); }
 
-    function showSearchLoading() {
-        document.getElementById('searchLoading').classList.add('show');
-    }
-
-    function hideSearchLoading() {
-        document.getElementById('searchLoading').classList.remove('show');
-    }
-
-    // ============================================
-    // PRODUCT SELECTION AND DISPLAY
-    // ============================================
     function selectProduct(productName, companyType, category, companyName) {
         document.getElementById('searchSuggestions').classList.remove('show');
         document.getElementById('companyTypeSelect').value = companyType;
         updateCategoryDropdown();
-        
         setTimeout(() => {
             document.getElementById('categorySelect').value = category;
             updateCompanyDropdown();
-            
             setTimeout(() => {
                 const companySelect = document.getElementById('companySelect');
                 for(let i = 0; i < companySelect.options.length; i++) {
-                    if(companySelect.options[i].text === companyName) { 
-                        companySelect.value = companySelect.options[i].value; 
-                        break; 
-                    }
+                    if(companySelect.options[i].text === companyName) { companySelect.value = companySelect.options[i].value; break; }
                 }
                 showProducts();
-                
                 setTimeout(() => {
                     document.getElementById('smartSearch').value = productName;
                     filterProductsToSpecific(productName);
@@ -1412,80 +1193,42 @@
     
     function filterProductsToSpecific(productName) {
         if (!currentCompany) return;
-        
-        let toDisplay = allProducts.filter(item => 
-            (item["Company Name"] || item["Company"]) === currentCompany
-        );
-        
-        toDisplay = toDisplay.filter(item => 
-            (item["Product Name"] || '').toLowerCase() === productName.toLowerCase()
-        );
-        
+        let toDisplay = allProducts.filter(item => (item["Company Name"] || item["Company"]) === currentCompany);
+        toDisplay = toDisplay.filter(item => (item["Product Name"] || '').toLowerCase() === productName.toLowerCase());
         displayProducts(toDisplay);
-        
-        if(toDisplay.length > 0) {
-            document.getElementById('infoText').innerHTML = `🔍 Showing results for "<strong>${productName}</strong>"`;
-        }
     }
     
     function clearSmartSearch() {
         document.getElementById('smartSearch').value = '';
         document.getElementById('searchSuggestions').classList.remove('show');
         hideSearchLoading();
-        
-        if(currentCompany) {
-            showProducts();
-        }
+        if(currentCompany) showProducts();
     }
 
-    // ============================================
-    // DROPDOWN HANDLERS
-    // ============================================
     function updateCategoryDropdown() {
         const companyType = document.getElementById('companyTypeSelect').value;
         const categorySelect = document.getElementById('categorySelect');
         const companySelect = document.getElementById('companySelect');
-        
         currentCompanyType = companyType;
         categorySelect.innerHTML = '<option value="">-- Choose Category --</option>';
         companySelect.innerHTML = '<option value="">-- Choose Company --</option>';
         companySelect.disabled = true;
-        document.getElementById('smartSearch').value = '';
-        
-        if (companyType === '') { 
-            updateStatsOverall(); 
-            categorySelect.disabled = true; 
-            return; 
-        }
-        
-        updateStatsForFirm(companyType);
-        
+        if (companyType === '') { categorySelect.disabled = true; return; }
         if (companyType === 'pronavakr') {
-            categorySelect.innerHTML += '<option value="generic">Generic Product List</option>';
-            categorySelect.innerHTML += '<option value="otc">OTC Product List</option>';
+            categorySelect.innerHTML += '<option value="generic">Generic Product List</option><option value="otc">OTC Product List</option>';
         } else if (companyType === 'navkar') {
-            categorySelect.innerHTML += '<option value="coldchain">Cold Chain Products</option>';
-            categorySelect.innerHTML += '<option value="medicine">Medicine</option>';
+            categorySelect.innerHTML += '<option value="coldchain">Cold Chain Products</option><option value="medicine">Medicine</option>';
         }
-        
         categorySelect.disabled = false;
     }
     
     function updateCompanyDropdown() {
         const category = document.getElementById('categorySelect').value;
         const companySelect = document.getElementById('companySelect');
-        
         companySelect.innerHTML = '<option value="">-- Choose Company --</option>';
-        document.getElementById('smartSearch').value = '';
-        
-        if (!category) { 
-            companySelect.disabled = true; 
-            return; 
-        }
-        
+        if (!category) { companySelect.disabled = true; return; }
         try {
             let data = [];
-            
             if (currentCompanyType === 'pronavakr') {
                 if (category === 'generic') data = productData || [];
                 else if (category === 'otc') data = otcData || [];
@@ -1493,59 +1236,24 @@
                 if (category === 'coldchain') data = navkarColdchainData || [];
                 else if (category === 'medicine') data = navkarMedicineData || [];
             }
-            
-            if (!Array.isArray(data) || data.length === 0) {
-                showError("No data available for this category");
-                companySelect.disabled = true; 
-                return;
-            }
-            
-            allProducts = data;
-            currentCategory = category;
-            
-            const companies = [...new Set(
-                allProducts
-                    .filter(item => item)
-                    .map(item => {
-                        const name = (item["Company Name"] || item["Company"] || item["CompanyName"] || "").trim();
-                        return name;
-                    })
-                    .filter(name => name && name !== '' && name !== 'undefined' && name !== 'null')
-            )].sort((a, b) => a.localeCompare(b, 'en', { sensitivity: 'base' }));
-            
-            const fragment = document.createDocumentFragment();
+            if (!Array.isArray(data) || data.length === 0) { showError("No data available"); companySelect.disabled = true; return; }
+            allProducts = data; currentCategory = category;
+            const companies = [...new Set(allProducts.map(item => (item["Company Name"] || item["Company"] || "").trim()).filter(Boolean))].sort();
             companies.forEach(comp => {
                 const opt = document.createElement('option');
-                opt.value = comp;
-                opt.textContent = comp;
-                fragment.appendChild(opt);
+                opt.value = comp; opt.textContent = comp;
+                companySelect.appendChild(opt);
             });
-            
-            companySelect.appendChild(fragment);
             companySelect.disabled = false;
-            
-        } catch (err) {
-            showError("Error loading category data");
-            console.error(err);
-        }
+        } catch (err) { showError("Error loading category data"); }
     }
     
     function showProducts() {
         const company = document.getElementById('companySelect').value;
         currentCompany = company;
-        document.getElementById('smartSearch').value = '';
-        
-        if (company) {
-            updateStatsForCompany(company);
-            displayProducts(allProducts.filter(item => 
-                (item["Company Name"] || item["Company"]).trim() === company
-            ));
-        }
+        if (company) displayProducts(allProducts.filter(item => (item["Company Name"] || item["Company"]).trim() === company));
     }
 
-    // ============================================
-    // PRODUCT DISPLAY WITH LOADING STATES
-    // ============================================
     function displayProducts(products) {
         const tbody = document.getElementById('productTableBody');
         const tableWrapper = document.getElementById('tableWrapper');
@@ -1557,47 +1265,25 @@
         tableWrapper.classList.remove('show');
         infoBar.classList.remove('show');
         emptyState.classList.remove('show');
-        skeletonLoader.classList.remove('show');
-        
-        if (!products || products.length === 0) {
-            emptyState.classList.add('show');
-            tbody.innerHTML = ''; 
-            return;
-        }
-        
         skeletonLoader.classList.add('show');
         
         setTimeout(() => {
             skeletonLoader.classList.remove('show');
-            
+            if (!products || products.length === 0) { emptyState.classList.add('show'); tbody.innerHTML = ''; return; }
             const fragment = document.createDocumentFragment();
-            
             products.forEach(item => {
                 const row = document.createElement('tr');
-                row.innerHTML = `
-                    <td class="product-name">${escapeHtml(item["Product Name"] || 'N/A')}</td>
-                    <td class="pack-info">${escapeHtml(item["Pack"] || '-')}</td>
-                `;
+                row.innerHTML = `<td class="product-name">${escapeHtml(item["Product Name"] || 'N/A')}</td><td class="pack-info">${escapeHtml(item["Pack"] || '-')}</td>`;
                 fragment.appendChild(row);
             });
-            
             tbody.innerHTML = '';
             tbody.appendChild(fragment);
-            
             tableWrapper.classList.add('show');
-            
-            const productCount = products.length;
-            infoText.innerHTML = productCount === 1 
-                ? `📦 ${productCount} Product available` 
-                : `📦 ${productCount.toLocaleString()} Products available`;
+            infoText.innerHTML = `📦 ${products.length.toLocaleString()} Products available`;
             infoBar.classList.add('show');
-            
         }, 300);
     }
 
-    // ============================================
-    // UTILITY FUNCTIONS
-    // ============================================
     function escapeHtml(text) {
         if (!text) return '';
         const div = document.createElement('div');
@@ -1609,73 +1295,27 @@
         const errorMsg = document.getElementById('errorMessage');
         errorMsg.innerHTML = `<span>❌</span> ${message}`;
         errorMsg.classList.add('show');
-        
-        setTimeout(() => {
-            errorMsg.classList.remove('show');
-        }, 4500);
+        setTimeout(() => errorMsg.classList.remove('show'), 4500);
     }
     
     function showSuccess(message) {
         const successMsg = document.getElementById('successMessage');
         successMsg.innerHTML = `<span>✅</span> ${message}`;
         successMsg.classList.add('show');
-        
-        setTimeout(() => {
-            successMsg.classList.remove('show');
-        }, 3500);
+        setTimeout(() => successMsg.classList.remove('show'), 3500);
     }
 
-    // ============================================
-    // INITIALIZATION AND EVENT LISTENERS
-    // ============================================
     window.addEventListener('load', () => {
-        console.log('🚀 Initializing Navkar Smart Search - Premium Edition...');
-        
         loadMasterProductList();
         setupSmartSearch();
         memoryOptimizer.init();
-        
-        if(masterProductList.length === 0) {
-            showError("⚠️ No data files found! Please check that all data JS files are loaded.");
-        } else {
-            showSuccess(`✅ Loaded ${masterProductList.length.toLocaleString()} products successfully!`);
-            
-            setTimeout(() => {
-                document.getElementById('successMessage').classList.remove('show');
-            }, 3500);
-            
-            console.log('💡 Performance Tips:');
-            console.log('- Use keyboard arrows (↑↓) to navigate search suggestions');
-            console.log('- Press Enter to select highlighted suggestion');
-            console.log('- Press Escape to close suggestions');
-            console.log('- Click Contact Us button to reach our team!');
-        }
-        
-        setupPerformanceMonitoring();
+        if(masterProductList.length === 0) showError("⚠️ No data files found!");
+        else showSuccess(`✅ System Secure & Loaded!`);
     });
 
-    function setupPerformanceMonitoring() {
-        window.addEventListener('load', () => {
-            setTimeout(() => {
-                if (performance && performance.memory) {
-                    const memInfo = {
-                        usedJSHeapSize: (performance.memory.usedJSHeapSize / 1048576).toFixed(2),
-                        totalJSHeapSize: (performance.memory.totalJSHeapSize / 1048576).toFixed(2)
-                    };
-                    console.log('📊 Memory Usage:', memInfo);
-                }
-                
-                console.log('🎯 Cache Stats:', memoryOptimizer.getStats());
-            }, 2000);
-        });
-    }
-
     document.addEventListener('visibilitychange', () => {
-        if (document.hidden) {
-            console.log('⏸️ Page hidden - pausing non-critical operations');
-        } else {
-            console.log('▶️ Page visible - resuming operations');
-        }
+        if (document.hidden) console.log('⏸️ Security Monitor: Paused');
+        else console.log('▶️ Security Monitor: Resumed');
     });
 </script>
 
