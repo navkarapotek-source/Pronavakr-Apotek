@@ -70,7 +70,7 @@
 
         .container {
             width: 100%;
-            max-width: 520px;
+            max-width: 1100px;
             background: var(--bg-card);
             backdrop-filter: blur(20px);
             padding: var(--spacing-xl);
@@ -93,10 +93,6 @@
         .logo-wrapper {
             width: 90px; height: 90px;
             margin: 0 auto var(--spacing-md);
-            background: var(--gradient-primary);
-            border-radius: var(--radius-lg);
-            padding: 4px;
-            box-shadow: var(--shadow-primary);
             transition: var(--transition-smooth);
             animation: logoFloat 3s ease-in-out infinite;
         }
@@ -195,7 +191,7 @@
 
         .smart-search-input {
             width: 100%;
-            padding: 14px 16px 14px 45px;
+            padding: 14px 16px;
             border: 2px solid var(--border-color);
             border-radius: var(--radius-full);
             font-size: 14px; outline: none;
@@ -366,7 +362,7 @@
         .form-group { display: flex; flex-direction: column; gap: var(--spacing-sm); }
 
         label {
-            font-weight: 700; color: var(--text-dark);
+            font-weight: 700; color: var(--primary-color);
             font-size: 12px; text-transform: uppercase; letter-spacing: 0.8px;
             display: flex; align-items: center; gap: var(--spacing-xs);
         }
@@ -500,7 +496,7 @@
             50% { transform: scale(1.1); }
         }
 
-        .contact-text { position: relative; z-index: 1; }
+        .contact-text { position: relative; z-index: 1; color: white; }
 
         .table-container::-webkit-scrollbar,
         .search-suggestions::-webkit-scrollbar,
@@ -666,13 +662,11 @@
     
     <div class="smart-search-section">
         <label class="smart-search-label">
-            <span class="label-icon">🔍</span>
             Medicine Search
         </label>
         <div class="smart-search-container">
             <div class="input-wrapper">
                 <input type="text" id="smartSearch" class="smart-search-input" placeholder="Search medicine..." autocomplete="off" maxlength="100">
-                <span class="search-icon-input">🔎</span>
             </div>
             <button class="clear-search-btn" onclick="clearSmartSearch()">Clear</button>
         </div>
@@ -749,6 +743,13 @@
         <a href="./Contact-us/" class="contact-btn">
             <span class="contact-icon">📞</span>
             <span class="contact-text">Contact Us</span>
+        </a>
+    </div>
+
+    <div class="contact-us-section" style="margin-top: var(--spacing-md);">
+        <a href="https://play.google.com/store/apps/details?id=in.relysoft.navkarapotekllp&pcampaignid=web_share" class="contact-btn" target="_blank">
+            <span class="contact-icon">📲</span>
+            <span class="contact-text">Download App</span>
         </a>
     </div>
 </div>
