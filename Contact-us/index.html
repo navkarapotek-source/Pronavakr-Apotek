@@ -7,7 +7,7 @@
 
     <style>
         /* ============================================
-           SAME DESIGN SYSTEM AS INDEX.HTML
+           DEFAULT THEME + CALIGRAM PRO TEXT COLORS
            ============================================ */
         :root {
             /* Primary Colors */
@@ -17,8 +17,12 @@
             --accent-color: #f7d127;
             --accent-hover: #e6be22;
             
-            /* Text Colors */
-            --text-dark: #1a1a1a;
+            /* ============================================
+               ★ CALIGRAM PRO COLOR PALETTE (MAIN CHANGE!)
+               ============================================ */
+            --text-dark: #2D3436;          /* Default dark text */
+            --caligram-pro: #1a1a2e;      /* ★ CALIGRAM PRO DARK NAVY */
+            --caligram-pro-medium: #16213e;/* ★ CALIGRAM PRO MEDIUM */
             --text-medium: #4a5568;
             --text-light: #718096;
             
@@ -84,7 +88,7 @@
            ============================================ */
         .container {
             width: 100%;
-            max-width: 520px;
+            max-width: 1100px;
             background: var(--bg-card);
             backdrop-filter: blur(20px);
             padding: var(--spacing-xl);
@@ -140,7 +144,7 @@
         }
 
         .main-title {
-            color: var(--text-dark);
+            color: var(--caligram-pro);  /* ★ CALIGRAM PRO */
             font-size: 1.8rem;
             font-weight: 800;
             text-transform: uppercase;
@@ -194,10 +198,11 @@
             background: var(--gradient-accent);
         }
 
+        /* ★ DEPARTMENT PHONE DIRECTORY - CALIGRAM PRO COLOR */
         .section-title {
             font-size: 16px;
             font-weight: 800;
-            color: var(--text-dark);
+            color: var(--caligram-pro);  /* ★ CALIGRAM PRO DARK NAVY */
             text-transform: uppercase;
             letter-spacing: 0.8px;
             margin-bottom: var(--spacing-lg);
@@ -221,10 +226,11 @@
             margin-bottom: var(--spacing-lg);
         }
 
+        /* ★ SELECT CATEGORY / SELECT COMPANY - CALIGRAM PRO COLOR */
         .dropdown-label {
             display: block;
             font-weight: 700;
-            color: var(--text-dark);
+            color: var(--caligram-pro);  /* ★ CALIGRAM PRO DARK NAVY */
             font-size: 12px;
             text-transform: uppercase;
             letter-spacing: 0.8px;
@@ -244,13 +250,13 @@
             font-size: 14px;
             outline: none;
             background: var(--bg-white);
-            color: var(--text-dark);
+            color: var(--caligram-pro);  /* ★ CALIGRAM PRO DARK NAVY */
             transition: var(--transition-smooth);
             font-family: inherit;
             font-weight: 600;
             cursor: pointer;
             appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23068586' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%231a1a2e' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
             background-repeat: no-repeat;
             background-position: right 14px center;
             padding-right: 40px;
@@ -259,7 +265,7 @@
 
         .custom-select:focus {
             border-color: var(--primary-color);
-            box-shadow: 0 0 0 4px rgba(6, 133, 134, 0.1);
+            box-shadow: 0 0 0 4px rgba(26, 26, 46, 0.1);
             transform: translateY(-1px);
         }
 
@@ -343,9 +349,9 @@
             opacity: 0.5;
         }
 
-        /* Phone Card Specific */
+        /* Phone Card Specific - DARK TEAL BACKGROUND */
         .phone-display-card {
-            background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%) !important;
+            background: linear-gradient(135deg, #068586 0%, #0899a0 50%, #055c5d 100%) !important;
         }
 
         /* Call Button */
@@ -378,7 +384,7 @@
             transform: translateY(-3px) scale(1.02);
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
             background: var(--accent-color);
-            color: #1a1a1a;
+            color: var(--caligram-pro);  /* ★ CALIGRAM PRO ON HOVER */
         }
 
         .action-btn:active {
@@ -426,7 +432,7 @@
         }
 
         /* ============================================
-           GOOGLE MAP SECTION
+           GOOGLE MAP SECTION - OUR LOCATION (CALIGRAM PRO)
            ============================================ */
         .map-section {
             background: linear-gradient(135deg, var(--bg-light) 0%, #ffffff 100%);
@@ -469,10 +475,11 @@
             box-shadow: 0 4px 12px rgba(6, 133, 134, 0.25);
         }
 
+        /* ★ OUR LOCATION - CALIGRAM PRO COLOR */
         .map-title {
             font-size: 16px;
             font-weight: 800;
-            color: var(--text-dark);
+            color: var(--caligram-pro);  /* ★ CALIGRAM PRO DARK NAVY */
             text-transform: uppercase;
             letter-spacing: 0.8px;
         }
@@ -546,7 +553,7 @@
         }
 
         /* ============================================
-           WORKING HOURS CARD
+           WORKING HOURS CARD - CALIGRAM PRO COLORS
            ============================================ */
         .contact-info-grid {
             display: grid;
@@ -562,6 +569,8 @@
             border: 2px solid var(--border-color);
             display: flex;
             align-items: center;
+            justify-content: center;
+            text-align: center;
             gap: var(--spacing-md);
             transition: var(--transition-smooth);
             cursor: default;
@@ -605,13 +614,14 @@
         }
 
         .info-content {
-            flex: 1;
+            flex: unset;
         }
 
+        /* ★ WORKING HOURS LABEL & VALUE - CALIGRAM PRO COLOR */
         .info-label {
             font-size: 11px;
             font-weight: 700;
-            color: var(--text-light);
+            color: var(--caligram-pro);  /* ★ CALIGRAM PRO DARK NAVY */
             text-transform: uppercase;
             letter-spacing: 0.8px;
             margin-bottom: 4px;
@@ -620,12 +630,12 @@
         .info-value {
             font-size: 15px;
             font-weight: 600;
-            color: var(--text-dark);
+            color: var(--caligram-pro);  /* ★ CALIGRAM PRO DARK NAVY */
             word-break: break-word;
         }
 
         /* ============================================
-           BACK TO HOME BUTTON (FIXED!)
+           BACK TO HOME BUTTON - CALIGRAM PRO COLOR
            ============================================ */
         .back-home-section {
             text-align: center;
@@ -640,7 +650,7 @@
             gap: var(--spacing-sm);
             padding: 12px 28px;
             background: linear-gradient(135deg, var(--accent-color) 0%, #f4c430 100%);
-            color: #1a1a1a;
+            color: var(--caligram-pro);  /* ★ CALIGRAM PRO DARK NAVY */
             border: none;
             border-radius: var(--radius-full);
             font-size: 14px;
@@ -735,35 +745,39 @@
     </div>
 
     <!-- ============================================
-         DEPARTMENT PHONE DIRECTORY - 2-LEVEL DROPDOWN
+         DEPARTMENT PHONE DIRECTORY - CALIGRAM PRO COLOR
          ============================================ -->
     <div class="selector-section" id="phoneSection">
-        <h2 class="section-title">📱 Department Phone Directory</h2>
+        <!-- ★ Department Phone Directory - CALIGRAM PRO (#1a1a2e) -->
+        <h2 class="section-title">Department Phone Directory</h2>
         
         <!-- Step 1: Select Category -->
         <div class="dropdown-wrapper">
+            <!-- ★ Select Category - CALIGRAM PRO (#1a1a2e) -->
             <label class="dropdown-label" for="categorySelect">Select Category</label>
             <select id="categorySelect" class="custom-select" onchange="updateDepartmentDropdown()">
-                <option value="">-- 👇 Select Category --</option>
+                <!-- ★ -- Select a Category -- - CALIGRAM PRO (#1a1a2e) -->
+                <option value="">-- Select a Category --</option>
                 
-                <option value="navkar_dept">🏢 Navkar Apotek LLP - Departments</option>
-                <option value="navkar_area">📍 Navkar Apotek LLP - Areas</option>
-                <option value="pronavakr_area">🏢 Pronavakr Lifecare LLP - Areas</option>
-                <option value="other_dept">💼 Other Departments</option>
+                <option value="navkar_dept">Navkar Apotek LLP - Departments</option>
+                <option value="navkar_area">Navkar Apotek LLP - Areas</option>
+                <option value="pronavakr_area">Pronavakr Lifecare LLP - Areas</option>
+                <option value="other_dept">Other Departments</option>
             </select>
         </div>
 
         <!-- Step 2: Select Specific Department -->
         <div class="dropdown-wrapper">
+            <!-- ★ Select Department / Area - CALIGRAM PRO (#1a1a2e) -->
             <label class="dropdown-label" for="departmentSelect">Select Department / Area</label>
             <select id="departmentSelect" class="custom-select" onchange="showPhoneNumber()" disabled>
-                <option value="">-- 👆 First Select Category Above --</option>
+                <option value="">-- First Select Category Above --</option>
             </select>
         </div>
 
         <!-- Phone Number Display -->
         <div id="phoneDisplayCard" class="display-card phone-display-card">
-            <div class="display-label">📞 Phone Number</div>
+            <div class="display-label">Phone Number</div>
             <div class="display-value" id="displayPhoneNumber"></div>
             <div class="call-buttons-container">
                 <a href="#" id="callButtonLink" class="action-btn">
@@ -782,33 +796,38 @@
     </div>
 
     <!-- ============================================
-         EMAIL DIRECTORY - 2-LEVEL DROPDOWN
+         EMAIL DIRECTORY - CALIGRAM PRO COLORS
          ============================================ -->
     <div class="selector-section" id="emailSection">
-        <h2 class="section-title">✉️ Email Directory</h2>
+        <!-- ★ Email Directory - CALIGRAM PRO (#1a1a2e) -->
+        <h2 class="section-title">Email Directory</h2>
         
         <!-- Email Step 1: Select Company/Category -->
         <div class="dropdown-wrapper">
+            <!-- ★ Select Company / Category - CALIGRAM PRO (#1a1a2e) -->
             <label class="dropdown-label" for="emailCategorySelect">Select Company / Category</label>
             <select id="emailCategorySelect" class="custom-select" onchange="updateEmailDropdown()">
-                <option value="">-- 👇 Select Company / Category --</option>
+                <!-- ★ -- Select Company / Category -- - CALIGRAM PRO (#1a1a2e) -->
+                <option value="">-- Select Company / Category --</option>
                 
-                <option value="navkar">🏢 Navkar Apotek LLP</option>
-                <option value="pronavakr">🏢 Pronavakr Lifecare LLP</option>
+                <option value="navkar">Navkar Apotek LLP</option>
+                <option value="pronavakr">Pronavakr Lifecare LLP</option>
             </select>
         </div>
 
         <!-- Email Step 2: Select Specific Department -->
         <div class="dropdown-wrapper">
+            <!-- ★ Select Email Department - CALIGRAM PRO (#1a1a2e) -->
             <label class="dropdown-label" for="emailDepartmentSelect">Select Email Department</label>
             <select id="emailDepartmentSelect" class="custom-select" onchange="showEmailAddress()" disabled>
-                <option value="">-- 👆 First Select Company Above --</option>
+                <!-- ★ -- First Select Company Above -- - CALIGRAM PRO (#1a1a2e) -->
+                <option value="">-- First Select Company Above --</option>
             </select>
         </div>
 
         <!-- Email Address Display -->
         <div id="emailDisplayCard" class="display-card email-display-card">
-            <div class="display-label">✉️ Email Address</div>
+            <div class="display-label">Email Address</div>
             <div class="display-value email-address" id="displayEmailAddress"></div>
             <div class="call-buttons-container">
                 <a href="#" id="emailButtonLink" class="action-btn">
@@ -827,11 +846,12 @@
     </div>
 
     <!-- ============================================
-         GOOGLE MAP SECTION
+         GOOGLE MAP SECTION - OUR LOCATION (CALIGRAM PRO)
          ============================================ -->
     <div class="map-section">
         <div class="map-header">
             <div class="map-icon">🗺️</div>
+            <!-- ★ Our Location - CALIGRAM PRO (#1a1a2e) -->
             <h2 class="map-title">Our Location</h2>
         </div>
         
@@ -860,14 +880,16 @@
     </div>
 
     <!-- ============================================
-         WORKING HOURS CARD
+         WORKING HOURS CARD - CALIGRAM PRO COLORS
          ============================================ -->
     <div class="contact-info-grid">
         
         <div class="contact-info-card">
             <div class="info-icon">🕐</div>
             <div class="info-content">
+                <!-- ★ Working Hours - CALIGRAM PRO (#1a1a2e) -->
                 <div class="info-label">Working Hours</div>
+                <!-- ★ Mon-Sat/Sunday times - CALIGRAM PRO (#1a1a2e) -->
                 <div class="info-value">
                     Mon - Sat: 10:00 AM - 7:30 PM<br>Sunday: 10:00 AM - 5:00 PM
                 </div>
@@ -876,8 +898,9 @@
 
     </div>
 
-    <!-- Back to Home Button (FIXED: Added ../ to go back to main index) -->
+    <!-- Back to Home Button -->
     <div class="back-home-section">
+        <!-- ★ ← Back to Home - CALIGRAM PRO (#1a1a2e) -->
         <a href="../" class="back-home-btn">
             ← Back to Home
         </a>
@@ -887,69 +910,81 @@
 <script>
     /**
      * =====================================================
-     * CONTACT US PAGE - EMAIL SPELLING FIXED!
+     * CONTACT US PAGE - ALL SPECIFIC TEXT IN CALIGRAM PRO COLOR!
      * =====================================================
-     * FIX: support@pronavakrlifecare.com → support@pronavkarlifecare.com
+     * ✓ Department Phone Directory → #1a1a2e (Dark Navy)
+     * ✓ Select Category → #1a1a2e
+     * ✓ -- Select a Category -- → #1a1a2e
+     * ✓ Select Department / Area → #1a1a2e
+     * ✓ Email Directory → #1a1a2e
+     * ✓ Select Company / Category → #1a1a2e
+     * ✓ -- Select Company / Category -- → #1a1a2e
+     * ✓ Select Email Department → #1a1a2e
+     * ✓ -- First Select Company Above -- → #1a1a2e
+     * ✓ Our Location → #1a1a2e
+     * ✓ Working Hours → #1a1a2e
+     * ✓ Mon-Sat/Sunday times → #1a1a2e
+     * ✓ ← Back to Home → #1a1a2e
      * =====================================================
      */
 
     // ============================================
-    // PHONE DATA ORGANIZED BY CATEGORY
+    // PHONE DATA ORGANIZED BY CATEGORY - NO EMOJIS!
     // ============================================
     const phoneDataByCategory = {
         navkar_dept: [
-            { value: "reception", label: "📞 Reception", name: "Reception", phone: "8956172570", fullPhone: "+918956172570" },
-            { value: "complaint_navkar", label: "⚠️ Complaint", name: "Complaint (Navkar)", phone: "9529337113", fullPhone: "+919529337113" },
-            { value: "accounts_navkar", label: "💰 Accounts", name: "Accounts (Navkar)", phone: "8459417044", fullPhone: "+918459417044" },
-            { value: "expiry_navkar", label: "📅 Expiry", name: "Expiry", phone: "8956172569", fullPhone: "+918956172569" },
-            { value: "night_shift", label: "🌙 Night Shift", name: "Night Shift", phone: "8956172594", fullPhone: "+918956172594" },
-            { value: "dispatch", label: "🚚 Dispatch", name: "Dispatch", phone: "8956172597", fullPhone: "+918956172597" }
+            { value: "reception", label: "Reception", name: "Reception", phone: "8956172570", fullPhone: "+918956172570" },
+            { value: "complaint_navkar", label: "Complaint", name: "Complaint (Navkar)", phone: "9529337113", fullPhone: "+919529337113" },
+            { value: "accounts_navkar", label: "Accounts", name: "Accounts (Navkar)", phone: "8459417044", fullPhone: "+918459417044" },
+            { value: "expiry_navkar", label: "Expiry", name: "Expiry", phone: "8956172569", fullPhone: "+918956172569" },
+            { value: "night_shift", label: "Night Shift", name: "Night Shift", phone: "8956172594", fullPhone: "+918956172594" },
+            { value: "dispatch", label: "Dispatch", name: "Dispatch", phone: "8956172597", fullPhone: "+918956172597" }
         ],
 
         navkar_area: [
-            { value: "walchandnagar", label: "📍 Walchandnagar", name: "Walchandnagar", phone: "8956172560", fullPhone: "+918956172560" },
-            { value: "baramati", label: "📍 Baramati", name: "Baramati", phone: "8956172556", fullPhone: "+918956172556" },
-            { value: "gunaware", label: "📍 Gunaware", name: "Gunaware", phone: "8956172559", fullPhone: "+918956172559" },
-            { value: "saswad", label: "📍 Saswad", name: "Saswad", phone: "8956172563", fullPhone: "+918956172563" },
-            { value: "daund_navkar", label: "📍 Daund", name: "Daund (Navkar)", phone: "8956172558", fullPhone: "+918956172558" },
-            { value: "bhigwan_navkar", label: "📍 Bhigwan", name: "Bhigwan (Navkar)", phone: "8956172563", fullPhone: "+918956172563" },
-            { value: "nira_navkar", label: "📍 Nira", name: "Nira (Navkar)", phone: "8956172560", fullPhone: "+918956172560" },
-            { value: "indapur", label: "📍 Indapur", name: "Indapur", phone: "8956172558", fullPhone: "+918956172558" },
-            { value: "kedgaon_rashin", label: "📍 Kedgaon / Rashin", name: "Kedgaon / Rashin", phone: "8956172564", fullPhone: "+918956172564" },
-            { value: "phalthan_lonand", label: "📍 Phalthan / Lonand", name: "Phalthan / Lonand", phone: "8956172559", fullPhone: "+918956172559" }
+            { value: "walchandnagar", label: "Walchandnagar", name: "Walchandnagar", phone: "8956172560", fullPhone: "+918956172560" },
+            { value: "baramati", label: "Baramati", name: "Baramati", phone: "8956172556", fullPhone: "+918956172556" },
+            { value: "gunaware", label: "Gunaware", name: "Gunaware", phone: "8956172559", fullPhone: "+918956172559" },
+            { value: "saswad", label: "Saswad", name: "Saswad", phone: "8956172563", fullPhone: "+918956172563" },
+            { value: "daund_navkar", label: "Daund", name: "Daund (Navkar)", phone: "8956172558", fullPhone: "+918956172558" },
+            { value: "bhigwan_navkar", label: "Bhigwan", name: "Bhigwan (Navkar)", phone: "8956172563", fullPhone: "+918956172563" },
+            { value: "nira_navkar", label: "Nira", name: "Nira (Navkar)", phone: "8956172560", fullPhone: "+918956172560" },
+            { value: "indapur", label: "Indapur", name: "Indapur", phone: "8956172558", fullPhone: "+918956172558" },
+            { value: "kedgaon_rashin", label: "Kedgaon / Rashin", name: "Kedgaon / Rashin", phone: "8956172564", fullPhone: "+918956172564" },
+            { value: "phalthan_lonand", label: "Phalthan / Lonand", name: "Phalthan / Lonand", phone: "8956172559", fullPhone: "+918956172559" }
         ],
 
         pronavakr_area: [
-            { value: "daund_pronavakr", label: "📍 Daund / Walchandnagar", name: "Daund / Walchandnagar (Pronavakr)", phone: "8956477003", fullPhone: "+918956477003" },
-            { value: "kedgaon", label: "📍 Kedgaon / Saswad / Pusegaon", name: "Kedgaon / Saswad / Pusegaon / Shrigonda", phone: "8956477001", fullPhone: "+918956477001" },
-            { value: "local1", label: "📍 LOCAL / Phalthan (Line 1)", name: "LOCAL / Phalthan / Malegoan (Line 1)", phone: "8983753108", fullPhone: "+918983753108" },
-            { value: "local2", label: "📍 LOCAL / Phalthan (Line 2)", name: "LOCAL / Phalthan / Malegoan (Line 2)", phone: "8484021008", fullPhone: "+918484021008" },
-            { value: "bhigwan", label: "📍 Bhigwan / Kashti / Karmala", name: "Bhigwan / Kashti / Karmala / Kettur / Jeur", phone: "8983758108", fullPhone: "+918983758108" },
-            { value: "nira", label: "📍 Nira / Rashin / Lonand", name: "Nira / Rashin / Lonand / Pusegaon", phone: "8484981008", fullPhone: "+918484981008" },
-            { value: "natepute", label: "📍 Natepute / Indapur", name: "Natepute / Indapur", phone: "8484031008", fullPhone: "+918484031008" }
+            { value: "daund_pronavakr", label: "Daund / Walchandnagar", name: "Daund / Walchandnagar (Pronavakr)", phone: "8956477003", fullPhone: "+918956477003" },
+            { value: "kedgaon", label: "Kedgaon / Saswad / Pusegaon", name: "Kedgaon / Saswad / Pusegaon / Shrigonda", phone: "8956477001", fullPhone: "+918956477001" },
+            { value: "local1", label: "LOCAL / Phalthan (Line 1)", name: "LOCAL / Phalthan / Malegoan (Line 1)", phone: "8983753108", fullPhone: "+918983753108" },
+            { value: "local2", label: "LOCAL / Phalthan (Line 2)", name: "LOCAL / Phalthan / Malegoan (Line 2)", phone: "8484021008", fullPhone: "+918484021008" },
+            { value: "bhigwan", label: "Bhigwan / Kashti / Karmala", name: "Bhigwan / Kashti / Karmala / Kettur / Jeur", phone: "8983758108", fullPhone: "+918983758108" },
+            { value: "nira", label: "Nira / Rashin / Lonand", name: "Nira / Rashin / Lonand / Pusegaon", phone: "8484981008", fullPhone: "+918484981008" },
+            { value: "natepute", label: "Natepute / Indapur", name: "Natepute / Indapur", phone: "8484031008", fullPhone: "+918484031008" }
         ],
 
         other_dept: [
-            { value: "accounts_main", label: "💰 Main Account Department", name: "Main Account Department", phone: "8600981008", fullPhone: "+918600981008" },
-            { value: "complaint_main", label: "⚠️ Main Complaint Number", name: "Main Complaint Number", phone: "8180068108", fullPhone: "+918180068108" }
+            { value: "accounts_main", label: "Main Account Department", name: "Main Account Department", phone: "8600981008", fullPhone: "+918600981008" },
+            { value: "complaint_main", label: "Main Complaint Number", name: "Main Complaint Number", phone: "8180068108", fullPhone: "+918180068108" }
         ]
     };
 
     // ============================================
-    // EMAIL DATA ORGANIZED BY COMPANY (SPELLING FIXED!)
+    // EMAIL DATA ORGANIZED BY COMPANY - NO EMOJIS!
     // ============================================
     const emailDataByCompany = {
         navkar: [
-            { value: "general", label: "📧 General Inquiry", name: "General", email: "navkarapotek@gmail.com" },
-            { value: "information", label: "📧 Information", name: "Information", email: "info@navkarapotek.com" },
-            { value: "sales", label: "📧 Sales Department", name: "Sales", email: "sales@navkarapotek.com" },
-            { value: "purchase", label: "📧 Purchase Department", name: "Purchase", email: "purchase@navkarapotek.com" },
-            { value: "expiry", label: "📧 Expiry Department", name: "Expiry", email: "expiry@navkarapotek.com" },
-            { value: "accounts", label: "💰 Accounts Department", name: "Accounts", email: "accounts@navkarapotek.com" }
+            { value: "general", label: "General Inquiry", name: "General", email: "navkarapotek@gmail.com" },
+            { value: "information", label: "Information", name: "Information", email: "info@navkarapotek.com" },
+            { value: "sales", label: "Sales Department", name: "Sales", email: "sales@navkarapotek.com" },
+            { value: "purchase", label: "Purchase Department", name: "Purchase", email: "purchase@navkarapotek.com" },
+            { value: "expiry", label: "Expiry Department", name: "Expiry", email: "expiry@navkarapotek.com" },
+            { value: "accounts", label: "Accounts Department", name: "Accounts", email: "accounts@navkarapotek.com" }
         ],
         
         pronavakr: [
-            { value: "general", label: "📧 General Inquiry", name: "General", email: "pronavkarlifecare@gmail.com" },
+            { value: "general", label: "General Inquiry", name: "General", email: "pronavkarlifecare@gmail.com" },
         ]
     };
 
@@ -961,16 +996,12 @@
         const departmentSelect = document.getElementById('departmentSelect');
         const selectedCategory = categorySelect.value;
 
-        console.log('🔄 Phone Category Selected:', selectedCategory);
-
-        departmentSelect.innerHTML = '<option value="">-- 👇 Select Department / Area --</option>';
+        departmentSelect.innerHTML = '<option value="">-- Select Department / Area --</option>';
         departmentSelect.disabled = true;
 
         hidePhoneCard();
 
-        if (!selectedCategory || selectedCategory === "") {
-            return;
-        }
+        if (!selectedCategory || selectedCategory === "") return;
 
         const deptList = phoneDataByCategory[selectedCategory];
 
@@ -981,9 +1012,7 @@
                 option.textContent = dept.label;
                 departmentSelect.appendChild(option);
             });
-
             departmentSelect.disabled = false;
-            console.log(`✅ Phone: ${deptList.length} departments loaded`);
         }
     }
 
@@ -1020,8 +1049,6 @@
             phoneCard.style.display = 'block';
             phoneCard.style.opacity = '1';
             phoneCard.style.transform = 'scale(1)';
-
-            console.log(`✅ Phone: ${deptData.name} | ${deptData.phone}`);
         }
     }
 
@@ -1043,16 +1070,12 @@
         const departmentSelect = document.getElementById('emailDepartmentSelect');
         const selectedCompany = companySelect.value;
 
-        console.log('🔄 Email Company Selected:', selectedCompany);
-
-        departmentSelect.innerHTML = '<option value="">-- 👇 Select Email Department --</option>';
+        departmentSelect.innerHTML = '<option value="">-- Select Email Department --</option>';
         departmentSelect.disabled = true;
 
         hideEmailCard();
 
-        if (!selectedCompany || selectedCompany === "") {
-            return;
-        }
+        if (!selectedCompany || selectedCompany === "") return;
 
         const deptList = emailDataByCompany[selectedCompany];
 
@@ -1063,9 +1086,7 @@
                 option.textContent = dept.label;
                 departmentSelect.appendChild(option);
             });
-
             departmentSelect.disabled = false;
-            console.log(`✅ Email: ${deptList.length} departments loaded`);
         }
     }
 
@@ -1102,8 +1123,6 @@
             emailCard.style.display = 'block';
             emailCard.style.opacity = '1';
             emailCard.style.transform = 'scale(1)';
-
-            console.log(`✉️ Email: ${emailData.name} | ${emailData.email}`);  // Log correct email
         }
     }
 
@@ -1121,9 +1140,7 @@
     // INITIALIZATION
     // ============================================
     document.addEventListener('DOMContentLoaded', () => {
-        console.log('📞 Contact page loaded - Email spelling FIXED!');
-        console.log(`📱 Phone Categories: ${Object.keys(phoneDataByCategory).length}`);
-        console.log(`📧 Email Companies: ${Object.keys(emailDataByCompany).length}`);
+        console.log('✅ All specified text now in CALIGRAM PRO color (#1a1a2e)!');
         
         // Set initial states for Phone
         const phoneCard = document.getElementById('phoneDisplayCard');
@@ -1139,8 +1156,7 @@
         emailCard.style.display = 'none';
         emailDefaultMsg.style.display = 'block';
         
-        console.log('✅ Initial state set successfully!');
-        console.log('📧 FIXED: support@pronavkarlifecare.com (correct spelling)');
+        console.log('🎨 Color Code: #1a1a2e (CALIGRAM PRO Dark Navy)');
         
         // Animate info cards on load
         const cards = document.querySelectorAll('.contact-info-card');
