@@ -1208,11 +1208,38 @@ function saveUserPreferences() {
     }
 
     function clearSmartSearch() {
+        // Clear search input
         document.getElementById('smartSearch').value = '';
+        
+        // Hide suggestions and history
         document.getElementById('searchSuggestions').classList.remove('show');
         document.getElementById('searchHistory').classList.remove('show');
         hideSearchLoading();
-        if (currentCompany) showProducts();
+        
+        // Reset all dropdowns
+        document.getElementById('companyTypeSelect').value = '';
+        document.getElementById('categorySelect').value = '';
+        document.getElementById('categorySelect').disabled = true;
+        document.getElementById('categorySelect').innerHTML = '<option value="">-- Select Firm First --</option>';
+        
+        document.getElementById('companySelect').value = '';
+        document.getElementById('companySelect').disabled = true;
+        document.getElementById('companySelect').innerHTML = '<option value="">-- Choose Company --</option>';
+        
+        // Reset variables
+        currentCompany = '';
+        currentCategory = '';
+        currentCompanyType = '';
+        allProducts = [];
+        
+        // Hide table and show empty state
+        document.getElementById('tableWrapper').classList.remove('show');
+        document.getElementById('tableSkeleton').classList.remove('show');
+        document.getElementById('emptyState').classList.add('show');
+        document.getElementById('infoBar').classList.remove('show');
+        
+        // Hide pagination
+        document.getElementById('paginationControls').style.display = 'none';
     }
 
     // =====================================================
