@@ -1493,5 +1493,10 @@ const navkarColdchainData = [
         "Product Name": "TERSIN INJ",
         "Pack": "VAIL",
         "Company Name": "ZYPHARS PHARMACEUTICS"
+    },
+    {
+        "Product Name": "Grand Total",
+        "Pack": "-",
+        "Company Name": "ZYPHARS PHARMACEUTICS"
     }
 ];
