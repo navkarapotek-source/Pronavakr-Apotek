@@ -35,7 +35,7 @@ const navkarColdchainData = [
         "Company Name": "ABBOTT INDIA LTD"
     },
     {
-        "Product Name": "OZEMPIC 0.5MG INJ",
+        "Product Name": "OZEMPIC 0.5",
         "Pack": "1PFS",
         "Company Name": "ABBOTT INDIA LTD"
     },
