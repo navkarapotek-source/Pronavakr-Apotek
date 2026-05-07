@@ -1,6 +1,3 @@
-// Auto-generated file. Do not edit manually.
-// Generated from: Refined_OTC_Product_List.csv
-
 const otcData = [
     {
         "Product Name": "LADY SURE [MRP 35]",
@@ -53,6 +50,16 @@ const otcData = [
         "Company Name": "ABBOTT INDIA (NUTRITION)"
     },
     {
+        "Product Name": "ENSURE HP VANILA 200GM",
+        "Pack": "200GM",
+        "Company Name": "ABBOTT INDIA (NUTRITION)"
+    },
+    {
+        "Product Name": "ENSURE VANILA 375GM [REFIL]",
+        "Pack": "375GM",
+        "Company Name": "ABBOTT INDIA (NUTRITION)"
+    },
+    {
         "Product Name": "ENSURE VANILLA 200GM [REFIL]",
         "Pack": "200GM",
         "Company Name": "ABBOTT INDIA (NUTRITION)"
@@ -100,6 +107,11 @@ const otcData = [
     {
         "Product Name": "PEDIASURE VANILA 375GM REFIL",
         "Pack": "375GM",
+        "Company Name": "ABBOTT INDIA (NUTRITION)"
+    },
+    {
+        "Product Name": "PEDIASURE VANILLA [RS.35]",
+        "Pack": "22GM",
         "Company Name": "ABBOTT INDIA (NUTRITION)"
     },
     {
@@ -198,6 +210,11 @@ const otcData = [
         "Company Name": "AIMIL PHARMACEUTICALS LIMITED"
     },
     {
+        "Product Name": "AMYRON CAP",
+        "Pack": "30CAP",
+        "Company Name": "AIMIL PHARMACEUTICALS LIMITED"
+    },
+    {
         "Product Name": "AMYRON SYP 200ML",
         "Pack": "200ML",
         "Company Name": "AIMIL PHARMACEUTICALS LIMITED"
@@ -210,6 +227,16 @@ const otcData = [
     {
         "Product Name": "BGR 34 TAB 100`S",
         "Pack": "100`S",
+        "Company Name": "AIMIL PHARMACEUTICALS LIMITED"
+    },
+    {
+        "Product Name": "JUFEX SYP",
+        "Pack": "100ML",
+        "Company Name": "AIMIL PHARMACEUTICALS LIMITED"
+    },
+    {
+        "Product Name": "LUKOSKIN LIQUID",
+        "Pack": "100ML",
         "Company Name": "AIMIL PHARMACEUTICALS LIMITED"
     },
     {
@@ -236,6 +263,11 @@ const otcData = [
         "Product Name": "ZYMNET PLUS SYP 200ML",
         "Pack": "200ML",
         "Company Name": "AIMIL PHARMACEUTICALS LIMITED"
+    },
+    {
+        "Product Name": "AMRITH NONI ARTHO PLUS",
+        "Pack": "750 ML",
+        "Company Name": "AMRITH NONI"
     },
     {
         "Product Name": "AMRITH NONI D PLUS 1000 ML",
@@ -338,6 +370,11 @@ const otcData = [
         "Company Name": "AMRUT PHARMACEUTICALS"
     },
     {
+        "Product Name": "GULKAND AMRUT [500GM]",
+        "Pack": "500GM",
+        "Company Name": "AMRUT PHARMACEUTICALS"
+    },
+    {
         "Product Name": "MAHANARAYAN TEL (AMRUT)",
         "Pack": "50 ML",
         "Company Name": "AMRUT PHARMACEUTICALS"
@@ -368,6 +405,11 @@ const otcData = [
         "Company Name": "AMRUT PHARMACEUTICALS"
     },
     {
+        "Product Name": "SHATAVARI GRANULES [AMRUT]",
+        "Pack": "200GM",
+        "Company Name": "AMRUT PHARMACEUTICALS"
+    },
+    {
         "Product Name": "AMRUTANJAN BALM [27.5GM]",
         "Pack": "27.5GM",
         "Company Name": "AMRUTANJAN LIMITED"
@@ -376,6 +418,11 @@ const otcData = [
         "Product Name": "AMRUTANJAN BALM [50ML]",
         "Pack": "50 ML",
         "Company Name": "AMRUTANJAN LIMITED"
+    },
+    {
+        "Product Name": "ADULT DIAPER PANTS JR.SR LARGE",
+        "Pack": "10'S",
+        "Company Name": "ATCO LOGISTICS"
     },
     {
         "Product Name": "DRAIN-X 50GM",
@@ -518,6 +565,11 @@ const otcData = [
         "Company Name": "BAIDYANATH AYURVEDA BHAVAN LTD"
     },
     {
+        "Product Name": "DRAKSHASAV SYR",
+        "Pack": "227ML",
+        "Company Name": "BAIDYANATH AYURVEDA BHAVAN LTD"
+    },
+    {
         "Product Name": "GOKSHURADI GUGUL 80TAB",
         "Pack": "80 TAB",
         "Company Name": "BAIDYANATH AYURVEDA BHAVAN LTD"
@@ -535,6 +587,11 @@ const otcData = [
     {
         "Product Name": "HONEY 1KG [BAIDYANATH]",
         "Pack": "1KG",
+        "Company Name": "BAIDYANATH AYURVEDA BHAVAN LTD"
+    },
+    {
+        "Product Name": "HONEY 20GM [BAIDYNATH]",
+        "Pack": "20GM",
         "Company Name": "BAIDYANATH AYURVEDA BHAVAN LTD"
     },
     {
@@ -585,6 +642,11 @@ const otcData = [
     {
         "Product Name": "MAHANARAYAN TEL [BAID]100ML",
         "Pack": "100ML",
+        "Company Name": "BAIDYANATH AYURVEDA BHAVAN LTD"
+    },
+    {
+        "Product Name": "MAHARASNADI KADHA",
+        "Pack": "200 ML",
         "Company Name": "BAIDYANATH AYURVEDA BHAVAN LTD"
     },
     {
@@ -648,7 +710,7 @@ const otcData = [
         "Company Name": "BAIDYANATH AYURVEDA BHAVAN LTD"
     },
     {
-        "Product Name": "SHILAJIT CAPSULE",
+        "Product Name": "SHILAJIT CAPSULE BAIDYANATH",
         "Pack": "30 CAPS",
         "Company Name": "BAIDYANATH AYURVEDA BHAVAN LTD"
     },
@@ -670,6 +732,16 @@ const otcData = [
     {
         "Product Name": "SITOPALADI CHURNA [60GM]",
         "Pack": "60GM",
+        "Company Name": "BAIDYANATH AYURVEDA BHAVAN LTD"
+    },
+    {
+        "Product Name": "TRIPHALA CHURNA [100GM]J37",
+        "Pack": "100 GM",
+        "Company Name": "BAIDYANATH AYURVEDA BHAVAN LTD"
+    },
+    {
+        "Product Name": "TRIPHALA CHURNA [50GM]",
+        "Pack": "50GM",
         "Company Name": "BAIDYANATH AYURVEDA BHAVAN LTD"
     },
     {
@@ -706,6 +778,16 @@ const otcData = [
         "Product Name": "YOGRAJ GUGGLU TAB",
         "Pack": "60TAB",
         "Company Name": "BAIDYANATH AYURVEDA BHAVAN LTD"
+    },
+    {
+        "Product Name": "ALOEVERA JUICE",
+        "Pack": "1000 ML",
+        "Company Name": "BAIDYANATH CONSUMER L"
+    },
+    {
+        "Product Name": "AMLA JUICE [1LITER]",
+        "Pack": "1LIT",
+        "Company Name": "BAIDYANATH CONSUMER L"
     },
     {
         "Product Name": "AROGYAVARDHINI BATI 40TAB",
@@ -788,12 +870,77 @@ const otcData = [
         "Company Name": "BAIDYANATH CONSUMER L"
     },
     {
+        "Product Name": "NOMARKS CREAM [12GM]",
+        "Pack": "12GM",
+        "Company Name": "BAJAJ CONSUMER CARE LTD"
+    },
+    {
+        "Product Name": "NOMARKS CREAM [25GM]",
+        "Pack": "25GM",
+        "Company Name": "BAJAJ CONSUMER CARE LTD"
+    },
+    {
         "Product Name": "KRACK CREAM [15GM]",
         "Pack": "15GM",
         "Company Name": "BRINTON PHARMACEUTICALS LIMITED"
     },
     {
+        "Product Name": "KRACK CREAM [25GM]",
+        "Pack": "25GM",
+        "Company Name": "BRINTON PHARMACEUTICALS LIMITED"
+    },
+    {
+        "Product Name": "B TEX SUPER OINT",
+        "Pack": "12GM",
+        "Company Name": "B-TEX OINTMENT MFG CO. NAVSARI"
+    },
+    {
+        "Product Name": "COFSILS COUGH DROPS [JAR]",
+        "Pack": "1JAR",
+        "Company Name": "CIPLA LIMITED"
+    },
+    {
+        "Product Name": "COFSILS JAR [23+1FREE]",
+        "Pack": "1JAR",
+        "Company Name": "CIPLA LIMITED (GENERIC)"
+    },
+    {
         "Product Name": "AB ALOVERA SKIN GEL",
+        "Pack": "100ML",
+        "Company Name": "CIPLA OTC"
+    },
+    {
+        "Product Name": "AB APRICOT SCRUB",
+        "Pack": "100ML",
+        "Company Name": "CIPLA OTC"
+    },
+    {
+        "Product Name": "AB AYURVEDIC ONION OIL [200ML]",
+        "Pack": "200ML",
+        "Company Name": "CIPLA OTC"
+    },
+    {
+        "Product Name": "AB AYURVEDIC ONOIN OIL",
+        "Pack": "100ML",
+        "Company Name": "CIPLA OTC"
+    },
+    {
+        "Product Name": "AB C/M ROSE 100ML",
+        "Pack": "100ML",
+        "Company Name": "CIPLA OTC"
+    },
+    {
+        "Product Name": "AB F/W  FRUIT",
+        "Pack": "60ML",
+        "Company Name": "CIPLA OTC"
+    },
+    {
+        "Product Name": "AB F/W AQUA GLOW HYDRATING",
+        "Pack": "150ML",
+        "Company Name": "CIPLA OTC"
+    },
+    {
+        "Product Name": "AB F/W COMBO DE TAN",
         "Pack": "100ML",
         "Company Name": "CIPLA OTC"
     },
@@ -818,6 +965,56 @@ const otcData = [
         "Company Name": "CIPLA OTC"
     },
     {
+        "Product Name": "AB F/W DE TAN 60ML",
+        "Pack": "60ML",
+        "Company Name": "CIPLA OTC"
+    },
+    {
+        "Product Name": "AB F/W GREEN TEA PURIFYING",
+        "Pack": "150ML",
+        "Company Name": "CIPLA OTC"
+    },
+    {
+        "Product Name": "AB F/W NEEM ALOEVERA",
+        "Pack": "60ML",
+        "Company Name": "CIPLA OTC"
+    },
+    {
+        "Product Name": "AB F/W NEEM TILSI",
+        "Pack": "60ML",
+        "Company Name": "CIPLA OTC"
+    },
+    {
+        "Product Name": "AB F/W PAPAYA",
+        "Pack": "60ML",
+        "Company Name": "CIPLA OTC"
+    },
+    {
+        "Product Name": "AB F/W RICE WATER BRIGHTENING",
+        "Pack": "100ML",
+        "Company Name": "CIPLA OTC"
+    },
+    {
+        "Product Name": "AB F/W ULTRA RADIENCE",
+        "Pack": "150ML",
+        "Company Name": "CIPLA OTC"
+    },
+    {
+        "Product Name": "AB F/W VITAMIN C",
+        "Pack": "60ML",
+        "Company Name": "CIPLA OTC"
+    },
+    {
+        "Product Name": "AB F/W WINE",
+        "Pack": "60ML",
+        "Company Name": "CIPLA OTC"
+    },
+    {
+        "Product Name": "AB FACIAL KIT MINI DIAMOND",
+        "Pack": "100ML",
+        "Company Name": "CIPLA OTC"
+    },
+    {
         "Product Name": "AB FACIAL KIT MINI GOLD",
         "Pack": "100ML",
         "Company Name": "CIPLA OTC"
@@ -833,8 +1030,23 @@ const otcData = [
         "Company Name": "CIPLA OTC"
     },
     {
+        "Product Name": "AB HAIR REMOVER DIAMOND",
+        "Pack": "30ML",
+        "Company Name": "CIPLA OTC"
+    },
+    {
+        "Product Name": "AB HAIR REMOVER GOLD",
+        "Pack": "30ML",
+        "Company Name": "CIPLA OTC"
+    },
+    {
         "Product Name": "AB HAIR REMOVER GOLD [60ML]",
         "Pack": "60ML",
+        "Company Name": "CIPLA OTC"
+    },
+    {
+        "Product Name": "AB HAIR REMOVER PAPAYA",
+        "Pack": "30ML",
         "Company Name": "CIPLA OTC"
     },
     {
@@ -853,8 +1065,23 @@ const otcData = [
         "Company Name": "CIPLA OTC"
     },
     {
+        "Product Name": "AB HAIR REMOVER SPRAY MEN",
+        "Pack": "200GM",
+        "Company Name": "CIPLA OTC"
+    },
+    {
+        "Product Name": "AB HAIR REMOVER SPRAY WOMEN",
+        "Pack": "200GM",
+        "Company Name": "CIPLA OTC"
+    },
+    {
         "Product Name": "AB LOTION (COCOBUTTER)",
         "Pack": "300ML",
+        "Company Name": "CIPLA OTC"
+    },
+    {
+        "Product Name": "AB LOTION (HONEY & VIT E)",
+        "Pack": "100ML",
         "Company Name": "CIPLA OTC"
     },
     {
@@ -863,8 +1090,18 @@ const otcData = [
         "Company Name": "CIPLA OTC"
     },
     {
+        "Product Name": "AB LOTION (PAPAYA)",
+        "Pack": "100ML",
+        "Company Name": "CIPLA OTC"
+    },
+    {
         "Product Name": "AB LOTION (PAPAYA) 300ML",
         "Pack": "300ML",
+        "Company Name": "CIPLA OTC"
+    },
+    {
+        "Product Name": "AB LOTION (SKIN BRIGHTENING)",
+        "Pack": "100ML",
         "Company Name": "CIPLA OTC"
     },
     {
@@ -874,6 +1111,16 @@ const otcData = [
     },
     {
         "Product Name": "AB PAPAY SPF 30 [100ML]",
+        "Pack": "100ML",
+        "Company Name": "CIPLA OTC"
+    },
+    {
+        "Product Name": "AB PAPAYA SPF 30 [50ML]",
+        "Pack": "50ML",
+        "Company Name": "CIPLA OTC"
+    },
+    {
+        "Product Name": "AB PAPAYA SPF 50 [100ML]",
         "Pack": "100ML",
         "Company Name": "CIPLA OTC"
     },
@@ -893,24 +1140,14 @@ const otcData = [
         "Company Name": "CIPLA OTC"
     },
     {
-        "Product Name": "AB WAX STRIP ROSE",
+        "Product Name": "AB WAX STRIP PAPAYA + LEMON",
         "Pack": "8 PIC",
         "Company Name": "CIPLA OTC"
     },
     {
-        "Product Name": "AB F/W AQUA GLOW HYDRATING",
-        "Pack": "150ML",
-        "Company Name": "CIPLA OTC MAIN"
-    },
-    {
-        "Product Name": "AB F/W GREEN TEA PURIFYING",
-        "Pack": "150ML",
-        "Company Name": "CIPLA OTC MAIN"
-    },
-    {
-        "Product Name": "AB F/W ULTRA RADIENCE",
-        "Pack": "150ML",
-        "Company Name": "CIPLA OTC MAIN"
+        "Product Name": "AB WAX STRIP ROSE",
+        "Pack": "8 PIC",
+        "Company Name": "CIPLA OTC"
     },
     {
         "Product Name": "SOAK SHIELD ADULT DIAPER TAPED  LARGE",
@@ -943,13 +1180,28 @@ const otcData = [
         "Company Name": "DABUR INDIA LIMITED"
     },
     {
+        "Product Name": "DABUR CHYAWANPRASH SUGAR FREE 500GM",
+        "Pack": "500GM",
+        "Company Name": "DABUR INDIA LIMITED"
+    },
+    {
         "Product Name": "DABUR GLUCOPLUS C [ORANGE]",
+        "Pack": "125GM",
+        "Company Name": "DABUR INDIA LIMITED"
+    },
+    {
+        "Product Name": "DABUR GLUCOSE D POWDER",
         "Pack": "125GM",
         "Company Name": "DABUR INDIA LIMITED"
     },
     {
         "Product Name": "DABUR HONEY [100GM]",
         "Pack": "100GM",
+        "Company Name": "DABUR INDIA LIMITED"
+    },
+    {
+        "Product Name": "DABUR HONEY [1KG]",
+        "Pack": "1KG",
         "Company Name": "DABUR INDIA LIMITED"
     },
     {
@@ -1003,6 +1255,11 @@ const otcData = [
         "Company Name": "DABUR INDIA LIMITED"
     },
     {
+        "Product Name": "DABUR SHILAJIT GOLD CAP [BOTTLE]",
+        "Pack": "20CAP",
+        "Company Name": "DABUR INDIA LIMITED"
+    },
+    {
         "Product Name": "IME-9 TAB",
         "Pack": "60TAB",
         "Company Name": "DABUR INDIA LIMITED"
@@ -1025,6 +1282,11 @@ const otcData = [
     {
         "Product Name": "JAMBVASAV SYR [250ML]",
         "Pack": "250 ML",
+        "Company Name": "DABUR INDIA LIMITED"
+    },
+    {
+        "Product Name": "JIVAN MIXTURE SYP 60ML",
+        "Pack": "60ML",
         "Company Name": "DABUR INDIA LIMITED"
     },
     {
@@ -1058,6 +1320,11 @@ const otcData = [
         "Company Name": "DABUR INDIA LIMITED"
     },
     {
+        "Product Name": "ODOMOS CREAM [12GM]",
+        "Pack": "12GM",
+        "Company Name": "DABUR INDIA LIMITED"
+    },
+    {
         "Product Name": "ODOMOS CREAM [25GM]",
         "Pack": "25GM",
         "Company Name": "DABUR INDIA LIMITED"
@@ -1073,6 +1340,11 @@ const otcData = [
         "Company Name": "DABUR INDIA LIMITED"
     },
     {
+        "Product Name": "PACHAK VATI TAB",
+        "Pack": "60TAB",
+        "Company Name": "DABUR INDIA LIMITED"
+    },
+    {
         "Product Name": "PLAYWIN CAP",
         "Pack": "10CAP",
         "Company Name": "DABUR INDIA LIMITED"
@@ -1080,6 +1352,11 @@ const otcData = [
     {
         "Product Name": "PLAYWIN OIL",
         "Pack": "15ML",
+        "Company Name": "DABUR INDIA LIMITED"
+    },
+    {
+        "Product Name": "PUDINA HARA CAP",
+        "Pack": "CAP",
         "Company Name": "DABUR INDIA LIMITED"
     },
     {
@@ -1108,8 +1385,138 @@ const otcData = [
         "Company Name": "DABUR INDIA LIMITED"
     },
     {
+        "Product Name": "ADULT DIAPER [L2]RS.110",
+        "Pack": "2PIS",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "ADULT DIAPER [M2]",
+        "Pack": "2PIS",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "ADULT DIAPER PANTS (M)",
+        "Pack": "10PCS",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "ADULT DIAPER PANTS [L]",
+        "Pack": "10PCS",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "ADULT DIAPER X LARGE 2PC",
+        "Pack": "2PC",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "AMPLE CUP W/HOOD",
+        "Pack": "1 PCS",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "BEAR BRUSH",
+        "Pack": "1 PCS",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "BORNFREE BUBBLES W/S HND 125ML",
+        "Pack": "125 ML",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "BORNFREE CRYSTAL GLASS 120ML",
+        "Pack": "120ML",
+        "Company Name": "DIMPU"
+    },
+    {
         "Product Name": "BORNFREE CRYSTAL GLASS 240ML",
         "Pack": "240ML",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "BORNFREE ELITE FEEDER 150ML",
+        "Pack": "150 ML",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "BORNFREE EVA WATER TEETHER",
+        "Pack": "PCS",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "BORNFREE FRUIT NIBBLER",
+        "Pack": "1 PCE",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "BORNFREE MATTRESS PROTECTOR (SMALL)",
+        "Pack": "1 PCS",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "BORNFREE MATTRESS PROTECTOR [MEDIUM]",
+        "Pack": "1PIS",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "BORNFREE SILICON ORAL BRUSH",
+        "Pack": "1 PCS",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "BORNFREE SILICON SHIELD",
+        "Pack": "PCS",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "BORNFREE STAINLESS STEEL 120ML",
+        "Pack": "1 PCS",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "BORNFREE STAINLESS STEEL 240ML",
+        "Pack": "1 PCS",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "BORNFREE WIDE NECK SILICON NI PCS",
+        "Pack": "PCS",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "BREAST PUMP",
+        "Pack": "1 PCS",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "BREAST PUMP RS 515",
+        "Pack": "1 PIC",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "BRUSH/BABY BRUSH WITH",
+        "Pack": "15",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "CARE COUGH DROP",
+        "Pack": "1JAR",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "CARE COUGH DROP [ORANGE]",
+        "Pack": "1JAR",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "CARE DROP [LEMON GINGER]",
+        "Pack": "8TAB",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "CLASSIC SIPPER 2IN1",
+        "Pack": "2IN1",
         "Company Name": "DIMPU"
     },
     {
@@ -1118,8 +1525,148 @@ const otcData = [
         "Company Name": "DIMPU"
     },
     {
+        "Product Name": "GIRAFFE KIDS TOOTH BRUSH",
+        "Pack": "1 DOZ",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "HAJMI DIGESTIV DROP",
+        "Pack": "1JAR",
+        "Company Name": "DIMPU"
+    },
+    {
         "Product Name": "HOT WATER BAG BSR",
         "Pack": "1 PCS",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "KIDS JUMBO TOOTH BRUSHES",
+        "Pack": "1 DOZ",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "NAIL GROOMING SET",
+        "Pack": "1PCS",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "NIPPLE SHELD W/RUBBER",
+        "Pack": "30",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "NIPPLE SHIELD W/SILICON",
+        "Pack": "1 PCE",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "POLY JOY SILICON",
+        "Pack": "1 PCS",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "POP UP STRAW 300ML",
+        "Pack": "300 ML",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "POWDER PUFF DELUXE",
+        "Pack": "1 PCS",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "POWDER PUFF REGURAL",
+        "Pack": "1 PCS",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "PP COLOURES W/SIL",
+        "Pack": "140 ML",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "PP COLOURES W/SIL",
+        "Pack": "240 ML",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "PP JUNIOR W/SIL",
+        "Pack": "125ML",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "PP POLY KING DELUXES W/SIL",
+        "Pack": "1 PCS",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "PP POLY MINI DELUXE W/SIL",
+        "Pack": "1 PCS",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "PP PRESTIGE 125ML W/SIL",
+        "Pack": "125 ML",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "PP PRESTIGE 250 W/SIL",
+        "Pack": "250 ML",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "PP PRESTIGE 80ML W/SIL",
+        "Pack": "80 ML",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "PP PURE 125 ML W/SIL",
+        "Pack": "125 ML",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "PP PURE 250 ML W/SIL",
+        "Pack": "250 ML",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "PP SENIOR W/SIL",
+        "Pack": "250ML",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "SILICON DELUXE NIPPLE",
+        "Pack": "1 PCS",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "SIPPY CUP",
+        "Pack": "1PIS",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "SOOTHER DELUXE NIPPLE COVER",
+        "Pack": "1 PCS",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "TOY WATER TEETHER",
+        "Pack": "1 PCS",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "WET WIPES [BLUE]72S",
+        "Pack": "1PACK",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "WET WIPES 30S",
+        "Pack": "PACK",
+        "Company Name": "DIMPU"
+    },
+    {
+        "Product Name": "WET WIPES 72S",
+        "Pack": "PACK",
         "Company Name": "DIMPU"
     },
     {
@@ -1141,6 +1688,11 @@ const otcData = [
         "Product Name": "ZAROOR CONDOMS [RS.20]",
         "Pack": "6PIS",
         "Company Name": "DKT INDIA"
+    },
+    {
+        "Product Name": "BORO PLUS CREAM [POUCH] RS.5",
+        "Pack": "5GM",
+        "Company Name": "EMAMI LTD"
     },
     {
         "Product Name": "EMANI F&H CREAM 30ML [RS90]",
@@ -1198,6 +1750,21 @@ const otcData = [
         "Company Name": "EMAMI LTD"
     },
     {
+        "Product Name": "ZANDU HONEY (100GM)",
+        "Pack": "100M",
+        "Company Name": "EMAMI LTD"
+    },
+    {
+        "Product Name": "ZANDU HONEY (50GM)",
+        "Pack": "50GM",
+        "Company Name": "EMAMI LTD"
+    },
+    {
+        "Product Name": "HOT WATER BAG [DELUXE]",
+        "Pack": "1`S",
+        "Company Name": "ENKAY (INDIA) RUBBER CO. LTD."
+    },
+    {
         "Product Name": "HOT WATER BAG [JUNIOR]",
         "Pack": "1`S",
         "Company Name": "ENKAY (INDIA) RUBBER CO. LTD."
@@ -1211,6 +1778,11 @@ const otcData = [
         "Product Name": "FLYING TIGER BALM [7GM]",
         "Pack": "7GM",
         "Company Name": "FLYING TIGER"
+    },
+    {
+        "Product Name": "BORIC ACID [FOURTUN]400GM",
+        "Pack": "400GM",
+        "Company Name": "FOURTUNE PHARMA GST"
     },
     {
         "Product Name": "BORIC ACID [FOURTUNE] 20GM",
@@ -1228,7 +1800,22 @@ const otcData = [
         "Company Name": "FOURTUNE PHARMA GST"
     },
     {
+        "Product Name": "BORIC ACID [FOURTUNE]200GM",
+        "Pack": "200GM",
+        "Company Name": "FOURTUNE PHARMA GST"
+    },
+    {
+        "Product Name": "POTASIUM PERMAGNATE 20GM [FOURTUNE]",
+        "Pack": "20GM",
+        "Company Name": "FOURTUNE PHARMA GST"
+    },
+    {
         "Product Name": "SODIUM BI CARBONATE [FOURTUNE]",
+        "Pack": "20GM",
+        "Company Name": "FOURTUNE PHARMA GST"
+    },
+    {
+        "Product Name": "ZINC OXIDE 20GM [FOURTUNE]",
         "Pack": "20GM",
         "Company Name": "FOURTUNE PHARMA GST"
     },
@@ -1243,6 +1830,11 @@ const otcData = [
         "Company Name": "G D PHARMACEUTICALS LTD."
     },
     {
+        "Product Name": "BOROLINE CREAM [7GM]",
+        "Pack": "7GM",
+        "Company Name": "G D PHARMACEUTICALS LTD."
+    },
+    {
         "Product Name": "O-VIT DROPS",
         "Pack": "30ML",
         "Company Name": "G D PHARMACEUTICALS LTD."
@@ -1250,6 +1842,11 @@ const otcData = [
     {
         "Product Name": "SUTHOL BODY LIQ [NEEM]",
         "Pack": "100ML",
+        "Company Name": "G D PHARMACEUTICALS LTD."
+    },
+    {
+        "Product Name": "SUTHOL BODY LIQ [NEEM]",
+        "Pack": "200ML",
         "Company Name": "G D PHARMACEUTICALS LTD."
     },
     {
@@ -1263,18 +1860,23 @@ const otcData = [
         "Company Name": "GALDERMA INDIA PVT LTD"
     },
     {
-        "Product Name": "CETAPHIL BABY MASSAGE OIL 200ML",
-        "Pack": "1X200ML",
-        "Company Name": "GALDERMA INDIA PVT LTD"
-    },
-    {
         "Product Name": "CETAPHIL BABY MILD BAR 100GM",
         "Pack": "1X100GM",
         "Company Name": "GALDERMA INDIA PVT LTD"
     },
     {
+        "Product Name": "CETAPHIL BABY MOIST OIL 200ML",
+        "Pack": "1X200ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
         "Product Name": "CETAPHIL BABY SHAMPOO 230ML",
         "Pack": "1X230ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL BRIGHTENING CREAM 50GM",
+        "Pack": "1X50GM",
         "Company Name": "GALDERMA INDIA PVT LTD"
     },
     {
@@ -1333,8 +1935,28 @@ const otcData = [
         "Company Name": "GALDERMA INDIA PVT LTD"
     },
     {
+        "Product Name": "DHOUTI YOG CHURAN",
+        "Pack": "45GM",
+        "Company Name": "GEN"
+    },
+    {
+        "Product Name": "DHOUTI YOG CHURAN",
+        "Pack": "90GM",
+        "Company Name": "GEN"
+    },
+    {
+        "Product Name": "ADULSA SYS [RAPPLE]",
+        "Pack": "120ML",
+        "Company Name": "GENERAL...A"
+    },
+    {
         "Product Name": "AMREE PLUS CAP",
         "Pack": "20CAP",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "AMRITH NONI [DEEP BREATH]",
+        "Pack": "200ML",
         "Company Name": "GENERAL...A"
     },
     {
@@ -1358,6 +1980,11 @@ const otcData = [
         "Company Name": "GENERAL...A"
     },
     {
+        "Product Name": "ANKUR NACHANI [MIX DRY FRUIT]",
+        "Pack": "250GM",
+        "Company Name": "GENERAL...A"
+    },
+    {
         "Product Name": "ANKUR NACHANI [MIX FRUIT]",
         "Pack": "250GM",
         "Company Name": "GENERAL...A"
@@ -1370,6 +1997,11 @@ const otcData = [
     {
         "Product Name": "ANKUR NACHANI [MULTIGRAIN]",
         "Pack": "250GM",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "BADISOAP ARK",
+        "Pack": "3ML",
         "Company Name": "GENERAL...A"
     },
     {
@@ -1398,13 +2030,38 @@ const otcData = [
         "Company Name": "GENERAL...A"
     },
     {
+        "Product Name": "BUGNIL FLOOR CLEANER [FINEL]",
+        "Pack": "500ML",
+        "Company Name": "GENERAL...A"
+    },
+    {
         "Product Name": "BUGNIL FLOOR CLEANER 200ML",
         "Pack": "200ML",
         "Company Name": "GENERAL...A"
     },
     {
+        "Product Name": "CASTOR OIL 500ML",
+        "Pack": "500ML",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "CHHINKNI",
+        "Pack": "2GM",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "COFCO TAB",
+        "Pack": "60TAB",
+        "Company Name": "GENERAL...A"
+    },
+    {
         "Product Name": "COFCO TAB [100TAB]",
         "Pack": "120TAB",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "COFSILS COUGH DROPS [205+5 FREE]",
+        "Pack": "1JAR",
         "Company Name": "GENERAL...A"
     },
     {
@@ -1423,154 +2080,354 @@ const otcData = [
         "Company Name": "GENERAL...A"
     },
     {
-        "Product Name": "DHOUTI YOG CHURAN",
-        "Pack": "90GM",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Product Name": "DHARTIKA BACKPACK-P",
+        "Pack": "-",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "DR ORTHO OIL [BIG]",
+        "Pack": "200 ML",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "GILLETE CREAM 125GM [MRP 62]",
+        "Pack": "125GM",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "GILLETE CREAM 25GM [MRP 25]",
+        "Pack": "25GM",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "GILLETE CREAM 30GM [MRP 40]",
+        "Pack": "30GM",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "GILLETE CREAM REGULAR 70GM [MRP 71]",
+        "Pack": "70GM",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "GILLETE FOAM REGULAR 418GM [RS 290]",
+        "Pack": "418GM",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "GILLETE FOAM REGULAR 50GM [RS 95]",
+        "Pack": "50GM",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "GILLETE FOAM SENSITIVE 418GM [RS 290]",
+        "Pack": "418GM",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "GILLETE LIME CREAM 30GM [MRP 40]",
+        "Pack": "30GM",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "GILLETE LIME CREAM 70GM [MRP 71]",
+        "Pack": "70GM",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "GILLETE SHAVE BRUSH [7+1]",
+        "Pack": "PC",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "HAPPYDENT [WAVE]",
+        "Pack": "1JAR",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "HAPPYDENT [WHITE]",
+        "Pack": "1JAR",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "HEAD & SHOULDER SHAMPOO [2RS]",
+        "Pack": "5ML",
+        "Company Name": "GENERAL...A"
     },
     {
         "Product Name": "HEMPUSHPA SYRUP",
         "Pack": "170ML",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Company Name": "GENERAL...A"
     },
     {
         "Product Name": "HIM RE-HYDRATE DRINK [AAPLE]",
         "Pack": "200ML",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "HIM RE-HYDRATE DRINK [ORANG]",
+        "Pack": "200ML",
+        "Company Name": "GENERAL...A"
     },
     {
         "Product Name": "IODEX ULTRA GEL [15GM]",
         "Pack": "15GM",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Company Name": "GENERAL...A"
     },
     {
         "Product Name": "JIVAN MIXTURE SYP 10ML",
         "Pack": "10ML",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Company Name": "GENERAL...A"
     },
     {
         "Product Name": "JOTIC ROLL ON OIL",
         "Pack": "50ML",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Company Name": "GENERAL...A"
     },
     {
         "Product Name": "KANTHA SUDHARAK VATI (DHANWANTARI)",
         "Pack": "1PC",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Company Name": "GENERAL...A"
     },
     {
         "Product Name": "KOKUM SYRUP",
         "Pack": "500ML",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Company Name": "GENERAL...A"
     },
     {
         "Product Name": "L BABY PANTS [XL54] RS.999",
         "Pack": "54PIC",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Company Name": "GENERAL...A"
     },
     {
         "Product Name": "LICE NIL",
         "Pack": "30ML",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Company Name": "GENERAL...A"
     },
     {
         "Product Name": "LICE NIL [POUCH]",
         "Pack": "8ML",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "MADAN YOG TAB",
+        "Pack": "20TAB",
+        "Company Name": "GENERAL...A"
     },
     {
         "Product Name": "NAVRATNA OIL [RS.205]",
         "Pack": "270ML",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Company Name": "GENERAL...A"
     },
     {
         "Product Name": "NAVRATNA POWDER [ACTIVE DEO]",
         "Pack": "18GM",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Company Name": "GENERAL...A"
     },
     {
         "Product Name": "NAVRATNA POWDER [ACTIVE DEO]",
         "Pack": "50GM",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Company Name": "GENERAL...A"
     },
     {
         "Product Name": "NAVRATNA POWDER [MINT]",
         "Pack": "18GM",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Company Name": "GENERAL...A"
     },
     {
         "Product Name": "NAVRATNA POWDER [MINT]",
         "Pack": "50GM",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Company Name": "GENERAL...A"
     },
     {
         "Product Name": "NEERI SYP [100ML]",
         "Pack": "100ML",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Company Name": "GENERAL...A"
     },
     {
         "Product Name": "NEERI SYP [200ML]",
         "Pack": "200ML",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Company Name": "GENERAL...A"
     },
     {
         "Product Name": "NEERI TAB",
         "Pack": "30TAB",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "NISHA HAIR POWDER [BLACK]",
+        "Pack": "1PACK",
+        "Company Name": "GENERAL...A"
     },
     {
         "Product Name": "NISHA HAIR POWDER [BROWN]",
         "Pack": "1PACK",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "OLD SPICE LIME 70GM [MRP 71]",
+        "Pack": "70GM",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "OLD SPICE MUSK 30GM [MRP 40]",
+        "Pack": "30GM",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "OLD SPICE MUSK 70GM [MRP 71]",
+        "Pack": "70GM",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "OLD SPICE ORIGINAL 70GM [MRP 71]",
+        "Pack": "70GM",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "ORAL B BACTERIA FIGHTER SOFT BRUSH [6+2]",
+        "Pack": "1`S",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "ORAL B EVERYDAY CARE BRUSH [6+2]",
+        "Pack": "PC",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "ORAL B FRESH CLEAN SENSITIVE BRUSH",
+        "Pack": "12PC",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "ORAL B SHINY CLEAN SOFT BRUSH [11+2]",
+        "Pack": "PC",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "ORAL B SHINY SOFT MEDIUM BRUSH [11+2}",
+        "Pack": "PC",
+        "Company Name": "GENERAL...A"
     },
     {
         "Product Name": "PLAYWIN  PLUS CAP",
         "Pack": "4CAP",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "PRO-EASE XL [RS.50]",
+        "Pack": "7'S",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "PRO-EASE XL[RS.38]",
+        "Pack": "6'S",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "RAT TRAP GLUE BOARD [BIG]",
+        "Pack": "1",
+        "Company Name": "GENERAL...A"
     },
     {
         "Product Name": "RAT TRAP GLUE BOARD [SMALL]",
         "Pack": "1",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "RATOL CAKE",
+        "Pack": "25GM",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "RATOL PASTE",
+        "Pack": "15GM",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "ROGHAN SUKOON [50ML]",
+        "Pack": "50ML",
+        "Company Name": "GENERAL...A"
     },
     {
         "Product Name": "SIZER OIL",
         "Pack": "50ML",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Company Name": "GENERAL...A"
     },
     {
         "Product Name": "STAY ON POWER OIL",
         "Pack": "30ML",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Company Name": "GENERAL...A"
     },
     {
         "Product Name": "STAY ON SYS",
         "Pack": "20ML",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Company Name": "GENERAL...A"
     },
     {
         "Product Name": "SURYA PRAKASH OIL",
         "Pack": "3ML",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "TIDL PAIN RELIEF CREAM",
+        "Pack": "50GM",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "TIDL PAIN RELIEF SPARY",
+        "Pack": "50ML",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "TIDL PAIN RELIEF SPRAY",
+        "Pack": "100ML",
+        "Company Name": "GENERAL...A"
     },
     {
         "Product Name": "TIGER BALM [RED]21ML",
         "Pack": "21ML",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Company Name": "GENERAL...A"
     },
     {
         "Product Name": "TIGER BALM [RED]9ML",
         "Pack": "9ML",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "VASU TRICHUP OIL",
+        "Pack": "100ML",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "VEG CAT REGULAR",
+        "Pack": "1PCS",
+        "Company Name": "GENERAL...A"
     },
     {
         "Product Name": "VI ACLOCKED CHURNA",
         "Pack": "50GM",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "VICKS COUGH DROPS [105+5FREE]",
+        "Pack": "1JAR",
+        "Company Name": "GENERAL...A"
     },
     {
         "Product Name": "WARTOSIN",
         "Pack": "3ML",
-        "Company Name": "DHARTIKA BACKPACK-P"
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "ZADPOLA [50GM]",
+        "Pack": "50GM",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "JIVAN MIXTURE SYP 30ML",
+        "Pack": "30ML",
+        "Company Name": "GENERICS"
     },
     {
         "Product Name": "CROCIN 650 TAB",
@@ -1590,6 +2447,11 @@ const otcData = [
     {
         "Product Name": "CROCIN PAIN RELIEF TAB",
         "Pack": "15 TAB",
+        "Company Name": "GLAXO SMITHKLINE (CONSUMER HC)"
+    },
+    {
+        "Product Name": "ENO 3 IN 1 [JAR]",
+        "Pack": "5GM",
         "Company Name": "GLAXO SMITHKLINE (CONSUMER HC)"
     },
     {
@@ -1633,6 +2495,11 @@ const otcData = [
         "Company Name": "GLAXO SMITHKLINE (CONSUMER HC)"
     },
     {
+        "Product Name": "SENSODYNE DAILY PROT [RS.20]",
+        "Pack": "20GM",
+        "Company Name": "GLAXO SMITHKLINE (CONSUMER HC)"
+    },
+    {
         "Product Name": "SENSODYNE DEEP CLEAN PASTE",
         "Pack": "70GM",
         "Company Name": "GLAXO SMITHKLINE (CONSUMER HC)"
@@ -1673,6 +2540,16 @@ const otcData = [
         "Company Name": "GLAXO SMITHKLINE (CONSUMER HC)"
     },
     {
+        "Product Name": "SENSODYNE PRO KID BUBBLE",
+        "Pack": "70GM",
+        "Company Name": "GLAXO SMITHKLINE (CONSUMER HC)"
+    },
+    {
+        "Product Name": "SENSODYNE PRO KIDS STRWABERY",
+        "Pack": "70GM",
+        "Company Name": "GLAXO SMITHKLINE (CONSUMER HC)"
+    },
+    {
         "Product Name": "SENSODYNE RAPID RELIEF 80GM",
         "Pack": "80GM",
         "Company Name": "GLAXO SMITHKLINE (CONSUMER HC)"
@@ -1708,6 +2585,11 @@ const otcData = [
         "Company Name": "GUFIC BIOSCIENCES LIMITED (CRITICARE SPARK)"
     },
     {
+        "Product Name": "SMASHIT TAB",
+        "Pack": "TAB",
+        "Company Name": "GUFIC BIOSCIENCES LIMITED (CRITICARE SPARK)"
+    },
+    {
         "Product Name": "STRETCH NIL SYS [20ML]",
         "Pack": "20ML",
         "Company Name": "GUFIC BIOSCIENCES LIMITED (CRITICARE SPARK)"
@@ -1718,8 +2600,33 @@ const otcData = [
         "Company Name": "GUFIC BIOSCIENCES LIMITED (CRITICARE SPARK)"
     },
     {
+        "Product Name": "WH5 GEL 30GM",
+        "Pack": "30GM",
+        "Company Name": "GUFIC BIOSCIENCES LIMITED (CRITICARE SPARK)"
+    },
+    {
         "Product Name": "IMUNOCIN TAB",
         "Pack": "10 TAB",
+        "Company Name": "GUFIC BIOSCIENCES LIMITED (HERBAL)"
+    },
+    {
+        "Product Name": "KOFEND SYP 100ML",
+        "Pack": "100ML",
+        "Company Name": "GUFIC BIOSCIENCES LIMITED (HERBAL)"
+    },
+    {
+        "Product Name": "SALLAKI [MR] TAB",
+        "Pack": "10TAB",
+        "Company Name": "GUFIC BIOSCIENCES LIMITED (HERBAL)"
+    },
+    {
+        "Product Name": "SALLAKI [PLUS] TAB",
+        "Pack": "10TAB",
+        "Company Name": "GUFIC BIOSCIENCES LIMITED (HERBAL)"
+    },
+    {
+        "Product Name": "SALLAKI [XT] TAB",
+        "Pack": "10TAB",
         "Company Name": "GUFIC BIOSCIENCES LIMITED (HERBAL)"
     },
     {
@@ -1733,14 +2640,44 @@ const otcData = [
         "Company Name": "GUFIC BIOSCIENCES LIMITED (HERBAL)"
     },
     {
+        "Product Name": "SALLAKI LINIMENT [100ML]",
+        "Pack": "100ML",
+        "Company Name": "GUFIC BIOSCIENCES LIMITED (HERBAL)"
+    },
+    {
+        "Product Name": "SALLAKI LINIMENT [60ML]",
+        "Pack": "60ML",
+        "Company Name": "GUFIC BIOSCIENCES LIMITED (HERBAL)"
+    },
+    {
+        "Product Name": "GLUCON D POWDER [REGU]",
+        "Pack": "250GM",
+        "Company Name": "HEINZ"
+    },
+    {
         "Product Name": "GLUCON-D POWDER [REGU]",
         "Pack": "75GM",
+        "Company Name": "HEINZ"
+    },
+    {
+        "Product Name": "NYCIL POEDER [COOL CLASSIC]RS.115",
+        "Pack": "150GM",
         "Company Name": "HEINZ"
     },
     {
         "Product Name": "NYCIL POWDER [CHANDAN]RS.115",
         "Pack": "150GM",
         "Company Name": "HEINZ"
+    },
+    {
+        "Product Name": "NYCIL POWDER [COOL HERBAL]RS.115",
+        "Pack": "150GM",
+        "Company Name": "HEINZ"
+    },
+    {
+        "Product Name": "ALOEVERA GEL [RS.30]",
+        "Pack": "30ML",
+        "Company Name": "HI-FI COMPANY"
     },
     {
         "Product Name": "ALOVER GEL [RS.60]",
@@ -1768,6 +2705,11 @@ const otcData = [
         "Company Name": "HI-FI COMPANY"
     },
     {
+        "Product Name": "BLACK HENNA [RS.10]  HI FI",
+        "Pack": "15GM",
+        "Company Name": "HI-FI COMPANY"
+    },
+    {
         "Product Name": "BROWN HENNA [RS.10] HI FI",
         "Pack": "15GM",
         "Company Name": "HI-FI COMPANY"
@@ -1785,6 +2727,16 @@ const otcData = [
     {
         "Product Name": "CHANDAN POWDER [RS.30] HI FI",
         "Pack": "30GM",
+        "Company Name": "HI-FI COMPANY"
+    },
+    {
+        "Product Name": "GLYCERIN [RS.140] HI-FI",
+        "Pack": "250ML",
+        "Company Name": "HI-FI COMPANY"
+    },
+    {
+        "Product Name": "GLYCERIN [RS.16]HI-FI",
+        "Pack": "15ML",
         "Company Name": "HI-FI COMPANY"
     },
     {
@@ -1823,8 +2775,18 @@ const otcData = [
         "Company Name": "HI-FI COMPANY"
     },
     {
+        "Product Name": "MEHANDI CONE [RS.10]HI FI",
+        "Pack": "1*12PIS",
+        "Company Name": "HI-FI COMPANY"
+    },
+    {
         "Product Name": "NEEM POWDER [RS.30] HI FI",
         "Pack": "50GM",
+        "Company Name": "HI-FI COMPANY"
+    },
+    {
+        "Product Name": "ROSE SPRAY WATER [RS.30]HI FI",
+        "Pack": "50ML",
         "Company Name": "HI-FI COMPANY"
     },
     {
@@ -1858,6 +2820,16 @@ const otcData = [
         "Company Name": "HI-FI COMPANY"
     },
     {
+        "Product Name": "TULSI POWDER [RS.80]",
+        "Pack": "GM",
+        "Company Name": "HI-FI COMPANY"
+    },
+    {
+        "Product Name": "BABY PRICKLY HEAT POW",
+        "Pack": "50GM",
+        "Company Name": "HIMALAYA COSMETIC FOR OPTIVAL"
+    },
+    {
         "Product Name": "H FW NEEM [15ML]",
         "Pack": "15 ML",
         "Company Name": "HIMALAYA COSMETIC FOR OPTIVAL"
@@ -1888,6 +2860,11 @@ const otcData = [
         "Company Name": "HIMALAYA COSMETICS"
     },
     {
+        "Product Name": "BABY GIFT PACK",
+        "Pack": "1KIT",
+        "Company Name": "HIMALAYA COSMETICS"
+    },
+    {
         "Product Name": "BABY GIFT PACK [RS.280]",
         "Pack": "1KIT",
         "Company Name": "HIMALAYA COSMETICS"
@@ -1908,6 +2885,11 @@ const otcData = [
         "Company Name": "HIMALAYA COSMETICS"
     },
     {
+        "Product Name": "BABY LOTION [50ML]",
+        "Pack": "50ML",
+        "Company Name": "HIMALAYA COSMETICS"
+    },
+    {
         "Product Name": "BABY MASSAGE OIL [100ML]",
         "Pack": "100ML",
         "Company Name": "HIMALAYA COSMETICS"
@@ -1920,6 +2902,16 @@ const otcData = [
     {
         "Product Name": "BABY MASSAGE OIL [50ML]",
         "Pack": "50ML",
+        "Company Name": "HIMALAYA COSMETICS"
+    },
+    {
+        "Product Name": "BABY MOISTU SOAP [125GM]",
+        "Pack": "125GM",
+        "Company Name": "HIMALAYA COSMETICS"
+    },
+    {
+        "Product Name": "BABY NOURISH SOAP [125GM]",
+        "Pack": "125GM",
         "Company Name": "HIMALAYA COSMETICS"
     },
     {
@@ -1948,8 +2940,28 @@ const otcData = [
         "Company Name": "HIMALAYA COSMETICS"
     },
     {
+        "Product Name": "BABY RASH CREAM [RS.85]",
+        "Pack": "20ML",
+        "Company Name": "HIMALAYA COSMETICS"
+    },
+    {
+        "Product Name": "BABY REFRESH SOAP [125GM]",
+        "Pack": "125GM",
+        "Company Name": "HIMALAYA COSMETICS"
+    },
+    {
+        "Product Name": "BABY REFRESH SOAP [75GM]",
+        "Pack": "75GM",
+        "Company Name": "HIMALAYA COSMETICS"
+    },
+    {
         "Product Name": "BABY SHAMPO [100ML]",
         "Pack": "100ML",
+        "Company Name": "HIMALAYA COSMETICS"
+    },
+    {
+        "Product Name": "BABY SHAMPO [60ML]",
+        "Pack": "60ML",
         "Company Name": "HIMALAYA COSMETICS"
     },
     {
@@ -1975,6 +2987,11 @@ const otcData = [
     {
         "Product Name": "BABY WIPE 12 [RS48]",
         "Pack": "PACK",
+        "Company Name": "HIMALAYA COSMETICS"
+    },
+    {
+        "Product Name": "BABY WIPE 72 [RS350]",
+        "Pack": "1 PACK",
         "Company Name": "HIMALAYA COSMETICS"
     },
     {
@@ -2009,6 +3026,11 @@ const otcData = [
     },
     {
         "Product Name": "HIM POM POUCH (ORANGE)",
+        "Pack": "8GM",
+        "Company Name": "HIMALAYA COSMETICS"
+    },
+    {
+        "Product Name": "HIM SCRUB SACHET (NEEM)",
         "Pack": "8GM",
         "Company Name": "HIMALAYA COSMETICS"
     },
@@ -2068,13 +3090,63 @@ const otcData = [
         "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
     },
     {
+        "Product Name": "HIM COLD BALM",
+        "Pack": "10GM",
+        "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
+    },
+    {
         "Product Name": "HIM FOOTCARE CREAM",
         "Pack": "20GM",
         "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
     },
     {
+        "Product Name": "HIM GREEN TEA [CLASSIC]",
+        "Pack": "10'S BAG",
+        "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
+    },
+    {
+        "Product Name": "HIM GREEN TEA [GINGER]",
+        "Pack": "10'S BAG",
+        "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
+    },
+    {
+        "Product Name": "HIM GREEN TEA [GINGER]20'S",
+        "Pack": "20`S BAG",
+        "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
+    },
+    {
         "Product Name": "HIM GREEN TEA [LEMON]",
         "Pack": "10'S",
+        "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
+    },
+    {
+        "Product Name": "HIM GREEN TEA [LEMON] 20'S",
+        "Pack": "20`S BAG",
+        "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
+    },
+    {
+        "Product Name": "HIM GREEN TEA [TULASI]20S",
+        "Pack": "20`S BAG",
+        "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
+    },
+    {
+        "Product Name": "HIM GREEN TEA [TULSI]",
+        "Pack": "10'S BAG",
+        "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
+    },
+    {
+        "Product Name": "KOFLET LOZENGES (160+40)",
+        "Pack": "JAR",
+        "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
+    },
+    {
+        "Product Name": "KOFLET LOZENGES (60+15)",
+        "Pack": "JAR",
+        "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
+    },
+    {
+        "Product Name": "KOFLET-H LOZE [JAR]",
+        "Pack": "1JAR",
         "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
     },
     {
@@ -2110,6 +3182,11 @@ const otcData = [
     {
         "Product Name": "BOROPLUS BODY LOTION [RS.90]",
         "Pack": "100ML",
+        "Company Name": "HIMANI LIMITED"
+    },
+    {
+        "Product Name": "NAVRATNA OIL [RS 340]",
+        "Pack": "200ML",
         "Company Name": "HIMANI LIMITED"
     },
     {
@@ -2153,8 +3230,18 @@ const otcData = [
         "Company Name": "HINDUSTAN UNILEVER LIMITED"
     },
     {
+        "Product Name": "DOVE S&C HAIRFALL [5RS]",
+        "Pack": "5ML",
+        "Company Name": "HINDUSTAN UNILEVER LIMITED"
+    },
+    {
         "Product Name": "DOVE SERUM SOAP [58RS]",
         "Pack": "100GM",
+        "Company Name": "HINDUSTAN UNILEVER LIMITED"
+    },
+    {
+        "Product Name": "DOVE SERUM SOAP RS25",
+        "Pack": "50GM",
         "Company Name": "HINDUSTAN UNILEVER LIMITED"
     },
     {
@@ -2170,6 +3257,11 @@ const otcData = [
     {
         "Product Name": "GLOW&LOVELY FACEWASH RS20",
         "Pack": "20GM",
+        "Company Name": "HINDUSTAN UNILEVER LIMITED"
+    },
+    {
+        "Product Name": "PEARS SOAP RS20",
+        "Pack": "60GM",
         "Company Name": "HINDUSTAN UNILEVER LIMITED"
     },
     {
@@ -2218,8 +3310,18 @@ const otcData = [
         "Company Name": "HINDUSTAN UNILEVER LIMITED"
     },
     {
+        "Product Name": "PONDS HYDRA MOIST  30ML",
+        "Pack": "30ML",
+        "Company Name": "HINDUSTAN UNILEVER LIMITED"
+    },
+    {
         "Product Name": "PONDS HYDRA MOIST 25ML",
         "Pack": "25ML",
+        "Company Name": "HINDUSTAN UNILEVER LIMITED"
+    },
+    {
+        "Product Name": "PONDS HYDRA MOIST 55ML",
+        "Pack": "55ML",
         "Company Name": "HINDUSTAN UNILEVER LIMITED"
     },
     {
@@ -2283,6 +3385,61 @@ const otcData = [
         "Company Name": "HINDUSTAN UNILEVER LIMITED"
     },
     {
+        "Product Name": "AARADWADH KAPILA VATI TAB",
+        "Pack": "10 TAB",
+        "Company Name": "INDUCARE"
+    },
+    {
+        "Product Name": "ADULSA SYS [INDU]",
+        "Pack": "100ML",
+        "Company Name": "INDUCARE"
+    },
+    {
+        "Product Name": "ANOCARE TAB",
+        "Pack": "10 TAB",
+        "Company Name": "INDUCARE"
+    },
+    {
+        "Product Name": "AYUR PEN SYP",
+        "Pack": "100ML",
+        "Company Name": "INDUCARE"
+    },
+    {
+        "Product Name": "FACEPRO CREAM",
+        "Pack": "40GM",
+        "Company Name": "INDUCARE"
+    },
+    {
+        "Product Name": "FUNGIWIN CREAM",
+        "Pack": "25GM",
+        "Company Name": "INDUCARE"
+    },
+    {
+        "Product Name": "MAHANARAYN TEL [INDU]50ML",
+        "Pack": "50ML",
+        "Company Name": "INDUCARE"
+    },
+    {
+        "Product Name": "PITTANTAK SYR",
+        "Pack": "200ML",
+        "Company Name": "INDUCARE"
+    },
+    {
+        "Product Name": "SAJ SYRUP [50SACHET]",
+        "Pack": "10ML",
+        "Company Name": "INDUCARE"
+    },
+    {
+        "Product Name": "SHATAVARI KALP CHOCO [INDU]",
+        "Pack": "250GM",
+        "Company Name": "INDUCARE"
+    },
+    {
+        "Product Name": "SHATDHAUT GHRUT [25GM]",
+        "Pack": "25GM",
+        "Company Name": "INDUCARE"
+    },
+    {
         "Product Name": "VATARIL LINIMENT",
         "Pack": "50ML",
         "Company Name": "INDUCARE"
@@ -2291,6 +3448,11 @@ const otcData = [
         "Product Name": "SAVLON SOAP 75GM",
         "Pack": "75GM",
         "Company Name": "ITC INDIA LIMITED"
+    },
+    {
+        "Product Name": "VARAD NACHANI SATVA [MANGO]",
+        "Pack": "200 GM",
+        "Company Name": "JIYA HERBALS"
     },
     {
         "Product Name": "VARAD NACHANI SATVA [STRAWBERY].",
@@ -2325,6 +3487,11 @@ const otcData = [
     {
         "Product Name": "HAJMOLA BOTTLE [REGULAR]",
         "Pack": "50 TAB",
+        "Company Name": "JOHNSON & JOHNSON"
+    },
+    {
+        "Product Name": "HAJMOLA CANDY JAR",
+        "Pack": "1JAR",
         "Company Name": "JOHNSON & JOHNSON"
     },
     {
@@ -2428,6 +3595,11 @@ const otcData = [
         "Company Name": "JOHNSON & JOHNSON (OTC)"
     },
     {
+        "Product Name": "BENADRYL SYRUP [450ML]",
+        "Pack": "450ML",
+        "Company Name": "JOHNSON & JOHNSON (OTC)"
+    },
+    {
         "Product Name": "BENADRYL SYRUP [BIG]",
         "Pack": "150ML",
         "Company Name": "JOHNSON & JOHNSON (OTC)"
@@ -2453,7 +3625,17 @@ const otcData = [
         "Company Name": "JOHNSON & JOHNSON (OTC)"
     },
     {
+        "Product Name": "LISTERINE CAVITY FIGHTER MOUTH WASH 80ML",
+        "Pack": "80ML",
+        "Company Name": "JOHNSON & JOHNSON (OTC)"
+    },
+    {
         "Product Name": "LISTERINE COOLMINT MILD 80ML",
+        "Pack": "80ML",
+        "Company Name": "JOHNSON & JOHNSON (OTC)"
+    },
+    {
+        "Product Name": "LISTERINE FRESH BURST M/WASH 80ML",
         "Pack": "80ML",
         "Company Name": "JOHNSON & JOHNSON (OTC)"
     },
@@ -2473,7 +3655,22 @@ const otcData = [
         "Company Name": "JOHNSON & JOHNSON (OTC)"
     },
     {
+        "Product Name": "ORSL [ORANGE] LIQUID",
+        "Pack": "200ML",
+        "Company Name": "JOHNSON & JOHNSON (OTC)"
+    },
+    {
+        "Product Name": "ORSL APPLE REHYDRATE LIQUID",
+        "Pack": "200ML",
+        "Company Name": "JOHNSON & JOHNSON (OTC)"
+    },
+    {
         "Product Name": "ORSL ELECTROLYTE IMMUNITY +",
+        "Pack": "200ML",
+        "Company Name": "JOHNSON & JOHNSON (OTC)"
+    },
+    {
+        "Product Name": "ORSL ORANGE REHYDRATE LIQUID",
         "Pack": "200ML",
         "Company Name": "JOHNSON & JOHNSON (OTC)"
     },
@@ -2508,6 +3705,21 @@ const otcData = [
         "Company Name": "JOHNSON & JOHNSON (OTC)"
     },
     {
+        "Product Name": "ZINDA TILISMATH TEL",
+        "Pack": "5ML",
+        "Company Name": "KARKHANA ZINDA TILISMATH"
+    },
+    {
+        "Product Name": "DERMI COOL POWDER [SANDAL]",
+        "Pack": "50GM",
+        "Company Name": "LEEFORD HEALTHCARE LTD"
+    },
+    {
+        "Product Name": "LOOKMAN HAYAT TEL [100ML]",
+        "Pack": "100 ML",
+        "Company Name": "M U AMRELIA"
+    },
+    {
         "Product Name": "STAY ON CAP 10`S",
         "Pack": "TAB",
         "Company Name": "MARUTI HERBAL"
@@ -2518,14 +3730,44 @@ const otcData = [
         "Company Name": "MEDICO LAB"
     },
     {
+        "Product Name": "POWER 999 TAB",
+        "Pack": "10TAB",
+        "Company Name": "MEDICO LAB"
+    },
+    {
+        "Product Name": "POWER COUGH DROP",
+        "Pack": "1JAR",
+        "Company Name": "MEDICO LAB"
+    },
+    {
+        "Product Name": "POWER COUGH DROP [BIG]",
+        "Pack": "1JAR",
+        "Company Name": "MEDICO LAB"
+    },
+    {
+        "Product Name": "RELISPRAY 36GM",
+        "Pack": "36GM",
+        "Company Name": "MIDASCARE PHARMCEUTICALS"
+    },
+    {
         "Product Name": "MONISONS PAIN BALM 25GM",
         "Pack": "25GM",
+        "Company Name": "MONISONS"
+    },
+    {
+        "Product Name": "MONISONS PAIN BLAM [45GM]",
+        "Pack": "45GM",
         "Company Name": "MONISONS"
     },
     {
         "Product Name": "MONISONS PIAN BALM 10GM",
         "Pack": "10GM",
         "Company Name": "MONISONS"
+    },
+    {
+        "Product Name": "BURNOL OINT [15GM]",
+        "Pack": "15GM",
+        "Company Name": "MOREPEN LABORATORIES LTD (DR MOREPEN OTC)"
     },
     {
         "Product Name": "BURNOL OINT [25GM]",
@@ -2578,12 +3820,22 @@ const otcData = [
         "Company Name": "NARENDRA MARKETING"
     },
     {
+        "Product Name": "FIYU SUPER DELUXE SOOTHER",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
         "Product Name": "FIYU WATER TEETHER APPLE",
         "Pack": "PC",
         "Company Name": "NARENDRA MARKETING"
     },
     {
         "Product Name": "FIYU WATER TEETHER CAR",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "FIYU WATER TEETHER DOUBLE CHERRY",
         "Pack": "PC",
         "Company Name": "NARENDRA MARKETING"
     },
@@ -2650,6 +3902,26 @@ const otcData = [
     {
         "Product Name": "KESHRANAJANA TAILARK [BIG]",
         "Pack": "1PCS",
+        "Company Name": "NAVKAR LLP"
+    },
+    {
+        "Product Name": "KESHRANAJANA TAILARK [SMALL]",
+        "Pack": "1 PCS",
+        "Company Name": "NAVKAR LLP"
+    },
+    {
+        "Product Name": "KHO-GO BOTTLE [100PIL]",
+        "Pack": "100PIL",
+        "Company Name": "NAVKAR LLP"
+    },
+    {
+        "Product Name": "KHO-GO PACKET [10PIL]",
+        "Pack": "10PIL",
+        "Company Name": "NAVKAR LLP"
+    },
+    {
+        "Product Name": "MOHARI TAIL",
+        "Pack": "100ML",
         "Company Name": "NAVKAR LLP"
     },
     {
@@ -2753,6 +4025,11 @@ const otcData = [
         "Company Name": "NUTRICIA INTERNATIONAL PVT LTD"
     },
     {
+        "Product Name": "APTAMIL PREMIUM [TIN]",
+        "Pack": "400GM",
+        "Company Name": "NUTRICIA INTERNATIONAL PVT LTD"
+    },
+    {
         "Product Name": "APTAMIL PRETERM TIN [400GM]",
         "Pack": "400GM",
         "Company Name": "NUTRICIA INTERNATIONAL PVT LTD"
@@ -2774,6 +4051,16 @@ const otcData = [
     },
     {
         "Product Name": "DEXOLAC NO 2 [REFIL] 400GM",
+        "Pack": "400GM",
+        "Company Name": "NUTRICIA INTERNATIONAL PVT LTD"
+    },
+    {
+        "Product Name": "DEXOLAC NO 2 1.2KG [REFILL]",
+        "Pack": "1.2KG",
+        "Company Name": "NUTRICIA INTERNATIONAL PVT LTD"
+    },
+    {
+        "Product Name": "DEXOLAC NO 3 [REFIL] 400GM",
         "Pack": "400GM",
         "Company Name": "NUTRICIA INTERNATIONAL PVT LTD"
     },
@@ -2808,6 +4095,16 @@ const otcData = [
         "Company Name": "NUTRICIA INTERNATIONAL PVT LTD"
     },
     {
+        "Product Name": "PROTINEX POWDER [ORIGNAL]",
+        "Pack": "250GM",
+        "Company Name": "NUTRICIA INTERNATIONAL PVT LTD"
+    },
+    {
+        "Product Name": "PROTINEX POWDER [VANILLA]",
+        "Pack": "200GM",
+        "Company Name": "NUTRICIA INTERNATIONAL PVT LTD"
+    },
+    {
         "Product Name": "WOODWARDS GRIPE WATER",
         "Pack": "130ML",
         "Company Name": "NUTRICIA INTERNATIONAL PVT LTD"
@@ -2826,6 +4123,11 @@ const otcData = [
         "Product Name": "HAWABAN HARDE RS.25",
         "Pack": "1 PACK",
         "Company Name": "OTHERS"
+    },
+    {
+        "Product Name": "EVERTEEN PAD 2XL[RS.399]",
+        "Pack": "40'S",
+        "Company Name": "PAN HEALTH CARE LTD"
     },
     {
         "Product Name": "EVERTEEN PAD XL [RS.35]",
@@ -2883,6 +4185,11 @@ const otcData = [
         "Company Name": "PAN HEALTH CARE LTD"
     },
     {
+        "Product Name": "L BABY PANTS [M9] RS.99",
+        "Pack": "8PIS",
+        "Company Name": "PAN HEALTH CARE LTD"
+    },
+    {
         "Product Name": "L BABY PANTS [S1] RS.10",
         "Pack": "1PIS",
         "Company Name": "PAN HEALTH CARE LTD"
@@ -2913,8 +4220,18 @@ const otcData = [
         "Company Name": "PAN HEALTH CARE LTD"
     },
     {
+        "Product Name": "L BABY PANTS [XL1] RS.16",
+        "Pack": "1PIS",
+        "Company Name": "PAN HEALTH CARE LTD"
+    },
+    {
         "Product Name": "L BABY PANTS [XL24]RS.399",
         "Pack": "10'S",
+        "Company Name": "PAN HEALTH CARE LTD"
+    },
+    {
+        "Product Name": "L BABY PANTS [XL4] RS.64",
+        "Pack": "4PIS",
         "Company Name": "PAN HEALTH CARE LTD"
     },
     {
@@ -2943,8 +4260,18 @@ const otcData = [
         "Company Name": "PAN HEALTH CARE LTD"
     },
     {
+        "Product Name": "LIBERTY PANTS [L2]",
+        "Pack": "2 PIC",
+        "Company Name": "PAN HEALTH CARE LTD"
+    },
+    {
         "Product Name": "LIBERTY PANTS [M10] RS.550",
         "Pack": "10PIS",
+        "Company Name": "PAN HEALTH CARE LTD"
+    },
+    {
+        "Product Name": "LIBERTY PANTS [M2]",
+        "Pack": "2 PAC",
         "Company Name": "PAN HEALTH CARE LTD"
     },
     {
@@ -2955,6 +4282,11 @@ const otcData = [
     {
         "Product Name": "LIBERTY PANTS [XL2]",
         "Pack": "2 PC",
+        "Company Name": "PAN HEALTH CARE LTD"
+    },
+    {
+        "Product Name": "LIBERTY PANTS [XXL] RS.690",
+        "Pack": "10PIS",
         "Company Name": "PAN HEALTH CARE LTD"
     },
     {
@@ -2973,8 +4305,78 @@ const otcData = [
         "Company Name": "PANACEA BIOTEC LTD CHILD CARE"
     },
     {
+        "Product Name": "BORAX GLYCERIN 5GM",
+        "Pack": "GM",
+        "Company Name": "PARAS CHEMICAL"
+    },
+    {
+        "Product Name": "BORIC ACID 100GM [PARAS]",
+        "Pack": "100GM",
+        "Company Name": "PARAS CHEMICAL"
+    },
+    {
+        "Product Name": "BORIC ACID 200GM [PARAS]",
+        "Pack": "200GM",
+        "Company Name": "PARAS CHEMICAL"
+    },
+    {
+        "Product Name": "BORIC ACID 20GM [PARAS]",
+        "Pack": "20GM",
+        "Company Name": "PARAS CHEMICAL"
+    },
+    {
+        "Product Name": "BORIC ACID 400GM [PARAS]",
+        "Pack": "400GM",
+        "Company Name": "PARAS CHEMICAL"
+    },
+    {
+        "Product Name": "BORIC ACID 50GM [PARAS]",
+        "Pack": "50GM",
+        "Company Name": "PARAS CHEMICAL"
+    },
+    {
+        "Product Name": "CASTOR OIL [100ML]",
+        "Pack": "100ML",
+        "Company Name": "PARAS CHEMICAL"
+    },
+    {
         "Product Name": "CASTOR OIL [12ML]",
         "Pack": "12ML",
+        "Company Name": "PARAS CHEMICAL"
+    },
+    {
+        "Product Name": "CASTOR OIL [50ML]",
+        "Pack": "50ML",
+        "Company Name": "PARAS CHEMICAL"
+    },
+    {
+        "Product Name": "CITRIC ACID 20GM",
+        "Pack": "GM",
+        "Company Name": "PARAS CHEMICAL"
+    },
+    {
+        "Product Name": "HYDROGEN PEROXIDE 25ML",
+        "Pack": "25ML",
+        "Company Name": "PARAS CHEMICAL"
+    },
+    {
+        "Product Name": "NILGILI TEL [PARAS]",
+        "Pack": "50ML",
+        "Company Name": "PARAS CHEMICAL"
+    },
+    {
+        "Product Name": "NILGIRI TEL [PARAS]",
+        "Pack": "5ML",
+        "Company Name": "PARAS CHEMICAL"
+    },
+    {
+        "Product Name": "POTTASSIUM PERMAGNATE",
+        "Pack": "20GM",
+        "Company Name": "PARAS CHEMICAL"
+    },
+    {
+        "Product Name": "WHITE PET GELLY [25GM]",
+        "Pack": "25GM",
         "Company Name": "PARAS CHEMICAL"
     },
     {
@@ -2988,9 +4390,29 @@ const otcData = [
         "Company Name": "PARAS CHEMICAL"
     },
     {
+        "Product Name": "ZINC OXIDE 20GM",
+        "Pack": "20GM",
+        "Company Name": "PARAS CHEMICAL"
+    },
+    {
+        "Product Name": "DERMI COOL POWDER [LAVENDER]",
+        "Pack": "50GM",
+        "Company Name": "PARAS PHARMA"
+    },
+    {
+        "Product Name": "CENTER FRUIT [WATER MELONE]",
+        "Pack": "1JAR",
+        "Company Name": "PERFETI"
+    },
+    {
         "Product Name": "LISTERINE CAVITY FIGHTER MOUTH WASH 500ML",
         "Pack": "500ML",
         "Company Name": "PFIZER LTD"
+    },
+    {
+        "Product Name": "CURE ON OIL [100ML]",
+        "Pack": "100ML",
+        "Company Name": "PITAMBARI PRODUCTS PVT. LTD."
     },
     {
         "Product Name": "CURE ON OIL [200ML]",
@@ -3073,6 +4495,11 @@ const otcData = [
         "Company Name": "PROCTER & GAMBLE HEALTH LTD."
     },
     {
+        "Product Name": "PAMPERS PANTS [L1] RS.15",
+        "Pack": "1PIS",
+        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
+    },
+    {
         "Product Name": "PAMPERS PANTS [L2] RS.30",
         "Pack": "2PIS",
         "Company Name": "PROCTER & GAMBLE HEALTH LTD."
@@ -3085,6 +4512,11 @@ const otcData = [
     {
         "Product Name": "PAMPERS PANTS [L7] RS.99",
         "Pack": "7PIS",
+        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
+    },
+    {
+        "Product Name": "PAMPERS PANTS [M1] RS.13",
+        "Pack": "1PIS",
         "Company Name": "PROCTER & GAMBLE HEALTH LTD."
     },
     {
@@ -3120,6 +4552,11 @@ const otcData = [
     {
         "Product Name": "PAMPERS PANTS [S] RS.199",
         "Pack": "20PIS",
+        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
+    },
+    {
+        "Product Name": "PAMPERS PANTS [S1] RS.10",
+        "Pack": "1PIS",
         "Company Name": "PROCTER & GAMBLE HEALTH LTD."
     },
     {
@@ -3163,6 +4600,11 @@ const otcData = [
         "Company Name": "PROCTER & GAMBLE HEALTH LTD."
     },
     {
+        "Product Name": "VICKS COUGH DROPS [850+100FREE]",
+        "Pack": "1JAR",
+        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
+    },
+    {
         "Product Name": "WHISPER CHOICE ULTRA [RS95]GREEEN",
         "Pack": "7PCS",
         "Company Name": "PROCTER & GAMBLE HEALTH LTD."
@@ -3190,6 +4632,16 @@ const otcData = [
     {
         "Product Name": "VICKS BABY RUB [10ML]",
         "Pack": "10ML",
+        "Company Name": "PROCTER & GAMBLE INDIA LTD (P & G)"
+    },
+    {
+        "Product Name": "VICKS COUGH DROPS [130+10FREE]",
+        "Pack": "1JAR",
+        "Company Name": "PROCTER & GAMBLE INDIA LTD (P & G)"
+    },
+    {
+        "Product Name": "VICKS COUGH DROPS [185+15FREE]",
+        "Pack": "1JAR",
         "Company Name": "PROCTER & GAMBLE INDIA LTD (P & G)"
     },
     {
@@ -3243,13 +4695,28 @@ const otcData = [
         "Company Name": "PUSHKARAJ"
     },
     {
+        "Product Name": "AMBEHALAD POWDER [80GM]PUSHKRAJ",
+        "Pack": "80GM",
+        "Company Name": "PUSHKARAJ"
+    },
+    {
         "Product Name": "ASHWAGANDHA POWDER [50GM]PUSHKRAJ",
         "Pack": "50GM",
         "Company Name": "PUSHKARAJ"
     },
     {
+        "Product Name": "ASHWAGANDHA POWDER [80GM]PUSHKRAJ",
+        "Pack": "80GM",
+        "Company Name": "PUSHKARAJ"
+    },
+    {
         "Product Name": "AWALA POWDER [50GM]",
         "Pack": "50GM",
+        "Company Name": "PUSHKARAJ"
+    },
+    {
+        "Product Name": "AWALA POWDER [80GM]PUSHKRAJ",
+        "Pack": "80GM",
         "Company Name": "PUSHKARAJ"
     },
     {
@@ -3265,6 +4732,16 @@ const otcData = [
     {
         "Product Name": "DIKAMALI POWDER [20GM]PUSHKRAJ",
         "Pack": "20GM",
+        "Company Name": "PUSHKARAJ"
+    },
+    {
+        "Product Name": "GLYCERIN SOAP NEEMTULSI [REEYA]",
+        "Pack": "85GM",
+        "Company Name": "PUSHKARAJ"
+    },
+    {
+        "Product Name": "GLYCERIN SOAP ROSE [REEYA]",
+        "Pack": "85GM",
         "Company Name": "PUSHKARAJ"
     },
     {
@@ -3303,6 +4780,11 @@ const otcData = [
         "Company Name": "PUSHKARAJ"
     },
     {
+        "Product Name": "MULTANI MATTI [100GM]PUSHKRAJ",
+        "Pack": "100GM",
+        "Company Name": "PUSHKARAJ"
+    },
+    {
         "Product Name": "MUSTARD OIL [100ML]PUSHKRAJ",
         "Pack": "100ML",
         "Company Name": "PUSHKARAJ"
@@ -3329,6 +4811,11 @@ const otcData = [
     },
     {
         "Product Name": "PUSHKARAJ NACHANI (BADAM PISTA)",
+        "Pack": "250GM",
+        "Company Name": "PUSHKARAJ"
+    },
+    {
+        "Product Name": "PUSHKARAJ NACHANI (DRY FRUIT)",
         "Pack": "250GM",
         "Company Name": "PUSHKARAJ"
     },
@@ -3373,8 +4860,23 @@ const otcData = [
         "Company Name": "PUSHKARAJ"
     },
     {
+        "Product Name": "TEEL OIL [100ML]PUSHKRAJ",
+        "Pack": "100ML",
+        "Company Name": "PUSHKARAJ"
+    },
+    {
         "Product Name": "TEEL OIL [50ML] PUSHKRAJ",
         "Pack": "50ML",
+        "Company Name": "PUSHKARAJ"
+    },
+    {
+        "Product Name": "TRIPHALA  CHURN [50GM]",
+        "Pack": "50GM",
+        "Company Name": "PUSHKARAJ"
+    },
+    {
+        "Product Name": "TRIPHALA CHURN [80GM]PUSHKRAJ",
+        "Pack": "80GM",
         "Company Name": "PUSHKARAJ"
     },
     {
@@ -3443,13 +4945,18 @@ const otcData = [
         "Company Name": "RANBAXY LAB (CONSUMER - CHC)"
     },
     {
-        "Product Name": "VOLINI GEL [50GM]I",
+        "Product Name": "VOLINI GEL [50GM]",
         "Pack": "50GM",
         "Company Name": "RANBAXY LAB (CONSUMER - CHC)"
     },
     {
         "Product Name": "VOLINI GEL [75GM]",
         "Pack": "75GM",
+        "Company Name": "RANBAXY LAB (CONSUMER - CHC)"
+    },
+    {
+        "Product Name": "VOLINI MAXX SPRAY [25GM]",
+        "Pack": "25GM",
         "Company Name": "RANBAXY LAB (CONSUMER - CHC)"
     },
     {
@@ -3493,8 +5000,18 @@ const otcData = [
         "Company Name": "RECKITT BENCKISER INDIA"
     },
     {
+        "Product Name": "DERMI-COOL POWDER [REGULER]",
+        "Pack": "50GM",
+        "Company Name": "RECKITT BENCKISER INDIA"
+    },
+    {
         "Product Name": "DETTOL H/W [PUMP]",
         "Pack": "200ML",
+        "Company Name": "RECKITT BENCKISER INDIA"
+    },
+    {
+        "Product Name": "DETTOL H/W REFIL (SKINCARE ) 1 S",
+        "Pack": "175 ML",
         "Company Name": "RECKITT BENCKISER INDIA"
     },
     {
@@ -3540,6 +5057,11 @@ const otcData = [
     {
         "Product Name": "DETTOL H/W REFILL [SKINCARE] 2+1FREE",
         "Pack": "175ML",
+        "Company Name": "RECKITT BENCKISER INDIA LTD."
+    },
+    {
+        "Product Name": "DETTOL HANDWASH POWDER [8GM]",
+        "Pack": "8GM",
         "Company Name": "RECKITT BENCKISER INDIA LTD."
     },
     {
@@ -3630,6 +5152,16 @@ const otcData = [
     {
         "Product Name": "KARANJI TEL",
         "Pack": "50ML",
+        "Company Name": "SAIEE PHARMACHEM"
+    },
+    {
+        "Product Name": "MUSALI CHURN",
+        "Pack": "50GM",
+        "Company Name": "SAIEE PHARMACHEM"
+    },
+    {
+        "Product Name": "MUSALI SAFED CHURN",
+        "Pack": "20GM",
         "Company Name": "SAIEE PHARMACHEM"
     },
     {
@@ -3748,6 +5280,16 @@ const otcData = [
         "Company Name": "SAIEE PHARMACHEM"
     },
     {
+        "Product Name": "SHATAVARE KALP ELAICHI [SAIEE]",
+        "Pack": "400GM",
+        "Company Name": "SAIEE PHARMACHEM"
+    },
+    {
+        "Product Name": "SHIKEKAI POWDER",
+        "Pack": "50GM",
+        "Company Name": "SAIEE PHARMACHEM"
+    },
+    {
         "Product Name": "TEEL TEL 100ML [SAIEE]",
         "Pack": "100 ML",
         "Company Name": "SAIEE PHARMACHEM"
@@ -3768,6 +5310,11 @@ const otcData = [
         "Company Name": "SAIEE PHARMACHEM"
     },
     {
+        "Product Name": "SAPAT AYUSAS ADULSA SYP",
+        "Pack": "100ML",
+        "Company Name": "SAPAT COMPANY PVT LTD"
+    },
+    {
         "Product Name": "SAPAT LOTION [13ML]",
         "Pack": "13ML",
         "Company Name": "SAPAT COMPANY PVT LTD"
@@ -3786,6 +5333,11 @@ const otcData = [
         "Product Name": "SCISSORS SAPAT",
         "Pack": "1NOS",
         "Company Name": "SAPAT COMPANY PVT LTD"
+    },
+    {
+        "Product Name": "ARSH KALP KIT",
+        "Pack": "PC",
+        "Company Name": "SBS BIOTECH"
     },
     {
         "Product Name": "DR ORTHO BALM",
@@ -3810,6 +5362,11 @@ const otcData = [
     {
         "Product Name": "DR ORTHO OIL [3+1EYE MANTRA FREE]",
         "Pack": "120ML",
+        "Company Name": "SBS BIOTECH"
+    },
+    {
+        "Product Name": "DR ORTHO OINT [15GM]",
+        "Pack": "15GM",
         "Company Name": "SBS BIOTECH"
     },
     {
@@ -3858,6 +5415,11 @@ const otcData = [
         "Company Name": "SBS BIOTECH"
     },
     {
+        "Product Name": "ROOP MANTRA CREAM",
+        "Pack": "30 GM",
+        "Company Name": "SBS BIOTECH"
+    },
+    {
         "Product Name": "ROOP MANTRA CREAM [RS70]",
         "Pack": "15 GM",
         "Company Name": "SBS BIOTECH"
@@ -3898,7 +5460,7 @@ const otcData = [
         "Company Name": "SDL"
     },
     {
-        "Product Name": "ARJUN CHANDAN POWDER [SDL]",
+        "Product Name": "ARJUN CHANDAN SAAL [SDL]",
         "Pack": "50GM",
         "Company Name": "SDL"
     },
@@ -4018,6 +5580,11 @@ const otcData = [
         "Company Name": "SDL"
     },
     {
+        "Product Name": "LAVANG TEL [SDL]",
+        "Pack": "5ML",
+        "Company Name": "SDL"
+    },
+    {
         "Product Name": "MOHARI TEL [SDL]",
         "Pack": "100ML",
         "Company Name": "SDL"
@@ -4025,6 +5592,11 @@ const otcData = [
     {
         "Product Name": "MOHARI TEL 50ML [SDL]",
         "Pack": "50ML",
+        "Company Name": "SDL"
+    },
+    {
+        "Product Name": "MULTANI MATI 50GM [SDL] JAR",
+        "Pack": "50GM",
         "Company Name": "SDL"
     },
     {
@@ -4038,7 +5610,22 @@ const otcData = [
         "Company Name": "SDL"
     },
     {
+        "Product Name": "NACHANI SATVA CHOCH [SDL]",
+        "Pack": "250GM",
+        "Company Name": "SDL"
+    },
+    {
+        "Product Name": "NACHANI SATVA DF [SDL]",
+        "Pack": "250GM",
+        "Company Name": "SDL"
+    },
+    {
         "Product Name": "NACHANI SATVA ELAICHI [SDL]",
+        "Pack": "250GM",
+        "Company Name": "SDL"
+    },
+    {
+        "Product Name": "NACHANI SATVA KB [SDL]",
         "Pack": "250GM",
         "Company Name": "SDL"
     },
@@ -4065,6 +5652,26 @@ const otcData = [
     {
         "Product Name": "NEEM OIL 100ML[SDL]",
         "Pack": "100ML",
+        "Company Name": "SDL"
+    },
+    {
+        "Product Name": "NILGIRI TEL [SDL]",
+        "Pack": "5ML",
+        "Company Name": "SDL"
+    },
+    {
+        "Product Name": "NILGIRI TEL 30ML [SDL]",
+        "Pack": "30ML",
+        "Company Name": "SDL"
+    },
+    {
+        "Product Name": "SHATAVARE POWDER [SDL]",
+        "Pack": "50GM",
+        "Company Name": "SDL"
+    },
+    {
+        "Product Name": "SHATAVARI KALP [SDL]",
+        "Pack": "125GM",
         "Company Name": "SDL"
     },
     {
@@ -4105,6 +5712,16 @@ const otcData = [
     {
         "Product Name": "CARMIN TAB [60TAB]",
         "Pack": "60TAB",
+        "Company Name": "SHARANDHAR"
+    },
+    {
+        "Product Name": "SHATAVARI KALP [SHARANGDHAR]",
+        "Pack": "125GM",
+        "Company Name": "SHARANDHAR"
+    },
+    {
+        "Product Name": "SHATAVARI KALP [SHARANGDHAR] TIN",
+        "Pack": "200GM",
         "Company Name": "SHARANDHAR"
     },
     {
@@ -4163,6 +5780,16 @@ const otcData = [
         "Company Name": "SHRIRAMA STORES YELLAPUR"
     },
     {
+        "Product Name": "ASWINI OIL 45ML",
+        "Pack": "45ML",
+        "Company Name": "SHRIRAMA STORES YELLAPUR"
+    },
+    {
+        "Product Name": "ASWINI OIL 90ML",
+        "Pack": "90ML",
+        "Company Name": "SHRIRAMA STORES YELLAPUR"
+    },
+    {
         "Product Name": "B TEX OINT [14GM]",
         "Pack": "14GM",
         "Company Name": "SHRIRAMA STORES YELLAPUR"
@@ -4178,6 +5805,11 @@ const otcData = [
         "Company Name": "SHRIRAMA STORES YELLAPUR"
     },
     {
+        "Product Name": "CROCIN 120MG SUSP",
+        "Pack": "100ML",
+        "Company Name": "SHRIRAMA STORES YELLAPUR"
+    },
+    {
         "Product Name": "CROCIN 120MG SUSP 60ML",
         "Pack": "60ML",
         "Company Name": "SHRIRAMA STORES YELLAPUR"
@@ -4185,6 +5817,11 @@ const otcData = [
     {
         "Product Name": "CROCIN 240MG DS SUSP 60ML",
         "Pack": "60ML",
+        "Company Name": "SHRIRAMA STORES YELLAPUR"
+    },
+    {
+        "Product Name": "CROCIN 240MG SUSP",
+        "Pack": "100ML",
         "Company Name": "SHRIRAMA STORES YELLAPUR"
     },
     {
@@ -4218,6 +5855,21 @@ const otcData = [
         "Company Name": "SHRIRAMA STORES YELLAPUR"
     },
     {
+        "Product Name": "ENDURA MASS [BANANA]",
+        "Pack": "500GM",
+        "Company Name": "SHRIRAMA STORES YELLAPUR"
+    },
+    {
+        "Product Name": "ENDURA MASS [CHOCLATE]",
+        "Pack": "500GM",
+        "Company Name": "SHRIRAMA STORES YELLAPUR"
+    },
+    {
+        "Product Name": "ENDURA MASS [VANILA]",
+        "Pack": "500GM",
+        "Company Name": "SHRIRAMA STORES YELLAPUR"
+    },
+    {
         "Product Name": "ENO LEMON SACHET [60SACHET]",
         "Pack": "60'S",
         "Company Name": "SHRIRAMA STORES YELLAPUR"
@@ -4240,6 +5892,11 @@ const otcData = [
     {
         "Product Name": "IODEX ACTIVE 16GM",
         "Pack": "16GM",
+        "Company Name": "SHRIRAMA STORES YELLAPUR"
+    },
+    {
+        "Product Name": "IODEX ACTIVE CARE 8GM",
+        "Pack": "8GM",
         "Company Name": "SHRIRAMA STORES YELLAPUR"
     },
     {
@@ -4323,8 +5980,8 @@ const otcData = [
         "Company Name": "SHRIRAMA STORES YELLAPUR"
     },
     {
-        "Product Name": "LICEL OIL [20ML]",
-        "Pack": "20ML",
+        "Product Name": "LICEL OIL [25ML]",
+        "Pack": "25ML",
         "Company Name": "SHRIRAMA STORES YELLAPUR"
     },
     {
@@ -4393,6 +6050,11 @@ const otcData = [
         "Company Name": "SHRIRAMA STORES YELLAPUR"
     },
     {
+        "Product Name": "OSTOCALCIUM KID SUSP [BANANA]",
+        "Pack": "200ML",
+        "Company Name": "SHRIRAMA STORES YELLAPUR"
+    },
+    {
         "Product Name": "OSTOCALCIUM TOTAL TAB",
         "Pack": "30TAB",
         "Company Name": "SHRIRAMA STORES YELLAPUR"
@@ -4405,6 +6067,11 @@ const otcData = [
     {
         "Product Name": "OTRIVIN PAED SPRAY",
         "Pack": "10ML",
+        "Company Name": "SHRIRAMA STORES YELLAPUR"
+    },
+    {
+        "Product Name": "PET SAFFA TAB",
+        "Pack": "14TAB",
         "Company Name": "SHRIRAMA STORES YELLAPUR"
     },
     {
@@ -4473,6 +6140,11 @@ const otcData = [
         "Company Name": "SHRIRAMA STORES YELLAPUR"
     },
     {
+        "Product Name": "SAFI SYR",
+        "Pack": "500ML",
+        "Company Name": "SHRIRAMA STORES YELLAPUR"
+    },
+    {
         "Product Name": "SENSODYNE FRESH GEL [40GM]",
         "Pack": "40GM",
         "Company Name": "SHRIRAMA STORES YELLAPUR"
@@ -4495,6 +6167,11 @@ const otcData = [
     {
         "Product Name": "SESA OIL [50ML]",
         "Pack": "50ML",
+        "Company Name": "SHRIRAMA STORES YELLAPUR"
+    },
+    {
+        "Product Name": "SESA SHAMPOO [100ML]",
+        "Pack": "100ML",
         "Company Name": "SHRIRAMA STORES YELLAPUR"
     },
     {
@@ -4528,8 +6205,28 @@ const otcData = [
         "Company Name": "SHRIRAMA STORES YELLAPUR"
     },
     {
+        "Product Name": "SUGAR FREE NATURA 500 PELL",
+        "Pack": "500PELL",
+        "Company Name": "SHRIRAMA STORES YELLAPUR"
+    },
+    {
         "Product Name": "SUGAR FREE NATURA POWDER",
         "Pack": "100GM",
+        "Company Name": "SHRIRAMA STORES YELLAPUR"
+    },
+    {
+        "Product Name": "SUPREME FORTE TAB",
+        "Pack": "10TAB",
+        "Company Name": "SHRIRAMA STORES YELLAPUR"
+    },
+    {
+        "Product Name": "VEET CREAM [ALOVERA]SENSETIV SKIN",
+        "Pack": "30GM",
+        "Company Name": "SHRIRAMA STORES YELLAPUR"
+    },
+    {
+        "Product Name": "VEET CREAM [ALOVERA+MINT] DRY SKIN",
+        "Pack": "30GM",
         "Company Name": "SHRIRAMA STORES YELLAPUR"
     },
     {
@@ -4583,8 +6280,33 @@ const otcData = [
         "Company Name": "SUJANIL CHEMO INDUSTRIES"
     },
     {
+        "Product Name": "LICEL [POUCH]",
+        "Pack": "8ML",
+        "Company Name": "SUJANIL CHEMO INDUSTRIES"
+    },
+    {
+        "Product Name": "NOK 99[LITTLE MASTER]",
+        "Pack": "200ML",
+        "Company Name": "SUJANIL CHEMO INDUSTRIES"
+    },
+    {
+        "Product Name": "NOK 99[NAVIGATOR]",
+        "Pack": "320ML",
+        "Company Name": "SUJANIL CHEMO INDUSTRIES"
+    },
+    {
+        "Product Name": "NOK LINE",
+        "Pack": "8ML",
+        "Company Name": "SUJANIL CHEMO INDUSTRIES"
+    },
+    {
         "Product Name": "ADULSA GOLD SYP (SUN)",
         "Pack": "100ML",
+        "Company Name": "SUN HEALTHCARE"
+    },
+    {
+        "Product Name": "ADULSA SYRUP [SUN]",
+        "Pack": "120 ML",
         "Company Name": "SUN HEALTHCARE"
     },
     {
@@ -4603,6 +6325,11 @@ const otcData = [
         "Company Name": "SUN HEALTHCARE"
     },
     {
+        "Product Name": "CORN-X LOTION",
+        "Pack": "5ML",
+        "Company Name": "SUN HEALTHCARE"
+    },
+    {
         "Product Name": "HALADI COUGH SYRUP",
         "Pack": "120 ML",
         "Company Name": "SUN HEALTHCARE"
@@ -4615,6 +6342,16 @@ const otcData = [
     {
         "Product Name": "LAXMI SATISABGOAL [50GM]",
         "Pack": "50GM",
+        "Company Name": "SUN HEALTHCARE"
+    },
+    {
+        "Product Name": "MYOSTAAL LINIMENT [110ML]",
+        "Pack": "110ML",
+        "Company Name": "SUN HEALTHCARE"
+    },
+    {
+        "Product Name": "MYOSTAAL LINIMENT [30ML]",
+        "Pack": "30ML",
         "Company Name": "SUN HEALTHCARE"
     },
     {
@@ -4638,6 +6375,16 @@ const otcData = [
         "Company Name": "SUN HEALTHCARE"
     },
     {
+        "Product Name": "PYROFLEX LINIMENT [30ML]",
+        "Pack": "30ML",
+        "Company Name": "SUN HEALTHCARE"
+    },
+    {
+        "Product Name": "PYROFLEX LINIMENT [60ML]",
+        "Pack": "60ML",
+        "Company Name": "SUN HEALTHCARE"
+    },
+    {
         "Product Name": "ROSE WATER [120ML]",
         "Pack": "120ML",
         "Company Name": "SUN HEALTHCARE"
@@ -4658,7 +6405,7 @@ const otcData = [
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
     {
-        "Product Name": "M POKO PANTS [L14] RS.210",
+        "Product Name": "M POKO PANTS [L13] RS.210",
         "Pack": "14PIS",
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
@@ -4668,7 +6415,7 @@ const otcData = [
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
     {
-        "Product Name": "M POKO PANTS [L28] RS.399",
+        "Product Name": "M POKO PANTS [L26] RS.399",
         "Pack": "30PIS",
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
@@ -4688,7 +6435,7 @@ const otcData = [
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
     {
-        "Product Name": "M POKO PANTS [L7] RS.99",
+        "Product Name": "M POKO PANTS [L6] RS.99",
         "Pack": "7PIS",
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
@@ -4728,12 +6475,12 @@ const otcData = [
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
     {
-        "Product Name": "M POKO PANTS [M8] RS.99",
+        "Product Name": "M POKO PANTS [M7] RS.99",
         "Pack": "8PIS",
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
     {
-        "Product Name": "M POKO PANTS [NB17] RS.199",
+        "Product Name": "M POKO PANTS [NB16] RS.199",
         "Pack": "17PIS",
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
@@ -4748,11 +6495,6 @@ const otcData = [
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
     {
-        "Product Name": "M POKO PANTS [S10] RS.99",
-        "Pack": "10PIS",
-        "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
-    },
-    {
         "Product Name": "M POKO PANTS [S2] RS.25",
         "Pack": "2PIS",
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
@@ -4763,7 +6505,7 @@ const otcData = [
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
     {
-        "Product Name": "M POKO PANTS [S38] RS.399",
+        "Product Name": "M POKO PANTS [S36] RS.399",
         "Pack": "46PIS",
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
@@ -4775,6 +6517,16 @@ const otcData = [
     {
         "Product Name": "M POKO PANTS [S74] RS.699",
         "Pack": "74PC",
+        "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
+    },
+    {
+        "Product Name": "M POKO PANTS [S9] RS.99",
+        "Pack": "10PIS",
+        "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
+    },
+    {
+        "Product Name": "M POKO PANTS [XL 2PC]  RS.40",
+        "Pack": "2PIS",
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
     {
@@ -4813,6 +6565,11 @@ const otcData = [
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
     {
+        "Product Name": "SOFY XL [6PAD] RS.35",
+        "Pack": "6PAD",
+        "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
+    },
+    {
         "Product Name": "AMLA CANDY [100GM]",
         "Pack": "100GM",
         "Company Name": "V P FOODS & HERBAL LIFE"
@@ -4828,8 +6585,23 @@ const otcData = [
         "Company Name": "V P FOODS & HERBAL LIFE"
     },
     {
+        "Product Name": "AMLAPITTA NASHAK KADHA",
+        "Pack": "200ML",
+        "Company Name": "VAIDYA PATANKAR PHARMACY"
+    },
+    {
+        "Product Name": "CASTOR OIL [450ML]",
+        "Pack": "450ML",
+        "Company Name": "VAIDYA PATANKAR PHARMACY"
+    },
+    {
         "Product Name": "VAIDYA PATANKAR KADHA [100ML]",
         "Pack": "100ML",
+        "Company Name": "VAIDYA PATANKAR PHARMACY"
+    },
+    {
+        "Product Name": "VAIDYA PATANKAR KADHA [200ML].",
+        "Pack": "200ML",
         "Company Name": "VAIDYA PATANKAR PHARMACY"
     },
     {
@@ -4843,6 +6615,46 @@ const otcData = [
         "Company Name": "VAIDYA PATANKAR PHARMACY"
     },
     {
+        "Product Name": "VICCO PASTE 100 GM",
+        "Pack": "100 GM",
+        "Company Name": "VICCO LABORATORIES"
+    },
+    {
+        "Product Name": "VICCO PASTE 200 GM",
+        "Pack": "200 GM",
+        "Company Name": "VICCO LABORATORIES"
+    },
+    {
+        "Product Name": "VICCO PASTE 50 GM",
+        "Pack": "50 GM",
+        "Company Name": "VICCO LABORATORIES"
+    },
+    {
+        "Product Name": "VICCO POWDER 100 GM",
+        "Pack": "100 GM",
+        "Company Name": "VICCO LABORATORIES"
+    },
+    {
+        "Product Name": "VICCO POWDER 25GM",
+        "Pack": "25GM",
+        "Company Name": "VICCO LABORATORIES"
+    },
+    {
+        "Product Name": "VICCO POWDER 50 GM",
+        "Pack": "50 GM",
+        "Company Name": "VICCO LABORATORIES"
+    },
+    {
+        "Product Name": "VICCO TURMARIC CREAM 15GM",
+        "Pack": "15GM",
+        "Company Name": "VICCO LABORATORIES"
+    },
+    {
+        "Product Name": "VICCO TURMARIC CREAM 30GM",
+        "Pack": "30GM",
+        "Company Name": "VICCO LABORATORIES"
+    },
+    {
         "Product Name": "VICCO TURMARIC CREAM 50GM",
         "Pack": "50GM",
         "Company Name": "VICCO LABORATORIES"
@@ -4851,6 +6663,26 @@ const otcData = [
         "Product Name": "VICCO TURMARIC CREAM 70GM",
         "Pack": "70GM",
         "Company Name": "VICCO LABORATORIES"
+    },
+    {
+        "Product Name": "VICCO TURMERIC CREAM 7GM",
+        "Pack": "7GM",
+        "Company Name": "VICCO LABORATORIES"
+    },
+    {
+        "Product Name": "VICCO WSO TURMERIC 15 GM",
+        "Pack": "15 GM",
+        "Company Name": "VICCO LABORATORIES"
+    },
+    {
+        "Product Name": "VICCO WSO TURMERIC 30 GM",
+        "Pack": "30 GM",
+        "Company Name": "VICCO LABORATORIES"
+    },
+    {
+        "Product Name": "JAI KAJAL",
+        "Pack": "1PACK",
+        "Company Name": "WESTERN REMEDIES(INDIA)"
     },
     {
         "Product Name": "NITYAM TAB",
@@ -4900,6 +6732,11 @@ const otcData = [
     {
         "Product Name": "ZANDU ROLL ON 9ML",
         "Pack": "9ML",
+        "Company Name": "ZANDU"
+    },
+    {
+        "Product Name": "Grand Total",
+        "Pack": "-",
         "Company Name": "ZANDU"
     }
 ];
