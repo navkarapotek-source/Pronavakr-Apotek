@@ -125,6 +125,11 @@ const otcData = [
         "Company Name": "ABBOTT INDIA (NUTRITION)"
     },
     {
+        "Product Name": "SIMILAC ADV 1 POWDER 200GM [TIN]",
+        "Pack": "200GM",
+        "Company Name": "ABBOTT INDIA (NUTRITION)"
+    },
+    {
         "Product Name": "SIMILAC ADV 2 POWDER",
         "Pack": "400GM",
         "Company Name": "ABBOTT INDIA (NUTRITION)"
@@ -2072,6 +2077,11 @@ const otcData = [
     {
         "Product Name": "COLDAVIN 200GM",
         "Pack": "200GM",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "DAN TONIC PILLS 10GM",
+        "Pack": "1X10GM",
         "Company Name": "GENERAL...A"
     },
     {
