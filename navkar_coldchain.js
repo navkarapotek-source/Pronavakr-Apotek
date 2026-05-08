@@ -445,8 +445,8 @@ const navkarColdchainData = [
         "Company Name": "CIPLA LIMITED CRITICAL"
     },
     {
-        "Product Name": "9 PM EYE DROPS 25ML",
-        "Pack": "25ML",
+        "Product Name": "9 PM EYE DROPS",
+        "Pack": "5ML",
         "Company Name": "CIPLA LIMITED FORESIGHT 1"
     },
     {
