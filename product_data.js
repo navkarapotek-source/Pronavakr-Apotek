@@ -690,6 +690,11 @@ const productData = [
         "Company Name": "AJANTA PHARMA LTD"
     },
     {
+        "Product Name": "VONOVIA TAB",
+        "Pack": "15TAB",
+        "Company Name": "AJANTA PHARMA LTD"
+    },
+    {
         "Product Name": "VONOZAN 10MG TAB",
         "Pack": "10TAB",
         "Company Name": "AJANTA PHARMA LTD"
@@ -7315,6 +7320,11 @@ const productData = [
         "Company Name": "ELDER PHARMACEUTICALS LTD"
     },
     {
+        "Product Name": "ELDOFEN 50 TAB",
+        "Pack": "10TAB",
+        "Company Name": "ELDER PHARMACEUTICALS LTD"
+    },
+    {
         "Product Name": "ELDOFEN ADVANCE SPRAY",
         "Pack": "1X55GM",
         "Company Name": "ELDER PHARMACEUTICALS LTD"
@@ -7587,6 +7597,11 @@ const productData = [
     {
         "Product Name": "TOOTHCARE BRUSH",
         "Pack": "-",
+        "Company Name": "ELDER PHARMACEUTICALS LTD"
+    },
+    {
+        "Product Name": "TOPOVID GARGLE",
+        "Pack": "100ML",
         "Company Name": "ELDER PHARMACEUTICALS LTD"
     },
     {
@@ -13680,7 +13695,7 @@ const productData = [
         "Company Name": "INTAS"
     },
     {
-        "Product Name": "INTAS ANJALI SS 950ML",
+        "Product Name": "INTAS  SS 950ML BOTTLE 300STRIP",
         "Pack": "-",
         "Company Name": "INTAS"
     },
@@ -13752,6 +13767,11 @@ const productData = [
     {
         "Product Name": "INTAS POCKET PAD",
         "Pack": "PC",
+        "Company Name": "INTAS"
+    },
+    {
+        "Product Name": "INTAS SET OF 4 FRIDGE BOTTLE 100STRIP",
+        "Pack": "4PC",
         "Company Name": "INTAS"
     },
     {
@@ -19027,6 +19047,16 @@ const productData = [
     {
         "Product Name": "CORTIYES M4 TAB",
         "Pack": "1X10TAB",
+        "Company Name": "MANIKIND PHARMA"
+    },
+    {
+        "Product Name": "FLU-AID GOLD PROTEIN POWDER (CHOC)",
+        "Pack": "200GM",
+        "Company Name": "MANIKIND PHARMA"
+    },
+    {
+        "Product Name": "FLU-AID GOLD PROTEIN POWER (AIC)",
+        "Pack": "200GM",
         "Company Name": "MANIKIND PHARMA"
     },
     {
