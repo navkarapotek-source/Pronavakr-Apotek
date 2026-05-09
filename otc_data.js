@@ -2680,7 +2680,37 @@ const otcData = [
         "Company Name": "HEINZ"
     },
     {
+        "Product Name": "NYCIL POWDER [COOL CLASSIC] RS.50",
+        "Pack": "50GM",
+        "Company Name": "HEINZ"
+    },
+    {
+        "Product Name": "NYCIL POWDER [COOL GULABJAL]RS.115",
+        "Pack": "150GM",
+        "Company Name": "HEINZ"
+    },
+    {
+        "Product Name": "NYCIL POWDER [COOL GULABJAL]RS.50",
+        "Pack": "50GM",
+        "Company Name": "HEINZ"
+    },
+    {
         "Product Name": "NYCIL POWDER [COOL HERBAL]RS.115",
+        "Pack": "150GM",
+        "Company Name": "HEINZ"
+    },
+    {
+        "Product Name": "NYCIL POWDER [HERBAL]",
+        "Pack": "50GM",
+        "Company Name": "HEINZ"
+    },
+    {
+        "Product Name": "NYCIL POWDER [SANDAL]",
+        "Pack": "50GM",
+        "Company Name": "HEINZ"
+    },
+    {
+        "Product Name": "NYCIL POWDER [SANDAL] 150GM",
         "Pack": "150GM",
         "Company Name": "HEINZ"
     },
@@ -3395,6 +3425,41 @@ const otcData = [
         "Company Name": "HINDUSTAN UNILEVER LIMITED"
     },
     {
+        "Product Name": "DERMI COOL POWDER [HER]",
+        "Pack": "50GM",
+        "Company Name": "HINIKAMS DRUGS & PHARMACEUTICAL"
+    },
+    {
+        "Product Name": "DERMI COOL POWDER [LAVENDER]",
+        "Pack": "50GM",
+        "Company Name": "HINIKAMS DRUGS & PHARMACEUTICAL"
+    },
+    {
+        "Product Name": "DERMI COOL POWDER [LAVENDER] 150GM",
+        "Pack": "150GM",
+        "Company Name": "HINIKAMS DRUGS & PHARMACEUTICAL"
+    },
+    {
+        "Product Name": "DERMI COOL POWDER [REGULAR]",
+        "Pack": "18GM",
+        "Company Name": "HINIKAMS DRUGS & PHARMACEUTICAL"
+    },
+    {
+        "Product Name": "DERMI COOL POWDER [REGULER]",
+        "Pack": "50GM",
+        "Company Name": "HINIKAMS DRUGS & PHARMACEUTICAL"
+    },
+    {
+        "Product Name": "DERMI COOL POWDER [SANDAL]",
+        "Pack": "150GM",
+        "Company Name": "HINIKAMS DRUGS & PHARMACEUTICAL"
+    },
+    {
+        "Product Name": "DERMI COOL POWDER [SANDAL]",
+        "Pack": "50GM",
+        "Company Name": "HINIKAMS DRUGS & PHARMACEUTICAL"
+    },
+    {
         "Product Name": "AARADWADH KAPILA VATI TAB",
         "Pack": "10 TAB",
         "Company Name": "INDUCARE"
@@ -3718,11 +3783,6 @@ const otcData = [
         "Product Name": "ZINDA TILISMATH TEL",
         "Pack": "5ML",
         "Company Name": "KARKHANA ZINDA TILISMATH"
-    },
-    {
-        "Product Name": "DERMI COOL POWDER [SANDAL]",
-        "Pack": "50GM",
-        "Company Name": "LEEFORD HEALTHCARE LTD"
     },
     {
         "Product Name": "LOOKMAN HAYAT TEL [100ML]",
@@ -4405,11 +4465,6 @@ const otcData = [
         "Company Name": "PARAS CHEMICAL"
     },
     {
-        "Product Name": "DERMI COOL POWDER [LAVENDER]",
-        "Pack": "50GM",
-        "Company Name": "PARAS PHARMA"
-    },
-    {
         "Product Name": "CENTER FRUIT [WATER MELONE]",
         "Pack": "1JAR",
         "Company Name": "PERFETI"
@@ -5003,16 +5058,6 @@ const otcData = [
         "Product Name": "ABZORB POWDER [100GM]",
         "Pack": "100GM",
         "Company Name": "RANBAXY LAB (CROSLANDS)"
-    },
-    {
-        "Product Name": "DERMI COOL POWDER [REGULAR]",
-        "Pack": "18GM",
-        "Company Name": "RECKITT BENCKISER INDIA"
-    },
-    {
-        "Product Name": "DERMI-COOL POWDER [REGULER]",
-        "Pack": "50GM",
-        "Company Name": "RECKITT BENCKISER INDIA"
     },
     {
         "Product Name": "DETTOL H/W [PUMP]",
