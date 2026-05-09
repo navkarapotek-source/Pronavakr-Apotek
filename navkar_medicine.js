@@ -1898,11 +1898,6 @@ const navkarMedicineData = [
         "Company Name": "ABBOTT INDIA LTD"
     },
     {
-        "Product Name": "CERAZETTE TAB",
-        "Pack": "28`S",
-        "Company Name": "ABBOTT INDIA LTD"
-    },
-    {
         "Product Name": "CLOME 100 MG TAB",
         "Pack": "10 TAB",
         "Company Name": "ABBOTT INDIA LTD"
@@ -2566,6 +2561,11 @@ const navkarMedicineData = [
         "Product Name": "NOVOPEN 4 PEN",
         "Pack": "1 PEN",
         "Company Name": "ABBOTT INDIA LTD (NOVO NORDISK-MDC)"
+    },
+    {
+        "Product Name": "CERAZETTE TAB",
+        "Pack": "28`S",
+        "Company Name": "ABBOTT INDIA LTD (SOLVAY ORG 1)"
     },
     {
         "Product Name": "DUPHASTON 10MG TAB",
@@ -10170,6 +10170,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ITRATUF CP 100 MG",
         "Pack": "30 CAP",
+        "Company Name": "ALKEM LAB(DERMA ONE)"
+    },
+    {
+        "Product Name": "ITRATUF ORAL SOLUTION",
+        "Pack": "100ML",
         "Company Name": "ALKEM LAB(DERMA ONE)"
     },
     {
@@ -22033,11 +22038,6 @@ const navkarMedicineData = [
         "Company Name": "CIPLA LIMITED"
     },
     {
-        "Product Name": "HUMALOG KWIKPEN 200U/ML",
-        "Pack": "ML",
-        "Company Name": "CIPLA LIMITED"
-    },
-    {
         "Product Name": "ITRANOX 200 MG CAP",
         "Pack": "7 CAP",
         "Company Name": "CIPLA LIMITED"
@@ -25090,6 +25090,11 @@ const navkarMedicineData = [
     {
         "Product Name": "HUMALOG KWIK PEN 100 IU 3ML",
         "Pack": "3ML",
+        "Company Name": "CIPLA LIMITED VITALIS  NEW"
+    },
+    {
+        "Product Name": "HUMALOG KWIKPEN 200U/ML",
+        "Pack": "ML",
         "Company Name": "CIPLA LIMITED VITALIS  NEW"
     },
     {
@@ -34043,89 +34048,94 @@ const navkarMedicineData = [
         "Company Name": "EMCURE PHARMA (NUCRON)"
     },
     {
+        "Product Name": "METPURE XL 25 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "EMCURE PHARMA (NUCRON)"
+    },
+    {
         "Product Name": "METPURE XL 50 TAB",
         "Pack": "10 TAB",
-        "Company Name": "METPURE XL 25 TAB"
+        "Company Name": "EMCURE PHARMA (NUCRON)"
     },
     {
         "Product Name": "NEUAL 10MG TAB",
         "Pack": "TAB",
-        "Company Name": "METPURE XL 25 TAB"
+        "Company Name": "EMCURE PHARMA (NUCRON)"
     },
     {
         "Product Name": "NUCARNIT 500 TAB",
         "Pack": "10 TAB",
-        "Company Name": "METPURE XL 25 TAB"
+        "Company Name": "EMCURE PHARMA (NUCRON)"
     },
     {
         "Product Name": "NUCARNIT INJ",
         "Pack": "5 ML",
-        "Company Name": "METPURE XL 25 TAB"
+        "Company Name": "EMCURE PHARMA (NUCRON)"
     },
     {
         "Product Name": "NUCARNIT TAB",
         "Pack": "10 TAB",
-        "Company Name": "METPURE XL 25 TAB"
+        "Company Name": "EMCURE PHARMA (NUCRON)"
     },
     {
         "Product Name": "TEMSAN [H] TAB",
         "Pack": "15 TAB",
-        "Company Name": "METPURE XL 25 TAB"
+        "Company Name": "EMCURE PHARMA (NUCRON)"
     },
     {
         "Product Name": "TEMSAN 20 TAB",
         "Pack": "15 TAB",
-        "Company Name": "METPURE XL 25 TAB"
+        "Company Name": "EMCURE PHARMA (NUCRON)"
     },
     {
         "Product Name": "TEMSAN 40 TAB",
         "Pack": "15 TAB",
-        "Company Name": "METPURE XL 25 TAB"
+        "Company Name": "EMCURE PHARMA (NUCRON)"
     },
     {
         "Product Name": "TEMSAN 80 TAB",
         "Pack": "15 TAB",
-        "Company Name": "METPURE XL 25 TAB"
+        "Company Name": "EMCURE PHARMA (NUCRON)"
     },
     {
         "Product Name": "TEMSAN AM 2.5 TAB",
         "Pack": "15 TAB",
-        "Company Name": "METPURE XL 25 TAB"
+        "Company Name": "EMCURE PHARMA (NUCRON)"
     },
     {
         "Product Name": "TEMSAN AM 5 TAB",
         "Pack": "15 TAB",
-        "Company Name": "METPURE XL 25 TAB"
+        "Company Name": "EMCURE PHARMA (NUCRON)"
     },
     {
         "Product Name": "TEMSAN BS 40/2.5 TAB",
         "Pack": "10 TAB",
-        "Company Name": "METPURE XL 25 TAB"
+        "Company Name": "EMCURE PHARMA (NUCRON)"
     },
     {
         "Product Name": "TEMSAN BS 40/5 TAB",
         "Pack": "10 TAB",
-        "Company Name": "METPURE XL 25 TAB"
+        "Company Name": "EMCURE PHARMA (NUCRON)"
     },
     {
         "Product Name": "TEMSAN CT 40/12.5 TAB",
         "Pack": "10 TAB",
-        "Company Name": "METPURE XL 25 TAB"
+        "Company Name": "EMCURE PHARMA (NUCRON)"
     },
     {
         "Product Name": "TEMSAN CT 6.25 TAB",
         "Pack": "10TAB",
-        "Company Name": "METPURE XL 25 TAB"
+        "Company Name": "EMCURE PHARMA (NUCRON)"
     },
     {
         "Product Name": "TEMSAN CT 80 TAB",
         "Pack": "10 TAB",
-        "Company Name": "METPURE XL 25 TAB"
+        "Company Name": "EMCURE PHARMA (NUCRON)"
     },
     {
         "Product Name": "TEMSAN H 80 TAB",
         "Pack": "15 TAB",
-        "Company Name": "METPURE XL 25 TAB"
+        "Company Name": "EMCURE PHARMA (NUCRON)"
     },
     {
         "Product Name": "TEMSAN LNC 12.5 TAB",
@@ -45268,6 +45278,11 @@ const navkarMedicineData = [
         "Company Name": "GLENMARK (RESPIRATORY)"
     },
     {
+        "Product Name": "NEBZMART FB 1 MG RESPULES",
+        "Pack": "2 ML",
+        "Company Name": "GLENMARK (RESPIRATORY)"
+    },
+    {
         "Product Name": "AIRTEC FB 200MG ROTACAP",
         "Pack": "30 CAP",
         "Company Name": "GLENMARK (SHWAS 2)"
@@ -49575,6 +49590,11 @@ const navkarMedicineData = [
     {
         "Product Name": "36 D 60K CAP 4``S",
         "Pack": "4 TAB",
+        "Company Name": "HETERO HEALTHCARE LTD MAIN"
+    },
+    {
+        "Product Name": "B BOLD PATCHES",
+        "Pack": "5'S",
         "Company Name": "HETERO HEALTHCARE LTD MAIN"
     },
     {
@@ -81223,7 +81243,7 @@ const navkarMedicineData = [
         "Company Name": "LIPIKIND AS CAP"
     },
     {
-        "Product Name": "NUFORCE 150MG TAB",
+        "Product Name": "NUFORCE 150MG TAB0",
         "Pack": "2 TAB",
         "Company Name": "LIPIKIND AS CAP"
     },
@@ -120489,6 +120509,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "GRD SMART POWDER VANILLA 200GM",
+        "Pack": "200GM",
+        "Company Name": "ZYDUS PHARMA (NUTRIVA)MAHAVIR"
+    },
+    {
+        "Product Name": "GRD SUGARFREE VANILLA POWDER 200GM",
         "Pack": "200GM",
         "Company Name": "ZYDUS PHARMA (NUTRIVA)MAHAVIR"
     },
