@@ -690,7 +690,7 @@ const productData = [
         "Company Name": "AJANTA PHARMA LTD"
     },
     {
-        "Product Name": "VONOVIA TAB",
+        "Product Name": "VONOVIA 20 TAB",
         "Pack": "15TAB",
         "Company Name": "AJANTA PHARMA LTD"
     },
@@ -6475,13 +6475,13 @@ const productData = [
         "Company Name": "DANISH HEALTHCARE (P) LTD."
     },
     {
-        "Product Name": "DIOS WET WIPES (5IN 1)",
-        "Pack": "25PC",
+        "Product Name": "DIOS WET WIPES (ALOEVERA & CUCUMBER)",
+        "Pack": "1X25",
         "Company Name": "DIOS"
     },
     {
-        "Product Name": "DIOS WET WIPES (ALOEVERA & CUCUMBER)",
-        "Pack": "1X25",
+        "Product Name": "DIOS WET WIPES (HALADI AND CHANDAN)",
+        "Pack": "25PC",
         "Company Name": "DIOS"
     },
     {
@@ -10340,6 +10340,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "AGEFINE GUMMIES(GLUTATHIONE)",
+        "Pack": "60GUMMIES",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "AGEFINE SOAP",
         "Pack": "1X75GM",
         "Company Name": "HEALING PHARMA"
@@ -11447,6 +11452,11 @@ const productData = [
     {
         "Product Name": "HEALING OK TAB",
         "Pack": "1X10TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "HEALING OK TAB (30TAB)",
+        "Pack": "30TAB",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -12587,6 +12597,11 @@ const productData = [
     {
         "Product Name": "TAM-TAM FAMILY HEALTH TONIC",
         "Pack": "1X300ML",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "TASTYLIA 20MG TABS",
+        "Pack": "1X10T",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -19050,12 +19065,12 @@ const productData = [
         "Company Name": "MANIKIND PHARMA"
     },
     {
-        "Product Name": "FLU-AID GOLD PROTEIN POWDER (CHOC)",
+        "Product Name": "FUL-AID GOLD PROTEIN POWDER (CHOC)",
         "Pack": "200GM",
         "Company Name": "MANIKIND PHARMA"
     },
     {
-        "Product Name": "FLU-AID GOLD PROTEIN POWER (AIC)",
+        "Product Name": "FUL-AID GOLD PROTEIN POWER (AIC)",
         "Pack": "200GM",
         "Company Name": "MANIKIND PHARMA"
     },
@@ -20555,8 +20570,18 @@ const productData = [
         "Company Name": "NARENDRA MARKETING"
     },
     {
+        "Product Name": "NETRAGESIC MR TAB",
+        "Pack": "10TAB",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
         "Product Name": "NEW GRILENCTAZ + SYP",
         "Pack": "100ML",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "NM BOSS SINGAL WALLED",
+        "Pack": "PC",
         "Company Name": "NARENDRA MARKETING"
     },
     {
@@ -20570,18 +20595,23 @@ const productData = [
         "Company Name": "NARENDRA MARKETING"
     },
     {
-        "Product Name": "ORANGE LIZA MATT CREAM BOTTLE",
+        "Product Name": "NM ORANGE LIZA MATT CREAM BOTTLE",
         "Pack": "750ML",
         "Company Name": "NARENDRA MARKETING"
     },
     {
-        "Product Name": "SAFARI TEIN BP BAG",
+        "Product Name": "NM SAFARI TEIN BP BAG",
         "Pack": "-",
         "Company Name": "NARENDRA MARKETING"
     },
     {
         "Product Name": "SHEVASH CREAM",
         "Pack": "1X60GM",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "SHILAJIT GOLD RESIN NM",
+        "Pack": "20GM",
         "Company Name": "NARENDRA MARKETING"
     },
     {
@@ -20915,6 +20945,11 @@ const productData = [
         "Company Name": "NIVCA HEALTHCARE"
     },
     {
+        "Product Name": "ACEEDOL SP TAB (BLUE)",
+        "Pack": "10TAB",
+        "Company Name": "NIVCA HEALTHCARE"
+    },
+    {
         "Product Name": "ACEEDOL-MR TAB (ALU)",
         "Pack": "10TAB",
         "Company Name": "NIVCA HEALTHCARE"
@@ -21045,6 +21080,11 @@ const productData = [
         "Company Name": "NIVCA HEALTHCARE"
     },
     {
+        "Product Name": "DICLOTAX SP TAB (ALU)",
+        "Pack": "10TAB",
+        "Company Name": "NIVCA HEALTHCARE"
+    },
+    {
         "Product Name": "DICLOTAX SPRAY 55GM",
         "Pack": "55GM",
         "Company Name": "NIVCA HEALTHCARE"
@@ -21127,6 +21167,11 @@ const productData = [
     {
         "Product Name": "ITRON 200 CAP",
         "Pack": "10CAP",
+        "Company Name": "NIVCA HEALTHCARE"
+    },
+    {
+        "Product Name": "KESH UP ONION SHAMPOO",
+        "Pack": "100ML",
         "Company Name": "NIVCA HEALTHCARE"
     },
     {
@@ -21230,6 +21275,11 @@ const productData = [
         "Company Name": "NIVCA HEALTHCARE"
     },
     {
+        "Product Name": "NEMIDOL-P TAB (BROWN)",
+        "Pack": "10TAB",
+        "Company Name": "NIVCA HEALTHCARE"
+    },
+    {
         "Product Name": "NEMIDOL-P TAB (GOLD ALU)",
         "Pack": "10TAB",
         "Company Name": "NIVCA HEALTHCARE"
@@ -21257,6 +21307,11 @@ const productData = [
     {
         "Product Name": "NIVCA PYRAMID GLASS SET",
         "Pack": "1PC",
+        "Company Name": "NIVCA HEALTHCARE"
+    },
+    {
+        "Product Name": "NIVCA WORKING BAG",
+        "Pack": "PC",
         "Company Name": "NIVCA HEALTHCARE"
     },
     {
@@ -21302,6 +21357,11 @@ const productData = [
     {
         "Product Name": "ONDICA SYP",
         "Pack": "30ML",
+        "Company Name": "NIVCA HEALTHCARE"
+    },
+    {
+        "Product Name": "ORS DRINK (NIVCA)",
+        "Pack": "200ML",
         "Company Name": "NIVCA HEALTHCARE"
     },
     {
@@ -21380,6 +21440,11 @@ const productData = [
         "Company Name": "NIVCA HEALTHCARE"
     },
     {
+        "Product Name": "PRODUCT PAGE NEW",
+        "Pack": "PC",
+        "Company Name": "NIVCA HEALTHCARE"
+    },
+    {
         "Product Name": "PROTICA GROW DHA POWDER",
         "Pack": "200GM",
         "Company Name": "NIVCA HEALTHCARE"
@@ -21422,6 +21487,11 @@ const productData = [
     {
         "Product Name": "RESPIDEX LS SYP 60ML",
         "Pack": "60ML",
+        "Company Name": "NIVCA HEALTHCARE"
+    },
+    {
+        "Product Name": "RESPIDEX POWER TAB",
+        "Pack": "10TAB",
         "Company Name": "NIVCA HEALTHCARE"
     },
     {
@@ -21522,6 +21592,21 @@ const productData = [
     {
         "Product Name": "VIGROCA SPRAY 20GM",
         "Pack": "20GM",
+        "Company Name": "NIVCA HEALTHCARE"
+    },
+    {
+        "Product Name": "VITAX-Z POWDER (BOX)",
+        "Pack": "105GM",
+        "Company Name": "NIVCA HEALTHCARE"
+    },
+    {
+        "Product Name": "VITAX-Z POWDER (MANGO0",
+        "Pack": "105GM",
+        "Company Name": "NIVCA HEALTHCARE"
+    },
+    {
+        "Product Name": "VITAX-Z POWDER (MOJITO)",
+        "Pack": "105GM",
         "Company Name": "NIVCA HEALTHCARE"
     },
     {
@@ -26620,7 +26705,7 @@ const productData = [
         "Company Name": "ALKAFRESH SODA EFFERVESCENT"
     },
     {
-        "Product Name": "CLAVCREST 625 TAB",
+        "Product Name": "CLAVCREST 625 TAB48",
         "Pack": "6TAB",
         "Company Name": "ALKAFRESH SODA EFFERVESCENT"
     },
@@ -26635,7 +26720,7 @@ const productData = [
         "Company Name": "ALKAFRESH SODA EFFERVESCENT"
     },
     {
-        "Product Name": "CLAVCREST KID",
+        "Product Name": "CLAVCREST KID TAB",
         "Pack": "10TAB",
         "Company Name": "ALKAFRESH SODA EFFERVESCENT"
     },

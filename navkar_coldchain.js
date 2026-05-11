@@ -765,6 +765,11 @@ const navkarColdchainData = [
         "Company Name": "GLENMARK (SHWAS 2)"
     },
     {
+        "Product Name": "NEUKINE SF 300 MG INJ",
+        "Pack": "1 PFS",
+        "Company Name": "INTAS ADRINA"
+    },
+    {
         "Product Name": "LOPEZ INJ 2ML",
         "Pack": "INJ 2ML",
         "Company Name": "INTAS PHARMACEUTICALS (ALECTA)"

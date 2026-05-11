@@ -1370,6 +1370,11 @@ const navkarMedicineData = [
         "Company Name": "FLAGYL 200MG TAB"
     },
     {
+        "Product Name": "PHENERGAN COLD SALE TAB",
+        "Pack": "6TAB",
+        "Company Name": "FLAGYL 200MG TAB"
+    },
+    {
         "Product Name": "RASHFREE CREAM 30GM",
         "Pack": "30GM",
         "Company Name": "FLAGYL 200MG TAB"
@@ -4267,6 +4272,11 @@ const navkarMedicineData = [
     {
         "Product Name": "DAPALEX SM 10/100/500 MG TABB",
         "Pack": "10 TAB",
+        "Company Name": "AJANTA PHARMA (REDEXIS)"
+    },
+    {
+        "Product Name": "PROCLAIR D POWDER 400GM",
+        "Pack": "400GM",
         "Company Name": "AJANTA PHARMA (REDEXIS)"
     },
     {
@@ -11765,6 +11775,11 @@ const navkarMedicineData = [
         "Company Name": "ALTEUS BIOGENICS PVT CILAPAM"
     },
     {
+        "Product Name": "S METPIL XR 25 TAB",
+        "Pack": "15TAB",
+        "Company Name": "ALTEUS BIOGENICS PVT CILAPAM"
+    },
+    {
         "Product Name": "VEROCT 250MG TAB",
         "Pack": "15 TAB",
         "Company Name": "ALTEUS BIOGENICS PVT CILAPAM"
@@ -12390,6 +12405,11 @@ const navkarMedicineData = [
         "Company Name": "ALTEUS BIOGENICS PVT LTD (PAXONIL)"
     },
     {
+        "Product Name": "S METPIL XR 12.5 TAB",
+        "Pack": "15TAB",
+        "Company Name": "ALTEUS BIOGENICS PVT LTD (PAXONIL)"
+    },
+    {
         "Product Name": "SEROPAX 12.5 TAB",
         "Pack": "15 TAB",
         "Company Name": "ALTEUS BIOGENICS PVT LTD (PAXONIL)"
@@ -12437,6 +12457,11 @@ const navkarMedicineData = [
     {
         "Product Name": "IGUTAB 25 TAB",
         "Pack": "10 TAB",
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD"
+    },
+    {
+        "Product Name": "S METPIL XR 50 TAB",
+        "Pack": "15TAB",
         "Company Name": "ALTEUS BIOGENICS PVT. LTD"
     },
     {
@@ -36765,7 +36790,7 @@ const navkarMedicineData = [
         "Company Name": "ERIS LIFE SCIENCES (ADURA)"
     },
     {
-        "Product Name": "GLUXIT  BETA 1.25",
+        "Product Name": "GLUXIT BETA 1.25",
         "Pack": "15TAB",
         "Company Name": "ERIS LIFE SCIENCES (ADURA)"
     },
@@ -79015,6 +79040,11 @@ const navkarMedicineData = [
         "Company Name": "MANKIND PHARMA (DISCOVERY)"
     },
     {
+        "Product Name": "CANDIFORCE CREAM 15GM",
+        "Pack": "15GM",
+        "Company Name": "MANKIND PHARMA (DISCOVERY)"
+    },
+    {
         "Product Name": "CANDIFORCE DUSTING POWDER",
         "Pack": "60GM",
         "Company Name": "MANKIND PHARMA (DISCOVERY)"
@@ -81117,6 +81147,11 @@ const navkarMedicineData = [
     {
         "Product Name": "LIPIKIND CV 20 CAP",
         "Pack": "CAP",
+        "Company Name": "LIPIKIND AS CAP"
+    },
+    {
+        "Product Name": "LIPIKIND EZ 10 TAB",
+        "Pack": "10TAB",
         "Company Name": "LIPIKIND AS CAP"
     },
     {
@@ -84160,6 +84195,16 @@ const navkarMedicineData = [
         "Company Name": "MED MANOR (GLORIA)"
     },
     {
+        "Product Name": "SPADE [AP] TAB",
+        "Pack": "10 TAB",
+        "Company Name": "MED MANOR (GLORIA)"
+    },
+    {
+        "Product Name": "SPADE [D] TAB",
+        "Pack": "10 TAB",
+        "Company Name": "MED MANOR (GLORIA)"
+    },
+    {
         "Product Name": "TRICHOTON TAB",
         "Pack": "10TAB",
         "Company Name": "MED MANOR (GLORIA)"
@@ -84412,16 +84457,6 @@ const navkarMedicineData = [
     {
         "Product Name": "SKINN [C] SOAP",
         "Pack": "75GM",
-        "Company Name": "PARAWEL 325 MG TAB"
-    },
-    {
-        "Product Name": "SPADE [AP] TAB",
-        "Pack": "10 TAB",
-        "Company Name": "PARAWEL 325 MG TAB"
-    },
-    {
-        "Product Name": "SPADE [D] TAB",
-        "Pack": "10 TAB",
         "Company Name": "PARAWEL 325 MG TAB"
     },
     {
@@ -103935,7 +103970,7 @@ const navkarMedicineData = [
         "Company Name": "OXETOL 450 TAB"
     },
     {
-        "Product Name": "OXRAMET XR 10/1000MG TAB 7`S",
+        "Product Name": "OXRAMET XR 10/1000MG TAB 7`S.",
         "Pack": "TAB",
         "Company Name": "OXETOL 450 TAB"
     },
@@ -114125,7 +114160,7 @@ const navkarMedicineData = [
         "Company Name": "UDAPA M 10/500 XR"
     },
     {
-        "Product Name": "UDAPA S TAB",
+        "Product Name": "UDAPA S TAB 10/100",
         "Pack": "10 TAB",
         "Company Name": "UDAPA M 10/500 XR"
     },
