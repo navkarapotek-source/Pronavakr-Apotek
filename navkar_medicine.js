@@ -63065,7 +63065,7 @@ const navkarMedicineData = [
         "Company Name": "JENBURKT PHARMACEUTICALS LTD"
     },
     {
-        "Product Name": "VARAD NACHANI SATVA [MIX FRTUT]",
+        "Product Name": "VARAD NACHANI SATVA [MIX FRTUT]\\",
         "Pack": "200GM",
         "Company Name": "JIYA HERBALS"
     },
@@ -63130,17 +63130,17 @@ const navkarMedicineData = [
         "Company Name": "JOHNSON & JOHNSON (OTC)"
     },
     {
-        "Product Name": "ORSL [APPALE] LIQUID",
+        "Product Name": "ORSL [APPALE] LIQUID [ERZL]",
         "Pack": "200ML",
         "Company Name": "JOHNSON & JOHNSON (OTC)"
     },
     {
-        "Product Name": "ORSL [MANGO] LIQUID",
+        "Product Name": "ORSL [MANGO] LIQUID [ERZL]",
         "Pack": "200ML",
         "Company Name": "JOHNSON & JOHNSON (OTC)"
     },
     {
-        "Product Name": "ORSL APPLE REHYDRATE LIQUID",
+        "Product Name": "ORSL APPLE REHYDRATE LIQ [ERZL]",
         "Pack": "200ML",
         "Company Name": "JOHNSON & JOHNSON (OTC)"
     },
@@ -63150,7 +63150,7 @@ const navkarMedicineData = [
         "Company Name": "JOHNSON & JOHNSON (OTC)"
     },
     {
-        "Product Name": "ORSL PLUS ACTIVE [ORANGE] LIQUID",
+        "Product Name": "ORSL PLUS ACTIVE [ORANGE] LIQ [ERZL]",
         "Pack": "200ML",
         "Company Name": "JOHNSON & JOHNSON (OTC)"
     },
@@ -81015,9 +81015,14 @@ const navkarMedicineData = [
         "Company Name": "AMLOKIND 2.5 TAB"
     },
     {
+        "Product Name": "BANDY PLUS SUSP",
+        "Pack": "10ML",
+        "Company Name": "AMLOKIND 2.5 TAB"
+    },
+    {
         "Product Name": "BANDY PLUS TAB",
         "Pack": "1TAB",
-        "Company Name": "BANDY PLUS SUSP"
+        "Company Name": "AMLOKIND 2.5 TAB"
     },
     {
         "Product Name": "BANDY TAB",
@@ -89350,6 +89355,11 @@ const navkarMedicineData = [
         "Company Name": "MSD PHARMACEUTICALS (METABOLIS)"
     },
     {
+        "Product Name": "MIRABIG S 50 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "MSN LABORATORIES LTD"
+    },
+    {
         "Product Name": "REBOPAG 75 MG TAB",
         "Pack": "7 TAB",
         "Company Name": "MSN LABORATORIES LTD"
@@ -89383,6 +89393,11 @@ const navkarMedicineData = [
         "Product Name": "TADOVAS 20MG",
         "Pack": "10TAB",
         "Company Name": "MSN LABORATORIES LTD (OQM)"
+    },
+    {
+        "Product Name": "DAPAONE SM 1000 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "MSN LABORATORIES PVT LTD"
     },
     {
         "Product Name": "KNOW SURE OVULATION TEST",
@@ -90840,184 +90855,189 @@ const navkarMedicineData = [
         "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
+        "Product Name": "GAMASCAB LOTION 100ML",
+        "Pack": "100ML",
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
+    },
+    {
         "Product Name": "IVERSCAB 12 MG TAB",
         "Pack": "1 TAB",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "IVERSCAB 6 MG TAB",
         "Pack": "1 TAB",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "IVERSCAB Z TAB 10``",
         "Pack": "TAB",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "MOMENTA CREAM 10GM",
         "Pack": "10GM",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "MOMENTA NASAL SPRAY",
         "Pack": "10ML",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "MONT BILASTIN TAB",
         "Pack": "TAB",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "NUAZY 500 TAB",
         "Pack": "TAB",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "NUDOXY CAP",
         "Pack": "10CAP",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "NUDOXY LB CAP",
         "Pack": "10CAP",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "NUDYS CAP",
         "Pack": "10",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "NUDYS SYP",
         "Pack": "60ML",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "NUFLUCON EYE/EAR DROPS",
         "Pack": "5ML",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "NUHIST 500MG TAB",
         "Pack": "10TAB",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "NUHIST DX SYRUP 100ML",
         "Pack": "100ML",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "NULAX SUSP",
         "Pack": "100ML",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "NULAX SUSP 200ML",
         "Pack": "200ML",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "NULIFE LATEX SURG GLOVES 6.5",
         "Pack": "1 PAIR",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "NUPERMY CREAM",
         "Pack": "30GM",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "NUPERMY LOTION 60ML",
         "Pack": "60ML",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "NUPIROCIN OINTMENT",
         "Pack": "15 GM",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "NUPIROCIN OINTMENT",
         "Pack": "5 GM",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "RAYBLOK LOTION",
         "Pack": "50 ML",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "SALACTIN PAINT",
         "Pack": "10ML",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "SALATNASE TWIN 2 PACK",
         "Pack": "TAB",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "SALTNASE TAB REFILL PACK",
         "Pack": "PACK",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "SOLIWAX A EAR DROP",
         "Pack": "10ML",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "SOLIWAX EAR DROPS",
         "Pack": "10 ML",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "SOLIWAX O EAR DROPS",
         "Pack": "10ML",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "SPININ B 16 MG TAB",
         "Pack": "15TAB",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "SPININ B 8MG TAB 10`S",
         "Pack": "15TAB",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "SPININ C 25 MG TABLETS",
         "Pack": "10 TAB",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "TRIAMADERM OINT",
         "Pack": "15GM",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "U LAC CREAM 90GM",
         "Pack": "90GM",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "VASICON EYE DROPS",
         "Pack": "10ML",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "ZYLO NASAL DROPS",
         "Pack": "10 ML",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "ZYLO NASAL DROPS KIDS",
         "Pack": "10 ML",
-        "Company Name": "GAMASCAB LOTION 100ML"
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "NUTRA COMPOUND POWDER 200 GM",
@@ -97855,6 +97875,16 @@ const navkarMedicineData = [
         "Company Name": "RPG LIFE SCIENCE  (PINNACLE)"
     },
     {
+        "Product Name": "NAPROSYN ES+ 375MG TAB",
+        "Pack": "10'S",
+        "Company Name": "RPG LIFE SCIENCE  (PINNACLE)"
+    },
+    {
+        "Product Name": "NAPROSYN ES+ 500MG TAB",
+        "Pack": "10'S",
+        "Company Name": "RPG LIFE SCIENCE  (PINNACLE)"
+    },
+    {
         "Product Name": "NAPROSYN GEL",
         "Pack": "20 GM",
         "Company Name": "RPG LIFE SCIENCE  (PINNACLE)"
@@ -98120,11 +98150,6 @@ const navkarMedicineData = [
         "Company Name": "RPG LIFE SCIENCE (ORION)"
     },
     {
-        "Product Name": "NAPROSYN ES+ 375MG TAB",
-        "Pack": "10'S",
-        "Company Name": "RPG LIFE SCIENCES LIMITED"
-    },
-    {
         "Product Name": "RPO 10000 INJ",
         "Pack": "1 PFS",
         "Company Name": "RPG LIFE SCIENCES LIMITED"
@@ -98152,11 +98177,6 @@ const navkarMedicineData = [
     {
         "Product Name": "AZORAN 50MG TAB",
         "Pack": "20 TAB",
-        "Company Name": "RPG LIFE SCIENNCES LTD"
-    },
-    {
-        "Product Name": "NAPROSYN ES+ 500MG TAB",
-        "Pack": "10'S",
         "Company Name": "RPG LIFE SCIENNCES LTD"
     },
     {

@@ -5770,11 +5770,6 @@ const productData = [
         "Company Name": "CIPLA OTC MAIN"
     },
     {
-        "Product Name": "PROLYTE ORS (ORANGE) LIQ",
-        "Pack": "1X200ML",
-        "Company Name": "CIPLA OTC MAIN"
-    },
-    {
         "Product Name": "PROLYTE ORS BLACK CURRENT LIQ.",
         "Pack": "1X200ML",
         "Company Name": "CIPLA OTC MAIN"
@@ -5812,6 +5807,11 @@ const productData = [
     {
         "Product Name": "PROLYTE ORS ORANGE 4.2 GM",
         "Pack": "1X4.2GM",
+        "Company Name": "CIPLA OTC MAIN"
+    },
+    {
+        "Product Name": "PROLYTE ORS ORANGE LIQ",
+        "Pack": "1X200ML",
         "Company Name": "CIPLA OTC MAIN"
     },
     {
@@ -10265,6 +10265,11 @@ const productData = [
         "Company Name": "HAIDEN"
     },
     {
+        "Product Name": "ABCDZ GOLD CAP",
+        "Pack": "15CAP",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "ABCDZ TAB",
         "Pack": "15TAB",
         "Company Name": "HEALING PHARMA"
@@ -10880,6 +10885,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "DANDROFINE S3% LOTION",
+        "Pack": "30ML",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "DANDROFINE SHAMPOO 100ML",
         "Pack": "1X100ML",
         "Company Name": "HEALING PHARMA"
@@ -10906,6 +10916,11 @@ const productData = [
     },
     {
         "Product Name": "DAPASMART-M-10/1000 TABS",
+        "Pack": "1X10T",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "DARD PLUS GOLD TABS",
         "Pack": "1X10T",
         "Company Name": "HEALING PHARMA"
     },
@@ -11040,6 +11055,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "EMPASMART-SITA 25/100 TAB",
+        "Pack": "10TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "ENTECLUDE 0.5 (5%) TAB",
         "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
@@ -11092,6 +11112,11 @@ const productData = [
     {
         "Product Name": "ETORIZOX MR TAB",
         "Pack": "1X10TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "EVIZONE LC TAB",
+        "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -11920,6 +11945,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "MECOBROOK LC TAB",
+        "Pack": "15TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "MECOBROOK OD TAB",
         "Pack": "1X10TAB",
         "Company Name": "HEALING PHARMA"
@@ -12325,6 +12355,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "PREGARICA 300 CAP",
+        "Pack": "10CAP",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "PREGARICA D CAP",
         "Pack": "10CAP",
         "Company Name": "HEALING PHARMA"
@@ -12557,6 +12592,11 @@ const productData = [
     {
         "Product Name": "SUNFORCE D3 60K CAP",
         "Pack": "1X8CAPS",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "SUNFORCE D3 60K ECO PACK",
+        "Pack": "12CAP",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -16625,6 +16665,11 @@ const productData = [
         "Company Name": "LEEFORD HEALTHCARE LTD."
     },
     {
+        "Product Name": "DERMIFRESH CREAM 10GM",
+        "Pack": "1X10GM",
+        "Company Name": "LEEFORD HEALTHCARE LTD."
+    },
+    {
         "Product Name": "DERMIFRESH LAVENDER 150GM",
         "Pack": "1X150GM",
         "Company Name": "LEEFORD HEALTHCARE LTD."
@@ -17180,7 +17225,7 @@ const productData = [
         "Company Name": "LEEFORD HEALTHCARE LTD."
     },
     {
-        "Product Name": "ORA-FAST MOUTH ULCERS GEL",
+        "Product Name": "ORAFAST MOUTH ULCERS GEL",
         "Pack": "1X15GM",
         "Company Name": "LEEFORD HEALTHCARE LTD."
     },
@@ -25215,11 +25260,6 @@ const productData = [
         "Company Name": "SMART ICONIC LAB"
     },
     {
-        "Product Name": "DERMIFRESH CREAM 10GM",
-        "Pack": "1X10GM",
-        "Company Name": "SMART ICONIC LAB"
-    },
-    {
         "Product Name": "DICLOFRESH TAB",
         "Pack": "1X10TAB",
         "Company Name": "SMART ICONIC LAB"
@@ -27245,434 +27285,434 @@ const productData = [
         "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
-        "Product Name": "TABLETS",
+        "Product Name": "GLUCOSMART ORANGE ENERGYTABLETS",
         "Pack": "9TAB",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "HAIRLINE 5 SOLUTION",
         "Pack": "60ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "HAIRLINE F SOLUTION",
         "Pack": "60ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "ITRAVEGAN 100 CAP",
         "Pack": "10CAP",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "ITRAVEGAN 200 CAP",
         "Pack": "10CAP",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "ITRAVEGAN SB 130 CAP",
         "Pack": "10CAP",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "ITRAVEGAN SB 65 CAP",
         "Pack": "10CAP",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "JOINTOOL K27 SOFTCAP",
         "Pack": "10CAP",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "JOINTOOL SOFTCAP",
         "Pack": "10CAP",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "KESHROOT AYURVEDIC SHAMPOO",
         "Pack": "100ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "KESHROOT AYURVEDIC SHAMPOO",
         "Pack": "200ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "KESHROOT HAIR OIL",
         "Pack": "100ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "KESHROOT HAIR OIL",
         "Pack": "200ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "KESHROOT TABLETS",
         "Pack": "10TAB",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "KETOROCK 10 DT TAB",
         "Pack": "15TAB",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "KETOROCK EYE DROPS",
         "Pack": "10ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "KETOSCORE ADVANCED SHAMPOO",
         "Pack": "100ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "KETOSCORE CREAM",
         "Pack": "30GM",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "KETOSCORE CT CREAM",
         "Pack": "15GM",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "KETOSCORE CT SOAP",
         "Pack": "75ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "KETOSCORE LOTION",
         "Pack": "25ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "KETOSCORE SHAMPOO",
         "Pack": "100ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "KETOSCORE SHAMPOO",
         "Pack": "50ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "KETOSCORE SHAMPOO SACHET",
         "Pack": "7ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "KETOSCORE TAB",
         "Pack": "10TAB",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "KETOSCORE Z SHAMPOO",
         "Pack": "100ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "KETOSCORE Z SOAP",
         "Pack": "75GM",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "LACTOFAB DS TAB",
         "Pack": "20TAB",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "LAXIFREE NATURAL LAXATIVE POWDER",
         "Pack": "100GM",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "LAXIFREE PLUS SUSPENSION",
         "Pack": "170ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "LAXIFREE SUSPENSION",
         "Pack": "170ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "LAXIFREE TAB",
         "Pack": "10TAB",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "LEVOFRESH 250 TAB",
         "Pack": "10TAB",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "LEVOFRESH 500 TAB",
         "Pack": "10TAB",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "LEVOFRESH OZ SUSP",
         "Pack": "30ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "LINEZONE 600TAB",
         "Pack": "10TAB",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "LIVART 4G SYP 300ML",
         "Pack": "300 ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "LOPLOCK CAP",
         "Pack": "15CAP",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "LOPLOCK TAB",
         "Pack": "10TAB",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "LULIMARK CREAM",
         "Pack": "10GM",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "LULIMARK CREAM",
         "Pack": "20GM",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "LULIMARK CREAM",
         "Pack": "30GM",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "LULIMARK LOTION",
         "Pack": "30ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "LYCOJOY CAP",
         "Pack": "10CAP",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "LYCOJOY SYRUP",
         "Pack": "200ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "MEDROFIX 16 TAB",
         "Pack": "10TAB",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "MEDROFIX 4 TAB",
         "Pack": "10TAB",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "MEDROFIX 8 TAB",
         "Pack": "10TAB",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "MEFIFRESH TAB",
         "Pack": "10TAB",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "MEFUDIC TAB",
         "Pack": "10TAB",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "MIGRAOFF TAB",
         "Pack": "10TAB",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "MONTEMOST FX TAB",
         "Pack": "10TAB",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "MONTEMOST LA TAB",
         "Pack": "10TAB",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "MONTEMOST LC KID TAB",
         "Pack": "10TAB",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "MONTEMOST LC TAB",
         "Pack": "10TAB",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "MOXIFRESH D EYE DROPS",
         "Pack": "10ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "MOXIFRESH EYE DROPS",
         "Pack": "5ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "MOXIKICK 250 CAP",
         "Pack": "10CAP",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "MOXIKICK 250 DT TAB",
         "Pack": "10TAB",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "MOXIKICK 500 CAP",
         "Pack": "10CAP",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "MOXIKICK C CAP",
         "Pack": "10CAP",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "MULTIFLOW DROPS",
         "Pack": "15ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "MULTIFLOW SYRUP",
         "Pack": "100ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "MULTIFLOW SYRUP",
         "Pack": "200ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "MULTIFRESH HB SYRUP",
         "Pack": "100ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "MULTIFRESH HB SYRUP",
         "Pack": "200ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "MUPIMARK OINT 15GM",
         "Pack": "15GM",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "MUPIMARK OINTMENT",
         "Pack": "5GM",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "NASOBUND NASAL SPRAY",
         "Pack": "10ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "NASOWAVE NASAL SPRAY",
         "Pack": "10ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "NEOSMART POWDER",
         "Pack": "10GM",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "NORFRESH 400 TAB",
         "Pack": "10TAB",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "NORFRESH TZ TAB",
         "Pack": "10TAB",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "O FRESH DROPS",
         "Pack": "10ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "O FRESH DX DROPS",
         "Pack": "10ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "OFLOFRESH 200 TAB",
         "Pack": "10TAB",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "OFLOFRESH M SUSPENSION",
         "Pack": "30ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "OFLOFRESH OZ TAB",
         "Pack": "10TAB",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "ONDAFRESH MD TAB",
         "Pack": "10TAB",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "ONDAFRESH SYRUP",
         "Pack": "30ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "ORASMUTH 4X TAB",
         "Pack": "10TAB",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "ORASMUTH GEL",
         "Pack": "10GM",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "ORASMUTH GEL",
         "Pack": "15GM",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "ORASMUTH MOUTHWASH",
         "Pack": "100ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "ORAWET ENERGY DRINK APPLE",
         "Pack": "200ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "ORAWET ENERGY DRINK ORANGE",
         "Pack": "200ML",
-        "Company Name": "GLUCOSMART ORANGE ENERGY"
+        "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
         "Product Name": "200ML",
