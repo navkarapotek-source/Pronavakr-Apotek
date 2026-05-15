@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>About Us - Navkar Apotek & Pronavkar Lifecare</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy: #1A9E8F;
+    --navy-mid: #148074;
+    --teal: #1A9E8F;
+    --teal-light: #d2f0ec;
+    --cream: #f7f3ee;
+    --warm-white: #fefcf9;
+    --text: #1a1a1a;
+    --muted: #6b7280;
+    --border: #e5ddd3;
+    --accent: #F5C125;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--warm-white);
+    color: var(--text);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  nav {
+    position: sticky; top: 0; z-index: 100;
+    background: #ffffff;
+    padding: 0 2rem;
+    display: flex; align-items: center; justify-content: space-between;
+    height: 64px;
+    border-bottom: 2px solid var(--accent);
+  }
+  .nav-brand {
+    display: flex; flex-direction: column;
+  }
+  .nav-brand span:first-child {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px; font-weight: 600; color: #373c44;
+  }
+  .nav-brand span:last-child {
+    font-size: 10px; color: #373c44; text-transform: uppercase;
+  }
+  .nav-links { display: flex; gap: 2rem; list-style: none; }
+  .nav-links a {
+    font-size: 13px; color: #373c44; text-decoration: none;
+    text-transform: uppercase;
+  }
+  .nav-links a:hover, .nav-links a.active { color: #000; }
+
+  /* Hamburger Menu CSS */
+  .menu-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; z-index: 1001; }
+  .menu-toggle span { width: 25px; height: 3px; background: #373c44; transition: 0.3s; border-radius: 2px; }
+  .nav-overlay {
+    position: fixed; top: 0; right: -100%; width: 250px; height: 100vh;
+    background: var(--navy); z-index: 1000; padding: 80px 2rem; transition: 0.4s ease-in-out;
+    box-shadow: -5px 0 15px rgba(0,0,0,0.3);
+  }
+  .nav-overlay.active { right: 0; }
+  .overlay-links { list-style: none; display: flex; flex-direction: column; gap: 1.5rem; }
+  .overlay-links a { color: #fff; text-decoration: none; font-size: 18px; text-transform: uppercase; }
+  .menu-toggle.active span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+  .menu-toggle.active span:nth-child(2) { opacity: 0; }
+  .menu-toggle.active span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+
+  .hero {
+    background: var(--navy);
+    padding: 5rem 2rem 4rem;
+    text-align: center;
+  }
+  .hero-pill {
+    display: inline-block;
+    background: #F5C125;
+    border: 1px solid rgba(0,0,0,0.1);
+    color: #000;
+    font-size: 11px; text-transform: uppercase;
+    padding: 6px 18px; border-radius: 999px;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  .hero h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(2.4rem, 5vw, 4rem);
+    font-weight: 600; color: #fff;
+    max-width: 680px; margin: 0 auto 1.25rem;
+  }
+  .hero h1 em {
+    font-style: italic; color: #7dd3cc;
+  }
+  .hero p {
+    max-width: 540px; margin: 0 auto 2rem;
+    color: #9ab3d4; font-size: 16px;
+  }
+  .hero-divider {
+    width: 48px; height: 2px;
+    background: var(--accent);
+    margin: 0 auto;
+  }
+
+  .about-band {
+    background: var(--teal);
+    padding: 3rem 2rem;
+  }
+  .about-inner {
+    max-width: 900px; margin: 0 auto;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 3rem;
+    align-items: center;
+  }
+  .about-text h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem; font-weight: 600; color: #fff;
+    margin-bottom: 1rem;
+  }
+  .about-text p {
+    color: rgba(255,255,255,0.82);
+    font-size: 15px; line-height: 1.75;
+  }
+  .about-stats {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem;
+  }
+  .stat-card {
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 12px; padding: 1.25rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .stat-card .num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.2rem; font-weight: 600; color: #fff;
+  }
+  .stat-card .label {
+    font-size: 11px; color: rgba(255,255,255,0.6);
+    text-transform: uppercase;
+    margin-top: 4px;
+  }
+
+  .mission-section, .team-section {
+    max-width: 1100px; margin: 0 auto; padding: 4rem 2rem;
+  }
+  .section-header {
+    display: flex; align-items: baseline; justify-content: space-between;
+    margin-bottom: 2.5rem; padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .section-header h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem; color: var(--navy);
+  }
+
+  .mission-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem;
+  }
+  .mission-card {
+    background: #fff; border: 1px solid var(--border);
+    border-radius: 12px; padding: 1.5rem;
+    text-align: center;
+    transition: all 0.3s;
+  }
+  .mission-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 32px rgba(11,37,69,0.1);
+  }
+  .mission-icon {
+    width: 60px; height: 60px;
+    background: linear-gradient(135deg, var(--teal), #068586);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 28px;
+    margin: 0 auto 1rem;
+  }
+  .mission-card h4 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2rem; font-weight: 600; color: var(--navy);
+    margin-bottom: 0.5rem;
+  }
+  .mission-card p {
+    color: var(--muted); font-size: 13px;
+  }
+
+  .company-section {
+    background: var(--cream);
+    padding: 4rem 2rem;
+  }
+  .company-inner {
+    max-width: 900px; margin: 0 auto;
+  }
+  .company-inner h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem; color: var(--navy);
+    text-align: center; margin-bottom: 2rem;
+  }
+  .company-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;
+  }
+  .company-card {
+    background: #fff; border: 2px solid var(--border);
+    border-radius: 16px; padding: 2rem;
+    transition: all 0.3s;
+  }
+  .company-card:hover {
+    border-color: var(--teal);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 32px rgba(11,37,69,0.1);
+  }
+  .company-card h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.4rem; font-weight: 600; color: var(--teal);
+    margin-bottom: 0.75rem;
+  }
+  .company-card p {
+    color: var(--muted); font-size: 14px;
+  }
+
+  .team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  .team-member {
+    position: relative;
+    width: calc(20% - 1.25rem);
+    min-height: 260px;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .team-member img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    object-position: center top;
+  }
+  .team-member .front {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding-bottom: 10px;
+    height: 100%;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  }
+  .team-member .info {
+    padding: 1rem;
+    background: #fff;
+  }
+  .team-member .name {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--navy);
+    margin-bottom: 4px;
+  }
+  .team-member .role {
+    font-size: 12px;
+    color: var(--teal);
+    text-transform: uppercase;
+  }
+  
+  /* Left to Right Flip Animation */
+  .team-member .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, var(--navy), var(--navy-mid));
+    border-radius: 12px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    overflow-y: auto;
+  }
+  .team-member .back .name {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  .team-member .back .role {
+    color: rgba(255,255,255,0.8);
+    margin-bottom: 12px;
+    font-size: 12px;
+  }
+  .team-member .back .desc {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  
+  /* Desktop hover flip - left to right */
+  @media (hover: hover) {
+    .team-member:hover .front {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    .team-member:hover .back {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  /* Mobile click flip */
+  .team-member.flip .front {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  .team-member.flip .back {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  /* VALUES Section */
+  .values-strip {
+    background: #f7f3ee;
+    border-top: 1px solid #e5ddd3;
+    border-bottom: 1px solid #e5ddd3;
+    padding: 3rem 2rem;
+  }
+  .values-inner {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .values-inner h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.8rem;
+    color: #0b2545;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .values-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+  }
+  .value-item {
+    text-align: center;
+    background: transparent;
+  }
+  .value-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: #0b2545;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin: 0 auto 1rem;
+  }
+  .value-item h4 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #0b2545;
+    margin-bottom: 0.4rem;
+  }
+  .value-item p {
+    font-size: 13px;
+    color: #6b7280;
+  }
+
+  footer {
+    background: var(--navy);
+    color: #1a1a1a;
+    padding: 2.5rem 2rem;
+    text-align: center;
+  }
+  footer .footer-brand {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.3rem; color: #000; font-weight: 600;
+  }
+  footer p { font-size: 13px; color: #1a1a1a; }
+  footer .footer-line {
+    width: 40px; height: 1px; background: #000;
+    margin: 1rem auto;
+  }
+
+  @media (max-width: 768px) {
+    nav { padding: 0 1rem; }
+    .nav-brand span:first-child { font-size: 16px; }
+    .nav-brand span:last-child { font-size: 9px; }
+    .nav-links { display: none; }
+    .menu-toggle { display: flex; }
+    .hero { padding: 3rem 1.5rem 2rem; }
+    .hero h1 { font-size: 1.8rem; }
+    .about-inner, .company-grid { grid-template-columns: 1fr; }
+    .about-stats { grid-template-columns: 1fr; }
+    .mission-grid { grid-template-columns: 1fr 1fr; }
+    .team-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; }
+    .team-member { width: calc(50% - 1rem); height: auto; min-height: 340px; }
+    .values-grid { grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .values-strip { padding: 2rem 1rem; }
+    .values-inner h2 { font-size: 1.5rem; margin-bottom: 1.5rem; }
+    .value-item { padding: 0.5rem; }
+    .value-icon { width: 44px; height: 44px; font-size: 18px; margin-bottom: 0.75rem; }
+    .value-item h4 { font-size: 13px; }
+    .value-item p { font-size: 12px; line-height: 1.4; }
+  }
+
+  @media (max-width: 480px) {
+    .mission-grid { grid-template-columns: 1fr; }
+    .team-grid { flex-direction: column; align-items: center; }
+    .team-member { width: 100%; min-height: 300px; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="../" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
+    <img src="../logo.png" alt="Logo" style="height: 45px; width: auto;">
+    <div class="nav-brand">
+      <span>Navkar Apotek LLP &amp; Pronavkar Lifecare LLP</span>
+      <span>Pharmaceutical Excellence</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="../">Home</a></li>
+    <li><a href="../products/">Products</a></li>
+    <li><a href="#" class="active">About</a></li>
+    <li><a href="../Media & Gallery/">Gallery</a></li>
+    <li><a href="../careers/">Careers</a></li>
+    <li><a href="../companies/">Companies</a></li>
+    <li><a href="../Contact-us/">Contact</a></li>
+  </ul>
+  <div class="menu-toggle" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<div class="nav-overlay" id="navOverlay">
+  <ul class="overlay-links">
+    <li><a href="../" onclick="toggleMenu()">Home</a></li>
+    <li><a href="../products/" onclick="toggleMenu()">Products</a></li>
+    <li><a href="./" onclick="toggleMenu()">About Us</a></li>
+    <li><a href="../Media & Gallery/" onclick="toggleMenu()">Gallery</a></li>
+    <li><a href="../careers/" onclick="toggleMenu()">Careers</a></li>
+    <li><a href="../companies/" onclick="toggleMenu()">Companies</a></li>
+    <li><a href="../Contact-us/" onclick="toggleMenu()">Contact Us</a></li>
+  </ul>
+</div>
+
+<section class="hero">
+  <div class="hero-pill">About Us</div>
+  <h1>Our <em>Commitment</em> to Your Health</h1>
+  <p>Learn more about Navkar Apotek LLP &amp; Pronavkar Lifecare LLP — your trusted pharmaceutical partners.</p>
+  <div class="hero-divider"></div>
+</section>
+
+
+
+<section class="mission-section">
+  <div class="section-header">
+    <h2>Our Mission & Vision</h2>
+  </div>
+  <div class="mission-grid">
+    <div class="mission-card">
+      <div class="mission-icon">🎯</div>
+      <h4>Our Mission</h4>
+      <p>To provide authentic, high-quality pharmaceutical products to our customers with reliability and trust.</p>
+    </div>
+    <div class="mission-card">
+      <div class="mission-icon">👁️</div>
+      <h4>Our Vision</h4>
+      <p>To be the most preferred healthcare partner in the region, delivering excellence in every step.</p>
+    </div>
+    <div class="mission-card">
+      <div class="mission-icon">💪</div>
+      <h4>What We Offer</h4>
+      <p>Wide range of generic medicines, OTC products, cold-chain medicines from reputed manufacturers.</p>
+    </div>
+  </div>
+</section>
+
+<section class="company-section">
+  <div class="company-inner">
+    <h2>Our Companies</h2>
+    <div class="company-grid">
+      <div class="company-card">
+        <h3>Navkar Apotek LLP</h3>
+        <p>Your trusted pharmacy partner offering a wide range of quality medicines and healthcare products. We are committed to providing authentic pharmaceutical products with reliability and trust.</p>
+      </div>
+      <div class="company-card">
+        <h3>Pronavkar Lifecare LLP</h3>
+        <p>Committed to bringing innovative pharmaceutical solutions and generic medicines at affordable prices. We strive for excellence in healthcare distribution.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="team-section">
+  <div class="section-header">
+    <h2>Our Navkar & Pronavkar Team</h2>
+  </div>
+  <div class="team-grid">
+    <div class="team-member" onclick="this.classList.toggle('flip')">
+      <div class="front">
+        <img src="../PHOTOS/Nabhiraj Kothari.JPG" alt="Nabhiraj Kothari">
+        <div class="info">
+          <div class="name">Nabhiraj Kothari</div>
+          <div class="role">Partner</div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="name">Nabhiraj Kothari</div>
+        <div class="role">Partner</div>
+        <div class="desc">15+ years in pharmaceutical distribution. Expert in supply chain management.</div>
+      </div>
+    </div>
+    <div class="team-member" onclick="this.classList.toggle('flip')">
+      <div class="front">
+        <img src="../PHOTOS/Ajay Kumar Doshi.JPG" alt="Ajay Kumar Doshi">
+        <div class="info">
+          <div class="name">Ajay Kumar Doshi</div>
+          <div class="role">Partner</div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="name">Ajay Kumar Doshi</div>
+        <div class="role">Partner</div>
+        <div class="desc">Strategic leader with deep industry knowledge. Focus on customer relations.</div>
+      </div>
+    </div>
+    <div class="team-member" onclick="this.classList.toggle('flip')">
+      <div class="front">
+        <img src="../PHOTOS/Mahindra Oswal.JPG" alt="Mahendra Oswal">
+        <div class="info">
+          <div class="name">Mahendra Oswal</div>
+          <div class="role">Partner</div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="name">Mahendra Oswal</div>
+        <div class="role">Partner</div>
+        <div class="desc">Operations expert ensuring timely delivery of medicines across regions.</div>
+      </div>
+    </div>
+    <div class="team-member" onclick="this.classList.toggle('flip')">
+      <div class="front">
+        <img src="../PHOTOS/Surykant Khatke.JPG" alt="Suryakant Khatke">
+        <div class="info">
+          <div class="name">Suryakant Khatke</div>
+          <div class="role">Partner</div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="name">Suryakant Khatke</div>
+        <div class="role">Partner</div>
+        <div class="desc">Specializes in cold-chain medicines and specialty pharmaceuticals.</div>
+      </div>
+    </div>
+    <div class="team-member" onclick="this.classList.toggle('flip')">
+      <div class="front">
+        <img src="../PHOTOS/Vishal Shaha.JPG" alt="Vishal Shaha">
+        <div class="info">
+          <div class="name">Vishal Shaha</div>
+          <div class="role">Partner</div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="name">Vishal Shaha</div>
+        <div class="role">Partner</div>
+        <div class="desc">Experience in generic medicines distribution and pharmacy partnerships.</div>
+      </div>
+    </div>
+    <div class="team-member" onclick="this.classList.toggle('flip')">
+      <div class="front">
+        <img src="../PHOTOS/Ashish Doshi.JPG" alt="Ashish Doshi">
+        <div class="info">
+          <div class="name">Ashish Doshi</div>
+          <div class="role">Partner</div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="name">Ashish Doshi</div>
+        <div class="role">Partner</div>
+        <div class="desc">Expert in OTC products and healthcare consumer goods.</div>
+      </div>
+    </div>
+    <div class="team-member" onclick="this.classList.toggle('flip')">
+      <div class="front">
+        <img src="../PHOTOS/Swpnil Shaha.JPG" alt="Swapnil Shah">
+        <div class="info">
+          <div class="name">Swapnil Shah</div>
+          <div class="role">Partner</div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="name">Swapnil Shah</div>
+        <div class="role">Partner</div>
+        <div class="desc">Handles regional sales and business development in western Maharashtra.</div>
+      </div>
+    </div>
+    <div class="team-member" onclick="this.classList.toggle('flip')">
+      <div class="front">
+        <img src="../PHOTOS/Nikhil Oswal.JPG" alt="Nikhil Oswal">
+        <div class="info">
+          <div class="name">Nikhil Oswal</div>
+          <div class="role">Partner</div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="name">Nikhil Oswal</div>
+        <div class="role">Partner</div>
+        <div class="desc">Focused on expanding distribution network and new product partnerships.</div>
+      </div>
+    </div>
+    <div class="team-member" onclick="this.classList.toggle('flip')">
+      <div class="front">
+        <img src="../PHOTOS/Gaurav Bankar.jpg" alt="Gaurav Bankar">
+        <div class="info">
+          <div class="name">Gaurav Bankar</div>
+          <div class="role">Partner</div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="name">Gaurav Bankar</div>
+        <div class="role">Partner</div>
+        <div class="desc">Manages inventory and warehouse operations with precision.</div>
+      </div>
+    </div>
+    <div class="team-member" onclick="this.classList.toggle('flip')">
+      <div class="front">
+        <img src="../PHOTOS/Suraj Shaha.JPG" alt="Suraj Shah">
+        <div class="info">
+          <div class="name">Suraj Shah</div>
+          <div class="role">Partner</div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="name">Suraj Shah</div>
+        <div class="role">Partner</div>
+        <div class="desc">Specialist in hospital and clinic supply chain management.</div>
+      </div>
+    </div>
+    <div class="team-member" onclick="this.classList.toggle('flip')">
+      <div class="front">
+        <img src="../PHOTOS/Akash Khatke.JPG" alt="Akash Khatke">
+        <div class="info">
+          <div class="name">Akash Khatke</div>
+          <div class="role">Partner</div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="name">Akash Khatke</div>
+        <div class="role">Partner</div>
+        <div class="desc">Expert in retail pharmacy relationships and local distribution.</div>
+      </div>
+    </div>
+    <div class="team-member" onclick="this.classList.toggle('flip')">
+      <div class="front">
+        <img src="../PHOTOS/Shubham Oswal.JPG" alt="Shubham Oswal">
+        <div class="info">
+          <div class="name">Shubham Oswal</div>
+          <div class="role">Partner</div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="name">Shubham Oswal</div>
+        <div class="role">Partner</div>
+        <div class="desc">I look after technicals and operations of both our firms and tea along with my team — looking forward to learning & scaling our business to new heights technwise & turnoverwise.</div>
+      </div>
+    </div>
+    <div class="team-member" onclick="this.classList.toggle('flip')">
+      <div class="front">
+        <img src="../PHOTOS/Smita Dhoka.jpg" alt="Smita Dhoka">
+        <div class="info">
+          <div class="name">Smita Dhoka</div>
+          <div class="role">Partner</div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="name">Smita Dhoka</div>
+        <div class="role">Partner</div>
+        <div class="desc">Dedicated partner ensuring high standards of pharmaceutical service and customer care.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="values-strip">
+  <div class="values-inner">
+    <h2>Our Core Values</h2>
+    <div class="values-grid">
+      <div class="value-item">
+        <div class="value-icon">✦</div>
+        <h4>Quality First</h4>
+        <p>Every product meets rigorous quality benchmarks before reaching you.</p>
+      </div>
+      <div class="value-item">
+        <div class="value-icon">❤</div>
+        <h4>Patient Focus</h4>
+        <p>Your health and safety drive every decision we make.</p>
+      </div>
+      <div class="value-item">
+        <div class="value-icon">⚖</div>
+        <h4>Integrity</h4>
+        <p>Transparent, ethical practices across our entire supply chain.</p>
+      </div>
+      <div class="value-item">
+        <div class="value-icon">◎</div>
+        <h4>Excellence</h4>
+        <p>Continuous improvement in distribution and customer service.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-brand">Navkar Apotek LLP &amp; Pronavkar Lifecare LLP</div>
+  <div class="footer-line"></div>
+  <p>Committed to quality medicines and healthcare products across India.</p>
+</footer>
+
+<script>
+function toggleMenu() {
+  document.getElementById('navOverlay').classList.toggle('active');
+  document.querySelector('.menu-toggle').classList.toggle('active');
+}
+</script>
+
+</body>
+</html>

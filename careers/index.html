@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Careers & MOUs - Navkar Apotek & Pronavkar Lifecare</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy: #1A9E8F;
+    --navy-mid: #148074;
+    --teal: #1A9E8F;
+    --accent: #F5C125;
+    --warm-white: #fefcf9;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--warm-white);
+    color: #333;
+    line-height: 1.6;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 0 2rem;
+    display: flex; align-items: center; justify-content: space-between;
+    height: 64px;
+    border-bottom: 2px solid var(--accent);
+    backdrop-filter: blur(5px);
+  }
+  .nav-brand { display: flex; flex-direction: column; text-decoration: none; }
+  .nav-brand span:first-child {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px; font-weight: 600; color: #373c44;
+  }
+  .nav-brand span:last-child {
+    font-size: 10px; color: #373c44; text-transform: uppercase;
+  }
+  .nav-links { display: flex; gap: 2rem; list-style: none; }
+  .nav-links a {
+    font-size: 13px; color: #373c44; text-decoration: none;
+    text-transform: uppercase;
+  }
+  .nav-links a:hover, .nav-links a.active { color: #000; font-weight: 600; }
+
+  /* Hamburger Menu CSS */
+  .menu-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; z-index: 1001; }
+  .menu-toggle span { width: 25px; height: 3px; background: #373c44; transition: 0.3s; border-radius: 2px; }
+  .nav-overlay {
+    position: fixed; top: 0; right: -100%; width: 250px; height: 100vh;
+    background: var(--navy); z-index: 1000; padding: 80px 2rem; transition: 0.4s ease-in-out;
+    box-shadow: -5px 0 15px rgba(0,0,0,0.3);
+  }
+  .nav-overlay.active { right: 0; }
+  .overlay-links { list-style: none; display: flex; flex-direction: column; gap: 1.5rem; }
+  .overlay-links a { color: #fff; text-decoration: none; font-size: 18px; text-transform: uppercase; }
+  .menu-toggle.active span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+  .menu-toggle.active span:nth-child(2) { opacity: 0; }
+  .menu-toggle.active span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+
+  /* ── HERO SECTION ── */
+  .hero {
+    height: 50vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../Careers Photos/Collab 1.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    margin-top: 64px;
+  }
+  .hero h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  .hero p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+    opacity: 0.9;
+  }
+
+  /* ── CONTENT SECTION ── */
+  .collab-section {
+    padding: 6rem 2rem;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .section-intro {
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+  .section-intro h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3rem;
+    color: var(--navy);
+    margin-bottom: 1.5rem;
+  }
+  .section-intro p {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .collab-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 30px;
+  }
+  .collab-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .collab-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  }
+  .collab-image {
+    height: 250px;
+    overflow: hidden;
+  }
+  .collab-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+  }
+  .collab-card:hover .collab-image img {
+    transform: scale(1.1);
+  }
+  .collab-info {
+    padding: 2rem;
+  }
+  .collab-info h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #222;
+  }
+  .collab-info p {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+  .collab-tag {
+  display: inline-block;
+  padding: 4px 12px;
+  background: var(--accent);
+  color: #000;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  }
+
+  /* ── COLLEGE LOGOS SECTION ── */
+  .partners-section {
+  padding: 6rem 2rem;
+  background: #fff;
+  text-align: center;
+  }
+  .partners-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  }
+  .partner-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+  width: 200px;
+  }
+  .partner-logo:hover {
+  transform: translateY(-5px);
+  }
+  .partner-logo img {
+  height: 120px;
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: all 0.3s ease;
+  }
+  .partner-logo:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
+  }
+  .partner-logo span {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  }
+
+  /* ── LIGHTBOX ── */  .lightbox-modal {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.9); backdrop-filter: blur(10px);
+    z-index: 2000; display: none; align-items: center; justify-content: center;
+    cursor: zoom-out; opacity: 0; transition: opacity 0.4s ease;
+  }
+  .lightbox-modal.active { display: flex; opacity: 1; }
+  .lightbox-content {
+    max-width: 90%; max-height: 85%; border-radius: 8px;
+    transform: scale(0.9); transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .lightbox-modal.active .lightbox-content { transform: scale(1); }
+
+  @media (max-width: 768px) {
+    .nav-links { display: none; }
+    .menu-toggle { display: flex; }
+    .hero h1 { font-size: 2.5rem; }
+    .collab-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="../" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
+    <img src="../logo.png" alt="Logo" style="height: 45px; width: auto;">
+    <div class="nav-brand">
+      <span>Navkar Apotek &amp; Pronavkar Lifecare</span>
+      <span>Pharmaceutical Excellence</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="../">Home</a></li>
+    <li><a href="../products/">Products</a></li>
+    <li><a href="../about-us/">About</a></li>
+    <li><a href="../Media & Gallery/">Gallery</a></li>
+    <li><a href="#" class="active">Careers</a></li>
+    <li><a href="../companies/">Companies</a></li>
+    <li><a href="../Contact-us/">Contact</a></li>
+  </ul>
+  <div class="menu-toggle" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<div class="nav-overlay" id="navOverlay">
+  <ul class="overlay-links">
+    <li><a href="../" onclick="toggleMenu()">Home</a></li>
+    <li><a href="../products/" onclick="toggleMenu()">Products</a></li>
+    <li><a href="../about-us/" onclick="toggleMenu()">About</a></li>
+    <li><a href="../Media & Gallery/" onclick="toggleMenu()">Gallery</a></li>
+    <li><a href="./" onclick="toggleMenu()">Careers</a></li>
+    <li><a href="../companies/" onclick="toggleMenu()">Companies</a></li>
+    <li><a href="../Contact-us/" onclick="toggleMenu()">Contact</a></li>
+  </ul>
+</div>
+
+<header class="hero">
+  <div class="container">
+    <h1>Academic Careers</h1>
+    <p>Empowering the next generation of pharmaceutical professionals through strategic partnerships with leading educational institutions.</p>
+  </div>
+</header>
+
+<section class="collab-section">
+  <div class="container">
+    <div class="section-intro">
+      <h2>Our MOUs &amp; Partnerships</h2>
+      <p>We take pride in our careers with various prestigious colleges and universities. These MOUs facilitate knowledge exchange, industrial training, and placement opportunities for students.</p>
+    </div>
+
+    <div class="collab-grid">
+      <!-- Card 1 -->
+      <div class="collab-card">
+        <div class="collab-image">
+          <img src="../Careers Photos/Collab 1.jpeg" alt="MOU Signing 1">
+        </div>
+        <div class="collab-info">
+          <span class="collab-tag">Educational MOU</span>
+          <h3>Institutional Partnership</h3>
+          <p>Strategic careers for academic excellence and industrial exposure.</p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="collab-card">
+        <div class="collab-image">
+          <img src="../Careers Photos/Collab 2.jpeg" alt="MOU Signing 2">
+        </div>
+        <div class="collab-info">
+          <span class="collab-tag">Skill Development</span>
+          <h3>Training &amp; Research</h3>
+          <p>Joint initiatives to enhance technical skills and research capabilities of students.</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="collab-card">
+        <div class="collab-image">
+          <img src="../Careers Photos/collab 3.jpeg" alt="MOU Signing 3">
+        </div>
+        <div class="collab-info">
+          <span class="collab-tag">Placement Drive</span>
+          <h3>Industrial Tie-ups</h3>
+          <p>Facilitating career opportunities through robust industrial-academic networks.</p>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="collab-card">
+        <div class="collab-image">
+          <img src="../Careers Photos/collab 5.jpeg" alt="MOU Signing 5">
+        </div>
+        <div class="collab-info">
+          <span class="collab-tag">Innovation</span>
+          <h3>Future Careers</h3>
+          <p>Expanding our reach to more institutions to foster a culture of innovation.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="partners-section">
+  <div class="container">
+    <div class="section-intro">
+      <h2>Associated Colleges</h2>
+      <p>Click on the logos to visit the official websites of our esteemed partner institutions.</p>
+    </div>
+    <div class="partners-grid">
+      <!-- College 1 -->
+      <a href="https://www.ccop.sswps.org/" target="_blank" class="partner-logo">
+        <img src="../collage Logo/chandrabhaga.png" alt="Chandrabhaga">
+        <span>CHandrabhaga College Of Pharmacy</span>
+      </a>
+      <!-- College 2 -->
+      <a href="https://dsbcop.edu.in/" target="_blank" class="partner-logo">
+        <img src="../collage Logo/collage_of_pharmacy.png" alt="College of Pharmacy">
+        <span>Baramati College Of Pharmacy</span>
+      </a>
+      <!-- College 3 -->
+      <a href="https://aescop.org/" target="_blank" class="partner-logo">
+        <img src="../collage Logo/TC.png" alt="TC College">
+        <span>Anekanat Education Society's College Of Pharmacy</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="lightbox-modal" id="lightbox">
+  <img class="lightbox-content" id="lightboxImg">
+</div>
+
+<script>
+function toggleMenu() {
+  document.getElementById('navOverlay').classList.toggle('active');
+  document.querySelector('.menu-toggle').classList.toggle('active');
+}
+
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightboxImg');
+const images = document.querySelectorAll('.collab-image img');
+
+images.forEach(img => {
+  img.addEventListener('click', () => {
+    lightboxImg.src = img.src;
+    lightbox.style.display = 'flex';
+    setTimeout(() => lightbox.classList.add('active'), 10);
+  });
+});
+
+lightbox.addEventListener('click', () => {
+  lightbox.classList.remove('active');
+  setTimeout(() => lightbox.style.display = 'none', 400);
+});
+</script>
+
+</body>
+</html>

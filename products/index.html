@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Products - Navkar Apotek & Pronavkar Lifecare</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+
+<script src="../product_data.js"></script>
+<script src="../otc_data.js"></script>
+<script src="../navkar_coldchain.js"></script>
+<script src="../navkar_medicine.js"></script>
+
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy: #1A9E8F;
+    --navy-mid: #148074;
+    --teal: #1A9E8F;
+    --teal-light: #d2f0ec;
+    --cream: #f7f3ee;
+    --warm-white: #fefcf9;
+    --text: #1a1a1a;
+    --muted: #6b7280;
+    --border: #e5ddd3;
+    --accent: #F5C125;
+    --primary-color: #1A9E8F;
+    --primary-dark: #148074;
+    --accent-color: #F5C125;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--warm-white);
+    color: var(--text);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: sticky; top: 0; z-index: 100;
+    background: #ffffff;
+    padding: 0 2rem;
+    display: flex; align-items: center; justify-content: space-between;
+    height: 64px;
+    border-bottom: 2px solid var(--accent);
+  }
+  .nav-brand {
+    display: flex; flex-direction: column;
+  }
+  .nav-brand span:first-child {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px; font-weight: 600; color: #373c44;
+  }
+  .nav-brand span:last-child {
+    font-size: 10px; color: #373c44; text-transform: uppercase;
+  }
+  .nav-links { display: flex; gap: 2rem; list-style: none; }
+  .nav-links a {
+    font-size: 13px; color: #373c44; text-decoration: none;
+    letter-spacing: 0.05em; text-transform: uppercase;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover { color: #000; }
+  .nav-links a.active { color: #000; font-weight: 600; }
+
+  /* ── MOBILE NAV ── */
+  .mobile-nav {
+    display: none;
+    background: var(--teal);
+    padding: 1rem;
+  }
+  .mobile-nav-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+  }
+  .mobile-nav-btn {
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 8px;
+    padding: 1rem 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .mobile-nav-btn span {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 4px;
+  }
+
+  /* ── HERO ── */
+  .hero {
+    background: var(--navy);
+    padding: 3rem 2rem;
+    text-align: center;
+    position: relative; overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse 80% 60% at 50% 100%, rgba(15,124,114,0.18) 0%, transparent 70%);
+  }
+  .hero h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 600; color: #fff;
+    line-height: 1.2;
+    max-width: 680px; margin: 0 auto 0.75rem;
+    position: relative;
+  }
+  .hero h1 em {
+    font-style: italic; color: #7dd3cc;
+  }
+  .hero-divider {
+    width: 48px; height: 2px;
+    background: var(--accent);
+    margin: 0 auto;
+    position: relative;
+  }
+
+  /* ── SEARCH SECTION ── */
+  .search-section {
+    background: var(--teal);
+    padding: 2rem;
+  }
+  .search-container {
+    max-width: 700px; margin: 0 auto;
+  }
+  .search-label {
+    font-size: 14px; font-weight: 600; color: rgba(255,255,255,0.9);
+    text-transform: uppercase; letter-spacing: 0.1em;
+    margin-bottom: 0.75rem;
+    display: block;
+  }
+  .search-box {
+    display: flex; gap: 10px;
+  }
+  .search-input {
+    flex: 1;
+    padding: 14px 20px;
+    border: 2px solid rgba(255,255,255,0.3);
+    border-radius: 50px;
+    font-size: 15px;
+    background: rgba(255,255,255,0.95);
+    color: var(--text-dark);
+    outline: none;
+    transition: all 0.3s;
+  }
+  .search-input:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 4px rgba(247,209,39,0.3);
+  }
+  .search-btn {
+    padding: 14px 28px;
+    background: var(--accent-color);
+    color: var(--navy);
+    border: none;
+    border-radius: 50px;
+    font-size: 14px; font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: all 0.3s;
+  }
+  .search-btn:hover {
+    background: #f4c430;
+    transform: translateY(-2px);
+  }
+  .clear-btn {
+    padding: 14px 24px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px; font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: all 0.3s;
+    margin-left: 8px;
+  }
+  .clear-btn:hover {
+    background: #c82333;
+    transform: translateY(-2px);
+  }
+
+  /* ── FILTERS ── */
+  .filters-section {
+    background: var(--cream);
+    padding: 2rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .filters-container {
+    max-width: 900px; margin: 0 auto;
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem;
+  }
+  .filter-group label {
+    display: block;
+    font-size: 11px; font-weight: 700;
+    color: var(--navy); text-transform: uppercase;
+    letter-spacing: 0.08em; margin-bottom: 6px;
+  }
+  .filter-group select {
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid var(--border);
+    border-radius: 10px;
+    font-size: 14px;
+    background: white;
+    color: var(--text-dark);
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .filter-group select:focus {
+    border-color: var(--teal);
+    outline: none;
+  }
+  .filter-group select:disabled {
+    background: #f0f0f0;
+    color: #aaa;
+    cursor: not-allowed;
+  }
+
+  /* ── PRODUCTS TABLE ── */
+  .products-section {
+    max-width: 1100px; margin: 0 auto; padding: 2rem;
+  }
+  .results-info {
+    font-size: 14px; color: var(--muted);
+    margin-bottom: 1rem;
+    padding: 10px 16px;
+    background: linear-gradient(135deg, var(--accent-color), rgba(247,209,39,0.85));
+    border-radius: 50px;
+    display: inline-block;
+    font-weight: 600;
+    color: var(--navy);
+  }
+  .products-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  }
+  .products-table th {
+    background: #1a1a2e;
+    color: white;
+    padding: 16px;
+    text-align: left;
+    font-size: 12px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.8px;
+  }
+  .products-table td {
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--border);
+    font-size: 14px;
+  }
+  .products-table tr:hover {
+    background: rgba(26, 26, 46, 0.05);
+  }
+  .products-table tr:nth-child(even) {
+    background-color: rgba(26, 26, 46, 0.02);
+  }
+  .product-name {
+    font-weight: 700; color: #1a1a2e;
+  }
+  .company-name {
+    color: #1a1a2e; font-size: 13px; font-weight: 500;
+  }
+  .pack-info {
+    color: #1a1a2e; font-size: 13px;
+  }
+
+  /* ── PAGINATION ── */
+  .pagination {
+    display: flex; justify-content: center; align-items: center;
+    gap: 10px; margin-top: 2rem;
+  }
+  .pagination button {
+    padding: 10px 20px;
+    background: white;
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    font-size: 13px; font-weight: 600;
+    cursor: pointer; transition: all 0.3s;
+  }
+  .pagination button:hover:not(:disabled) {
+    border-color: var(--teal);
+    color: var(--teal);
+  }
+  .pagination button:disabled {
+    opacity: 0.5; cursor: not-allowed;
+  }
+  .pagination span {
+    font-weight: 600; color: var(--navy);
+  }
+
+  /* ── EMPTY STATE ── */
+  .empty-state {
+    text-align: center; padding: 60px 20px;
+    color: var(--muted);
+  }
+  .empty-state-icon {
+    font-size: 64px; margin-bottom: 1rem;
+    opacity: 0.4;
+  }
+  .empty-state p {
+    font-size: 15px; line-height: 1.6;
+  }
+
+  /* ── SUGGESTIONS ── */
+  .suggestions-box {
+    display: none;
+    background: white;
+    border: 2px solid var(--border);
+    border-radius: 12px;
+    max-height: 300px; overflow-y: auto;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 5px;
+    width: 100%; z-index: 100;
+  }
+  .suggestions-box.show { display: block; }
+  .suggestion-item {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .suggestion-item:hover {
+    background: linear-gradient(to right, rgba(6,133,134,0.08), rgba(6,133,134,0.03));
+    border-left: 3px solid var(--teal);
+  }
+  .suggestion-item:last-child { border-bottom: none; }
+  .suggestion-item strong {
+    color: var(--teal); display: block;
+  }
+  .suggestion-item small {
+    color: var(--muted); font-size: 12px;
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--navy); color: #1a1a1a;
+    padding: 2rem 2rem; text-align: center;
+    margin-top: 3rem;
+  }
+  footer .footer-brand {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.3rem; color: #000; margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  footer p { font-size: 13px; color: #1a1a1a; }
+  footer .footer-line {
+    width: 40px; height: 1px; background: #000;
+    margin: 1rem auto;
+  }
+
+  /* Hamburger Menu CSS */
+  .menu-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; z-index: 1001; }
+  .menu-toggle span { width: 25px; height: 3px; background: #373c44; transition: 0.3s; border-radius: 2px; }
+  .nav-overlay {
+    position: fixed; top: 0; right: -100%; width: 250px; height: 100vh;
+    background: var(--navy); z-index: 1000; padding: 80px 2rem; transition: 0.4s ease-in-out;
+    box-shadow: -5px 0 15px rgba(0,0,0,0.3);
+  }
+  .nav-overlay.active { right: 0; }
+  .overlay-links { list-style: none; display: flex; flex-direction: column; gap: 1.5rem; }
+  .overlay-links a { color: #fff; text-decoration: none; font-size: 18px; text-transform: uppercase; }
+  .menu-toggle.active span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+  .menu-toggle.active span:nth-child(2) { opacity: 0; }
+  .menu-toggle.active span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+
+  @media (max-width: 768px) {
+    nav { padding: 0 1rem; }
+    .nav-brand span:first-child { font-size: 16px; }
+    .nav-brand span:last-child { font-size: 9px; }
+    .nav-links { display: none; }
+    .menu-toggle { display: flex; }
+    .bottom-nav { display: none !important; }
+    .mobile-nav { display: none !important; }
+    .hero { padding: 3rem 1.5rem 2rem; }
+    .hero h1 { font-size: 2.2rem; }
+    .search-container { flex-direction: column; align-items: stretch; gap: 1rem; }
+    .search-box { flex-direction: column; gap: 0.5rem; }
+    .search-input { width: 100%; border-radius: 8px !important; }
+    .search-btn, .clear-btn { width: 100%; margin: 0 !important; border-radius: 8px !important; }
+    .filter-tabs { overflow-x: auto; white-space: nowrap; padding: 0.5rem; justify-content: flex-start; -webkit-overflow-scrolling: touch; }
+    .filter-tab { padding: 10px 16px; font-size: 13px; }
+    .filters-container { grid-template-columns: 1fr; gap: 1rem; }
+    .filter-group select { font-size: 16px; padding: 14px; }
+    .products-grid { grid-template-columns: 1fr; gap: 1rem; }
+    .product-card { padding: 1rem; }
+  }
+  </style>  </head>
+  <body>
+
+  <!-- NAV -->
+<nav>
+  <a href="../" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
+    <img src="../logo.png" alt="Logo" style="height: 45px; width: auto;">
+    <div class="nav-brand">
+      <span>Navkar Apotek LLP &amp; Pronavkar Lifecare LLP</span>
+      <span>Pharmaceutical Excellence</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="../">Home</a></li>
+    <li><a href="./" class="active">Products</a></li>
+    <li><a href="../about-us/">About</a></li>
+    <li><a href="../Media & Gallery/">Gallery</a></li>
+    <li><a href="../careers/">Careers</a></li>
+    <li><a href="../companies/">Companies</a></li>
+    <li><a href="../Contact-us/">Contact</a></li>
+  </ul>
+  <div class="menu-toggle" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<div class="nav-overlay" id="navOverlay">
+  <ul class="overlay-links">
+    <li><a href="../" onclick="toggleMenu()">Home</a></li>
+    <li><a href="./" onclick="toggleMenu()">Products</a></li>
+    <li><a href="../about-us/" onclick="toggleMenu()">About</a></li>
+    <li><a href="../Media & Gallery/" onclick="toggleMenu()">Gallery</a></li>
+    <li><a href="../careers/" onclick="toggleMenu()">Careers</a></li>
+    <li><a href="../companies/" onclick="toggleMenu()">Companies</a></li>
+    <li><a href="../Contact-us/" onclick="toggleMenu()">Contact</a></li>
+  </ul>
+</div>
+
+<script>
+function toggleMenu() {
+  document.getElementById('navOverlay').classList.toggle('active');
+  document.querySelector('.menu-toggle').classList.toggle('active');
+}
+</script>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Product <em>Search</em></h1>
+  <p>Explore our extensive range of 30,000+ pharmaceutical products from trusted manufacturers.</p>
+  <div class="hero-divider"></div>
+</section>
+
+<!-- SEARCH SECTION -->
+<section class="search-section">
+  <div class="search-container">
+    <label class="search-label">Quick Search</label>
+    <div class="search-box">
+      <div style="position:relative; flex:1;">
+        <input type="text" id="searchInput" class="search-input" placeholder="Search by medicine name or pack size...">
+        <div id="suggestions" class="suggestions-box"></div>
+      </div>
+      <button class="search-btn" onclick="performSearch()">Search</button>
+      <button class="clear-btn" onclick="clearAll()">Clear</button>
+    </div>
+  </div>
+</section>
+
+<!-- FILTERS -->
+<section class="filters-section">
+  <div class="filters-container">
+    <div class="filter-group">
+      <label>Step 1: Select Firm</label>
+      <select id="companyTypeSelect" onchange="updateCategoryDropdown()">
+        <option value="">-- Select Firm --</option>
+        <option value="navkar">Navkar Apotek LLP</option>
+        <option value="pronavakr">Pronavkar Lifecare LLP</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label>Step 2: Category</label>
+      <select id="categorySelect" onchange="updateCompanyDropdown()" disabled>
+        <option value="">-- Select Firm First --</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label>Step 3: Company</label>
+      <select id="companySelect" onchange="showProducts()" disabled>
+        <option value="">-- Choose Company --</option>
+      </select>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS SECTION -->
+<section class="products-section">
+  <div id="resultsInfo"></div>
+  <div id="productsContainer">
+    <div class="empty-state">
+      <div class="empty-state-icon">
+        <img src="../Icons/search.png" alt="Search Icon" style="height: 48px; width: auto; opacity: 0.5;">
+      </div>
+      <p>Search for a medicine or select filters above<br>to view available products.</p>
+    </div>  </div>
+
+  <div id="pagination" class="pagination" style="display:none;">
+    <button id="prevBtn" onclick="prevPage()">Previous</button>
+    <span id="pageInfo">Page 1 of 1</span>
+    <button id="nextBtn" onclick="nextPage()">Next</button>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-brand">Navkar Apotek LLP &amp; Pronavkar Lifecare LLP</div>
+  <div class="footer-line"></div>
+  <p>Committed to quality medicines and healthcare products across India.</p>
+</footer>
+
+<script>
+let masterProductList = [];
+let allProducts = [];
+let currentPage = 0;
+const productsPerPage = 25;
+
+function loadMasterProductList() {
+    masterProductList = [];
+    try {
+        if (typeof productData !== 'undefined') productData.forEach(item => masterProductList.push({...item, companyType: 'pronavakr', category: 'generic'}));
+        if (typeof otcData !== 'undefined') otcData.forEach(item => masterProductList.push({...item, companyType: 'pronavakr', category: 'otc'}));
+        if (typeof navkarColdchainData !== 'undefined') navkarColdchainData.forEach(item => masterProductList.push({...item, companyType: 'navkar', category: 'coldchain'}));
+        if (typeof navkarMedicineData !== 'undefined') navkarMedicineData.forEach(item => masterProductList.push({...item, companyType: 'navkar', category: 'medicine'}));
+    } catch(e) { console.log('Error loading data'); }
+}
+
+const companyTypeCategories = {
+    pronavakr: { 'Generic Medicines': ['productData'], 'OTC Products': ['otcData'] },
+    navkar: { 'Cold Chain': ['navkarColdchainData'], 'Medicines': ['navkarMedicineData'] }
+};
+
+function updateCategoryDropdown() {
+    const type = document.getElementById('companyTypeSelect').value;
+    const catSelect = document.getElementById('categorySelect');
+    const compSelect = document.getElementById('companySelect');
+    
+    catSelect.innerHTML = '<option value="">-- Select Category --</option>';
+    compSelect.innerHTML = '<option value="">-- Choose Company --</option>';
+    compSelect.disabled = true;
+    
+    isFromSearch = false;
+    
+    if (!type) { catSelect.disabled = true; allProducts = []; renderProducts(); return; }
+    
+    catSelect.disabled = false;
+    for (const cat in companyTypeCategories[type]) {
+        const opt = document.createElement('option'); opt.value = cat; opt.textContent = cat;
+        catSelect.appendChild(opt);
+    }
+}
+
+function updateCompanyDropdown() {
+    const category = document.getElementById('categorySelect').value;
+    const compSelect = document.getElementById('companySelect');
+    compSelect.innerHTML = '<option value="">-- Choose Company --</option>';
+    
+    if (!category) { compSelect.disabled = true; allProducts = []; renderProducts(); return; }
+    
+    const type = document.getElementById('companyTypeSelect').value;
+    
+    if (!companyTypeCategories[type] || !companyTypeCategories[type][category]) {
+        compSelect.disabled = true;
+        return;
+    }
+    
+    const dataKeys = companyTypeCategories[type][category];
+    const companies = new Set();
+    
+    dataKeys.forEach(key => {
+        let data = null;
+        if (key === 'productData' && typeof productData !== 'undefined') data = productData;
+        else if (key === 'otcData' && typeof otcData !== 'undefined') data = otcData;
+        else if (key === 'navkarColdchainData' && typeof navkarColdchainData !== 'undefined') data = navkarColdchainData;
+        else if (key === 'navkarMedicineData' && typeof navkarMedicineData !== 'undefined') data = navkarMedicineData;
+        
+        if (data && Array.isArray(data)) {
+            data.forEach(item => {
+                const c = item["Company Name"] || item["Company"];
+                if (c) companies.add(c);
+            });
+        }
+    });
+    
+    if (companies.size === 0) {
+        compSelect.innerHTML = '<option value="">-- No companies found --</option>';
+        return;
+    }
+    
+    companies.forEach(c => { 
+        const opt = document.createElement('option'); 
+        opt.value = c; 
+        opt.textContent = c; 
+        compSelect.appendChild(opt); 
+    });
+    
+    compSelect.disabled = false;
+}
+
+function showProducts() {
+    const company = document.getElementById('companySelect').value;
+    if (!company) { allProducts = []; isFromSearch = false; renderProducts(); return; }
+    
+    isFromSearch = false;
+    
+    const type = document.getElementById('companyTypeSelect').value;
+    const category = document.getElementById('categorySelect').value;
+    
+    if (!type || !category || !companyTypeCategories[type] || !companyTypeCategories[type][category]) {
+        allProducts = []; renderProducts(); return;
+    }
+    
+    const dataKeys = companyTypeCategories[type][category];
+    allProducts = [];
+    
+    dataKeys.forEach(key => {
+        let data = null;
+        let companyType = '';
+        
+        if (key === 'productData') { data = productData; companyType = 'pronavakr'; }
+        else if (key === 'otcData') { data = otcData; companyType = 'pronavakr'; }
+        else if (key === 'navkarColdchainData') { data = navkarColdchainData; companyType = 'navkar'; }
+        else if (key === 'navkarMedicineData') { data = navkarMedicineData; companyType = 'navkar'; }
+        
+        if (data && Array.isArray(data)) {
+            data.forEach(item => {
+                const itemCompany = item["Company Name"] || item["Company"];
+                if (itemCompany === company) {
+                    allProducts.push({...item, companyType: companyType});
+                }
+            });
+        }
+    });
+    
+    currentPage = 0;
+    renderProducts();
+}
+
+function performSearch() {
+    const term = document.getElementById('searchInput').value.toLowerCase().trim();
+    if (term.length < 2) { allProducts = []; isFromSearch = false; renderProducts(); return; }
+    
+    isFromSearch = true;
+    
+    allProducts = masterProductList.filter(item => {
+        const name = (item["Product Name"] || '').toLowerCase();
+        const pack = (item["Pack"] || '').toLowerCase();
+        return name.includes(term) || pack.includes(term);
+    });
+    
+    currentPage = 0;
+    renderProducts();
+}
+
+function renderProducts() {
+    const container = document.getElementById('productsContainer');
+    const info = document.getElementById('resultsInfo');
+    const pag = document.getElementById('pagination');
+    
+    if (allProducts.length === 0) {
+        container.innerHTML = '<div class="empty-state"><div class="empty-state-icon"><img src="../Icons/search.png" alt="Search Icon" style="height: 48px; width: auto; opacity: 0.5;"></div><p>Search for a medicine or select filters above<br>to view available products.</p></div>';
+        info.innerHTML = '';
+        pag.style.display = 'none';
+        return;
+    }
+    
+    info.innerHTML = `<span class="results-info">Showing ${allProducts.length} product${allProducts.length !== 1 ? 's' : ''}</span>`;
+    
+    const start = currentPage * productsPerPage;
+    const end = start + productsPerPage;
+    const pageProducts = allProducts.slice(start, end);
+    
+    container.innerHTML = `<table class="products-table">
+        <thead><tr><th>Product Name</th><th>Company</th><th>Pack Size</th></tr></thead>
+        <tbody>${pageProducts.map(item => `<tr>
+            <td class="product-name">${item["Product Name"] || ''}</td>
+            <td class="company-name">${item["Company Name"] || item["Company"] || ''}</td>
+            <td class="pack-info">${item["Pack"] || ''}</td>
+        </tr>`).join('')}</tbody>
+    </table>`;
+    
+    const totalPages = Math.ceil(allProducts.length / productsPerPage);
+    if (totalPages > 1) {
+        pag.style.display = 'flex';
+        document.getElementById('pageInfo').textContent = `Page ${currentPage + 1} of ${totalPages}`;
+        document.getElementById('prevBtn').disabled = currentPage === 0;
+        document.getElementById('nextBtn').disabled = currentPage >= totalPages - 1;
+    } else {
+        pag.style.display = 'none';
+    }
+}
+
+function prevPage() { if (currentPage > 0) { currentPage--; renderProducts(); } }
+function nextPage() { if (currentPage < Math.ceil(allProducts.length / productsPerPage) - 1) { currentPage++; renderProducts(); } }
+
+function clearAll() {
+    document.getElementById('searchInput').value = '';
+    document.getElementById('companyTypeSelect').value = '';
+    document.getElementById('categorySelect').innerHTML = '<option value="">-- Select Firm First --</option>';
+    document.getElementById('categorySelect').disabled = true;
+    document.getElementById('companySelect').innerHTML = '<option value="">-- Choose Company --</option>';
+    document.getElementById('companySelect').disabled = true;
+    document.getElementById('suggestions').classList.remove('show');
+    allProducts = [];
+    isFromSearch = false;
+    renderProducts();
+}
+
+document.getElementById('searchInput').addEventListener('input', function() {
+    const term = this.value.toLowerCase();
+    const box = document.getElementById('suggestions');
+    if (term.length < 2) { box.classList.remove('show'); return; }
+    
+    const matches = masterProductList.filter(item => (item["Product Name"] || '').toLowerCase().includes(term)).slice(0, 8);
+    if (matches.length === 0) { box.classList.remove('show'); return; }
+    
+    box.innerHTML = matches.map(item => {
+        const isNavkar = item.companyType === 'navkar';
+        const logoSrc = isNavkar ? '../N_logo.png' : '../P_logo.png';
+        return `<div class="suggestion-item" onclick="selectProduct('${item["Product Name"]}')">
+            <span><strong>${item["Product Name"]}</strong><small>${item["Pack"]}</small></span>
+            <img src="${logoSrc}" alt="Logo" style="width:24px;height:24px;border-radius:50%;object-fit:contain;background:white;margin-left:8px;">
+        </div>`;
+    }).join('');
+    box.classList.add('show');
+});
+
+function selectProduct(name) {
+    document.getElementById('searchInput').value = name;
+    document.getElementById('suggestions').classList.remove('show');
+    performSearch();
+}
+
+document.addEventListener('click', function(e) {
+    if (!e.target.closest('.search-box')) document.getElementById('suggestions').classList.remove('show');
+});
+
+document.getElementById('searchInput').addEventListener('keydown', function(e) { if (e.key === 'Enter') performSearch(); });
+
+document.addEventListener('DOMContentLoaded', function() {
+    loadMasterProductList();
+    console.log('Loaded products:', masterProductList.length);
+});
+</script>
+
+</body>
+</html>
