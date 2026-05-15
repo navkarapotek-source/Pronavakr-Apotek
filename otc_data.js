@@ -450,6 +450,16 @@ const otcData = [
         "Company Name": "AVENTUS HYGINOVA"
     },
     {
+        "Product Name": "SUNKEY STRONG 200ML",
+        "Pack": "200ML",
+        "Company Name": "AVENTUS HYGINOVA"
+    },
+    {
+        "Product Name": "SUNKEY STRONG 500ML",
+        "Pack": "500ML",
+        "Company Name": "AVENTUS HYGINOVA"
+    },
+    {
         "Product Name": "MAHABHRINGARAJ OIL [100ML]",
         "Pack": "100ML",
         "Company Name": "AYURVEDIC"
@@ -2295,6 +2305,11 @@ const otcData = [
         "Company Name": "GENERAL...A"
     },
     {
+        "Product Name": "ORAL B BACTERIA FIGHTER MEDIUM [6+2]",
+        "Pack": "PC",
+        "Company Name": "GENERAL...A"
+    },
+    {
         "Product Name": "ORAL B BACTERIA FIGHTER SOFT BRUSH [6+2]",
         "Pack": "1`S",
         "Company Name": "GENERAL...A"
@@ -2405,7 +2420,12 @@ const otcData = [
         "Company Name": "GENERAL...A"
     },
     {
-        "Product Name": "VASU TRICHUP OIL",
+        "Product Name": "TILSMI MOTI",
+        "Pack": "1X10",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "TRICHUP OIL",
         "Pack": "100ML",
         "Company Name": "GENERAL...A"
     },
@@ -3140,6 +3160,11 @@ const otcData = [
         "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
     },
     {
+        "Product Name": "HIM GASEX FIZZ ASSORTED",
+        "Pack": "1PC",
+        "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
+    },
+    {
         "Product Name": "HIM GREEN TEA [CLASSIC]",
         "Pack": "10'S BAG",
         "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
@@ -3697,6 +3722,11 @@ const otcData = [
     {
         "Product Name": "DAKTARIN GEL 40GM",
         "Pack": "40GM",
+        "Company Name": "JOHNSON & JOHNSON (OTC)"
+    },
+    {
+        "Product Name": "JOHNSON BABY SOAP 100GM",
+        "Pack": "100GM",
         "Company Name": "JOHNSON & JOHNSON (OTC)"
     },
     {
@@ -4982,6 +5012,11 @@ const otcData = [
     {
         "Product Name": "REVITAL ORS APPLE FLAV 200ML",
         "Pack": "200ML",
+        "Company Name": "RANBAXY LAB (CONSUMER - CHC)"
+    },
+    {
+        "Product Name": "REVITAL ORS MANGO FLAV 200ML",
+        "Pack": "60",
         "Company Name": "RANBAXY LAB (CONSUMER - CHC)"
     },
     {
@@ -6490,7 +6525,7 @@ const otcData = [
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
     {
-        "Product Name": "M POKO PANTS [L6] RS.99",
+        "Product Name": "M POKO PANTS [L6] RS.93",
         "Pack": "7PIS",
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
@@ -6500,7 +6535,7 @@ const otcData = [
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
     {
-        "Product Name": "M POKO PANTS [M16] RS.210",
+        "Product Name": "M POKO PANTS [M16]",
         "Pack": "16PIS",
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
@@ -6510,8 +6545,8 @@ const otcData = [
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
     {
-        "Product Name": "M POKO PANTS [M30] RS.399",
-        "Pack": "32PIS",
+        "Product Name": "M POKO PANTS [M26)",
+        "Pack": "26PIC",
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
     {
@@ -6530,7 +6565,7 @@ const otcData = [
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
     {
-        "Product Name": "M POKO PANTS [M7] RS.99",
+        "Product Name": "M POKO PANTS [M7] RS.93",
         "Pack": "8PIS",
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
@@ -6575,7 +6610,7 @@ const otcData = [
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
     {
-        "Product Name": "M POKO PANTS [S9] RS.99",
+        "Product Name": "M POKO PANTS [S9] RS.93",
         "Pack": "10PIS",
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },

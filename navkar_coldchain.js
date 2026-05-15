@@ -395,6 +395,11 @@ const navkarColdchainData = [
         "Company Name": "CADILA PHARMA  (MAGNA WAVE)"
     },
     {
+        "Product Name": "NU PTH INJ",
+        "Pack": "1AMP",
+        "Company Name": "CADILA PHARMA  (MAGNA WAVE)"
+    },
+    {
         "Product Name": "NIVEOLI INHALER",
         "Pack": "120MD",
         "Company Name": "CIPLA LIMITED"
@@ -668,6 +673,11 @@ const navkarColdchainData = [
         "Product Name": "NUCORIL 5MG TAB",
         "Pack": "30 TAB",
         "Company Name": "EMCURE PHARMACEUTICALS (NUCRON)"
+    },
+    {
+        "Product Name": "BLUVIAL 2MG/1.5ML",
+        "Pack": "1VIAL",
+        "Company Name": "ERIS LIFE SCIENCES (NIKKOS)"
     },
     {
         "Product Name": "BLUVIAL 4MG/3ML",
@@ -971,6 +981,11 @@ const navkarColdchainData = [
     },
     {
         "Product Name": "HUMINSULIN 30/70 U100",
+        "Pack": "10 ML",
+        "Company Name": "LUPIN NEW METABOLICS"
+    },
+    {
+        "Product Name": "HUMINSULIN NPH 100IU",
         "Pack": "10 ML",
         "Company Name": "LUPIN NEW METABOLICS"
     },

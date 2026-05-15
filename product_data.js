@@ -2570,6 +2570,11 @@ const productData = [
         "Company Name": "B D"
     },
     {
+        "Product Name": "BD INSULINE SYRINGE 100IU 10PC",
+        "Pack": "10PC",
+        "Company Name": "B D"
+    },
+    {
         "Product Name": "BD PEN NEEDLE 4MM",
         "Pack": "1",
         "Company Name": "B D"
@@ -5555,6 +5560,11 @@ const productData = [
         "Company Name": "CIPLA OTC MAIN"
     },
     {
+        "Product Name": "CLOCIP CREAM 15GM",
+        "Pack": "15GM",
+        "Company Name": "CIPLA OTC MAIN"
+    },
+    {
         "Product Name": "CLOCIP DUST.100GM POWDER",
         "Pack": "1X100GM",
         "Company Name": "CIPLA OTC MAIN"
@@ -5562,11 +5572,6 @@ const productData = [
     {
         "Product Name": "CLOCIP DUST.75GM POWDER",
         "Pack": "1X75GM",
-        "Company Name": "CIPLA OTC MAIN"
-    },
-    {
-        "Product Name": "CLOCIP OINT 15GM",
-        "Pack": "15GM",
         "Company Name": "CIPLA OTC MAIN"
     },
     {
@@ -5675,11 +5680,6 @@ const productData = [
         "Company Name": "CIPLA OTC MAIN"
     },
     {
-        "Product Name": "OMNI HOT GEL 30GM",
-        "Pack": "1X30GM",
-        "Company Name": "CIPLA OTC MAIN"
-    },
-    {
         "Product Name": "OMNIGEL  100GM",
         "Pack": "1X100GM",
         "Company Name": "CIPLA OTC MAIN"
@@ -5712,6 +5712,11 @@ const productData = [
     {
         "Product Name": "OMNIGEL 75GM",
         "Pack": "1X75GM",
+        "Company Name": "CIPLA OTC MAIN"
+    },
+    {
+        "Product Name": "OMNIGEL HOT GEL 30GM",
+        "Pack": "1X30GM",
         "Company Name": "CIPLA OTC MAIN"
     },
     {
@@ -9960,16 +9965,6 @@ const productData = [
         "Company Name": "GENERAL COMPANIES"
     },
     {
-        "Product Name": "ORAL B BACTERIA FIGHTER MEDIUM [6+2]",
-        "Pack": "PC",
-        "Company Name": "GENERAL...A"
-    },
-    {
-        "Product Name": "TILSMI MOTI",
-        "Pack": "1X10",
-        "Company Name": "GENERAL...A"
-    },
-    {
         "Product Name": "AUGMED 375MG TABS",
         "Pack": "1X6T",
         "Company Name": "GERMAN REMEDIES LTD"
@@ -14205,11 +14200,6 @@ const productData = [
         "Company Name": "JOHNSON & JOHNSON"
     },
     {
-        "Product Name": "JOHNSON BABY SOAP 100GM",
-        "Pack": "100GM",
-        "Company Name": "JOHNSON & JOHNSON (OTC)"
-    },
-    {
         "Product Name": "ORSL WHO APPLE 200ML (JOHNSON)",
         "Pack": "1X200ML",
         "Company Name": "JOHNSON & JOHNSON (OTC)"
@@ -14885,6 +14875,11 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "AQUA BASMATI RICE INDIA 1KG",
+        "Pack": "1KG",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "AQUA BOOSTUP PROTEIN (CHOC)",
         "Pack": "200GM",
         "Company Name": "LABORATE AQUA LAB"
@@ -14907,6 +14902,11 @@ const productData = [
     {
         "Product Name": "AQUA BREATH CAP",
         "Pack": "10CAP",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "AQUA CLEAN WASHING POWDER",
+        "Pack": "1KG",
         "Company Name": "LABORATE AQUA LAB"
     },
     {
@@ -14952,6 +14952,11 @@ const productData = [
     {
         "Product Name": "AQUA ELECTRIC KETTLE SKYLINE",
         "Pack": "PC",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "AQUA HEALMET DEZAR",
+        "Pack": "1",
         "Company Name": "LABORATE AQUA LAB"
     },
     {
@@ -15010,6 +15015,11 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "AQUA SUGAR 1KG",
+        "Pack": "1KG",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "AQUA THERMO DIGITAL THERMOMETER",
         "Pack": "1PC",
         "Company Name": "LABORATE AQUA LAB"
@@ -15025,8 +15035,18 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "AQUA UMBRELA",
+        "Pack": "1",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "AQUA VAG WASH 100ML",
         "Pack": "100ML",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "AQUA WEIGHING SCALE",
+        "Pack": "1",
         "Company Name": "LABORATE AQUA LAB"
     },
     {
@@ -15165,6 +15185,11 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "AQVIT E-400 CAP",
+        "Pack": "10CAP",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "ARICID GEL MIX FRUIT",
         "Pack": "170ML",
         "Company Name": "LABORATE AQUA LAB"
@@ -15222,6 +15247,11 @@ const productData = [
     {
         "Product Name": "AZIMEE 500 TAB",
         "Pack": "3TAB",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "B- COLAB CAP",
+        "Pack": "20CAP",
         "Company Name": "LABORATE AQUA LAB"
     },
     {
@@ -15465,6 +15495,11 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "I-FAX 200 TAB",
+        "Pack": "10TAB",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "IRON HEART INJ 5ML",
         "Pack": "5ML",
         "Company Name": "LABORATE AQUA LAB"
@@ -15512,6 +15547,16 @@ const productData = [
     {
         "Product Name": "LABOLIA BODY LOTION HONEY ALMOND 650ML",
         "Pack": "650ML",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "LINHEXA TAB",
+        "Pack": "6 TAB",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "L-STAR 500 TAB",
+        "Pack": "10TAB",
         "Company Name": "LABORATE AQUA LAB"
     },
     {
@@ -16576,7 +16621,7 @@ const productData = [
     },
     {
         "Product Name": "CALCIJOINT XT TABS",
-        "Pack": "1X10T",
+        "Pack": "1X15T",
         "Company Name": "LEEFORD HEALTHCARE LTD."
     },
     {
@@ -18635,6 +18680,11 @@ const productData = [
         "Company Name": "LUPIN LIFESCIENCES LIMITED"
     },
     {
+        "Product Name": "LUPIN CANAZOLE CASSEROL",
+        "Pack": "1PC",
+        "Company Name": "LUPIN LIFESCIENCES LIMITED"
+    },
+    {
         "Product Name": "LUPIN CASSEROLE",
         "Pack": "PC",
         "Company Name": "LUPIN LIFESCIENCES LIMITED"
@@ -18646,6 +18696,11 @@ const productData = [
     },
     {
         "Product Name": "LUPIN CUPON",
+        "Pack": "1PC",
+        "Company Name": "LUPIN LIFESCIENCES LIMITED"
+    },
+    {
+        "Product Name": "LUPIN DINNER SET (GLOWLOOK)",
         "Pack": "1PC",
         "Company Name": "LUPIN LIFESCIENCES LIMITED"
     },
@@ -20615,13 +20670,13 @@ const productData = [
         "Company Name": "NARENDRA MARKETING"
     },
     {
-        "Product Name": "NETRAGESIC MR TAB",
-        "Pack": "10TAB",
+        "Product Name": "NEW GRILENCTAZ + SYP",
+        "Pack": "100ML",
         "Company Name": "NARENDRA MARKETING"
     },
     {
-        "Product Name": "NEW GRILENCTAZ + SYP",
-        "Pack": "100ML",
+        "Product Name": "NITRAGESIC MR TAB",
+        "Pack": "10TAB",
         "Company Name": "NARENDRA MARKETING"
     },
     {
@@ -22072,6 +22127,11 @@ const productData = [
     {
         "Product Name": "MERBROMIN SOLUTION USNF 20 ML",
         "Pack": "20ML",
+        "Company Name": "OSWAL PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "POT.PERMAGNATE PURE 20G",
+        "Pack": "12X20GM",
         "Company Name": "OSWAL PHARMACEUTICALS"
     },
     {
@@ -24012,6 +24072,11 @@ const productData = [
     {
         "Product Name": "TELMEROS M TAB (A/A)",
         "Pack": "1X10TAB",
+        "Company Name": "ROUSSEL LABORATORIES"
+    },
+    {
+        "Product Name": "TELMEROS M25 TAB",
+        "Pack": "10TAB",
         "Company Name": "ROUSSEL LABORATORIES"
     },
     {
@@ -26075,6 +26140,11 @@ const productData = [
         "Company Name": "SMART ICONIC LAB"
     },
     {
+        "Product Name": "SIGNET PREMIUM FACE WIPES",
+        "Pack": "25PC",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
         "Product Name": "SMARTAID 12.5MM SURGICAL TAPE",
         "Pack": "12.5MM",
         "Company Name": "SMART ICONIC LAB"
@@ -27065,6 +27135,11 @@ const productData = [
         "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
+        "Product Name": "DENTABLIST GUM PAINT",
+        "Pack": "15ML",
+        "Company Name": "DARKROOM SUPER DOTTED"
+    },
+    {
         "Product Name": "DENTABLIST HERBAL TOOTHPASTE",
         "Pack": "100GM",
         "Company Name": "DARKROOM SUPER DOTTED"
@@ -27227,6 +27302,11 @@ const productData = [
     {
         "Product Name": "FUSITREAT CREAM",
         "Pack": "10GM",
+        "Company Name": "DARKROOM SUPER DOTTED"
+    },
+    {
+        "Product Name": "GENTAFRESH DX DROPS",
+        "Pack": "10ML",
         "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
@@ -27460,6 +27540,11 @@ const productData = [
         "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
+        "Product Name": "LIGNOFRESH 2% JELLY",
+        "Pack": "30GM",
+        "Company Name": "DARKROOM SUPER DOTTED"
+    },
+    {
         "Product Name": "LINEZONE 600TAB",
         "Pack": "10TAB",
         "Company Name": "DARKROOM SUPER DOTTED"
@@ -27631,6 +27716,11 @@ const productData = [
     },
     {
         "Product Name": "NASOWAVE NASAL SPRAY",
+        "Pack": "10ML",
+        "Company Name": "DARKROOM SUPER DOTTED"
+    },
+    {
+        "Product Name": "NASOWAVE OXY SPRAY",
         "Pack": "10ML",
         "Company Name": "DARKROOM SUPER DOTTED"
     },
@@ -27832,6 +27922,11 @@ const productData = [
     {
         "Product Name": "POVIFRESH POWDER",
         "Pack": "10GM",
+        "Company Name": "ORAWET ORS ORANGE TETRAPACK"
+    },
+    {
+        "Product Name": "POVIFRESH SOLUTION 5%",
+        "Pack": "100ML",
         "Company Name": "ORAWET ORS ORANGE TETRAPACK"
     },
     {
@@ -28997,6 +29092,11 @@ const productData = [
     {
         "Product Name": "ECOSILS LOZENGES (ORANGE)",
         "Pack": "1X8T",
+        "Company Name": "TARUN PHARMACUTICAL"
+    },
+    {
+        "Product Name": "ELECTOZOF 500ML",
+        "Pack": "500ML",
         "Company Name": "TARUN PHARMACUTICAL"
     },
     {
