@@ -1,3 +1,6 @@
+// Auto-generated file. Do not edit manually.
+// Generated from: refined_output.csv
+
 const productData = [
     {
         "Product Name": "MICROPORE TAPE HALF INCH",
@@ -20670,13 +20673,13 @@ const productData = [
         "Company Name": "NARENDRA MARKETING"
     },
     {
-        "Product Name": "NEW GRILENCTAZ + SYP",
-        "Pack": "100ML",
+        "Product Name": "NETRAGESIC MR TAB",
+        "Pack": "10TAB",
         "Company Name": "NARENDRA MARKETING"
     },
     {
-        "Product Name": "NITRAGESIC MR TAB",
-        "Pack": "10TAB",
+        "Product Name": "NEW GRILENCTAZ + SYP",
+        "Pack": "100ML",
         "Company Name": "NARENDRA MARKETING"
     },
     {

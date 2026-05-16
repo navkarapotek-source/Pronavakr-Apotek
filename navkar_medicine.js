@@ -1,3 +1,6 @@
+// Auto-generated file. Do not edit manually.
+// Generated from: refined_output.csv
+
 const navkarMedicineData = [
     {
         "Product Name": "DAPALEX T 10/40MG TAB",
@@ -5925,8 +5928,8 @@ const navkarMedicineData = [
         "Company Name": "ALARSIN PHARMACEUTICALS"
     },
     {
-        "Product Name": "MORTICAL D",
-        "Pack": "10TAB",
+        "Product Name": "MORICAL D",
+        "Pack": "60 TAB",
         "Company Name": "ALARSIN PHARMACEUTICALS"
     },
     {
@@ -12890,6 +12893,11 @@ const navkarMedicineData = [
         "Company Name": "ANAX LIFESCIENCE PVT LTD"
     },
     {
+        "Product Name": "FERTCEEV TAB",
+        "Pack": "10TAB",
+        "Company Name": "ANAX LIFESCIENCE PVT LTD"
+    },
+    {
         "Product Name": "HOLYTEL 40 TAB",
         "Pack": "10TAB",
         "Company Name": "ANAX LIFESCIENCE PVT LTD"
@@ -12926,6 +12934,21 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "NEBIJOY T TAB",
+        "Pack": "10TAB",
+        "Company Name": "ANAX LIFESCIENCE PVT LTD"
+    },
+    {
+        "Product Name": "OSITATE D TAB",
+        "Pack": "10TAB",
+        "Company Name": "ANAX LIFESCIENCE PVT LTD"
+    },
+    {
+        "Product Name": "OSITATE FORTE TAB",
+        "Pack": "10TAB",
+        "Company Name": "ANAX LIFESCIENCE PVT LTD"
+    },
+    {
+        "Product Name": "OSITATE M TAB",
         "Pack": "10TAB",
         "Company Name": "ANAX LIFESCIENCE PVT LTD"
     },
@@ -12977,21 +13000,6 @@ const navkarMedicineData = [
     {
         "Product Name": "LANFOL SACHET",
         "Pack": "GM",
-        "Company Name": "ANAX LIFESCIENCE PVT LTD (GYNE)"
-    },
-    {
-        "Product Name": "OSITATE D TAB",
-        "Pack": "10TAB",
-        "Company Name": "ANAX LIFESCIENCE PVT LTD (GYNE)"
-    },
-    {
-        "Product Name": "OSITATE FORTE TAB",
-        "Pack": "10TAB",
-        "Company Name": "ANAX LIFESCIENCE PVT LTD (GYNE)"
-    },
-    {
-        "Product Name": "OSITATE M TAB",
-        "Pack": "10TAB",
         "Company Name": "ANAX LIFESCIENCE PVT LTD (GYNE)"
     },
     {
@@ -17395,6 +17403,11 @@ const navkarMedicineData = [
         "Company Name": "BHARAT SERUM (FEMICARE)"
     },
     {
+        "Product Name": "LEUPRONEX 3.75MG",
+        "Pack": "1VIAL",
+        "Company Name": "BHARAT SERUMS & VACCINES LTD"
+    },
+    {
         "Product Name": "LONOPIN 20 MG INJ",
         "Pack": "1 PFS",
         "Company Name": "BHARAT SERUMS & VACCINES LTD"
@@ -20527,6 +20540,11 @@ const navkarMedicineData = [
     {
         "Product Name": "LUPCAL D3 CAP",
         "Pack": "4CAP",
+        "Company Name": "CARNEO PHARMA (OPC) PRIVATE LIMITED"
+    },
+    {
+        "Product Name": "LUPCAL D3 CAP",
+        "Pack": "8CAP",
         "Company Name": "CARNEO PHARMA (OPC) PRIVATE LIMITED"
     },
     {
@@ -35740,6 +35758,11 @@ const navkarMedicineData = [
         "Company Name": "ENTOD (GLOTEK)"
     },
     {
+        "Product Name": "NUBRIGHT FACEWASH",
+        "Pack": "100ML",
+        "Company Name": "ENTOD (GLOTEK)"
+    },
+    {
         "Product Name": "OPHTHAPAN EYE GEL",
         "Pack": "5GM",
         "Company Name": "ENTOD (GLOTEK)"
@@ -35797,6 +35820,11 @@ const navkarMedicineData = [
     {
         "Product Name": "FLUBIGAT EYE DROPS 5ML",
         "Pack": "5ML",
+        "Company Name": "ENTOD ENSIGHT"
+    },
+    {
+        "Product Name": "KOJINAYA EMULGEL",
+        "Pack": "20GM",
         "Company Name": "ENTOD ENSIGHT"
     },
     {
@@ -45130,11 +45158,6 @@ const navkarMedicineData = [
         "Company Name": "GLENMARK (MILIEUS)"
     },
     {
-        "Product Name": "ASMITA TAB",
-        "Pack": "21'S",
-        "Company Name": "GLENMARK (PHARMA)"
-    },
-    {
         "Product Name": "CANDID [B] CREAM 10GM",
         "Pack": "10GM",
         "Company Name": "GLENMARK (PHARMA)"
@@ -45240,11 +45263,6 @@ const navkarMedicineData = [
         "Company Name": "GLENMARK (PHARMA)"
     },
     {
-        "Product Name": "CYTOLOG TAB 200 MCG",
-        "Pack": "4'S",
-        "Company Name": "GLENMARK (PHARMA)"
-    },
-    {
         "Product Name": "D ACNE FOAMING FACE WASH 60ML",
         "Pack": "60ML",
         "Company Name": "GLENMARK (PHARMA)"
@@ -45257,16 +45275,6 @@ const navkarMedicineData = [
     {
         "Product Name": "D ACNE SOFT FOAM FACE WASH",
         "Pack": "100GM",
-        "Company Name": "GLENMARK (PHARMA)"
-    },
-    {
-        "Product Name": "FENZA WASH",
-        "Pack": "100ML",
-        "Company Name": "GLENMARK (PHARMA)"
-    },
-    {
-        "Product Name": "GENOREL 100MCG INJ",
-        "Pack": "VIAL",
         "Company Name": "GLENMARK (PHARMA)"
     },
     {
@@ -45300,8 +45308,43 @@ const navkarMedicineData = [
         "Company Name": "GLENMARK (PHARMA)"
     },
     {
+        "Product Name": "ASMITA TAB",
+        "Pack": "21'S",
+        "Company Name": "GLENMARK (PHARMA-GYNAC)"
+    },
+    {
+        "Product Name": "CYTOLOG TAB 200 MCG",
+        "Pack": "4'S",
+        "Company Name": "GLENMARK (PHARMA-GYNAC)"
+    },
+    {
         "Product Name": "DUBAGEST SR 200MG TAB",
         "Pack": "TAB",
+        "Company Name": "GLENMARK (PHARMA-GYNAC)"
+    },
+    {
+        "Product Name": "FENZA 600MG CAP",
+        "Pack": "2 CAP",
+        "Company Name": "GLENMARK (PHARMA-GYNAC)"
+    },
+    {
+        "Product Name": "FENZA CREAM",
+        "Pack": "30GM",
+        "Company Name": "GLENMARK (PHARMA-GYNAC)"
+    },
+    {
+        "Product Name": "FENZA L CREAM",
+        "Pack": "10GM",
+        "Company Name": "GLENMARK (PHARMA-GYNAC)"
+    },
+    {
+        "Product Name": "FENZA WASH",
+        "Pack": "100ML",
+        "Company Name": "GLENMARK (PHARMA-GYNAC)"
+    },
+    {
+        "Product Name": "GENOREL 100MCG INJ",
+        "Pack": "VIAL",
         "Company Name": "GLENMARK (PHARMA-GYNAC)"
     },
     {
@@ -45805,11 +45848,6 @@ const navkarMedicineData = [
         "Company Name": "GLENMARK (ZOLTAN CARE)"
     },
     {
-        "Product Name": "FENZA 600MG CAP",
-        "Pack": "2 CAP",
-        "Company Name": "GLENMARK (ZOLTAN CARE)"
-    },
-    {
         "Product Name": "IRBAN 5MG TAB",
         "Pack": "10 TAB",
         "Company Name": "GLENMARK (ZOLTAN CARE)"
@@ -46053,16 +46091,6 @@ const navkarMedicineData = [
         "Product Name": "MOMATE T CREAM",
         "Pack": "15 GM",
         "Company Name": "GLENMARK PHARMACEUTICALS (DERMAX)"
-    },
-    {
-        "Product Name": "FENZA CREAM",
-        "Pack": "30GM",
-        "Company Name": "GLENMARK PHARMACEUTICALS (HEALTHEON)"
-    },
-    {
-        "Product Name": "FENZA L CREAM",
-        "Pack": "10GM",
-        "Company Name": "GLENMARK PHARMACEUTICALS (HEALTHEON)"
     },
     {
         "Product Name": "REMO ZEN  M 1000 TAB",
@@ -57012,6 +57040,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ZORYL MS IR 2/1000",
         "Pack": "10 TAB",
+        "Company Name": "INTAS PHARMACEUTICALS (SUPRIMA)"
+    },
+    {
+        "Product Name": "ZORYL MS IR 2/500 TAB",
+        "Pack": "10TAB",
         "Company Name": "INTAS PHARMACEUTICALS (SUPRIMA)"
     },
     {
@@ -75800,6 +75833,11 @@ const navkarMedicineData = [
         "Company Name": "MACLEODS (PHARMA)"
     },
     {
+        "Product Name": "FLUTROL KID (DOSE COUNTER & INDICATOR)",
+        "Pack": "VIAL",
+        "Company Name": "MACLEODS (PHARMA)"
+    },
+    {
         "Product Name": "GEMINOR MS 1/50/1000 TAB",
         "Pack": "10TAB",
         "Company Name": "MACLEODS (PHARMA)"
@@ -75967,6 +76005,11 @@ const navkarMedicineData = [
     {
         "Product Name": "METACORTIL LITE CREAM",
         "Pack": "15GM",
+        "Company Name": "MACLEODS (PHARMA)"
+    },
+    {
+        "Product Name": "MONTEMAC A",
+        "Pack": "10CAP",
         "Company Name": "MACLEODS (PHARMA)"
     },
     {
@@ -84791,7 +84834,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "SACHET",
-        "Pack": "140",
+        "Pack": "640",
         "Company Name": "MEDIBLESS"
     },
     {
@@ -84942,6 +84985,11 @@ const navkarMedicineData = [
     {
         "Product Name": "MYODCAL TAB",
         "Pack": "15 TAB",
+        "Company Name": "BONETAS K2 TAB"
+    },
+    {
+        "Product Name": "MYOFER MAX TAB",
+        "Pack": "10TAB",
         "Company Name": "BONETAS K2 TAB"
     },
     {
@@ -94850,7 +94898,12 @@ const navkarMedicineData = [
         "Company Name": "PRETIUM PHARMACEUTICALS"
     },
     {
-        "Product Name": "MINOPEV 5 LOTION 60ML",
+        "Product Name": "ISOPEV 10 TAB",
+        "Pack": "10TAB",
+        "Company Name": "PRETIUM PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "MINOPEV- F5 LOTION 60ML",
         "Pack": "60 ML",
         "Company Name": "PRETIUM PHARMACEUTICALS"
     },
@@ -96217,11 +96270,6 @@ const navkarMedicineData = [
     {
         "Product Name": "OSTOSHINE TAB",
         "Pack": "10TAB",
-        "Company Name": "RANBAXY LAB (CROSLANDLIFE)"
-    },
-    {
-        "Product Name": "OSTOSPRAY",
-        "Pack": "3.7ML",
         "Company Name": "RANBAXY LAB (CROSLANDLIFE)"
     },
     {
@@ -99975,14 +100023,19 @@ const navkarMedicineData = [
         "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
     },
     {
+        "Product Name": "RELYTE RTU LIQUID",
+        "Pack": "200ML",
+        "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
+    },
+    {
         "Product Name": "SARIL TAB",
         "Pack": "10 TAB",
-        "Company Name": "RELYTE RTU LIQUID"
+        "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
     },
     {
         "Product Name": "SWIFTOLAC SYP",
         "Pack": "150ML",
-        "Company Name": "RELYTE RTU LIQUID"
+        "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
     },
     {
         "Product Name": "AMLOZ 2.5MG TAB",
@@ -100900,7 +100953,7 @@ const navkarMedicineData = [
         "Company Name": "SUN PHARMA (AKUNA)"
     },
     {
-        "Product Name": "MAXMALA NT 50 MG",
+        "Product Name": "MAXGALIN  NT 50 MG",
         "Pack": "10 TAB",
         "Company Name": "SUN PHARMA (AKUNA)"
     },
@@ -103780,7 +103833,7 @@ const navkarMedicineData = [
         "Company Name": "LEVIPIL XR 500MG TAB"
     },
     {
-        "Product Name": "MAXGALIN NT 50 MG TAB",
+        "Product Name": "MAXGALIN NT 75 MG TAB",
         "Pack": "TAB",
         "Company Name": "LEVIPIL XR 500MG TAB"
     },
@@ -110790,21 +110843,6 @@ const navkarMedicineData = [
         "Company Name": "TORRENT PHARMA (QUANTA)"
     },
     {
-        "Product Name": "SEMBOLIC 14 TAB",
-        "Pack": "10TAB",
-        "Company Name": "TORRENT PHARMA (QUANTA)"
-    },
-    {
-        "Product Name": "SEMBOLIC 3TAB",
-        "Pack": "10TAB",
-        "Company Name": "TORRENT PHARMA (QUANTA)"
-    },
-    {
-        "Product Name": "SEMBOLIC 7 MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "TORRENT PHARMA (QUANTA)"
-    },
-    {
         "Product Name": "SEMBOLIC INJ 15MG/3ML",
         "Pack": "3ML",
         "Company Name": "TORRENT PHARMA (QUANTA)"
@@ -111187,6 +111225,21 @@ const navkarMedicineData = [
     {
         "Product Name": "MODLIP F TAB",
         "Pack": "TAB",
+        "Company Name": "METOCARD XL 25 TAB"
+    },
+    {
+        "Product Name": "SEMBOLIC 14 TAB",
+        "Pack": "10TAB",
+        "Company Name": "METOCARD XL 25 TAB"
+    },
+    {
+        "Product Name": "SEMBOLIC 3TAB",
+        "Pack": "10TAB",
+        "Company Name": "METOCARD XL 25 TAB"
+    },
+    {
+        "Product Name": "SEMBOLIC 7 MG TAB",
+        "Pack": "10 TAB",
         "Company Name": "METOCARD XL 25 TAB"
     },
     {
@@ -115663,6 +115716,11 @@ const navkarMedicineData = [
         "Product Name": "RABEZEE DSR TAB",
         "Pack": "10TAB",
         "Company Name": "VETLANDA HEALTHCARE PVT LTD"
+    },
+    {
+        "Product Name": "NEX VICCO PASTE 100 GM",
+        "Pack": "100 GM",
+        "Company Name": "VICCO LABORATORIES"
     },
     {
         "Product Name": "VICCO NARAYANI CREAM 30GM",

@@ -1,3 +1,6 @@
+// Auto-generated file. Do not edit manually.
+// Generated from: refined_output.csv
+
 const navkarColdchainData = [
     {
         "Product Name": "ICIKINASE 1.5 INJ",
@@ -1203,6 +1206,11 @@ const navkarColdchainData = [
         "Product Name": "PITOCIN INJ 0.5ML",
         "Pack": "0.5ML",
         "Company Name": "PFIZER LTD (WHC HORMONAL HEALTH)"
+    },
+    {
+        "Product Name": "OSTOSPRAY",
+        "Pack": "3.7ML",
+        "Company Name": "RANBAXY LAB (CROSLANDLIFE)"
     },
     {
         "Product Name": "CLENZ AC GEL",
