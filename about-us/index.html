@@ -4,9 +4,13 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>About Us - Navkar Apotek & Pronavkar Lifecare</title>
+<meta name="description" content="Navkar Apotek LLP & Pronavkar Lifecare LLP - Trusted pharmaceutical wholesale distribution in India. Quality medicines, healthcare products, and reliable supply chain." />
+<meta name="keywords" content="pharmaceutical distributor, medicine wholesaler, Navkar Apotek, Pronavkar Lifecare, pharma distribution India, healthcare products" />
+<link rel="icon" type="image/png" href="../logo.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
 <style>
+  html { overflow-x: hidden; }
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
@@ -28,6 +32,10 @@
     color: var(--text);
     line-height: 1.6;
     overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    word-wrap: break-word;
+    position: relative;
   }
 
   nav {
@@ -43,10 +51,10 @@
   }
   .nav-brand span:first-child {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 18px; font-weight: 600; color: #373c44;
+    font-size: 18px; font-weight: 600; color: #1A9E96;
   }
   .nav-brand span:last-child {
-    font-size: 10px; color: #373c44; text-transform: uppercase;
+    font-size: 10px; color: #F5C518; text-transform: uppercase;
   }
   .nav-links { display: flex; gap: 2rem; list-style: none; }
   .nav-links a {
@@ -64,6 +72,11 @@
     box-shadow: -5px 0 15px rgba(0,0,0,0.3);
   }
   .nav-overlay.active { right: 0; }
+  .close-overlay {
+    position: absolute; top: 20px; right: 20px;
+    font-size: 40px; color: #fff; cursor: pointer;
+    line-height: 1;
+  }
   .overlay-links { list-style: none; display: flex; flex-direction: column; gap: 1.5rem; }
   .overlay-links a { color: #fff; text-decoration: none; font-size: 18px; text-transform: uppercase; }
   .menu-toggle.active span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
@@ -74,6 +87,14 @@
     background: var(--navy);
     padding: 5rem 2rem 4rem;
     text-align: center;
+    position: relative; overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute; inset: 0;
+    background-image: radial-gradient(rgba(255,255,255,0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+    opacity: 0.3;
   }
   .hero-pill {
     display: inline-block;
@@ -374,20 +395,32 @@
   }
 
   footer {
-    background: var(--navy);
-    color: #1a1a1a;
-    padding: 2.5rem 2rem;
+    background: #1a1a1a; color: #fff;
+    padding: 4rem 2rem 2rem;
+  }
+  .footer-container {
+    max-width: 1100px; margin: 0 auto;
+    display: grid; grid-template-columns: 2fr 1fr 1.5fr; gap: 4rem;
+  }
+  .footer-col h4 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.4rem; color: var(--accent); margin-bottom: 1.5rem;
+  }
+  .footer-col p { font-size: 14px; color: #bbb; line-height: 1.8; margin-bottom: 1rem; }
+  .footer-links { list-style: none; }
+  .footer-links li { margin-bottom: 0.8rem; }
+  .footer-links a { color: #bbb; text-decoration: none; font-size: 14px; transition: color 0.2s; }
+  .footer-links a:hover { color: #fff; }
+  .footer-contact { display: flex; flex-direction: column; gap: 1rem; }
+  .contact-item { display: flex; align-items: flex-start; gap: 12px; font-size: 14px; color: #bbb; }
+  .contact-item i { color: var(--accent); margin-top: 4px; }
+  .footer-bottom {
+    max-width: 1100px; margin: 3rem auto 0;
+    border-top: 1px solid #333; padding-top: 2rem;
     text-align: center;
   }
-  footer .footer-brand {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 1.3rem; color: #000; font-weight: 600;
-  }
-  footer p { font-size: 13px; color: #1a1a1a; }
-  footer .footer-line {
-    width: 40px; height: 1px; background: #000;
-    margin: 1rem auto;
-  }
+  .legal-info { font-size: 11px; color: #777; line-height: 2; margin-bottom: 1.5rem; }
+  .footer-credits { font-size: 12px; color: #555; }
 
   @media (max-width: 768px) {
     nav { padding: 0 1rem; }
@@ -398,6 +431,7 @@
     .hero { padding: 3rem 1.5rem 2rem; }
     .hero h1 { font-size: 1.8rem; }
     .about-inner, .company-grid { grid-template-columns: 1fr; }
+    .company-card { text-align: center; }
     .about-stats { grid-template-columns: 1fr; }
     .mission-grid { grid-template-columns: 1fr 1fr; }
     .team-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; }
@@ -409,12 +443,68 @@
     .value-icon { width: 44px; height: 44px; font-size: 18px; margin-bottom: 0.75rem; }
     .value-item h4 { font-size: 13px; }
     .value-item p { font-size: 12px; line-height: 1.4; }
+    .footer-container { grid-template-columns: 1fr; gap: 2rem; }
   }
 
   @media (max-width: 480px) {
     .mission-grid { grid-template-columns: 1fr; }
     .team-grid { flex-direction: column; align-items: center; }
-    .team-member { width: 100%; min-height: 300px; }
+    .team-member { width: 100%; min-height: 400px; }
+    .team-member img { height: 320px; }
+  }
+
+  /* Floating Buttons Styles */
+  .whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    z-index: 1000;
+    transition: all 0.3s ease;
+  }
+  .whatsapp-float:hover {
+    transform: translateY(-3px);
+    background-color: #128c7e;
+    color: #fff;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+  }
+  .back-to-top {
+    position: fixed;
+    bottom: 85px;
+    right: 25px;
+    background: var(--navy);
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.2);
+    cursor: pointer;
+    display: none;
+    z-index: 999;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+  }
+  .back-to-top:hover {
+    background: var(--accent);
+    color: #000;
+    transform: translateY(-3px);
+  }
+  @media (max-width: 768px) {
+    .whatsapp-float span { display: none; }
+    .whatsapp-float { padding: 15px; border-radius: 50%; bottom: 20px; right: 20px; }
+    .back-to-top { bottom: 80px; right: 20px; width: 45px; height: 45px; }
   }
 </style>
 </head>
@@ -424,18 +514,19 @@
   <a href="../" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
     <img src="../logo.png" alt="Logo" style="height: 45px; width: auto;">
     <div class="nav-brand">
-      <span>Navkar Apotek LLP &amp; Pronavkar Lifecare LLP</span>
+      <span>Navkar Apotek &amp; Pronavkar Lifecare</span>
       <span>Pharmaceutical Excellence</span>
     </div>
   </a>
   <ul class="nav-links">
     <li><a href="../">Home</a></li>
     <li><a href="../products/">Products</a></li>
-    <li><a href="#" class="active">About</a></li>
+    <li><a href="./" class="active">About</a></li>
     <li><a href="../Media & Gallery/">Gallery</a></li>
     <li><a href="../careers/">Careers</a></li>
     <li><a href="../companies/">Companies</a></li>
     <li><a href="../Contact-us/">Contact</a></li>
+    <li><a href="../terms-conditions/">Terms</a></li>
   </ul>
   <div class="menu-toggle" onclick="toggleMenu()">
     <span></span><span></span><span></span>
@@ -443,15 +534,18 @@
 </nav>
 
 <div class="nav-overlay" id="navOverlay">
-  <ul class="overlay-links">
-    <li><a href="../" onclick="toggleMenu()">Home</a></li>
-    <li><a href="../products/" onclick="toggleMenu()">Products</a></li>
-    <li><a href="./" onclick="toggleMenu()">About Us</a></li>
-    <li><a href="../Media & Gallery/" onclick="toggleMenu()">Gallery</a></li>
-    <li><a href="../careers/" onclick="toggleMenu()">Careers</a></li>
-    <li><a href="../companies/" onclick="toggleMenu()">Companies</a></li>
-    <li><a href="../Contact-us/" onclick="toggleMenu()">Contact Us</a></li>
-  </ul>
+<span class="close-overlay" onclick="toggleMenu()">&times;</span>
+        <ul class="overlay-links">
+          <li><a href="../" onclick="toggleMenu()">Home</a></li>
+          <li><a href="../products/" onclick="toggleMenu()">Products</a></li>
+          <li><a href="./" onclick="toggleMenu()">About Us</a></li>
+          <li><a href="../Media & Gallery/" onclick="toggleMenu()">Gallery</a></li>
+          <li><a href="../careers/" onclick="toggleMenu()">Careers</a></li>
+          <li><a href="../companies/" onclick="toggleMenu()">Companies</a></li>
+          <li><a href="../Contact-us/" onclick="toggleMenu()">Contact Us</a></li>
+          <li><a href="../terms-conditions/" onclick="toggleMenu()">Terms</a></li>
+        </ul>
+      </div>
 </div>
 
 <section class="hero">
@@ -493,10 +587,16 @@
       <div class="company-card">
         <h3>Navkar Apotek LLP</h3>
         <p>Your trusted pharmacy partner offering a wide range of quality medicines and healthcare products. We are committed to providing authentic pharmaceutical products with reliability and trust.</p>
+        <p><strong>Established:</strong> 2022</p>
+        <p><strong>Head Office:</strong> Baramati, Pune, Maharashtra</p>
+        <p><strong>Specialization:</strong> Ethical pharmaceutical distribution with a focus on quality and service excellence</p>
       </div>
       <div class="company-card">
         <h3>Pronavkar Lifecare LLP</h3>
         <p>Committed to bringing innovative pharmaceutical solutions and generic medicines at affordable prices. We strive for excellence in healthcare distribution.</p>
+        <p><strong>Established:</strong> 2024</p>
+        <p><strong>Focus:</strong> Generic medicines and OTC products</p>
+        <p><strong>Commitment:</strong> Affordable healthcare solutions for all</p>
       </div>
     </div>
   </div>
@@ -722,16 +822,78 @@ He drives workflow efficiency to maximize customer satisfaction, building Navkar
 </section>
 
 <footer>
-  <div class="footer-brand">Navkar Apotek LLP &amp; Pronavkar Lifecare LLP</div>
-  <div class="footer-line"></div>
-  <p>Committed to quality medicines and healthcare products across India.</p>
+  <div class="footer-container">
+    <div class="footer-col">
+      <h4>Navkar & Pronavkar</h4>
+      <p>Navkar Apotek LLP & Pronavkar Lifecare LLP are leading pharmaceutical distributors committed to delivering excellence in healthcare. We bridge the gap between quality manufacturers and healthcare providers across India.</p>
+      <div style="display: flex; gap: 15px; margin-top: 1.5rem;">
+        <a href="https://www.instagram.com/navkarapotekllp/" target="_blank"><img src="../Icons/instagram.png" alt="Instagram" style="height: 28px; width: auto;"></a>
+        <a href="https://in.linkedin.com/company/navkar-apotek-llp" target="_blank"><img src="../Icons/linkedin.png" alt="LinkedIn" style="height: 28px; width: auto;"></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul class="footer-links">
+        <li><a href="../">Home</a></li>
+        <li><a href="./">About Us</a></li>
+        <li><a href="../products/">Product Search</a></li>
+        <li><a href="../companies/">Partner Companies</a></li>
+        <li><a href="../careers/">Academic Careers</a></li>
+        <li><a href="../Contact-us/">Contact Us</a></li>
+        <li><a href="../terms-conditions/">Terms & Conditions</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Get In Touch</h4>
+      <div class="footer-contact">
+        <div class="contact-item">
+          <span>📍</span>
+          <span>Baramati, Pune, Maharashtra - 413102</span>
+        </div>
+        <div class="contact-item">
+          <span>📞</span>
+          <span>+91 89561 72570 (Reception)</span>
+        </div>
+        <div class="contact-item">
+          <span>✉️</span>
+          <span>info@navkarapotek.com</span>
+        </div>
+        <div class="contact-item">
+          <span>⏰</span>
+          <span>Mon - Sat: 10:00 AM - 7:00 PM</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer-bottom">
+  </div>
 </footer>
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/918956172570" class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.246 2.248 3.484 5.232 3.483 8.412-.003 6.557-5.338 11.892-11.893 11.892-1.997-.001-3.951-.499-5.702-1.445l-6.194 1.654zm6.755-3.917c1.448.859 2.995 1.312 4.59 1.313 5.503 0 9.975-4.472 9.977-9.977.001-2.669-1.038-5.176-2.927-7.065-1.889-1.889-4.396-2.928-7.062-2.929-5.505 0-9.979 4.472-9.981 9.978-.001 1.77.449 3.502 1.306 5.047l-1.014 3.704 6.299-1.681-.188-.11zm11.362-7.108c-.312-.156-1.848-.912-2.134-1.017-.286-.105-.494-.156-.702.156-.208.312-.806 1.017-.988 1.222-.182.205-.364.231-.677.075-.312-.156-1.318-.486-2.51-1.548-.928-.827-1.554-1.849-1.736-2.161-.182-.312-.019-.481.137-.635.141-.139.312-.364.468-.547.156-.182.208-.312.312-.52.105-.208.052-.39-.026-.547-.052-.156-.702-1.691-.962-2.315-.253-.608-.51-.525-.702-.535-.181-.01-.39-.01-.599-.01-.208 0-.546.078-.832.39-.286.312-1.092 1.067-1.092 2.603 0 1.536 1.118 3.02 1.274 3.228.156.208 2.2 3.359 5.328 4.707.744.321 1.325.512 1.778.656.748.237 1.429.204 1.967.124.6-.089 1.848-.755 2.108-1.485.26-.73.26-1.353.182-1.485-.078-.13-.286-.208-.598-.364z"/></svg>
+  <span>Chat with Us</span>
+</a>
+
+<!-- Back to Top Button -->
+<button id="backToTop" class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" title="Back to top">↑</button>
 
 <script>
 function toggleMenu() {
   document.getElementById('navOverlay').classList.toggle('active');
   document.querySelector('.menu-toggle').classList.toggle('active');
 }
+
+// Show/Hide Back to Top Button
+window.onscroll = function() {
+  const btn = document.getElementById('backToTop');
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    btn.style.display = 'block';
+  } else {
+    btn.style.display = 'none';
+  }
+};
 </script>
 
 </body>

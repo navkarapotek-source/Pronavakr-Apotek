@@ -3,7 +3,10 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Products - Navkar Apotek & Pronavkar Lifecare</title>
+<title>Product Search - Navkar Apotek & Pronavkar Lifecare</title>
+<meta name="description" content="Navkar Apotek LLP & Pronavkar Lifecare LLP - Trusted pharmaceutical wholesale distribution in India. Quality medicines, healthcare products, and reliable supply chain." />
+<meta name="keywords" content="pharmaceutical distributor, medicine wholesaler, Navkar Apotek, Pronavkar Lifecare, pharma distribution India, healthcare products" />
+<link rel="icon" type="image/png" href="../logo.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
 
@@ -31,7 +34,7 @@
     --accent-color: #F5C125;
   }
 
-  html { scroll-behavior: smooth; }
+  html { overflow-x: hidden; scroll-behavior: smooth; }
 
   body {
     font-family: 'DM Sans', sans-serif;
@@ -39,6 +42,10 @@
     color: var(--text);
     line-height: 1.6;
     overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    word-wrap: break-word;
+    position: relative;
   }
 
   /* ── NAV ── */
@@ -55,10 +62,10 @@
   }
   .nav-brand span:first-child {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 18px; font-weight: 600; color: #373c44;
+    font-size: 18px; font-weight: 600; color: #1A9E96;
   }
   .nav-brand span:last-child {
-    font-size: 10px; color: #373c44; text-transform: uppercase;
+    font-size: 10px; color: #F5C518; text-transform: uppercase;
   }
   .nav-links { display: flex; gap: 2rem; list-style: none; }
   .nav-links a {
@@ -107,7 +114,9 @@
   .hero::before {
     content: '';
     position: absolute; inset: 0;
-    background: radial-gradient(ellipse 80% 60% at 50% 100%, rgba(15,124,114,0.18) 0%, transparent 70%);
+    background-image: radial-gradient(rgba(255,255,255,0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+    opacity: 0.3;
   }
   .hero h1 {
     font-family: 'Cormorant Garamond', serif;
@@ -126,6 +135,35 @@
     margin: 0 auto;
     position: relative;
   }
+
+  /* ── FOOTER STYLES ── */
+  footer {
+    background: #1a1a1a; color: #fff;
+    padding: 4rem 2rem 2rem;
+    margin-top: 3rem;
+  }
+  .footer-container {
+    max-width: 1100px; margin: 0 auto;
+    display: grid; grid-template-columns: 2fr 1fr 1.5fr; gap: 4rem;
+  }
+  .footer-col h4 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.4rem; color: var(--accent); margin-bottom: 1.5rem;
+  }
+  .footer-col p { font-size: 14px; color: #bbb; line-height: 1.8; margin-bottom: 1rem; }
+  .footer-links { list-style: none; }
+  .footer-links li { margin-bottom: 0.8rem; }
+  .footer-links a { color: #bbb; text-decoration: none; font-size: 14px; transition: color 0.2s; }
+  .footer-links a:hover { color: #fff; }
+  .footer-contact { display: flex; flex-direction: column; gap: 1rem; }
+  .contact-item { display: flex; align-items: flex-start; gap: 12px; font-size: 14px; color: #bbb; min-width: 0; overflow-wrap: break-word; word-break: break-word; }
+  .footer-bottom {
+    max-width: 1100px; margin: 3rem auto 0;
+    border-top: 1px solid #333; padding-top: 2rem;
+    text-align: center;
+  }
+  .legal-info { font-size: 11px; color: #777; line-height: 2; margin-bottom: 1.5rem; }
+  .footer-credits { font-size: 12px; color: #555; }
 
   /* ── SEARCH SECTION ── */
   .search-section {
@@ -354,23 +392,6 @@
     color: var(--muted); font-size: 12px;
   }
 
-  /* ── FOOTER ── */
-  footer {
-    background: var(--navy); color: #1a1a1a;
-    padding: 2rem 2rem; text-align: center;
-    margin-top: 3rem;
-  }
-  footer .footer-brand {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 1.3rem; color: #000; margin-bottom: 0.5rem;
-    font-weight: 600;
-  }
-  footer p { font-size: 13px; color: #1a1a1a; }
-  footer .footer-line {
-    width: 40px; height: 1px; background: #000;
-    margin: 1rem auto;
-  }
-
   /* Hamburger Menu CSS */
   .menu-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; z-index: 1001; }
   .menu-toggle span { width: 25px; height: 3px; background: #373c44; transition: 0.3s; border-radius: 2px; }
@@ -380,6 +401,11 @@
     box-shadow: -5px 0 15px rgba(0,0,0,0.3);
   }
   .nav-overlay.active { right: 0; }
+  .close-overlay {
+    position: absolute; top: 20px; right: 20px;
+    font-size: 40px; color: #fff; cursor: pointer;
+    line-height: 1;
+  }
   .overlay-links { list-style: none; display: flex; flex-direction: column; gap: 1.5rem; }
   .overlay-links a { color: #fff; text-decoration: none; font-size: 18px; text-transform: uppercase; }
   .menu-toggle.active span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
@@ -406,6 +432,7 @@
     .filter-group select { font-size: 16px; padding: 14px; }
     .products-grid { grid-template-columns: 1fr; gap: 1rem; }
     .product-card { padding: 1rem; }
+    .footer-container { grid-template-columns: 1fr; gap: 2rem; }
   }
   </style>  </head>
   <body>
@@ -415,7 +442,7 @@
   <a href="../" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
     <img src="../logo.png" alt="Logo" style="height: 45px; width: auto;">
     <div class="nav-brand">
-      <span>Navkar Apotek LLP &amp; Pronavkar Lifecare LLP</span>
+      <span>Navkar Apotek &amp; Pronavkar Lifecare</span>
       <span>Pharmaceutical Excellence</span>
     </div>
   </a>
@@ -427,6 +454,7 @@
     <li><a href="../careers/">Careers</a></li>
     <li><a href="../companies/">Companies</a></li>
     <li><a href="../Contact-us/">Contact</a></li>
+    <li><a href="../terms-conditions/">Terms</a></li>
   </ul>
   <div class="menu-toggle" onclick="toggleMenu()">
     <span></span><span></span><span></span>
@@ -434,6 +462,7 @@
 </nav>
 
 <div class="nav-overlay" id="navOverlay">
+  <span class="close-overlay" onclick="toggleMenu()">&times;</span>
   <ul class="overlay-links">
     <li><a href="../" onclick="toggleMenu()">Home</a></li>
     <li><a href="./" onclick="toggleMenu()">Products</a></li>
@@ -454,7 +483,7 @@ function toggleMenu() {
 
 <!-- HERO -->
 <section class="hero">
-  <h1>Product <em>Search</em></h1>
+  <h1>PRODUCT <em>SEARCH</em></h1>
   <p>Explore our extensive range of 30,000+ pharmaceutical products from trusted manufacturers.</p>
   <div class="hero-divider"></div>
 </section>
@@ -520,9 +549,52 @@ function toggleMenu() {
 
 <!-- FOOTER -->
 <footer>
-  <div class="footer-brand">Navkar Apotek LLP &amp; Pronavkar Lifecare LLP</div>
-  <div class="footer-line"></div>
-  <p>Committed to quality medicines and healthcare products across India.</p>
+  <div class="footer-container">
+    <div class="footer-col">
+      <h4>Navkar & Pronavkar</h4>
+      <p>Navkar Apotek LLP & Pronavkar Lifecare LLP are leading pharmaceutical distributors committed to delivering excellence in healthcare. We bridge the gap between quality manufacturers and healthcare providers across India.</p>
+      <div style="display: flex; gap: 15px; margin-top: 1.5rem;">
+        <a href="https://www.instagram.com/navkarapotekllp/" target="_blank"><img src="../Icons/instagram.png" alt="Instagram" style="height: 28px; width: auto;"></a>
+        <a href="https://in.linkedin.com/company/navkar-apotek-llp" target="_blank"><img src="../Icons/linkedin.png" alt="LinkedIn" style="height: 28px; width: auto;"></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul class="footer-links">
+        <li><a href="../">Home</a></li>
+        <li><a href="../about-us/">About Us</a></li>
+        <li><a href="./">Product Search</a></li>
+        <li><a href="../companies/">Partner Companies</a></li>
+        <li><a href="../careers/">Academic Careers</a></li>
+        <li><a href="../Contact-us/">Contact Us</a></li>
+        <li><a href="../terms-conditions/">Terms & Conditions</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Get In Touch</h4>
+      <div class="footer-contact">
+        <div class="contact-item">
+          <span>📍</span>
+          <span>Baramati, Pune, Maharashtra - 413102</span>
+        </div>
+        <div class="contact-item">
+          <span>📞</span>
+          <span>+91 89561 72570 (Reception)</span>
+        </div>
+        <div class="contact-item">
+          <span>✉️</span>
+          <span>navkarapotek@gmail.com</span>
+        </div>
+        <div class="contact-item">
+          <span>⏰</span>
+          <span>Mon - Sat: 10:00 AM - 7:00 PM</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer-bottom">
+  </div>
 </footer>
 
 <script>

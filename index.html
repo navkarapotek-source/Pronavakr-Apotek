@@ -3,7 +3,10 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Navkar Apotek & Pronavkar Lifecare - Home</title>
+<title>Navkar Apotek & Pronavkar Lifecare - Leading Pharma Distributors</title>
+<meta name="description" content="Navkar Apotek LLP & Pronavkar Lifecare LLP - Trusted pharmaceutical wholesale distribution in India. Quality medicines, healthcare products, and reliable supply chain across Maharashtra." />
+<meta name="keywords" content="pharmaceutical distributor, medicine wholesaler, Navkar Apotek, Pronavkar Lifecare, pharma distribution India, healthcare products, Baramati, Pune" />
+<link rel="icon" type="image/png" href="logo.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
 <style>
@@ -31,6 +34,10 @@
     color: var(--text);
     line-height: 1.6;
     overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    word-wrap: break-word;
+    position: relative;
   }
 
   nav {
@@ -46,10 +53,10 @@
   }
   .nav-brand span:first-child {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 18px; font-weight: 600; color: #373c44;
+    font-size: 18px; font-weight: 600; color: #1A9E96;
   }
   .nav-brand span:last-child {
-    font-size: 10px; color: #373c44; text-transform: uppercase;
+    font-size: 10px; color: #F5C518; text-transform: uppercase;
   }
   .nav-links { display: flex; gap: 2rem; list-style: none; }
   .nav-links a {
@@ -69,6 +76,13 @@
   .hero::before {
     content: '';
     position: absolute; inset: 0;
+    background-image: radial-gradient(rgba(255,255,255,0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+    opacity: 0.3;
+  }
+  .hero::after {
+    content: '';
+    position: absolute; inset: 0;
     background: radial-gradient(ellipse 80% 60% at 50% 100%, rgba(0,0,0,0.1) 0%, transparent 70%);
   }
   .hero-pill {
@@ -81,6 +95,7 @@
     margin-bottom: 1.5rem;
     font-weight: 700;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: relative; z-index: 1;
   }
   .hero h1 {
     font-family: 'Cormorant Garamond', serif;
@@ -88,7 +103,7 @@
     font-weight: 600; color: #1a1a1a;
     line-height: 1.2;
     max-width: 680px; margin: 0 auto 1.25rem;
-    position: relative;
+    position: relative; z-index: 1;
   }
   .hero h1 em {
     font-style: italic; color: #000;
@@ -96,13 +111,13 @@
   .hero p {
     max-width: 540px; margin: 0 auto 2rem;
     color: #333; font-size: 16px; font-weight: 400;
-    position: relative;
+    position: relative; z-index: 1;
   }
   .hero-divider {
     width: 48px; height: 2px;
     background: #000;
     margin: 0 auto;
-    position: relative;
+    position: relative; z-index: 1;
   }
 
   .about-band {
@@ -113,6 +128,9 @@
     max-width: 900px; margin: 0 auto;
     display: grid; grid-template-columns: 1fr 1fr; gap: 3rem;
     align-items: center;
+  }
+  @media (max-width: 768px) {
+    .about-inner { grid-template-columns: 1fr; gap: 2rem; }
   }
   .about-text h2 {
     font-family: 'Cormorant Garamond', serif;
@@ -138,76 +156,22 @@
   }
   .stat-card .num {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 2.2rem; font-weight: 600; color: #1a1a1a;
+    font-size: 2.2rem; font-weight: 900; color: #000;
     line-height: 1;
   }
   .stat-card .label {
-    font-size: 11px; color: #333;
+    font-size: 11px; color: #000;
     text-transform: uppercase; letter-spacing: 0.08em;
     margin-top: 4px;
+    font-weight: 700;
   }
   .stat-card .label .num {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 2.2rem; font-weight: 600; color: #1a1a1a;
+    font-size: 14px; font-weight: 900; color: #000;
     line-height: 1;
   }
 
-  .services-section {
-    max-width: 1100px; margin: 0 auto; padding: 4rem 2rem;
-  }
-  .section-header {
-    display: flex; align-items: baseline; justify-content: space-between;
-    margin-bottom: 2.5rem; padding-bottom: 1rem;
-    border-bottom: 1px solid var(--border);
-  }
-  .section-header h2 {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 2rem; color: var(--navy);
-  }
-  .section-header a {
-    font-size: 13px; color: var(--teal); text-decoration: none;
-    letter-spacing: 0.04em;
-  }
-  .section-header a:hover { text-decoration: underline; }
-
-  .services-grid {
-    display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem;
-  }
-  @media (max-width: 900px) {
-    .services-grid { grid-template-columns: repeat(2, 1fr); }
-  }
-  @media (max-width: 500px) {
-    .services-grid { grid-template-columns: 1fr; }
-  }
-  .service-card {
-    background: #fff; border: 1px solid var(--border);
-    border-radius: 12px; overflow: hidden;
-    transition: transform 0.2s, box-shadow 0.2s;
-    cursor: pointer;
-    padding: 1.5rem;
-    text-align: center;
-  }
-  .service-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 32px rgba(11,37,69,0.1);
-  }
-  .service-icon {
-    width: 60px; height: 60px;
-    background: linear-gradient(135deg, var(--teal), var(--primary-color));
-    border-radius: 50%;
-    display: flex; align-items: center; justify-content: center;
-    font-size: 28px;
-    margin: 0 auto 1rem;
-  }
-  .service-card h4 {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 1.2rem; font-weight: 600; color: var(--navy);
-    margin-bottom: 0.5rem;
-  }
-  .service-card p {
-    color: var(--muted); font-size: 13px; line-height: 1.6;
-  }
-
+  
   .values-strip {
     background: var(--cream);
     border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
@@ -221,6 +185,14 @@
   }
   .values-grid {
     display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem;
+  }
+  @media (max-width: 768px) {
+    .values-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  }
+  @media (max-width: 480px) {
+    .values-grid { grid-template-columns: 1fr; }
+    .hero h1 { font-size: 2.2rem; }
+    .hero { padding: 2.5rem 1rem 1.5rem; }
   }
   .value-item { text-align: center; }
   .value-icon {
@@ -236,18 +208,38 @@
   .value-item p { font-size: 13px; color: var(--muted); }
 
   footer {
-    background: var(--navy); color: #9ab3d4;
-    padding: 2.5rem 2rem; text-align: center;
+    background: #1a1a1a; color: #fff;
+    padding: 4rem 2rem 2rem;
   }
-  footer .footer-brand {
+  .footer-container {
+    max-width: 1100px; margin: 0 auto;
+    display: grid; grid-template-columns: 2fr 1fr 1.5fr; gap: 4rem;
+  }
+  @media (max-width: 768px) {
+    .footer-container {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+  }
+  .footer-col h4 {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1.3rem; color: #fff; margin-bottom: 0.5rem;
+    font-size: 1.4rem; color: var(--accent); margin-bottom: 1.5rem;
   }
-  footer p { font-size: 13px; }
-  footer .footer-line {
-    width: 40px; height: 1px; background: var(--accent);
-    margin: 1rem auto;
+  .footer-col p { font-size: 14px; color: #bbb; line-height: 1.8; margin-bottom: 1rem; }
+  .footer-links { list-style: none; }
+  .footer-links li { margin-bottom: 0.8rem; }
+  .footer-links a { color: #bbb; text-decoration: none; font-size: 14px; transition: color 0.2s; }
+  .footer-links a:hover { color: #fff; }
+  .footer-contact { display: flex; flex-direction: column; gap: 1rem; }
+  .contact-item { display: flex; align-items: flex-start; gap: 12px; font-size: 14px; color: #bbb; min-width: 0; overflow-wrap: break-word; word-break: break-word; }
+  .contact-item i { color: var(--accent); margin-top: 4px; }
+  .footer-bottom {
+    max-width: 1100px; margin: 3rem auto 0;
+    border-top: 1px solid #333; padding-top: 2rem;
+    text-align: center;
   }
+  .legal-info { font-size: 11px; color: #777; line-height: 2; margin-bottom: 1.5rem; }
+  .footer-credits { font-size: 12px; color: #555; }
 
   /* Hamburger Menu CSS */
   .menu-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; z-index: 1001; }
@@ -258,6 +250,11 @@
     box-shadow: -5px 0 15px rgba(0,0,0,0.3);
   }
   .nav-overlay.active { right: 0; }
+  .close-overlay {
+    position: absolute; top: 20px; right: 20px;
+    font-size: 40px; color: #fff; cursor: pointer;
+    line-height: 1;
+  }
   .overlay-links { list-style: none; display: flex; flex-direction: column; gap: 1.5rem; }
   .overlay-links a { color: #fff; text-decoration: none; font-size: 18px; text-transform: uppercase; }
   .menu-toggle.active span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
@@ -287,6 +284,8 @@
 
   @media (max-width: 480px) {
     .values-grid { grid-template-columns: 1fr; }
+    .hero h1 { font-size: 2.2rem; }
+    .hero { padding: 2.5rem 1rem 1.5rem; }
   }
 
   @media (max-width: 500px) {
@@ -329,15 +328,6 @@
   .vm-eyebrow {
     display: flex; align-items: center; gap: 0.75rem;
     margin-bottom: 3rem; justify-content: center;
-  }
-  .vm-eyebrow::before, .vm-eyebrow::after {
-    content: '';
-    flex: 1; height: 1px;
-    background: linear-gradient(to right, transparent, rgba(200,137,58,0.4));
-    max-width: 120px;
-  }
-  .vm-eyebrow::after {
-    background: linear-gradient(to left, transparent, rgba(200,137,58,0.4));
   }
   .vm-eyebrow span {
     font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase;
@@ -439,6 +429,60 @@
     font-size: 12px; color: #1a1a1a; line-height: 1.5;
     font-weight: 500;
   }
+
+  /* Floating Buttons Styles */
+  .whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    z-index: 1000;
+    transition: all 0.3s ease;
+  }
+  .whatsapp-float:hover {
+    transform: translateY(-3px);
+    background-color: #128c7e;
+    color: #fff;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+  }
+  .back-to-top {
+    position: fixed;
+    bottom: 85px;
+    right: 25px;
+    background: var(--navy);
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.2);
+    cursor: pointer;
+    display: none;
+    z-index: 999;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+  }
+  .back-to-top:hover {
+    background: var(--accent);
+    color: #000;
+    transform: translateY(-3px);
+  }
+  @media (max-width: 768px) {
+    .whatsapp-float span { display: none; }
+    .whatsapp-float { padding: 15px; border-radius: 50%; bottom: 20px; right: 20px; }
+    .back-to-top { bottom: 80px; right: 20px; width: 45px; height: 45px; }
+  }
 </style>
 </head>
 <body>
@@ -460,31 +504,27 @@
     <li><a href="careers/">Careers</a></li>
     <li><a href="companies/">Companies</a></li>
     <li><a href="Contact-us/">Contact</a></li>
+    <li><a href="terms-conditions/">Terms</a></li>
   </ul>
   <div class="menu-toggle" onclick="toggleMenu()">
     <span></span><span></span><span></span>
   </div>
-  </nav>
+</nav>
 
-  <div class="nav-overlay" id="navOverlay">
-    <ul class="overlay-links">
-      <li><a href="./" onclick="toggleMenu()">Home</a></li>
-      <li><a href="products/" onclick="toggleMenu()">Products</a></li>
-      <li><a href="about-us/" onclick="toggleMenu()">About Us</a></li>
-      <li><a href="Media & Gallery/" onclick="toggleMenu()">Gallery</a></li>
-      <li><a href="careers/" onclick="toggleMenu()">Careers</a></li>
-      <li><a href="companies/" onclick="toggleMenu()">Companies</a></li>
-      <li><a href="Contact-us/" onclick="toggleMenu()">Contact Us</a></li>
-    </ul>
-  </div>
-<script>
-function toggleMenu() {
-  document.getElementById('navOverlay').classList.toggle('active');
-  document.querySelector('.menu-toggle').classList.toggle('active');
-}
-</script>
+<div class="nav-overlay" id="navOverlay">
+  <span class="close-overlay" onclick="toggleMenu()">&times;</span>
+  <ul class="overlay-links">
+    <li><a href="./" onclick="toggleMenu()">Home</a></li>
+    <li><a href="products/" onclick="toggleMenu()">Products</a></li>
+    <li><a href="about-us/" onclick="toggleMenu()">About Us</a></li>
+    <li><a href="Media & Gallery/" onclick="toggleMenu()">Gallery</a></li>
+    <li><a href="careers/" onclick="toggleMenu()">Careers</a></li>
+    <li><a href="companies/" onclick="toggleMenu()">Companies</a></li>
+    <li><a href="Contact-us/" onclick="toggleMenu()">Contact Us</a></li>
+    <li><a href="terms-conditions/" onclick="toggleMenu()">Terms</a></li>
+  </ul>
+</div>
 
-<!-- HERO -->
 <section class="hero">
   <div class="hero-pill">Trusted Pharmaceutical Whole Sale Distribution</div>
   <h1>YOUR <em>HEALTH</em> IS OUR PRIORITY</h1>
@@ -558,7 +598,9 @@ function toggleMenu() {
     <div class="about-stats">
       <div class="stat-card">
         <div class="num">4+</div>
-        <div class="label">Years of Trust & <span class="num">50+</span> industry experience</div>
+        <div class="label">Years of Trust</div>
+        <div class="num">50+</div>
+        <div class="label">Industry Experience</div>
       </div>
       <div class="stat-card">
         <div class="num">30,000+</div>
@@ -601,62 +643,86 @@ function toggleMenu() {
   </div>
 </section>
 
-<!-- SERVICES -->
-<section class="services-section">
-  <div class="section-header">
-    <h2>Site Map</h2>
-  </div>
 
-  <div class="services-grid">
-    <a href="products/" class="service-card" style="text-decoration:none;color:inherit;display:block;">
-      <div class="service-icon">
-        <img src="Icons/search.png" alt="Search Icon" style="height: 32px; width: auto;">
-      </div>
-      <h4>Product Search</h4>
-      <p>Search from 500+ products across multiple pharmaceutical companies</p>
-    </a>
-    <a href="careers/" class="service-card" style="text-decoration:none;color:inherit;display:block;">
-      <div class="service-icon">
-        <img src="Icons/search.png" alt="Careers Icon" style="height: 32px; width: auto; filter: hue-rotate(90deg);">
-      </div>
-      <h4>Academic Careers</h4>
-      <p>Explore our MOUs and partnerships with leading pharmacy colleges</p>
-    </a>
-    <a href="companies/" class="service-card" style="text-decoration:none;color:inherit;display:block;">
-      <div class="service-icon">
-        <img src="Icons/search.png" alt="Companies Icon" style="height: 32px; width: auto; filter: hue-rotate(240deg);">
-      </div>
-      <h4>Partner Companies</h4>
-      <p>View the pharmaceutical manufacturers we collaborate with</p>
-    </a>
-    <a href="Contact-us/" class="service-card" style="text-decoration:none;color:inherit;display:block;">
-      <div class="service-icon">
-        <img src="Icons/call.png" alt="Call Icon" style="height: 32px; width: auto;">
-      </div>
-      <h4>Phone Directory</h4>
-      <p>Department-wise phone numbers for quick communication</p>
-    </a>
-    <div class="service-card" style="cursor: default;">
-      <h4>Mobile App</h4>
-      <div style="display: flex; flex-direction: column; gap: 12px; align-items: center; margin-top: 1rem;">
-        <a href="https://play.google.com/store/apps/details?id=in.relysoft.navkarapotekllp&pcampaignid=web_share" target="_blank">
-          <img src="PlayStore.jpg" alt="Get it on Google Play" style="height: 36px; width: auto; border-radius: 5px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); display: block; transition: transform 0.2s;">
-        </a>
-        <a href="#" target="_blank">
-          <img src="APPStore.png" alt="Download on the App Store" style="height: 40px; width: auto; display: block; transition: transform 0.2s;">
-        </a>
-      </div>
-      <p style="margin-top: 1.5rem;">Download our app for easy access on the go</p>
-    </div>
-  </div>
+
+
 </section>
 
 <!-- FOOTER -->
 <footer>
-  <div class="footer-brand">Navkar Apotek LLP &amp; Pronavkar Lifecare LLP</div>
-  <div class="footer-line"></div>
-  <p>Committed to quality medicines and healthcare products across India.</p>
+  <div class="footer-container">
+    <div class="footer-col">
+      <h4>Navkar & Pronavkar</h4>
+      <p>Navkar Apotek LLP & Pronavkar Lifecare LLP are leading pharmaceutical distributors committed to delivering excellence in healthcare. We bridge the gap between quality manufacturers and healthcare providers across India.</p>
+      <div style="display: flex; gap: 15px; margin-top: 1.5rem;">
+        <a href="https://www.instagram.com/navkarapotekllp/" target="_blank"><img src="Icons/instagram.png" alt="Instagram" style="height: 28px; width: auto;"></a>
+        <a href="https://in.linkedin.com/company/navkar-apotek-llp" target="_blank"><img src="Icons/linkedin.png" alt="LinkedIn" style="height: 28px; width: auto;"></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul class="footer-links">
+        <li><a href="./">Home</a></li>
+        <li><a href="about-us/">About Us</a></li>
+        <li><a href="products/">Product Search</a></li>
+        <li><a href="companies/">Partner Companies</a></li>
+        <li><a href="careers/">Academic Careers</a></li>
+        <li><a href="Contact-us/">Contact Us</a></li>
+        <li><a href="terms-conditions/">Terms & Conditions</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Get In Touch</h4>
+      <div class="footer-contact">
+        <div class="contact-item">
+          <span>📍</span>
+          <span>Baramati, Pune, Maharashtra - 413102</span>
+        </div>
+        <div class="contact-item">
+          <span>📞</span>
+          <span>+91 89561 72570 (Reception)</span>
+        </div>
+        <div class="contact-item">
+          <span>✉️</span>
+          <span>info@navkarapotek.com</span>
+        </div>
+        <div class="contact-item">
+          <span>⏰</span>
+          <span>Mon - Sat: 10:00 AM - 7:00 PM</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer-bottom">
+  </div>
 </footer>
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/918956172570" class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.246 2.248 3.484 5.232 3.483 8.412-.003 6.557-5.338 11.892-11.893 11.892-1.997-.001-3.951-.499-5.702-1.445l-6.194 1.654zm6.755-3.917c1.448.859 2.995 1.312 4.59 1.313 5.503 0 9.975-4.472 9.977-9.977.001-2.669-1.038-5.176-2.927-7.065-1.889-1.889-4.396-2.928-7.062-2.929-5.505 0-9.979 4.472-9.981 9.978-.001 1.77.449 3.502 1.306 5.047l-1.014 3.704 6.299-1.681-.188-.11zm11.362-7.108c-.312-.156-1.848-.912-2.134-1.017-.286-.105-.494-.156-.702.156-.208.312-.806 1.017-.988 1.222-.182.205-.364.231-.677.075-.312-.156-1.318-.486-2.51-1.548-.928-.827-1.554-1.849-1.736-2.161-.182-.312-.019-.481.137-.635.141-.139.312-.364.468-.547.156-.182.208-.312.312-.52.105-.208.052-.39-.026-.547-.052-.156-.702-1.691-.962-2.315-.253-.608-.51-.525-.702-.535-.181-.01-.39-.01-.599-.01-.208 0-.546.078-.832.39-.286.312-1.092 1.067-1.092 2.603 0 1.536 1.118 3.02 1.274 3.228.156.208 2.2 3.359 5.328 4.707.744.321 1.325.512 1.778.656.748.237 1.429.204 1.967.124.6-.089 1.848-.755 2.108-1.485.26-.73.26-1.353.182-1.485-.078-.13-.286-.208-.598-.364z"/></svg>
+  <span>Chat with Us</span>
+</a>
+
+<!-- Back to Top Button -->
+<button id="backToTop" class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" title="Back to top">↑</button>
+
+<script>
+// Show/Hide Back to Top Button
+window.onscroll = function() {
+  const btn = document.getElementById('backToTop');
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    btn.style.display = 'block';
+  } else {
+    btn.style.display = 'none';
+  }
+};
+
+function toggleMenu() {
+  document.getElementById('navOverlay').classList.toggle('active');
+  document.querySelector('.menu-toggle').classList.toggle('active');
+}
+</script>
 
 </body>
 </html>
