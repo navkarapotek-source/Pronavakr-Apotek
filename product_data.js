@@ -1,6 +1,3 @@
-// Auto-generated file. Do not edit manually.
-// Generated from: refined_output.csv
-
 const productData = [
     {
         "Product Name": "MICROPORE TAPE HALF INCH",
@@ -5009,6 +5006,11 @@ const productData = [
     },
     {
         "Product Name": "GLIMDA 2MG TABS",
+        "Pack": "1X10T",
+        "Company Name": "CIPLA"
+    },
+    {
+        "Product Name": "GLIMDA-MV 1 TABS",
         "Pack": "1X10T",
         "Company Name": "CIPLA"
     },
@@ -19168,12 +19170,12 @@ const productData = [
         "Company Name": "MANIKIND PHARMA"
     },
     {
-        "Product Name": "FUL-AID GOLD PROTEIN POWDER (CHOC)",
+        "Product Name": "FUL-AID GOLD(AIC)POWDER",
         "Pack": "200GM",
         "Company Name": "MANIKIND PHARMA"
     },
     {
-        "Product Name": "FUL-AID GOLD PROTEIN POWER (AIC)",
+        "Product Name": "FUL-AID GOLD(CHOC)POWDER",
         "Pack": "200GM",
         "Company Name": "MANIKIND PHARMA"
     },

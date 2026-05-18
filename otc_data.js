@@ -1,6 +1,3 @@
-// Auto-generated file. Do not edit manually.
-// Generated from: refined_output.csv
-
 const otcData = [
     {
         "Product Name": "LADY SURE [MRP 35]",
@@ -2093,7 +2090,7 @@ const otcData = [
         "Company Name": "GENERAL...A"
     },
     {
-        "Product Name": "DAN TONIC PILLS 10GM",
+        "Product Name": "DAN TONIX PILLS 10GM",
         "Pack": "1X10GM",
         "Company Name": "GENERAL...A"
     },

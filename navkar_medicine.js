@@ -1,6 +1,3 @@
-// Auto-generated file. Do not edit manually.
-// Generated from: refined_output.csv
-
 const navkarMedicineData = [
     {
         "Product Name": "DAPALEX T 10/40MG TAB",
@@ -17403,11 +17400,6 @@ const navkarMedicineData = [
         "Company Name": "BHARAT SERUM (FEMICARE)"
     },
     {
-        "Product Name": "LEUPRONEX 3.75MG",
-        "Pack": "1VIAL",
-        "Company Name": "BHARAT SERUMS & VACCINES LTD"
-    },
-    {
         "Product Name": "LONOPIN 20 MG INJ",
         "Pack": "1 PFS",
         "Company Name": "BHARAT SERUMS & VACCINES LTD"
@@ -17455,6 +17447,11 @@ const navkarMedicineData = [
     {
         "Product Name": "IRONJECT INJ 500 MG",
         "Pack": "10 ML",
+        "Company Name": "BHARAT SERUMS WOMENS HEALTH"
+    },
+    {
+        "Product Name": "LEUPRONEX 3.75MG",
+        "Pack": "1VIAL",
         "Company Name": "BHARAT SERUMS WOMENS HEALTH"
     },
     {
@@ -25448,6 +25445,11 @@ const navkarMedicineData = [
         "Company Name": "CIPLA LIMITED XTERNA"
     },
     {
+        "Product Name": "VC EYE 15GM",
+        "Pack": "15GM",
+        "Company Name": "CIPLA LIMITED XTERNA"
+    },
+    {
         "Product Name": "COREX DX SYP 100ML",
         "Pack": "100 ML",
         "Company Name": "CIPLA LIMITED(ESSENTIA)"
@@ -31065,6 +31067,16 @@ const navkarMedicineData = [
     {
         "Product Name": "DELCYNISE TAB",
         "Pack": "10 TAB",
+        "Company Name": "DR REDDYS LABORATORIES LTD"
+    },
+    {
+        "Product Name": "GLIMY DM 1 TAB",
+        "Pack": "10'S",
+        "Company Name": "DR REDDYS LABORATORIES LTD"
+    },
+    {
+        "Product Name": "GLIMY DM 2 TAB",
+        "Pack": "10'S",
         "Company Name": "DR REDDYS LABORATORIES LTD"
     },
     {
@@ -42883,11 +42895,6 @@ const navkarMedicineData = [
         "Company Name": "GENERICS"
     },
     {
-        "Product Name": "LONOPIN MULTI DOSE",
-        "Pack": "3ML",
-        "Company Name": "GENERICS"
-    },
-    {
         "Product Name": "METHYLSURE 40 INJ",
         "Pack": "1 IV",
         "Company Name": "GENERICS"
@@ -42943,11 +42950,6 @@ const navkarMedicineData = [
         "Company Name": "GENERICS"
     },
     {
-        "Product Name": "POSID 50 MG TAB",
-        "Pack": "8 CAP",
-        "Company Name": "GENERICS"
-    },
-    {
         "Product Name": "PREGLIVE KIT",
         "Pack": "4*1*15N",
         "Company Name": "GENERICS"
@@ -42965,11 +42967,6 @@ const navkarMedicineData = [
     {
         "Product Name": "RANKET D TAB",
         "Pack": "10 TAB",
-        "Company Name": "GENERICS"
-    },
-    {
-        "Product Name": "REGEN D",
-        "Pack": "7.5GM",
         "Company Name": "GENERICS"
     },
     {
@@ -46193,11 +46190,6 @@ const navkarMedicineData = [
         "Company Name": "GLOWDERMA LAB PVT LTD"
     },
     {
-        "Product Name": "CRISBOTOP OINT 10GM",
-        "Pack": "10 GM",
-        "Company Name": "GLOWDERMA LAB PVT LTD"
-    },
-    {
         "Product Name": "CUTILITE CREAM",
         "Pack": "20GM",
         "Company Name": "GLOWDERMA LAB PVT LTD"
@@ -48335,6 +48327,26 @@ const navkarMedicineData = [
     {
         "Product Name": "GLIMICURE M4 TAB",
         "Pack": "15 TAB",
+        "Company Name": "HBC LIFESCIENCES AURA"
+    },
+    {
+        "Product Name": "GLIMICURE SM FORTE 1 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "HBC LIFESCIENCES AURA"
+    },
+    {
+        "Product Name": "GLIMICURE SM FORTE 2 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "HBC LIFESCIENCES AURA"
+    },
+    {
+        "Product Name": "GLIMICURE SM IR 50/1/500 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "HBC LIFESCIENCES AURA"
+    },
+    {
+        "Product Name": "GLIMICURE SM IR 50/2/500 TA",
+        "Pack": "10 TAB",
         "Company Name": "HBC LIFESCIENCES AURA"
     },
     {
@@ -62893,11 +62905,6 @@ const navkarMedicineData = [
         "Company Name": "JAIN PHARMACEUTICALS"
     },
     {
-        "Product Name": "CARTISAFE D TAB 10``S",
-        "Pack": "TAB",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
         "Product Name": "CARTISAFE FORTE TAB 10``S",
         "Pack": "TAB",
         "Company Name": "JENBURKT PHARMACEUTICALS LTD"
@@ -62908,163 +62915,8 @@ const navkarMedicineData = [
         "Company Name": "JENBURKT PHARMACEUTICALS LTD"
     },
     {
-        "Product Name": "EBERJEN CREAM",
-        "Pack": "20GM",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "EBERJEN M CREAM",
-        "Pack": "10GM",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "EBERJEN SOLUTION",
-        "Pack": "40ML",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "ECOPROT CHOCO POWDER 200GM",
-        "Pack": "200GM",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "ECOPROT PLUS ICE CREAM POWDER",
-        "Pack": "200GM",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "ECOPROT PLUS KESAR ELAICHI POWDER",
-        "Pack": "200GM",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "METMIN A TAB",
-        "Pack": "10TAB",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "NERVIJEN D CAP",
-        "Pack": "10TAB",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "NERVIJEN D3 SYP",
-        "Pack": "200ML",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "NERVIJEN D3 TAB",
-        "Pack": "15TAB",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "NERVIJEN DP 50 CAP",
-        "Pack": "15CAP",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "NERVIJEN DP 75 CAP",
-        "Pack": "15CAP",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "NERVIJEN NP TAB",
-        "Pack": "10TAB",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "NERVIJEN P SR TAB",
-        "Pack": "10 TAB",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
         "Product Name": "NERVIJEN PLUS CAP",
         "Pack": "10CAP",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "NERVIJEN PLUS INJ",
-        "Pack": "1VIAL",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "NERVIJEN XT CAP",
-        "Pack": "10CAP",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "NUMOX KID TAB",
-        "Pack": "10TAB",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "OJEN PLUS TAB",
-        "Pack": "TAB",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "OXICOJEN CREAM 30GM",
-        "Pack": "30GM",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "OXICOJEN LOTION",
-        "Pack": "50ML",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "PIRITEXYL LD COUGH SYS",
-        "Pack": "60ML",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "PIRITEXYL LS (JUNIOR) SYP 60ML",
-        "Pack": "60ML",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "PIRITEXYL LS SYP 100ML",
-        "Pack": "100ML",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "PIRITEXYL PLUS SYP 100ML",
-        "Pack": "100ML",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "POWERGESIC 100MG PATCH",
-        "Pack": "3PATCH",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "POWERGESIC 200MG PATCH",
-        "Pack": "2PATCH",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "POWERGESIC 4X SPRAY",
-        "Pack": "30 GM",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "POWERGESIC MR TAB",
-        "Pack": "10TAB",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "POWERGESIC NATURA",
-        "Pack": "50ML",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "POWERGESIC PLUS GEL",
-        "Pack": "30GM",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "POWERGESIC TAB",
-        "Pack": "10TAB",
         "Company Name": "JENBURKT PHARMACEUTICALS LTD"
     },
     {
@@ -63073,18 +62925,8 @@ const navkarMedicineData = [
         "Company Name": "JENBURKT PHARMACEUTICALS LTD"
     },
     {
-        "Product Name": "TRIBEN AD",
-        "Pack": "75 ML",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
         "Product Name": "TRIBEN AD SHAMPOO",
         "Pack": "120ML",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "TRIBEN B CREAM",
-        "Pack": "20GM",
         "Company Name": "JENBURKT PHARMACEUTICALS LTD"
     },
     {
@@ -63103,53 +62945,8 @@ const navkarMedicineData = [
         "Company Name": "JENBURKT PHARMACEUTICALS LTD"
     },
     {
-        "Product Name": "TRIBEN DUSTING POWDER 75GM",
-        "Pack": "75GM",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "TRIBEN LOTION",
-        "Pack": "30ML",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "TRIBEN PLUS CREAM",
-        "Pack": "10GM",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
         "Product Name": "TRIBEN PLUS EAR DROP",
         "Pack": "ML",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "TRIBEN V 7 SOFTULES",
-        "Pack": "7 CAP",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "ZIX DT TAB",
-        "Pack": "10 TAB",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "ZIX MR 4MG TAB",
-        "Pack": "10TAB",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "ZIX MR OD CAP",
-        "Pack": "5 CAP",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "ZIX PG TAB",
-        "Pack": "10TAB",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "ZIX R OD CAP",
-        "Pack": "10TAB",
         "Company Name": "JENBURKT PHARMACEUTICALS LTD"
     },
     {
@@ -63158,39 +62955,254 @@ const navkarMedicineData = [
         "Company Name": "JENBURKT PHARMACEUTICALS LTD"
     },
     {
-        "Product Name": "ZIX SPAS TAB",
-        "Pack": "TAB",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "ZIXFLAM FORTE TAB",
-        "Pack": "10TAB",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "ZIXFLAM TAB",
-        "Pack": "10TAB",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "ZYDOL P DS SYRUP 60ML",
-        "Pack": "60 ML",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
         "Product Name": "ZYDOL P SUSP",
         "Pack": "60ML",
         "Company Name": "JENBURKT PHARMACEUTICALS LTD"
     },
     {
-        "Product Name": "ZYDOL SYRUP NEW 60 ML",
-        "Pack": "60 ML;",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
+        "Product Name": "CARTISAFE D TAB 10``S",
+        "Pack": "TAB",
+        "Company Name": "JENBURKT(NOVA)"
+    },
+    {
+        "Product Name": "CRISBOTOP OINT 10GM",
+        "Pack": "10 GM",
+        "Company Name": "JENBURKT(NOVA)"
+    },
+    {
+        "Product Name": "EBERJEN CREAM",
+        "Pack": "20GM",
+        "Company Name": "JENBURKT(NOVA)"
+    },
+    {
+        "Product Name": "EBERJEN M CREAM",
+        "Pack": "10GM",
+        "Company Name": "JENBURKT(NOVA)"
+    },
+    {
+        "Product Name": "EBERJEN SOLUTION",
+        "Pack": "40ML",
+        "Company Name": "JENBURKT(NOVA)"
+    },
+    {
+        "Product Name": "METMIN A TAB",
+        "Pack": "10TAB",
+        "Company Name": "JENBURKT(NOVA)"
+    },
+    {
+        "Product Name": "NERVIJEN D3 TAB",
+        "Pack": "15TAB",
+        "Company Name": "JENBURKT(NOVA)"
+    },
+    {
+        "Product Name": "NERVIJEN DP 50 CAP",
+        "Pack": "15CAP",
+        "Company Name": "JENBURKT(NOVA)"
+    },
+    {
+        "Product Name": "NERVIJEN DP 75 CAP",
+        "Pack": "15CAP",
+        "Company Name": "JENBURKT(NOVA)"
     },
     {
         "Product Name": "NERVIJEN P CAP",
         "Pack": "10TAB",
         "Company Name": "JENBURKT(NOVA)"
+    },
+    {
+        "Product Name": "NERVIJEN P SR TAB",
+        "Pack": "10 TAB",
+        "Company Name": "JENBURKT(NOVA)"
+    },
+    {
+        "Product Name": "NERVIJEN PLUS INJ",
+        "Pack": "1VIAL",
+        "Company Name": "JENBURKT(NOVA)"
+    },
+    {
+        "Product Name": "NUMOX KID TAB",
+        "Pack": "10TAB",
+        "Company Name": "JENBURKT(NOVA)"
+    },
+    {
+        "Product Name": "PIRITEXYL LS SYP 100ML",
+        "Pack": "100ML",
+        "Company Name": "JENBURKT(NOVA)"
+    },
+    {
+        "Product Name": "PIRITEXYL PLUS SYP 100ML",
+        "Pack": "100ML",
+        "Company Name": "JENBURKT(NOVA)"
+    },
+    {
+        "Product Name": "POWERGESIC MR TAB",
+        "Pack": "10TAB",
+        "Company Name": "JENBURKT(NOVA)"
+    },
+    {
+        "Product Name": "POWERGESIC TAB",
+        "Pack": "10TAB",
+        "Company Name": "JENBURKT(NOVA)"
+    },
+    {
+        "Product Name": "TRIBEN AD",
+        "Pack": "75 ML",
+        "Company Name": "JENBURKT(NOVA)"
+    },
+    {
+        "Product Name": "TRIBEN B CREAM",
+        "Pack": "20GM",
+        "Company Name": "JENBURKT(NOVA)"
+    },
+    {
+        "Product Name": "TRIBEN V 7 SOFTULES",
+        "Pack": "7 CAP",
+        "Company Name": "JENBURKT(NOVA)"
+    },
+    {
+        "Product Name": "ZIX DT TAB",
+        "Pack": "10 TAB",
+        "Company Name": "JENBURKT(NOVA)"
+    },
+    {
+        "Product Name": "ZIX R OD CAP",
+        "Pack": "10TAB",
+        "Company Name": "JENBURKT(NOVA)"
+    },
+    {
+        "Product Name": "ZIX SPAS TAB",
+        "Pack": "TAB",
+        "Company Name": "JENBURKT(NOVA)"
+    },
+    {
+        "Product Name": "ZIXFLAM FORTE TAB",
+        "Pack": "10TAB",
+        "Company Name": "JENBURKT(NOVA)"
+    },
+    {
+        "Product Name": "ECOPROT CHOCO POWDER 200GM",
+        "Pack": "200GM",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
+        "Product Name": "ECOPROT PLUS ICE CREAM POWDER",
+        "Pack": "200GM",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
+        "Product Name": "ECOPROT PLUS KESAR ELAICHI POWDER",
+        "Pack": "200GM",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
+        "Product Name": "NERVIJEN D CAP",
+        "Pack": "10TAB",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
+        "Product Name": "NERVIJEN D3 SYP",
+        "Pack": "200ML",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
+        "Product Name": "NERVIJEN NP TAB",
+        "Pack": "10TAB",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
+        "Product Name": "NERVIJEN XT CAP",
+        "Pack": "10CAP",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
+        "Product Name": "OJEN PLUS TAB",
+        "Pack": "TAB",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
+        "Product Name": "OXICOJEN CREAM 30GM",
+        "Pack": "30GM",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
+        "Product Name": "OXICOJEN LOTION",
+        "Pack": "50ML",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
+        "Product Name": "PIRITEXYL LD COUGH SYS",
+        "Pack": "60ML",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
+        "Product Name": "PIRITEXYL LS (JUNIOR) SYP 60ML",
+        "Pack": "60ML",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
+        "Product Name": "POWERGESIC 100MG PATCH",
+        "Pack": "3PATCH",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
+        "Product Name": "POWERGESIC 200MG PATCH",
+        "Pack": "2PATCH",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
+        "Product Name": "POWERGESIC 4X SPRAY",
+        "Pack": "30 GM",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
+        "Product Name": "POWERGESIC NATURA",
+        "Pack": "50ML",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
+        "Product Name": "POWERGESIC PLUS GEL",
+        "Pack": "30GM",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
+        "Product Name": "TRIBEN DUSTING POWDER 75GM",
+        "Pack": "75GM",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
+        "Product Name": "TRIBEN LOTION",
+        "Pack": "30ML",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
+        "Product Name": "TRIBEN PLUS CREAM",
+        "Pack": "10GM",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
+        "Product Name": "ZIX MR 4MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
+        "Product Name": "ZIX MR OD CAP",
+        "Pack": "5 CAP",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
+        "Product Name": "ZIXFLAM TAB",
+        "Pack": "10TAB",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
+        "Product Name": "ZYDOL P DS SYRUP 60ML",
+        "Pack": "60 ML",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
+        "Product Name": "ZYDOL SYRUP NEW 60 ML",
+        "Pack": "60 ML;",
+        "Company Name": "JENBURKT(ZORA)"
     },
     {
         "Product Name": "VARAD NACHANI SATVA [MIX FRTUT]\\",
@@ -68323,7 +68335,7 @@ const navkarMedicineData = [
         "Company Name": "LA RENON(NEPHRO)LACONIC"
     },
     {
-        "Product Name": "KCHECK POWDER 15 GM",
+        "Product Name": "KCHECK POWDER 15 GM.",
         "Pack": "15 GM",
         "Company Name": "LA RENON(NEPHRO)LACONIC"
     },
@@ -83993,6 +84005,11 @@ const navkarMedicineData = [
         "Company Name": "MCRONUS LIFESCIENCES PVT LTD"
     },
     {
+        "Product Name": "OZIFLU 75 CAP",
+        "Pack": "10CAP",
+        "Company Name": "MCRONUS LIFESCIENCES PVT LTD"
+    },
+    {
         "Product Name": "PLEOFEROL 60K",
         "Pack": "10TAB",
         "Company Name": "MCRONUS LIFESCIENCES PVT LTD"
@@ -91863,6 +91880,11 @@ const navkarMedicineData = [
         "Company Name": "OTHERS"
     },
     {
+        "Product Name": "ZIX PG TAB",
+        "Pack": "10TAB",
+        "Company Name": "OTHERS"
+    },
+    {
         "Product Name": "ACTICORT 10MG TAB",
         "Pack": "TAB",
         "Company Name": "OVERSEAS (PHARMA)"
@@ -98525,6 +98547,11 @@ const navkarMedicineData = [
     {
         "Product Name": "BESTIVERT 16 MG",
         "Pack": "10 TAB",
+        "Company Name": "SAMPROJ PHARMA"
+    },
+    {
+        "Product Name": "BESTIVERT 24 SR",
+        "Pack": "10'S",
         "Company Name": "SAMPROJ PHARMA"
     },
     {
@@ -121190,6 +121217,11 @@ const navkarMedicineData = [
     {
         "Product Name": "PENEGRA XL GEL 5G",
         "Pack": "5GM",
+        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
+    },
+    {
+        "Product Name": "SKINLITE DAY CARE SUNSCREEN GEL",
+        "Pack": "30GM",
         "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
     },
     {
