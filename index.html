@@ -44,9 +44,10 @@
     position: sticky; top: 0; z-index: 100;
     background: #ffffff;
     padding: 0 2rem;
-    display: flex; align-items: center; justify-content: space-between;
+    display: flex; align-items: center;
     height: 64px;
     border-bottom: 2px solid var(--accent);
+    gap: 1rem;
   }
   .nav-brand {
     display: flex; flex-direction: column;
@@ -58,7 +59,7 @@
   .nav-brand span:last-child {
     font-size: 10px; color: #F5C518; text-transform: uppercase;
   }
-  .nav-links { display: flex; gap: 2rem; list-style: none; }
+  .nav-links { display: flex; gap: 2rem; list-style: none; margin-left: auto; }
   .nav-links a {
     font-size: 13px; color: #373c44; text-decoration: none;
     letter-spacing: 0.05em; text-transform: uppercase;
@@ -66,6 +67,28 @@
   }
   .nav-links a:hover { color: #000; }
   .nav-links a.active { color: #000; font-weight: 600; }
+
+  .nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .login-btn {
+    padding: 8px 20px;
+    background: var(--accent);
+    color: #000;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    white-space: nowrap;
+  }
+  .login-btn:hover {
+    background: #000;
+    color: #fff;
+  }
 
   .hero {
     background: var(--navy);
@@ -268,8 +291,8 @@
 
   @media (max-width: 768px) {
     nav { padding: 0 1rem; }
-    .nav-brand span:first-child { font-size: 16px; }
-    .nav-brand span:last-child { font-size: 9px; }
+    .nav-brand span:first-child { font-size: 12px; }
+    .nav-brand span:last-child { display: none; }
     .nav-links { display: none; }
     .menu-toggle { display: flex; }
     .hero { padding: 3rem 1.5rem 2rem; }
@@ -346,14 +369,16 @@
     padding: 2.25rem 2rem;
     position: relative;
     overflow: hidden;
+    text-align: center;
   }
   .vm-card.vision, .vm-card.mission {
     background: linear-gradient(135deg, rgba(27,61,110,0.9) 0%, rgba(11,37,69,0.95) 100%);
     border: 1px solid rgba(255,255,255,0.1);
   }
   .vm-card-tag {
-    display: inline-flex; align-items: center; gap: 8px;
+    display: flex; align-items: center; gap: 8px;
     margin-bottom: 1.25rem;
+    justify-content: center;
   }
   .vm-card-tag .tag-dot {
     width: 8px; height: 8px; border-radius: 50%;
@@ -499,15 +524,16 @@
   <ul class="nav-links">
     <li><a href="#" class="active">Home</a></li>
     <li><a href="products/">Products</a></li>
+    <li><a href="companies/">Companies</a></li>
     <li><a href="about-us/">About</a></li>
     <li><a href="Media & Gallery/">Gallery</a></li>
-    <li><a href="careers/">Careers</a></li>
-    <li><a href="companies/">Companies</a></li>
     <li><a href="Contact-us/">Contact</a></li>
-    <li><a href="terms-conditions/">Terms</a></li>
   </ul>
-  <div class="menu-toggle" onclick="toggleMenu()">
-    <span></span><span></span><span></span>
+  <div class="nav-actions">
+    <a href="login/" class="login-btn">Login</a>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
   </div>
 </nav>
 
@@ -516,12 +542,11 @@
   <ul class="overlay-links">
     <li><a href="./" onclick="toggleMenu()">Home</a></li>
     <li><a href="products/" onclick="toggleMenu()">Products</a></li>
+    <li><a href="companies/" onclick="toggleMenu()">Companies</a></li>
     <li><a href="about-us/" onclick="toggleMenu()">About Us</a></li>
     <li><a href="Media & Gallery/" onclick="toggleMenu()">Gallery</a></li>
-    <li><a href="careers/" onclick="toggleMenu()">Careers</a></li>
-    <li><a href="companies/" onclick="toggleMenu()">Companies</a></li>
     <li><a href="Contact-us/" onclick="toggleMenu()">Contact Us</a></li>
-    <li><a href="terms-conditions/" onclick="toggleMenu()">Terms</a></li>
+    <li><a href="login/" onclick="toggleMenu()">Login</a></li>
   </ul>
 </div>
 
@@ -564,21 +589,21 @@
     <!-- PILLARS -->
     <div class="vm-pillars">
       <div class="vm-pillar">
-        <div class="vm-pillar-icon">🔒</div>
+        <div class="vm-pillar-icon"><img src="Icons/Lock.png" alt="Lock" style="width: 22px; height: auto;"></div>
         <div class="vm-pillar-text">
           <strong>Trust &amp; Reliability</strong>
           <span>Consistent availability through a dependable supply chain</span>
         </div>
       </div>
       <div class="vm-pillar">
-        <div class="vm-pillar-icon">💡</div>
+        <div class="vm-pillar-icon"><img src="Icons/Bulp.png" alt="Bulb" style="width: 22px; height: auto;"></div>
         <div class="vm-pillar-text">
           <strong>Technology-Driven</strong>
           <span>Innovative solutions for smarter pharmaceutical distribution</span>
         </div>
       </div>
       <div class="vm-pillar">
-        <div class="vm-pillar-icon">🤝</div>
+        <div class="vm-pillar-icon"><img src="Icons/Handshake.png" alt="Handshake" style="width: 22px; height: auto;"></div>
         <div class="vm-pillar-text">
           <strong>Affordable Access</strong>
           <span>Empowering communities with medicines they can count on</span>
@@ -662,13 +687,9 @@
     <div class="footer-col">
       <h4>Quick Links</h4>
       <ul class="footer-links">
-        <li><a href="./">Home</a></li>
-        <li><a href="about-us/">About Us</a></li>
-        <li><a href="products/">Product Search</a></li>
-        <li><a href="companies/">Partner Companies</a></li>
         <li><a href="careers/">Academic Careers</a></li>
-        <li><a href="Contact-us/">Contact Us</a></li>
         <li><a href="terms-conditions/">Terms & Conditions</a></li>
+        <li><a href="privacy-policy/">Privacy Policy</a></li>
       </ul>
     </div>
     <div class="footer-col">

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Privacy Policy - Navkar Apotek & Pronavkar Lifecare</title>
+<meta name="description" content="Navkar Apotek LLP & Pronavkar Lifecare LLP - Privacy Policy. Learn how we handle your personal information." />
+<meta name="keywords" content="privacy policy, Navkar Apotek, Pronavkar Lifecare, data protection" />
+<link rel="icon" type="image/png" href="../logo.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+<style>
+  html { overflow-x: hidden; }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy: #1A9E8F;
+    --teal: #1A9E8F;
+    --cream: #f7f3ee;
+    --warm-white: #fefcf9;
+    --text: #1a1a1a;
+    --muted: #6b7280;
+    --accent: #F5C125;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--warm-white);
+    color: var(--text);
+    line-height: 1.6;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    word-wrap: break-word;
+    position: relative;
+  }
+
+  nav {
+    background: #ffffff;
+    padding: 0 2rem;
+    display: flex; align-items: center;
+    height: 64px;
+    border-bottom: 2px solid var(--accent);
+    position: sticky; top: 0; z-index: 100;
+    gap: 1rem;
+  }
+
+  .nav-brand { display: flex; flex-direction: column; }
+  .nav-brand span:first-child { font-family: 'Cormorant Garamond', serif; font-size: 18px; font-weight: 600; color: #1A9E96; }
+  .nav-brand span:last-child { font-size: 10px; color: #F5C518; text-transform: uppercase; }
+
+  .nav-links { display: flex; gap: 2rem; list-style: none; margin-left: auto; }
+  .nav-links a { font-size: 13px; color: #373c44; text-decoration: none; text-transform: uppercase; }
+
+  .nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .login-btn {
+    padding: 8px 20px;
+    background: var(--accent);
+    color: #000;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    white-space: nowrap;
+  }
+  .login-btn:hover {
+    background: #000;
+    color: #fff;
+  }
+
+  footer {
+    background: #1a1a1a; color: #fff;
+    padding: 4rem 2rem 2rem;
+    margin-top: 4rem;
+  }
+  .footer-container {
+    max-width: 1100px; margin: 0 auto;
+    display: grid; grid-template-columns: 2fr 1fr 1.5fr; gap: 4rem;
+  }
+  .footer-col h4 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.4rem; color: var(--accent); margin-bottom: 1.5rem;
+  }
+  .footer-col p { font-size: 14px; color: #bbb; line-height: 1.8; margin-bottom: 1rem; }
+  .footer-links { list-style: none; }
+  .footer-links li { margin-bottom: 0.8rem; }
+  .footer-links a { color: #bbb; text-decoration: none; font-size: 14px; transition: color 0.2s; }
+  .footer-links a:hover { color: #fff; }
+  .footer-contact { display: flex; flex-direction: column; gap: 1rem; }
+  .contact-item { display: flex; align-items: flex-start; gap: 12px; font-size: 14px; color: #bbb; }
+  .footer-bottom {
+    max-width: 1100px; margin: 3rem auto 0;
+    border-top: 1px solid #333; padding-top: 2rem;
+    text-align: center;
+  }
+  .legal-info { font-size: 11px; color: #777; line-height: 2; margin-bottom: 1.5rem; }
+  .footer-credits { font-size: 12px; color: #555; }
+
+  header.legal-header {
+    background: var(--navy);
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  header.legal-header h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3rem;
+    color: #1a1a1a;
+  }
+
+  .content-section {
+    max-width: 800px;
+    margin: 4rem auto;
+    padding: 0 2rem;
+  }
+
+  .legal-box {
+    background: #fff;
+    padding: 3rem;
+    border-radius: 12px;
+    border: 1px solid #eee;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+  }
+
+  h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--navy);
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+  }
+
+  p { margin-bottom: 1.5rem; color: #444; }
+  .legal-box ul { margin-bottom: 1.5rem; padding-left: 1.5rem; color: #444; }
+  .legal-box ul li { margin-bottom: 0.5rem; font-size: 14px; line-height: 1.7; }
+  .legal-box h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--navy); margin-bottom: 0.75rem; margin-top: 1rem; }
+
+  .menu-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; z-index: 1001; }
+  .menu-toggle span { width: 25px; height: 3px; background: #373c44; transition: 0.3s; border-radius: 2px; }
+  .nav-overlay {
+    position: fixed; top: 0; right: -100%; width: 250px; height: 100vh;
+    background: var(--navy); z-index: 1000; padding: 80px 2rem; transition: 0.4s ease-in-out;
+    box-shadow: -5px 0 15px rgba(0,0,0,0.3);
+  }
+  .nav-overlay.active { right: 0; }
+  .close-overlay {
+    position: absolute; top: 20px; right: 20px;
+    font-size: 40px; color: #fff; cursor: pointer;
+    line-height: 1;
+  }
+  .overlay-links { list-style: none; display: flex; flex-direction: column; gap: 1.5rem; }
+  .overlay-links a { color: #fff; text-decoration: none; font-size: 18px; text-transform: uppercase; }
+  .menu-toggle.active span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+  .menu-toggle.active span:nth-child(2) { opacity: 0; }
+  .menu-toggle.active span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+
+  @media (max-width: 768px) {
+    nav { padding: 0 1rem; }
+    .nav-brand span:first-child { font-size: 12px; }
+    .nav-brand span:last-child { display: none; }
+    .nav-links { display: none; }
+    .menu-toggle { display: flex; }
+    .legal-box { padding: 1.5rem; }
+    .footer-container { grid-template-columns: 1fr; gap: 2rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="../" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
+    <img src="../logo.png" alt="Logo" style="height: 45px; width: auto;">
+    <div class="nav-brand">
+      <span>Navkar Apotek &amp; Pronavkar Lifecare</span>
+      <span>Pharmaceutical Excellence</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="../">Home</a></li>
+    <li><a href="../products/">Products</a></li>
+    <li><a href="../companies/">Companies</a></li>
+    <li><a href="../about-us/">About</a></li>
+    <li><a href="../Media & Gallery/">Gallery</a></li>
+    <li><a href="../Contact-us/">Contact</a></li>
+  </ul>
+  <div class="nav-actions">
+    <a href="../login/" class="login-btn">Login</a>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<div class="nav-overlay" id="navOverlay">
+  <span class="close-overlay" onclick="toggleMenu()">&times;</span>
+  <ul class="overlay-links">
+    <li><a href="../" onclick="toggleMenu()">Home</a></li>
+    <li><a href="../products/" onclick="toggleMenu()">Products</a></li>
+    <li><a href="../companies/" onclick="toggleMenu()">Companies</a></li>
+    <li><a href="../about-us/" onclick="toggleMenu()">About</a></li>
+    <li><a href="../Media & Gallery/" onclick="toggleMenu()">Gallery</a></li>
+    <li><a href="../Contact-us/" onclick="toggleMenu()">Contact</a></li>
+    <li><a href="../login/" onclick="toggleMenu()">Login</a></li>
+  </ul>
+</div>
+
+<header class="legal-header">
+  <div class="hero-pill" style="display:inline-block; background:#F5C125; padding:6px 18px; border-radius:999px; font-size:11px; font-weight:700; text-transform:uppercase; margin-bottom:1rem;">Legal Information</div>
+  <h1>Privacy Policy</h1>
+</header>
+
+<main class="content-section">
+  <div class="legal-box">
+    <div id="privacy-content">
+      <p><strong>Effective Date:</strong> 19/05/2026<br>
+      <strong>Last Updated:</strong> 19/05/2026</p>
+
+      <p><strong>Navkar Apotek LLP</strong> and <strong>Pronavkar Lifecare LLP</strong> (hereinafter collectively referred to as <strong>"the Firms"</strong>, <strong>"we"</strong>) recognize the importance of maintaining your privacy. We value your privacy and appreciate your trust in us.</p>
+
+      <p>This Privacy Policy describes how we treat user information we collect on our websites, <strong>navkarapotek.com</strong> (collectively, the <strong>"Websites"</strong>), as well as through other offline sources. This Privacy Policy applies to current and former visitors to our Websites and to our online customers. By visiting and/or using our Websites, you agree to the terms of this Privacy Policy.</p>
+
+      <h2>1. Corporate Identity &amp; Ownership</h2>
+
+      <p>The Websites are owned and operated by the respective firms registered under the Limited Liability Partnership Act, 2008:</p>
+
+      <h3>Navkar Apotek LLP</h3>
+      <ul>
+        <li><strong>Registered Office Address:</strong> Baramati, Pune, Maharashtra - 413102</li>
+        <li><strong>GSTIN:</strong> 27AAUFN1922G1Z2</li>
+      </ul>
+
+      <h3>Pronavkar Lifecare LLP</h3>
+      <ul>
+        <li><strong>Registered Office Address:</strong> Baramati, Pune, Maharashtra - 413102</li>
+        <li><strong>GSTIN:</strong> 27ABFFP5105P1ZV</li>
+      </ul>
+
+      <h2>2. Information We Collect</h2>
+      <ul>
+        <li><strong>Contact Information:</strong> We collect your Email address and Mobile Number/Phone Number when you interact with us or register on our Websites.</li>
+      </ul>
+
+      <h2>3. Use of Your Personal Information</h2>
+      <p>We use the information collected from you for the following purposes:</p>
+      <ul>
+        <li><strong>To communicate with you:</strong> We might use the information you provide to contact you for confirmation of a purchase on our Websites or for other promotional purposes.</li>
+        <li><strong>To respond to your requests or questions:</strong> We might use your information to confirm your registration for any particular service requested on our Websites.</li>
+        <li><strong>To improve our products and services:</strong> We might use your information to customize your experience with us. This could include displaying content based upon your preferences.</li>
+        <li><strong>To analyze site trends and customer interests:</strong> We may use your information to make our Websites and products better. We may combine information we get from you with information about you we get from third parties.</li>
+        <li><strong>For security purposes:</strong> We may use information to protect our Firms, our customers, or our Websites.</li>
+        <li><strong>For marketing purposes:</strong> We might send you information about special promotions or offers. We might also tell you about new features or products. These might be our own offers or products, or third-party offers or products we think you might find interesting.</li>
+        <li><strong>To send you transactional communications:</strong> We might send you emails or SMS about your account, orders, or service requests.</li>
+        <li><strong>As otherwise permitted by law.</strong></li>
+      </ul>
+
+      <h2>4. Email Opt-Out</h2>
+      <p>You can opt out of receiving our marketing and promotional emails at any time. To stop receiving these communications, please send an email with your request to:</p>
+      <ul>
+        <li>For Navkar Apotek LLP queries: <strong>info@navkarapotek.com</strong></li>
+        <li>For Pronavkar Lifecare LLP queries: <strong>pronavkarlifecarellp@gmail.com</strong></li>
+      </ul>
+
+      <h2>5. Updates to This Policy</h2>
+      <p>From time to time, we may change our privacy practices. We will notify you of any material changes to this policy as required by law. Please check our Websites periodically for updates.</p>
+
+      <h2>6. Jurisdiction and Governing Law</h2>
+      <p>If you choose to visit the Websites, your visit and any dispute over privacy is subject to this Policy and the respective Website's terms of use. In addition to the foregoing, any disputes arising under this Policy shall be governed by the laws of India.</p>
+
+      <p style="margin-top: 2rem; font-size: 12px; color: #777;"><strong>Copyright &copy; 2026 NAVKAR APOTEK LLP &amp; PRONAVKAR LIFECARE LLP. All Rights Reserved.</strong></p>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-col">
+      <h4>Navkar & Pronavkar</h4>
+      <p>Navkar Apotek LLP & Pronavkar Lifecare LLP are leading pharmaceutical distributors committed to delivering excellence in healthcare. We bridge the gap between quality manufacturers and healthcare providers across India.</p>
+      <div style="display: flex; gap: 15px; margin-top: 1.5rem;">
+        <a href="https://www.instagram.com/navkarapotekllp/" target="_blank"><img src="../Icons/instagram.png" alt="Instagram" style="height: 28px; width: auto;"></a>
+        <a href="https://in.linkedin.com/company/navkar-apotek-llp" target="_blank"><img src="../Icons/linkedin.png" alt="LinkedIn" style="height: 28px; width: auto;"></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul class="footer-links">
+        <li><a href="../careers/">Academic Careers</a></li>
+        <li><a href="../terms-conditions/">Terms & Conditions</a></li>
+        <li><a href="./">Privacy Policy</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Get In Touch</h4>
+      <div class="footer-contact">
+        <div class="contact-item">
+          <span>📍</span>
+          <span>Baramati, Pune, Maharashtra - 413102</span>
+        </div>
+        <div class="contact-item">
+          <span>📞</span>
+          <span>+91 89561 72570 (Reception)</span>
+        </div>
+        <div class="contact-item">
+          <span>✉️</span>
+          <span>info@navkarapotek.com</span>
+        </div>
+        <div class="contact-item">
+          <span>⏰</span>
+          <span>Mon - Sat: 10:00 AM - 7:00 PM</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer-bottom">
+  </div>
+</footer>
+
+<script>
+function toggleMenu() {
+  document.getElementById('navOverlay').classList.toggle('active');
+  document.querySelector('.menu-toggle').classList.toggle('active');
+}
+</script>
+
+</body>
+</html>

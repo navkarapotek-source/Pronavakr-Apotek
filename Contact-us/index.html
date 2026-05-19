@@ -48,9 +48,10 @@
     position: sticky; top: 0; z-index: 100;
     background: #ffffff;
     padding: 0 2rem;
-    display: flex; align-items: center; justify-content: space-between;
+    display: flex; align-items: center;
     height: 64px;
     border-bottom: 2px solid var(--accent);
+    gap: 1rem;
   }
   .nav-brand {
     display: flex; flex-direction: column;
@@ -62,7 +63,7 @@
   .nav-brand span:last-child {
     font-size: 10px; color: #F5C518; text-transform: uppercase;
   }
-  .nav-links { display: flex; gap: 2rem; list-style: none; }
+  .nav-links { display: flex; gap: 2rem; list-style: none; margin-left: auto; }
   .nav-links a {
     font-size: 13px; color: #373c44; text-decoration: none;
     letter-spacing: 0.05em; text-transform: uppercase;
@@ -70,6 +71,28 @@
   }
   .nav-links a:hover { color: #000; }
   .nav-links a.active { color: #000; font-weight: 600; }
+
+  .nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .login-btn {
+    padding: 8px 20px;
+    background: var(--accent);
+    color: #000;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    white-space: nowrap;
+  }
+  .login-btn:hover {
+    background: #000;
+    color: #fff;
+  }
 
   /* ── MOBILE NAV ── */
   .mobile-nav {
@@ -360,8 +383,8 @@
 
   @media (max-width: 768px) {
     nav { padding: 0 1rem; }
-    .nav-brand span:first-child { font-size: 16px; }
-    .nav-brand span:last-child { font-size: 9px; }
+    .nav-brand span:first-child { font-size: 12px; }
+    .nav-brand span:last-child { display: none; }
     .nav-links { display: none; }
     .menu-toggle { display: flex; }
     .bottom-nav { display: none !important; }
@@ -391,14 +414,16 @@
   <ul class="nav-links">
     <li><a href="../">Home</a></li>
     <li><a href="../products/">Products</a></li>
+    <li><a href="../companies/">Companies</a></li>
     <li><a href="../about-us/">About</a></li>
     <li><a href="../Media & Gallery/">Gallery</a></li>
-    <li><a href="../careers/">Careers</a></li>
-    <li><a href="../companies/">Companies</a></li>
     <li><a href="./" class="active">Contact</a></li>
   </ul>
-  <div class="menu-toggle" onclick="toggleMenu()">
-    <span></span><span></span><span></span>
+  <div class="nav-actions">
+    <a href="../login/" class="login-btn">Login</a>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
   </div>
 </nav>
 
@@ -407,11 +432,11 @@
   <ul class="overlay-links">
     <li><a href="../" onclick="toggleMenu()">Home</a></li>
     <li><a href="../products/" onclick="toggleMenu()">Products</a></li>
+    <li><a href="../companies/" onclick="toggleMenu()">Companies</a></li>
     <li><a href="../about-us/" onclick="toggleMenu()">About</a></li>
     <li><a href="../Media & Gallery/" onclick="toggleMenu()">Gallery</a></li>
-    <li><a href="../careers/" onclick="toggleMenu()">Careers</a></li>
-    <li><a href="../companies/" onclick="toggleMenu()">Companies</a></li>
     <li><a href="./" onclick="toggleMenu()">Contact</a></li>
+    <li><a href="../login/" onclick="toggleMenu()">Login</a></li>
   </ul>
 </div>
 
@@ -546,13 +571,13 @@ function toggleMenu() {
     <div class="contact-card" style="grid-column: 1 / -1; text-align: center; padding: 3rem;">
       <h3>Having issues?</h3>
       <p style="margin-bottom: 2rem; color: #666;">We value your feedback. If you have any complaints or issues, please let us know through our official complaint form.</p>
-      <a href="https://forms.gle/o3QZS4N2kwxQDUre7" target="_blank" class="action-btn">Let us know.</a>
+      <a href="https://forms.gle/uJt1KqfRJ1sVBBrKA" target="_blank" class="action-btn">Let us know.</a>
     </div>
   </div>
 
   <!-- COMPANY INFORMATION -->
   <h2 class="section-title" style="margin-top: 3rem;">
-    <img src="../Icons/Location.png" alt="Company Info Icon" style="height: 28px; width: auto; vertical-align: middle; margin-right: 8px;">
+    <img src="../Icons/Information.png" alt="Company Info Icon" style="height: 28px; width: auto; vertical-align: middle; margin-right: 8px;">
     Company Information
   </h2>
   <div class="cards-grid">
@@ -614,13 +639,9 @@ function toggleMenu() {
     <div class="footer-col">
       <h4>Quick Links</h4>
       <ul class="footer-links">
-        <li><a href="../">Home</a></li>
-        <li><a href="../about-us/">About Us</a></li>
-        <li><a href="../products/">Product Search</a></li>
-        <li><a href="../companies/">Partner Companies</a></li>
         <li><a href="../careers/">Academic Careers</a></li>
-        <li><a href="./">Contact Us</a></li>
         <li><a href="../terms-conditions/">Terms & Conditions</a></li>
+        <li><a href="../privacy-policy/">Privacy Policy</a></li>
       </ul>
     </div>
     <div class="footer-col">
