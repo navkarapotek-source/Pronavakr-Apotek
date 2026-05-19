@@ -1,3 +1,6 @@
+// Auto-generated file. Do not edit manually.
+// Generated from: refined_output.csv
+
 const productData = [
     {
         "Product Name": "MICROPORE TAPE HALF INCH",
@@ -480,6 +483,11 @@ const productData = [
         "Company Name": "AJANTA PHARMA LTD"
     },
     {
+        "Product Name": "ECHINORM GRANULES",
+        "Pack": "1GM",
+        "Company Name": "AJANTA PHARMA LTD"
+    },
+    {
         "Product Name": "EVIDIA-10 TAB",
         "Pack": "10TAB",
         "Company Name": "AJANTA PHARMA LTD"
@@ -552,6 +560,11 @@ const productData = [
     {
         "Product Name": "MELACARE SOFT LOTION 100ML",
         "Pack": "1X100ML",
+        "Company Name": "AJANTA PHARMA LTD"
+    },
+    {
+        "Product Name": "MUGARD FORTE GEL",
+        "Pack": "15GM",
         "Company Name": "AJANTA PHARMA LTD"
     },
     {
@@ -720,11 +733,6 @@ const productData = [
         "Company Name": "AJANTA PHARMA LTD GENCARE"
     },
     {
-        "Product Name": "ECHINORM GRANULES",
-        "Pack": "1GM",
-        "Company Name": "AJANTA PHARMA LTD GENCARE"
-    },
-    {
         "Product Name": "FOLIVIA TAB 5MG",
         "Pack": "30TAB",
         "Company Name": "AJANTA PHARMA LTD GENCARE"
@@ -732,11 +740,6 @@ const productData = [
     {
         "Product Name": "MUGARD DG GEL",
         "Pack": "20GM",
-        "Company Name": "AJANTA PHARMA LTD GENCARE"
-    },
-    {
-        "Product Name": "MUGARD FORTE GEL",
-        "Pack": "15GM",
         "Company Name": "AJANTA PHARMA LTD GENCARE"
     },
     {
@@ -10162,6 +10165,11 @@ const productData = [
     {
         "Product Name": "GLENDAN MD 4 TAB",
         "Pack": "1X10TAB",
+        "Company Name": "GLENMARK PHARMACEUTICALS LTD"
+    },
+    {
+        "Product Name": "GLENMARK DABUR GULABARI 30ML",
+        "Pack": "30ML",
         "Company Name": "GLENMARK PHARMACEUTICALS LTD"
     },
     {

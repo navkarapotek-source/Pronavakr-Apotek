@@ -1,3 +1,6 @@
+// Auto-generated file. Do not edit manually.
+// Generated from: refined_output.csv
+
 const navkarColdchainData = [
     {
         "Product Name": "ICIKINASE 1.5 INJ",
@@ -176,6 +179,11 @@ const navkarColdchainData = [
     },
     {
         "Product Name": "HEPAGLIDE 0.5MG INJ",
+        "Pack": "INJ",
+        "Company Name": "ALKEM LAB (GASTOKEM)"
+    },
+    {
+        "Product Name": "HEPAGLIDE 1MG INJ",
         "Pack": "INJ",
         "Company Name": "ALKEM LAB (GASTOKEM)"
     },

@@ -1,3 +1,6 @@
+// Auto-generated file. Do not edit manually.
+// Generated from: refined_output.csv
+
 const navkarMedicineData = [
     {
         "Product Name": "DAPALEX T 10/40MG TAB",
@@ -1080,11 +1083,6 @@ const navkarMedicineData = [
         "Company Name": "ABBOTT HEALTHCARE (GENERAL MEDICINE)"
     },
     {
-        "Product Name": "LIBRIUM 20MG TAB",
-        "Pack": "15S",
-        "Company Name": "ABBOTT HEALTHCARE (GENERAL MEDICINE)"
-    },
-    {
         "Product Name": "PHENERGAN 10MG TAB",
         "Pack": "10 TAB",
         "Company Name": "ABBOTT HEALTHCARE (GENERAL MEDICINE)"
@@ -1095,6 +1093,11 @@ const navkarMedicineData = [
         "Company Name": "ABBOTT HEALTHCARE (GENERAL MEDICINE)"
     },
     {
+        "Product Name": "PHENERGAN COLD SALE TAB",
+        "Pack": "6TAB",
+        "Company Name": "ABBOTT HEALTHCARE (GENERAL MEDICINE)"
+    },
+    {
         "Product Name": "PHENERGAN INJ",
         "Pack": "2ML",
         "Company Name": "ABBOTT HEALTHCARE (GENERAL MEDICINE)"
@@ -1102,11 +1105,6 @@ const navkarMedicineData = [
     {
         "Product Name": "PHENERGAN SYP 100ML",
         "Pack": "100ML",
-        "Company Name": "ABBOTT HEALTHCARE (GENERAL MEDICINE)"
-    },
-    {
-        "Product Name": "RIVAXA 10 TAB",
-        "Pack": "15 TAB",
         "Company Name": "ABBOTT HEALTHCARE (GENERAL MEDICINE)"
     },
     {
@@ -1370,13 +1368,13 @@ const navkarMedicineData = [
         "Company Name": "FLAGYL 200MG TAB"
     },
     {
-        "Product Name": "PHENERGAN COLD SALE TAB",
-        "Pack": "6TAB",
+        "Product Name": "RASHFREE CREAM 30GM",
+        "Pack": "30GM",
         "Company Name": "FLAGYL 200MG TAB"
     },
     {
-        "Product Name": "RASHFREE CREAM 30GM",
-        "Pack": "30GM",
+        "Product Name": "RIVAXA 10 TAB",
+        "Pack": "15 TAB",
         "Company Name": "FLAGYL 200MG TAB"
     },
     {
@@ -1772,6 +1770,11 @@ const navkarMedicineData = [
     {
         "Product Name": "KETOF DT TAB",
         "Pack": "TAB",
+        "Company Name": "ABBOTT HELTHCARE (OROCARE)"
+    },
+    {
+        "Product Name": "LIBRIUM 20MG TAB",
+        "Pack": "15S",
         "Company Name": "ABBOTT HELTHCARE (OROCARE)"
     },
     {
@@ -8970,11 +8973,6 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LAB (GASTOKEM)"
     },
     {
-        "Product Name": "HEPAGLIDE 1MG INJ",
-        "Pack": "INJ",
-        "Company Name": "ALKEM LAB (GASTOKEM)"
-    },
-    {
         "Product Name": "HEPAGLIDE 2.4MG INJ",
         "Pack": "INJ",
         "Company Name": "ALKEM LAB (GASTOKEM)"
@@ -10322,6 +10320,11 @@ const navkarMedicineData = [
     {
         "Product Name": "EMPANORM M 5/500 TAB",
         "Pack": "10TAB",
+        "Company Name": "ALKEM LABORATORIES LIMITED"
+    },
+    {
+        "Product Name": "FORTISIL SUNSCREEN SPF 50",
+        "Pack": "50G",
         "Company Name": "ALKEM LABORATORIES LIMITED"
     },
     {
@@ -12431,6 +12434,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "ALTEUS SACV-50",
+        "Pack": "15TAB",
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD"
+    },
+    {
+        "Product Name": "ALTONIL PLUS 10MG TAB",
         "Pack": "15TAB",
         "Company Name": "ALTEUS BIOGENICS PVT. LTD"
     },
@@ -33250,6 +33258,11 @@ const navkarMedicineData = [
         "Company Name": "ELEMENT PHARMA PVT LTD"
     },
     {
+        "Product Name": "MOVECOX TAB",
+        "Pack": "10TAB",
+        "Company Name": "ELEMENT PHARMA PVT LTD"
+    },
+    {
         "Product Name": "NACDOL [MR] TAB",
         "Pack": "10 TAB",
         "Company Name": "ELEMENT PHARMA PVT LTD"
@@ -41125,6 +41138,11 @@ const navkarMedicineData = [
         "Company Name": "FINECURE PHARMACEUTICALS LTD"
     },
     {
+        "Product Name": "TELSART TRIO 12.5 TAB",
+        "Pack": "10TAB",
+        "Company Name": "FINECURE PHARMACEUTICALS LTD"
+    },
+    {
         "Product Name": "TELSART-CH 40/12.5TAB",
         "Pack": "TAB",
         "Company Name": "FINECURE PHARMACEUTICALS LTD"
@@ -42912,6 +42930,16 @@ const navkarMedicineData = [
     {
         "Product Name": "MUCOMIX 20% INJ",
         "Pack": "1 ML",
+        "Company Name": "GENERICS"
+    },
+    {
+        "Product Name": "MYCOFIT 500TAB",
+        "Pack": "10TAB",
+        "Company Name": "GENERICS"
+    },
+    {
+        "Product Name": "MYCOMUNE -S360 MG",
+        "Pack": "10TAB",
         "Company Name": "GENERICS"
     },
     {
@@ -56785,6 +56813,21 @@ const navkarMedicineData = [
         "Company Name": "INTAS PHARMACEUTICALS (PHARMA)"
     },
     {
+        "Product Name": "SEMANEO 0.25MG INJ",
+        "Pack": "1.5ML",
+        "Company Name": "INTAS PHARMACEUTICALS (PHARMA)"
+    },
+    {
+        "Product Name": "SEMANEO 0.5MG INJ",
+        "Pack": "1.5ML",
+        "Company Name": "INTAS PHARMACEUTICALS (PHARMA)"
+    },
+    {
+        "Product Name": "SEMAWIN 0.25MG INJ",
+        "Pack": "1.5ML",
+        "Company Name": "INTAS PHARMACEUTICALS (PHARMA)"
+    },
+    {
         "Product Name": "TAGON 20MG TAB",
         "Pack": "15TAB",
         "Company Name": "INTAS PHARMACEUTICALS (PHARMA)"
@@ -58172,6 +58215,26 @@ const navkarMedicineData = [
     {
         "Product Name": "REXIPRA 10MG TAB",
         "Pack": "10 TAB",
+        "Company Name": "GABAPIN 100 TAB"
+    },
+    {
+        "Product Name": "SEMAWIN 0.5MG INJ",
+        "Pack": "1.5ML",
+        "Company Name": "GABAPIN 100 TAB"
+    },
+    {
+        "Product Name": "SEMAWIN 1.7MG INJ",
+        "Pack": "3ML",
+        "Company Name": "GABAPIN 100 TAB"
+    },
+    {
+        "Product Name": "SEMAWIN 1MG INJ",
+        "Pack": "3ML",
+        "Company Name": "GABAPIN 100 TAB"
+    },
+    {
+        "Product Name": "SEMAWIN 2.4MG INJ",
+        "Pack": "3ML",
         "Company Name": "GABAPIN 100 TAB"
     },
     {
@@ -62905,11 +62968,6 @@ const navkarMedicineData = [
         "Company Name": "JAIN PHARMACEUTICALS"
     },
     {
-        "Product Name": "CARTISAFE FORTE TAB 10``S",
-        "Pack": "TAB",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
         "Product Name": "CRISBO CREAM",
         "Pack": "15 GM",
         "Company Name": "JENBURKT PHARMACEUTICALS LTD"
@@ -62942,21 +63000,6 @@ const navkarMedicineData = [
     {
         "Product Name": "TRIBEN CREAM",
         "Pack": "20GM",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "TRIBEN PLUS EAR DROP",
-        "Pack": "ML",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "ZIX RP CAP",
-        "Pack": "10CAP",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "ZYDOL P SUSP",
-        "Pack": "60ML",
         "Company Name": "JENBURKT PHARMACEUTICALS LTD"
     },
     {
@@ -63005,11 +63048,6 @@ const navkarMedicineData = [
         "Company Name": "JENBURKT(NOVA)"
     },
     {
-        "Product Name": "NERVIJEN P CAP",
-        "Pack": "10TAB",
-        "Company Name": "JENBURKT(NOVA)"
-    },
-    {
         "Product Name": "NERVIJEN P SR TAB",
         "Pack": "10 TAB",
         "Company Name": "JENBURKT(NOVA)"
@@ -63050,11 +63088,6 @@ const navkarMedicineData = [
         "Company Name": "JENBURKT(NOVA)"
     },
     {
-        "Product Name": "TRIBEN B CREAM",
-        "Pack": "20GM",
-        "Company Name": "JENBURKT(NOVA)"
-    },
-    {
         "Product Name": "TRIBEN V 7 SOFTULES",
         "Pack": "7 CAP",
         "Company Name": "JENBURKT(NOVA)"
@@ -63078,6 +63111,11 @@ const navkarMedicineData = [
         "Product Name": "ZIXFLAM FORTE TAB",
         "Pack": "10TAB",
         "Company Name": "JENBURKT(NOVA)"
+    },
+    {
+        "Product Name": "CARTISAFE FORTE TAB 10``S",
+        "Pack": "TAB",
+        "Company Name": "JENBURKT(ZORA)"
     },
     {
         "Product Name": "ECOPROT CHOCO POWDER 200GM",
@@ -63106,6 +63144,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "NERVIJEN NP TAB",
+        "Pack": "10TAB",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
+        "Product Name": "NERVIJEN P CAP",
         "Pack": "10TAB",
         "Company Name": "JENBURKT(ZORA)"
     },
@@ -63165,6 +63208,11 @@ const navkarMedicineData = [
         "Company Name": "JENBURKT(ZORA)"
     },
     {
+        "Product Name": "TRIBEN B CREAM",
+        "Pack": "20GM",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
         "Product Name": "TRIBEN DUSTING POWDER 75GM",
         "Pack": "75GM",
         "Company Name": "JENBURKT(ZORA)"
@@ -63180,6 +63228,11 @@ const navkarMedicineData = [
         "Company Name": "JENBURKT(ZORA)"
     },
     {
+        "Product Name": "TRIBEN PLUS EAR DROP",
+        "Pack": "ML",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
         "Product Name": "ZIX MR 4MG TAB",
         "Pack": "10TAB",
         "Company Name": "JENBURKT(ZORA)"
@@ -63190,6 +63243,11 @@ const navkarMedicineData = [
         "Company Name": "JENBURKT(ZORA)"
     },
     {
+        "Product Name": "ZIX RP CAP",
+        "Pack": "10CAP",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
         "Product Name": "ZIXFLAM TAB",
         "Pack": "10TAB",
         "Company Name": "JENBURKT(ZORA)"
@@ -63197,6 +63255,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ZYDOL P DS SYRUP 60ML",
         "Pack": "60 ML",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
+        "Product Name": "ZYDOL P SUSP",
+        "Pack": "60ML",
         "Company Name": "JENBURKT(ZORA)"
     },
     {
@@ -96535,6 +96598,11 @@ const navkarMedicineData = [
         "Company Name": "RANBAXY LAB (PRIMALAND)"
     },
     {
+        "Product Name": "CEBHYDRA INTENSE 300GM",
+        "Pack": "300GM",
+        "Company Name": "RANBAXY LAB (PRIMALAND)"
+    },
+    {
         "Product Name": "CEBHYDRA LOTION 250ML",
         "Pack": "250ML",
         "Company Name": "RANBAXY LAB (PRIMALAND)"
@@ -113515,6 +113583,11 @@ const navkarMedicineData = [
         "Company Name": "UNIDS HEALTHCARE PVT LTD"
     },
     {
+        "Product Name": "TELFULL 40 TAB",
+        "Pack": "10TAB",
+        "Company Name": "UNIDS HEALTHCARE PVT LTD"
+    },
+    {
         "Product Name": "TELFULL AM 5 TAB",
         "Pack": "10TAB",
         "Company Name": "UNIDS HEALTHCARE PVT LTD"
@@ -116671,6 +116744,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "CORIMINIC DROPS 15ML",
+        "Pack": "15ML",
+        "Company Name": "WANBURY LTD (MAIN)"
+    },
+    {
+        "Product Name": "CORIMINIC LS DROP",
         "Pack": "15ML",
         "Company Name": "WANBURY LTD (MAIN)"
     },
