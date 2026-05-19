@@ -1,6 +1,3 @@
-// Auto-generated file. Do not edit manually.
-// Generated from: refined_output.csv
-
 const navkarMedicineData = [
     {
         "Product Name": "DAPALEX T 10/40MG TAB",

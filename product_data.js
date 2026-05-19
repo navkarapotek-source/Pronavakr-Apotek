@@ -1,6 +1,3 @@
-// Auto-generated file. Do not edit manually.
-// Generated from: refined_output.csv
-
 const productData = [
     {
         "Product Name": "MICROPORE TAPE HALF INCH",

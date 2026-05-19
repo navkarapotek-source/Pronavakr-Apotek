@@ -1,6 +1,3 @@
-// Auto-generated file. Do not edit manually.
-// Generated from: refined_output.csv
-
 const otcData = [
     {
         "Product Name": "LADY SURE [MRP 35]",
