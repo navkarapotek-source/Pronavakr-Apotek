@@ -10,6 +10,15 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
 <style>
+  @font-face {
+    font-family: 'Adam CG Pro';
+    src: url('../fonts/AdamCGPro.woff2') format('woff2'),
+         url('../fonts/AdamCGPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
   html { overflow-x: hidden; }
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -46,7 +55,7 @@
   }
 
   .nav-brand { display: flex; flex-direction: column; }
-  .nav-brand span:first-child { font-family: 'Cormorant Garamond', serif; font-size: 18px; font-weight: 600; color: #1A9E96; }
+  .nav-brand span:first-child { font-family: 'Adam CG Pro', sans-serif; font-size: 18px; font-weight: 600; color: #1A9E96; }
   .nav-brand span:last-child { font-size: 10px; color: #F5C518; text-transform: uppercase; }
 
   .nav-links { display: flex; gap: 2rem; list-style: none; margin-left: auto; }
@@ -84,7 +93,7 @@
     display: grid; grid-template-columns: 2fr 1fr 1.5fr; gap: 4rem;
   }
   .footer-col h4 {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Adam CG Pro', sans-serif;
     font-size: 1.4rem; color: var(--accent); margin-bottom: 1.5rem;
   }
   .footer-col p { font-size: 14px; color: #bbb; line-height: 1.8; margin-bottom: 1rem; }
@@ -108,7 +117,7 @@
     text-align: center;
   }
   header.legal-header h1 {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Adam CG Pro', sans-serif;
     font-size: 3rem;
     color: #1a1a1a;
   }
@@ -128,7 +137,7 @@
   }
 
   h2 {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Adam CG Pro', sans-serif;
     font-size: 1.8rem;
     margin-bottom: 1rem;
     color: var(--navy);
@@ -139,7 +148,7 @@
   p { margin-bottom: 1.5rem; color: #444; }
   .legal-box ul { margin-bottom: 1.5rem; padding-left: 1.5rem; color: #444; }
   .legal-box ul li { margin-bottom: 0.5rem; font-size: 14px; line-height: 1.7; }
-  .legal-box h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--navy); margin-bottom: 0.75rem; margin-top: 1rem; }
+  .legal-box h3 { font-family: 'Adam CG Pro', sans-serif; font-size: 1.3rem; color: var(--navy); margin-bottom: 0.75rem; margin-top: 1rem; }
 
   .menu-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; z-index: 1001; }
   .menu-toggle span { width: 25px; height: 3px; background: #373c44; transition: 0.3s; border-radius: 2px; }
@@ -187,6 +196,7 @@
     <li><a href="../companies/">Companies</a></li>
     <li><a href="../about-us/">About</a></li>
     <li><a href="../Media & Gallery/">Gallery</a></li>
+    <li><a href="../how-to-use-app/">How to Use App</a></li>
     <li><a href="../Contact-us/">Contact</a></li>
   </ul>
   <div class="nav-actions">
@@ -205,6 +215,7 @@
     <li><a href="../companies/" onclick="toggleMenu()">Companies</a></li>
     <li><a href="../about-us/" onclick="toggleMenu()">About</a></li>
     <li><a href="../Media & Gallery/" onclick="toggleMenu()">Gallery</a></li>
+    <li><a href="../how-to-use-app/" onclick="toggleMenu()">How to Use App</a></li>
     <li><a href="../Contact-us/" onclick="toggleMenu()">Contact</a></li>
     <li><a href="../login/" onclick="toggleMenu()">Login</a></li>
   </ul>

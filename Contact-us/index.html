@@ -11,6 +11,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
 
 <style>
+  @font-face {
+    font-family: 'Adam CG Pro';
+    src: url('../fonts/AdamCGPro.woff2') format('woff2'),
+         url('../fonts/AdamCGPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
   html { overflow-x: hidden; }
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -57,7 +66,7 @@
     display: flex; flex-direction: column;
   }
   .nav-brand span:first-child {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Adam CG Pro', sans-serif;
     font-size: 18px; font-weight: 600; color: #1A9E96;
   }
   .nav-brand span:last-child {
@@ -137,7 +146,7 @@
     opacity: 0.3;
   }
   .hero h1 {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Adam CG Pro', sans-serif;
     font-size: clamp(2rem, 4vw, 3rem);
     font-weight: 600; color: #1a1a1a;
     line-height: 1.2;
@@ -159,7 +168,7 @@
     max-width: 1100px; margin: 0 auto; padding: 2rem;
   }
   .section-title {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Adam CG Pro', sans-serif;
     font-size: 1.5rem; color: var(--navy);
     margin-bottom: 1.5rem;
     padding-bottom: 0.75rem;
@@ -337,7 +346,7 @@
     display: grid; grid-template-columns: 2fr 1fr 1.5fr; gap: 4rem;
   }
   .footer-col h4 {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Adam CG Pro', sans-serif;
     font-size: 1.4rem; color: var(--accent); margin-bottom: 1.5rem;
   }
   .footer-col p { font-size: 14px; color: #bbb; line-height: 1.8; margin-bottom: 1rem; }
@@ -417,6 +426,7 @@
     <li><a href="../companies/">Companies</a></li>
     <li><a href="../about-us/">About</a></li>
     <li><a href="../Media & Gallery/">Gallery</a></li>
+    <li><a href="../how-to-use-app/">How to Use App</a></li>
     <li><a href="./" class="active">Contact</a></li>
   </ul>
   <div class="nav-actions">
@@ -435,6 +445,7 @@
     <li><a href="../companies/" onclick="toggleMenu()">Companies</a></li>
     <li><a href="../about-us/" onclick="toggleMenu()">About</a></li>
     <li><a href="../Media & Gallery/" onclick="toggleMenu()">Gallery</a></li>
+    <li><a href="../how-to-use-app/" onclick="toggleMenu()">How to Use App</a></li>
     <li><a href="./" onclick="toggleMenu()">Contact</a></li>
     <li><a href="../login/" onclick="toggleMenu()">Login</a></li>
   </ul>
