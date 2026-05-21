@@ -1,3 +1,6 @@
+// Auto-generated file. Do not edit manually.
+// Generated from: refined_output.csv
+
 const productData = [
     {
         "Product Name": "MICROPORE TAPE HALF INCH",
@@ -6655,6 +6658,11 @@ const productData = [
         "Company Name": "DR.MOREPEN LABORATORIES LTD"
     },
     {
+        "Product Name": "DR.MOREPEN SAFARI BAG",
+        "Pack": "1",
+        "Company Name": "DR.MOREPEN LABORATORIES LTD"
+    },
+    {
         "Product Name": "ECOSOOTH SACHET (1GM0",
         "Pack": "1GM",
         "Company Name": "DR.MOREPEN LABORATORIES LTD"
@@ -9685,6 +9693,11 @@ const productData = [
         "Company Name": "GENERAL COMPANIES"
     },
     {
+        "Product Name": "KETOBAN Z SHAMPOO 7ML (ANTIDANDRUFF)",
+        "Pack": "7ML",
+        "Company Name": "GENERAL COMPANIES"
+    },
+    {
         "Product Name": "KOJICID FACE WASH",
         "Pack": "70ML",
         "Company Name": "GENERAL COMPANIES"
@@ -9840,6 +9853,11 @@ const productData = [
         "Company Name": "GENERAL COMPANIES"
     },
     {
+        "Product Name": "SENSAS HAIR REMOVAL CREAM",
+        "Pack": "50GM",
+        "Company Name": "GENERAL COMPANIES"
+    },
+    {
         "Product Name": "SOFTAMYCITIN APPLICAP BLISTER",
         "Pack": "1X10C",
         "Company Name": "GENERAL COMPANIES"
@@ -9952,6 +9970,11 @@ const productData = [
     {
         "Product Name": "WALL MUNTING CHAMOD",
         "Pack": "PIC",
+        "Company Name": "GENERAL COMPANIES"
+    },
+    {
+        "Product Name": "WELL BUDS PAPER STICK POUCH",
+        "Pack": "100",
         "Company Name": "GENERAL COMPANIES"
     },
     {
@@ -10165,8 +10188,23 @@ const productData = [
         "Company Name": "GLENMARK PHARMACEUTICALS LTD"
     },
     {
+        "Product Name": "GLENMARK BOWL SET",
+        "Pack": "1",
+        "Company Name": "GLENMARK PHARMACEUTICALS LTD"
+    },
+    {
         "Product Name": "GLENMARK DABUR GULABARI 30ML",
         "Pack": "30ML",
+        "Company Name": "GLENMARK PHARMACEUTICALS LTD"
+    },
+    {
+        "Product Name": "GLENMARK STEEL BOTTLE",
+        "Pack": "1",
+        "Company Name": "GLENMARK PHARMACEUTICALS LTD"
+    },
+    {
+        "Product Name": "GLENMARK WATER BOTTLE",
+        "Pack": "1",
         "Company Name": "GLENMARK PHARMACEUTICALS LTD"
     },
     {
@@ -11345,7 +11383,7 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
-        "Product Name": "HEALING BASMATI RICE (PACK OF 2) LAL QILLA",
+        "Product Name": "HEALING BASMATI RICE LAL QILLA",
         "Pack": "-",
         "Company Name": "HEALING PHARMA"
     },
@@ -26825,7 +26863,7 @@ const productData = [
         "Company Name": "ALKAFRESH SODA EFFERVESCENT"
     },
     {
-        "Product Name": "CLAVCREST 625 TAB48",
+        "Product Name": "CLAVCREST 625 TAB",
         "Pack": "6TAB",
         "Company Name": "ALKAFRESH SODA EFFERVESCENT"
     },
@@ -29973,6 +30011,11 @@ const productData = [
         "Product Name": "SOFRAXINE-DX CREAM",
         "Pack": "1X15GM",
         "Company Name": "UNIVERSAL LIFESCIENCE"
+    },
+    {
+        "Product Name": "AKNIRED 3D",
+        "Pack": "20GM",
+        "Company Name": "UNIVERSAL PHARMA"
     },
     {
         "Product Name": "CEBATE GM-ACTIVE-10GM",

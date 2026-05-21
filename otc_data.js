@@ -1,3 +1,6 @@
+// Auto-generated file. Do not edit manually.
+// Generated from: refined_output.csv
+
 const otcData = [
     {
         "Product Name": "LADY SURE [MRP 35]",
@@ -2370,11 +2373,6 @@ const otcData = [
         "Company Name": "GENERAL...A"
     },
     {
-        "Product Name": "ROGHAN SUKOON [50ML]",
-        "Pack": "50ML",
-        "Company Name": "GENERAL...A"
-    },
-    {
         "Product Name": "SIZER OIL",
         "Pack": "50ML",
         "Company Name": "GENERAL...A"
@@ -2447,11 +2445,6 @@ const otcData = [
     {
         "Product Name": "WARTOSIN",
         "Pack": "3ML",
-        "Company Name": "GENERAL...A"
-    },
-    {
-        "Product Name": "ZADPOLA [50GM]",
-        "Pack": "50GM",
         "Company Name": "GENERAL...A"
     },
     {
@@ -6220,6 +6213,11 @@ const otcData = [
         "Company Name": "SHRIRAMA STORES YELLAPUR"
     },
     {
+        "Product Name": "ROGHAN SUKOON [50ML]",
+        "Pack": "50ML",
+        "Company Name": "SHRIRAMA STORES YELLAPUR"
+    },
+    {
         "Product Name": "SAFI SYP [100ML]",
         "Pack": "100ML",
         "Company Name": "SHRIRAMA STORES YELLAPUR"
@@ -6352,6 +6350,11 @@ const otcData = [
     {
         "Product Name": "VICKS VAPORUB [5GM]",
         "Pack": "5GM",
+        "Company Name": "SHRIRAMA STORES YELLAPUR"
+    },
+    {
+        "Product Name": "ZADPOLA [50GM]",
+        "Pack": "50GM",
         "Company Name": "SHRIRAMA STORES YELLAPUR"
     },
     {

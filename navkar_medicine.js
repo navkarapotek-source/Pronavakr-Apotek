@@ -1,3 +1,6 @@
+// Auto-generated file. Do not edit manually.
+// Generated from: refined_output.csv
+
 const navkarMedicineData = [
     {
         "Product Name": "DAPALEX T 10/40MG TAB",
@@ -12010,6 +12013,11 @@ const navkarMedicineData = [
         "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
     },
     {
+        "Product Name": "CLION 10 TAB",
+        "Pack": "15TAB",
+        "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
+    },
+    {
         "Product Name": "DEFLAMAX 6 MG TAB",
         "Pack": "10 TAB",
         "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
@@ -12090,6 +12098,11 @@ const navkarMedicineData = [
         "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
     },
     {
+        "Product Name": "MAXDOPA 62.5 TAB",
+        "Pack": "15TAB",
+        "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
+    },
+    {
         "Product Name": "METLIN 50 TAB",
         "Pack": "10 TAB",
         "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
@@ -12140,6 +12153,11 @@ const navkarMedicineData = [
         "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
     },
     {
+        "Product Name": "NALTRAX 50",
+        "Pack": "10TAB",
+        "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
+    },
+    {
         "Product Name": "NURO BETA 10MG TAB",
         "Pack": "15TAB",
         "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
@@ -12185,6 +12203,11 @@ const navkarMedicineData = [
         "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
     },
     {
+        "Product Name": "PRO CD 5 TAB",
+        "Pack": "15TAB",
+        "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
+    },
+    {
         "Product Name": "SOMATRAN N",
         "Pack": "4TAB",
         "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
@@ -12217,6 +12240,11 @@ const navkarMedicineData = [
     {
         "Product Name": "APOTAB 3MG TAB",
         "Pack": "10 TAB",
+        "Company Name": "ALTEUS BIOGENICS PVT LTD (PAXONIL)"
+    },
+    {
+        "Product Name": "ATOMAX 333 TAB",
+        "Pack": "15TAB",
         "Company Name": "ALTEUS BIOGENICS PVT LTD (PAXONIL)"
     },
     {
@@ -12427,6 +12455,11 @@ const navkarMedicineData = [
     {
         "Product Name": "SEROPAX 25",
         "Pack": "15TAB",
+        "Company Name": "ALTEUS BIOGENICS PVT LTD (PAXONIL)"
+    },
+    {
+        "Product Name": "VFAX 75 CAP",
+        "Pack": "15CAP",
         "Company Name": "ALTEUS BIOGENICS PVT LTD (PAXONIL)"
     },
     {
@@ -18880,7 +18913,7 @@ const navkarMedicineData = [
         "Company Name": "BLUE CROSS LIFE SCIENCES"
     },
     {
-        "Product Name": "PROGLIF L 25 TAB",
+        "Product Name": "PROGLIF L 25/5  TAB",
         "Pack": "15TAB",
         "Company Name": "BLUE CROSS LIFE SCIENCES"
     },
@@ -30755,109 +30788,114 @@ const navkarMedicineData = [
         "Company Name": "DR REDDYS LAB GRAND ERA"
     },
     {
+        "Product Name": "ATARAX 25 TAB",
+        "Pack": "15 TAB",
+        "Company Name": "DR REDDYS LAB GRAND ERA"
+    },
+    {
         "Product Name": "ATARAX ANTI ITCH LOTION",
         "Pack": "100ML",
-        "Company Name": "ATARAX 25 TAB"
+        "Company Name": "DR REDDYS LAB GRAND ERA"
     },
     {
         "Product Name": "ATARAX CREAM",
         "Pack": "100 GM",
-        "Company Name": "ATARAX 25 TAB"
+        "Company Name": "DR REDDYS LAB GRAND ERA"
     },
     {
         "Product Name": "ATARAX DROPS",
         "Pack": "15ML",
-        "Company Name": "ATARAX 25 TAB"
+        "Company Name": "DR REDDYS LAB GRAND ERA"
     },
     {
         "Product Name": "ATARAX SR 50 TAB",
         "Pack": "15 TAB",
-        "Company Name": "ATARAX 25 TAB"
+        "Company Name": "DR REDDYS LAB GRAND ERA"
     },
     {
         "Product Name": "ATARAX SYRUP",
         "Pack": "100ML",
-        "Company Name": "ATARAX 25 TAB"
+        "Company Name": "DR REDDYS LAB GRAND ERA"
     },
     {
         "Product Name": "DILIGAN 25MG TAB",
         "Pack": "TAB",
-        "Company Name": "ATARAX 25 TAB"
+        "Company Name": "DR REDDYS LAB GRAND ERA"
     },
     {
         "Product Name": "STUGERON 25 TAB",
         "Pack": "25TAB",
-        "Company Name": "ATARAX 25 TAB"
+        "Company Name": "DR REDDYS LAB GRAND ERA"
     },
     {
         "Product Name": "STUGERON FORTE TAB",
         "Pack": "25TAB",
-        "Company Name": "ATARAX 25 TAB"
+        "Company Name": "DR REDDYS LAB GRAND ERA"
     },
     {
         "Product Name": "STUGERON PLUS TAB",
         "Pack": "10TAB",
-        "Company Name": "ATARAX 25 TAB"
+        "Company Name": "DR REDDYS LAB GRAND ERA"
     },
     {
         "Product Name": "VISCODYNE COUGH SYP 100ML",
         "Pack": "100ML",
-        "Company Name": "ATARAX 25 TAB"
+        "Company Name": "DR REDDYS LAB GRAND ERA"
     },
     {
         "Product Name": "VISCODYNE DP SYP",
         "Pack": "100ML",
-        "Company Name": "ATARAX 25 TAB"
+        "Company Name": "DR REDDYS LAB GRAND ERA"
     },
     {
         "Product Name": "VISCODYNE LS EXPT",
         "Pack": "100 ML",
-        "Company Name": "ATARAX 25 TAB"
+        "Company Name": "DR REDDYS LAB GRAND ERA"
     },
     {
         "Product Name": "XYZAL 5MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "ATARAX 25 TAB"
+        "Company Name": "DR REDDYS LAB GRAND ERA"
     },
     {
         "Product Name": "XYZAL M KID DT TAB",
         "Pack": "TAB",
-        "Company Name": "ATARAX 25 TAB"
+        "Company Name": "DR REDDYS LAB GRAND ERA"
     },
     {
         "Product Name": "XYZAL M SYP",
         "Pack": "60ML",
-        "Company Name": "ATARAX 25 TAB"
+        "Company Name": "DR REDDYS LAB GRAND ERA"
     },
     {
         "Product Name": "XYZAL M TAB",
         "Pack": "15 TAB",
-        "Company Name": "ATARAX 25 TAB"
+        "Company Name": "DR REDDYS LAB GRAND ERA"
     },
     {
         "Product Name": "XYZAL UC CREAM 50 GM",
         "Pack": "50 GM",
-        "Company Name": "ATARAX 25 TAB"
+        "Company Name": "DR REDDYS LAB GRAND ERA"
     },
     {
         "Product Name": "ZYRCOLD SYP",
         "Pack": "100ML",
-        "Company Name": "ATARAX 25 TAB"
+        "Company Name": "DR REDDYS LAB GRAND ERA"
     },
     {
         "Product Name": "ZYRCOLD TAB 10`S",
         "Pack": "TAB",
-        "Company Name": "ATARAX 25 TAB"
+        "Company Name": "DR REDDYS LAB GRAND ERA"
     },
     {
         "Product Name": "ZYRTEC 10MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "ATARAX 25 TAB"
+        "Company Name": "DR REDDYS LAB GRAND ERA"
     },
     {
         "Product Name": "ZYRTEC DROPS",
         "Pack": "10ML",
-        "Company Name": "ATARAX 25 TAB"
+        "Company Name": "DR REDDYS LAB GRAND ERA"
     },
     {
         "Product Name": "CELEVIDA CHOCO  POWDER",
@@ -62970,11 +63008,6 @@ const navkarMedicineData = [
         "Company Name": "JENBURKT PHARMACEUTICALS LTD"
     },
     {
-        "Product Name": "NERVIJEN PLUS CAP",
-        "Pack": "10CAP",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
         "Product Name": "TRIBEN [XT] CREAM",
         "Pack": "15GM",
         "Company Name": "JENBURKT PHARMACEUTICALS LTD"
@@ -62992,11 +63025,6 @@ const navkarMedicineData = [
     {
         "Product Name": "TRIBEN CN CREAM",
         "Pack": "15GM",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "TRIBEN CREAM",
-        "Pack": "20GM",
         "Company Name": "JENBURKT PHARMACEUTICALS LTD"
     },
     {
@@ -63045,6 +63073,11 @@ const navkarMedicineData = [
         "Company Name": "JENBURKT(NOVA)"
     },
     {
+        "Product Name": "NERVIJEN P CAP",
+        "Pack": "10TAB",
+        "Company Name": "JENBURKT(NOVA)"
+    },
+    {
         "Product Name": "NERVIJEN P SR TAB",
         "Pack": "10 TAB",
         "Company Name": "JENBURKT(NOVA)"
@@ -63082,6 +63115,11 @@ const navkarMedicineData = [
     {
         "Product Name": "TRIBEN AD",
         "Pack": "75 ML",
+        "Company Name": "JENBURKT(NOVA)"
+    },
+    {
+        "Product Name": "TRIBEN B CREAM",
+        "Pack": "20GM",
         "Company Name": "JENBURKT(NOVA)"
     },
     {
@@ -63145,8 +63183,8 @@ const navkarMedicineData = [
         "Company Name": "JENBURKT(ZORA)"
     },
     {
-        "Product Name": "NERVIJEN P CAP",
-        "Pack": "10TAB",
+        "Product Name": "NERVIJEN PLUS CAP",
+        "Pack": "10CAP",
         "Company Name": "JENBURKT(ZORA)"
     },
     {
@@ -63205,7 +63243,7 @@ const navkarMedicineData = [
         "Company Name": "JENBURKT(ZORA)"
     },
     {
-        "Product Name": "TRIBEN B CREAM",
+        "Product Name": "TRIBEN CREAM",
         "Pack": "20GM",
         "Company Name": "JENBURKT(ZORA)"
     },
@@ -85840,6 +85878,61 @@ const navkarMedicineData = [
         "Company Name": "PRICOX MR TAB"
     },
     {
+        "Product Name": "CILDIP 10MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "MEDLEY [METAKARE]"
+    },
+    {
+        "Product Name": "CILDIP 20MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "MEDLEY [METAKARE]"
+    },
+    {
+        "Product Name": "CILDIP 3D TAB",
+        "Pack": "10 TAB",
+        "Company Name": "MEDLEY [METAKARE]"
+    },
+    {
+        "Product Name": "CILDIP 5MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "MEDLEY [METAKARE]"
+    },
+    {
+        "Product Name": "CILDIP T TAB",
+        "Pack": "10TAB",
+        "Company Name": "MEDLEY [METAKARE]"
+    },
+    {
+        "Product Name": "EMPACT 10MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "MEDLEY [METAKARE]"
+    },
+    {
+        "Product Name": "EMPACT 25MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "MEDLEY [METAKARE]"
+    },
+    {
+        "Product Name": "EMPACT L 10/5MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "MEDLEY [METAKARE]"
+    },
+    {
+        "Product Name": "EMPACT L 25/5MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "MEDLEY [METAKARE]"
+    },
+    {
+        "Product Name": "EMPACT M 12.5/1000MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "MEDLEY [METAKARE]"
+    },
+    {
+        "Product Name": "EMPACT M 12.5/500 MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "MEDLEY [METAKARE]"
+    },
+    {
         "Product Name": "ACENAC MR TAB 10`S",
         "Pack": "TAB",
         "Company Name": "MEDLEY PHARMACEUTICAL PVT LTD"
@@ -85897,11 +85990,6 @@ const navkarMedicineData = [
     {
         "Product Name": "BETABEST XL 50MG TAB 10`S",
         "Pack": "10 TAB",
-        "Company Name": "MEDLEY PHARMACEUTICAL PVT LTD"
-    },
-    {
-        "Product Name": "CILDIP T TAB",
-        "Pack": "10TAB",
         "Company Name": "MEDLEY PHARMACEUTICAL PVT LTD"
     },
     {
@@ -86175,16 +86263,6 @@ const navkarMedicineData = [
         "Company Name": "MEDLEY PHARMACEUTICALS LTD (NUTRAKARE)"
     },
     {
-        "Product Name": "EMPACT L 10/5MG TAB",
-        "Pack": "10TAB",
-        "Company Name": "MEDLEY PHARMACEUTICALS LTD (OTC)"
-    },
-    {
-        "Product Name": "EMPACT L 25/5MG TAB",
-        "Pack": "10TAB",
-        "Company Name": "MEDLEY PHARMACEUTICALS LTD (OTC)"
-    },
-    {
         "Product Name": "ACENAC SR TAB 10``S",
         "Pack": "TAB",
         "Company Name": "MEDLEY PHARMACEUTICALS LTD (SUPRACARE)"
@@ -86201,16 +86279,6 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "DOMPAN TAB",
-        "Pack": "10TAB",
-        "Company Name": "MEDLEY PHARMACEUTICALS LTD (SUPRACARE)"
-    },
-    {
-        "Product Name": "EMPACT 25MG TAB",
-        "Pack": "10TAB",
-        "Company Name": "MEDLEY PHARMACEUTICALS LTD (SUPRACARE)"
-    },
-    {
-        "Product Name": "EMPACT M 12.5/500 MG TAB",
         "Pack": "10TAB",
         "Company Name": "MEDLEY PHARMACEUTICALS LTD (SUPRACARE)"
     },
@@ -86250,38 +86318,8 @@ const navkarMedicineData = [
         "Company Name": "MEDLEY PHARMACEUTICALS LTD (SUPRACARE)"
     },
     {
-        "Product Name": "CILDIP 10MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "MEDLEY PHARMACEUTICALS LTD (VAZOKARE)"
-    },
-    {
-        "Product Name": "CILDIP 20MG TAB",
-        "Pack": "10TAB",
-        "Company Name": "MEDLEY PHARMACEUTICALS LTD (VAZOKARE)"
-    },
-    {
-        "Product Name": "CILDIP 3D TAB",
-        "Pack": "10 TAB",
-        "Company Name": "MEDLEY PHARMACEUTICALS LTD (VAZOKARE)"
-    },
-    {
-        "Product Name": "CILDIP 5MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "MEDLEY PHARMACEUTICALS LTD (VAZOKARE)"
-    },
-    {
         "Product Name": "DAPANOVA SM 500 TAB",
         "Pack": "15 TAB",
-        "Company Name": "MEDLEY PHARMACEUTICALS LTD (VAZOKARE)"
-    },
-    {
-        "Product Name": "EMPACT 10MG TAB",
-        "Pack": "10TAB",
-        "Company Name": "MEDLEY PHARMACEUTICALS LTD (VAZOKARE)"
-    },
-    {
-        "Product Name": "EMPACT M 12.5/1000MG TAB",
-        "Pack": "10TAB",
         "Company Name": "MEDLEY PHARMACEUTICALS LTD (VAZOKARE)"
     },
     {
@@ -87725,104 +87763,109 @@ const navkarMedicineData = [
         "Company Name": "MEYER ORGANICS (EXCEL)"
     },
     {
+        "Product Name": "IMMUNACE FORTE TAB",
+        "Pack": "30'S",
+        "Company Name": "MEYER ORGANICS (EXCEL)"
+    },
+    {
         "Product Name": "IMMUNACE LIQUID",
         "Pack": "200ML",
-        "Company Name": "IMMUNACE FORTE TAB"
+        "Company Name": "MEYER ORGANICS (EXCEL)"
     },
     {
         "Product Name": "IMMUNACE TAB",
         "Pack": "6TAB",
-        "Company Name": "IMMUNACE FORTE TAB"
+        "Company Name": "MEYER ORGANICS (EXCEL)"
     },
     {
         "Product Name": "JOINTACE C2 PLUS TAB",
         "Pack": "10TAB",
-        "Company Name": "IMMUNACE FORTE TAB"
+        "Company Name": "MEYER ORGANICS (EXCEL)"
     },
     {
         "Product Name": "JOINTACE C2 TAB",
         "Pack": "TAB",
-        "Company Name": "IMMUNACE FORTE TAB"
+        "Company Name": "MEYER ORGANICS (EXCEL)"
     },
     {
         "Product Name": "JOINTACE CAL TAB",
         "Pack": "10TAB",
-        "Company Name": "IMMUNACE FORTE TAB"
+        "Company Name": "MEYER ORGANICS (EXCEL)"
     },
     {
         "Product Name": "JOINTACE DN TAB",
         "Pack": "15TAB",
-        "Company Name": "IMMUNACE FORTE TAB"
+        "Company Name": "MEYER ORGANICS (EXCEL)"
     },
     {
         "Product Name": "JOINTACE EMULGEL",
         "Pack": "30 GM",
-        "Company Name": "IMMUNACE FORTE TAB"
+        "Company Name": "MEYER ORGANICS (EXCEL)"
     },
     {
         "Product Name": "JOINTACE OD TAB",
         "Pack": "15TAB",
-        "Company Name": "IMMUNACE FORTE TAB"
+        "Company Name": "MEYER ORGANICS (EXCEL)"
     },
     {
         "Product Name": "JOINTACE SPRAY",
         "Pack": "30GM",
-        "Company Name": "IMMUNACE FORTE TAB"
+        "Company Name": "MEYER ORGANICS (EXCEL)"
     },
     {
         "Product Name": "JOINTACE TAB",
         "Pack": "15TAB",
-        "Company Name": "IMMUNACE FORTE TAB"
+        "Company Name": "MEYER ORGANICS (EXCEL)"
     },
     {
         "Product Name": "JOINTACE TRIO CAP",
         "Pack": "10CAP",
-        "Company Name": "IMMUNACE FORTE TAB"
+        "Company Name": "MEYER ORGANICS (EXCEL)"
     },
     {
         "Product Name": "LIVERIL TAB",
         "Pack": "15TAB",
-        "Company Name": "IMMUNACE FORTE TAB"
+        "Company Name": "MEYER ORGANICS (EXCEL)"
     },
     {
         "Product Name": "NEORELAX MR 4MG TAB",
         "Pack": "TAB",
-        "Company Name": "IMMUNACE FORTE TAB"
+        "Company Name": "MEYER ORGANICS (EXCEL)"
     },
     {
         "Product Name": "NEORELAX MR 8MG TAB",
         "Pack": "TAB",
-        "Company Name": "IMMUNACE FORTE TAB"
+        "Company Name": "MEYER ORGANICS (EXCEL)"
     },
     {
         "Product Name": "NEORELAX P TAB",
         "Pack": "10 TAB",
-        "Company Name": "IMMUNACE FORTE TAB"
+        "Company Name": "MEYER ORGANICS (EXCEL)"
     },
     {
         "Product Name": "NEORELAX SP TAB",
         "Pack": "10 TAB",
-        "Company Name": "IMMUNACE FORTE TAB"
+        "Company Name": "MEYER ORGANICS (EXCEL)"
     },
     {
         "Product Name": "TENDOEASE TAB",
         "Pack": "10 CAP",
-        "Company Name": "IMMUNACE FORTE TAB"
+        "Company Name": "MEYER ORGANICS (EXCEL)"
     },
     {
         "Product Name": "TOFAMEYER 11MG TAB",
         "Pack": "10TAB",
-        "Company Name": "IMMUNACE FORTE TAB"
+        "Company Name": "MEYER ORGANICS (EXCEL)"
     },
     {
         "Product Name": "TOFAMEYER 5MG TAB",
         "Pack": "10TAB",
-        "Company Name": "IMMUNACE FORTE TAB"
+        "Company Name": "MEYER ORGANICS (EXCEL)"
     },
     {
         "Product Name": "UGESIC 20MG TAB",
         "Pack": "15TAB",
-        "Company Name": "IMMUNACE FORTE TAB"
+        "Company Name": "MEYER ORGANICS (EXCEL)"
     },
     {
         "Product Name": "BABYGESIC 250 MG SUSP",

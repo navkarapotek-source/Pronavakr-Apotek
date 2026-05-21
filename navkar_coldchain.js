@@ -1,3 +1,6 @@
+// Auto-generated file. Do not edit manually.
+// Generated from: refined_output.csv
+
 const navkarColdchainData = [
     {
         "Product Name": "ICIKINASE 1.5 INJ",
