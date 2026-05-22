@@ -1,3 +1,6 @@
+// Auto-generated file. Do not edit manually.
+// Generated from: refined_output.csv
+
 const productData = [
     {
         "Product Name": "MICROPORE TAPE HALF INCH",
@@ -2041,6 +2044,11 @@ const productData = [
     },
     {
         "Product Name": "BISACAN SUPPOSITORIES 10MG",
+        "Pack": "1X5PCS",
+        "Company Name": "AMERICAN REMEDIES HEALTHCARE PVT.LTD."
+    },
+    {
+        "Product Name": "BISACAN SUPPOSITORIES 5MG",
         "Pack": "1X5PCS",
         "Company Name": "AMERICAN REMEDIES HEALTHCARE PVT.LTD."
     },
@@ -9690,11 +9698,6 @@ const productData = [
         "Company Name": "GENERAL COMPANIES"
     },
     {
-        "Product Name": "KETOBAN Z SHAMPOO 7ML (ANTIDANDRUFF)",
-        "Pack": "7ML",
-        "Company Name": "GENERAL COMPANIES"
-    },
-    {
         "Product Name": "KOJICID FACE WASH",
         "Pack": "70ML",
         "Company Name": "GENERAL COMPANIES"
@@ -9850,11 +9853,6 @@ const productData = [
         "Company Name": "GENERAL COMPANIES"
     },
     {
-        "Product Name": "SENSAS HAIR REMOVAL CREAM",
-        "Pack": "50GM",
-        "Company Name": "GENERAL COMPANIES"
-    },
-    {
         "Product Name": "SOFTAMYCITIN APPLICAP BLISTER",
         "Pack": "1X10C",
         "Company Name": "GENERAL COMPANIES"
@@ -9967,11 +9965,6 @@ const productData = [
     {
         "Product Name": "WALL MUNTING CHAMOD",
         "Pack": "PIC",
-        "Company Name": "GENERAL COMPANIES"
-    },
-    {
-        "Product Name": "WELL BUDS PAPER STICK POUCH",
-        "Pack": "100",
         "Company Name": "GENERAL COMPANIES"
     },
     {
@@ -12230,6 +12223,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "ORTHOJOINT 1500 TAB",
+        "Pack": "15TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "ORTHOJOINT OIL 60ML",
         "Pack": "60ML",
         "Company Name": "HEALING PHARMA"
@@ -12396,6 +12394,11 @@ const productData = [
     },
     {
         "Product Name": "PREGARICA 300 CAP",
+        "Pack": "10CAP",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "PREGARICA 75 CAP",
         "Pack": "10CAP",
         "Company Name": "HEALING PHARMA"
     },
@@ -18835,6 +18838,11 @@ const productData = [
         "Company Name": "LUPIN LIFESCIENCES LIMITED"
     },
     {
+        "Product Name": "LUPIN TOWEL",
+        "Pack": "PC",
+        "Company Name": "LUPIN LIFESCIENCES LIMITED"
+    },
+    {
         "Product Name": "LUPIN UMBRELLA",
         "Pack": "100",
         "Company Name": "LUPIN LIFESCIENCES LIMITED"
@@ -24528,6 +24536,21 @@ const productData = [
         "Product Name": "AB COTTON 200GM SHIVANI",
         "Pack": "200GM",
         "Company Name": "SHIVANI MEDIPRO PVT.LTD"
+    },
+    {
+        "Product Name": "KETOBAN Z SHAMPOO 7ML (ANTIDANDRUFF)",
+        "Pack": "7ML",
+        "Company Name": "SHREE SWAMI SAMARTH AGENCIES"
+    },
+    {
+        "Product Name": "SENSAS HAIR REMOVAL CREAM",
+        "Pack": "50GM",
+        "Company Name": "SHREE SWAMI SAMARTH AGENCIES"
+    },
+    {
+        "Product Name": "WELL BUDS PAPER STICK POUCH",
+        "Pack": "100PCS",
+        "Company Name": "SHREE SWAMI SAMARTH AGENCIES"
     },
     {
         "Product Name": "SABURI (GIFT) LOOKMANYA HAYAT TEL 25ML",

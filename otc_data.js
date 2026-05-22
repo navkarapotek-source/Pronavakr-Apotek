@@ -1,3 +1,6 @@
+// Auto-generated file. Do not edit manually.
+// Generated from: refined_output.csv
+
 const otcData = [
     {
         "Product Name": "LADY SURE [MRP 35]",
@@ -56,6 +59,11 @@ const otcData = [
     },
     {
         "Product Name": "ENSURE VANILA 375GM [REFIL]",
+        "Pack": "375GM",
+        "Company Name": "ABBOTT INDIA (NUTRITION)"
+    },
+    {
+        "Product Name": "ENSURE VANILA 375GM [TIN]",
         "Pack": "375GM",
         "Company Name": "ABBOTT INDIA (NUTRITION)"
     },
