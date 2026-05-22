@@ -44,7 +44,7 @@
     font-family: 'DM Sans', sans-serif;
     background: var(--warm-white);
     color: var(--text);
-    line-height: 1.6;
+    line-height: 1.4; /* reduced from 1.6 */
     overflow-x: hidden;
     width: 100%;
     max-width: 100%;
@@ -68,15 +68,19 @@
   .nav-brand span:first-child {
     font-family: 'Adam CG Pro', sans-serif;
     font-size: 18px; font-weight: 600; color: #1A9E96;
+    line-height: 1.2;
   }
   .nav-brand span:last-child {
     font-size: 10px; color: #F5C518; text-transform: uppercase;
+    line-height: 1.2;
   }
   .nav-links { display: flex; gap: 2rem; list-style: none; margin-left: auto; }
   .nav-links a {
     font-size: 13px; color: #373c44; text-decoration: none;
-    letter-spacing: 0.05em; text-transform: uppercase;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
     transition: color 0.2s;
+    line-height: 1.3;
   }
   .nav-links a:hover { color: #000; }
   .nav-links a.active { color: #000; font-weight: 600; }
@@ -97,6 +101,7 @@
     text-transform: uppercase;
     transition: all 0.3s;
     white-space: nowrap;
+    line-height: 1.3;
   }
   .login-btn:hover {
     background: #000;
@@ -134,7 +139,7 @@
   /* ── HERO ── */
   .hero {
     background: var(--navy);
-    padding: 3rem 2rem;
+    padding: 2.5rem 2rem; /* reduced from 3rem */
     text-align: center;
     position: relative; overflow: hidden;
   }
@@ -147,14 +152,20 @@
   }
   .hero h1 {
     font-family: 'Adam CG Pro', sans-serif;
-    font-size: clamp(2rem, 4vw, 3rem);
+    font-size: clamp(1.8rem, 4vw, 2.5rem); /* slightly smaller */
     font-weight: 600; color: #1a1a1a;
     line-height: 1.2;
-    max-width: 680px; margin: 0 auto 0.75rem;
+    max-width: 680px; margin: 0 auto 0.5rem;
     position: relative;
   }
   .hero h1 em {
     font-style: italic; color: #000;
+  }
+  .hero p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+    position: relative;
   }
   .hero-divider {
     width: 48px; height: 2px;
@@ -165,22 +176,36 @@
 
   /* ── SECTIONS ── */
   .content-section {
-    max-width: 1100px; margin: 0 auto; padding: 2rem;
+    max-width: 1100px; margin: 0 auto; padding: 1.5rem 2rem; /* reduced padding */
   }
   .section-title {
     font-family: 'Adam CG Pro', sans-serif;
-    font-size: 1.5rem; color: var(--navy);
-    margin-bottom: 1.5rem;
-    padding-bottom: 0.75rem;
+    font-size: 1.4rem; color: var(--navy);
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
     border-bottom: 2px solid var(--accent);
-    display: flex; align-items: center; gap: 10px;
+    display: flex; align-items: center; gap: 12px; /* used for icon circle */
   }
-  .section-title::before { content: ''; flex: 1; height: 2px; background: var(--border); }
-  .section-title::after { content: ''; flex: 1; height: 2px; background: var(--border); }
+  .section-title .section-icon-circle {
+    width: 38px;
+    height: 38px;
+    min-width: 38px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .section-title .section-icon-circle img,
+  .section-title .section-icon-circle svg {
+    width: 18px;
+    height: 18px;
+  }
 
   /* ── CARDS GRID ── */
   .cards-grid {
-    display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.2rem; /* reduced */
   }
 
   /* ── PHONE/EMAIL SELECTOR ── */
@@ -188,26 +213,27 @@
     background: white;
     border: 2px solid var(--border);
     border-radius: 16px;
-    padding: 1.5rem;
+    padding: 1.2rem; /* reduced from 1.5rem */
     box-shadow: 0 4px 20px rgba(0,0,0,0.08);
   }
   .contact-card h3 {
-    font-size: 14px; font-weight: 700;
+    font-size: 13px; font-weight: 700;
     color: var(--teal);
     text-transform: uppercase;
-    letter-spacing: 0.08em;
-    margin-bottom: 1rem;
+    letter-spacing: 0.06em;
+    margin-bottom: 0.8rem;
+    line-height: 1.2;
   }
   .contact-card select {
     width: 100%;
-    padding: 12px 16px;
+    padding: 10px 14px;
     border: 2px solid var(--border);
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 13px;
     background: white;
     color: var(--text-dark);
     cursor: pointer;
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
     transition: all 0.3s;
   }
   .contact-card select:focus {
@@ -223,29 +249,30 @@
     display: none;
     background: linear-gradient(135deg, var(--teal), var(--primary-color));
     border-radius: 12px;
-    padding: 1.5rem;
+    padding: 1.2rem; /* reduced */
     text-align: center;
     color: #000;
-    margin-top: 1rem;
+    margin-top: 0.8rem;
     animation: fadeIn 0.4s ease;
   }
   .result-display.show { display: block; }
   .result-display .label {
-    font-size: 11px; font-weight: 700;
-    text-transform: uppercase; letter-spacing: 0.1em;
-    opacity: 0.85; margin-bottom: 0.5rem;
+    font-size: 10px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.08em;
+    opacity: 0.85; margin-bottom: 0.4rem;
   }
   .result-display .value {
-    font-size: 24px; font-weight: 800;
-    margin-bottom: 1rem; word-break: break-all;
+    font-size: 22px; font-weight: 800;
+    margin-bottom: 0.8rem; word-break: break-all;
+    line-height: 1.2;
   }
   .action-btn {
     display: inline-flex; align-items: center; gap: 8px;
-    padding: 12px 24px;
+    padding: 10px 22px;
     background: #000;
     color: #fff;
     border: none; border-radius: 50px;
-    font-size: 14px; font-weight: 700;
+    font-size: 13px; font-weight: 700;
     text-decoration: none; text-transform: uppercase;
     cursor: pointer; transition: all 0.3s;
   }
@@ -267,12 +294,12 @@
     width: 100%; height: 250px; border: none;
   }
   .map-info {
-    padding: 1rem 1.5rem;
+    padding: 0.8rem 1.2rem;
     display: flex; justify-content: space-between; align-items: center;
     background: var(--cream);
   }
   .map-info span {
-    font-size: 14px; color: var(--text);
+    font-size: 13px; color: var(--text);
     font-weight: 500;
   }
   .map-info a {
@@ -291,41 +318,45 @@
     background: white;
     border: 2px solid var(--border);
     border-radius: 16px;
-    padding: 1.5rem;
+    padding: 1.2rem;
     display: flex; align-items: center; gap: 1rem;
     box-shadow: 0 4px 20px rgba(0,0,0,0.08);
   }
   .hours-icon {
-    width: 50px; height: 50px;
+    width: 46px;
+    height: 46px;
     background: linear-gradient(135deg, var(--teal), var(--primary-color));
-    border-radius: 12px;
-    display: flex; align-items: center; justify-content: center;
-    font-size: 24px;
+    border-radius: 50%; /* now circle like other icons */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
   }
   .hours-text h4 {
-    font-size: 12px; font-weight: 700;
+    font-size: 11px; font-weight: 700;
     color: var(--teal);
     text-transform: uppercase;
-    letter-spacing: 0.08em;
-    margin-bottom: 4px;
+    letter-spacing: 0.06em;
+    margin-bottom: 3px;
   }
   .hours-text p {
-    font-size: 14px; color: var(--text);
+    font-size: 13px; color: var(--text);
     font-weight: 500;
+    line-height: 1.4;
   }
 
   /* ── BACK BUTTON ── */
   .back-section {
     text-align: center;
-    padding: 2rem;
+    padding: 1.5rem;
   }
   .back-btn {
     display: inline-flex; align-items: center; gap: 8px;
-    padding: 12px 28px;
+    padding: 10px 24px;
     background: var(--accent-color);
     color: var(--navy);
     border: none; border-radius: 50px;
-    font-size: 14px; font-weight: 700;
+    font-size: 13px; font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
@@ -339,30 +370,71 @@
   /* ── FOOTER ── */
   footer {
     background: #0f2c2a; color: #fff;
-    padding: 4rem 2rem 2rem;
+    padding: 3rem 2rem 1.5rem; /* reduced from 4rem 2rem 2rem */
   }
   .footer-container {
     max-width: 1100px; margin: 0 auto;
-    display: grid; grid-template-columns: 2fr 1fr 1.5fr; gap: 4rem;
+    display: grid; grid-template-columns: 2fr 1fr 1.5fr; gap: 3rem; /* reduced */
   }
   .footer-col h4 {
     font-family: 'Adam CG Pro', sans-serif;
-    font-size: 1.4rem; color: var(--accent); margin-bottom: 1.5rem;
+    font-size: 1.3rem; color: var(--accent); margin-bottom: 1.2rem;
+    line-height: 1.2;
   }
-  .footer-col p { font-size: 14px; color: #bbb; line-height: 1.8; margin-bottom: 1rem; }
+  .footer-col p { font-size: 13px; color: #bbb; line-height: 1.5; margin-bottom: 0.8rem; }
   .footer-links { list-style: none; }
-  .footer-links li { margin-bottom: 0.8rem; }
-  .footer-links a { color: #bbb; text-decoration: none; font-size: 14px; transition: color 0.2s; }
+  .footer-links li { margin-bottom: 0.6rem; }
+  .footer-links a { color: #bbb; text-decoration: none; font-size: 13px; transition: color 0.2s; }
   .footer-links a:hover { color: #fff; }
-  .footer-contact { display: flex; flex-direction: column; gap: 1rem; }
-  .contact-item { display: flex; align-items: flex-start; gap: 12px; font-size: 14px; color: #bbb; min-width: 0; overflow-wrap: break-word; word-break: break-word; }
-  .contact-item i { color: var(--accent); margin-top: 4px; }
+  .footer-contact { display: flex; flex-direction: column; gap: 0.8rem; }
+  
+  /* Contact Icons Styling - Same as Core Values icons */
+  .contact-item { 
+    display: flex; 
+    align-items: center; 
+    gap: 12px; 
+    font-size: 13px; 
+    color: #bbb; 
+    min-width: 0; 
+    overflow-wrap: break-word; 
+    word-break: break-word; 
+    line-height: 1.4; 
+  }
+  .contact-icon {
+    width: 42px;
+    height: 42px;
+    min-width: 42px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+  .contact-icon svg {
+    width: 20px;
+    height: 20px;
+  }
+  .contact-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .contact-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--accent);
+    font-weight: 700;
+  }
+
   .footer-bottom {
-    max-width: 1100px; margin: 3rem auto 0;
-    border-top: 1px solid #333; padding-top: 2rem;
+    max-width: 1100px; margin: 2rem auto 0;
+    border-top: 1px solid #333; padding-top: 1.5rem;
     text-align: center;
   }
-  .legal-info { font-size: 11px; color: #777; line-height: 2; margin-bottom: 1.5rem; }
+  .legal-info { font-size: 11px; color: #777; line-height: 1.6; margin-bottom: 1rem; }
   .footer-credits { font-size: 12px; color: #555; }
 
   @keyframes fadeIn {
@@ -384,8 +456,8 @@
     font-size: 40px; color: #fff; cursor: pointer;
     line-height: 1;
   }
-  .overlay-links { list-style: none; display: flex; flex-direction: column; gap: 1.5rem; }
-  .overlay-links a { color: #fff; text-decoration: none; font-size: 18px; text-transform: uppercase; }
+  .overlay-links { list-style: none; display: flex; flex-direction: column; gap: 1.2rem; }
+  .overlay-links a { color: #fff; text-decoration: none; font-size: 17px; text-transform: uppercase; line-height: 1.3; }
   .menu-toggle.active span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
   .menu-toggle.active span:nth-child(2) { opacity: 0; }
   .menu-toggle.active span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
@@ -398,15 +470,16 @@
     .menu-toggle { display: flex; }
     .bottom-nav { display: none !important; }
     .mobile-nav { display: none !important; }
-    .hero { padding: 3rem 1.5rem 2rem; }
-    .hero h1 { font-size: 2.2rem; }
-    .cards-grid, .reps-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+    .hero { padding: 2rem 1.5rem 1.5rem; }
+    .hero h1 { font-size: 1.8rem; }
+    .cards-grid, .reps-grid { grid-template-columns: 1fr; gap: 1rem; }
     .content-section { padding: 1rem; }
     .map-info { flex-direction: column; text-align: center; gap: 0.5rem; }
     .footer-container {
       grid-template-columns: 1fr;
       gap: 2rem;
     }
+    .contact-icon { width: 36px; height: 36px; min-width: 36px; }
   }
   </style>  </head>
   <body>
@@ -468,7 +541,12 @@ function toggleMenu() {
 <div class="content-section">
   <!-- PHONE DIRECTORY -->
   <h2 class="section-title">
-    <img src="../Icons/call.png" alt="Call Icon" style="height: 28px; width: auto; vertical-align: middle; margin-right: 8px;">
+    <span class="section-icon-circle">
+      <!-- Phone Icon SVG -->
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+      </svg>
+    </span>
     Phone Directory
   </h2>
   <div class="cards-grid">
@@ -534,8 +612,14 @@ function toggleMenu() {
   </div>
 
   <!-- EMAIL DIRECTORY -->
-  <h2 class="section-title" style="margin-top: 3rem;">
-    <img src="../Icons/mail.png" alt="Email Icon" style="height: 28px; width: auto; vertical-align: middle; margin-right: 8px;">
+  <h2 class="section-title" style="margin-top: 2rem;">
+    <span class="section-icon-circle">
+      <!-- Email Icon SVG -->
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+        <polyline points="22,6 12,13 2,6"></polyline>
+      </svg>
+    </span>
     Email Directory
   </h2>
   <div class="cards-grid">
@@ -553,7 +637,7 @@ function toggleMenu() {
       </select>
       <div id="navkarEmailResult" class="result-display">
         <div class="label">Email Address</div>
-        <div id="navkarEmailAddr" class="value" style="font-size: 16px;"></div>
+        <div id="navkarEmailAddr" class="value" style="font-size: 15px;"></div>
         <a id="navkarEmailLink" href="#" class="action-btn">Send Email</a>
       </div>
     </div>
@@ -567,28 +651,42 @@ function toggleMenu() {
       </select>
       <div id="pronavakrEmailResult" class="result-display">
         <div class="label">Email Address</div>
-        <div id="pronavakrEmailAddr" class="value" style="font-size: 16px;"></div>
+        <div id="pronavakrEmailAddr" class="value" style="font-size: 15px;"></div>
         <a id="pronavakrEmailLink" href="#" class="action-btn">Send Email</a>
       </div>
     </div>
   </div>
 
   <!-- COMPLAINT FORM -->
-  <h2 class="section-title" style="margin-top: 3rem;">
-    <img src="../Icons/Complaint.png" alt="Complaint Icon" style="height: 28px; width: auto; vertical-align: middle; margin-right: 8px;">
+  <h2 class="section-title" style="margin-top: 2rem;">
+    <span class="section-icon-circle">
+      <!-- Complaint Icon SVG (a warning sign) -->
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+        <line x1="12" y1="9" x2="12" y2="13"></line>
+        <line x1="12" y1="17" x2="12.01" y2="17"></line>
+      </svg>
+    </span>
     Complaint Form
   </h2>
   <div class="cards-grid">
-    <div class="contact-card" style="grid-column: 1 / -1; text-align: center; padding: 3rem;">
+    <div class="contact-card" style="grid-column: 1 / -1; text-align: center; padding: 2rem;">
       <h3>Having issues?</h3>
-      <p style="margin-bottom: 2rem; color: #666;">We value your feedback. If you have any complaints or issues, please let us know through our official complaint form.</p>
+      <p style="margin-bottom: 1.5rem; color: #666; font-size: 14px;">We value your feedback. If you have any complaints or issues, please let us know through our official complaint form.</p>
       <a href="https://forms.gle/uJt1KqfRJ1sVBBrKA" target="_blank" class="action-btn">Let us know.</a>
     </div>
   </div>
 
   <!-- COMPANY INFORMATION -->
-  <h2 class="section-title" style="margin-top: 3rem;">
-    <img src="../Icons/Information.png" alt="Company Info Icon" style="height: 28px; width: auto; vertical-align: middle; margin-right: 8px;">
+  <h2 class="section-title" style="margin-top: 2rem;">
+    <span class="section-icon-circle">
+      <!-- Info Icon SVG -->
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"></circle>
+        <line x1="12" y1="16" x2="12" y2="12"></line>
+        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+      </svg>
+    </span>
     Company Information
   </h2>
   <div class="cards-grid">
@@ -611,8 +709,14 @@ function toggleMenu() {
   </div>
 
   <!-- LOCATION & HOURS -->
-  <h2 class="section-title" style="margin-top: 3rem;">
-    <img src="../Icons/Location.png" alt="Location Icon" style="height: 28px; width: auto; vertical-align: middle; margin-right: 8px;">
+  <h2 class="section-title" style="margin-top: 2rem;">
+    <span class="section-icon-circle">
+      <!-- Location Pin Icon SVG -->
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+        <circle cx="12" cy="10" r="3"></circle>
+      </svg>
+    </span>
     Find Us
   </h2>
   <div class="cards-grid">
@@ -625,7 +729,11 @@ function toggleMenu() {
     </div>
     <div class="hours-card">
       <div class="hours-icon">
-        <img src="../Icons/Clock.png" alt="Clock Icon" style="height: 30px; width: auto;">
+        <!-- Clock Icon SVG (replacing Clock.png) -->
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
       </div>
       <div class="hours-text">
         <h4>Working Hours</h4>
@@ -642,7 +750,7 @@ function toggleMenu() {
     <div class="footer-col">
       <h4>Navkar & Pronavkar</h4>
       <p>Navkar Apotek LLP & Pronavkar Lifecare LLP are leading pharmaceutical distributors committed to delivering excellence in healthcare. We bridge the gap between quality manufacturers and healthcare providers across India.</p>
-      <div style="display: flex; gap: 15px; margin-top: 1.5rem;">
+      <div style="display: flex; gap: 15px; margin-top: 1.2rem;">
         <a href="https://www.instagram.com/navkarapotekllp/" target="_blank"><img src="../Icons/instagram.png" alt="Instagram" style="height: 28px; width: auto;"></a>
         <a href="https://in.linkedin.com/company/navkar-apotek-llp" target="_blank"><img src="../Icons/linkedin.png" alt="LinkedIn" style="height: 28px; width: auto;"></a>
       </div>
@@ -659,21 +767,59 @@ function toggleMenu() {
     <div class="footer-col">
       <h4>Get In Touch</h4>
       <div class="footer-contact">
+        <!-- Location -->
         <div class="contact-item">
-          <span>📍</span>
-          <span>Baramati, Pune, Maharashtra - 413102</span>
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Address</span>
+            <span>Baramati, Pune, Maharashtra - 413102</span>
+          </div>
         </div>
+
+        <!-- Phone -->
         <div class="contact-item">
-          <span>📞</span>
-          <span>+91 9529337113 </span>
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Phone</span>
+            <span>+91 9529337113</span>
+          </div>
         </div>
+
+        <!-- Email -->
         <div class="contact-item">
-          <span>✉️</span>
-          <span>info@navkarapotek.com</span>
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Email</span>
+            <span>info@navkarapotek.com</span>
+          </div>
         </div>
+
+        <!-- Working Hours -->
         <div class="contact-item">
-          <span>⏰</span>
-          <span>Mon - Sat: 10:00 AM - 7:00 PM</span>
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Working Hours</span>
+            <span>Mon - Sat: 10:00 AM - 7:00 PM</span>
+          </div>
         </div>
       </div>
     </div>

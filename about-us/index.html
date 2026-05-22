@@ -142,9 +142,7 @@
     font-weight: 600; color: #fff;
     max-width: 680px; margin: 0 auto 1.25rem;
   }
-  .hero h1 em {
-    font-style: italic; color: #7dd3cc;
-  }
+  .hero h1 em { font-style: italic; color: #7dd3cc; }
   .hero p {
     max-width: 540px; margin: 0 auto 2rem;
     color: #9ab3d4; font-size: 16px;
@@ -227,8 +225,14 @@
     background: linear-gradient(135deg, var(--teal), #068586);
     border-radius: 50%;
     display: flex; align-items: center; justify-content: center;
-    font-size: 28px;
     margin: 0 auto 1rem;
+  }
+  .mission-icon svg {
+    width: 28px;
+    height: 28px;
+    stroke: white;
+    fill: none;
+    stroke-width: 2;
   }
   .mission-card h4 {
     font-family: 'Adam CG Pro', sans-serif;
@@ -316,7 +320,6 @@
     text-transform: uppercase;
   }
   
-  /* Left to Right Flip Animation */
   .team-member .back {
     position: absolute;
     top: 0;
@@ -352,7 +355,6 @@
     line-height: 1.5;
   }
   
-  /* Desktop hover flip - left to right */
   @media (hover: hover) {
     .team-member:hover .front {
       transform: translateX(100%);
@@ -363,7 +365,6 @@
       opacity: 1;
     }
   }
-  /* Mobile click flip */
   .team-member.flip .front {
     transform: translateX(100%);
     opacity: 0;
@@ -373,7 +374,6 @@
     opacity: 1;
   }
 
-  /* VALUES Section */
   .values-strip {
     background: #f7f3ee;
     border-top: 1px solid #e5ddd3;
@@ -441,15 +441,52 @@
   .footer-links a { color: #bbb; text-decoration: none; font-size: 14px; transition: color 0.2s; }
   .footer-links a:hover { color: #fff; }
   .footer-contact { display: flex; flex-direction: column; gap: 1rem; }
-  .contact-item { display: flex; align-items: flex-start; gap: 12px; font-size: 14px; color: #bbb; }
-  .contact-item i { color: var(--accent); margin-top: 4px; }
+
+  .contact-item { 
+    display: flex; 
+    align-items: center; 
+    gap: 12px; 
+    font-size: 14px; 
+    color: #bbb; 
+    min-width: 0; 
+    overflow-wrap: break-word; 
+    word-break: break-word; 
+    line-height: 1.4; 
+  }
+  .contact-icon {
+    width: 42px;
+    height: 42px;
+    min-width: 42px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+  .contact-icon svg {
+    width: 20px;
+    height: 20px;
+  }
+  .contact-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .contact-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--accent);
+    font-weight: 700;
+  }
+
   .footer-bottom {
     max-width: 1100px; margin: 3rem auto 0;
     border-top: 1px solid #333; padding-top: 2rem;
     text-align: center;
   }
-  .legal-info { font-size: 11px; color: #777; line-height: 2; margin-bottom: 1.5rem; }
-  .footer-credits { font-size: 12px; color: #555; }
 
   @media (max-width: 768px) {
     nav { padding: 0 1rem; }
@@ -473,6 +510,7 @@
     .value-item h4 { font-size: 13px; }
     .value-item p { font-size: 12px; line-height: 1.4; }
     .footer-container { grid-template-columns: 1fr; gap: 2rem; }
+    .contact-icon { width: 36px; height: 36px; min-width: 36px; }
   }
 
   @media (max-width: 480px) {
@@ -482,7 +520,6 @@
     .team-member img { height: 320px; }
   }
 
-  /* Floating Buttons Styles */
   .whatsapp-float {
     position: fixed;
     bottom: 20px;
@@ -564,28 +601,25 @@
 </nav>
 
 <div class="nav-overlay" id="navOverlay">
-<span class="close-overlay" onclick="toggleMenu()">&times;</span>
-        <ul class="overlay-links">
-          <li><a href="../" onclick="toggleMenu()">Home</a></li>
-          <li><a href="../products/" onclick="toggleMenu()">Products</a></li>
-          <li><a href="../companies/" onclick="toggleMenu()">Companies</a></li>
-          <li><a href="./" onclick="toggleMenu()">About Us</a></li>
+  <span class="close-overlay" onclick="toggleMenu()">&times;</span>
+  <ul class="overlay-links">
+    <li><a href="../" onclick="toggleMenu()">Home</a></li>
+    <li><a href="../products/" onclick="toggleMenu()">Products</a></li>
+    <li><a href="../companies/" onclick="toggleMenu()">Companies</a></li>
+    <li><a href="./" onclick="toggleMenu()">About Us</a></li>
     <li><a href="../Media & Gallery/" onclick="toggleMenu()">Gallery</a></li>
     <li><a href="../how-to-use-app/" onclick="toggleMenu()">How to Use App</a></li>
     <li><a href="../Contact-us/" onclick="toggleMenu()">Contact Us</a></li>
-          <li><a href="../login/" onclick="toggleMenu()">Login</a></li>
-        </ul>
-      </div>
+    <li><a href="../login/" onclick="toggleMenu()">Login</a></li>
+  </ul>
 </div>
 
 <section class="hero">
   <div class="hero-pill">About Us</div>
   <h1>Our <em>Commitment</em> to Your Health</h1>
-  <p>Learn more about Navkar Apotek LLP &amp; Pronavkar Lifecare LLP — your trusted pharmaceutical partners.</p>
+  <b>Learn more about Navkar Apotek LLP &amp; Pronavkar Lifecare LLP — your trusted pharmaceutical partners.</b>
   <div class="hero-divider"></div>
 </section>
-
-
 
 <section class="mission-section">
   <div class="section-header">
@@ -593,19 +627,41 @@
   </div>
   <div class="mission-grid">
     <div class="mission-card">
-      <div class="mission-icon">🎯</div>
+      <div class="mission-icon">
+        <!-- Target icon (replaces 🎯) -->
+        <svg viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="10"></circle>
+          <circle cx="12" cy="12" r="6"></circle>
+          <circle cx="12" cy="12" r="2"></circle>
+          <line x1="12" y1="2" x2="12" y2="6"></line>
+          <line x1="12" y1="18" x2="12" y2="22"></line>
+          <line x1="2" y1="12" x2="6" y2="12"></line>
+          <line x1="18" y1="12" x2="22" y2="12"></line>
+        </svg>
+      </div>
       <h4>Our Mission</h4>
       <p>To provide authentic, high-quality pharmaceutical products to our customers with reliability and trust.</p>
     </div>
     <div class="mission-card">
-      <div class="mission-icon">👁️</div>
+      <div class="mission-icon">
+        <!-- Eye icon (replaces 👁️) -->
+        <svg viewBox="0 0 24 24">
+          <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+          <circle cx="12" cy="12" r="3"></circle>
+        </svg>
+      </div>
       <h4>Our Vision</h4>
       <p>To be the most preferred healthcare partner in the region, delivering excellence in every step.</p>
     </div>
     <div class="mission-card">
-      <div class="mission-icon">💪</div>
+      <div class="mission-icon">
+        <!-- Arm/Muscle icon (replaces 💪) -->
+        <svg viewBox="0 0 24 24">
+          <path d="M18 7c0-1.66-1.34-3-3-3s-3 1.34-3 3v5h-2V7c0-1.66-1.34-3-3-3S4 5.34 4 7v7c0 3.31 2.69 6 6 6h2c2.21 0 4-1.79 4-4v-2c0-1.1.9-2 2-2s2 .9 2 2v3h2v-3c0-2.21-1.79-4-4-4z"></path>
+        </svg>
+      </div>
       <h4>What We Offer</h4>
-      <p>Wide range of generic medicines, OTC products, cold-chain medicines from reputed manufacturers.</p>
+      <p>Wide range of Ethical medicines, OTC products, cold-chain medicines from reputed manufacturers.</p>
     </div>
   </div>
 </section>
@@ -873,21 +929,59 @@ He drives workflow efficiency to maximize customer satisfaction, building Navkar
     <div class="footer-col">
       <h4>Get In Touch</h4>
       <div class="footer-contact">
+        <!-- Location -->
         <div class="contact-item">
-          <span>📍</span>
-          <span>Baramati, Pune, Maharashtra - 413102</span>
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Address</span>
+            <span>Baramati, Pune, Maharashtra - 413102</span>
+          </div>
         </div>
+
+        <!-- Phone -->
         <div class="contact-item">
-          <span>📞</span>
-          <span>+91 9529337113 </span>
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Phone</span>
+            <span>+91 9529337113</span>
+          </div>
         </div>
+
+        <!-- Email -->
         <div class="contact-item">
-          <span>✉️</span>
-          <span>info@navkarapotek.com</span>
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Email</span>
+            <span>info@navkarapotek.com</span>
+          </div>
         </div>
+
+        <!-- Working Hours -->
         <div class="contact-item">
-          <span>⏰</span>
-          <span>Mon - Sat: 10:00 AM - 7:00 PM</span>
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Working Hours</span>
+            <span>Mon - Sat: 10:00 AM - 7:00 PM</span>
+          </div>
         </div>
       </div>
     </div>
@@ -911,7 +1005,6 @@ function toggleMenu() {
   document.querySelector('.menu-toggle').classList.toggle('active');
 }
 
-// Show/Hide Back to Top Button
 window.onscroll = function() {
   const btn = document.getElementById('backToTop');
   if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {

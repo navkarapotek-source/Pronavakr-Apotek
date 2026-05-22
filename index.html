@@ -41,7 +41,7 @@
     font-family: 'DM Sans', sans-serif;
     background: var(--warm-white);
     color: var(--text);
-    line-height: 1.6;
+    line-height: 1.4;
     overflow-x: hidden;
     width: 100%;
     max-width: 100%;
@@ -64,15 +64,19 @@
   .nav-brand span:first-child {
     font-family: 'Adam CG Pro', sans-serif;
     font-size: 18px; font-weight: 600; color: #1A9E96;
+    line-height: 1.2;
   }
   .nav-brand span:last-child {
     font-size: 10px; color: #F5C518; text-transform: uppercase;
+    line-height: 1.2;
   }
   .nav-links { display: flex; gap: 2rem; list-style: none; margin-left: auto; }
   .nav-links a {
     font-size: 13px; color: #373c44; text-decoration: none;
-    letter-spacing: 0.05em; text-transform: uppercase;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
     transition: color 0.2s;
+    line-height: 1.3;
   }
   .nav-links a:hover { color: #000; }
   .nav-links a.active { color: #000; font-weight: 600; }
@@ -93,38 +97,40 @@
     text-transform: uppercase;
     transition: all 0.3s;
     white-space: nowrap;
+    line-height: 1.3;
   }
   .login-btn:hover {
     background: #000;
     color: #fff;
   }
 
+  /* ── HERO ── */
   .hero {
-    background: var(--navy);
-    padding: 5rem 2rem 4rem;
+    background: #fdfdfd;
+    padding: 2.5rem 2rem 1.8rem;
     text-align: center;
-    position: relative; overflow: hidden;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 18px 45px rgba(0,0,0,0.25);
+    z-index: 2;
   }
   .hero::before {
     content: '';
     position: absolute; inset: 0;
-    background-image: radial-gradient(rgba(255,255,255,0.1) 1px, transparent 1px);
-    background-size: 20px 20px;
-    opacity: 0.3;
-  }
-  .hero::after {
-    content: '';
-    position: absolute; inset: 0;
-    background: radial-gradient(ellipse 80% 60% at 50% 100%, rgba(0,0,0,0.1) 0%, transparent 70%);
+    background-image: radial-gradient(rgba(0,0,0,0.04) 1px, transparent 1px);
+    background-size: 24px 24px;
+    opacity: 1;
   }
   .hero-pill {
     display: inline-block;
     background: #F5C125;
     border: 1px solid rgba(0,0,0,0.1);
     color: #000;
-    font-size: 0.85rem; letter-spacing: 0.12em; text-transform: uppercase;
-    padding: 8px 20px; border-radius: 999px;
-    margin-bottom: 1.5rem;
+    font-size: 0.85rem; letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    border-radius: 999px;
+    margin-bottom: 0.8rem;
     font-weight: 700;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     position: relative; z-index: 1;
@@ -132,37 +138,39 @@
   }
   .hero h1 {
     font-family: 'Adam CG Pro', sans-serif;
-    font-size: clamp(2.4rem, 5vw, 4rem);
+    font-size: clamp(2.2rem, 5vw, 3.6rem);
     font-weight: 600; color: #1a1a1a;
-    line-height: 1.2;
-    max-width: 680px; margin: 0 auto 1.25rem;
+    line-height: 1.15;
+    max-width: 680px; margin: 0 auto 0.4rem;
     position: relative; z-index: 1;
   }
   .hero h1 em {
     font-style: italic; color: #000;
   }
   .hero p {
-    max-width: 540px; margin: 0 auto 2rem;
-    color: #333; font-size: 16px; font-weight: 400;
+    max-width: 540px; margin: 0 auto 0.8rem;
+    color: #333; font-size: 15px; font-weight: 400;
+    line-height: 1.4;
     position: relative; z-index: 1;
   }
   .hero-divider {
     width: 48px; height: 2px;
     background: #000;
-    margin: 0 auto;
+    margin: 0 auto 0.4rem;
     position: relative; z-index: 1;
   }
 
   .app-download {
     position: relative; z-index: 1;
-    margin: 2rem auto 0;
+    margin: 1rem auto 0;
     text-align: center;
   }
   .app-title {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     font-weight: 700;
     color: #1a1a1a;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.3;
   }
   .play-store-badge {
     height: 48px;
@@ -173,18 +181,78 @@
   .play-store-badge:hover {
     transform: scale(1.05);
   }
-
-  .b2b-btn {
+  .app-download-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  .qr-code-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+  }
+  .qr-code-wrap img {
+    width: 150px;
+    height: 150px;
+    border-radius: 16px;
+    background: #fff;
+    padding: 8px;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.12);
+    transition: transform 0.3s ease;
+  }
+  .qr-code-wrap img:hover {
+    transform: scale(1.04);
+  }
+  .qr-label {
+    font-size: 12px;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    background: rgba(255,255,255,0.15);
+    padding: 3px 12px;
+    border-radius: 20px;
+  }
+  .guide-btn {
     display: inline-block;
-    padding: 14px 36px;
+    padding: 10px 24px;
     background: #f7d127;
     color: #000;
-    font-size: 1rem;
+    font-size: 0.85rem;
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
     border-radius: 50px;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.04em;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    white-space: nowrap;
+  }
+  .guide-btn:hover {
+    background: #e0b800;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  }
+  @media (max-width: 500px) {
+    .app-download-inner { flex-direction: column; gap: 1.2rem; }
+    .qr-code-wrap img { width: 120px; height: 120px; }
+    .guide-btn { font-size: 0.8rem; padding: 10px 20px; }
+  }
+
+  .b2b-btn {
+    display: inline-block;
+    padding: 12px 32px;
+    background: #f7d127;
+    color: #000;
+    font-size: 0.95rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 50px;
+    letter-spacing: 0.04em;
     transition: all 0.3s ease;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   }
@@ -196,32 +264,33 @@
 
   .about-band {
     background: var(--teal);
-    padding: 3rem 2rem;
+    padding: 2rem 2rem;
   }
   .about-inner {
     max-width: 900px; margin: 0 auto;
-    display: grid; grid-template-columns: 1fr 1fr; gap: 3rem;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;
     align-items: center;
   }
   @media (max-width: 768px) {
-    .about-inner { grid-template-columns: 1fr; gap: 2rem; }
+    .about-inner { grid-template-columns: 1fr; gap: 1.5rem; }
   }
   .about-text h2 {
     font-family: 'Adam CG Pro', sans-serif;
-    font-size: 2rem; font-weight: 600; color: #1a1a1a;
-    margin-bottom: 1rem;
+    font-size: 1.8rem; font-weight: 600; color: #1a1a1a;
+    margin-bottom: 0.8rem;
+    line-height: 1.2;
   }
   .about-text p {
     color: #1a1a1a;
-    font-size: 15px; line-height: 1.75;
+    font-size: 14px; line-height: 1.5;
   }
   .about-stats {
-    display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem;
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.8rem;
   }
   .stat-card {
     background: rgba(0,0,0,0.05);
     border: 1px solid rgba(0,0,0,0.1);
-    border-radius: 12px; padding: 1.25rem;
+    border-radius: 12px; padding: 1rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -230,14 +299,16 @@
   }
   .stat-card .num {
     font-family: 'Adam CG Pro', sans-serif;
-    font-size: 2.2rem; font-weight: 900; color: #000;
+    font-size: 2rem;
+    font-weight: 900; color: #000;
     line-height: 1;
   }
   .stat-card .label {
     font-size: 11px; color: #000;
-    text-transform: uppercase; letter-spacing: 0.08em;
-    margin-top: 4px;
+    text-transform: uppercase; letter-spacing: 0.06em;
+    margin-top: 3px;
     font-weight: 700;
+    line-height: 1.2;
   }
   .stat-card .label .num {
     font-family: 'Adam CG Pro', sans-serif;
@@ -245,49 +316,50 @@
     line-height: 1;
   }
 
-  
   .values-strip {
     background: var(--cream);
     border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
-    padding: 3rem 2rem;
+    padding: 2rem 2rem;
   }
   .values-inner { max-width: 900px; margin: 0 auto; }
   .values-inner h2 {
     font-family: 'Adam CG Pro', sans-serif;
-    font-size: 1.8rem; color: var(--navy);
-    text-align: center; margin-bottom: 2rem;
+    font-size: 1.6rem; color: var(--navy);
+    text-align: center; margin-bottom: 1.5rem;
+    line-height: 1.2;
   }
   .values-grid {
-    display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem;
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.2rem;
   }
   @media (max-width: 768px) {
     .values-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
   }
   @media (max-width: 480px) {
     .values-grid { grid-template-columns: 1fr; }
-    .hero h1 { font-size: 2.2rem; }
-    .hero { padding: 2.5rem 1rem 1.5rem; }
+    .hero h1 { font-size: 1.9rem; }
+    .hero { padding: 2rem 1rem 1.5rem; }
   }
   .value-item { text-align: center; }
   .value-icon {
-    width: 52px; height: 52px; border-radius: 50%;
+    width: 48px; height: 48px; border-radius: 50%;
     background: var(--navy); color: #fff;
     display: flex; align-items: center; justify-content: center;
-    font-size: 22px; margin: 0 auto 1rem;
+    font-size: 20px; margin: 0 auto 0.8rem;
   }
   .value-item h4 {
-    font-size: 14px; font-weight: 500; color: var(--navy);
-    margin-bottom: 0.4rem;
+    font-size: 13px; font-weight: 500; color: var(--navy);
+    margin-bottom: 0.3rem;
+    line-height: 1.3;
   }
-  .value-item p { font-size: 13px; color: var(--muted); }
+  .value-item p { font-size: 12px; color: var(--muted); line-height: 1.4; }
 
   footer {
     background: #0f2c2a; color: #fff;
-    padding: 4rem 2rem 2rem;
+    padding: 3rem 2rem 1.5rem;
   }
   .footer-container {
     max-width: 1100px; margin: 0 auto;
-    display: grid; grid-template-columns: 2fr 1fr 1.5fr; gap: 4rem;
+    display: grid; grid-template-columns: 2fr 1fr 1.5fr; gap: 3rem;
   }
   @media (max-width: 768px) {
     .footer-container {
@@ -297,22 +369,64 @@
   }
   .footer-col h4 {
     font-family: 'Adam CG Pro', sans-serif;
-    font-size: 1.4rem; color: var(--accent); margin-bottom: 1.5rem;
+    font-size: 1.3rem; color: var(--accent); margin-bottom: 1.2rem;
+    line-height: 1.2;
   }
-  .footer-col p { font-size: 14px; color: #bbb; line-height: 1.8; margin-bottom: 1rem; }
+  .footer-col p { font-size: 13px; color: #bbb; line-height: 1.5; margin-bottom: 0.8rem; }
   .footer-links { list-style: none; }
-  .footer-links li { margin-bottom: 0.8rem; }
-  .footer-links a { color: #bbb; text-decoration: none; font-size: 14px; transition: color 0.2s; }
+  .footer-links li { margin-bottom: 0.6rem; }
+  .footer-links a { color: #bbb; text-decoration: none; font-size: 13px; transition: color 0.2s; }
   .footer-links a:hover { color: #fff; }
-  .footer-contact { display: flex; flex-direction: column; gap: 1rem; }
-  .contact-item { display: flex; align-items: flex-start; gap: 12px; font-size: 14px; color: #bbb; min-width: 0; overflow-wrap: break-word; word-break: break-word; }
-  .contact-item i { color: var(--accent); margin-top: 4px; }
+  .footer-contact { display: flex; flex-direction: column; gap: 0.8rem; }
+  
+  /* NEW Contact Icons Styling - Same as Core Values icons */
+  .contact-item { 
+    display: flex; 
+    align-items: center; 
+    gap: 12px; 
+    font-size: 13px; 
+    color: #bbb; 
+    min-width: 0; 
+    overflow-wrap: break-word; 
+    word-break: break-word; 
+    line-height: 1.4; 
+  }
+  .contact-icon {
+    width: 42px;
+    height: 42px;
+    min-width: 42px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+  .contact-icon img {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1); /* Makes icon white if using images */
+  }
+  .contact-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .contact-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--accent);
+    font-weight: 700;
+  }
+
   .footer-bottom {
-    max-width: 1100px; margin: 3rem auto 0;
-    border-top: 1px solid #333; padding-top: 2rem;
+    max-width: 1100px; margin: 2rem auto 0;
+    border-top: 1px solid #333; padding-top: 1.5rem;
     text-align: center;
   }
-  .legal-info { font-size: 11px; color: #777; line-height: 2; margin-bottom: 1.5rem; }
+  .legal-info { font-size: 11px; color: #777; line-height: 1.6; margin-bottom: 1rem; }
   .footer-credits { font-size: 12px; color: #555; }
 
   /* Hamburger Menu CSS */
@@ -329,15 +443,15 @@
     font-size: 40px; color: #fff; cursor: pointer;
     line-height: 1;
   }
-  .overlay-links { list-style: none; display: flex; flex-direction: column; gap: 1.5rem; }
-  .overlay-links a { color: #fff; text-decoration: none; font-size: 18px; text-transform: uppercase; }
+  .overlay-links { list-style: none; display: flex; flex-direction: column; gap: 1.2rem; }
+  .overlay-links a { color: #fff; text-decoration: none; font-size: 17px; text-transform: uppercase; line-height: 1.3; }
   .menu-toggle.active span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
   .menu-toggle.active span:nth-child(2) { opacity: 0; }
   .menu-toggle.active span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
 
   @media (max-width: 900px) {
     .features-grid { grid-template-columns: 1fr; }
-    .hero h1 { font-size: 3rem; }
+    .hero h1 { font-size: 2.6rem; }
   }
 
   @media (max-width: 768px) {
@@ -346,24 +460,26 @@
     .nav-brand span:last-child { display: none; }
     .nav-links { display: none; }
     .menu-toggle { display: flex; }
-    .hero { padding: 3rem 1.5rem 2rem; }
-    .hero h1 { font-size: 1.8rem; }
+    .hero { padding: 2rem 1.5rem 1.5rem; }
+    .hero h1 { font-size: 1.7rem; line-height: 1.2; }
+    .hero p { font-size: 14px; }
     .features-grid, .partners-grid, .logos-grid { grid-template-columns: 1fr; }
-    .about-inner { grid-template-columns: 1fr; gap: 2rem; }
-    .about-stats { grid-template-columns: 1fr; }
-    .values-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
-    .values-strip { padding: 2rem 1rem; }
-    .values-inner h2 { font-size: 1.5rem; }
+    .about-inner { grid-template-columns: 1fr; gap: 1.5rem; }
+    .about-stats { grid-template-columns: 1fr; gap: 0.6rem; }
+    .values-grid { grid-template-columns: repeat(2, 1fr); gap: 0.8rem; }
+    .values-strip { padding: 1.8rem 1rem; }
+    .values-inner h2 { font-size: 1.4rem; }
+    .contact-icon { width: 36px; height: 36px; min-width: 36px; font-size: 16px; }
   }
 
   @media (max-width: 480px) {
     .values-grid { grid-template-columns: 1fr; }
-    .hero h1 { font-size: 2.2rem; }
-    .hero { padding: 2.5rem 1rem 1.5rem; }
+    .hero h1 { font-size: 1.6rem; }
+    .hero { padding: 2rem 1rem 1.2rem; }
   }
 
   @media (max-width: 500px) {
-    .hero h1 { font-size: 2.2rem; }
+    .hero h1 { font-size: 1.7rem; }
     .btn-group { flex-direction: column; }
   }
 
@@ -372,7 +488,9 @@
     background: var(--navy);
     position: relative;
     overflow: hidden;
-    padding: 5rem 2rem;
+    padding: 3.5rem 2rem;
+    border-top: 4px solid #0d7a6c;
+    box-shadow: inset 0 10px 25px rgba(0,0,0,0.22);
   }
   .vm-section::before {
     content: '';
@@ -400,24 +518,24 @@
     z-index: 1;
   }
   .vm-eyebrow {
-    display: flex; align-items: center; gap: 0.75rem;
-    margin-bottom: 3rem; justify-content: center;
+    display: flex; align-items: center; gap: 0.5rem;
+    margin-bottom: 2rem; justify-content: center;
   }
   .vm-eyebrow span {
-    font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase;
+    font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;
     color: #e8a84e;
   }
   .vm-cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
+    gap: 1.2rem;
   }
   @media (max-width: 700px) {
     .vm-cards { grid-template-columns: 1fr; }
   }
   .vm-card {
     border-radius: 16px;
-    padding: 2.25rem 2rem;
+    padding: 1.8rem 1.5rem;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -427,8 +545,8 @@
     border: 1px solid rgba(255,255,255,0.1);
   }
   .vm-card-tag {
-    display: flex; align-items: center; gap: 8px;
-    margin-bottom: 1.25rem;
+    display: flex; align-items: center; gap: 6px;
+    margin-bottom: 1rem;
     justify-content: center;
   }
   .vm-card-tag .tag-dot {
@@ -436,15 +554,15 @@
     background: #e8a84e;
   }
   .vm-card-tag span {
-    font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;
+    font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase;
     font-weight: 500;
     color: #e8a84e;
   }
   .vm-card h3 {
     font-family: 'Adam CG Pro', sans-serif;
-    font-size: 1.7rem; font-weight: 600; color: #fff;
-    line-height: 1.25;
-    margin-bottom: 1rem;
+    font-size: 1.5rem; font-weight: 600; color: #fff;
+    line-height: 1.2;
+    margin-bottom: 0.8rem;
   }
   .vm-card h3 em {
     font-style: italic;
@@ -452,7 +570,7 @@
   }
   .vm-card p {
     color: rgba(255,255,255,0.72);
-    font-size: 14px; line-height: 1.8;
+    font-size: 13px; line-height: 1.6;
     font-weight: 300;
   }
   .vm-card-deco {
@@ -467,21 +585,21 @@
     color: #fff;
   }
   .vm-pillars {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    gap: 0.8rem;
   }
   @media (max-width: 600px) {
     .vm-pillars { grid-template-columns: 1fr; }
-    .vm-section { padding: 3.5rem 1.25rem; }
+    .vm-section { padding: 2.5rem 1rem; }
   }
   .vm-pillar {
     background: #F5C125;
     border: 1px solid rgba(0,0,0,0.1);
     border-radius: 12px;
-    padding: 1.25rem 1rem;
-    display: flex; align-items: flex-start; gap: 0.75rem;
+    padding: 1rem 0.8rem;
+    display: flex; align-items: flex-start; gap: 0.5rem;
     box-shadow: 0 4px 15px rgba(0,0,0,0.08);
     transition: transform 0.3s;
   }
@@ -489,20 +607,21 @@
     transform: translateY(-5px);
   }
   .vm-pillar-icon {
-    width: 38px; height: 38px; flex-shrink: 0;
+    width: 34px; height: 34px; flex-shrink: 0;
     background: rgba(0,0,0,0.08);
     border: 1px solid rgba(0,0,0,0.1);
     border-radius: 10px;
     display: flex; align-items: center; justify-content: center;
-    font-size: 18px;
+    font-size: 17px;
   }
   .vm-pillar-text strong {
-    display: block; font-size: 14px; color: #000; font-weight: 700;
-    margin-bottom: 3px;
-    letter-spacing: 0.02em;
+    display: block; font-size: 13px; color: #000; font-weight: 700;
+    margin-bottom: 2px;
+    letter-spacing: 0.01em;
+    line-height: 1.2;
   }
   .vm-pillar-text span {
-    font-size: 12px; color: #1a1a1a; line-height: 1.5;
+    font-size: 11px; color: #1a1a1a; line-height: 1.4;
     font-weight: 500;
   }
 
@@ -603,20 +722,28 @@
 </div>
 
 <section class="hero">
-  <div class="hero-pill">Your Trusted Pharmaceuticals Distribution Partner<br>Fast, Reliable and Tech-Enabled</div>
+  <div class="hero-pill">Your Trusted Pharmaceutical Distribution Partner<br><span style="color:#1a1a1a;font-weight:600;">Fast, Reliable and Tech-Enabled</span></div>
   <h1>YOUR <em>HEALTH</em> IS OUR PRIORITY</h1>
-  <p style="font-size: 1.2rem; line-height: 1.8;">Navkar Apotek LLP &amp; Pronavkar Lifecare LLP<br>delivering quality medicines and healthcare products across India.</p>
+  <p style="font-size: 1.1rem; line-height: 1.4; margin-bottom: 0.8rem;">Navkar Apotek LLP &amp; Pronavkar Lifecare LLP<br>delivering quality medicines and healthcare products across India.</p>
   <div class="app-download">
-    <p class="app-title">Downlaod Our App For Placing Orders</p>
-    <a href="https://play.google.com/store/apps/details?id=in.relysoft.navkarapotekllp" target="_blank">
-      <img src="PlayStore.jpg" alt="Get it on Google Play" class="play-store-badge">
-    </a>
-    <div style="margin-top: 16px;">
-      <a href="how-to-use-app/" style="color: #fff; font-size: 14px; font-weight: 600; text-decoration: underline; text-underline-offset: 4px;">View Step-by-Step Guide ➔</a>
+    <p class="app-title">Download Our App For Placing Orders</p>
+    <div class="app-download-inner">
+      <div style="display:flex;flex-direction:column;align-items:center;gap:10px;">
+        <a href="https://play.google.com/store/apps/details?id=in.relysoft.navkarapotekllp" target="_blank">
+          <img src="PlayStore.jpg" alt="Get it on Google Play" class="play-store-badge">
+        </a>
+        <div>
+          <a href="how-to-use-app/" class="guide-btn">View Step-by-Step Guide ➔</a>
+        </div>
+      </div>
+      <div class="qr-code-wrap">
+        <img src="qr_code.png" alt="Scan to Download App">
+        <span class="qr-label">Scan to Download App</span>
+      </div>
     </div>
   </div>
 
-  <div class="b2b-section" style="position: relative; z-index: 1; margin-top: 2rem; text-align: center;">
+  <div class="b2b-section" style="position: relative; z-index: 1; margin-top: 1rem; text-align: center;">
     <a href="https://forms.gle/QKtBVCaWDcJrra1o8" target="_blank" rel="noopener noreferrer" class="b2b-btn">Click here to Register As a Retailer</a>
   </div>
 </section>
@@ -653,21 +780,21 @@
     <!-- PILLARS -->
     <div class="vm-pillars">
       <div class="vm-pillar">
-        <div class="vm-pillar-icon"><img src="Icons/Lock.png" alt="Lock" style="width: 22px; height: auto;"></div>
+        <div class="vm-pillar-icon"><img src="Icons/Lock.png" alt="Lock" style="width: 20px; height: auto;"></div>
         <div class="vm-pillar-text">
           <strong>Trust &amp; Reliability</strong>
           <span>Consistent availability through a dependable supply chain</span>
         </div>
       </div>
       <div class="vm-pillar">
-        <div class="vm-pillar-icon"><img src="Icons/Bulp.png" alt="Bulb" style="width: 22px; height: auto;"></div>
+        <div class="vm-pillar-icon"><img src="Icons/Bulp.png" alt="Bulb" style="width: 20px; height: auto;"></div>
         <div class="vm-pillar-text">
           <strong>Technology-Driven</strong>
           <span>Innovative solutions for smarter pharmaceutical distribution</span>
         </div>
       </div>
       <div class="vm-pillar">
-        <div class="vm-pillar-icon"><img src="Icons/Handshake.png" alt="Handshake" style="width: 22px; height: auto;"></div>
+        <div class="vm-pillar-icon"><img src="Icons/Handshake.png" alt="Handshake" style="width: 20px; height: auto;"></div>
         <div class="vm-pillar-text">
           <strong>Affordable Access</strong>
           <span>Empowering communities with medicines they can count on</span>
@@ -732,18 +859,13 @@
   </div>
 </section>
 
-
-
-
-</section>
-
 <!-- FOOTER -->
 <footer>
   <div class="footer-container">
     <div class="footer-col">
       <h4>Navkar & Pronavkar</h4>
       <p>Navkar Apotek LLP & Pronavkar Lifecare LLP are leading pharmaceutical distributors committed to delivering excellence in healthcare. We bridge the gap between quality manufacturers and healthcare providers across India.</p>
-      <div style="display: flex; gap: 15px; margin-top: 1.5rem;">
+      <div style="display: flex; gap: 15px; margin-top: 1.2rem;">
         <a href="https://www.instagram.com/navkarapotekllp/" target="_blank"><img src="Icons/instagram.png" alt="Instagram" style="height: 28px; width: auto;"></a>
         <a href="https://in.linkedin.com/company/navkar-apotek-llp" target="_blank"><img src="Icons/linkedin.png" alt="LinkedIn" style="height: 28px; width: auto;"></a>
       </div>
@@ -760,21 +882,59 @@
     <div class="footer-col">
       <h4>Get In Touch</h4>
       <div class="footer-contact">
+        <!-- Location -->
         <div class="contact-item">
-          <span>📍</span>
-          <span>Baramati, Pune, Maharashtra - 413102</span>
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Address</span>
+            <span>Baramati, Pune, Maharashtra - 413102</span>
+          </div>
         </div>
+
+        <!-- Phone -->
         <div class="contact-item">
-          <span>📞</span>
-          <span>+91 9529337113 </span>
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Phone</span>
+            <span>+91 9529337113</span>
+          </div>
         </div>
+
+        <!-- Email -->
         <div class="contact-item">
-          <span>✉️</span>
-          <span>info@navkarapotek.com</span>
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Email</span>
+            <span>info@navkarapotek.com</span>
+          </div>
         </div>
+
+        <!-- Working Hours -->
         <div class="contact-item">
-          <span>⏰</span>
-          <span>Mon - Sat: 10:00 AM - 7:00 PM</span>
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Working Hours</span>
+            <span>Mon - Sat: 10:00 AM - 7:00 PM</span>
+          </div>
         </div>
       </div>
     </div>
@@ -793,7 +953,6 @@
 <button id="backToTop" class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" title="Back to top">↑</button>
 
 <script>
-// Show/Hide Back to Top Button
 window.onscroll = function() {
   const btn = document.getElementById('backToTop');
   if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
