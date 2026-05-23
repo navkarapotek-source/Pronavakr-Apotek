@@ -1,6 +1,3 @@
-// Auto-generated file. Do not edit manually.
-// Generated from: refined_output.csv
-
 const productData = [
     {
         "Product Name": "MICROPORE TAPE HALF INCH",
@@ -11038,6 +11035,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "DIARAHEAL RD 100 CAP",
+        "Pack": "10CAP",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "DICLOHEAL SUPER TAB PINK",
         "Pack": "1X10T",
         "Company Name": "HEALING PHARMA"
@@ -11195,6 +11197,11 @@ const productData = [
     {
         "Product Name": "FLUCONAZ-200 TAB",
         "Pack": "1X4TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "FLUTIHEAL NASAL SPRAY",
+        "Pack": "1X10ML",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -12443,6 +12450,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "RESPOFYL RETARD 300 TAB",
+        "Pack": "15TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "RESTFINE GUMMIES",
         "Pack": "60 GUMMIES",
         "Company Name": "HEALING PHARMA"
@@ -12563,6 +12575,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "SITASMART GM 502 TAB",
+        "Pack": "10TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "SITASMART-100 TAB",
         "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
@@ -12625,6 +12642,11 @@ const productData = [
     {
         "Product Name": "STYBIND POWDER",
         "Pack": "15GM",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "SUMITOP 50 TAB",
+        "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -17553,7 +17575,7 @@ const productData = [
         "Company Name": "LEEFORD HEALTHCARE LTD."
     },
     {
-        "Product Name": "TINFAL-F SOLUTION 60ML",
+        "Product Name": "TINFAL-5F SOLUTION 60ML",
         "Pack": "1X60ML",
         "Company Name": "LEEFORD HEALTHCARE LTD."
     },
@@ -21783,6 +21805,16 @@ const productData = [
         "Company Name": "NULIFE"
     },
     {
+        "Product Name": "NULIFE NITRILE PF GLOVES (LARGE)",
+        "Pack": "100PC",
+        "Company Name": "NULIFE"
+    },
+    {
+        "Product Name": "NULIFE NITRILE PF GLOVES (MEDIUM)",
+        "Pack": "100PC",
+        "Company Name": "NULIFE"
+    },
+    {
         "Product Name": "ST GLOVES 6",
         "Pack": "PAIR",
         "Company Name": "NULIFE"
@@ -24551,11 +24583,6 @@ const productData = [
         "Product Name": "WELL BUDS PAPER STICK POUCH",
         "Pack": "100PCS",
         "Company Name": "SHREE SWAMI SAMARTH AGENCIES"
-    },
-    {
-        "Product Name": "SABURI (GIFT) LOOKMANYA HAYAT TEL 25ML",
-        "Pack": "1PC",
-        "Company Name": "SHRIRAMA STORES YELLAPUR"
     },
     {
         "Product Name": "ACECREST SP15 TAB",

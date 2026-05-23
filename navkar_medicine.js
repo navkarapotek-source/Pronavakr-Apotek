@@ -1,6 +1,3 @@
-// Auto-generated file. Do not edit manually.
-// Generated from: refined_output.csv
-
 const navkarMedicineData = [
     {
         "Product Name": "DAPALEX T 10/40MG TAB",
@@ -1303,29 +1300,34 @@ const navkarMedicineData = [
         "Company Name": "ABBOTT HEALTHCARE (MULTI THERAPY)"
     },
     {
+        "Product Name": "LIMCEE CHEW 500MG TAB",
+        "Pack": "15TAB",
+        "Company Name": "ABBOTT HEALTHCARE (MULTI THERAPY)"
+    },
+    {
         "Product Name": "ORAHEX PRO MOUTH WASH 150 ML",
         "Pack": "150 ML",
-        "Company Name": "LIMCEE CHEW 500MG TAB"
+        "Company Name": "ABBOTT HEALTHCARE (MULTI THERAPY)"
     },
     {
         "Product Name": "POLIEXAR CAP 2MG",
         "Pack": "2MG",
-        "Company Name": "LIMCEE CHEW 500MG TAB"
+        "Company Name": "ABBOTT HEALTHCARE (MULTI THERAPY)"
     },
     {
         "Product Name": "TOSSEX DMR SYP",
         "Pack": "100ML",
-        "Company Name": "LIMCEE CHEW 500MG TAB"
+        "Company Name": "ABBOTT HEALTHCARE (MULTI THERAPY)"
     },
     {
         "Product Name": "TOSSEX SYP",
         "Pack": "120ML",
-        "Company Name": "LIMCEE CHEW 500MG TAB"
+        "Company Name": "ABBOTT HEALTHCARE (MULTI THERAPY)"
     },
     {
         "Product Name": "TOSSEX XP SYP",
         "Pack": "100ML",
-        "Company Name": "LIMCEE CHEW 500MG TAB"
+        "Company Name": "ABBOTT HEALTHCARE (MULTI THERAPY)"
     },
     {
         "Product Name": "AQUAVIRON INJ 1ML",
@@ -12938,11 +12940,6 @@ const navkarMedicineData = [
         "Company Name": "ANAX LIFESCIENCE PVT LTD"
     },
     {
-        "Product Name": "FERTCEEV TAB",
-        "Pack": "10TAB",
-        "Company Name": "ANAX LIFESCIENCE PVT LTD"
-    },
-    {
         "Product Name": "HOLYTEL 40 TAB",
         "Pack": "10TAB",
         "Company Name": "ANAX LIFESCIENCE PVT LTD"
@@ -17423,6 +17420,11 @@ const navkarMedicineData = [
         "Company Name": "BHARAT SERUM (FEMICARE)"
     },
     {
+        "Product Name": "NUTRICELL CAP",
+        "Pack": "TAB",
+        "Company Name": "BHARAT SERUM (FEMICARE)"
+    },
+    {
         "Product Name": "OSSOPAN [XT] TAB",
         "Pack": "15 TAB",
         "Company Name": "BHARAT SERUM (FEMICARE)"
@@ -21255,6 +21257,11 @@ const navkarMedicineData = [
     {
         "Product Name": "OCUREST OL EYE DROP",
         "Pack": "5ML",
+        "Company Name": "CENTAUR PHARMACEUTICALS P LTD"
+    },
+    {
+        "Product Name": "SINAREST PLUS TAB",
+        "Pack": "20TAB",
         "Company Name": "CENTAUR PHARMACEUTICALS P LTD"
     },
     {
@@ -28973,49 +28980,54 @@ const navkarMedicineData = [
         "Company Name": "DR REDDY`S LAB (AQURA SG)"
     },
     {
+        "Product Name": "OMEZ 20MG CAP",
+        "Pack": "20 CAP",
+        "Company Name": "DR REDDY`S LAB (AQURA SG)"
+    },
+    {
         "Product Name": "OMEZ 40MG INJ",
         "Pack": "VIAL",
-        "Company Name": "OMEZ 20MG CAP"
+        "Company Name": "DR REDDY`S LAB (AQURA SG)"
     },
     {
         "Product Name": "OMEZ 40MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "OMEZ 20MG CAP"
+        "Company Name": "DR REDDY`S LAB (AQURA SG)"
     },
     {
         "Product Name": "OMEZ ANTACID LIQ",
         "Pack": "200 ML",
-        "Company Name": "OMEZ 20MG CAP"
+        "Company Name": "DR REDDY`S LAB (AQURA SG)"
     },
     {
         "Product Name": "OMEZ DSR CAP",
         "Pack": "15 CAP",
-        "Company Name": "OMEZ 20MG CAP"
+        "Company Name": "DR REDDY`S LAB (AQURA SG)"
     },
     {
         "Product Name": "OMEZ INSTA SACH",
         "Pack": "5.9GM",
-        "Company Name": "OMEZ 20MG CAP"
+        "Company Name": "DR REDDY`S LAB (AQURA SG)"
     },
     {
         "Product Name": "OMEZ O SYP",
         "Pack": "200 ML",
-        "Company Name": "OMEZ 20MG CAP"
+        "Company Name": "DR REDDY`S LAB (AQURA SG)"
     },
     {
         "Product Name": "RAZO IT  PLUS TAB",
         "Pack": "10 TAB",
-        "Company Name": "OMEZ 20MG CAP"
+        "Company Name": "DR REDDY`S LAB (AQURA SG)"
     },
     {
         "Product Name": "RESWAS COUGH SYP",
         "Pack": "120ML",
-        "Company Name": "OMEZ 20MG CAP"
+        "Company Name": "DR REDDY`S LAB (AQURA SG)"
     },
     {
         "Product Name": "RESWAS LS SYP",
         "Pack": "100ML",
-        "Company Name": "OMEZ 20MG CAP"
+        "Company Name": "DR REDDY`S LAB (AQURA SG)"
     },
     {
         "Product Name": "ATARAX JR LOTION 50 ML",
@@ -30581,6 +30593,11 @@ const navkarMedicineData = [
         "Product Name": "SILDOO M 8/25 TAB",
         "Pack": "10 TAB",
         "Company Name": "DR REDDYS LAB (ZENURA)"
+    },
+    {
+        "Product Name": "STAMLO 10 TAB",
+        "Pack": "30 TAB",
+        "Company Name": "STAMLO [D] TAB"
     },
     {
         "Product Name": "STAMLO 5 TAB",
@@ -32441,6 +32458,16 @@ const navkarMedicineData = [
         "Product Name": "ZIRRO 500MG TAB",
         "Pack": "10 TAB",
         "Company Name": "KESOL 20 SYRUP"
+    },
+    {
+        "Product Name": "A1C1 BID DRY SYRUP",
+        "Pack": "30ML",
+        "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
+    },
+    {
+        "Product Name": "A1C1 FORTE DRY SYRUP",
+        "Pack": "30ML",
+        "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
     },
     {
         "Product Name": "CILNISAFE 10 MG TAB",
@@ -35866,6 +35893,11 @@ const navkarMedicineData = [
         "Product Name": "TROMIDE PLUS EYE DROPS",
         "Pack": "5ML",
         "Company Name": "ENTOD (GLOTEK)"
+    },
+    {
+        "Product Name": "EASYBRO-AB TAB",
+        "Pack": "10TAB",
+        "Company Name": "ENTOD ENSIGHT"
     },
     {
         "Product Name": "ENDOR EYE DROPS",
@@ -64738,6 +64770,11 @@ const navkarMedicineData = [
         "Company Name": "KLM LABORATORIES ORTHO"
     },
     {
+        "Product Name": "APPYBUSH SYRUP",
+        "Pack": "200ML",
+        "Company Name": "KLM LABORATORIES PED"
+    },
+    {
         "Product Name": "CETALORE M SUSPENSION 60ML",
         "Pack": "60ML",
         "Company Name": "KLM LABORATORIES PED"
@@ -64763,6 +64800,11 @@ const navkarMedicineData = [
         "Company Name": "KLM LABORATORIES PED"
     },
     {
+        "Product Name": "KLM D3 NANO DROPS 15ML",
+        "Pack": "15ML",
+        "Company Name": "KLM LABORATORIES PED"
+    },
+    {
         "Product Name": "KLM D3 NANO DROPS 30 ML",
         "Pack": "30 ML",
         "Company Name": "KLM LABORATORIES PED"
@@ -64785,6 +64827,11 @@ const navkarMedicineData = [
     {
         "Product Name": "NORMYO TAB",
         "Pack": "10 TAB",
+        "Company Name": "KLM LABORATORIES PED"
+    },
+    {
+        "Product Name": "SACCTIK GG ORAL DROP",
+        "Pack": "3.5ML",
         "Company Name": "KLM LABORATORIES PED"
     },
     {
@@ -64873,11 +64920,6 @@ const navkarMedicineData = [
         "Company Name": "SOFIDEW BABY MASSAGE OIL"
     },
     {
-        "Product Name": "APPYBUSH SYRUP",
-        "Pack": "200ML",
-        "Company Name": "KLM LABORATORIES PHARMA"
-    },
-    {
         "Product Name": "CETALORE M 10MG TAB",
         "Pack": "TAB",
         "Company Name": "KLM LABORATORIES PHARMA"
@@ -64913,11 +64955,6 @@ const navkarMedicineData = [
         "Company Name": "KLM LABORATORIES PHARMA"
     },
     {
-        "Product Name": "KLM D3 NANO DROPS 15ML",
-        "Pack": "15ML",
-        "Company Name": "KLM LABORATORIES PHARMA"
-    },
-    {
         "Product Name": "MELBOOST CAP",
         "Pack": "TAB",
         "Company Name": "KLM LABORATORIES PHARMA"
@@ -64945,11 +64982,6 @@ const navkarMedicineData = [
     {
         "Product Name": "OXIDOX CAP",
         "Pack": "TAB",
-        "Company Name": "KLM LABORATORIES PHARMA"
-    },
-    {
-        "Product Name": "SACCTIK GG ORAL DROP",
-        "Pack": "3.5ML",
         "Company Name": "KLM LABORATORIES PHARMA"
     },
     {
@@ -68379,7 +68411,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "DAPACONIC 10 TAB",
-        "Pack": "10 TAB",
+        "Pack": "15 TAB",
         "Company Name": "LA RENON(NEPHRO)LACONIC"
     },
     {

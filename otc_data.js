@@ -1,6 +1,3 @@
-// Auto-generated file. Do not edit manually.
-// Generated from: refined_output.csv
-
 const otcData = [
     {
         "Product Name": "LADY SURE [MRP 35]",
@@ -6220,6 +6217,11 @@ const otcData = [
     {
         "Product Name": "ROGHAN SUKOON [50ML]",
         "Pack": "50ML",
+        "Company Name": "SHRIRAMA STORES YELLAPUR"
+    },
+    {
+        "Product Name": "SABURI (GIFT) LOOKMANYA HAYAT TEL 25ML",
+        "Pack": "1PC",
         "Company Name": "SHRIRAMA STORES YELLAPUR"
     },
     {
