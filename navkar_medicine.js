@@ -1,3 +1,6 @@
+// Auto-generated file. Do not edit manually.
+// Generated from: refined_output.csv
+
 const navkarMedicineData = [
     {
         "Product Name": "DAPALEX T 10/40MG TAB",
@@ -33200,6 +33203,11 @@ const navkarMedicineData = [
         "Company Name": "RINIFOL CAP"
     },
     {
+        "Product Name": "ELDERVIT 12 INJ COMNIKIT",
+        "Pack": "1.5 ML",
+        "Company Name": "ELDER PHARMA (ELVISTA HEALTH CARE)"
+    },
+    {
         "Product Name": "GMM FORTE TABLETS",
         "Pack": "10 TAB",
         "Company Name": "ELDER PHARMACEUTICALS LTD"
@@ -58040,429 +58048,434 @@ const navkarMedicineData = [
         "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
+        "Product Name": "GABAPIN 100 TAB",
+        "Pack": "15 TAB",
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
+    },
+    {
         "Product Name": "GABAPIN ME 100",
         "Pack": "15 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "GABAPIN ME TAB",
         "Pack": "15 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "GABAPIN NT 200 TAB",
         "Pack": "15TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "GABAPIN OD 300 TAB",
         "Pack": "10TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "GABAPIN SR 450 TAB",
         "Pack": "TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "HIFENAC MAX DS TAB",
         "Pack": "10 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "HITAP ER 50MG TAB 15``S",
         "Pack": "15 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "IGNALIS M IR 50/500 TAB",
         "Pack": "10TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "INTAGLIP M",
         "Pack": "10TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "INTAGLIP M SR 1000 TAB",
         "Pack": "10 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "ITASPOR 100 MG CAP",
         "Pack": "10TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "LAMEZ 50MG TAB",
         "Pack": "10TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "LETHYROX 100MG TAB",
         "Pack": "15TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "LEVERA 500 TAB",
         "Pack": "15TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "LEVERA 750 TAB",
         "Pack": "10 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "LEVERA XR 1GM TAB",
         "Pack": "10TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "LEVERA XR 750 TAB",
         "Pack": "10TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "LINERO M 1000 TAB",
         "Pack": "10 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "LINERO M 500 TAB",
         "Pack": "10 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "LINERO TAB",
         "Pack": "10 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "LIPI EZ 20MG TAB",
         "Pack": "10TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "LIPICURE 10MG PETJAR D",
         "Pack": "30TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "MAGPROL CR 500 TAB",
         "Pack": "10 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "MECOFOL OD TAB",
         "Pack": "10 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "MENOTAS HP 150 INJ",
         "Pack": "1 VIAL",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "MIRNITE 30 MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "MIRNITE MELTAB 7.5 MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "MODAFIL MD 200 TAB",
         "Pack": "10 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "MONIT GTN 2.6MG TAB",
         "Pack": "30`S",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "MORR F AQUA  PLUS",
         "Pack": "60 ML",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "MOZA PLUS CAP",
         "Pack": "10 CAP",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "MOZEP 4 MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "NALTIMA 50MG TAB",
         "Pack": "TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "OLIMELT 10MG TAB",
         "Pack": "10TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "OLMARK 10 TAB",
         "Pack": "10TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "OPIPRIME 50MG TAB",
         "Pack": "TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "PANTIUM L 10CAP",
         "Pack": "10 CAP",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "PEXEP 30 MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "PEXEP CR 12.5 TAB",
         "Pack": "15 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "PEXEP CR 25MG TAB",
         "Pack": "15TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "PEXEP CR 37.5MG TAB",
         "Pack": "TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "PEXEP PLUS 25 MG CAP",
         "Pack": "10 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "PREGABID [NT] TAB",
         "Pack": "15 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "PREGABID 75MG CAP",
         "Pack": "15CAP",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "PREVA RS 10 TAB",
         "Pack": "10 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "PROVANOL FORTE 0.5MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "PROVANOL SR 20 TAB",
         "Pack": "10TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "QUIKHALE FB 200MG INHALER",
         "Pack": "120MD",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "QUTAN 25MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "QUTAN SR 400 MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "RABIUM DSR CAP",
         "Pack": "15CAP",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "REJUNEX AMP",
         "Pack": "10 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "REXIPRA 10MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "SEMAWIN 0.5MG INJ",
         "Pack": "1.5ML",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "SEMAWIN 1.7MG INJ",
         "Pack": "3ML",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "SEMAWIN 1MG INJ",
         "Pack": "3ML",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "SEMAWIN 2.4MG INJ",
         "Pack": "3ML",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "SITARA GM 50/1/1000",
         "Pack": "10TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "SITARA GM 50/2/1000 TAB",
         "Pack": "10TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "SITARA M 50/500 MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "SKIZORIL MD 50 MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "SPINFREE 20MG TAB",
         "Pack": "15TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "SPINZO TAB",
         "Pack": "10TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "TGLIP 20MG TAB 20``S",
         "Pack": "20TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "TGLIP M 1000 TAB",
         "Pack": "10 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "TGLIP M 500MG TAB 20``S",
         "Pack": "20TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "THYMOTAS 12.5MG TAB",
         "Pack": "10TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "TOFATAS 5MG",
         "Pack": "14TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "TOPAZ 25 TAB",
         "Pack": "15 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "TRETIVA 20MG CAP",
         "Pack": "10TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "VALPROL CR 300MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "VALPROL CR 500MG TAB",
         "Pack": "15TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "VALPROL CR 600MG TAB",
         "Pack": "10TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "VELTAM PLUS TAB",
         "Pack": "15 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "ZAVAMET OD 500",
         "Pack": "10 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "ZENOXA OD 900 TAB",
         "Pack": "TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "ZOREM 2.5MG CAP",
         "Pack": "15CAP",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "ZORYL 1MG TAB",
         "Pack": "15TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "ZORYL 2MG TAB",
         "Pack": "15TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "ZORYL 3MG TAB",
         "Pack": "TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "ZORYL 4MG TAB",
         "Pack": "15TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "ZORYL M1 FORTE TAB",
         "Pack": "15 TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "ZORYL M2 FORTE TAB",
         "Pack": "15TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "ZORYL M3 FORTE TAB",
         "Pack": "15TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "ZORYL M4 FORTE TAB",
         "Pack": "15TAB",
-        "Company Name": "GABAPIN 100 TAB"
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
         "Product Name": "ALZIL M FORTE TAB",
@@ -81500,6 +81513,16 @@ const navkarMedicineData = [
         "Company Name": "LIPIKIND AS CAP"
     },
     {
+        "Product Name": "LIPIKIND EZ 20 TAB",
+        "Pack": "10TAB",
+        "Company Name": "LIPIKIND AS CAP"
+    },
+    {
+        "Product Name": "LIPIKIND EZ 40 TAB",
+        "Pack": "10TAB",
+        "Company Name": "LIPIKIND AS CAP"
+    },
+    {
         "Product Name": "LIPIKIND F TAB",
         "Pack": "10TAB",
         "Company Name": "LIPIKIND AS CAP"
@@ -96890,6 +96913,11 @@ const navkarMedicineData = [
         "Company Name": "RANBAXY LAB (STAN LIFE)"
     },
     {
+        "Product Name": "MOX CLAV DS 457MG SUSP",
+        "Pack": "30ML",
+        "Company Name": "RANBAXY LAB (STAN LIFE)"
+    },
+    {
         "Product Name": "BYEFILM 1 TAB",
         "Pack": "10TAB",
         "Company Name": "RANBAXY LAB (UROCARE)"
@@ -101837,11 +101865,6 @@ const navkarMedicineData = [
     {
         "Product Name": "MAXOZA SACH 5GM",
         "Pack": "5GM",
-        "Company Name": "SUN PHARMA (INCA LIFE SCIENCE)"
-    },
-    {
-        "Product Name": "MOX CLAV DS 457MG SUSP",
-        "Pack": "30ML",
         "Company Name": "SUN PHARMA (INCA LIFE SCIENCE)"
     },
     {
@@ -113820,6 +113843,11 @@ const navkarMedicineData = [
         "Company Name": "UNIVERSAL MEDICARE (CHC/OTC)"
     },
     {
+        "Product Name": "MULTIVITE WOMAN SOFGELS 15`S",
+        "Pack": "TAB",
+        "Company Name": "UNIVERSAL MEDICARE (CHC/OTC)"
+    },
+    {
         "Product Name": "PRIMOSA 1000 15'S",
         "Pack": "15 TAB",
         "Company Name": "UNIVERSAL MEDICARE (CHC/OTC)"
@@ -114730,29 +114758,34 @@ const navkarMedicineData = [
         "Company Name": "AMLOPIN 2.5 TAB"
     },
     {
+        "Product Name": "TAZLOC AM 40 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "AMLOPIN 2.5 TAB"
+    },
+    {
         "Product Name": "TAZLOC AM 80 TAB",
         "Pack": "10 TAB",
-        "Company Name": "TAZLOC AM 40 TAB"
+        "Company Name": "AMLOPIN 2.5 TAB"
     },
     {
         "Product Name": "TAZLOC H 40 TAB",
         "Pack": "10 TAB",
-        "Company Name": "TAZLOC AM 40 TAB"
+        "Company Name": "AMLOPIN 2.5 TAB"
     },
     {
         "Product Name": "TAZLOC H 80 TAB",
         "Pack": "10 TAB",
-        "Company Name": "TAZLOC AM 40 TAB"
+        "Company Name": "AMLOPIN 2.5 TAB"
     },
     {
         "Product Name": "TAZLOC TRIO 40 TAB",
         "Pack": "10 TAB",
-        "Company Name": "TAZLOC AM 40 TAB"
+        "Company Name": "AMLOPIN 2.5 TAB"
     },
     {
         "Product Name": "TAZLOC TRIO 80 TAB",
         "Pack": "10 TAB",
-        "Company Name": "TAZLOC AM 40 TAB"
+        "Company Name": "AMLOPIN 2.5 TAB"
     },
     {
         "Product Name": "ANGISPAN TR 2.5 CAP",

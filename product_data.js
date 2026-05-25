@@ -1,3 +1,6 @@
+// Auto-generated file. Do not edit manually.
+// Generated from: refined_output.csv
+
 const productData = [
     {
         "Product Name": "MICROPORE TAPE HALF INCH",
@@ -5225,7 +5228,7 @@ const productData = [
         "Company Name": "CIPLA"
     },
     {
-        "Product Name": "PANTOSEC D SR CAPS",
+        "Product Name": "PANTOSEC DSR CAPS",
         "Pack": "1X10C",
         "Company Name": "CIPLA"
     },
@@ -9647,11 +9650,6 @@ const productData = [
     {
         "Product Name": "GIFT NESTLE MAGGI",
         "Pack": "-",
-        "Company Name": "GENERAL COMPANIES"
-    },
-    {
-        "Product Name": "GLUCOBUDDY METER",
-        "Pack": "PC",
         "Company Name": "GENERAL COMPANIES"
     },
     {
@@ -22748,6 +22746,11 @@ const productData = [
         "Product Name": "CORN CAP",
         "Pack": "4 CAP",
         "Company Name": "QUALITY"
+    },
+    {
+        "Product Name": "GLUCOBUDDY METER",
+        "Pack": "PC",
+        "Company Name": "R G B"
     },
     {
         "Product Name": "HEMOGLOBIN METER",
