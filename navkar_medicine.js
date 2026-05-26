@@ -1,6 +1,3 @@
-// Auto-generated file. Do not edit manually.
-// Generated from: refined_output.csv
-
 const navkarMedicineData = [
     {
         "Product Name": "DAPALEX T 10/40MG TAB",
@@ -5633,14 +5630,19 @@ const navkarMedicineData = [
         "Company Name": "AKUMENTIS HEALTHCARE (NOVEXA)"
     },
     {
+        "Product Name": "SWITGLIM MV 1/0.3 TAB",
+        "Pack": "15TAB",
+        "Company Name": "AKUMENTIS HEALTHCARE (NOVEXA)"
+    },
+    {
         "Product Name": "SWITGLIM MV 2/0.2 TAB",
         "Pack": "15TAB",
-        "Company Name": "SWITGLIM MV 1/0.3 TAB"
+        "Company Name": "AKUMENTIS HEALTHCARE (NOVEXA)"
     },
     {
         "Product Name": "SWITGLIM MV 2/0.3 TAB",
         "Pack": "15TAB",
-        "Company Name": "SWITGLIM MV 1/0.3 TAB"
+        "Company Name": "AKUMENTIS HEALTHCARE (NOVEXA)"
     },
     {
         "Product Name": "TENELIGLIP M 1000MG TAB",
@@ -18783,6 +18785,11 @@ const navkarMedicineData = [
         "Company Name": "BLUE CROSS LABORATORIES LTD"
     },
     {
+        "Product Name": "VEBA PLUS TAB",
+        "Pack": "15 TAB",
+        "Company Name": "BLUE CROSS LABORATORIES LTD"
+    },
+    {
         "Product Name": "BLUGLIP M  FORTE TAB",
         "Pack": "15TAB",
         "Company Name": "BLUE CROSS LIFE SCIENCES"
@@ -21018,6 +21025,11 @@ const navkarMedicineData = [
         "Company Name": "CENTAUR PHARMA (SAMRUDHI)"
     },
     {
+        "Product Name": "SINAREST PLUS TAB",
+        "Pack": "20TAB",
+        "Company Name": "CENTAUR PHARMA (SAMRUDHI)"
+    },
+    {
         "Product Name": "SINAREST VAPOCAPS",
         "Pack": "10CAP",
         "Company Name": "CENTAUR PHARMA (SAMRUDHI)"
@@ -21260,11 +21272,6 @@ const navkarMedicineData = [
     {
         "Product Name": "OCUREST OL EYE DROP",
         "Pack": "5ML",
-        "Company Name": "CENTAUR PHARMACEUTICALS P LTD"
-    },
-    {
-        "Product Name": "SINAREST PLUS TAB",
-        "Pack": "20TAB",
         "Company Name": "CENTAUR PHARMACEUTICALS P LTD"
     },
     {
@@ -43008,6 +43015,11 @@ const navkarMedicineData = [
         "Company Name": "GENERICS"
     },
     {
+        "Product Name": "MERONEM 1GM INJ",
+        "Pack": "1GM",
+        "Company Name": "GENERICS"
+    },
+    {
         "Product Name": "METHYLSURE 40 INJ",
         "Pack": "1 IV",
         "Company Name": "GENERICS"
@@ -47063,6 +47075,11 @@ const navkarMedicineData = [
         "Company Name": "H&H PHARMA (COSMECEUTICAL)"
     },
     {
+        "Product Name": "TRETIN OL NIGHT GEL CREAM",
+        "Pack": "25GM",
+        "Company Name": "H&H PHARMA (COSMECEUTICAL)"
+    },
+    {
         "Product Name": "CLONATE F CREAM 10GM",
         "Pack": "10GM",
         "Company Name": "H&H PHARMA (DERMATOLOGY)"
@@ -50001,6 +50018,11 @@ const navkarMedicineData = [
         "Product Name": "VETORY MX TAB",
         "Pack": "10 TAB",
         "Company Name": "LINOWIN 600MG TAB"
+    },
+    {
+        "Product Name": "CABENZA 20MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "HETERO HEALTHCARE LTD."
     },
     {
         "Product Name": "SEPIA TAB",
@@ -56058,12 +56080,12 @@ const navkarMedicineData = [
         "Company Name": "INTAS PHARMACEUTICALS (AQUILA)"
     },
     {
-        "Product Name": "NICLONZ PATCH 14 MG/24 HR",
+        "Product Name": "NICLONZ PATCH 21 MG/24 HR",
         "Pack": "7 PATCHES",
         "Company Name": "INTAS PHARMACEUTICALS (AQUILA)"
     },
     {
-        "Product Name": "NICLONZ PATCH 21 MG/24 HR",
+        "Product Name": "NICLONZ PATCH 7 MG/24 HR",
         "Pack": "7 PATCHES",
         "Company Name": "INTAS PHARMACEUTICALS (AQUILA)"
     },
@@ -64888,6 +64910,11 @@ const navkarMedicineData = [
         "Company Name": "SOFIDEW BABY MASSAGE OIL"
     },
     {
+        "Product Name": "SOFIDEW LOTION",
+        "Pack": "100ML",
+        "Company Name": "SOFIDEW BABY MASSAGE OIL"
+    },
+    {
         "Product Name": "SOFIDEW RESYL LOTION",
         "Pack": "50ML",
         "Company Name": "SOFIDEW BABY MASSAGE OIL"
@@ -64930,6 +64957,11 @@ const navkarMedicineData = [
     {
         "Product Name": "TRIPTOFER DROPS",
         "Pack": "15 ML",
+        "Company Name": "SOFIDEW BABY MASSAGE OIL"
+    },
+    {
+        "Product Name": "ZITLIN SUPS",
+        "Pack": "30ML",
         "Company Name": "SOFIDEW BABY MASSAGE OIL"
     },
     {
@@ -69743,11 +69775,6 @@ const navkarMedicineData = [
         "Company Name": "LLOYD HEALTHCARE (CARUS)"
     },
     {
-        "Product Name": "SUGAFLO MV TAB",
-        "Pack": "10 TAB",
-        "Company Name": "LLOYD HEALTHCARE (CARUS)"
-    },
-    {
         "Product Name": "VILDARAY M FORTE",
         "Pack": "15S",
         "Company Name": "LLOYD HEALTHCARE (CARUS)"
@@ -69840,11 +69867,6 @@ const navkarMedicineData = [
     {
         "Product Name": "LOYZIDE XR 60 TAB",
         "Pack": "10 TAB",
-        "Company Name": "LLOYD HEALTHCARE (ZORUS)"
-    },
-    {
-        "Product Name": "SUGAFLO GM 2 TAB",
-        "Pack": "15'S",
         "Company Name": "LLOYD HEALTHCARE (ZORUS)"
     },
     {
@@ -69968,6 +69990,16 @@ const navkarMedicineData = [
         "Company Name": "LLOYD HELATHCARE PORUS"
     },
     {
+        "Product Name": "BENIDIN CH 12.5",
+        "Pack": "10S",
+        "Company Name": "LLOYD HELATHCARE PORUS"
+    },
+    {
+        "Product Name": "BENIDIN CH 6.25",
+        "Pack": "10S",
+        "Company Name": "LLOYD HELATHCARE PORUS"
+    },
+    {
         "Product Name": "BENIDIN M 25 MG TAB",
         "Pack": "10 TAB",
         "Company Name": "LLOYD HELATHCARE PORUS"
@@ -70068,6 +70100,11 @@ const navkarMedicineData = [
         "Company Name": "LLOYD HELATHCARE PORUS"
     },
     {
+        "Product Name": "SUGAFLO 5 MG",
+        "Pack": "15S",
+        "Company Name": "LLOYD HELATHCARE PORUS"
+    },
+    {
         "Product Name": "SUGAFLO GM 1 FORTE TAB",
         "Pack": "TAB",
         "Company Name": "LLOYD HELATHCARE PORUS"
@@ -70075,6 +70112,26 @@ const navkarMedicineData = [
     {
         "Product Name": "SUGAFLO GM 2 FORTE TAB",
         "Pack": "TAB",
+        "Company Name": "LLOYD HELATHCARE PORUS"
+    },
+    {
+        "Product Name": "SUGAFLO GM 2 TAB",
+        "Pack": "15'S",
+        "Company Name": "LLOYD HELATHCARE PORUS"
+    },
+    {
+        "Product Name": "SUGAFLO M FORTE",
+        "Pack": "15S",
+        "Company Name": "LLOYD HELATHCARE PORUS"
+    },
+    {
+        "Product Name": "SUGAFLO M TAB",
+        "Pack": "15S",
+        "Company Name": "LLOYD HELATHCARE PORUS"
+    },
+    {
+        "Product Name": "SUGAFLO MV TAB",
+        "Pack": "10 TAB",
         "Company Name": "LLOYD HELATHCARE PORUS"
     },
     {
@@ -70128,14 +70185,24 @@ const navkarMedicineData = [
         "Company Name": "LLOYD HELATHCARE PORUS"
     },
     {
-        "Product Name": "BENIDIN CH 12.5",
-        "Pack": "10S",
-        "Company Name": "LLOYDS HEALTHCARE"
+        "Product Name": "TELZOX H 80MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "LLOYD HELATHCARE PORUS"
     },
     {
-        "Product Name": "BENIDIN CH 6.25",
-        "Pack": "10S",
-        "Company Name": "LLOYDS HEALTHCARE"
+        "Product Name": "TELZOX M 25 TAB",
+        "Pack": "TAB",
+        "Company Name": "LLOYD HELATHCARE PORUS"
+    },
+    {
+        "Product Name": "TELZOX M 50 TAB",
+        "Pack": "TAB",
+        "Company Name": "LLOYD HELATHCARE PORUS"
+    },
+    {
+        "Product Name": "TELZOX TRIO TAB",
+        "Pack": "TAB",
+        "Company Name": "LLOYD HELATHCARE PORUS"
     },
     {
         "Product Name": "BYLENTA 20",
@@ -70543,21 +70610,6 @@ const navkarMedicineData = [
         "Company Name": "LLOYDS HEALTHCARE"
     },
     {
-        "Product Name": "SUGAFLO 5 MG",
-        "Pack": "15S",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "SUGAFLO M FORTE",
-        "Pack": "15S",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "SUGAFLO M TAB",
-        "Pack": "15S",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
         "Product Name": "SUGARAY M SR 50/1000 TAB",
         "Pack": "15 TAB",
         "Company Name": "LLOYDS HEALTHCARE"
@@ -70565,26 +70617,6 @@ const navkarMedicineData = [
     {
         "Product Name": "SUGARAY M SR 50/500 TAB",
         "Pack": "15 TAB",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "TELZOX H 80MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "TELZOX M 25 TAB",
-        "Pack": "TAB",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "TELZOX M 50 TAB",
-        "Pack": "TAB",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "TELZOX TRIO TAB",
-        "Pack": "TAB",
         "Company Name": "LLOYDS HEALTHCARE"
     },
     {
@@ -118040,6 +118072,16 @@ const navkarMedicineData = [
     {
         "Product Name": "ILYP XT TAB",
         "Pack": "15TAB",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "LINECTRA 5 TAB",
+        "Pack": "10TAB",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "LINECTRA M 500 TAB",
+        "Pack": "10TAB",
         "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
     },
     {

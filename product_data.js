@@ -1,6 +1,3 @@
-// Auto-generated file. Do not edit manually.
-// Generated from: refined_output.csv
-
 const productData = [
     {
         "Product Name": "MICROPORE TAPE HALF INCH",
@@ -24808,7 +24805,27 @@ const productData = [
         "Company Name": "SMART ECO"
     },
     {
+        "Product Name": "BENIPECO 4 TAB",
+        "Pack": "15TAB",
+        "Company Name": "SMART ECO"
+    },
+    {
         "Product Name": "BISOPECO 2.5 TAB",
+        "Pack": "15TAB",
+        "Company Name": "SMART ECO"
+    },
+    {
+        "Product Name": "BISOPECO 5 TAB",
+        "Pack": "15TAB",
+        "Company Name": "SMART ECO"
+    },
+    {
+        "Product Name": "CHLORECO 12.5 TAB",
+        "Pack": "15TAB",
+        "Company Name": "SMART ECO"
+    },
+    {
+        "Product Name": "CHLORECO 6.25 TAB",
         "Pack": "15TAB",
         "Company Name": "SMART ECO"
     },
@@ -24858,6 +24875,11 @@ const productData = [
         "Company Name": "SMART ECO"
     },
     {
+        "Product Name": "DAPAECO 10 VDM TAB",
+        "Pack": "15TAB",
+        "Company Name": "SMART ECO"
+    },
+    {
         "Product Name": "DAPAECO LN TAB",
         "Pack": "15TAB",
         "Company Name": "SMART ECO"
@@ -24874,6 +24896,11 @@ const productData = [
     },
     {
         "Product Name": "EMPAECO 25 TAB",
+        "Pack": "10TAB",
+        "Company Name": "SMART ECO"
+    },
+    {
+        "Product Name": "EMPAECO L 25 TAB",
         "Pack": "10TAB",
         "Company Name": "SMART ECO"
     },
@@ -24948,6 +24975,16 @@ const productData = [
         "Company Name": "SMART ECO"
     },
     {
+        "Product Name": "LEVETECO 500 TAB",
+        "Pack": "10TAB",
+        "Company Name": "SMART ECO"
+    },
+    {
+        "Product Name": "LINAECO 5 TAB",
+        "Pack": "15TAB",
+        "Company Name": "SMART ECO"
+    },
+    {
         "Product Name": "LOSARTECO 50 TAB",
         "Pack": "15TAB",
         "Company Name": "SMART ECO"
@@ -24984,6 +25021,21 @@ const productData = [
     },
     {
         "Product Name": "METOLECO 50 XL TAB",
+        "Pack": "15TAB",
+        "Company Name": "SMART ECO"
+    },
+    {
+        "Product Name": "NIFEDIPECO RETARD 10 TAB",
+        "Pack": "15TAB",
+        "Company Name": "SMART ECO"
+    },
+    {
+        "Product Name": "NIFEDIPECO RETARD 20 TAB",
+        "Pack": "15TAB",
+        "Company Name": "SMART ECO"
+    },
+    {
+        "Product Name": "OLMIECO 20 TAB",
         "Pack": "15TAB",
         "Company Name": "SMART ECO"
     },
@@ -25123,6 +25175,11 @@ const productData = [
         "Company Name": "SMART ECO"
     },
     {
+        "Product Name": "TAMSUECO D TAB",
+        "Pack": "15TAB",
+        "Company Name": "SMART ECO"
+    },
+    {
         "Product Name": "TELMIECO 40 AMH TAB",
         "Pack": "15TAB",
         "Company Name": "SMART ECO"
@@ -25190,6 +25247,11 @@ const productData = [
     {
         "Product Name": "THYROECO 75 TAB",
         "Pack": "120TAB",
+        "Company Name": "SMART ECO"
+    },
+    {
+        "Product Name": "TICAECO 90 TAB",
+        "Pack": "14TAB",
         "Company Name": "SMART ECO"
     },
     {
@@ -26108,6 +26170,11 @@ const productData = [
         "Company Name": "SMART ICONIC LAB"
     },
     {
+        "Product Name": "PILESOFT ANO CREAM",
+        "Pack": "30GM",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
         "Product Name": "PILESOFT OINTMENT",
         "Pack": "20GM",
         "Company Name": "SMART ICONIC LAB"
@@ -26929,6 +26996,11 @@ const productData = [
     },
     {
         "Product Name": "CLAVCREST KID TAB",
+        "Pack": "10TAB",
+        "Company Name": "ALKAFRESH SODA EFFERVESCENT"
+    },
+    {
+        "Product Name": "CLINIPECO TRIO TAB",
         "Pack": "10TAB",
         "Company Name": "ALKAFRESH SODA EFFERVESCENT"
     },
