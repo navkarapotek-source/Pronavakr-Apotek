@@ -1,0 +1,1209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Navkar Apotek & Pronavkar Lifecare - Leading Pharma Distributors</title>
+<meta name="description" content="Navkar Apotek LLP & Pronavkar Lifecare LLP - Trusted pharmaceutical wholesale distribution in India. Quality medicines, healthcare products, and reliable supply chain across Maharashtra." />
+<meta name="keywords" content="pharmaceutical distributor, medicine wholesaler, Navkar Apotek, Pronavkar Lifecare, pharma distribution India, healthcare products, Baramati, Pune" />
+<link rel="icon" type="image/png" href="logo.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+<style>
+  @font-face {
+    font-family: 'Adam CG Pro';
+    src: url('fonts/AdamCGPro.woff2') format('woff2'),
+         url('fonts/AdamCGPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy: #1A9E8F;
+    --navy-mid: #148074;
+    --teal: #1A9E8F;
+    --teal-light: #d2f0ec;
+    --cream: #f7f3ee;
+    --warm-white: #fefcf9;
+    --text: #1a1a1a;
+    --muted: #6b7280;
+    --border: #e5ddd3;
+    --accent: #F5C125;
+    --primary-color: #1A9E8F;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--warm-white);
+    color: var(--text);
+    line-height: 1.4;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    word-wrap: break-word;
+    position: relative;
+  }
+  body.no-scroll {
+    overflow: hidden;
+    height: 100vh;
+  }
+
+  nav {
+    position: sticky; top: 0; z-index: 100;
+    background: #ffffff;
+    padding: 0 2rem;
+    display: flex; align-items: center;
+    height: 64px;
+    border-bottom: 2px solid var(--accent);
+    gap: 1rem;
+  }
+  .nav-brand {
+    display: flex; flex-direction: column;
+  }
+  .nav-brand span:first-child {
+    font-family: 'Adam CG Pro', sans-serif;
+    font-size: 18px; font-weight: 600; color: #1A9E96;
+    line-height: 1.2;
+  }
+  .nav-brand span:last-child {
+    font-size: 10px; color: #F5C518; text-transform: uppercase;
+    line-height: 1.2;
+  }
+  .nav-links { display: flex; gap: 2rem; list-style: none; margin-left: auto; }
+  .nav-links a {
+    font-size: 13px; color: #373c44; text-decoration: none;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    transition: color 0.2s;
+    line-height: 1.3;
+  }
+  .nav-links a:hover { color: #000; }
+  .nav-links a.active { color: #000; font-weight: 600; }
+
+  .nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .login-btn {
+    padding: 8px 20px;
+    background: var(--accent);
+    color: #000;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    white-space: nowrap;
+    line-height: 1.3;
+  }
+  .login-btn:hover {
+    background: #000;
+    color: #fff;
+  }
+
+  /* ── HERO ── */
+  .hero {
+    background: #fdfdfd;
+    padding: 2.5rem 2rem 1.8rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 18px 45px rgba(0,0,0,0.25);
+    z-index: 2;
+  }
+  .hero::before {
+    content: '';
+    position: absolute; inset: 0;
+    background-image: radial-gradient(rgba(0,0,0,0.04) 1px, transparent 1px);
+    background-size: 24px 24px;
+    opacity: 1;
+  }
+  .hero-pill {
+    display: inline-block;
+    background: #F5C125;
+    border: 1px solid rgba(0,0,0,0.1);
+    color: #000;
+    font-size: 0.85rem; letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    border-radius: 999px;
+    margin-bottom: 0.8rem;
+    font-weight: 700;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: relative; z-index: 1;
+    line-height: 1.3;
+  }
+  .hero h1 {
+    font-family: 'Adam CG Pro', sans-serif;
+    font-size: clamp(2.2rem, 5vw, 3.6rem);
+    font-weight: 600; color: #1a1a1a;
+    line-height: 1.15;
+    max-width: 680px; margin: 0 auto 0.4rem;
+    position: relative; z-index: 1;
+  }
+  .hero h1 em {
+    font-style: italic; color: #000;
+  }
+  .hero p {
+    max-width: 540px; margin: 0 auto 0.8rem;
+    color: #333; font-size: 15px; font-weight: 400;
+    line-height: 1.4;
+    position: relative; z-index: 1;
+  }
+  .hero-divider {
+    width: 48px; height: 2px;
+    background: #000;
+    margin: 0 auto 0.4rem;
+    position: relative; z-index: 1;
+  }
+
+  .app-download {
+    position: relative; z-index: 1;
+    margin: 1rem auto 0;
+    text-align: center;
+  }
+  .app-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+    line-height: 1.3;
+  }
+  .play-store-badge {
+    height: 48px;
+    width: auto;
+    border-radius: 6px;
+    transition: transform 0.3s ease;
+  }
+  .play-store-badge:hover {
+    transform: scale(1.05);
+  }
+  .app-download-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  .qr-code-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+  }
+  .qr-code-wrap img {
+    width: 150px;
+    height: 150px;
+    border-radius: 16px;
+    background: #fff;
+    padding: 8px;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.12);
+    transition: transform 0.3s ease;
+  }
+  .qr-code-wrap img:hover {
+    transform: scale(1.04);
+  }
+  .qr-label {
+    font-size: 12px;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    background: rgba(255,255,255,0.15);
+    padding: 3px 12px;
+    border-radius: 20px;
+  }
+  .guide-btn {
+    display: inline-block;
+    padding: 10px 24px;
+    background: #f7d127;
+    color: #000;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 50px;
+    letter-spacing: 0.04em;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    white-space: nowrap;
+  }
+  .guide-btn:hover {
+    background: #e0b800;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  }
+  @media (max-width: 500px) {
+    .app-download-inner { flex-direction: column; gap: 1.2rem; }
+    .qr-code-wrap img { width: 120px; height: 120px; }
+    .guide-btn { font-size: 0.8rem; padding: 10px 20px; }
+  }
+
+  .b2b-btn {
+    display: inline-block;
+    padding: 12px 32px;
+    background: #f7d127;
+    color: #000;
+    font-size: 0.95rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 50px;
+    letter-spacing: 0.04em;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+  .b2b-btn:hover {
+    background: #e0b800;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  }
+
+  .about-band {
+    background: var(--teal);
+    padding: 2rem 2rem;
+  }
+  .about-inner {
+    max-width: 900px; margin: 0 auto;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;
+    align-items: center;
+  }
+  @media (max-width: 768px) {
+    .about-inner { grid-template-columns: 1fr; gap: 1.5rem; }
+  }
+  .about-text h2 {
+    font-family: 'Adam CG Pro', sans-serif;
+    font-size: 1.8rem; font-weight: 600; color: #1a1a1a;
+    margin-bottom: 0.8rem;
+    line-height: 1.2;
+  }
+  .about-text p {
+    color: #1a1a1a;
+    font-size: 14px; line-height: 1.5;
+  }
+  .about-stats {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.8rem;
+  }
+  .stat-card {
+    background: rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 12px; padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .stat-card .num {
+    font-family: 'Adam CG Pro', sans-serif;
+    font-size: 2rem;
+    font-weight: 900; color: #000;
+    line-height: 1;
+  }
+  .stat-card .label {
+    font-size: 11px; color: #000;
+    text-transform: uppercase; letter-spacing: 0.06em;
+    margin-top: 3px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  .stat-card .label .num {
+    font-family: 'Adam CG Pro', sans-serif;
+    font-size: 14px; font-weight: 900; color: #000;
+    line-height: 1;
+  }
+
+  .values-strip {
+    background: var(--cream);
+    border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
+    padding: 2rem 2rem;
+  }
+  .values-inner { max-width: 900px; margin: 0 auto; }
+  .values-inner h2 {
+    font-family: 'Adam CG Pro', sans-serif;
+    font-size: 1.6rem; color: var(--navy);
+    text-align: center; margin-bottom: 1.5rem;
+    line-height: 1.2;
+  }
+  .values-grid {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.2rem;
+  }
+  @media (max-width: 768px) {
+    .values-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  }
+  @media (max-width: 480px) {
+    .values-grid { grid-template-columns: 1fr; }
+    .hero h1 { font-size: 1.9rem; }
+    .hero { padding: 2rem 1rem 1.5rem; }
+  }
+  .value-item { text-align: center; }
+  .value-icon {
+    width: 48px; height: 48px; border-radius: 50%;
+    background: var(--navy); color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px; margin: 0 auto 0.8rem;
+  }
+  .value-item h4 {
+    font-size: 13px; font-weight: 500; color: var(--navy);
+    margin-bottom: 0.3rem;
+    line-height: 1.3;
+  }
+  .value-item p { font-size: 12px; color: var(--muted); line-height: 1.4; }
+
+  footer {
+    background: #0f2c2a; color: #fff;
+    padding: 3rem 2rem 1.5rem;
+  }
+  .footer-container {
+    max-width: 1100px; margin: 0 auto;
+    display: grid; grid-template-columns: 2fr 1fr 1.5fr; gap: 3rem;
+  }
+  @media (max-width: 768px) {
+    .footer-container {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+  }
+  .footer-col h4 {
+    font-family: 'Adam CG Pro', sans-serif;
+    font-size: 1.3rem; color: var(--accent); margin-bottom: 1.2rem;
+    line-height: 1.2;
+  }
+  .footer-col p { font-size: 13px; color: #bbb; line-height: 1.5; margin-bottom: 0.8rem; }
+  .footer-links { list-style: none; }
+  .footer-links li { margin-bottom: 0.6rem; }
+  .footer-links a { color: #bbb; text-decoration: none; font-size: 13px; transition: color 0.2s; }
+  .footer-links a:hover { color: #fff; }
+  .footer-contact { display: flex; flex-direction: column; gap: 0.8rem; }
+  
+  .contact-item { 
+    display: flex; 
+    align-items: center; 
+    gap: 12px; 
+    font-size: 13px; 
+    color: #bbb; 
+    min-width: 0; 
+    overflow-wrap: break-word; 
+    word-break: break-word; 
+    line-height: 1.4; 
+  }
+  .contact-icon {
+    width: 42px;
+    height: 42px;
+    min-width: 42px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+  .contact-icon img {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+  }
+  .contact-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .contact-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--accent);
+    font-weight: 700;
+  }
+
+  .footer-bottom {
+    max-width: 1100px; margin: 2rem auto 0;
+    border-top: 1px solid #333; padding-top: 1.5rem;
+    text-align: center;
+  }
+  .legal-info { font-size: 11px; color: #777; line-height: 1.6; margin-bottom: 1rem; }
+  .footer-credits { font-size: 12px; color: #555; }
+
+  /* Hamburger Menu CSS */
+  .menu-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; z-index: 1001; }
+  .menu-toggle span { width: 25px; height: 3px; background: #373c44; transition: 0.3s; border-radius: 2px; }
+  .nav-overlay {
+    position: fixed; top: 0; right: -100%; width: 250px; height: 100vh;
+    background: var(--navy); z-index: 1000; padding: 80px 2rem; transition: 0.4s ease-in-out;
+    box-shadow: -5px 0 15px rgba(0,0,0,0.3);
+  }
+  .nav-overlay.active { right: 0; }
+  .close-overlay {
+    position: absolute; top: 20px; right: 20px;
+    font-size: 40px; color: #fff; cursor: pointer;
+    line-height: 1;
+  }
+  .overlay-links { list-style: none; display: flex; flex-direction: column; gap: 1.2rem; }
+  .overlay-links a { color: #fff; text-decoration: none; font-size: 17px; text-transform: uppercase; line-height: 1.3; }
+  .menu-toggle.active span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+  .menu-toggle.active span:nth-child(2) { opacity: 0; }
+  .menu-toggle.active span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+
+  @media (max-width: 900px) {
+    .features-grid { grid-template-columns: 1fr; }
+    .hero h1 { font-size: 2.6rem; }
+  }
+
+  @media (max-width: 768px) {
+    nav { padding: 0 1rem; }
+    .nav-brand span:first-child { font-size: 12px; }
+    .nav-brand span:last-child { display: none; }
+    .nav-links { display: none; }
+    .menu-toggle { display: flex; }
+    .hero { padding: 2rem 1.5rem 1.5rem; }
+    .hero h1 { font-size: 1.7rem; line-height: 1.2; }
+    .hero p { font-size: 14px; }
+    .features-grid, .partners-grid, .logos-grid { grid-template-columns: 1fr; }
+    .about-inner { grid-template-columns: 1fr; gap: 1.5rem; }
+    .about-stats { grid-template-columns: 1fr; gap: 0.6rem; }
+    .values-grid { grid-template-columns: repeat(2, 1fr); gap: 0.8rem; }
+    .values-strip { padding: 1.8rem 1rem; }
+    .values-inner h2 { font-size: 1.4rem; }
+    .contact-icon { width: 36px; height: 36px; min-width: 36px; font-size: 16px; }
+  }
+
+  @media (max-width: 480px) {
+    .values-grid { grid-template-columns: 1fr; }
+    .hero h1 { font-size: 1.6rem; }
+    .hero { padding: 2rem 1rem 1.2rem; }
+  }
+
+  @media (max-width: 500px) {
+    .hero h1 { font-size: 1.7rem; }
+    .btn-group { flex-direction: column; }
+  }
+
+  /* ── Vision & Mission Section ── */
+  .vm-section {
+    background: var(--navy);
+    position: relative;
+    overflow: hidden;
+    padding: 3.5rem 2rem;
+    border-top: 4px solid #0d7a6c;
+    box-shadow: inset 0 10px 25px rgba(0,0,0,0.22);
+  }
+  .vm-section::before {
+    content: '';
+    position: absolute;
+    top: -80px; left: 50%;
+    transform: translateX(-50%);
+    width: 700px; height: 700px;
+    background: radial-gradient(circle, rgba(15,124,114,0.15) 0%, transparent 65%);
+    pointer-events: none;
+  }
+  .vm-section::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+    background-size: 60px 60px;
+    pointer-events: none;
+  }
+  .vm-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+  .vm-eyebrow {
+    display: flex; align-items: center; gap: 0.5rem;
+    margin-bottom: 2rem; justify-content: center;
+  }
+  .vm-eyebrow span {
+    font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;
+    color: #e8a84e;
+  }
+  .vm-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+  @media (max-width: 700px) {
+    .vm-cards { grid-template-columns: 1fr; }
+  }
+  .vm-card {
+    border-radius: 16px;
+    padding: 1.8rem 1.5rem;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+  .vm-card.vision, .vm-card.mission {
+    background: linear-gradient(135deg, rgba(27,61,110,0.9) 0%, rgba(11,37,69,0.95) 100%);
+    border: 1px solid rgba(255,255,255,0.1);
+  }
+  .vm-card-tag {
+    display: flex; align-items: center; gap: 6px;
+    margin-bottom: 1rem;
+    justify-content: center;
+  }
+  .vm-card-tag .tag-dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: #e8a84e;
+  }
+  .vm-card-tag span {
+    font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase;
+    font-weight: 500;
+    color: #e8a84e;
+  }
+  .vm-card h3 {
+    font-family: 'Adam CG Pro', sans-serif;
+    font-size: 1.5rem; font-weight: 600; color: #fff;
+    line-height: 1.2;
+    margin-bottom: 0.8rem;
+  }
+  .vm-card h3 em {
+    font-style: italic;
+    color: #e8a84e;
+  }
+  .vm-card p {
+    color: rgba(255,255,255,0.72);
+    font-size: 13px; line-height: 1.6;
+    font-weight: 300;
+  }
+  .vm-card-deco {
+    position: absolute;
+    bottom: -20px; right: -20px;
+    font-size: 7rem;
+    opacity: 0.04;
+    line-height: 1;
+    pointer-events: none;
+    font-family: 'Adam CG Pro', sans-serif;
+    font-weight: 600;
+    color: #fff;
+  }
+  .vm-pillars {
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+  }
+  @media (max-width: 600px) {
+    .vm-pillars { grid-template-columns: 1fr; }
+    .vm-section { padding: 2.5rem 1rem; }
+  }
+  .vm-pillar {
+    background: #F5C125;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 12px;
+    padding: 1rem 0.8rem;
+    display: flex; align-items: flex-start; gap: 0.5rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s;
+  }
+  .vm-pillar:hover {
+    transform: translateY(-5px);
+  }
+  .vm-pillar-icon {
+    width: 34px; height: 34px; flex-shrink: 0;
+    background: rgba(0,0,0,0.08);
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 17px;
+  }
+  .vm-pillar-text strong {
+    display: block; font-size: 13px; color: #000; font-weight: 700;
+    margin-bottom: 2px;
+    letter-spacing: 0.01em;
+    line-height: 1.2;
+  }
+  .vm-pillar-text span {
+    font-size: 11px; color: #1a1a1a; line-height: 1.4;
+    font-weight: 500;
+  }
+
+  /* Floating Buttons Styles */
+  .whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50%;
+    padding: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    z-index: 1000;
+    transition: all 0.3s ease;
+    width: 56px;
+    height: 56px;
+  }
+  .whatsapp-float:hover {
+    transform: translateY(-3px);
+    background-color: #128c7e;
+    color: #fff;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+  }
+  .back-to-top {
+    position: fixed;
+    bottom: 85px;
+    right: 25px;
+    background: var(--navy);
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.2);
+    cursor: pointer;
+    display: none;
+    z-index: 999;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+  }
+  .back-to-top:hover {
+    background: var(--accent);
+    color: #000;
+    transform: translateY(-3px);
+  }
+  @media (max-width: 768px) {
+    .whatsapp-float { width: 50px; height: 50px; padding: 12px; bottom: 20px; right: 20px; }
+    .back-to-top { bottom: 80px; right: 20px; width: 45px; height: 45px; }
+  }
+
+  /* ─────────────────────────────────────────
+     INTRO OVERLAY — FIXED VERSION
+  ───────────────────────────────────────── */
+  #intro-overlay {
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;          /* stacks content + skip vertically */
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    overflow: hidden;
+    transition: opacity 0.8s ease-out, visibility 0.8s;
+  }
+  #intro-overlay.hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .intro-med-float {
+    position: absolute;
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0;
+    overflow: visible;
+    filter: blur(0.5px);
+  }
+
+  /* Main content block — logo + names */
+  .intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .intro-logo {
+    width: 420px;
+    max-width: 85vw;
+    height: auto;
+    opacity: 0;
+    animation: introZoomPulse 1.2s 0.2s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
+    filter: drop-shadow(0 20px 35px rgba(16, 132, 132, 0.25));
+  }
+
+  .intro-text-group {
+    margin-top: 40px;
+    opacity: 0;
+    animation: introTextReveal 0.8s 1.5s forwards;
+  }
+
+  .intro-firm-name {
+    font-size: clamp(24px, 5vw, 34px);
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin: 12px 0;
+    line-height: 1.15;
+    font-family: 'Adam CG Pro', sans-serif;
+  }
+  .intro-navkar   { color: #108484; }
+  .intro-pronavkar{ color: #F7D02B; }
+
+  /* ── Skip Button — perfectly centered below names ── */
+  .skip-btn {
+    display: inline-block;
+    margin-top: 28px;
+    padding: 10px 36px;
+    background: var(--accent);       /* yellow — matches brand */
+    color: #000;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.15);
+    transition: background 0.2s, color 0.2s, transform 0.2s;
+    z-index: 1002;
+    /* fade-in after text group appears */
+    opacity: 0;
+    animation: introTextReveal 0.5s 2s forwards;
+  }
+  .skip-btn:hover {
+    background: #000;
+    color: #fff;
+    transform: translateY(-2px);
+  }
+
+  /* Mobile tweaks */
+  @media (max-width: 768px) {
+    .intro-logo { width: 300px; }
+    .intro-text-group { margin-top: 28px; }
+    .intro-firm-name { font-size: clamp(18px, 6vw, 26px); letter-spacing: 2px; }
+    .skip-btn { margin-top: 22px; padding: 9px 28px; font-size: 13px; }
+  }
+  @media (max-width: 400px) {
+    .intro-logo { width: 240px; }
+    .skip-btn { padding: 8px 22px; font-size: 12px; }
+  }
+
+  @keyframes introZoomPulse {
+    0%   { opacity: 0; transform: scale(0.7); }
+    50%  { opacity: 1; transform: scale(1.1); }
+    75%  { transform: scale(0.96); }
+    100% { opacity: 1; transform: scale(1); }
+  }
+  @keyframes introTextReveal {
+    0%   { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes introMedAppear {
+    0%   { opacity: 0; transform: scale(0) rotate(0deg); }
+    60%  { opacity: 0.22; transform: scale(1.15) rotate(5deg); }
+    100% { opacity: 0.18; transform: scale(1) rotate(0deg); }
+  }
+  @keyframes introFloatMed {
+    0%   { transform: translateY(0px) rotate(0deg); }
+    50%  { transform: translateY(-16px) rotate(8deg); }
+    100% { transform: translateY(0px) rotate(0deg); }
+  }
+
+  .intro-med-float.visible  { animation: introMedAppear 0.8s forwards; }
+  .intro-med-float.floating { animation: introFloatMed linear infinite; opacity: 0.18; }
+</style>
+<style>.desktop-only{display:none;}@media (min-width:768px){ .desktop-only{display:inline;} }</style>
+</head>
+<body class="no-scroll">
+
+<!-- ══════════════════════════════════════
+     INTRO OVERLAY
+══════════════════════════════════════ -->
+<div id="intro-overlay">
+
+  <!-- Floating pill decorations -->
+  <svg class="intro-med-float" id="m1" style="left:33%;top:10%;" width="72" height="34" viewBox="0 0 120 56">
+    <rect x="0" y="0" width="120" height="56" rx="28" ry="28" fill="#108484"/>
+    <clipPath id="cp1"><rect x="0" y="0" width="60" height="56"/></clipPath>
+    <rect x="0" y="0" width="120" height="56" rx="28" ry="28" fill="#0a5f5f" clip-path="url(#cp1)"/>
+    <line x1="60" y1="4" x2="60" y2="52" stroke="white" stroke-width="3" opacity="0.6"/>
+  </svg>
+  <svg class="intro-med-float" id="m3" style="left:16%;top:24%;" width="68" height="30" viewBox="0 0 120 52">
+    <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#F7D02B"/>
+    <clipPath id="cp3"><rect x="60" y="0" width="60" height="52"/></clipPath>
+    <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#d4af1f" clip-path="url(#cp3)"/>
+    <line x1="60" y1="4" x2="60" y2="48" stroke="white" stroke-width="3" opacity="0.6"/>
+  </svg>
+  <svg class="intro-med-float" id="m4" style="left:24%;top:36%;" width="30" height="56" viewBox="0 0 52 100">
+    <rect x="0" y="0" width="52" height="100" rx="26" ry="26" fill="#108484"/>
+    <clipPath id="cp4"><rect x="0" y="50" width="52" height="50"/></clipPath>
+    <rect x="0" y="0" width="52" height="100" rx="26" ry="26" fill="#F7D02B" clip-path="url(#cp4)"/>
+    <line x1="4" y1="50" x2="48" y2="50" stroke="white" stroke-width="3" opacity="0.6"/>
+  </svg>
+  <svg class="intro-med-float" id="m5" style="left:18%;top:52%;" width="68" height="30" viewBox="0 0 120 52">
+    <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#F7D02B"/>
+    <clipPath id="cp5"><rect x="0" y="0" width="60" height="52"/></clipPath>
+    <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#108484" clip-path="url(#cp5)"/>
+    <line x1="60" y1="4" x2="60" y2="48" stroke="white" stroke-width="3" opacity="0.6"/>
+  </svg>
+  <svg class="intro-med-float" id="m6" style="left:37%;top:66%;" width="38" height="38" viewBox="0 0 80 80">
+    <circle cx="40" cy="40" r="38" fill="#F7D02B"/>
+    <circle cx="40" cy="40" r="28" fill="#d4af1f"/>
+    <line x1="8" y1="40" x2="72" y2="40" stroke="white" stroke-width="3" opacity="0.6"/>
+  </svg>
+  <svg class="intro-med-float" id="m7" style="left:63%;top:56%;" width="62" height="28" viewBox="0 0 120 52">
+    <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#108484"/>
+    <clipPath id="cp7"><rect x="60" y="0" width="60" height="52"/></clipPath>
+    <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#F7D02B" clip-path="url(#cp7)"/>
+    <line x1="60" y1="4" x2="60" y2="48" stroke="white" stroke-width="3" opacity="0.6"/>
+  </svg>
+  <svg class="intro-med-float" id="m8" style="left:71%;top:17%;" width="56" height="26" viewBox="0 0 120 52">
+    <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#108484"/>
+    <clipPath id="cp8"><rect x="0" y="0" width="60" height="52"/></clipPath>
+    <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#F7D02B" clip-path="url(#cp8)"/>
+    <line x1="60" y1="4" x2="60" y2="48" stroke="white" stroke-width="3" opacity="0.6"/>
+  </svg>
+  <svg class="intro-med-float" id="m9" style="left:67%;top:72%;" width="30" height="56" viewBox="0 0 52 100">
+    <rect x="0" y="0" width="52" height="100" rx="26" ry="26" fill="#F7D02B"/>
+    <clipPath id="cp9"><rect x="0" y="0" width="52" height="50"/></clipPath>
+    <rect x="0" y="0" width="52" height="100" rx="26" ry="26" fill="#108484" clip-path="url(#cp9)"/>
+    <line x1="4" y1="50" x2="48" y2="50" stroke="white" stroke-width="3" opacity="0.6"/>
+  </svg>
+
+  <!-- ✅ intro-container: logo + names + skip button — all center aligned -->
+  <div class="intro-container">
+    <img src="logo.png" alt="Navkar Logo" class="intro-logo">
+    <div class="intro-text-group">
+      <div class="intro-firm-name intro-navkar">NAVKAR APOTEK LLP</div>
+      <div class="intro-firm-name intro-pronavkar">PRONAVKAR LIFECARE LLP</div>
+    </div>
+    <!-- Skip button placed INSIDE intro-container so it aligns with content -->
+    <button id="skipIntro" class="skip-btn">Skip ➔</button>
+  </div>
+
+</div>
+<!-- END INTRO OVERLAY -->
+
+
+<!-- NAV -->
+<nav>
+  <a href="./" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
+    <img src="logo.png" alt="Logo" style="height: 45px; width: auto;">
+    <div class="nav-brand">
+      <span>Navkar Apotek &amp; Pronavkar Lifecare</span>
+      <span>Pharmaceutical Excellence</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#" class="active">Home</a></li>
+    <li><a href="products/">Products</a></li>
+    <li><a href="companies/">Companies</a></li>
+    <li><a href="about-us/">About</a></li>
+    <li><a href="Media & Gallery/">Gallery</a></li>
+    <li><a href="how-to-use-app/">How to Use App</a></li>
+    <li><a href="Contact-us/">Contact</a></li>
+  </ul>
+  <div class="nav-actions">
+    <a href="login/" class="login-btn">Login</a>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<div class="nav-overlay" id="navOverlay">
+  <span class="close-overlay" onclick="toggleMenu()">&times;</span>
+  <ul class="overlay-links">
+    <li><a href="./" onclick="toggleMenu()">Home</a></li>
+    <li><a href="products/" onclick="toggleMenu()">Products</a></li>
+    <li><a href="companies/" onclick="toggleMenu()">Companies</a></li>
+    <li><a href="about-us/" onclick="toggleMenu()">About Us</a></li>
+    <li><a href="Media & Gallery/" onclick="toggleMenu()">Gallery</a></li>
+    <li><a href="how-to-use-app/" onclick="toggleMenu()">How to Use App</a></li>
+    <li><a href="Contact-us/" onclick="toggleMenu()">Contact Us</a></li>
+    <li><a href="login/" onclick="toggleMenu()">Login</a></li>
+  </ul>
+</div>
+
+<section class="hero">
+  <div class="hero-pill">Your Trusted Pharmaceutical Distribution Partner<br><span style="color:#1a1a1a;font-weight:600;">Fast, Reliable and Tech-Enabled</span></div>
+  <h1>YOUR <em>HEALTH</em> IS<span class="linebreak"><br></span> OUR PRIORITY</h1>
+  <p style="font-size: 1.1rem; line-height: 1.4; margin-bottom: 0.8rem;">We deliver quality medicines and <span class="desktop-only"><br/></span>healthcare products across India.</p>
+  <div class="app-download">
+    <p class="app-title">Download Our App For Placing Orders</p>
+    <div class="app-download-inner">
+      <div style="display:flex;flex-direction:column;align-items:center;gap:10px;">
+        <a href="https://play.google.com/store/apps/details?id=in.relysoft.navkarapotekllp" target="_blank">
+          <img src="PlayStore.jpg" alt="Get it on Google Play" class="play-store-badge">
+        </a>
+        <div>
+          <a href="how-to-use-app/" class="guide-btn">View Step-by-Step Guide ➔</a>
+        </div>
+      </div>
+      <div class="qr-code-wrap">
+        <img src="qr_code.png" alt="Scan to Download App">
+        <span class="qr-label">Scan to Download App</span>
+      </div>
+    </div>
+  </div>
+  <div class="b2b-section" style="position: relative; z-index: 1; margin-top: 1rem; text-align: center;">
+    <a href="https://forms.gle/QKtBVCaWDcJrra1o8" target="_blank" rel="noopener noreferrer" class="b2b-btn">Click here to Register As a Retailer</a>
+  </div>
+</section>
+
+<!-- VISION & MISSION -->
+<section class="vm-section">
+  <div class="vm-inner">
+    <div class="vm-eyebrow"><span class="hero-pill" style="margin-bottom:0; color: #000;">Our Purpose</span></div>
+    <div class="vm-cards">
+      <div class="vm-card vision">
+        <div class="vm-card-tag">
+          <span class="tag-dot"></span>
+          <span>Vision</span>
+        </div>
+        <h3>Building <em>stronger,</em> healthier communities</h3>
+        <p>To be India's most trusted pharmaceutical distribution partner — leveraging advanced technology and unwavering reliability to transform healthcare access and foster communities where every individual thrives.</p>
+        <div class="vm-card-deco">V</div>
+      </div>
+      <div class="vm-card mission">
+        <div class="vm-card-tag">
+          <span class="tag-dot"></span>
+          <span>Mission</span>
+        </div>
+        <h3>Delivering medicines with <em>trust &amp; precision</em></h3>
+        <p>To deliver trusted, technology-driven pharmaceutical distribution solutions that ensure consistent availability, reliable service, and affordable access to medicines — empowering communities and healthcare partners with integrity, innovation, and excellence.</p>
+        <div class="vm-card-deco">M</div>
+      </div>
+    </div>
+    <div class="vm-pillars">
+      <div class="vm-pillar">
+        <div class="vm-pillar-icon"><img src="Icons/Lock.png" alt="Lock" style="width: 20px; height: auto;"></div>
+        <div class="vm-pillar-text">
+          <strong>Trust &amp; Reliability</strong>
+          <span>Consistent availability through a dependable supply chain</span>
+        </div>
+      </div>
+      <div class="vm-pillar">
+        <div class="vm-pillar-icon"><img src="Icons/Bulp.png" alt="Bulb" style="width: 20px; height: auto;"></div>
+        <div class="vm-pillar-text">
+          <strong>Technology-Driven</strong>
+          <span>Innovative solutions for smarter pharmaceutical distribution</span>
+        </div>
+      </div>
+      <div class="vm-pillar">
+        <div class="vm-pillar-icon"><img src="Icons/Handshake.png" alt="Handshake" style="width: 20px; height: auto;"></div>
+        <div class="vm-pillar-text">
+          <strong>Affordable Access</strong>
+          <span>Empowering communities with medicines they can count on</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHO WE ARE -->
+<section class="about-band">
+  <div class="about-inner">
+    <div class="about-text">
+      <h2>Who We Are</h2>
+      <p>Navkar Apotek LLP &amp; Pronavkar Lifecare LLP are trusted pharmaceutical companies committed to providing quality medicines and healthcare products. We strive for excellence in healthcare distribution and customer satisfaction.</p>
+    </div>
+    <div class="about-stats">
+      <div class="stat-card">
+        <div class="num">4+</div>
+        <div class="label">Years of Trust</div>
+        <div class="num">50+</div>
+        <div class="label">Industry Experience</div>
+      </div>
+      <div class="stat-card">
+        <div class="num">30,000+</div>
+        <div class="label">Products</div>
+      </div>
+      <div class="stat-card">
+        <div class="num">2</div>
+        <div class="label">Trusted Entities</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VALUES -->
+<section class="values-strip">
+  <div class="values-inner">
+    <h2>Our Core Values</h2>
+    <div class="values-grid">
+      <div class="value-item">
+        <div class="value-icon">✦</div>
+        <h4>Quality First</h4>
+        <p>Every product meets rigorous quality benchmarks before reaching you.</p>
+      </div>
+      <div class="value-item">
+        <div class="value-icon">❤</div>
+        <h4>Patient Focus</h4>
+        <p>Your health and safety drive every decision we make.</p>
+      </div>
+      <div class="value-item">
+        <div class="value-icon">⚖</div>
+        <h4>Integrity</h4>
+        <p>Transparent, ethical practices across our entire supply chain.</p>
+      </div>
+      <div class="value-item">
+        <div class="value-icon">◎</div>
+        <h4>Excellence</h4>
+        <p>Continuous improvement in distribution and customer service.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-container">
+    <div class="footer-col">
+      <h4>Navkar & Pronavkar</h4>
+      <p>Navkar Apotek LLP & Pronavkar Lifecare LLP are leading pharmaceutical distributors committed to delivering excellence in healthcare. We bridge the gap between quality manufacturers and healthcare providers across India.</p>
+      <div style="display: flex; gap: 15px; margin-top: 1.2rem;">
+        <a href="https://www.instagram.com/navkarapotekllp/" target="_blank"><img src="Icons/instagram.png" alt="Instagram" style="height: 28px; width: auto;"></a>
+        <a href="https://in.linkedin.com/company/navkar-apotek-llp" target="_blank"><img src="Icons/linkedin.png" alt="LinkedIn" style="height: 28px; width: auto;"></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul class="footer-links">
+        <li><a href="careers/">Academic Careers</a></li>
+        <li><a href="terms-conditions/">Terms & Conditions</a></li>
+        <li><a href="privacy-policy/">Privacy Policy</a></li>
+        <li><a href="https://play.google.com/store/apps/details?id=in.relysoft.navkarapotekllp" target="_blank"><img src="PlayStore.jpg" alt="Get it on Google Play" style="height:36px;width:auto;border-radius:4px;"></a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Get In Touch</h4>
+      <div class="footer-contact">
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Address</span>
+            <span>Baramati, Pune, Maharashtra - 413102</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Phone</span>
+            <span>+91 9529337113</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Email</span>
+            <span>info@navkarapotek.com</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Working Hours</span>
+            <span>Mon - Sat: 10:00 AM - 7:00 PM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom"></div>
+</footer>
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/918956172570" class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.246 2.248 3.484 5.232 3.483 8.412-.003 6.557-5.338 11.892-11.893 11.892-1.997-.001-3.951-.499-5.702-1.445l-6.194 1.654zm6.755-3.917c1.448.859 2.995 1.312 4.59 1.313 5.503 0 9.975-4.472 9.977-9.977.001-2.669-1.038-5.176-2.927-7.065-1.889-1.889-4.396-2.928-7.062-2.929-5.505 0-9.979 4.472-9.981 9.978-.001 1.77.449 3.502 1.306 5.047l-1.014 3.704 6.299-1.681-.188-.11zm11.362-7.108c-.312-.156-1.848-.912-2.134-1.017-.286-.105-.494-.156-.702.156-.208.312-.806 1.017-.988 1.222-.182.205-.364.231-.677.075-.312-.156-1.318-.486-2.51-1.548-.928-.827-1.554-1.849-1.736-2.161-.182-.312-.019-.481.137-.635.141-.139.312-.364.468-.547.156-.182.208-.312.312-.52.105-.208.052-.39-.026-.547-.052-.156-.702-1.691-.962-2.315-.253-.608-.51-.525-.702-.535-.181-.01-.39-.01-.599-.01-.208 0-.546.078-.832.39-.286.312-1.092 1.067-1.092 2.603 0 1.536 1.118 3.02 1.274 3.228.156.208 2.2 3.359 5.328 4.707.744.321 1.325.512 1.778.656.748.237 1.429.204 1.967.124.6-.089 1.848-.755 2.108-1.485.26-.73.26-1.353.182-1.485-.078-.13-.286-.208-.598-.364z"/></svg>
+</a>
+
+<!-- Back to Top Button -->
+<button id="backToTop" class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" title="Back to top">↑</button>
+
+<script>
+window.onscroll = function() {
+  const btn = document.getElementById('backToTop');
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    btn.style.display = 'block';
+  } else {
+    btn.style.display = 'none';
+  }
+};
+
+function toggleMenu() {
+  document.getElementById('navOverlay').classList.toggle('active');
+  document.querySelector('.menu-toggle').classList.toggle('active');
+}
+
+// Intro Animation Handler
+window.addEventListener('load', () => {
+  const meds = [
+    { id: 'm1', delay: 0,    floatDur: '5.2s' },
+    { id: 'm3', delay: 200,  floatDur: '7.0s' },
+    { id: 'm4', delay: 400,  floatDur: '5.8s' },
+    { id: 'm5', delay: 600,  floatDur: '6.5s' },
+    { id: 'm6', delay: 800,  floatDur: '5.5s' },
+    { id: 'm7', delay: 1000, floatDur: '6.8s' },
+    { id: 'm8', delay: 1200, floatDur: '7.5s' },
+    { id: 'm9', delay: 1400, floatDur: '5.0s' },
+  ];
+
+  const START_AFTER = 1500;
+
+  meds.forEach(({ id, delay, floatDur }) => {
+    setTimeout(() => {
+      const el = document.getElementById(id);
+      if (el) {
+        el.classList.add('visible');
+        setTimeout(() => {
+          el.classList.remove('visible');
+          el.classList.add('floating');
+          el.style.animationDuration = floatDur;
+          el.style.animationDelay = '0s';
+        }, 850);
+      }
+    }, START_AFTER + delay);
+  });
+
+  // Auto-hide after full sequence
+  setTimeout(() => {
+    const intro = document.getElementById('intro-overlay');
+    if (intro) {
+      intro.classList.add('hidden');
+      document.body.classList.remove('no-scroll');
+      setTimeout(() => { intro.remove(); }, 800);
+    }
+  }, 5000);
+
+  // Skip button
+  document.getElementById('skipIntro').addEventListener('click', () => {
+    const intro = document.getElementById('intro-overlay');
+    if (intro) {
+      intro.classList.add('hidden');
+      document.body.classList.remove('no-scroll');
+      setTimeout(() => { intro.remove(); }, 800);
+    }
+  });
+});
+</script>
+
+</body>
+</html>
