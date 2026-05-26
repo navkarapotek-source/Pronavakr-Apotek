@@ -383,7 +383,6 @@
   .footer-links a:hover { color: #fff; }
   .footer-contact { display: flex; flex-direction: column; gap: 0.8rem; }
   
-  /* NEW Contact Icons Styling - Same as Core Values icons */
   .contact-item { 
     display: flex; 
     align-items: center; 
@@ -410,7 +409,7 @@
   .contact-icon img {
     width: 20px;
     height: 20px;
-    filter: brightness(0) invert(1); /* Makes icon white if using images */
+    filter: brightness(0) invert(1);
   }
   .contact-text {
     display: flex;
@@ -681,12 +680,18 @@
     .whatsapp-float { width: 50px; height: 50px; padding: 12px; bottom: 20px; right: 20px; }
     .back-to-top { bottom: 80px; right: 20px; width: 45px; height: 45px; }
   }
-  /* --- INTRO ANIMATION STYLES (Final Staggered Pill Reveal Version) --- */
+
+  /* ─────────────────────────────────────────
+     INTRO OVERLAY — FIXED VERSION
+  ───────────────────────────────────────── */
   #intro-overlay {
     position: fixed;
     top: 0; left: 0; width: 100%; height: 100%;
     background: #ffffff;
-    display: flex; align-items: center; justify-content: center;
+    display: flex;
+    flex-direction: column;          /* stacks content + skip vertically */
+    align-items: center;
+    justify-content: center;
     z-index: 9999;
     overflow: hidden;
     transition: opacity 0.8s ease-out, visibility 0.8s;
@@ -695,6 +700,7 @@
     opacity: 0;
     visibility: hidden;
   }
+
   .intro-med-float {
     position: absolute;
     pointer-events: none;
@@ -703,25 +709,33 @@
     overflow: visible;
     filter: blur(0.5px);
   }
+
+  /* Main content block — logo + names */
   .intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     z-index: 2;
     max-width: 100%;
     padding: 20px;
   }
+
   .intro-logo {
     width: 420px;
     max-width: 85vw;
     height: auto;
     opacity: 0;
-    animation: introZoomPulse 2.5s 0.3s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
+    animation: introZoomPulse 1.2s 0.2s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
     filter: drop-shadow(0 20px 35px rgba(16, 132, 132, 0.25));
   }
+
   .intro-text-group {
     margin-top: 40px;
     opacity: 0;
-    animation: introTextReveal 1s 2.2s forwards;
+    animation: introTextReveal 0.8s 1.5s forwards;
   }
+
   .intro-firm-name {
     font-size: clamp(24px, 5vw, 34px);
     font-weight: 700;
@@ -730,8 +744,47 @@
     line-height: 1.15;
     font-family: 'Adam CG Pro', sans-serif;
   }
-  .intro-navkar { color: #108484; }
-  .intro-pronavkar { color: #F7D02B; }
+  .intro-navkar   { color: #108484; }
+  .intro-pronavkar{ color: #F7D02B; }
+
+  /* ── Skip Button — perfectly centered below names ── */
+  .skip-btn {
+    display: inline-block;
+    margin-top: 28px;
+    padding: 10px 36px;
+    background: var(--accent);       /* yellow — matches brand */
+    color: #000;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.15);
+    transition: background 0.2s, color 0.2s, transform 0.2s;
+    z-index: 1002;
+    /* fade-in after text group appears */
+    opacity: 0;
+    animation: introTextReveal 0.5s 2s forwards;
+  }
+  .skip-btn:hover {
+    background: #000;
+    color: #fff;
+    transform: translateY(-2px);
+  }
+
+  /* Mobile tweaks */
+  @media (max-width: 768px) {
+    .intro-logo { width: 300px; }
+    .intro-text-group { margin-top: 28px; }
+    .intro-firm-name { font-size: clamp(18px, 6vw, 26px); letter-spacing: 2px; }
+    .skip-btn { margin-top: 22px; padding: 9px 28px; font-size: 13px; }
+  }
+  @media (max-width: 400px) {
+    .intro-logo { width: 240px; }
+    .skip-btn { padding: 8px 22px; font-size: 12px; }
+  }
 
   @keyframes introZoomPulse {
     0%   { opacity: 0; transform: scale(0.7); }
@@ -754,80 +807,60 @@
     100% { transform: translateY(0px) rotate(0deg); }
   }
 
-  .intro-med-float.visible {
-    animation: introMedAppear 0.8s forwards;
-  }
-  .intro-med-float.floating {
-    animation: introFloatMed linear infinite;
-    opacity: 0.18;
-  }
-
-  @media (max-width: 768px) {
-    .intro-logo { width: 300px; }
-    .intro-text-group { margin-top: 28px; }
-  }
+  .intro-med-float.visible  { animation: introMedAppear 0.8s forwards; }
+  .intro-med-float.floating { animation: introFloatMed linear infinite; opacity: 0.18; }
 </style>
 <style>.desktop-only{display:none;}@media (min-width:768px){ .desktop-only{display:inline;} }</style>
 </head>
 <body class="no-scroll">
 
+<!-- ══════════════════════════════════════
+     INTRO OVERLAY
+══════════════════════════════════════ -->
 <div id="intro-overlay">
-  <!-- m1: Horizontal capsule teal+dark teal -->
+
+  <!-- Floating pill decorations -->
   <svg class="intro-med-float" id="m1" style="left:33%;top:10%;" width="72" height="34" viewBox="0 0 120 56">
     <rect x="0" y="0" width="120" height="56" rx="28" ry="28" fill="#108484"/>
     <clipPath id="cp1"><rect x="0" y="0" width="60" height="56"/></clipPath>
     <rect x="0" y="0" width="120" height="56" rx="28" ry="28" fill="#0a5f5f" clip-path="url(#cp1)"/>
     <line x1="60" y1="4" x2="60" y2="52" stroke="white" stroke-width="3" opacity="0.6"/>
   </svg>
-
-  <!-- m3: Horizontal capsule yellow+dark yellow -->
   <svg class="intro-med-float" id="m3" style="left:16%;top:24%;" width="68" height="30" viewBox="0 0 120 52">
     <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#F7D02B"/>
     <clipPath id="cp3"><rect x="60" y="0" width="60" height="52"/></clipPath>
     <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#d4af1f" clip-path="url(#cp3)"/>
     <line x1="60" y1="4" x2="60" y2="48" stroke="white" stroke-width="3" opacity="0.6"/>
   </svg>
-
-  <!-- m4: Vertical capsule teal+yellow -->
   <svg class="intro-med-float" id="m4" style="left:24%;top:36%;" width="30" height="56" viewBox="0 0 52 100">
     <rect x="0" y="0" width="52" height="100" rx="26" ry="26" fill="#108484"/>
     <clipPath id="cp4"><rect x="0" y="50" width="52" height="50"/></clipPath>
     <rect x="0" y="0" width="52" height="100" rx="26" ry="26" fill="#F7D02B" clip-path="url(#cp4)"/>
     <line x1="4" y1="50" x2="48" y2="50" stroke="white" stroke-width="3" opacity="0.6"/>
   </svg>
-
-  <!-- m5: Horizontal capsule teal+yellow -->
   <svg class="intro-med-float" id="m5" style="left:18%;top:52%;" width="68" height="30" viewBox="0 0 120 52">
     <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#F7D02B"/>
     <clipPath id="cp5"><rect x="0" y="0" width="60" height="52"/></clipPath>
     <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#108484" clip-path="url(#cp5)"/>
     <line x1="60" y1="4" x2="60" y2="48" stroke="white" stroke-width="3" opacity="0.6"/>
   </svg>
-
-  <!-- m6: Round tablet yellow -->
   <svg class="intro-med-float" id="m6" style="left:37%;top:66%;" width="38" height="38" viewBox="0 0 80 80">
     <circle cx="40" cy="40" r="38" fill="#F7D02B"/>
     <circle cx="40" cy="40" r="28" fill="#d4af1f"/>
     <line x1="8" y1="40" x2="72" y2="40" stroke="white" stroke-width="3" opacity="0.6"/>
   </svg>
-
-  <!-- m7: Horizontal capsule yellow+teal -->
   <svg class="intro-med-float" id="m7" style="left:63%;top:56%;" width="62" height="28" viewBox="0 0 120 52">
     <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#108484"/>
     <clipPath id="cp7"><rect x="60" y="0" width="60" height="52"/></clipPath>
     <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#F7D02B" clip-path="url(#cp7)"/>
     <line x1="60" y1="4" x2="60" y2="48" stroke="white" stroke-width="3" opacity="0.6"/>
   </svg>
-
-  <!-- m8: Horizontal capsule teal+yellow -->
   <svg class="intro-med-float" id="m8" style="left:71%;top:17%;" width="56" height="26" viewBox="0 0 120 52">
     <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#108484"/>
     <clipPath id="cp8"><rect x="0" y="0" width="60" height="52"/></clipPath>
     <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#F7D02B" clip-path="url(#cp8)"/>
     <line x1="60" y1="4" x2="60" y2="48" stroke="white" stroke-width="3" opacity="0.6"/>
   </svg>
-
-  <!-- m9: Vertical capsule yellow+teal -->
   <svg class="intro-med-float" id="m9" style="left:67%;top:72%;" width="30" height="56" viewBox="0 0 52 100">
     <rect x="0" y="0" width="52" height="100" rx="26" ry="26" fill="#F7D02B"/>
     <clipPath id="cp9"><rect x="0" y="0" width="52" height="50"/></clipPath>
@@ -835,14 +868,20 @@
     <line x1="4" y1="50" x2="48" y2="50" stroke="white" stroke-width="3" opacity="0.6"/>
   </svg>
 
+  <!-- ✅ intro-container: logo + names + skip button — all center aligned -->
   <div class="intro-container">
     <img src="logo.png" alt="Navkar Logo" class="intro-logo">
     <div class="intro-text-group">
       <div class="intro-firm-name intro-navkar">NAVKAR APOTEK LLP</div>
       <div class="intro-firm-name intro-pronavkar">PRONAVKAR LIFECARE LLP</div>
     </div>
+    <!-- Skip button placed INSIDE intro-container so it aligns with content -->
+    <button id="skipIntro" class="skip-btn">Skip ➔</button>
   </div>
+
 </div>
+<!-- END INTRO OVERLAY -->
+
 
 <!-- NAV -->
 <nav>
@@ -905,7 +944,6 @@
       </div>
     </div>
   </div>
-
   <div class="b2b-section" style="position: relative; z-index: 1; margin-top: 1rem; text-align: center;">
     <a href="https://forms.gle/QKtBVCaWDcJrra1o8" target="_blank" rel="noopener noreferrer" class="b2b-btn">Click here to Register As a Retailer</a>
   </div>
@@ -915,9 +953,7 @@
 <section class="vm-section">
   <div class="vm-inner">
     <div class="vm-eyebrow"><span class="hero-pill" style="margin-bottom:0; color: #000;">Our Purpose</span></div>
-
     <div class="vm-cards">
-      <!-- VISION -->
       <div class="vm-card vision">
         <div class="vm-card-tag">
           <span class="tag-dot"></span>
@@ -927,8 +963,6 @@
         <p>To be India's most trusted pharmaceutical distribution partner — leveraging advanced technology and unwavering reliability to transform healthcare access and foster communities where every individual thrives.</p>
         <div class="vm-card-deco">V</div>
       </div>
-
-      <!-- MISSION -->
       <div class="vm-card mission">
         <div class="vm-card-tag">
           <span class="tag-dot"></span>
@@ -939,8 +973,6 @@
         <div class="vm-card-deco">M</div>
       </div>
     </div>
-
-    <!-- PILLARS -->
     <div class="vm-pillars">
       <div class="vm-pillar">
         <div class="vm-pillar-icon"><img src="Icons/Lock.png" alt="Lock" style="width: 20px; height: auto;"></div>
@@ -1045,7 +1077,6 @@
     <div class="footer-col">
       <h4>Get In Touch</h4>
       <div class="footer-contact">
-        <!-- Location -->
         <div class="contact-item">
           <div class="contact-icon">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -1058,8 +1089,6 @@
             <span>Baramati, Pune, Maharashtra - 413102</span>
           </div>
         </div>
-
-        <!-- Phone -->
         <div class="contact-item">
           <div class="contact-icon">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -1071,8 +1100,6 @@
             <span>+91 9529337113</span>
           </div>
         </div>
-
-        <!-- Email -->
         <div class="contact-item">
           <div class="contact-icon">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -1085,8 +1112,6 @@
             <span>info@navkarapotek.com</span>
           </div>
         </div>
-
-        <!-- Working Hours -->
         <div class="contact-item">
           <div class="contact-icon">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -1102,9 +1127,7 @@
       </div>
     </div>
   </div>
-  
-  <div class="footer-bottom">
-  </div>
+  <div class="footer-bottom"></div>
 </footer>
 
 <!-- Floating WhatsApp Button -->
@@ -1132,7 +1155,6 @@ function toggleMenu() {
 
 // Intro Animation Handler
 window.addEventListener('load', () => {
-  // Pill staggered reveal logic
   const meds = [
     { id: 'm1', delay: 0,    floatDur: '5.2s' },
     { id: 'm3', delay: 200,  floatDur: '7.0s' },
@@ -1144,14 +1166,13 @@ window.addEventListener('load', () => {
     { id: 'm9', delay: 1400, floatDur: '5.0s' },
   ];
 
-  const START_AFTER = 3500; // ms — after logo+name settle
+  const START_AFTER = 1500;
 
   meds.forEach(({ id, delay, floatDur }) => {
     setTimeout(() => {
       const el = document.getElementById(id);
       if (el) {
         el.classList.add('visible');
-        // After appear animation done, switch to continuous float
         setTimeout(() => {
           el.classList.remove('visible');
           el.classList.add('floating');
@@ -1162,18 +1183,25 @@ window.addEventListener('load', () => {
     }, START_AFTER + delay);
   });
 
-  // Hide the full intro overlay after animation sequence
+  // Auto-hide after full sequence
   setTimeout(() => {
     const intro = document.getElementById('intro-overlay');
     if (intro) {
       intro.classList.add('hidden');
       document.body.classList.remove('no-scroll');
-      // Completely remove from DOM after transition
-      setTimeout(() => {
-        intro.remove();
-      }, 800);
+      setTimeout(() => { intro.remove(); }, 800);
     }
-  }, 7500);
+  }, 5000);
+
+  // Skip button
+  document.getElementById('skipIntro').addEventListener('click', () => {
+    const intro = document.getElementById('intro-overlay');
+    if (intro) {
+      intro.classList.add('hidden');
+      document.body.classList.remove('no-scroll');
+      setTimeout(() => { intro.remove(); }, 800);
+    }
+  });
 });
 </script>
 
