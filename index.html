@@ -48,6 +48,10 @@
     word-wrap: break-word;
     position: relative;
   }
+  body.no-scroll {
+    overflow: hidden;
+    height: 100vh;
+  }
 
   nav {
     position: sticky; top: 0; z-index: 100;
@@ -677,9 +681,168 @@
     .whatsapp-float { width: 50px; height: 50px; padding: 12px; bottom: 20px; right: 20px; }
     .back-to-top { bottom: 80px; right: 20px; width: 45px; height: 45px; }
   }
+  /* --- INTRO ANIMATION STYLES (Final Staggered Pill Reveal Version) --- */
+  #intro-overlay {
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: #ffffff;
+    display: flex; align-items: center; justify-content: center;
+    z-index: 9999;
+    overflow: hidden;
+    transition: opacity 0.8s ease-out, visibility 0.8s;
+  }
+  #intro-overlay.hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .intro-med-float {
+    position: absolute;
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0;
+    overflow: visible;
+    filter: blur(3px);
+  }
+  .intro-container {
+    text-align: center;
+    z-index: 2;
+    max-width: 100%;
+    padding: 20px;
+  }
+  .intro-logo {
+    width: 420px;
+    max-width: 85vw;
+    height: auto;
+    opacity: 0;
+    animation: introZoomPulse 2.5s 0.3s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
+    filter: drop-shadow(0 20px 35px rgba(16, 132, 132, 0.25));
+  }
+  .intro-text-group {
+    margin-top: 40px;
+    opacity: 0;
+    animation: introTextReveal 1s 2.2s forwards;
+  }
+  .intro-firm-name {
+    font-size: clamp(24px, 5vw, 34px);
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin: 12px 0;
+    line-height: 1.15;
+    font-family: 'Adam CG Pro', sans-serif;
+  }
+  .intro-navkar { color: #108484; }
+  .intro-pronavkar { color: #F7D02B; }
+
+  @keyframes introZoomPulse {
+    0%   { opacity: 0; transform: scale(0.7); }
+    50%  { opacity: 1; transform: scale(1.1); }
+    75%  { transform: scale(0.96); }
+    100% { opacity: 1; transform: scale(1); }
+  }
+  @keyframes introTextReveal {
+    0%   { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes introMedAppear {
+    0%   { opacity: 0; transform: scale(0) rotate(0deg); }
+    60%  { opacity: 0.22; transform: scale(1.15) rotate(5deg); }
+    100% { opacity: 0.18; transform: scale(1) rotate(0deg); }
+  }
+  @keyframes introFloatMed {
+    0%   { transform: translateY(0px) rotate(0deg); }
+    50%  { transform: translateY(-16px) rotate(8deg); }
+    100% { transform: translateY(0px) rotate(0deg); }
+  }
+
+  .intro-med-float.visible {
+    animation: introMedAppear 0.8s forwards;
+  }
+  .intro-med-float.floating {
+    animation: introFloatMed linear infinite;
+    opacity: 0.18;
+  }
+
+  @media (max-width: 768px) {
+    .intro-logo { width: 300px; }
+    .intro-text-group { margin-top: 28px; }
+  }
 </style>
+<style>.desktop-only{display:none;}@media (min-width:768px){ .desktop-only{display:inline;} }</style>
 </head>
-<body>
+<body class="no-scroll">
+
+<div id="intro-overlay">
+  <!-- m1: Horizontal capsule teal+dark teal -->
+  <svg class="intro-med-float" id="m1" style="left:33%;top:10%;" width="72" height="34" viewBox="0 0 120 56">
+    <rect x="0" y="0" width="120" height="56" rx="28" ry="28" fill="#108484"/>
+    <clipPath id="cp1"><rect x="0" y="0" width="60" height="56"/></clipPath>
+    <rect x="0" y="0" width="120" height="56" rx="28" ry="28" fill="#0a5f5f" clip-path="url(#cp1)"/>
+    <line x1="60" y1="4" x2="60" y2="52" stroke="white" stroke-width="3" opacity="0.6"/>
+  </svg>
+
+  <!-- m3: Horizontal capsule yellow+dark yellow -->
+  <svg class="intro-med-float" id="m3" style="left:16%;top:24%;" width="68" height="30" viewBox="0 0 120 52">
+    <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#F7D02B"/>
+    <clipPath id="cp3"><rect x="60" y="0" width="60" height="52"/></clipPath>
+    <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#d4af1f" clip-path="url(#cp3)"/>
+    <line x1="60" y1="4" x2="60" y2="48" stroke="white" stroke-width="3" opacity="0.6"/>
+  </svg>
+
+  <!-- m4: Vertical capsule teal+yellow -->
+  <svg class="intro-med-float" id="m4" style="left:24%;top:36%;" width="30" height="56" viewBox="0 0 52 100">
+    <rect x="0" y="0" width="52" height="100" rx="26" ry="26" fill="#108484"/>
+    <clipPath id="cp4"><rect x="0" y="50" width="52" height="50"/></clipPath>
+    <rect x="0" y="0" width="52" height="100" rx="26" ry="26" fill="#F7D02B" clip-path="url(#cp4)"/>
+    <line x1="4" y1="50" x2="48" y2="50" stroke="white" stroke-width="3" opacity="0.6"/>
+  </svg>
+
+  <!-- m5: Horizontal capsule teal+yellow -->
+  <svg class="intro-med-float" id="m5" style="left:18%;top:52%;" width="68" height="30" viewBox="0 0 120 52">
+    <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#F7D02B"/>
+    <clipPath id="cp5"><rect x="0" y="0" width="60" height="52"/></clipPath>
+    <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#108484" clip-path="url(#cp5)"/>
+    <line x1="60" y1="4" x2="60" y2="48" stroke="white" stroke-width="3" opacity="0.6"/>
+  </svg>
+
+  <!-- m6: Round tablet yellow -->
+  <svg class="intro-med-float" id="m6" style="left:37%;top:66%;" width="38" height="38" viewBox="0 0 80 80">
+    <circle cx="40" cy="40" r="38" fill="#F7D02B"/>
+    <circle cx="40" cy="40" r="28" fill="#d4af1f"/>
+    <line x1="8" y1="40" x2="72" y2="40" stroke="white" stroke-width="3" opacity="0.6"/>
+  </svg>
+
+  <!-- m7: Horizontal capsule yellow+teal -->
+  <svg class="intro-med-float" id="m7" style="left:63%;top:56%;" width="62" height="28" viewBox="0 0 120 52">
+    <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#108484"/>
+    <clipPath id="cp7"><rect x="60" y="0" width="60" height="52"/></clipPath>
+    <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#F7D02B" clip-path="url(#cp7)"/>
+    <line x1="60" y1="4" x2="60" y2="48" stroke="white" stroke-width="3" opacity="0.6"/>
+  </svg>
+
+  <!-- m8: Horizontal capsule teal+yellow -->
+  <svg class="intro-med-float" id="m8" style="left:71%;top:17%;" width="56" height="26" viewBox="0 0 120 52">
+    <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#108484"/>
+    <clipPath id="cp8"><rect x="0" y="0" width="60" height="52"/></clipPath>
+    <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#F7D02B" clip-path="url(#cp8)"/>
+    <line x1="60" y1="4" x2="60" y2="48" stroke="white" stroke-width="3" opacity="0.6"/>
+  </svg>
+
+  <!-- m9: Vertical capsule yellow+teal -->
+  <svg class="intro-med-float" id="m9" style="left:67%;top:72%;" width="30" height="56" viewBox="0 0 52 100">
+    <rect x="0" y="0" width="52" height="100" rx="26" ry="26" fill="#F7D02B"/>
+    <clipPath id="cp9"><rect x="0" y="0" width="52" height="50"/></clipPath>
+    <rect x="0" y="0" width="52" height="100" rx="26" ry="26" fill="#108484" clip-path="url(#cp9)"/>
+    <line x1="4" y1="50" x2="48" y2="50" stroke="white" stroke-width="3" opacity="0.6"/>
+  </svg>
+
+  <div class="intro-container">
+    <img src="logo.png" alt="Navkar Logo" class="intro-logo">
+    <div class="intro-text-group">
+      <div class="intro-firm-name intro-navkar">NAVKAR APOTEK LLP</div>
+      <div class="intro-firm-name intro-pronavkar">PRONAVKAR LIFECARE LLP</div>
+    </div>
+  </div>
+</div>
 
 <!-- NAV -->
 <nav>
@@ -723,8 +886,8 @@
 
 <section class="hero">
   <div class="hero-pill">Your Trusted Pharmaceutical Distribution Partner<br><span style="color:#1a1a1a;font-weight:600;">Fast, Reliable and Tech-Enabled</span></div>
-  <h1>YOUR <em>HEALTH</em> IS OUR PRIORITY</h1>
-  <p style="font-size: 1.1rem; line-height: 1.4; margin-bottom: 0.8rem;">Navkar Apotek LLP &amp; Pronavkar Lifecare LLP<br>delivering quality medicines and healthcare products across India.</p>
+  <h1>YOUR <em>HEALTH</em> IS<span class="linebreak"><br></span> OUR PRIORITY</h1>
+  <p style="font-size: 1.1rem; line-height: 1.4; margin-bottom: 0.8rem;">We deliver quality medicines and <span class="desktop-only"><br/></span>healthcare products across India.</p>
   <div class="app-download">
     <p class="app-title">Download Our App For Placing Orders</p>
     <div class="app-download-inner">
@@ -945,7 +1108,7 @@
 </footer>
 
 <!-- Floating WhatsApp Button -->
-<a href="https://wa.me/919529337113" class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
+<a href="https://wa.me/918956172570" class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
   <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.246 2.248 3.484 5.232 3.483 8.412-.003 6.557-5.338 11.892-11.893 11.892-1.997-.001-3.951-.499-5.702-1.445l-6.194 1.654zm6.755-3.917c1.448.859 2.995 1.312 4.59 1.313 5.503 0 9.975-4.472 9.977-9.977.001-2.669-1.038-5.176-2.927-7.065-1.889-1.889-4.396-2.928-7.062-2.929-5.505 0-9.979 4.472-9.981 9.978-.001 1.77.449 3.502 1.306 5.047l-1.014 3.704 6.299-1.681-.188-.11zm11.362-7.108c-.312-.156-1.848-.912-2.134-1.017-.286-.105-.494-.156-.702.156-.208.312-.806 1.017-.988 1.222-.182.205-.364.231-.677.075-.312-.156-1.318-.486-2.51-1.548-.928-.827-1.554-1.849-1.736-2.161-.182-.312-.019-.481.137-.635.141-.139.312-.364.468-.547.156-.182.208-.312.312-.52.105-.208.052-.39-.026-.547-.052-.156-.702-1.691-.962-2.315-.253-.608-.51-.525-.702-.535-.181-.01-.39-.01-.599-.01-.208 0-.546.078-.832.39-.286.312-1.092 1.067-1.092 2.603 0 1.536 1.118 3.02 1.274 3.228.156.208 2.2 3.359 5.328 4.707.744.321 1.325.512 1.778.656.748.237 1.429.204 1.967.124.6-.089 1.848-.755 2.108-1.485.26-.73.26-1.353.182-1.485-.078-.13-.286-.208-.598-.364z"/></svg>
 </a>
 
@@ -966,6 +1129,52 @@ function toggleMenu() {
   document.getElementById('navOverlay').classList.toggle('active');
   document.querySelector('.menu-toggle').classList.toggle('active');
 }
+
+// Intro Animation Handler
+window.addEventListener('load', () => {
+  // Pill staggered reveal logic
+  const meds = [
+    { id: 'm1', delay: 0,    floatDur: '5.2s' },
+    { id: 'm3', delay: 200,  floatDur: '7.0s' },
+    { id: 'm4', delay: 400,  floatDur: '5.8s' },
+    { id: 'm5', delay: 600,  floatDur: '6.5s' },
+    { id: 'm6', delay: 800,  floatDur: '5.5s' },
+    { id: 'm7', delay: 1000, floatDur: '6.8s' },
+    { id: 'm8', delay: 1200, floatDur: '7.5s' },
+    { id: 'm9', delay: 1400, floatDur: '5.0s' },
+  ];
+
+  const START_AFTER = 3500; // ms — after logo+name settle
+
+  meds.forEach(({ id, delay, floatDur }) => {
+    setTimeout(() => {
+      const el = document.getElementById(id);
+      if (el) {
+        el.classList.add('visible');
+        // After appear animation done, switch to continuous float
+        setTimeout(() => {
+          el.classList.remove('visible');
+          el.classList.add('floating');
+          el.style.animationDuration = floatDur;
+          el.style.animationDelay = '0s';
+        }, 850);
+      }
+    }, START_AFTER + delay);
+  });
+
+  // Hide the full intro overlay after animation sequence
+  setTimeout(() => {
+    const intro = document.getElementById('intro-overlay');
+    if (intro) {
+      intro.classList.add('hidden');
+      document.body.classList.remove('no-scroll');
+      // Completely remove from DOM after transition
+      setTimeout(() => {
+        intro.remove();
+      }, 800);
+    }
+  }, 7500);
+});
 </script>
 
 </body>
