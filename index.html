@@ -1166,7 +1166,7 @@ window.addEventListener('load', () => {
     { id: 'm9', delay: 1400, floatDur: '5.0s' },
   ];
 
-  const START_AFTER = 1500;
+  const START_AFTER = 1000;
 
   meds.forEach(({ id, delay, floatDur }) => {
     setTimeout(() => {
@@ -1191,7 +1191,7 @@ window.addEventListener('load', () => {
       document.body.classList.remove('no-scroll');
       setTimeout(() => { intro.remove(); }, 800);
     }
-  }, 5000);
+  }, 4000);
 
   // Skip button
   document.getElementById('skipIntro').addEventListener('click', () => {
