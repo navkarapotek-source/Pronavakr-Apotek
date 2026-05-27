@@ -6895,6 +6895,11 @@ const productData = [
         "Company Name": "DR.REDDY LABORATORIES LTD."
     },
     {
+        "Product Name": "DEFZACORT 6 MG",
+        "Pack": "1X10TAB",
+        "Company Name": "DR.REDDY LABORATORIES LTD."
+    },
+    {
         "Product Name": "DIALEX COLD SYRUP 60ML",
         "Pack": "1X60ML",
         "Company Name": "DR.REDDY LABORATORIES LTD."
@@ -6952,6 +6957,16 @@ const productData = [
     {
         "Product Name": "NICETAMOL MF DS SUSP",
         "Pack": "60ML",
+        "Company Name": "DR.REDDY LABORATORIES LTD."
+    },
+    {
+        "Product Name": "NICETAMOL MF SUSP 60ML",
+        "Pack": "60ML",
+        "Company Name": "DR.REDDY LABORATORIES LTD."
+    },
+    {
+        "Product Name": "NICETAMOL SP TAB",
+        "Pack": "10TAB",
         "Company Name": "DR.REDDY LABORATORIES LTD."
     },
     {
@@ -7081,6 +7096,11 @@ const productData = [
     },
     {
         "Product Name": "TRANCYNENE M TAB",
+        "Pack": "10TAB",
+        "Company Name": "DR.REDDY LABORATORIES LTD."
+    },
+    {
+        "Product Name": "TRI-CEFURO 500 TAB",
         "Pack": "10TAB",
         "Company Name": "DR.REDDY LABORATORIES LTD."
     },
@@ -10635,11 +10655,6 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
-        "Product Name": "BOTTLE",
-        "Pack": "-",
-        "Company Name": "HEALING PHARMA"
-    },
-    {
         "Product Name": "BRAINTAT TAB",
         "Pack": "1X60TAB",
         "Company Name": "HEALING PHARMA"
@@ -11392,6 +11407,11 @@ const productData = [
     {
         "Product Name": "HEALING BELLADONA PLASTER",
         "Pack": "10 PCS",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "HEALING BOTTLE",
+        "Pack": "-",
         "Company Name": "HEALING PHARMA"
     },
     {

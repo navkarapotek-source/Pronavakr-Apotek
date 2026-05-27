@@ -2115,6 +2115,16 @@ const otcData = [
         "Company Name": "GENERAL...A"
     },
     {
+        "Product Name": "EVERYDAY BIG CELL",
+        "Pack": "PC",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "EVERYDAY SMALL CELL",
+        "Pack": "PC",
+        "Company Name": "GENERAL...A"
+    },
+    {
         "Product Name": "GILLETE CREAM 125GM [MRP 62]",
         "Pack": "125GM",
         "Company Name": "GENERAL...A"
@@ -3362,6 +3372,11 @@ const otcData = [
     {
         "Product Name": "PONDS BB FACEWASH  [RS 105]",
         "Pack": "50GM",
+        "Company Name": "HINDUSTAN UNILEVER LIMITED"
+    },
+    {
+        "Product Name": "PONDS BB SERUM 7ML",
+        "Pack": "7ML",
         "Company Name": "HINDUSTAN UNILEVER LIMITED"
     },
     {

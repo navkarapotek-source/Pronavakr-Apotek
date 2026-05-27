@@ -3155,11 +3155,6 @@ const navkarMedicineData = [
         "Company Name": "AJANTA PHARMA (ALMIRON)"
     },
     {
-        "Product Name": "TOFANTA 5 MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "AJANTA PHARMA (ALMIRON)"
-    },
-    {
         "Product Name": "TRICOGRO CAP",
         "Pack": "TAB",
         "Company Name": "AJANTA PHARMA (ALMIRON)"
@@ -5042,6 +5037,11 @@ const navkarMedicineData = [
     {
         "Product Name": "DOLENTIA RELAX GEL 30GM",
         "Pack": "30GM",
+        "Company Name": "AKUMENTIS HEALTHCARE (ASPIRIS)"
+    },
+    {
+        "Product Name": "ETORITE TAB",
+        "Pack": "10 TAB",
         "Company Name": "AKUMENTIS HEALTHCARE (ASPIRIS)"
     },
     {
@@ -11795,6 +11795,11 @@ const navkarMedicineData = [
         "Company Name": "ALTEUS BIOGENICS PVT CILAPAM"
     },
     {
+        "Product Name": "MAXDOPA 62.5 TAB",
+        "Pack": "15TAB",
+        "Company Name": "ALTEUS BIOGENICS PVT CILAPAM"
+    },
+    {
         "Product Name": "MEDISTAT 0.50 NASAL SPRAY",
         "Pack": "ML",
         "Company Name": "ALTEUS BIOGENICS PVT CILAPAM"
@@ -11802,11 +11807,6 @@ const navkarMedicineData = [
     {
         "Product Name": "MEDISTAT 1.25 NASAL SPRAY",
         "Pack": "ML",
-        "Company Name": "ALTEUS BIOGENICS PVT CILAPAM"
-    },
-    {
-        "Product Name": "S METPIL XR 25 TAB",
-        "Pack": "15TAB",
         "Company Name": "ALTEUS BIOGENICS PVT CILAPAM"
     },
     {
@@ -11950,6 +11950,21 @@ const navkarMedicineData = [
         "Company Name": "ALTEUS BIOGENICS PVT LTD (CILIX 2)"
     },
     {
+        "Product Name": "S METPIL XR 12.5 TAB",
+        "Pack": "15TAB",
+        "Company Name": "ALTEUS BIOGENICS PVT LTD (CILIX 2)"
+    },
+    {
+        "Product Name": "S METPIL XR 25 TAB",
+        "Pack": "15TAB",
+        "Company Name": "ALTEUS BIOGENICS PVT LTD (CILIX 2)"
+    },
+    {
+        "Product Name": "S METPIL XR 50 TAB",
+        "Pack": "15TAB",
+        "Company Name": "ALTEUS BIOGENICS PVT LTD (CILIX 2)"
+    },
+    {
         "Product Name": "SITALONG 100 TAB",
         "Pack": "15TAB",
         "Company Name": "ALTEUS BIOGENICS PVT LTD (CILIX 2)"
@@ -12015,6 +12030,11 @@ const navkarMedicineData = [
         "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
     },
     {
+        "Product Name": "ATOMAX 333 TAB",
+        "Pack": "15TAB",
+        "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
+    },
+    {
         "Product Name": "BACLOTAB 10",
         "Pack": "15TAB",
         "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
@@ -12032,11 +12052,6 @@ const navkarMedicineData = [
     {
         "Product Name": "CLION 10 TAB",
         "Pack": "15TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
-    },
-    {
-        "Product Name": "DEFLAMAX 6 MG TAB",
-        "Pack": "10 TAB",
         "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
     },
     {
@@ -12115,11 +12130,6 @@ const navkarMedicineData = [
         "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
     },
     {
-        "Product Name": "MAXDOPA 62.5 TAB",
-        "Pack": "15TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
-    },
-    {
         "Product Name": "METLIN 50 TAB",
         "Pack": "10 TAB",
         "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
@@ -12170,11 +12180,6 @@ const navkarMedicineData = [
         "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
     },
     {
-        "Product Name": "NALTRAX 50",
-        "Pack": "10TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
-    },
-    {
         "Product Name": "NURO BETA 10MG TAB",
         "Pack": "15TAB",
         "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
@@ -12205,26 +12210,6 @@ const navkarMedicineData = [
         "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
     },
     {
-        "Product Name": "PRIMOL [A] TAB",
-        "Pack": "10TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
-    },
-    {
-        "Product Name": "PRIMOL [T] TAB",
-        "Pack": "10TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
-    },
-    {
-        "Product Name": "PRIMOL 650 TAB",
-        "Pack": "10 TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
-    },
-    {
-        "Product Name": "PRO CD 5 TAB E118",
-        "Pack": "15TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
-    },
-    {
         "Product Name": "SOMATRAN N",
         "Pack": "4TAB",
         "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
@@ -12250,6 +12235,11 @@ const navkarMedicineData = [
         "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
     },
     {
+        "Product Name": "VFAX 75 CAP",
+        "Pack": "15CAP",
+        "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
+    },
+    {
         "Product Name": "APOTAB 2MG TAB",
         "Pack": "10TAB",
         "Company Name": "ALTEUS BIOGENICS PVT LTD (PAXONIL)"
@@ -12257,11 +12247,6 @@ const navkarMedicineData = [
     {
         "Product Name": "APOTAB 3MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT LTD (PAXONIL)"
-    },
-    {
-        "Product Name": "ATOMAX 333 TAB",
-        "Pack": "15TAB",
         "Company Name": "ALTEUS BIOGENICS PVT LTD (PAXONIL)"
     },
     {
@@ -12326,6 +12311,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "MAGDEP CM TAB",
+        "Pack": "10TAB",
+        "Company Name": "ALTEUS BIOGENICS PVT LTD (PAXONIL)"
+    },
+    {
+        "Product Name": "NALTRAX 50",
         "Pack": "10TAB",
         "Company Name": "ALTEUS BIOGENICS PVT LTD (PAXONIL)"
     },
@@ -12415,6 +12405,11 @@ const navkarMedicineData = [
         "Company Name": "ALTEUS BIOGENICS PVT LTD (PAXONIL)"
     },
     {
+        "Product Name": "PRO CD 5 TAB E118",
+        "Pack": "15TAB",
+        "Company Name": "ALTEUS BIOGENICS PVT LTD (PAXONIL)"
+    },
+    {
         "Product Name": "PROLET 12.5 TAB",
         "Pack": "10 TAB",
         "Company Name": "ALTEUS BIOGENICS PVT LTD (PAXONIL)"
@@ -12460,11 +12455,6 @@ const navkarMedicineData = [
         "Company Name": "ALTEUS BIOGENICS PVT LTD (PAXONIL)"
     },
     {
-        "Product Name": "S METPIL XR 12.5 TAB",
-        "Pack": "15TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT LTD (PAXONIL)"
-    },
-    {
         "Product Name": "SEROPAX 12.5 TAB",
         "Pack": "15 TAB",
         "Company Name": "ALTEUS BIOGENICS PVT LTD (PAXONIL)"
@@ -12475,139 +12465,154 @@ const navkarMedicineData = [
         "Company Name": "ALTEUS BIOGENICS PVT LTD (PAXONIL)"
     },
     {
-        "Product Name": "VFAX 75 CAP",
-        "Pack": "15CAP",
-        "Company Name": "ALTEUS BIOGENICS PVT LTD (PAXONIL)"
-    },
-    {
         "Product Name": "ALTEUS SACV-50",
         "Pack": "15TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT. LTD"
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
     },
     {
         "Product Name": "ALTONIL PLUS 10MG TAB",
         "Pack": "15TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT. LTD"
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
     },
     {
         "Product Name": "CILAPAM LS 15",
         "Pack": "15TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT. LTD"
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
     },
     {
         "Product Name": "CILAPAM PLUS 15",
         "Pack": "15TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT. LTD"
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
     },
     {
         "Product Name": "DAPAZOL 10",
         "Pack": "15TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT. LTD"
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
     },
     {
         "Product Name": "DAPAZOL S 10/100",
         "Pack": "15TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT. LTD"
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
     },
     {
         "Product Name": "DAPAZOL SM 10/100/1000",
         "Pack": "10TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT. LTD"
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
     },
     {
         "Product Name": "DAPAZOL SM 10/100/500",
         "Pack": "10TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT. LTD"
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
+    },
+    {
+        "Product Name": "DEFLAMAX 6 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
     },
     {
         "Product Name": "IGUTAB 25 TAB",
         "Pack": "10 TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT. LTD"
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
     },
     {
-        "Product Name": "S METPIL XR 50 TAB",
-        "Pack": "15TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT. LTD"
+        "Product Name": "PRIMOL [A] TAB",
+        "Pack": "10TAB",
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
+    },
+    {
+        "Product Name": "PRIMOL [T] TAB",
+        "Pack": "10TAB",
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
+    },
+    {
+        "Product Name": "PRIMOL 650 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
     },
     {
         "Product Name": "TAPENFAST 100 TAB",
         "Pack": "10 TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT. LTD"
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
     },
     {
         "Product Name": "TAPENFAST 50 TAB",
         "Pack": "10 TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT. LTD"
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
     },
     {
         "Product Name": "TAPENFAST ER 50 TAB",
         "Pack": "10 TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT. LTD"
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
     },
     {
         "Product Name": "TELX 3D 40/5/6.25",
         "Pack": "15TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT. LTD"
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
     },
     {
         "Product Name": "TELX 40",
         "Pack": "15TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT. LTD"
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
     },
     {
         "Product Name": "TELX AM 40/5",
         "Pack": "15TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT. LTD"
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
     },
     {
         "Product Name": "TELX C 40/6.25",
         "Pack": "15TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT. LTD"
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
     },
     {
         "Product Name": "TOFANOX 5 MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT. LTD"
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
     },
     {
         "Product Name": "TOFANOX ER 11 TAB",
         "Pack": "10 TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT. LTD"
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
+    },
+    {
+        "Product Name": "TOFANTA 5 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
     },
     {
         "Product Name": "XOTEN 10",
         "Pack": "15TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT. LTD"
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
     },
     {
         "Product Name": "XOTEN 20",
         "Pack": "15TAB",
-        "Company Name": "ALTEUS BIOGENICS PVT. LTD"
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
     },
     {
         "Product Name": "XOTEN A 10",
         "Pack": "10CAP",
-        "Company Name": "ALTEUS BIOGENICS PVT. LTD"
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
     },
     {
         "Product Name": "XOTEN A 20",
         "Pack": "10CAP",
-        "Company Name": "ALTEUS BIOGENICS PVT. LTD"
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
     },
     {
         "Product Name": "XOTEN C 10",
         "Pack": "CAP",
-        "Company Name": "ALTEUS BIOGENICS PVT. LTD"
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
     },
     {
         "Product Name": "XOTEN CA 10",
         "Pack": "CAP",
-        "Company Name": "ALTEUS BIOGENICS PVT. LTD"
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
     },
     {
         "Product Name": "XOTEN CA 20",
         "Pack": "CAP",
-        "Company Name": "ALTEUS BIOGENICS PVT. LTD"
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
     },
     {
         "Product Name": "A-10 CAP",
@@ -43335,13 +43340,13 @@ const navkarMedicineData = [
         "Company Name": "GENESIS BIOTECH INC"
     },
     {
-        "Product Name": "DIBOSIS LIQUID 1000 ML",
-        "Pack": "1000ML",
+        "Product Name": "DIABOSIS LIQUID 250 ML",
+        "Pack": "250 ML",
         "Company Name": "GENESIS BIOTECH INC"
     },
     {
-        "Product Name": "DIBOSIS LIQUID 250 ML",
-        "Pack": "250 ML",
+        "Product Name": "DIBOSIS LIQUID 1000 ML",
+        "Pack": "1000ML",
         "Company Name": "GENESIS BIOTECH INC"
     },
     {
@@ -56930,21 +56935,6 @@ const navkarMedicineData = [
         "Company Name": "INTAS PHARMACEUTICALS (PHARMA)"
     },
     {
-        "Product Name": "SEMANEO 0.25MG INJ",
-        "Pack": "1.5ML",
-        "Company Name": "INTAS PHARMACEUTICALS (PHARMA)"
-    },
-    {
-        "Product Name": "SEMANEO 0.5MG INJ",
-        "Pack": "1.5ML",
-        "Company Name": "INTAS PHARMACEUTICALS (PHARMA)"
-    },
-    {
-        "Product Name": "SEMAWIN 0.25MG INJ",
-        "Pack": "1.5ML",
-        "Company Name": "INTAS PHARMACEUTICALS (PHARMA)"
-    },
-    {
         "Product Name": "TAGON 20MG TAB",
         "Pack": "15TAB",
         "Company Name": "INTAS PHARMACEUTICALS (PHARMA)"
@@ -58340,6 +58330,21 @@ const navkarMedicineData = [
         "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
+        "Product Name": "SEMANEO 0.25MG INJ",
+        "Pack": "1.5ML",
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
+    },
+    {
+        "Product Name": "SEMANEO 0.5MG INJ",
+        "Pack": "1.5ML",
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
+    },
+    {
+        "Product Name": "SEMAWIN 0.25MG INJ",
+        "Pack": "1.5ML",
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
+    },
+    {
         "Product Name": "SEMAWIN 0.5MG INJ",
         "Pack": "1.5ML",
         "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
@@ -59091,6 +59096,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "CTRIL 0.5 TAB",
+        "Pack": "10TAB",
+        "Company Name": "INVIO PHARMACEUTICALS PVT LTD"
+    },
+    {
+        "Product Name": "DEPRISA OD 250 TAB",
         "Pack": "10TAB",
         "Company Name": "INVIO PHARMACEUTICALS PVT LTD"
     },
@@ -60558,11 +60568,6 @@ const navkarMedicineData = [
         "Product Name": "ZILAST 100MG TAB",
         "Pack": "TAB",
         "Company Name": "IPCA LABORATORIES (HYCARE)"
-    },
-    {
-        "Product Name": "DEPRISA OD 250 TAB",
-        "Pack": "10TAB",
-        "Company Name": "IPCA LABORATORIES (INNOVA)"
     },
     {
         "Product Name": "BACILON CAP",
@@ -64490,18 +64495,18 @@ const navkarMedicineData = [
         "Company Name": "KEPLER HEALTHCARE PVT LTD"
     },
     {
+        "Product Name": "TELPAX [M] 25 TAB",
+        "Pack": "10TAB",
+        "Company Name": "KEPLER HEALTHCARE PVT LTD"
+    },
+    {
+        "Product Name": "TELPAX [M] 50 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "KEPLER HEALTHCARE PVT LTD"
+    },
+    {
         "Product Name": "TELPAX AM TAB",
         "Pack": "10 TAB",
-        "Company Name": "KEPLER HEALTHCARE PVT LTD"
-    },
-    {
-        "Product Name": "TELPAX M 50 TAB",
-        "Pack": "10 TAB",
-        "Company Name": "KEPLER HEALTHCARE PVT LTD"
-    },
-    {
-        "Product Name": "TELPAX-M25 TAB",
-        "Pack": "10TAB",
         "Company Name": "KEPLER HEALTHCARE PVT LTD"
     },
     {
@@ -101220,7 +101225,7 @@ const navkarMedicineData = [
         "Company Name": "SUN PHARMA (AKUNA)"
     },
     {
-        "Product Name": "MAXGALIN  NT 50 MG",
+        "Product Name": "MAXGALIN NT 50 MG TAB",
         "Pack": "10 TAB",
         "Company Name": "SUN PHARMA (AKUNA)"
     },
@@ -111165,6 +111170,11 @@ const navkarMedicineData = [
         "Company Name": "TORRENT PHARMA (SPARSH)"
     },
     {
+        "Product Name": "AHAGLOW ADV.LF LIPO FW",
+        "Pack": "100GM",
+        "Company Name": "TORRENT PHARMA (SPARSH)"
+    },
+    {
         "Product Name": "AHAGLOW ADVANCED FACE WASH 100GM",
         "Pack": "100GM",
         "Company Name": "TORRENT PHARMA (SPARSH)"
@@ -112875,6 +112885,11 @@ const navkarMedicineData = [
         "Company Name": "TORRENT PHARMACEUTICALS LTD"
     },
     {
+        "Product Name": "UPADACOL 45 TAB",
+        "Pack": "10TAB",
+        "Company Name": "TORRENT PHARMACEUTICALS LTD"
+    },
+    {
         "Product Name": "UPADAVIO 15 TAB",
         "Pack": "10'S",
         "Company Name": "TORRENT PHARMACEUTICALS LTD"
@@ -114242,6 +114257,11 @@ const navkarMedicineData = [
     {
         "Product Name": "JALRA DP  50/5MG TAB",
         "Pack": "10 TAB",
+        "Company Name": "GLYCOMET 1GM TAB"
+    },
+    {
+        "Product Name": "JALRA DP 100 MG SR + 10MG TAB",
+        "Pack": "10TAB",
         "Company Name": "GLYCOMET 1GM TAB"
     },
     {

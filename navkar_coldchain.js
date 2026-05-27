@@ -730,11 +730,6 @@ const navkarColdchainData = [
         "Company Name": "ERIS LIFE SCIENCES(ASPIRE)"
     },
     {
-        "Product Name": "XSULIN CARTAGE R 100 IU 3ML",
-        "Pack": "3 ML",
-        "Company Name": "ERIS LIFE SCIENCES(ASPIRE)"
-    },
-    {
         "Product Name": "XSULIN N 40 IU",
         "Pack": "1 VIAL",
         "Company Name": "ERIS LIFE SCIENCES(ASPIRE)"
@@ -742,6 +737,11 @@ const navkarColdchainData = [
     {
         "Product Name": "XSULIN R 40 IU 10ML",
         "Pack": "10 ML",
+        "Company Name": "ERIS LIFE SCIENCES(ASPIRE)"
+    },
+    {
+        "Product Name": "XSULIN R CART 100 IU 3ML",
+        "Pack": "3 ML",
         "Company Name": "ERIS LIFE SCIENCES(ASPIRE)"
     },
     {
