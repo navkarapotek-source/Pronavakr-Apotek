@@ -2370,6 +2370,16 @@ const productData = [
         "Company Name": "ARISTO LABORATORIES PVT.LTD."
     },
     {
+        "Product Name": "GUTBLISS CAPS",
+        "Pack": "1X10C",
+        "Company Name": "ARISTO LABORATORIES PVT.LTD."
+    },
+    {
+        "Product Name": "HAEMOPROL-XT SUSP.150ML",
+        "Pack": "1X150ML",
+        "Company Name": "ARISTO LABORATORIES PVT.LTD."
+    },
+    {
         "Product Name": "HAEMOPROL-XT TABS",
         "Pack": "1X10T",
         "Company Name": "ARISTO LABORATORIES PVT.LTD."
@@ -6920,7 +6930,7 @@ const productData = [
         "Company Name": "DR.REDDY LABORATORIES LTD."
     },
     {
-        "Product Name": "FLUMERA 150 TAB",
+        "Product Name": "FLUERMA 150 TAB",
         "Pack": "1TAB",
         "Company Name": "DR.REDDY LABORATORIES LTD."
     },
@@ -11920,6 +11930,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "LIPIDATOR-5MG TABS",
+        "Pack": "1X10T",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "LIPIDATOR-80 TAB",
         "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
@@ -13520,8 +13535,8 @@ const productData = [
         "Company Name": "HINDUSTAN MEDICAL DEVICES"
     },
     {
-        "Product Name": "DISP SYRING W/NEEDEL  5ML",
-        "Pack": "1PC",
+        "Product Name": "DISP SYRING WITHOUT NEEDEL 5ML",
+        "Pack": "1PCX5ML",
         "Company Name": "HINDUSTAN MEDICAL DEVICES"
     },
     {
@@ -23585,13 +23600,8 @@ const productData = [
         "Company Name": "ROUSSEL LABORATORIES"
     },
     {
-        "Product Name": "ATORVEE AP 20/75/75 CAP",
-        "Pack": "15CAP",
-        "Company Name": "ROUSSEL LABORATORIES"
-    },
-    {
         "Product Name": "ATORVEE AP 20/75MG CAPS",
-        "Pack": "1X10C",
+        "Pack": "1X15C",
         "Company Name": "ROUSSEL LABORATORIES"
     },
     {
@@ -27045,6 +27055,11 @@ const productData = [
         "Company Name": "ALKAFRESH SODA EFFERVESCENT"
     },
     {
+        "Product Name": "CLINSKIN GLOW FACE WASH",
+        "Pack": "75GM",
+        "Company Name": "ALKAFRESH SODA EFFERVESCENT"
+    },
+    {
         "Product Name": "CLINSKIN SOAP",
         "Pack": "75GM",
         "Company Name": "ALKAFRESH SODA EFFERVESCENT"
@@ -27352,6 +27367,11 @@ const productData = [
     {
         "Product Name": "DENTABLIST TOOTHPASTE",
         "Pack": "80GM",
+        "Company Name": "DARKROOM SUPER DOTTED"
+    },
+    {
+        "Product Name": "DEXASCORE TAB",
+        "Pack": "10TAB",
         "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
@@ -27810,6 +27830,11 @@ const productData = [
         "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
+        "Product Name": "METROTREAT 400 TAB",
+        "Pack": "20TAB",
+        "Company Name": "DARKROOM SUPER DOTTED"
+    },
+    {
         "Product Name": "MIGRAOFF TAB",
         "Pack": "10TAB",
         "Company Name": "DARKROOM SUPER DOTTED"
@@ -27952,6 +27977,26 @@ const productData = [
     {
         "Product Name": "OFLOFRESH OZ TAB",
         "Pack": "10TAB",
+        "Company Name": "DARKROOM SUPER DOTTED"
+    },
+    {
+        "Product Name": "ON 160000 VIVO Y11 5G",
+        "Pack": "PC",
+        "Company Name": "DARKROOM SUPER DOTTED"
+    },
+    {
+        "Product Name": "ON 2000 YERA PANTRY JAR (SET OF 3)",
+        "Pack": "PC",
+        "Company Name": "DARKROOM SUPER DOTTED"
+    },
+    {
+        "Product Name": "ON 240000 SAMSUNG WASHING MACHINE",
+        "Pack": "PC",
+        "Company Name": "DARKROOM SUPER DOTTED"
+    },
+    {
+        "Product Name": "ON 4000 GIANT PUSH & CHOP CHOPPER",
+        "Pack": "PC",
         "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
@@ -28367,6 +28412,11 @@ const productData = [
     {
         "Product Name": "SMARTVITA E 400 SOFT CAP",
         "Pack": "10CAP",
+        "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
+    },
+    {
+        "Product Name": "SUCRAMOST O SUSP",
+        "Pack": "100ML",
         "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
     },
     {

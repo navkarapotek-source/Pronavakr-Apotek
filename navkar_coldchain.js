@@ -675,6 +675,11 @@ const navkarColdchainData = [
         "Company Name": "EMCURE PHARMACEUTICALS (NUCRON)"
     },
     {
+        "Product Name": "LYRATO PEN",
+        "Pack": "3 ML",
+        "Company Name": "ERIS LIFE SCIENCES (MONTANA)"
+    },
+    {
         "Product Name": "BLUVIAL 2MG/1.5ML",
         "Pack": "1VIAL",
         "Company Name": "ERIS LIFE SCIENCES (NIKKOS)"
@@ -683,11 +688,6 @@ const navkarColdchainData = [
         "Product Name": "BLUVIAL 4MG/3ML",
         "Pack": "1VIAL",
         "Company Name": "ERIS LIFE SCIENCES (NIKKOS)"
-    },
-    {
-        "Product Name": "LYRATO PEN",
-        "Pack": "3 ML",
-        "Company Name": "ERIS LIFE SCIENCES (VICTUS)"
     },
     {
         "Product Name": "XGLAR ONE PEN",
