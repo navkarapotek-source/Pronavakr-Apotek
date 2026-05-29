@@ -18310,11 +18310,6 @@ const productData = [
         "Company Name": "LUPIN LIFESCIENCES LIMITED"
     },
     {
-        "Product Name": "CHYMOLUP FORTE TAB",
-        "Pack": "1X20TAB",
-        "Company Name": "LUPIN LIFESCIENCES LIMITED"
-    },
-    {
         "Product Name": "CHYMOLUP FORTE TAB (ALU-ALU)",
         "Pack": "20TAB",
         "Company Name": "LUPIN LIFESCIENCES LIMITED"

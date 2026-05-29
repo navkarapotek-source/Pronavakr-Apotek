@@ -29730,11 +29730,6 @@ const navkarMedicineData = [
         "Company Name": "ATOCOR 20MG TAB"
     },
     {
-        "Product Name": "DAPLO BIS 2.5 TAB",
-        "Pack": "10TAB",
-        "Company Name": "ATOCOR 20MG TAB"
-    },
-    {
         "Product Name": "MEGA 3 CAP",
         "Pack": "30 CAP",
         "Company Name": "ATOCOR 20MG TAB"
@@ -29983,6 +29978,11 @@ const navkarMedicineData = [
         "Product Name": "SUPAMOVE GEL",
         "Pack": "30GM",
         "Company Name": "BIXIBAT 5 MG TAB"
+    },
+    {
+        "Product Name": "DAPLO BIS 2.5 TAB",
+        "Pack": "10TAB",
+        "Company Name": "DR REDDYS LAB (OPTIMUS)"
     },
     {
         "Product Name": "VOZUCA 0.2MG TAB",
@@ -31070,6 +31070,16 @@ const navkarMedicineData = [
         "Company Name": "DR REDDYS LABORATORIES (OPTIMUS)"
     },
     {
+        "Product Name": "GLIMY DM 1 TAB",
+        "Pack": "10'S",
+        "Company Name": "GLIMY 4MG TAB"
+    },
+    {
+        "Product Name": "GLIMY DM 2 TAB",
+        "Pack": "10'S",
+        "Company Name": "GLIMY 4MG TAB"
+    },
+    {
         "Product Name": "GLIMY M 0.5MG TAB",
         "Pack": "10 TAB",
         "Company Name": "GLIMY 4MG TAB"
@@ -31177,16 +31187,6 @@ const navkarMedicineData = [
     {
         "Product Name": "DELCYNISE TAB",
         "Pack": "10 TAB",
-        "Company Name": "DR REDDYS LABORATORIES LTD"
-    },
-    {
-        "Product Name": "GLIMY DM 1 TAB",
-        "Pack": "10'S",
-        "Company Name": "DR REDDYS LABORATORIES LTD"
-    },
-    {
-        "Product Name": "GLIMY DM 2 TAB",
-        "Pack": "10'S",
         "Company Name": "DR REDDYS LABORATORIES LTD"
     },
     {
@@ -43002,6 +43002,11 @@ const navkarMedicineData = [
     {
         "Product Name": "HEP 25 INJ",
         "Pack": "5 ML",
+        "Company Name": "GENERICS"
+    },
+    {
+        "Product Name": "HEY FORTE MAX TAB",
+        "Pack": "10 TAB",
         "Company Name": "GENERICS"
     },
     {
@@ -86150,6 +86155,16 @@ const navkarMedicineData = [
         "Company Name": "MEDLEY [METAKARE]"
     },
     {
+        "Product Name": "GEPRIDE 1MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "MEDLEY [METAKARE]"
+    },
+    {
+        "Product Name": "GEPRIDE 2MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "MEDLEY [METAKARE]"
+    },
+    {
         "Product Name": "GEPRIDE M 0.5 TAB",
         "Pack": "10 TAB",
         "Company Name": "MEDLEY [METAKARE]"
@@ -86577,16 +86592,6 @@ const navkarMedicineData = [
     {
         "Product Name": "DAPANOVA SM 500 TAB",
         "Pack": "15 TAB",
-        "Company Name": "MEDLEY PHARMACEUTICALS LTD (VAZOKARE)"
-    },
-    {
-        "Product Name": "GEPRIDE 1MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "MEDLEY PHARMACEUTICALS LTD (VAZOKARE)"
-    },
-    {
-        "Product Name": "GEPRIDE 2MG TAB",
-        "Pack": "10 TAB",
         "Company Name": "MEDLEY PHARMACEUTICALS LTD (VAZOKARE)"
     },
     {
