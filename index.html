@@ -949,6 +949,16 @@
   </div>
 </section>
 
+<!-- DAILY MOTIVATION -->
+<div class="quote-container" style="background: #fff; padding: 25px 20px; text-align: center; border-bottom: 1px solid #f0f0f0; position: relative; z-index: 1;">
+  <div style="max-width: 800px; margin: 0 auto;">
+    <span style="display: block; font-size: 10px; text-transform: uppercase; letter-spacing: 2px; color: #F5C125; font-weight: 700; margin-bottom: 8px;">Quote'S Of The Day</span>
+    <p id="daily-quote-text" style="font-family: 'DM Sans', sans-serif; font-style: italic; color: #1A9E8F; font-size: clamp(1.1rem, 3vw, 1.3rem); font-weight: 500; line-height: 1.5; margin: 0;">
+      Loading your daily dose of health...
+    </p>
+  </div>
+</div>
+
 <!-- VISION & MISSION -->
 <section class="vm-section">
   <div class="vm-inner">
@@ -1155,6 +1165,16 @@ function toggleMenu() {
 
 // Intro Animation Handler
 window.addEventListener('load', () => {
+  // Show intro only once per browser session
+  if (sessionStorage.getItem('introSeen') === 'true') {
+    const intro = document.getElementById('intro-overlay');
+    if (intro) {
+      intro.remove();
+    }
+    document.body.classList.remove('no-scroll');
+    return;
+  }
+
   const meds = [
     { id: 'm1', delay: 0,    floatDur: '5.2s' },
     { id: 'm3', delay: 200,  floatDur: '7.0s' },
@@ -1183,27 +1203,31 @@ window.addEventListener('load', () => {
     }, START_AFTER + delay);
   });
 
-  // Auto-hide after full sequence
+  // Auto-hide after full sequence and mark as seen for this session
   setTimeout(() => {
     const intro = document.getElementById('intro-overlay');
     if (intro) {
       intro.classList.add('hidden');
       document.body.classList.remove('no-scroll');
       setTimeout(() => { intro.remove(); }, 800);
+      sessionStorage.setItem('introSeen', 'true');
     }
   }, 4000);
 
-  // Skip button
+  // Skip button – also mark as seen for this session
   document.getElementById('skipIntro').addEventListener('click', () => {
     const intro = document.getElementById('intro-overlay');
     if (intro) {
       intro.classList.add('hidden');
       document.body.classList.remove('no-scroll');
       setTimeout(() => { intro.remove(); }, 800);
+      sessionStorage.setItem('introSeen', 'true');
     }
   });
 });
 </script>
+
+<script src="daily_quotes.js"></script>
 
 </body>
 </html>
