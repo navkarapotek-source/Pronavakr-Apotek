@@ -6540,6 +6540,11 @@ const productData = [
         "Company Name": "DOK AUSHADHI PVT LTD"
     },
     {
+        "Product Name": "METRO 100ML AMN",
+        "Pack": "100ML",
+        "Company Name": "DOK AUSHADHI PVT LTD"
+    },
+    {
         "Product Name": "METRONIDAZOL 100ML (DOK)",
         "Pack": "1X100ML",
         "Company Name": "DOK AUSHADHI PVT LTD"
@@ -9715,6 +9720,11 @@ const productData = [
         "Company Name": "GENERAL COMPANIES"
     },
     {
+        "Product Name": "JENRGIVO ENERGY DRINK 500ML",
+        "Pack": "500ML",
+        "Company Name": "GENERAL COMPANIES"
+    },
+    {
         "Product Name": "JNS SAFTI IV SET",
         "Pack": "PC",
         "Company Name": "GENERAL COMPANIES"
@@ -10205,8 +10215,18 @@ const productData = [
         "Company Name": "GLENMARK PHARMACEUTICALS LTD"
     },
     {
+        "Product Name": "GLENMARK COLGATE MAX FRESH",
+        "Pack": "PC",
+        "Company Name": "GLENMARK PHARMACEUTICALS LTD"
+    },
+    {
         "Product Name": "GLENMARK DABUR GULABARI 30ML",
         "Pack": "30ML",
+        "Company Name": "GLENMARK PHARMACEUTICALS LTD"
+    },
+    {
+        "Product Name": "GLENMARK GILETTE GAURD",
+        "Pack": "PC",
         "Company Name": "GLENMARK PHARMACEUTICALS LTD"
     },
     {
@@ -14885,6 +14905,11 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "ALBETEL TAB",
+        "Pack": "10TAB",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "ALLEHIST-M TAB",
         "Pack": "10TAB",
         "Company Name": "LABORATE AQUA LAB"
@@ -14965,13 +14990,33 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "AQUA AC COMFORTER",
+        "Pack": "PC",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "AQUA AID BANDAGE",
         "Pack": "100PC",
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "AQUA ANKLE WRAP (NEO)",
+        "Pack": "PC",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "AQUA BABY CREAM BATHING BAR",
+        "Pack": "75GM",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "AQUA BABY POWDER",
         "Pack": "100GM",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "AQUA BAJAJ CELLING FAN",
+        "Pack": "PC",
         "Company Name": "LABORATE AQUA LAB"
     },
     {
@@ -15070,8 +15115,28 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "AQUA KNEE CAP M",
+        "Pack": "PC",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "AQUA KT5 (PLASTIC BOX)",
         "Pack": "15GM",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "AQUA LED BULB (WIPRO)",
+        "Pack": "PC",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "AQUA LS BELT LARGE",
+        "Pack": "PC",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "AQUA LS BELT MEDIUM",
+        "Pack": "PC",
         "Company Name": "LABORATE AQUA LAB"
     },
     {
@@ -15081,6 +15146,11 @@ const productData = [
     },
     {
         "Product Name": "AQUA MAMY POKO PANTS",
+        "Pack": "PC",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "AQUA MIXER GRINDER SKYLINE",
         "Pack": "PC",
         "Company Name": "LABORATE AQUA LAB"
     },
@@ -15130,6 +15200,11 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "AQUA TRIDENT BATH TOWEL",
+        "Pack": "PC",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "AQUA TRIDENT BEDSHEET",
         "Pack": "PC",
         "Company Name": "LABORATE AQUA LAB"
@@ -15140,6 +15215,11 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "AQUA USHA DRY IRON",
+        "Pack": "PC",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "AQUA VAG WASH 100ML",
         "Pack": "100ML",
         "Company Name": "LABORATE AQUA LAB"
@@ -15147,6 +15227,11 @@ const productData = [
     {
         "Product Name": "AQUA WEIGHING SCALE",
         "Pack": "1",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "AQUA ZEBRONICS HEADPHONES",
+        "Pack": "PC",
         "Company Name": "LABORATE AQUA LAB"
     },
     {
@@ -15205,6 +15290,11 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "AQUAFZOLE SOAP",
+        "Pack": "75GM",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "AQUAIZOLE 100 CAP",
         "Pack": "10CAP",
         "Company Name": "LABORATE AQUA LAB"
@@ -15212,6 +15302,11 @@ const productData = [
     {
         "Product Name": "AQUAIZOLE 200 CAP",
         "Pack": "10CAP",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "AQUAIZOLE SOAP",
+        "Pack": "75GM",
         "Company Name": "LABORATE AQUA LAB"
     },
     {
@@ -15395,6 +15490,11 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "CALVIN SUSP",
+        "Pack": "200ML",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "CANDY (MIX FRUIT)DOTTED CONDOM",
         "Pack": "3PC",
         "Company Name": "LABORATE AQUA LAB"
@@ -15447,6 +15547,11 @@ const productData = [
     {
         "Product Name": "CEFTKIL SB INJ",
         "Pack": "VAIL",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "CEFUKIL 500 TAB",
+        "Pack": "10TAB",
         "Company Name": "LABORATE AQUA LAB"
     },
     {
@@ -15945,6 +16050,11 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "SUCRATAC-O SUSP",
+        "Pack": "200ML",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "SUGARFIT",
         "Pack": "100TAB",
         "Company Name": "LABORATE AQUA LAB"
@@ -15996,6 +16106,11 @@ const productData = [
     },
     {
         "Product Name": "VOMIPRESS TAB",
+        "Pack": "10TAB",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "VOTANEC 50 TAB",
         "Pack": "10TAB",
         "Company Name": "LABORATE AQUA LAB"
     },
@@ -23240,7 +23355,7 @@ const productData = [
         "Company Name": "ROMSON"
     },
     {
-        "Product Name": "PEDIA DRAP",
+        "Product Name": "PEDIA DRIP PLUS",
         "Pack": "PIECE",
         "Company Name": "ROMSON"
     },
@@ -23815,7 +23930,7 @@ const productData = [
         "Company Name": "ROUSSEL LABORATORIES"
     },
     {
-        "Product Name": "GLYCOEX M 60 TAB",
+        "Product Name": "GLYCOEX M 60 ER TAB",
         "Pack": "10TAB",
         "Company Name": "ROUSSEL LABORATORIES"
     },
@@ -29487,6 +29602,11 @@ const productData = [
     {
         "Product Name": "X-FORCE AIR THIN CONDOMS",
         "Pack": "10PC",
+        "Company Name": "TARUN PHARMACUTICAL"
+    },
+    {
+        "Product Name": "X-FORCE GOLD SHILAJIT CAP",
+        "Pack": "1X10CAP",
         "Company Name": "TARUN PHARMACUTICAL"
     },
     {

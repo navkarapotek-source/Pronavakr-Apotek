@@ -5415,6 +5415,11 @@ const otcData = [
         "Company Name": "SAPAT COMPANY PVT LTD"
     },
     {
+        "Product Name": "SAPAT AYUSAS AYURVEDIC LOZENGES",
+        "Pack": "1JAR",
+        "Company Name": "SAPAT COMPANY PVT LTD"
+    },
+    {
         "Product Name": "SAPAT LOTION [13ML]",
         "Pack": "13ML",
         "Company Name": "SAPAT COMPANY PVT LTD"
