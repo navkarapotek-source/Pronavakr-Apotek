@@ -179,7 +179,7 @@
   }
 
   h2 {
-    font-family: 'Adam CG Pro', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 1.8rem;
     margin-bottom: 1rem;
     color: var(--navy);
@@ -188,9 +188,45 @@
   }
 
   p { margin-bottom: 1.5rem; color: #444; }
+
+  /* Hamburger Menu CSS */
+  .menu-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; z-index: 1001; }
+  .menu-toggle span { width: 25px; height: 3px; background: #373c44; transition: 0.3s; border-radius: 2px; }
+  .nav-overlay {
+    position: fixed; top: 0; right: -100%; width: 250px; height: 100vh;
+    background: var(--navy); z-index: 1000; padding: 80px 2rem; transition: 0.4s ease-in-out;
+    box-shadow: -5px 0 15px rgba(0,0,0,0.3);
+  }
+  .nav-overlay.active { right: 0; }
+  .close-overlay {
+    position: absolute; top: 20px; right: 20px;
+    font-size: 40px; color: #fff; cursor: pointer;
+    line-height: 1;
+  }
+  .overlay-links { list-style: none; display: flex; flex-direction: column; gap: 1.5rem; }
+  .overlay-links a { color: #fff; text-decoration: none; font-size: 18px; text-transform: uppercase; }
+  .menu-toggle.active span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+  .menu-toggle.active span:nth-child(2) { opacity: 0; }
+  .menu-toggle.active span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+
+  @media (max-width: 768px) {
+    nav { padding: 0 1rem; }
+  .nav-brand span:first-child { font-size: 12px; }
+  .nav-brand span:last-child { display: none; }
+  .nav-links { display: none; }
+  .menu-toggle { display: flex; }
+  .legal-box { padding: 1.5rem; }
+  .footer-container {
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  }
+  .contact-icon { width: 36px; height: 36px; min-width: 36px; }
+}
+
+  p { margin-bottom: 1.5rem; color: #444; }
   .legal-box ul { margin-bottom: 1.5rem; padding-left: 1.5rem; color: #444; }
   .legal-box ul li { margin-bottom: 0.5rem; font-size: 14px; line-height: 1.7; }
-  .legal-box h3 { font-family: 'Adam CG Pro', sans-serif; font-size: 1.3rem; color: var(--navy); margin-bottom: 0.75rem; margin-top: 1rem; }
+  .legal-box h3 { font-family: 'DM Sans', sans-serif; font-size: 1.3rem; color: var(--navy); margin-bottom: 0.75rem; margin-top: 1rem; }
 
   /* Hamburger Menu CSS */
   .menu-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; z-index: 1001; }
@@ -242,6 +278,7 @@
     <li><a href="../Media & Gallery/">Gallery</a></li>
     <li><a href="../how-to-use-app/">How to Use App</a></li>
     <li><a href="../Contact-us/">Contact</a></li>
+    <li><a href="../our-network/">Our Network</a></li>
   </ul>
   <div class="nav-actions">
     <a href="../login/" class="login-btn">Login</a>
@@ -261,6 +298,7 @@
     <li><a href="../Media & Gallery/" onclick="toggleMenu()">Gallery</a></li>
     <li><a href="../how-to-use-app/" onclick="toggleMenu()">How to Use App</a></li>
     <li><a href="../Contact-us/" onclick="toggleMenu()">Contact</a></li>
+    <li><a href="../our-network/" onclick="toggleMenu()">Our Network</a></li>
     <li><a href="../login/" onclick="toggleMenu()">Login</a></li>
   </ul>
 </div>

@@ -130,7 +130,7 @@
     opacity: 0.3;
   }
   .hero h1 {
-    font-family: 'Adam CG Pro', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 3.5rem;
     margin-bottom: 1rem;
   }
@@ -154,8 +154,8 @@
     margin-bottom: 5rem;
   }
   .section-intro h2 {
-    font-family: 'Adam CG Pro', sans-serif;
-    font-size: 3rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5rem;
     color: var(--navy);
     margin-bottom: 1.5rem;
   }
@@ -288,7 +288,17 @@
     }
     .contact-icon { width: 36px; height: 36px; min-width: 36px; }
   }
-</style>
+    /* Mobile‑text tweaks */
+    @media (max-width: 480px) {
+      .hero h1 { font-size: 1.8rem; }
+      .hero p { font-size: 0.95rem; line-height: 1.4; }
+      .section-intro h2 { font-size: 1.8rem; }
+      .section-intro { margin-bottom: 2rem; }
+      .company-card { padding: 1rem; }
+      .company-card span { font-size: 0.8rem; line-height: 1.2; }
+      .companies-grid { gap: 15px; }
+    }
+    </style>
 </head>
 <body>
 
@@ -308,6 +318,7 @@
     <li><a href="../Media & Gallery/">Gallery</a></li>
     <li><a href="../how-to-use-app/">How to Use App</a></li>
     <li><a href="../Contact-us/">Contact</a></li>
+    <li><a href="../our-network/">Our Network</a></li>
   </ul>
   <div class="nav-actions">
     <a href="../login/" class="login-btn">Login</a>
@@ -327,6 +338,7 @@
     <li><a href="../Media & Gallery/" onclick="toggleMenu()">Gallery</a></li>
     <li><a href="../how-to-use-app/" onclick="toggleMenu()">How to Use App</a></li>
     <li><a href="../Contact-us/" onclick="toggleMenu()">Contact</a></li>
+    <li><a href="../our-network/" onclick="toggleMenu()">Our Network</a></li>
     <li><a href="../login/" onclick="toggleMenu()">Login</a></li>
   </ul>
 </div>

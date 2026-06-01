@@ -3,27 +3,20 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>How to Use Our App - Navkar Apotek & Pronavkar Lifecare</title>
-<meta name="description" content="Easy 5-step guide for retailers on how to use the Navkar Apotek Android App to place orders." />
-<meta name="keywords" content="Navkar Apotek app, how to use, retailer guide, download app, register, place orders" />
+<title>Our Network - Navkar Apotek & Pronavkar Lifecare</title>
+<meta name="description" content="Navkar Apotek LLP & Pronavkar Lifecare LLP - Pharmaceutical distribution network across India." />
 <link rel="icon" type="image/png" href="../logo.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
 <style>
-  @font-face {
-    font-family: 'Adam CG Pro';
-    src: url('../fonts/AdamCGPro.woff2') format('woff2'),
-         url('../fonts/AdamCGPro.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
 
+  html { overflow-x: hidden; }
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
+    --navy: #1A9E8F;
+    --navy-mid: #148074;
     --teal: #1A9E8F;
-    --teal-dark: #148074;
     --teal-light: #d2f0ec;
     --cream: #f7f3ee;
     --warm-white: #fefcf9;
@@ -31,11 +24,7 @@
     --muted: #6b7280;
     --border: #e5ddd3;
     --accent: #F5C125;
-    --accent-dark: #e0b800;
-    --primary-dark: #148074;
   }
-
-  html { overflow-x: hidden; scroll-behavior: smooth; }
 
   body {
     font-family: 'DM Sans', sans-serif;
@@ -60,8 +49,8 @@
   }
   .nav-brand { display: flex; flex-direction: column; }
   .nav-brand span:first-child {
-    font-family: 'Adam CG Pro', sans-serif;
-    font-size: 18px; font-weight: 600; color: var(--teal);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px; font-weight: 600; color: #1A9E96;
   }
   .nav-brand span:last-child {
     font-size: 10px; color: #F5C518; text-transform: uppercase;
@@ -69,8 +58,7 @@
   .nav-links { display: flex; gap: 2rem; list-style: none; margin-left: auto; }
   .nav-links a {
     font-size: 13px; color: #373c44; text-decoration: none;
-    letter-spacing: 0.05em; text-transform: uppercase;
-    transition: color 0.2s;
+    text-transform: uppercase; transition: color 0.2s;
   }
   .nav-links a:hover { color: #000; }
   .nav-links a.active { color: #000; font-weight: 600; }
@@ -88,7 +76,7 @@
   .menu-toggle span { width: 25px; height: 3px; background: #373c44; transition: 0.3s; border-radius: 2px; }
   .nav-overlay {
     position: fixed; top: 0; right: -100%; width: 250px; height: 100vh;
-    background: var(--teal); z-index: 1000; padding: 80px 2rem; transition: 0.4s ease-in-out;
+    background: var(--navy); z-index: 1000; padding: 80px 2rem; transition: 0.4s ease-in-out;
     box-shadow: -5px 0 15px rgba(0,0,0,0.3);
   }
   .nav-overlay.active { right: 0; }
@@ -103,7 +91,7 @@
   .menu-toggle.active span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
 
   .hero {
-    background: var(--teal);
+    background: var(--navy);
     padding: 5rem 2rem 4rem;
     text-align: center;
     position: relative; overflow: hidden;
@@ -122,191 +110,170 @@
     padding: 6px 18px; border-radius: 999px;
     margin-bottom: 1.5rem; font-weight: 700;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    position: relative; z-index: 1;
   }
   .hero h1 {
-    font-family: 'Adam CG Pro', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: clamp(2.4rem, 5vw, 4rem);
     font-weight: 600; color: #fff;
-    line-height: 1.2;
-    max-width: 720px; margin: 0 auto 1.25rem;
-    position: relative; z-index: 1;
+    max-width: 680px; margin: 0 auto 1.25rem;
   }
   .hero h1 em { font-style: italic; color: var(--accent); }
   .hero p {
     max-width: 600px; margin: 0 auto 2rem;
-    color: #fff; font-size: 16px;
-    position: relative; z-index: 1;
+    color: rgba(255,255,255,0.85); font-size: 16px;
   }
   .hero-divider {
     width: 48px; height: 2px;
     background: var(--accent);
     margin: 0 auto;
-    position: relative; z-index: 1;
   }
 
-  .steps-section {
+  .network-section {
     max-width: 1100px; margin: 0 auto; padding: 5rem 2rem;
   }
-  .step-item {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
-    align-items: center;
-    margin-bottom: 5rem;
-    opacity: 0;
-    transform: translateY(40px);
-    transition: all 0.8s ease;
+  .section-header {
+    text-align: center;
+    margin-bottom: 3rem;
   }
-  .step-item.visible {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  .step-item:last-child { margin-bottom: 0; }
-  .step-item.reverse .step-image { order: 1; }
-  .step-item.reverse .step-text { order: 2; }
-
-  .step-number {
-    display: inline-flex; align-items: center; gap: 10px;
+  .section-header h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2.4rem;
+    color: var(--navy);
     margin-bottom: 1rem;
   }
-  .step-number .num {
-    width: 40px; height: 40px;
-    background: var(--teal); color: #fff;
+  .section-header p {
+    color: var(--muted);
+    font-size: 15px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .region-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  .region-card {
+    background: #fff;
+    border: 2px solid var(--border);
+    border-radius: 16px;
+    padding: 2rem;
+    transition: all 0.3s;
+  }
+  .region-card:hover {
+    border-color: var(--teal);
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(0,0,0,0.08);
+  }
+  .region-icon {
+    width: 52px; height: 52px;
+    background: var(--teal);
     border-radius: 50%;
     display: flex; align-items: center; justify-content: center;
+    margin-bottom: 1rem;
+    font-size: 22px;
+    color: #fff;
+  }
+  .region-card h3 {
     font-family: 'DM Sans', sans-serif;
-    font-size: 1.2rem; font-weight: 600;
+    font-size: 1.4rem;
+    color: var(--text);
+    margin-bottom: 0.5rem;
   }
-  .step-number .label {
-    font-size: 11px; font-weight: 700;
-    color: var(--teal); text-transform: uppercase;
-    letter-spacing: 0.1em;
-  }
-  .step-text h2 {
-    font-family: 'Adam CG Pro', sans-serif;
-    font-size: 1.8rem; color: var(--text);
-    margin-bottom: 1rem;
-  }
-  .step-text p {
-    color: var(--muted);
-    font-size: 15px; line-height: 1.8;
-    margin-bottom: 1rem;
-  }
-  .step-text .highlight {
+  .region-card .region-label {
+    font-size: 11px;
+    font-weight: 700;
     color: var(--teal);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.8rem;
+  }
+  .region-card p {
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  .region-card ul {
+    list-style: none;
+    margin-top: 0.8rem;
+  }
+  .region-card ul li {
+    font-size: 13px;
+    color: var(--text);
+    padding: 4px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .region-card ul li::before {
+    content: '>';
+    color: var(--teal);
+    font-weight: 700;
+  }
+
+  .stats-band {
+    background: var(--cream);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    padding: 3rem 2rem;
+  }
+  .stats-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+  }
+  .stat-item {
+    text-align: center;
+  }
+  .stat-item .num {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: var(--navy);
+    line-height: 1.1;
+  }
+  .stat-item .label {
+    font-size: 11px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-top: 4px;
     font-weight: 600;
   }
-  .step-text .btn-highlight {
-    display: inline-block;
-    padding: 2px 10px;
-    background: var(--accent);
-    color: #000;
-    border-radius: 4px;
-    font-weight: 700;
-    font-size: 13px;
-  }
-  .step-text .btn-highlight-blue {
-    display: inline-block;
-    padding: 2px 10px;
+
+  .coverage-section {
     background: var(--teal);
-    color: #fff;
-    border-radius: 4px;
-    font-weight: 700;
-    font-size: 13px;
+    padding: 3rem 2rem;
   }
-
-  .phone-mockup {
-    position: relative;
-    width: 280px;
-    height: 560px;
+  .coverage-inner {
+    max-width: 900px;
     margin: 0 auto;
-    border: 4px solid #000;
-    border-radius: 36px;
-    background: #f5f5f5;
-    box-shadow:
-      0 20px 60px rgba(0,0,0,0.15),
-      inset 0 0 0 2px rgba(255,255,255,0.8);
-    overflow: hidden;
-    transform: scale(1) rotate(0deg);
-    transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.4s ease, border-color 0.4s ease;
-  }
-  .phone-mockup:hover {
-    transform: scale(1.06);
-    box-shadow:
-      0 50px 100px rgba(14,148,119,0.3),
-      0 20px 40px rgba(0,0,0,0.18);
-    border-color: var(--teal);
-  }
-  .phone-mockup .notch {
-    position: absolute; top: 0; left: 50%;
-    transform: translateX(-50%);
-    width: 120px; height: 24px;
-    background: #000;
-    border-radius: 0 0 14px 14px;
-    z-index: 2;
-  }
-  .phone-mockup .screen-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-
-  @media (max-width: 900px) {
-    .step-item { grid-template-columns: 1fr; gap: 3rem; text-align: center; }
-    .step-image { order: -1; }
-    .step-number { justify-content: center; }
-    .phone-mockup {
-      transform: none;
-      width: 220px;
-      height: 440px;
-    }
-    .phone-mockup:hover { transform: translateY(-8px); }
-  }
-
-  .cta-section {
-    background: linear-gradient(135deg, var(--teal), var(--teal-dark));
-    padding: 4rem 2rem;
     text-align: center;
-    position: relative; overflow: hidden;
   }
-  .cta-section::before {
-    content: '';
-    position: absolute; inset: 0;
-    background-image: radial-gradient(rgba(255,255,255,0.1) 1px, transparent 1px);
-    background-size: 20px 20px;
-    opacity: 0.3;
+  .coverage-inner h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
   }
-  .cta-section h2 {
-    font-family: 'Adam CG Pro', sans-serif;
-    font-size: 2.2rem; color: #fff;
-    margin-bottom: 1rem;
-    position: relative; z-index: 1;
+  .coverage-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
   }
-  .cta-section p {
-    color: rgba(255,255,255,0.85);
-    font-size: 16px; margin-bottom: 2rem;
-    position: relative; z-index: 1;
+  .coverage-item {
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 12px;
+    padding: 1.2rem;
+    text-align: center;
   }
-  .cta-btn {
-    display: inline-flex; align-items: center; gap: 10px;
-    padding: 16px 40px;
-    background: var(--accent);
-    color: #000;
-    text-decoration: none;
-    border-radius: 50px;
-    font-size: 16px; font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
-    position: relative; z-index: 1;
-  }
-  .cta-btn:hover {
-    background: var(--accent-dark);
-    transform: translateY(-3px);
-    box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+  .coverage-item span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
   }
 
   footer {
@@ -317,9 +284,8 @@
     max-width: 1100px; margin: 0 auto;
     display: grid; grid-template-columns: 2fr 1fr 1.5fr; gap: 4rem;
   }
-  @media (max-width: 768px) { .footer-container { grid-template-columns: 1fr; gap: 2rem; } }
   .footer-col h4 {
-    font-family: 'Adam CG Pro', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 1.4rem; color: var(--accent); margin-bottom: 1.5rem;
   }
   .footer-col p { font-size: 14px; color: #bbb; line-height: 1.8; margin-bottom: 1rem; }
@@ -329,34 +295,28 @@
   .footer-links a:hover { color: #fff; }
   .footer-contact { display: flex; flex-direction: column; gap: 1rem; }
 
-  /* UPDATED Contact Icons Styling */
-  .contact-item { 
-    display: flex; 
-    align-items: center; 
-    gap: 12px; 
-    font-size: 14px; 
-    color: #bbb; 
-    min-width: 0; 
-    overflow-wrap: break-word; 
-    word-break: break-word; 
-    line-height: 1.4; 
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+    color: #bbb;
+    min-width: 0;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    line-height: 1.4;
   }
   .contact-icon {
-    width: 42px;
-    height: 42px;
-    min-width: 42px;
+    width: 42px; height: 42px; min-width: 42px;
     border-radius: 50%;
-    background: var(--teal);
+    background: var(--navy);
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 18px;
   }
-  .contact-icon svg {
-    width: 20px;
-    height: 20px;
-  }
+  .contact-icon svg { width: 20px; height: 20px; }
   .contact-text {
     display: flex;
     flex-direction: column;
@@ -372,7 +332,8 @@
 
   .footer-bottom {
     max-width: 1100px; margin: 3rem auto 0;
-    border-top: 1px solid #333; padding-top: 2rem; text-align: center;
+    border-top: 1px solid #333; padding-top: 2rem;
+    text-align: center;
   }
 
   .whatsapp-float {
@@ -385,22 +346,17 @@
   }
   .whatsapp-float:hover {
     transform: translateY(-3px); background-color: #128c7e;
-    color: #fff; box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
   }
   .back-to-top {
     position: fixed; bottom: 85px; right: 25px;
-    background: var(--teal); color: #fff; width: 40px; height: 40px;
+    background: var(--navy); color: #fff; width: 40px; height: 40px;
     border-radius: 50%; border: 1px solid rgba(255,255,255,0.2);
     cursor: pointer; display: none; z-index: 999;
     font-size: 20px; font-weight: bold; box-shadow: 0 2px 10px rgba(0,0,0,0.2);
     transition: all 0.3s ease;
   }
   .back-to-top:hover { background: var(--accent); color: #000; transform: translateY(-3px); }
-  @media (max-width: 768px) {
-    .whatsapp-float { width: 50px; height: 50px; padding: 12px; bottom: 20px; right: 20px; }
-    .back-to-top { bottom: 80px; right: 20px; width: 45px; height: 45px; }
-    .contact-icon { width: 36px; height: 36px; min-width: 36px; }
-  }
 
   @media (max-width: 768px) {
     nav { padding: 0 1rem; }
@@ -409,11 +365,19 @@
     .nav-links { display: none; }
     .menu-toggle { display: flex; }
     .hero { padding: 3rem 1.5rem 2rem; }
-    .hero h1 { font-size: 2.2rem; }
-    .steps-section { padding: 3rem 1rem; }
-    .cta-section { padding: 3rem 1.5rem; }
-    .cta-section h2 { font-size: 1.6rem; }
-    .cta-btn { font-size: 14px; padding: 14px 28px; }
+    .hero h1 { font-size: 2rem; }
+    .network-section { padding: 3rem 1rem; }
+    .stats-inner { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+    .footer-container { grid-template-columns: 1fr; gap: 2rem; }
+    .whatsapp-float { width: 50px; height: 50px; padding: 12px; bottom: 20px; right: 20px; }
+    .back-to-top { bottom: 80px; right: 20px; width: 45px; height: 45px; }
+    .contact-icon { width: 36px; height: 36px; min-width: 36px; }
+  }
+
+  @media (max-width: 480px) {
+    .hero h1 { font-size: 1.6rem; }
+    .stats-inner { grid-template-columns: 1fr; }
+    .section-header h2 { font-size: 1.8rem; }
   }
 </style>
 </head>
@@ -433,9 +397,9 @@
     <li><a href="../companies/">Companies</a></li>
     <li><a href="../about-us/">About</a></li>
     <li><a href="../Media & Gallery/">Gallery</a></li>
+    <li><a href="../how-to-use-app/">How to Use App</a></li>
     <li><a href="../Contact-us/">Contact</a></li>
-    <li><a href="../our-network/">Our Network</a></li>
-    <li><a href="./" class="active">How to Use</a></li>
+    <li><a href="./" class="active">Our Network</a></li>
   </ul>
   <div class="nav-actions">
     <a href="../login/" class="login-btn">Login</a>
@@ -453,114 +417,136 @@
     <li><a href="../companies/" onclick="toggleMenu()">Companies</a></li>
     <li><a href="../about-us/" onclick="toggleMenu()">About</a></li>
     <li><a href="../Media & Gallery/" onclick="toggleMenu()">Gallery</a></li>
+    <li><a href="../how-to-use-app/" onclick="toggleMenu()">How to Use App</a></li>
     <li><a href="../Contact-us/" onclick="toggleMenu()">Contact</a></li>
-    <li><a href="../our-network/" onclick="toggleMenu()">Our Network</a></li>
-    <li><a href="./" onclick="toggleMenu()">How to Use</a></li>
+    <li><a href="./" onclick="toggleMenu()">Our Network</a></li>
     <li><a href="../login/" onclick="toggleMenu()">Login</a></li>
   </ul>
 </div>
 
 <section class="hero">
-  <div class="hero-pill">Retailer Guide</div>
-  <h1>Easy 5-Step Guide to <em>Place Your Orders</em></h1>
-  <p>Follow these simple steps to use the Navkar Apotek Android App.</p>
+  <div class="hero-pill">Our Reach</div>
+  <h1>Our <em>Distribution</em> Network</h1>
+  <p>Spanning across Maharashtra, delivering quality pharmaceuticals to retailers, hospitals, and healthcare providers.</p>
   <div class="hero-divider"></div>
 </section>
 
-<section class="steps-section">
-
-  <div class="step-item">
-    <div class="step-text">
-      <div class="step-number">
-        <span class="num">1</span>
-        <span class="label">Step</span>
-      </div>
-      <h2>Choose Your Role</h2>
-      <p>Open the app and select your role. For retail store owners and stockists, click on the yellow <span class="btn-highlight">"Customer Login"</span> button to proceed.</p>
+<section class="network-section">
+  <div class="section-header">
+    <h2>Service Regions</h2>
+    <p>Our products reach retailers and healthcare institutions across multiple regions in Maharashtra through a well-organized distribution network.</p>
+  </div>
+  <div class="region-grid">
+    <div class="region-card">
+      <div class="region-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+      <h3>Pune District</h3>
+      <div class="region-label">Coverage Area</div>
+      <p>Baramati (HO) and surrounding Pune districts.</p>
+      <ul>
+        <li>Baramati City</li>
+        <li>Daund</li>
+        <li>Indapur</li>
+        <li>Nimgaon</li>
+        <li>Kedgaon</li>
+        <li>Patas</li>
+        <li>Supa</li>
+        <li>Nira</li>
+        <li>Saswad</li>
+        <li>Walchandnagar</li>
+        <li>Jejuri</li>
+      </ul>
     </div>
-    <div class="step-image">
-      <div class="phone-mockup">
-        <div class="notch"></div>
-        <img src="../how-to-use-app%20Images/Step%201.jpeg" alt="Choose Your Role" class="screen-img">
-      </div>
+    <div class="region-card">
+      <div class="region-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+      <h3>Satara District</h3>
+      <div class="region-label">Coverage Area</div>
+      <p>Key towns and rural areas in the Satara belt.</p>
+      <ul>
+        <li>Gunaware</li>
+        <li>Lonand</li>
+        <li>Shirwal</li>
+        <li>Sakhrwadi</li>
+        <li>Phaltan</li>
+        <li>Pusegaon</li>
+      </ul>
+    </div>
+    <div class="region-card">
+      <div class="region-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+      <h3>Solapur District</h3>
+      <div class="region-label">Coverage Area</div>
+      <p>Extending towards Solapur and neighboring districts.</p>
+      <ul>
+        <li>Natepute</li>
+        <li>Karmala</li>
+      </ul>
+    </div>
+    <div class="region-card">
+      <div class="region-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+      <h3>Chhatrapati Sambhajinagar District</h3>
+      <div class="region-label">Coverage Area</div>
+      <p>Serving retailers in the Chhatrapati Sambhajinagar.</p>
+      <ul>
+        <li>Rashin</li>
+        <li>Karjat</li>
+        <li>Shrigonda</li>
+      </ul>
     </div>
   </div>
-
-  <div class="step-item reverse">
-    <div class="step-image">
-      <div class="phone-mockup">
-        <div class="notch"></div>
-        <img src="../how-to-use-app%20Images/Step%202.jpeg" alt="Access the Dashboard" class="screen-img">
-      </div>
-    </div>
-    <div class="step-text">
-      <div class="step-number">
-        <span class="num">2</span>
-        <span class="label">Step</span>
-      </div>
-      <h2>Access the Dashboard</h2>
-      <p>Once logged in, you will see your personalized dashboard. To search and buy medicines, tap on the <span class="btn-highlight">"Order"</span> or <span class="btn-highlight">"Order Generic"</span> grid icon at the top.</p>
-      <p>You can also track bills, view ledgers, or download invoices from here.</p>
-    </div>
-  </div>
-
-  <div class="step-item">
-    <div class="step-text">
-      <div class="step-number">
-        <span class="num">3</span>
-        <span class="label">Step</span>
-      </div>
-      <h2>Search for Products</h2>
-      <p>Use the top search bar to type the medicine name (e.g., "Cipladine"). Browse through the available options, check company details, schemes, live stock availability (marked in green), and rates.</p>
-    </div>
-    <div class="step-image">
-      <div class="phone-mockup">
-        <div class="notch"></div>
-        <img src="../how-to-use-app%20Images/Step%203.jpeg" alt="Search for Products" class="screen-img">
-      </div>
-    </div>
-  </div>
-
-  <div class="step-item reverse">
-    <div class="step-image">
-      <div class="phone-mockup">
-        <div class="notch"></div>
-        <img src="../how-to-use-app%20Images/Step%204.jpeg" alt="Enter Quantity & Add to Cart" class="screen-img">
-      </div>
-    </div>
-    <div class="step-text">
-      <div class="step-number">
-        <span class="num">4</span>
-        <span class="label">Step</span>
-      </div>
-      <h2>Enter Quantity &amp; Add to Cart</h2>
-      <p>Tap on the desired medicine to open the ordering pop-up. Type the required quantity (Qty) using the on-screen keypad and click the blue <span class="btn-highlight-blue">"Add To Cart"</span> button.</p>
-    </div>
-  </div>
-
-  <div class="step-item">
-    <div class="step-text">
-      <div class="step-number">
-        <span class="num">5</span>
-        <span class="label">Step</span>
-      </div>
-      <h2>Review Cart &amp; Submit Order</h2>
-      <p>Open your <span class="btn-highlight">"Item Cart"</span> to review all selected items, schemes, and the approximate total order value. Once verified, simply click the blue <span class="btn-highlight-blue">"Submit Order"</span> button at the bottom to finalize your purchase.</p>
-    </div>
-    <div class="step-image">
-      <div class="phone-mockup">
-        <div class="notch"></div>
-        <img src="../how-to-use-app%20Images/Step%205.jpeg" alt="Review Cart & Submit Order" class="screen-img">
-      </div>
-    </div>
-  </div>
-
 </section>
 
-<section class="cta-section">
-  <h2>Still Need Help?</h2>
-  <p>Our support team is available Monday to Saturday to assist you with any questions.</p>
-  <a href="tel:+919529337113" class="cta-btn">Contact Support</a>
+<section class="stats-band">
+  <div class="stats-inner">
+    <div class="stat-item">
+      <div class="num">500+</div>
+      <div class="label">Retail Partners</div>
+    </div>
+    <div class="stat-item">
+      <div class="num">30+</div>
+      <div class="label">Cities &amp; Towns</div>
+    </div>
+    <div class="stat-item">
+      <div class="num">30,000+</div>
+      <div class="label">Products Supplied</div>
+    </div>
+    <div class="stat-item">
+      <div class="num">50+</div>
+      <div class="label">Pharma Companies</div>
+    </div>
+  </div>
+</section>
+
+<section class="coverage-section">
+  <div class="coverage-inner">
+    <h2>Our Product Categories Reach</h2>
+    <div class="coverage-grid">
+      <div class="coverage-item"><span>Ethical Medicines</span></div>
+      <div class="coverage-item"><span>OTC Products</span></div>
+      <div class="coverage-item"><span>Cold Chain</span></div>
+      <div class="coverage-item"><span>Generic Medicines</span></div>
+      <div class="coverage-item"><span>Surgical Items</span></div>
+      <div class="coverage-item"><span>Healthcare Essentials</span></div>
+    </div>
+  </div>
 </section>
 
 <footer>
@@ -585,7 +571,6 @@
     <div class="footer-col">
       <h4>Get In Touch</h4>
       <div class="footer-contact">
-        <!-- Location -->
         <div class="contact-item">
           <div class="contact-icon">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -598,8 +583,6 @@
             <span>Baramati, Pune, Maharashtra - 413102</span>
           </div>
         </div>
-
-        <!-- Phone -->
         <div class="contact-item">
           <div class="contact-icon">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -611,8 +594,6 @@
             <span>+91 9529337113</span>
           </div>
         </div>
-
-        <!-- Email -->
         <div class="contact-item">
           <div class="contact-icon">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -665,16 +646,6 @@ window.onscroll = function() {
     btn.style.display = 'none';
   }
 };
-
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
-    }
-  });
-}, { threshold: 0.2 });
-
-document.querySelectorAll('.step-item').forEach(item => observer.observe(item));
 </script>
 
 </body>
