@@ -1,26 +1,22 @@
 const dailyQuotes = [
-    "Build something you're proud of. The money will follow..",
-    "Your current situation is not your final destination.",
-    "The best way to predict the future is to create it.",
-    "If you don't build your dream, someone else will hire you to help them build theirs. — Dhirubhai Ambani",
-    "Chase the vision, not the money; the money will end up following you. — Tony Hsieh",
-    "Don't worry about failures, worry about the chances you miss when you don't even try. — Jack Canfield",
-    "You don't build a business, you build people, and then people build the business. — Zig Ziglar",
-    "The market doesn't care about your mood; it only rewards your consistency, your data, and the value you bring.",
-    "The only way to do great work is to love what you do. — Steve Jobs",
-    "Opportunities don't happen. You create them. — Chris Grosser",
-    "Price is what you pay. Value is what you get. — Warren Buffett",
-    "Ever tried. Ever failed. No matter. Try again. Fail again. Fail better. — Peter Dinklage",
-    "You have to dream before your dreams can come true. — (Missile Man) Dr. APJ Abdul Kalam"
+    "I don't believe in taking right decisions. I take decisions and then make them right. — Ratan Tata",
+    "Successful people are simply those with successful habits. — Brian Tracy",
+    "Desire is a contract you make with yourself to be unhappy until you get what you want. — Naval Ravikant",
+    "Small daily improvements create stunning results. — Robin Sharma",
+    "Think big, think fast, think ahead. Ideas are no one's monopoly. — Dhirubhai Ambani",
+    "You do not rise to the level of your goals. You fall to the level of your systems. — James Clear",
+    "Happiness is not a destination, it is a direction. It is not tomorrow, it is today. — Gaur Gopal Das",
+    "The biggest risk in life is not taking any risk. The only way to fail is to not try. — Ankur Warikoo",
+    "People don’t buy what you do, they buy why you do it. — Simon Sinek"
 ];
 
 function updateDailyQuote() {
-    // Choose a random quote each load
-    const quoteIndex = Math.floor(Math.random() * dailyQuotes.length);
+    let idx = parseInt(localStorage.getItem('qIdx') || '0', 10);
     const quoteElement = document.getElementById('daily-quote-text');
     if (quoteElement) {
-        quoteElement.innerHTML = `&ldquo; ${dailyQuotes[quoteIndex]} &rdquo;`;
+        quoteElement.innerHTML = `&ldquo; ${dailyQuotes[idx]} &rdquo;`;
     }
+    localStorage.setItem('qIdx', ((idx + 1) % dailyQuotes.length).toString());
 }
 
 // Update the quote when the page loads

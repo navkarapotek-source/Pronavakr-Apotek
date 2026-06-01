@@ -515,15 +515,15 @@
   <div class="slide active">
     <img src="../Media & Gallery Photos/Teams.jpeg" alt="Our Team">
     <div class="slide-content">
-      <h2>Our Dedicated Team</h2>
-      <p>The driving force behind our pharmaceutical excellence.</p>
+      <h2>Pharmaceutical Excellence</h2>
+      <p>Inside our meticulously managed distribution hub, ensuring absolute precision, safety, and seamless operations.</p>
     </div>
   </div>
   <div class="slide">
     <img src="../Media & Gallery Photos/Teams 4.jpeg" alt="Celebrating Success">
     <div class="slide-content">
-      <h2>Celebrating Milestones</h2>
-      <p>Growing together with our partners and stakeholders.</p>
+      <h2>Robust Infrastructure</h2>
+      <p>Equipped with extensive storage and an organized aisle system to handle vast healthcare inventories efficiently.</p>
     </div>
   </div>
 
@@ -581,6 +581,35 @@
           <p>
             With cultural performances and team recognition, Navkar Utsav stands as a testament to our unity and our shared vision of "Pharmaceutical Excellence".
           </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Yugendra Pawar -->
+    <div class="festival-item">
+      <div class="festival-grid">
+        <div class="festival-text">
+          <span class="demo-badge">Yugendra Pawar</span>
+          <h3>A Memorable Visit</h3>
+          <p>Mr. Yugendra Pawar with the entire Navkar Apotek LLP family. From our dedicated warehouse and operations team to the leadership group and our talented women workforce, his visit brought warmth, inspiration, and positivity to every member. These memorable moments reflect his genuine connect with the team and reinforce our shared values of unity, dedication, and growth. We are truly grateful for his valuable time and encouraging presence at Navkar Apotek LLP.</p>
+        </div>
+        <div class="festival-image-group" style="grid-template-columns:1fr;">
+          <div class="yug-slider" style="position:relative;border-radius:12px;overflow:hidden;box-shadow:0 15px 30px rgba(0,0,0,0.12);background:#000;">
+            <div class="yug-slides" style="position:relative;width:100%;aspect-ratio:16/10;overflow:hidden;">
+              <img class="yug-slide" src="../Media & Gallery Photos/yugendra pawar2.jpeg" alt="Yugendra Pawar" style="width:100%;height:100%;object-fit:cover;display:none;">
+              <img class="yug-slide" src="../Media & Gallery Photos/yugendra pawar.jpeg" alt="Yugendra Pawar 1" style="width:100%;height:100%;object-fit:cover;display:none;">
+              <img class="yug-slide" src="../Media & Gallery Photos/yugendra pawar3.jpeg" alt="Yugendra Pawar 3" style="width:100%;height:100%;object-fit:cover;display:none;">
+              <img class="yug-slide" src="../Media & Gallery Photos/yugendra pawar4.jpeg" alt="Yugendra Pawar 4" style="width:100%;height:100%;object-fit:cover;display:none;">
+            </div>
+            <button class="yug-prev" style="position:absolute;top:50%;left:10px;transform:translateY(-50%);z-index:10;background:rgba(255,255,255,0.3);border:none;color:#fff;width:44px;height:44px;border-radius:50%;cursor:pointer;font-size:20px;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(3px);">&#10094;</button>
+            <button class="yug-next" style="position:absolute;top:50%;right:10px;transform:translateY(-50%);z-index:10;background:rgba(255,255,255,0.3);border:none;color:#fff;width:44px;height:44px;border-radius:50%;cursor:pointer;font-size:20px;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(3px);">&#10095;</button>
+            <div class="yug-dots" style="position:absolute;bottom:15px;left:50%;transform:translateX(-50%);z-index:10;display:flex;gap:8px;">
+              <span class="yug-dot active" style="width:10px;height:10px;border-radius:50%;background:#F5C125;cursor:pointer;transition:background 0.3s;"></span>
+              <span class="yug-dot" style="width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,0.4);cursor:pointer;transition:background 0.3s;"></span>
+              <span class="yug-dot" style="width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,0.4);cursor:pointer;transition:background 0.3s;"></span>
+              <span class="yug-dot" style="width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,0.4);cursor:pointer;transition:background 0.3s;"></span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -806,6 +835,37 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'ArrowLeft') prevSlide();
   if (e.key === 'Escape') closeLightbox();
 });
+
+// Lightbox for Yugendra slider images
+document.querySelectorAll('.yug-slide').forEach(img => {
+  img.style.cursor = 'zoom-in';
+  img.addEventListener('click', (e) => {
+    lightboxImg.src = e.target.src;
+    lightbox.style.display = 'flex';
+    setTimeout(() => { lightbox.classList.add('active'); }, 10);
+  });
+});
+
+// ── Yugendra Pawar Slider ──
+(function() {
+  const slides = document.querySelectorAll('.yug-slide');
+  const dots = document.querySelectorAll('.yug-dot');
+  const prev = document.querySelector('.yug-prev');
+  const next = document.querySelector('.yug-next');
+  if (!slides.length) return;
+  let cur = 0;
+  function show(i) {
+    slides.forEach(s => s.style.display = 'none');
+    dots.forEach(d => d.style.background = 'rgba(255,255,255,0.4)');
+    slides[i].style.display = 'block';
+    dots[i].style.background = '#F5C125';
+    cur = i;
+  }
+  show(0);
+  next.addEventListener('click', () => show((cur + 1) % slides.length));
+  prev.addEventListener('click', () => show((cur - 1 + slides.length) % slides.length));
+  dots.forEach((d, i) => d.addEventListener('click', () => show(i)));
+})();
 </script>
 
 </body>
