@@ -8,6 +8,7 @@
 <link rel="icon" type="image/png" href="../logo.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <style>
 
   html { overflow-x: hidden; }
@@ -126,6 +127,44 @@
     width: 48px; height: 2px;
     background: var(--accent);
     margin: 0 auto;
+  }
+
+  .map-section {
+    max-width: 1100px; margin: 0 auto; padding: 4rem 2rem 2rem;
+  }
+  .map-wrapper {
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.1);
+    border: 2px solid var(--border);
+    height: 360px;
+  }
+  .map-wrapper .leaflet-container {
+    border-radius: 18px;
+  }
+  .map-legend {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 1.2rem;
+  }
+  .map-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .map-legend-dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 2px solid rgba(0,0,0,0.15);
+  }
+
+  @media (max-width: 768px) {
+    .map-wrapper { height: 260px; }
   }
 
   .network-section {
@@ -321,7 +360,9 @@
     max-width: 900px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 700px;
+    margin: 0 auto;
     gap: 1.5rem;
   }
   .stat-item {
@@ -549,6 +590,7 @@
       <p>Baramati (HO) and surrounding Pune districts.</p>
       <span class="toggle-arrow" onclick="toggleCities(event)"><span class="arrow-icon">▼</span><span class="arrow-text">Show Cities</span></span>
       <ul class="city-list">
+        <li>Pune</li>
         <li>Baramati City</li>
         <li>Daund</li>
         <li>Indapur</li>
@@ -560,6 +602,20 @@
         <li>Saswad</li>
         <li>Walchandnagar</li>
         <li>Jejuri</li>
+        <li>Morgaon</li>
+        <li>Bhor</li>
+        <li>Dulegaon Raje</li>
+        <li>Kurkumbh</li>
+        <li>Shirsuphal</li>
+        <li>Rawangaon</li>
+        <li>Undavadi</li>
+        <li>Pargaon</li>
+        <li>Pandare</li>
+        <li>Someshwar</li>
+        <li>Sangavi</li>
+        <li>Pimprad</li>
+        <li>Shirur</li>
+        <li>Songaon</li>
       </ul>
     </div>
     <div class="region-card">
@@ -574,12 +630,13 @@
       <p>Key towns and rural areas in the Satara belt.</p>
       <span class="toggle-arrow" onclick="toggleCities(event)"><span class="arrow-icon">▼</span><span class="arrow-text">Show Cities</span></span>
       <ul class="city-list">
+        <li>Satara</li>
         <li>Gunaware</li>
         <li>Lonand</li>
-        <li>Shirwal</li>
         <li>Sakhrwadi</li>
         <li>Phaltan</li>
         <li>Pusegaon</li>
+        <li>Wathar</li>
       </ul>
     </div>
     <div class="region-card">
@@ -594,8 +651,11 @@
       <p>Extending towards Solapur and neighboring districts.</p>
       <span class="toggle-arrow" onclick="toggleCities(event)"><span class="arrow-icon">▼</span><span class="arrow-text">Show Cities</span></span>
       <ul class="city-list">
+        <li>Solapur</li>
         <li>Natepute</li>
         <li>Karmala</li>
+        <li>Parewadi</li>
+        <li>Malshiras</li>
       </ul>
     </div>
     <div class="region-card">
@@ -605,14 +665,16 @@
               <circle cx="12" cy="10" r="3"></circle>
             </svg>
           </div>
-      <h3>Chhatrapati Sambhajinagar District</h3>
+      <h3>Ahilyanagar District</h3>
       <div class="region-label">Coverage Area</div>
-      <p>Serving retailers in the Chhatrapati Sambhajinagar.</p>
+      <p>Serving retailers in the Ahilyanagar.</p>
       <span class="toggle-arrow" onclick="toggleCities(event)"><span class="arrow-icon">▼</span><span class="arrow-text">Show Cities</span></span>
       <ul class="city-list">
+        <li>Ahilyanagar</li>
         <li>Rashin</li>
         <li>Karjat</li>
         <li>Shrigonda</li>
+        <li>Kashti</li>
       </ul>
     </div>
   </div>
@@ -621,11 +683,7 @@
 <section class="stats-band">
   <div class="stats-inner">
     <div class="stat-item">
-      <div class="num">500+</div>
-      <div class="label">Retail Partners</div>
-    </div>
-    <div class="stat-item">
-      <div class="num">30+</div>
+      <div class="num">40+</div>
       <div class="label">Cities &amp; Towns</div>
     </div>
     <div class="stat-item">
@@ -633,7 +691,7 @@
       <div class="label">Products Supplied</div>
     </div>
     <div class="stat-item">
-      <div class="num">50+</div>
+      <div class="num">300+</div>
       <div class="label">Pharma Companies</div>
     </div>
   </div>
@@ -650,6 +708,20 @@
       <div class="coverage-item"><span>Surgical Items</span></div>
       <div class="coverage-item"><span>Healthcare Essentials</span></div>
     </div>
+  </div>
+</section>
+
+<section class="map-section">
+  <div class="section-header">
+    <h2>Our <em style="color:var(--navy);font-style:italic;">Coverage</em> Map</h2>
+    <p>All cities and towns we serve across Maharashtra, marked on the map below.</p>
+  </div>
+  <div class="map-wrapper" id="map"></div>
+  <div class="map-legend">
+    <span class="map-legend-item"><span class="map-legend-dot" style="background:#e74c3c"></span> Pune District</span>
+    <span class="map-legend-item"><span class="map-legend-dot" style="background:#f39c12"></span> Satara District</span>
+    <span class="map-legend-item"><span class="map-legend-dot" style="background:#3498db"></span> Solapur District</span>
+    <span class="map-legend-item"><span class="map-legend-dot" style="background:#2ecc71"></span> Ahilyanagar District</span>
   </div>
 </section>
 
@@ -736,7 +808,81 @@
 
 <button id="backToTop" class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" title="Back to top">↑</button>
 
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
+var map = L.map('map', { scrollWheelZoom: false }).setView([18.3, 74.7], 8);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 18,
+  attribution: '&copy; OpenStreetMap'
+}).addTo(map);
+
+var puneCities = [
+  { name: 'Pune', lat: 18.5204, lng: 73.8567 },
+  { name: 'Baramati City', lat: 18.1520, lng: 74.5777 },
+  { name: 'Daund', lat: 18.4654, lng: 74.5955 },
+  { name: 'Indapur', lat: 18.1136, lng: 75.0260 },
+  { name: 'Nimgaon', lat: 18.086503, lng: 74.916415 },
+  { name: 'Kedgaon', lat: 18.464511, lng: 74.338425 },
+  { name: 'Patas', lat: 18.434345, lng: 74.461478 },
+  { name: 'Supa', lat: 18.337018, lng: 74.377436 },
+  { name: 'Nira', lat: 18.103182, lng: 74.215083 },
+  { name: 'Saswad', lat: 18.346599, lng: 74.029998 },
+  { name: 'Walchandnagar', lat: 18.033565, lng: 74.790459 },
+  { name: 'Jejuri', lat: 18.277883, lng: 74.161351 },
+  { name: 'Morgaon', lat: 18.272804, lng: 74.320213 },
+  { name: 'Bhor', lat: 18.146066, lng: 73.842800 },
+  { name: 'Dulegaon Raje', lat: 18.453458 , lng: 74.679773 },
+  { name: 'Kurkumbh', lat: 18.395406, lng: 74.539863 },
+  { name: 'Shirsuphal', lat: 18.325547, lng: 74.581190 },
+  { name: 'Rawangaon', lat: 18.358573, lng: 74.622202 },
+  { name: 'Undavadi', lat: 18.525343, lng: 74.267410 },
+  { name: 'Pargaon', lat: 18.560472, lng: 74.373239 },
+  { name: 'Pandare', lat: 18.138629, lng: 74.462224 },
+  { name: 'Someshwar', lat: 18.150047, lng: 74.277077 },
+  { name: 'Sangavi', lat: 18.170951, lng: 73.662604 },
+  { name: 'Pimprad', lat: 17.980637, lng: 74.532850 },
+  { name: 'Shirur', lat: 18.825228, lng: 74.377352 },
+  { name: 'Songaon', lat: 18.057148, lng: 74.642293 }
+];
+var sataraCities = [
+  { name: 'Satara', lat: 17.688471, lng: 74.005645 },
+  { name: 'Gunaware', lat: 17.990444, lng: 74.592719 },
+  { name: 'Lonand', lat: 18.042349, lng: 74.185283 },
+  { name: 'Shirwal', lat: 18.146981, lng: 73.976804 },
+  { name: 'Sakhrwadi', lat: 18.056191, lng: 74.332938 },
+  { name: 'Phaltan', lat: 17.990533, lng: 74.434462 },
+  { name: 'Pusegaon', lat: 17.708609, lng: 74.320866 },
+  { name: 'Wathar', lat: 17.181469, lng: 74.181346 }
+];
+var solapurCities = [
+  { name: 'Solapur', lat: 17.671692, lng: 75.898940 },
+  { name: 'Natepute', lat: 17.899278, lng: 74.754365 },
+  { name: 'Karmala', lat: 18.404877, lng: 75.194750 },
+  { name: 'Parewadi', lat: 18.303188, lng: 74.964169 },
+  { name: 'Malshiras', lat: 17.863722, lng: 74.905140 }
+];
+var ahilyanagarCities = [
+  { name: 'Ahilyanagar', lat: 19.092878, lng: 74.733170 },
+  { name: 'Rashin', lat: 18.438345, lng: 74.924553 },
+  { name: 'Karjat', lat: 18.553606, lng: 75.008932 },
+  { name: 'Shrigonda', lat: 18.617892, lng: 74.697634 },
+  { name: 'Kashti', lat: 18.549931, lng: 74.582985 }
+];
+
+
+var redIcon = new L.Icon({ iconUrl: 'https://cdn.jsdelivr.net/gh/pointhi/leaflet-color-markers@master/img/marker-icon-red.png', shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png', iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41] });
+var orangeIcon = new L.Icon({ iconUrl: 'https://cdn.jsdelivr.net/gh/pointhi/leaflet-color-markers@master/img/marker-icon-orange.png', shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png', iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41] });
+var blueIcon = new L.Icon({ iconUrl: 'https://cdn.jsdelivr.net/gh/pointhi/leaflet-color-markers@master/img/marker-icon-blue.png', shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png', iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41] });
+var greenIcon = new L.Icon({ iconUrl: 'https://cdn.jsdelivr.net/gh/pointhi/leaflet-color-markers@master/img/marker-icon-green.png', shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png', iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41] });
+
+puneCities.forEach(function(c) { L.marker([c.lat, c.lng], {icon: redIcon}).addTo(map).bindPopup('<b>' + c.name + '</b><br>Pune District'); });
+sataraCities.forEach(function(c) { L.marker([c.lat, c.lng], {icon: orangeIcon}).addTo(map).bindPopup('<b>' + c.name + '</b><br>Satara District'); });
+solapurCities.forEach(function(c) { L.marker([c.lat, c.lng], {icon: blueIcon}).addTo(map).bindPopup('<b>' + c.name + '</b><br>Solapur District'); });
+ahilyanagarCities.forEach(function(c) { L.marker([c.lat, c.lng], {icon: greenIcon}).addTo(map).bindPopup('<b>' + c.name + '</b><br>Ahilyanagar District'); });
+
+map.on('click', function() { if (map.scrollWheelZoom.enabled()) { map.scrollWheelZoom.disable(); } });
+map.on('mouseover', function() { map.scrollWheelZoom.enable(); });
+
 function toggleMenu() {
   document.getElementById('navOverlay').classList.toggle('active');
   document.querySelector('.menu-toggle').classList.toggle('active');
