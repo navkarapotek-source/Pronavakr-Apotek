@@ -1865,39 +1865,44 @@ const navkarMedicineData = [
         "Company Name": "ABBOTT INDIA (OPTIMA)"
     },
     {
+        "Product Name": "DUPHALAC SYP [150ML]",
+        "Pack": "150ML",
+        "Company Name": "ABBOTT INDIA (OPTIMA)"
+    },
+    {
         "Product Name": "DUPHALAC SYP [250ML]",
         "Pack": "250ML",
-        "Company Name": "DUPHALAC SYP [150ML]"
+        "Company Name": "ABBOTT INDIA (OPTIMA)"
     },
     {
         "Product Name": "DUPHALAC SYP [450ML]",
         "Pack": "450ML",
-        "Company Name": "DUPHALAC SYP [150ML]"
+        "Company Name": "ABBOTT INDIA (OPTIMA)"
     },
     {
         "Product Name": "ELDICET 50MG TAB",
         "Pack": "TAB",
-        "Company Name": "DUPHALAC SYP [150ML]"
+        "Company Name": "ABBOTT INDIA (OPTIMA)"
     },
     {
         "Product Name": "FIDONAL CREAM",
         "Pack": "30GM",
-        "Company Name": "DUPHALAC SYP [150ML]"
+        "Company Name": "ABBOTT INDIA (OPTIMA)"
     },
     {
         "Product Name": "GANATON 50MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "DUPHALAC SYP [150ML]"
+        "Company Name": "ABBOTT INDIA (OPTIMA)"
     },
     {
         "Product Name": "GANATON OD 150MG CAP",
         "Pack": "TAB",
-        "Company Name": "DUPHALAC SYP [150ML]"
+        "Company Name": "ABBOTT INDIA (OPTIMA)"
     },
     {
         "Product Name": "GANATON TOTAL CAP",
         "Pack": "10 CAP",
-        "Company Name": "DUPHALAC SYP [150ML]"
+        "Company Name": "ABBOTT INDIA (OPTIMA)"
     },
     {
         "Product Name": "ARACHITOL NANO SUGAR FREE SOL3",
@@ -14780,6 +14785,11 @@ const navkarMedicineData = [
         "Company Name": "ARISTO PHARMA"
     },
     {
+        "Product Name": "GABANEURON MNT 300 TAB",
+        "Pack": "10TAB",
+        "Company Name": "ARISTO PHARMA"
+    },
+    {
         "Product Name": "ITRAFIX 100MG CAP 8``S",
         "Pack": "TAB",
         "Company Name": "ARISTO PHARMA"
@@ -27300,6 +27310,11 @@ const navkarMedicineData = [
         "Company Name": "CORONA REMEDIES PVT. LTD AURA"
     },
     {
+        "Product Name": "C HOPE 400 CAP",
+        "Pack": "10CAP",
+        "Company Name": "CORONA REMEDIES PVT. LTD AURA"
+    },
+    {
         "Product Name": "DAPABITE 10 TAB",
         "Pack": "10 TAB",
         "Company Name": "CORONA REMEDIES PVT. LTD AURA"
@@ -28077,6 +28092,11 @@ const navkarMedicineData = [
     {
         "Product Name": "LOCIPIL TAB",
         "Pack": "21`S",
+        "Company Name": "EV TAB"
+    },
+    {
+        "Product Name": "OBIMET GX SITA 1/50/500 TAB",
+        "Pack": "10TAB",
         "Company Name": "EV TAB"
     },
     {
@@ -29352,16 +29372,6 @@ const navkarMedicineData = [
     {
         "Product Name": "TICAFLO TAB",
         "Pack": "14 TAB",
-        "Company Name": "DR REDDYS LAB (ASPIRA)"
-    },
-    {
-        "Product Name": "ULTRACET [SEMI] TAB",
-        "Pack": "10TAB",
-        "Company Name": "DR REDDYS LAB (ASPIRA)"
-    },
-    {
-        "Product Name": "ULTRACET TAB",
-        "Pack": "15TAB",
         "Company Name": "DR REDDYS LAB (ASPIRA)"
     },
     {
@@ -32535,11 +32545,6 @@ const navkarMedicineData = [
         "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
     },
     {
-        "Product Name": "DRUPCAL P SUSP",
-        "Pack": "200ML",
-        "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
-    },
-    {
         "Product Name": "DRUPCAL TAB",
         "Pack": "10 TAB",
         "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
@@ -32942,6 +32947,11 @@ const navkarMedicineData = [
     {
         "Product Name": "DRUPCAL M TAB",
         "Pack": "TAB",
+        "Company Name": "EL DORADO(ZEALOUS)"
+    },
+    {
+        "Product Name": "DRUPCAL P SUSP",
+        "Pack": "200ML",
         "Company Name": "EL DORADO(ZEALOUS)"
     },
     {
@@ -41445,54 +41455,59 @@ const navkarMedicineData = [
         "Company Name": "FLEXICARE PHARMA"
     },
     {
+        "Product Name": "FLEXHEAL TAB",
+        "Pack": "TAB",
+        "Company Name": "FLEXICARE PHARMA"
+    },
+    {
         "Product Name": "GI FLEX SR CAPS",
         "Pack": "10CAPS",
-        "Company Name": "FLEXHEAL TAB"
+        "Company Name": "FLEXICARE PHARMA"
     },
     {
         "Product Name": "IT FLEX 100 CAPS",
         "Pack": "10S",
-        "Company Name": "FLEXHEAL TAB"
+        "Company Name": "FLEXICARE PHARMA"
     },
     {
         "Product Name": "IT FLEX 200 CAP",
         "Pack": "CAP",
-        "Company Name": "FLEXHEAL TAB"
+        "Company Name": "FLEXICARE PHARMA"
     },
     {
         "Product Name": "MONTAFLEX B TAB",
         "Pack": "10TAB",
-        "Company Name": "FLEXHEAL TAB"
+        "Company Name": "FLEXICARE PHARMA"
     },
     {
         "Product Name": "MONTAFLEX L TAB",
         "Pack": "10S",
-        "Company Name": "FLEXHEAL TAB"
+        "Company Name": "FLEXICARE PHARMA"
     },
     {
         "Product Name": "NAZOFLEX PLUS",
         "Pack": "10TAB",
-        "Company Name": "FLEXHEAL TAB"
+        "Company Name": "FLEXICARE PHARMA"
     },
     {
         "Product Name": "PITOF DSR CAP",
         "Pack": "10",
-        "Company Name": "FLEXHEAL TAB"
+        "Company Name": "FLEXICARE PHARMA"
     },
     {
         "Product Name": "SILEZ 150",
         "Pack": "3TAB",
-        "Company Name": "FLEXHEAL TAB"
+        "Company Name": "FLEXICARE PHARMA"
     },
     {
         "Product Name": "SILEZ 400 TAB",
         "Pack": "TAB",
-        "Company Name": "FLEXHEAL TAB"
+        "Company Name": "FLEXICARE PHARMA"
     },
     {
         "Product Name": "THIO CD 4 TAB",
         "Pack": "10S",
-        "Company Name": "FLEXHEAL TAB"
+        "Company Name": "FLEXICARE PHARMA"
     },
     {
         "Product Name": "CIRILLA POW 200 GM",
@@ -57275,6 +57290,16 @@ const navkarMedicineData = [
         "Company Name": "INTAS PHARMACEUTICALS (VECTOR)"
     },
     {
+        "Product Name": "EMBETA TRIO 25TAB",
+        "Pack": "10TAB",
+        "Company Name": "INTAS PHARMACEUTICALS (VECTOR)"
+    },
+    {
+        "Product Name": "EMBETA TRIO50TAB",
+        "Pack": "10TAB",
+        "Company Name": "INTAS PHARMACEUTICALS (VECTOR)"
+    },
+    {
         "Product Name": "EMBETA XR 100MG TAB",
         "Pack": "TAB",
         "Company Name": "INTAS PHARMACEUTICALS (VECTOR)"
@@ -58705,6 +58730,11 @@ const navkarMedicineData = [
         "Company Name": "INTAS PHARMACEUTICLS PVT (NEXA"
     },
     {
+        "Product Name": "LIPITAS EZ 10 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "INTAS PHARMACEUTICLS PVT (NEXA"
+    },
+    {
         "Product Name": "LIPITAS F 10 MG TAB",
         "Pack": "TAB",
         "Company Name": "INTAS PHARMACEUTICLS PVT (NEXA"
@@ -58736,6 +58766,16 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "SARTEL LN 40MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "INTAS PHARMACEUTICLS PVT (NEXA"
+    },
+    {
+        "Product Name": "SARTEL LN BETA 25TAB",
+        "Pack": "10TAB",
+        "Company Name": "INTAS PHARMACEUTICLS PVT (NEXA"
+    },
+    {
+        "Product Name": "SARTEL LNBETA 50TAB",
         "Pack": "10TAB",
         "Company Name": "INTAS PHARMACEUTICLS PVT (NEXA"
     },
@@ -63297,6 +63337,16 @@ const navkarMedicineData = [
     {
         "Product Name": "TOPAMAC 50MG TAB",
         "Pack": "TAB",
+        "Company Name": "JOHNSON & JOHNSON (ETHNOR)"
+    },
+    {
+        "Product Name": "ULTRACET [SEMI] TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNSON & JOHNSON (ETHNOR)"
+    },
+    {
+        "Product Name": "ULTRACET TAB",
+        "Pack": "15TAB",
         "Company Name": "JOHNSON & JOHNSON (ETHNOR)"
     },
     {
@@ -75775,6 +75825,11 @@ const navkarMedicineData = [
         "Company Name": "MACLEODS (OXALIS)"
     },
     {
+        "Product Name": "PRINCICLAV 625MG TAB 10`S",
+        "Pack": "TAB",
+        "Company Name": "MACLEODS (OXALIS)"
+    },
+    {
         "Product Name": "REBAGEN 100MG TAB",
         "Pack": "15 TAB",
         "Company Name": "MACLEODS (OXALIS)"
@@ -76127,6 +76182,11 @@ const navkarMedicineData = [
     {
         "Product Name": "OFLOMAC OZ TAB",
         "Pack": "10 TAB",
+        "Company Name": "MACLEODS (PHARMA)"
+    },
+    {
+        "Product Name": "ONDAMAC ORAL SOLUTION",
+        "Pack": "30ML",
         "Company Name": "MACLEODS (PHARMA)"
     },
     {
@@ -79350,11 +79410,6 @@ const navkarMedicineData = [
         "Company Name": "MANKIND PHARMA (DISCOVERY)"
     },
     {
-        "Product Name": "DOLOKIND [PLUS] TAB",
-        "Pack": "15TAB",
-        "Company Name": "MANKIND PHARMA (DISCOVERY)"
-    },
-    {
         "Product Name": "DYNADUO 10 TAB",
         "Pack": "10 TAB",
         "Company Name": "MANKIND PHARMA (DISCOVERY)"
@@ -79535,11 +79590,6 @@ const navkarMedicineData = [
         "Company Name": "MANKIND PHARMA (DISCOVERY)"
     },
     {
-        "Product Name": "GLYKIND M  XR 60MG TAB",
-        "Pack": "TAB",
-        "Company Name": "MANKIND PHARMA (DISCOVERY)"
-    },
-    {
         "Product Name": "GRANIFORCE MD TAB",
         "Pack": "10TAB",
         "Company Name": "MANKIND PHARMA (DISCOVERY)"
@@ -79585,23 +79635,8 @@ const navkarMedicineData = [
         "Company Name": "MANKIND PHARMA (DISCOVERY)"
     },
     {
-        "Product Name": "MAHACEF CV 200MG TAB",
-        "Pack": "6TAB",
-        "Company Name": "MANKIND PHARMA (DISCOVERY)"
-    },
-    {
         "Product Name": "MAHACEF OZ TAB",
         "Pack": "10TAB",
-        "Company Name": "MANKIND PHARMA (DISCOVERY)"
-    },
-    {
-        "Product Name": "MAHACEF XL 200MG TAB",
-        "Pack": "10TAB",
-        "Company Name": "MANKIND PHARMA (DISCOVERY)"
-    },
-    {
-        "Product Name": "MAHACEFF 50 TAB",
-        "Pack": "TAB",
         "Company Name": "MANKIND PHARMA (DISCOVERY)"
     },
     {
@@ -80260,174 +80295,179 @@ const navkarMedicineData = [
         "Company Name": "GASTICA FIZ TAB"
     },
     {
+        "Product Name": "NUROKIND GOLD SUSPENSION",
+        "Pack": "200ML",
+        "Company Name": "GASTICA FIZ TAB"
+    },
+    {
         "Product Name": "OLMETIME 20MG TAB",
         "Pack": "10TAB",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "OLMETIME 40MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "OLMETIME AM 20MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "OLMETIME AM 40MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "OLMETIME AMH 20MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "OLMETIME AMH 40MG TAB",
         "Pack": "TAB",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "OLMETIME CT 20MG TAB 10`S",
         "Pack": "TAB",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "OLMETIME CT 40MG TAB 10`S",
         "Pack": "TAB",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "OLMETIME H 20MG TAB 10`S",
         "Pack": "10TAB",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "OLMETIME H 40MG TAB",
         "Pack": "10TAB",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "ORAHELP GEL",
         "Pack": "15GM",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "PILORUTE CREAM 30GM",
         "Pack": "30GM",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "PILORUTE EP CREAM 30 GM",
         "Pack": "30 GM",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "PILORUTE EP FORTE TAB",
         "Pack": "7TAB",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "PILORUTE EP TAB",
         "Pack": "TAB",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "RAMIHART 2.5 TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "RAMIHART 5 TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "RAMIHART H 2.5 TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "RAMIHART H 5 TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "RANIDOM RAFT SUSP 200 ML",
         "Pack": "200 ML",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "REHEPTIN TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "REHEPTIN-UD 150",
         "Pack": "10TAB",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "REHEPTIN-UD 300",
         "Pack": "10TAB",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "SAMLOKIND AT TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "THERMOKIND ADVANCE TOOTHPASTE",
         "Pack": "100GM",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "THERMOKIND F GEL 100GM",
         "Pack": "100GM",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "THERMOKIND F GEL 50GM",
         "Pack": "50GM",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "THERMOKIND MOUTH WASH 150ML",
         "Pack": "150ML",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "TRAMASURE 100 INJ 2 ML",
         "Pack": "2 ML",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "TRAMASURE PLUS TAB",
         "Pack": "10TAB",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "URIKIND TAB",
         "Pack": "10TAB",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "VITAGREAT TAB",
         "Pack": "10TAB",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "ZEROGRAIN PLUS TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "ZINCOLIFE SYP",
         "Pack": "50ML",
-        "Company Name": "NUROKIND GOLD SUSPENSION"
+        "Company Name": "GASTICA FIZ TAB"
     },
     {
         "Product Name": "AMLOKIND BETA 25 TAB",
@@ -81335,11 +81375,6 @@ const navkarMedicineData = [
         "Company Name": "LIPIKIND AS CAP"
     },
     {
-        "Product Name": "MAHACEF PLUS 100MG TAB",
-        "Pack": "10TAB",
-        "Company Name": "LIPIKIND AS CAP"
-    },
-    {
         "Product Name": "MOXIKIND CV 1GM",
         "Pack": "1GM",
         "Company Name": "LIPIKIND AS CAP"
@@ -81635,11 +81670,6 @@ const navkarMedicineData = [
         "Company Name": "TELMIKIND [AM] TAB"
     },
     {
-        "Product Name": "ZENFLOX OZ TAB",
-        "Pack": "10 TAB",
-        "Company Name": "TELMIKIND [AM] TAB"
-    },
-    {
         "Product Name": "ZIVERDO KIT",
         "Pack": "10 TAB",
         "Company Name": "TELMIKIND [AM] TAB"
@@ -81797,26 +81827,6 @@ const navkarMedicineData = [
     {
         "Product Name": "HISTAKIND SUSP 60ML",
         "Pack": "60 ML",
-        "Company Name": "DOBIMUST CAP"
-    },
-    {
-        "Product Name": "MAGNATUSS T SYP",
-        "Pack": "100ML",
-        "Company Name": "DOBIMUST CAP"
-    },
-    {
-        "Product Name": "MAGNATUSS-A SYRUP 100 ML",
-        "Pack": "100 ML",
-        "Company Name": "DOBIMUST CAP"
-    },
-    {
-        "Product Name": "MAGNATUSS-DX LOZENGES 10'S",
-        "Pack": "10 TAB",
-        "Company Name": "DOBIMUST CAP"
-    },
-    {
-        "Product Name": "MAGNATUSS-DX SYRUP 100 ML",
-        "Pack": "100 ML",
         "Company Name": "DOBIMUST CAP"
     },
     {
@@ -83105,6 +83115,11 @@ const navkarMedicineData = [
         "Company Name": "MANKIND PHARMA { VISTAR}"
     },
     {
+        "Product Name": "DOLOKIND [PLUS] TAB",
+        "Pack": "15TAB",
+        "Company Name": "MANKIND PHARMA { VISTAR}"
+    },
+    {
         "Product Name": "DOLOKIND [SR] TAB",
         "Pack": "10TAB",
         "Company Name": "MANKIND PHARMA { VISTAR}"
@@ -83140,6 +83155,11 @@ const navkarMedicineData = [
         "Company Name": "MANKIND PHARMA { VISTAR}"
     },
     {
+        "Product Name": "GLYKIND M  XR 60MG TAB",
+        "Pack": "TAB",
+        "Company Name": "MANKIND PHARMA { VISTAR}"
+    },
+    {
         "Product Name": "LECOPE  TAB",
         "Pack": "10TAB",
         "Company Name": "MANKIND PHARMA { VISTAR}"
@@ -83151,6 +83171,31 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "LECOPE SYP",
+        "Pack": "30ML",
+        "Company Name": "MANKIND PHARMA { VISTAR}"
+    },
+    {
+        "Product Name": "MAGNATUSS T SYP",
+        "Pack": "100ML",
+        "Company Name": "MANKIND PHARMA { VISTAR}"
+    },
+    {
+        "Product Name": "MAGNATUSS-A SYRUP 100 ML",
+        "Pack": "100 ML",
+        "Company Name": "MANKIND PHARMA { VISTAR}"
+    },
+    {
+        "Product Name": "MAGNATUSS-DX LOZENGES 10'S",
+        "Pack": "10 TAB",
+        "Company Name": "MANKIND PHARMA { VISTAR}"
+    },
+    {
+        "Product Name": "MAGNATUSS-DX SYRUP 100 ML",
+        "Pack": "100 ML",
+        "Company Name": "MANKIND PHARMA { VISTAR}"
+    },
+    {
+        "Product Name": "MAHACEF 100 DRY SYR",
         "Pack": "30ML",
         "Company Name": "MANKIND PHARMA { VISTAR}"
     },
@@ -83170,6 +83215,11 @@ const navkarMedicineData = [
         "Company Name": "MANKIND PHARMA { VISTAR}"
     },
     {
+        "Product Name": "MAHACEF CV 200MG TAB",
+        "Pack": "6TAB",
+        "Company Name": "MANKIND PHARMA { VISTAR}"
+    },
+    {
         "Product Name": "MAHACEF DROPS",
         "Pack": "10ML",
         "Company Name": "MANKIND PHARMA { VISTAR}"
@@ -83177,6 +83227,26 @@ const navkarMedicineData = [
     {
         "Product Name": "MAHACEF DRY SYP 30ML",
         "Pack": "30ML",
+        "Company Name": "MANKIND PHARMA { VISTAR}"
+    },
+    {
+        "Product Name": "MAHACEF PLUS 100MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA { VISTAR}"
+    },
+    {
+        "Product Name": "MAHACEF PLUS 200MG TAB",
+        "Pack": "TAB",
+        "Company Name": "MANKIND PHARMA { VISTAR}"
+    },
+    {
+        "Product Name": "MAHACEF XL 200MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA { VISTAR}"
+    },
+    {
+        "Product Name": "MAHACEFF 50 TAB",
+        "Pack": "TAB",
         "Company Name": "MANKIND PHARMA { VISTAR}"
     },
     {
@@ -83262,6 +83332,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ZENFLOX EYE DROPS",
         "Pack": "10ML",
+        "Company Name": "MANKIND PHARMA { VISTAR}"
+    },
+    {
+        "Product Name": "ZENFLOX OZ TAB",
+        "Pack": "10 TAB",
         "Company Name": "MANKIND PHARMA { VISTAR}"
     },
     {
@@ -85750,7 +85825,7 @@ const navkarMedicineData = [
         "Company Name": "MEDIXER LIFE SCIENCE"
     },
     {
-        "Product Name": "AUTRAB DSR CAP",
+        "Product Name": "AUTRAB DSR CAP\\",
         "Pack": "15 CAP",
         "Company Name": "MEDIXER LIFE SCIENCE"
     },
@@ -91975,16 +92050,6 @@ const navkarMedicineData = [
         "Company Name": "OTHERS"
     },
     {
-        "Product Name": "MAHACEF 100 DRY SYR",
-        "Pack": "30ML",
-        "Company Name": "OTHERS"
-    },
-    {
-        "Product Name": "MAHACEF PLUS 200MG TAB",
-        "Pack": "TAB",
-        "Company Name": "OTHERS"
-    },
-    {
         "Product Name": "ROZITAZ GOLD 10 MG CAP",
         "Pack": "10 TAB",
         "Company Name": "OTHERS"
@@ -93277,6 +93342,11 @@ const navkarMedicineData = [
     {
         "Product Name": "OXXONAC-TC TAB",
         "Pack": "10 TAB",
+        "Company Name": "PHARMAC ULTIMA DIVISION"
+    },
+    {
+        "Product Name": "OXXOVIT -Z TAB",
+        "Pack": "15TAB",
         "Company Name": "PHARMAC ULTIMA DIVISION"
     },
     {
@@ -96847,6 +96917,11 @@ const navkarMedicineData = [
     {
         "Product Name": "MOX CLAV DS 457MG SUSP",
         "Pack": "30ML",
+        "Company Name": "RANBAXY LAB (STAN LIFE)"
+    },
+    {
+        "Product Name": "TUFFPRO FAST SUSP",
+        "Pack": "10 TAB",
         "Company Name": "RANBAXY LAB (STAN LIFE)"
     },
     {
@@ -113422,6 +113497,11 @@ const navkarMedicineData = [
     {
         "Product Name": "XYKAA 500 MG TAB",
         "Pack": "15 TAB",
+        "Company Name": "NUROTROY SR TAB"
+    },
+    {
+        "Product Name": "XYKAA 500/1000 T JAR PACK",
+        "Pack": "1000 TAB",
         "Company Name": "NUROTROY SR TAB"
     },
     {

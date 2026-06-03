@@ -4495,6 +4495,11 @@ const productData = [
         "Company Name": "CARE"
     },
     {
+        "Product Name": "NATADOZ EYE DROPS",
+        "Pack": "5ML",
+        "Company Name": "CARE"
+    },
+    {
         "Product Name": "N-DRIL 10 TAB",
         "Pack": "10 TAB",
         "Company Name": "CARE"
@@ -10205,6 +10210,11 @@ const productData = [
         "Company Name": "GLENMARK PHARMACEUTICALS LTD"
     },
     {
+        "Product Name": "GACINO MPS SUSP (MINT0",
+        "Pack": "170ML",
+        "Company Name": "GLENMARK PHARMACEUTICALS LTD"
+    },
+    {
         "Product Name": "GLENDAN MD 4 TAB",
         "Pack": "1X10TAB",
         "Company Name": "GLENMARK PHARMACEUTICALS LTD"
@@ -10227,6 +10237,11 @@ const productData = [
     {
         "Product Name": "GLENMARK GILETTE GAURD",
         "Pack": "PC",
+        "Company Name": "GLENMARK PHARMACEUTICALS LTD"
+    },
+    {
+        "Product Name": "GLENMARK HIM FW NEEM 15ML",
+        "Pack": "15ML",
         "Company Name": "GLENMARK PHARMACEUTICALS LTD"
     },
     {
@@ -12715,8 +12730,8 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
-        "Product Name": "SUNROOF LOTION (SPF 50)12%",
-        "Pack": "1X60ML",
+        "Product Name": "SUNROOF LOTION (SPF 50)100ML",
+        "Pack": "1X100ML",
         "Company Name": "HEALING PHARMA"
     },
     {

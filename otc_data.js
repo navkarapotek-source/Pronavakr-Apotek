@@ -5115,6 +5115,11 @@ const otcData = [
         "Company Name": "RECKITT BENCKISER INDIA"
     },
     {
+        "Product Name": "DETTOL H/W REFIL [ORIGINAL] 180ML",
+        "Pack": "180ML",
+        "Company Name": "RECKITT BENCKISER INDIA"
+    },
+    {
         "Product Name": "DETTOL H/W REFILL [ORIGINAL] 2+1FREE",
         "Pack": "175ML",
         "Company Name": "RECKITT BENCKISER INDIA"
