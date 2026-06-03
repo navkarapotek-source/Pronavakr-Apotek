@@ -211,6 +211,106 @@
     font-weight: 700;
   }
 
+  /* Arrow toggle for city list */
+  .region-card .toggle-arrow {
+    cursor: pointer;
+    font-size: 0.85rem;
+    user-select: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    padding: 6px 16px;
+    background: linear-gradient(135deg, var(--teal-light), #fff);
+    color: var(--navy);
+    border-radius: 50px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0 2px 8px rgba(26,158,143,0.15);
+    position: relative;
+    overflow: hidden;
+  }
+  .region-card .toggle-arrow::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, var(--teal), #0d6b60);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    border-radius: 50px;
+  }
+  .region-card .toggle-arrow:hover::before {
+    opacity: 1;
+  }
+  .region-card .toggle-arrow:hover {
+    color: #fff;
+    box-shadow: 0 6px 20px rgba(26,158,143,0.35);
+    transform: translateY(-2px) scale(1.03);
+  }
+  .region-card .toggle-arrow:active {
+    transform: scale(0.95);
+  }
+  .toggle-arrow .arrow-icon {
+    display: inline-block;
+    transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    font-size: 0.7rem;
+  }
+  .region-card.expanded .toggle-arrow .arrow-icon {
+    transform: rotate(180deg);
+  }
+  .toggle-arrow .arrow-text {
+    position: relative;
+    z-index: 1;
+  }
+  .region-card .city-list {
+    display: none;
+    overflow: hidden;
+  }
+  .region-card.expanded .city-list {
+    display: block;
+    animation: slideReveal 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+  }
+  .region-card.expanded .city-list li {
+    opacity: 0;
+    animation: popIn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.5) forwards;
+  }
+  .region-card.expanded .city-list li:nth-child(1) { animation-delay: 0.05s; }
+  .region-card.expanded .city-list li:nth-child(2) { animation-delay: 0.10s; }
+  .region-card.expanded .city-list li:nth-child(3) { animation-delay: 0.15s; }
+  .region-card.expanded .city-list li:nth-child(4) { animation-delay: 0.20s; }
+  .region-card.expanded .city-list li:nth-child(5) { animation-delay: 0.25s; }
+  .region-card.expanded .city-list li:nth-child(6) { animation-delay: 0.30s; }
+  .region-card.expanded .city-list li:nth-child(7) { animation-delay: 0.35s; }
+  .region-card.expanded .city-list li:nth-child(8) { animation-delay: 0.40s; }
+  .region-card.expanded .city-list li:nth-child(9) { animation-delay: 0.45s; }
+  .region-card.expanded .city-list li:nth-child(10) { animation-delay: 0.50s; }
+  .region-card.expanded .city-list li:nth-child(11) { animation-delay: 0.55s; }
+  @keyframes slideReveal {
+    0% { max-height: 0; opacity: 0; transform: translateY(-10px) scaleY(0.8); }
+    100% { max-height: 600px; opacity: 1; transform: translateY(0) scaleY(1); }
+  }
+  @keyframes popIn {
+    0% { opacity: 0; transform: translateX(-20px) scale(0.8); }
+    60% { transform: translateX(4px) scale(1.05); }
+    100% { opacity: 1; transform: translateX(0) scale(1); }
+  }
+  .region-card .city-list li {
+    transition: all 0.3s ease;
+    position: relative;
+  }
+  .region-card .city-list li:hover {
+    color: var(--teal);
+    transform: translateX(6px);
+  }
+  .region-card .city-list li::before {
+    transition: all 0.3s ease;
+  }
+  .region-card .city-list li:hover::before {
+    color: var(--accent);
+    transform: scale(1.3);
+  }
+
   .stats-band {
     background: var(--cream);
     border-top: 1px solid var(--border);
@@ -447,7 +547,8 @@
       <h3>Pune District</h3>
       <div class="region-label">Coverage Area</div>
       <p>Baramati (HO) and surrounding Pune districts.</p>
-      <ul>
+      <span class="toggle-arrow" onclick="toggleCities(event)"><span class="arrow-icon">▼</span><span class="arrow-text">Show Cities</span></span>
+      <ul class="city-list">
         <li>Baramati City</li>
         <li>Daund</li>
         <li>Indapur</li>
@@ -471,7 +572,8 @@
       <h3>Satara District</h3>
       <div class="region-label">Coverage Area</div>
       <p>Key towns and rural areas in the Satara belt.</p>
-      <ul>
+      <span class="toggle-arrow" onclick="toggleCities(event)"><span class="arrow-icon">▼</span><span class="arrow-text">Show Cities</span></span>
+      <ul class="city-list">
         <li>Gunaware</li>
         <li>Lonand</li>
         <li>Shirwal</li>
@@ -490,7 +592,8 @@
       <h3>Solapur District</h3>
       <div class="region-label">Coverage Area</div>
       <p>Extending towards Solapur and neighboring districts.</p>
-      <ul>
+      <span class="toggle-arrow" onclick="toggleCities(event)"><span class="arrow-icon">▼</span><span class="arrow-text">Show Cities</span></span>
+      <ul class="city-list">
         <li>Natepute</li>
         <li>Karmala</li>
       </ul>
@@ -505,7 +608,8 @@
       <h3>Chhatrapati Sambhajinagar District</h3>
       <div class="region-label">Coverage Area</div>
       <p>Serving retailers in the Chhatrapati Sambhajinagar.</p>
-      <ul>
+      <span class="toggle-arrow" onclick="toggleCities(event)"><span class="arrow-icon">▼</span><span class="arrow-text">Show Cities</span></span>
+      <ul class="city-list">
         <li>Rashin</li>
         <li>Karjat</li>
         <li>Shrigonda</li>
@@ -626,7 +730,7 @@
   <div class="footer-bottom"></div>
 </footer>
 
-<a href="https://wa.me/918956172570" class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
+<a href="https://wa.me/919529337113" class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
   <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.246 2.248 3.484 5.232 3.483 8.412-.003 6.557-5.338 11.892-11.893 11.892-1.997-.001-3.951-.499-5.702-1.445l-6.194 1.654zm6.755-3.917c1.448.859 2.995 1.312 4.59 1.313 5.503 0 9.975-4.472 9.977-9.977.001-2.669-1.038-5.176-2.927-7.065-1.889-1.889-4.396-2.928-7.062-2.929-5.505 0-9.979 4.472-9.981 9.978-.001 1.77.449 3.502 1.306 5.047l-1.014 3.704 6.299-1.681-.188-.11zm11.362-7.108c-.312-.156-1.848-.912-2.134-1.017-.286-.105-.494-.156-.702.156-.208.312-.806 1.017-.988 1.222-.182.205-.364.231-.677.075-.312-.156-1.318-.486-2.51-1.548-.928-.827-1.554-1.849-1.736-2.161-.182-.312-.019-.481.137-.635.141-.139.312-.364.468-.547.156-.182.208-.312.312-.52.105-.208.052-.39-.026-.547-.052-.156-.702-1.691-.962-2.315-.253-.608-.51-.525-.702-.535-.181-.01-.39-.01-.599-.01-.208 0-.546.078-.832.39-.286.312-1.092 1.067-1.092 2.603 0 1.536 1.118 3.02 1.274 3.228.156.208 2.2 3.359 5.328 4.707.744.321 1.325.512 1.778.656.748.237 1.429.204 1.967.124.6-.089 1.848-.755 2.108-1.485.26-.73.26-1.353.182-1.485-.078-.13-.286-.208-.598-.364z"/></svg>
 </a>
 
@@ -636,6 +740,17 @@
 function toggleMenu() {
   document.getElementById('navOverlay').classList.toggle('active');
   document.querySelector('.menu-toggle').classList.toggle('active');
+}
+
+function toggleCities(event) {
+  const card = event.currentTarget.closest('.region-card');
+  card.classList.toggle('expanded');
+  const text = card.querySelector('.arrow-text');
+  if (card.classList.contains('expanded')) {
+    text.textContent = 'Show Less';
+  } else {
+    text.textContent = 'Show Cities';
+  }
 }
 
 window.onscroll = function() {
