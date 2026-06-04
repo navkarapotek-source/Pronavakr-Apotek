@@ -4830,6 +4830,11 @@ const navkarMedicineData = [
         "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
+        "Product Name": "COS3 PLUS SYP",
+        "Pack": "150ML",
+        "Company Name": "COS 3 SYP"
+    },
+    {
         "Product Name": "D LIQ DROPS 15ML",
         "Pack": "15ML",
         "Company Name": "COS 3 SYP"
@@ -5328,11 +5333,6 @@ const navkarMedicineData = [
         "Product Name": "FIBROEASE 25MG TAB",
         "Pack": "TAB",
         "Company Name": "AKUMENTIS HEALTHCARE (HARMONICA)"
-    },
-    {
-        "Product Name": "COS3 PLUS SYP",
-        "Pack": "150ML",
-        "Company Name": "AKUMENTIS HEALTHCARE (INSPERIS OR HOSMED)"
     },
     {
         "Product Name": "CILNICAB 10MG TAB",
@@ -10495,8 +10495,18 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LABORATORIES LIMITED"
     },
     {
+        "Product Name": "TOLKEM P TAB",
+        "Pack": "10TAB",
+        "Company Name": "ALKEM LABORATORIES LIMITED"
+    },
+    {
         "Product Name": "UPRISE D3 2K CAP (15 S)",
         "Pack": "15 TAB",
+        "Company Name": "ALKEM LABORATORIES LIMITED"
+    },
+    {
+        "Product Name": "UPRISE D3 MG TAB",
+        "Pack": "15'S",
         "Company Name": "ALKEM LABORATORIES LIMITED"
     },
     {
@@ -34665,6 +34675,11 @@ const navkarMedicineData = [
         "Company Name": "EMCURE PHARMA (XENNEA)"
     },
     {
+        "Product Name": "EMVICARE CAPS",
+        "Pack": "10 CAP",
+        "Company Name": "EMCURE PHARMA (XENNEX)"
+    },
+    {
         "Product Name": "GALACT GRANULES CHCO 400 GM",
         "Pack": "400 GM",
         "Company Name": "EMCURE PHARMA (XENNEX)"
@@ -37367,6 +37382,11 @@ const navkarMedicineData = [
     {
         "Product Name": "BRICET SR 100 TAB",
         "Pack": "10'S",
+        "Company Name": "ERIS LIFE SCIENCES (ALTIZA)"
+    },
+    {
+        "Product Name": "BRICET SR 50 TAB",
+        "Pack": "10TAB",
         "Company Name": "ERIS LIFE SCIENCES (ALTIZA)"
     },
     {
@@ -44415,6 +44435,11 @@ const navkarMedicineData = [
         "Company Name": "GLAXO SMITHKLINE [PROTEUS]"
     },
     {
+        "Product Name": "ZOVIRAX SYP",
+        "Pack": "100ML",
+        "Company Name": "GLAXO SMITHKLINE [PROTEUS]"
+    },
+    {
         "Product Name": "BOOSTRIX 0.5 ML INJ",
         "Pack": "1 PFS",
         "Company Name": "GLAXOSMITHKLINE PHARMACEUTICALS (CONSUMER HC)"
@@ -47225,11 +47250,6 @@ const navkarMedicineData = [
         "Company Name": "H&H PHARMA (DERMATOLOGY)"
     },
     {
-        "Product Name": "BILATIS 40 MG TAB",
-        "Pack": "10TAB",
-        "Company Name": "H&H PHARMA (HEALTHCARE)"
-    },
-    {
         "Product Name": "DAPARAR D CAP",
         "Pack": "10 CAP",
         "Company Name": "H&H PHARMA (HEALTHCARE)"
@@ -47472,6 +47492,11 @@ const navkarMedicineData = [
     {
         "Product Name": "BILATIS 20 MG TAB",
         "Pack": "10 TAB",
+        "Company Name": "H&H PHARMA (WELLNESS)"
+    },
+    {
+        "Product Name": "BILATIS 40 MG TAB",
+        "Pack": "10TAB",
         "Company Name": "H&H PHARMA (WELLNESS)"
     },
     {
@@ -48047,6 +48072,11 @@ const navkarMedicineData = [
     {
         "Product Name": "MINFIN PRO 5 % LOT",
         "Pack": "60 ML",
+        "Company Name": "HBC DERMIZA HEALTHCARE LTD"
+    },
+    {
+        "Product Name": "MINFIN SERA",
+        "Pack": "50ML",
         "Company Name": "HBC DERMIZA HEALTHCARE LTD"
     },
     {
@@ -57015,6 +57045,16 @@ const navkarMedicineData = [
         "Company Name": "INTAS PHARMACEUTICALS (SUPRIMA)"
     },
     {
+        "Product Name": "SEMANEO 0.25MG INJ",
+        "Pack": "1.5ML",
+        "Company Name": "INTAS PHARMACEUTICALS (SUPRIMA)"
+    },
+    {
+        "Product Name": "SEMANEO 0.5MG INJ",
+        "Pack": "1.5ML",
+        "Company Name": "INTAS PHARMACEUTICALS (SUPRIMA)"
+    },
+    {
         "Product Name": "TAH 40MG TAB",
         "Pack": "15TAB",
         "Company Name": "INTAS PHARMACEUTICALS (SUPRIMA)"
@@ -58205,16 +58245,6 @@ const navkarMedicineData = [
         "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
-        "Product Name": "SEMANEO 0.25MG INJ",
-        "Pack": "1.5ML",
-        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
-    },
-    {
-        "Product Name": "SEMANEO 0.5MG INJ",
-        "Pack": "1.5ML",
-        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
-    },
-    {
         "Product Name": "SEMAWIN 0.25MG INJ",
         "Pack": "1.5ML",
         "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
@@ -58891,6 +58921,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "INUCARD H TAB",
+        "Pack": "10TAB",
+        "Company Name": "INUEN HEALTHCARE PRIVATE LIMITED"
+    },
+    {
+        "Product Name": "INUDAP 10 TAB",
         "Pack": "10TAB",
         "Company Name": "INUEN HEALTHCARE PRIVATE LIMITED"
     },
@@ -60780,6 +60815,16 @@ const navkarMedicineData = [
         "Company Name": "IPCA LABORATORIES (PHARMA)"
     },
     {
+        "Product Name": "TERIFORT 750MCG/3ML INJ",
+        "Pack": "3ML",
+        "Company Name": "IPCA LABORATORIES (PHARMA)"
+    },
+    {
+        "Product Name": "TERIFORT NEEDLES",
+        "Pack": "1S",
+        "Company Name": "IPCA LABORATORIES (PHARMA)"
+    },
+    {
         "Product Name": "ZERODOL [CR] TAB",
         "Pack": "10 TAB",
         "Company Name": "IPCA LABORATORIES (PHARMA)"
@@ -62270,49 +62315,54 @@ const navkarMedicineData = [
         "Company Name": "J.B.CHEMICALS (YUVA)"
     },
     {
+        "Product Name": "RANTAC [MPS] SUSP",
+        "Pack": "200ML",
+        "Company Name": "J.B.CHEMICALS (YUVA)"
+    },
+    {
         "Product Name": "RANTAC [RD] CAP",
         "Pack": "15CAP",
-        "Company Name": "RANTAC [MPS] SUSP"
+        "Company Name": "J.B.CHEMICALS (YUVA)"
     },
     {
         "Product Name": "RANTAC [RDT] TAB",
         "Pack": "10 TAB",
-        "Company Name": "RANTAC [MPS] SUSP"
+        "Company Name": "J.B.CHEMICALS (YUVA)"
     },
     {
         "Product Name": "RANTAC 150 TAB",
         "Pack": "30TAB",
-        "Company Name": "RANTAC [MPS] SUSP"
+        "Company Name": "J.B.CHEMICALS (YUVA)"
     },
     {
         "Product Name": "RANTAC 300 TAB",
         "Pack": "30TAB",
-        "Company Name": "RANTAC [MPS] SUSP"
+        "Company Name": "J.B.CHEMICALS (YUVA)"
     },
     {
         "Product Name": "RANTAC DOM TAB",
         "Pack": "20 TAB",
-        "Company Name": "RANTAC [MPS] SUSP"
+        "Company Name": "J.B.CHEMICALS (YUVA)"
     },
     {
         "Product Name": "RANTAC MPS LA SUSP",
         "Pack": "200 ML",
-        "Company Name": "RANTAC [MPS] SUSP"
+        "Company Name": "J.B.CHEMICALS (YUVA)"
     },
     {
         "Product Name": "RANTAC OD 300MG TAB",
         "Pack": "10TAB",
-        "Company Name": "RANTAC [MPS] SUSP"
+        "Company Name": "J.B.CHEMICALS (YUVA)"
     },
     {
         "Product Name": "RANTAC R TABS",
         "Pack": "10'S",
-        "Company Name": "RANTAC [MPS] SUSP"
+        "Company Name": "J.B.CHEMICALS (YUVA)"
     },
     {
         "Product Name": "SPORLAC DG TAB",
         "Pack": "10 TAB",
-        "Company Name": "RANTAC [MPS] SUSP"
+        "Company Name": "J.B.CHEMICALS (YUVA)"
     },
     {
         "Product Name": "AZMARDA 100MG TAB",
@@ -62995,6 +63045,11 @@ const navkarMedicineData = [
         "Company Name": "JENBURKT PHARMACEUTICALS LTD"
     },
     {
+        "Product Name": "NERVIJEN SYRUP",
+        "Pack": "200ML",
+        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
+    },
+    {
         "Product Name": "TRIBEN AD SHAMPOO",
         "Pack": "120ML",
         "Company Name": "JENBURKT PHARMACEUTICALS LTD"
@@ -63467,6 +63522,11 @@ const navkarMedicineData = [
     {
         "Product Name": "BOTROPASE INJ 2 ML",
         "Pack": "2 ML",
+        "Company Name": "JUGGAT PHARMA LTD"
+    },
+    {
+        "Product Name": "BOTROSTAT 500 TAB",
+        "Pack": "10TAB",
         "Company Name": "JUGGAT PHARMA LTD"
     },
     {
@@ -80425,6 +80485,11 @@ const navkarMedicineData = [
         "Company Name": "GASTICA FIZ TAB"
     },
     {
+        "Product Name": "THERMOKIND ADVANCE TOOTHPASTE",
+        "Pack": "50GM",
+        "Company Name": "GASTICA FIZ TAB"
+    },
+    {
         "Product Name": "THERMOKIND F GEL 100GM",
         "Pack": "100GM",
         "Company Name": "GASTICA FIZ TAB"
@@ -82256,6 +82321,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "TOBASTAR EYE DROPS",
+        "Pack": "5ML",
+        "Company Name": "MANKIND PHARMA (OCULARIS)"
+    },
+    {
+        "Product Name": "TOBASTAR F EYE DROPS",
         "Pack": "5ML",
         "Company Name": "MANKIND PHARMA (OCULARIS)"
     },
@@ -100720,6 +100790,16 @@ const navkarMedicineData = [
         "Company Name": "SOL DERMA CORIUM DIVISION"
     },
     {
+        "Product Name": "KOZISOL HQ CREAM",
+        "Pack": "20GM",
+        "Company Name": "SOL DERMA CORIUM DIVISION"
+    },
+    {
+        "Product Name": "KOZISOL HQ SERUM 15ML",
+        "Pack": "15ML",
+        "Company Name": "SOL DERMA CORIUM DIVISION"
+    },
+    {
         "Product Name": "LOD-B 20 TAB",
         "Pack": "10TAB",
         "Company Name": "SOL DERMA CORIUM DIVISION"
@@ -100900,6 +100980,16 @@ const navkarMedicineData = [
         "Company Name": "SOL DERMA CURA DIVISION"
     },
     {
+        "Product Name": "ACTAME 10 CAP",
+        "Pack": "10CAP",
+        "Company Name": "SOL DERMA CURA DIVISION"
+    },
+    {
+        "Product Name": "ACTAME 20 CAP",
+        "Pack": "10CAP",
+        "Company Name": "SOL DERMA CURA DIVISION"
+    },
+    {
         "Product Name": "ACTAME 5 CAP",
         "Pack": "10 CAP",
         "Company Name": "SOL DERMA CURA DIVISION"
@@ -101007,6 +101097,11 @@ const navkarMedicineData = [
     {
         "Product Name": "PRONURIES SHAMPOO",
         "Pack": "100ML",
+        "Company Name": "SOL DERMA CURA DIVISION"
+    },
+    {
+        "Product Name": "TOFASOL OINTMENT 20 GM",
+        "Pack": "20GM",
         "Company Name": "SOL DERMA CURA DIVISION"
     },
     {
@@ -109790,6 +109885,11 @@ const navkarMedicineData = [
         "Company Name": "TORRENT PHARMA (MIND)"
     },
     {
+        "Product Name": "GABATOR GRS 300TAB",
+        "Pack": "10TAB",
+        "Company Name": "TORRENT PHARMA (MIND)"
+    },
+    {
         "Product Name": "GABATOR NT 100",
         "Pack": "15 TAB",
         "Company Name": "TORRENT PHARMA (MIND)"
@@ -112505,11 +112605,6 @@ const navkarMedicineData = [
         "Company Name": "TORRENT PHARMACEUTICALS LTD"
     },
     {
-        "Product Name": "GABATOR GRS 300TAB",
-        "Pack": "10TAB",
-        "Company Name": "TORRENT PHARMACEUTICALS LTD"
-    },
-    {
         "Product Name": "GABATOR MNT TAB",
         "Pack": "10TAB",
         "Company Name": "TORRENT PHARMACEUTICALS LTD"
@@ -112682,6 +112777,11 @@ const navkarMedicineData = [
     {
         "Product Name": "SEMALIX 7 TAB",
         "Pack": "10TAB",
+        "Company Name": "TORRENT PHARMACEUTICALS LTD"
+    },
+    {
+        "Product Name": "SEMALIX 8MG/3ML INJ",
+        "Pack": "VIAL",
         "Company Name": "TORRENT PHARMACEUTICALS LTD"
     },
     {
@@ -113770,6 +113870,11 @@ const navkarMedicineData = [
         "Company Name": "UNIVERSAL GENERIC"
     },
     {
+        "Product Name": "COQ ART TAB",
+        "Pack": "10TAB",
+        "Company Name": "UNIVERSAL GENERIC"
+    },
+    {
         "Product Name": "COQ FEM CAP",
         "Pack": "15CAP",
         "Company Name": "UNIVERSAL GENERIC"
@@ -114000,139 +114105,144 @@ const navkarMedicineData = [
         "Company Name": "USV LIMITED (CHANNEL)"
     },
     {
+        "Product Name": "CATASPA TAB",
+        "Pack": "10 TAB",
+        "Company Name": "USV LIMITED (CHANNEL)"
+    },
+    {
         "Product Name": "CVP CAP 10``S",
         "Pack": "TAB",
-        "Company Name": "CATASPA TAB"
+        "Company Name": "USV LIMITED (CHANNEL)"
     },
     {
         "Product Name": "DEROBIN OINT",
         "Pack": "30GM",
-        "Company Name": "CATASPA TAB"
+        "Company Name": "USV LIMITED (CHANNEL)"
     },
     {
         "Product Name": "DOXY 1 L DR FORTE CAP",
         "Pack": "10 CAP",
-        "Company Name": "CATASPA TAB"
+        "Company Name": "USV LIMITED (CHANNEL)"
     },
     {
         "Product Name": "DREGO [D] CAP",
         "Pack": "10 CAP",
-        "Company Name": "CATASPA TAB"
+        "Company Name": "USV LIMITED (CHANNEL)"
     },
     {
         "Product Name": "DREGO 20 TAB",
         "Pack": "10 TAB",
-        "Company Name": "CATASPA TAB"
+        "Company Name": "USV LIMITED (CHANNEL)"
     },
     {
         "Product Name": "GYNAE CVP CAP",
         "Pack": "10 CAP",
-        "Company Name": "CATASPA TAB"
+        "Company Name": "USV LIMITED (CHANNEL)"
     },
     {
         "Product Name": "MASHYNE 1GM TAB",
         "Pack": "10 TAB",
-        "Company Name": "CATASPA TAB"
+        "Company Name": "USV LIMITED (CHANNEL)"
     },
     {
         "Product Name": "MASHYNE 60K CAP",
         "Pack": "4 CAP",
-        "Company Name": "CATASPA TAB"
+        "Company Name": "USV LIMITED (CHANNEL)"
     },
     {
         "Product Name": "MVI INJ 10ML",
         "Pack": "10ML",
-        "Company Name": "CATASPA TAB"
+        "Company Name": "USV LIMITED (CHANNEL)"
     },
     {
         "Product Name": "MYCHIRO TAB",
         "Pack": "10 TAB",
-        "Company Name": "CATASPA TAB"
+        "Company Name": "USV LIMITED (CHANNEL)"
     },
     {
         "Product Name": "NEOTOMIC ENEMA",
         "Pack": "20ML",
-        "Company Name": "CATASPA TAB"
+        "Company Name": "USV LIMITED (CHANNEL)"
     },
     {
         "Product Name": "NIMODIP 30MG TAB",
         "Pack": "TAB",
-        "Company Name": "CATASPA TAB"
+        "Company Name": "USV LIMITED (CHANNEL)"
     },
     {
         "Product Name": "NIZER 100MG TAB",
         "Pack": "TAB",
-        "Company Name": "CATASPA TAB"
+        "Company Name": "USV LIMITED (CHANNEL)"
     },
     {
         "Product Name": "NIZER GEL",
         "Pack": "30GM",
-        "Company Name": "CATASPA TAB"
+        "Company Name": "USV LIMITED (CHANNEL)"
     },
     {
         "Product Name": "OLMETRACK 20MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "CATASPA TAB"
+        "Company Name": "USV LIMITED (CHANNEL)"
     },
     {
         "Product Name": "OLMETRACK 40MG TAB",
         "Pack": "TAB",
-        "Company Name": "CATASPA TAB"
+        "Company Name": "USV LIMITED (CHANNEL)"
     },
     {
         "Product Name": "OLMETRACK AM TAB",
         "Pack": "10 TAB",
-        "Company Name": "CATASPA TAB"
+        "Company Name": "USV LIMITED (CHANNEL)"
     },
     {
         "Product Name": "OLMETRACK H 20MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "CATASPA TAB"
+        "Company Name": "USV LIMITED (CHANNEL)"
     },
     {
         "Product Name": "PROSPAN SYP",
         "Pack": "100ML",
-        "Company Name": "CATASPA TAB"
+        "Company Name": "USV LIMITED (CHANNEL)"
     },
     {
         "Product Name": "SILODERM [MIXI] CREAM",
         "Pack": "10GM",
-        "Company Name": "CATASPA TAB"
+        "Company Name": "USV LIMITED (CHANNEL)"
     },
     {
         "Product Name": "SILODERM CREAM",
         "Pack": "20GM",
-        "Company Name": "CATASPA TAB"
+        "Company Name": "USV LIMITED (CHANNEL)"
     },
     {
         "Product Name": "TRIPLEACAL [D] TAB",
         "Pack": "10 TAB",
-        "Company Name": "CATASPA TAB"
+        "Company Name": "USV LIMITED (CHANNEL)"
     },
     {
         "Product Name": "TRIPLEACAL [FD] TAB",
         "Pack": "15 TAB",
-        "Company Name": "CATASPA TAB"
+        "Company Name": "USV LIMITED (CHANNEL)"
     },
     {
         "Product Name": "TRIPLEACAL FORTE TAB",
         "Pack": "10 TAB",
-        "Company Name": "CATASPA TAB"
+        "Company Name": "USV LIMITED (CHANNEL)"
     },
     {
         "Product Name": "TRIPLEACAL TAB",
         "Pack": "15 TAB",
-        "Company Name": "CATASPA TAB"
+        "Company Name": "USV LIMITED (CHANNEL)"
     },
     {
         "Product Name": "VIBRANIA CAP",
         "Pack": "TAB",
-        "Company Name": "CATASPA TAB"
+        "Company Name": "USV LIMITED (CHANNEL)"
     },
     {
         "Product Name": "VIBRANIA D CAP",
         "Pack": "10 CAP",
-        "Company Name": "CATASPA TAB"
+        "Company Name": "USV LIMITED (CHANNEL)"
     },
     {
         "Product Name": "VISYNERAL SYP 100ML",
@@ -118580,6 +118690,11 @@ const navkarMedicineData = [
         "Company Name": "ZUVENTUS (ATHENA DIV)"
     },
     {
+        "Product Name": "TIVIBACT INJ",
+        "Pack": "VIAL",
+        "Company Name": "ZUVENTUS (ATHENA DIV)"
+    },
+    {
         "Product Name": "TOSIBAN 6.75 MG INJ",
         "Pack": "0.9ML",
         "Company Name": "ZUVENTUS (ATHENA DIV)"
@@ -119400,6 +119515,11 @@ const navkarMedicineData = [
         "Company Name": "ZUVENTUS (ODENEA)"
     },
     {
+        "Product Name": "TUMSUP LIQ",
+        "Pack": "30 ML",
+        "Company Name": "ZUVENTUS (ODENEA)"
+    },
+    {
         "Product Name": "UPNURON D 50/20 CAP",
         "Pack": "CAP",
         "Company Name": "ZUVENTUS (ODENEA)"
@@ -119617,6 +119737,11 @@ const navkarMedicineData = [
     {
         "Product Name": "LORNIT SACH 3.25GM",
         "Pack": "3.25GM",
+        "Company Name": "ZUVENTUS HEALTH CARE (GROMAXX)"
+    },
+    {
+        "Product Name": "MAXILIV 500MG TAB",
+        "Pack": "TAB",
         "Company Name": "ZUVENTUS HEALTH CARE (GROMAXX)"
     },
     {

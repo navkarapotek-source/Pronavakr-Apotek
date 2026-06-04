@@ -3735,6 +3735,11 @@ const otcData = [
         "Company Name": "JOHNSON & JOHNSON (OTC)"
     },
     {
+        "Product Name": "HAJMOLA BOTTLE [ANANRDANA] 120TAB",
+        "Pack": "120TAB",
+        "Company Name": "JOHNSON & JOHNSON (OTC)"
+    },
+    {
         "Product Name": "JOHNSON BABY SOAP 100GM",
         "Pack": "100GM",
         "Company Name": "JOHNSON & JOHNSON (OTC)"

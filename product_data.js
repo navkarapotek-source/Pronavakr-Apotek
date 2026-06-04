@@ -24170,7 +24170,7 @@ const productData = [
         "Company Name": "ROUSSEL LABORATORIES"
     },
     {
-        "Product Name": "ROSUSURE 10",
+        "Product Name": "ROSUSURE 10 CAP",
         "Pack": "1X10",
         "Company Name": "ROUSSEL LABORATORIES"
     },
