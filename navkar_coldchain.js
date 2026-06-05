@@ -1335,8 +1335,8 @@ const navkarColdchainData = [
         "Company Name": "SUN PHARMA (SENORA)"
     },
     {
-        "Product Name": "TYVALZI ING",
-        "Pack": "10 TAB",
+        "Product Name": "TYVALZI INJ",
+        "Pack": "1VAIL",
         "Company Name": "SUN PHARMA (SEPHEUS DIV )"
     },
     {

@@ -2150,11 +2150,6 @@ const navkarMedicineData = [
         "Company Name": "ABBOTT INDIA LTD (GENERAL CARE)"
     },
     {
-        "Product Name": "CITRO SODA SACHET 4GM",
-        "Pack": "4GM",
-        "Company Name": "ABBOTT INDIA LTD (GENERAL CARE)"
-    },
-    {
         "Product Name": "CITRO SODA SACHET UTI 5G",
         "Pack": "5G",
         "Company Name": "ABBOTT INDIA LTD (GENERAL CARE)"
@@ -6085,6 +6080,11 @@ const navkarMedicineData = [
         "Company Name": "ALBERT DAVID LIMITED"
     },
     {
+        "Product Name": "FBX 80MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "ALBERT DAVID LIMITED"
+    },
+    {
         "Product Name": "PLACENTREX GEL 20GM",
         "Pack": "20GM",
         "Company Name": "ALBERT DAVID LIMITED"
@@ -8610,6 +8610,11 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LAB (BERGAN NOVA)"
     },
     {
+        "Product Name": "UPRISE D3 MG TAB",
+        "Pack": "15'S",
+        "Company Name": "ALKEM LAB (BERGAN NOVA)"
+    },
+    {
         "Product Name": "UPRISE D3 SYP",
         "Pack": "100 ML",
         "Company Name": "ALKEM LAB (BERGAN NOVA)"
@@ -10375,6 +10380,11 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LABORATORIES LIMITED"
     },
     {
+        "Product Name": "GEMTIDE 600MCG/2.4ML",
+        "Pack": "2.4ML",
+        "Company Name": "ALKEM LABORATORIES LIMITED"
+    },
+    {
         "Product Name": "GLUVILDA OD (10S)",
         "Pack": "10TAB",
         "Company Name": "ALKEM LABORATORIES LIMITED"
@@ -10502,11 +10512,6 @@ const navkarMedicineData = [
     {
         "Product Name": "UPRISE D3 2K CAP (15 S)",
         "Pack": "15 TAB",
-        "Company Name": "ALKEM LABORATORIES LIMITED"
-    },
-    {
-        "Product Name": "UPRISE D3 MG TAB",
-        "Pack": "15'S",
         "Company Name": "ALKEM LABORATORIES LIMITED"
     },
     {
@@ -12980,6 +12985,11 @@ const navkarMedicineData = [
         "Company Name": "AMRUT PHARMACEUTICALS"
     },
     {
+        "Product Name": "BRIVAYES 50MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "ANAX LIFESCIENCE PVT LTD"
+    },
+    {
         "Product Name": "CILCRUV 10 TAB",
         "Pack": "10TAB",
         "Company Name": "ANAX LIFESCIENCE PVT LTD"
@@ -13093,11 +13103,6 @@ const navkarMedicineData = [
         "Product Name": "OSITATE M TAB",
         "Pack": "10TAB",
         "Company Name": "ANAX LIFESCIENCE PVT LTD (GYNE)"
-    },
-    {
-        "Product Name": "BRIVAYES 50MG TAB",
-        "Pack": "10TAB",
-        "Company Name": "ANAX LIFESCIENCE PVT LTD(NEURO)"
     },
     {
         "Product Name": "COBAFOL AQ PFS INJ",
@@ -22725,6 +22730,11 @@ const navkarMedicineData = [
         "Company Name": "CIPLA LIMITED (GENERIC)"
     },
     {
+        "Product Name": "BRIVEPSY 100MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "CIPLA LIMITED (IMPULSE 2)"
+    },
+    {
         "Product Name": "CIZOREST 200MG TAB",
         "Pack": "10 TAB",
         "Company Name": "CIPLA LIMITED (IMPULSE 2)"
@@ -31957,6 +31967,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ZESTCAL D3 TAB",
         "Pack": "TAB",
+        "Company Name": "DWD PHARMACEUTICALS LIMITED"
+    },
+    {
+        "Product Name": "ZICOLD BABY OINT",
+        "Pack": "30GM",
         "Company Name": "DWD PHARMACEUTICALS LIMITED"
     },
     {
@@ -46350,6 +46365,16 @@ const navkarMedicineData = [
         "Company Name": "GLOWDERMA LAB PVT LTD"
     },
     {
+        "Product Name": "BEPOZAL 40 MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "GLOWDERMA LAB PVT LTD"
+    },
+    {
+        "Product Name": "BEPOZAL M TAB",
+        "Pack": "10TAB",
+        "Company Name": "GLOWDERMA LAB PVT LTD"
+    },
+    {
         "Product Name": "CETAPHIL CLEANSING SOLUTION 125 ML",
         "Pack": "125 ML",
         "Company Name": "GLOWDERMA LAB PVT LTD"
@@ -49055,6 +49080,11 @@ const navkarMedicineData = [
         "Company Name": "HBC LIFESCIENCES QURA"
     },
     {
+        "Product Name": "GLUCON D ORIGINAL POWDER 75GM",
+        "Pack": "75GM",
+        "Company Name": "HEINZ"
+    },
+    {
         "Product Name": "BILASTERO 20MG TAB",
         "Pack": "10 TAB",
         "Company Name": "HETERO BLISS"
@@ -51246,7 +51276,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "MAST 1 SYRUP",
-        "Pack": "5 ML",
+        "Pack": "30 ML",
         "Company Name": "IATROS PHARMACEUTICALS"
     },
     {
@@ -72895,11 +72925,6 @@ const navkarMedicineData = [
         "Company Name": "LUPIN NEW NEXTRA"
     },
     {
-        "Product Name": "BEPLEX [FORTE] TAB",
-        "Pack": "20TAB",
-        "Company Name": "LUPIN NEW NEXTRA"
-    },
-    {
         "Product Name": "BEPLEX FORTE MONO 11ML INJ",
         "Pack": "1VAIL",
         "Company Name": "LUPIN NEW NEXTRA"
@@ -73952,6 +73977,11 @@ const navkarMedicineData = [
     {
         "Product Name": "AKT 4 KIT",
         "Pack": "TAB",
+        "Company Name": "LUPIN PHARMA (PHARMA)"
+    },
+    {
+        "Product Name": "BEPLEX [FORTE] TAB",
+        "Pack": "20TAB",
         "Company Name": "LUPIN PHARMA (PHARMA)"
     },
     {
@@ -78477,6 +78507,11 @@ const navkarMedicineData = [
     {
         "Product Name": "DAILY FACIAL",
         "Pack": "50 ML",
+        "Company Name": "MAGNACHEM PHARMACEUTICAL'S LTD"
+    },
+    {
+        "Product Name": "ENDAR MDS SUSPENSION",
+        "Pack": "60 ML",
         "Company Name": "MAGNACHEM PHARMACEUTICAL'S LTD"
     },
     {
@@ -83167,252 +83202,252 @@ const navkarMedicineData = [
     {
         "Product Name": "CALAPURE A LOTION 100ML",
         "Pack": "100ML",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "CALAPURE A LOTION 50ML",
         "Pack": "50ML",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "DOLOKIND [AQUA] INJ",
         "Pack": "1ML",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "DOLOKIND [MR] TAB",
         "Pack": "10TAB",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "DOLOKIND [PLUS] TAB",
         "Pack": "15TAB",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "DOLOKIND [SR] TAB",
         "Pack": "10TAB",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "DOLOKIND AA TAB",
         "Pack": "10TAB",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "DOLOKIND TAB",
         "Pack": "10TAB",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "FLORA BC CAP",
         "Pack": "10TAB",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "FLORA BC DRY SYP",
         "Pack": "60ML",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "FLORA ZN SACH 1GM",
         "Pack": "1GM",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "GLYKIND [M] TAB",
         "Pack": "10 TAB",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "GLYKIND M  XR 60MG TAB",
         "Pack": "TAB",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "LECOPE  TAB",
         "Pack": "10TAB",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "LECOPE AD TAB",
         "Pack": "10TAB",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "LECOPE SYP",
         "Pack": "30ML",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "MAGNATUSS T SYP",
         "Pack": "100ML",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "MAGNATUSS-A SYRUP 100 ML",
         "Pack": "100 ML",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "MAGNATUSS-DX LOZENGES 10'S",
         "Pack": "10 TAB",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "MAGNATUSS-DX SYRUP 100 ML",
         "Pack": "100 ML",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "MAHACEF 100 DRY SYR",
         "Pack": "30ML",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "MAHACEF 100MG TAB",
         "Pack": "10TAB",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "MAHACEF 200 DRY SYRUP",
         "Pack": "60ML",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "MAHACEF 200 TAB",
         "Pack": "10TAB",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "MAHACEF CV 200MG TAB",
         "Pack": "6TAB",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "MAHACEF DROPS",
         "Pack": "10ML",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "MAHACEF DRY SYP 30ML",
         "Pack": "30ML",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "MAHACEF PLUS 100MG TAB",
         "Pack": "10TAB",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "MAHACEF PLUS 200MG TAB",
         "Pack": "TAB",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "MAHACEF XL 200MG TAB",
         "Pack": "10TAB",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "MAHACEFF 50 TAB",
         "Pack": "TAB",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "MENOHELP PLUS SYS 200ML",
         "Pack": "200 ML",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "MENOHELP SYPS",
         "Pack": "300ML",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "NUFORCE DUSTING POWDER 75GM",
         "Pack": "75GM",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "NUFORCE GM CREAM",
         "Pack": "15GM",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "NUFORCE SOAP",
         "Pack": "75GM",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "RABEKIND [DSR] CAP",
         "Pack": "10TAB",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "RABEKIND 20 TAB",
         "Pack": "15TAB",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "RABEKIND 40 TAB",
         "Pack": "40 TAB",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "RABEKIND PLUS TAB",
         "Pack": "10 TAB",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "RANIDOM MPS SUSPENSION",
         "Pack": "170 ML",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "RANIDOM O SUSP",
         "Pack": "200ML",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "ZADY 100 READYMIX 30ML",
         "Pack": "30 ML",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "ZADY 100 TAB",
         "Pack": "3 TAB",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "ZADY 200MG READYMIX",
         "Pack": "30ML",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "ZADY 250MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "ZADY 500MG TAB",
         "Pack": "5 TAB",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "ZENFLOX EYE DROPS",
         "Pack": "10ML",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "ZENFLOX OZ TAB",
         "Pack": "10 TAB",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "ZENFLOX SUSP",
         "Pack": "60ML",
-        "Company Name": "MANKIND PHARMA { VISTAR}"
+        "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
         "Product Name": "BISONICUS 2.5 TAB",
@@ -84675,6 +84710,21 @@ const navkarMedicineData = [
         "Company Name": "MED MANOR (PHARMA)"
     },
     {
+        "Product Name": "KEFMED 200 DT TAB",
+        "Pack": "10TAB",
+        "Company Name": "MED MANOR (PHARMA)"
+    },
+    {
+        "Product Name": "KEFMED CV 325 TAB",
+        "Pack": "10TAB",
+        "Company Name": "MED MANOR (PHARMA)"
+    },
+    {
+        "Product Name": "KEFMED O TAB",
+        "Pack": "10TAB",
+        "Company Name": "MED MANOR (PHARMA)"
+    },
+    {
         "Product Name": "OVIDUCT NC TAB",
         "Pack": "30'S",
         "Company Name": "MED MANOR (PHARMA)"
@@ -85096,7 +85146,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "SACHET",
-        "Pack": "620",
+        "Pack": "600",
         "Company Name": "MEDIBLESS"
     },
     {
@@ -85455,6 +85505,11 @@ const navkarMedicineData = [
         "Company Name": "MEDIGAP PHARMA PRIVAT LIMITED"
     },
     {
+        "Product Name": "GAPIMOX CV 625",
+        "Pack": "10TAB",
+        "Company Name": "MEDIGAP PHARMA PRIVAT LIMITED"
+    },
+    {
         "Product Name": "GAPISET MD4",
         "Pack": "10 TAB",
         "Company Name": "MEDIGAP PHARMA PRIVAT LIMITED"
@@ -85517,6 +85572,11 @@ const navkarMedicineData = [
     {
         "Product Name": "RESPIGAP DX",
         "Pack": "100 ML",
+        "Company Name": "MEDIGAP PHARMA PRIVAT LIMITED"
+    },
+    {
+        "Product Name": "RESPIGAP LS SYRUP",
+        "Pack": "100ML",
         "Company Name": "MEDIGAP PHARMA PRIVAT LIMITED"
     },
     {
@@ -89082,6 +89142,11 @@ const navkarMedicineData = [
     {
         "Product Name": "GRAMOCEF OF TAB",
         "Pack": "10 TAB",
+        "Company Name": "MICRO LAB (GENERAL TASK FORCE-GTF)"
+    },
+    {
+        "Product Name": "KOJIVIT NU CREAM",
+        "Pack": "15GM",
         "Company Name": "MICRO LAB (GENERAL TASK FORCE-GTF)"
     },
     {
@@ -97580,79 +97645,84 @@ const navkarMedicineData = [
         "Company Name": "RAPTAKOS BRETT & COMPANY LTD"
     },
     {
+        "Product Name": "NEOPEPTINE DROPS",
+        "Pack": "15ML",
+        "Company Name": "RAPTAKOS BRETT & COMPANY LTD"
+    },
+    {
         "Product Name": "NEOPEPTINE FORTE SYS 60ML",
         "Pack": "60 ML",
-        "Company Name": "NEOPEPTINE DROPS"
+        "Company Name": "RAPTAKOS BRETT & COMPANY LTD"
     },
     {
         "Product Name": "NEOPEPTINE SYP 100MLAA033",
         "Pack": "100ML",
-        "Company Name": "NEOPEPTINE DROPS"
+        "Company Name": "RAPTAKOS BRETT & COMPANY LTD"
     },
     {
         "Product Name": "NEOPEPTINE SYP 60ML",
         "Pack": "60ML",
-        "Company Name": "NEOPEPTINE DROPS"
+        "Company Name": "RAPTAKOS BRETT & COMPANY LTD"
     },
     {
         "Product Name": "NORASH CREAM",
         "Pack": "20 GM",
-        "Company Name": "NEOPEPTINE DROPS"
+        "Company Name": "RAPTAKOS BRETT & COMPANY LTD"
     },
     {
         "Product Name": "SUBSYDE CR CAP",
         "Pack": "TAB",
-        "Company Name": "NEOPEPTINE DROPS"
+        "Company Name": "RAPTAKOS BRETT & COMPANY LTD"
     },
     {
         "Product Name": "THREPTIN BISCUIT 1KG",
         "Pack": "1KG",
-        "Company Name": "NEOPEPTINE DROPS"
+        "Company Name": "RAPTAKOS BRETT & COMPANY LTD"
     },
     {
         "Product Name": "THREPTIN CHOCH POWDER 200GM",
         "Pack": "200GM",
-        "Company Name": "NEOPEPTINE DROPS"
+        "Company Name": "RAPTAKOS BRETT & COMPANY LTD"
     },
     {
         "Product Name": "THREPTIN CHOCO BISCUIT",
         "Pack": "275GM",
-        "Company Name": "NEOPEPTINE DROPS"
+        "Company Name": "RAPTAKOS BRETT & COMPANY LTD"
     },
     {
         "Product Name": "THREPTIN LITE BISCUIT",
         "Pack": "275GM",
-        "Company Name": "NEOPEPTINE DROPS"
+        "Company Name": "RAPTAKOS BRETT & COMPANY LTD"
     },
     {
         "Product Name": "THREPTIN MICROMIX POWDER 200GM",
         "Pack": "200GM",
-        "Company Name": "NEOPEPTINE DROPS"
+        "Company Name": "RAPTAKOS BRETT & COMPANY LTD"
     },
     {
         "Product Name": "THREPTIN REG 275 GM (VANILLA)DISKETTES",
         "Pack": "275 GM",
-        "Company Name": "NEOPEPTINE DROPS"
+        "Company Name": "RAPTAKOS BRETT & COMPANY LTD"
     },
     {
         "Product Name": "THREPTIN VANILLA POWDER 200GM",
         "Pack": "200GM",
-        "Company Name": "NEOPEPTINE DROPS"
+        "Company Name": "RAPTAKOS BRETT & COMPANY LTD"
     },
     {
         "Product Name": "ZYTEE L TUBE GEL",
         "Pack": "10ML",
-        "Company Name": "NEOPEPTINE DROPS"
+        "Company Name": "RAPTAKOS BRETT & COMPANY LTD"
     },
     {
         "Product Name": "ZYTEE RB GEL BOTTLE",
         "Pack": "10ML",
-        "Company Name": "NEOPEPTINE DROPS"
+        "Company Name": "RAPTAKOS BRETT & COMPANY LTD"
     },
     {
         "Product Name": "ZYTEE RB GEL TUBE",
         "Pack": "10GM",
-        "Company Name": "NEOPEPTINE DROPS"
+        "Company Name": "RAPTAKOS BRETT & COMPANY LTD"
     },
     {
         "Product Name": "AMLOKOS DRY SYP",
@@ -100405,6 +100475,31 @@ const navkarMedicineData = [
         "Company Name": "SHREYA LIFE SCIENCES PVT. LTD."
     },
     {
+        "Product Name": "DOLCERA 650 TAB",
+        "Pack": "15'S",
+        "Company Name": "SHREYA LIFE SCIENCES PVT. LTD."
+    },
+    {
+        "Product Name": "HIBRID 228.5 DRY SYRUP",
+        "Pack": "30ML",
+        "Company Name": "SHREYA LIFE SCIENCES PVT. LTD."
+    },
+    {
+        "Product Name": "HIBRID FORTE 457 DRY SYRUP",
+        "Pack": "30ML",
+        "Company Name": "SHREYA LIFE SCIENCES PVT. LTD."
+    },
+    {
+        "Product Name": "LEE 500 TAB",
+        "Pack": "5'S",
+        "Company Name": "SHREYA LIFE SCIENCES PVT. LTD."
+    },
+    {
+        "Product Name": "NIMI RAPI TAB",
+        "Pack": "10'S",
+        "Company Name": "SHREYA LIFE SCIENCES PVT. LTD."
+    },
+    {
         "Product Name": "PLANOKUF XP LITE SYP 60ML",
         "Pack": "60ML",
         "Company Name": "SHREYA LIFE SCIENCES PVT. LTD."
@@ -100422,6 +100517,16 @@ const navkarMedicineData = [
     {
         "Product Name": "RELYTE ENERGY APPLE 200ML",
         "Pack": "200ML",
+        "Company Name": "SHREYA LIFE SCIENCES PVT. LTD."
+    },
+    {
+        "Product Name": "RELYTE ENERGY LEMON",
+        "Pack": "200ML",
+        "Company Name": "SHREYA LIFE SCIENCES PVT. LTD."
+    },
+    {
+        "Product Name": "XENOBID NEW 275 TAB",
+        "Pack": "10'S",
         "Company Name": "SHREYA LIFE SCIENCES PVT. LTD."
     },
     {
@@ -116945,6 +117050,11 @@ const navkarMedicineData = [
         "Company Name": "MARTIFUR 100MG TAB"
     },
     {
+        "Product Name": "NOCK TH 8 TAB",
+        "Pack": "10TAB",
+        "Company Name": "WANBURY (OSTEO LIFE)"
+    },
+    {
         "Product Name": "ADTROL PLUS SOFGELS TAB T15",
         "Pack": "TAB",
         "Company Name": "WANBURY (UNNIVA)"
@@ -117075,6 +117185,11 @@ const navkarMedicineData = [
         "Company Name": "WANBURY LTD (MAIN)"
     },
     {
+        "Product Name": "NOCK DR TAB",
+        "Pack": "10TAB",
+        "Company Name": "WANBURY LTD (MAIN)"
+    },
+    {
         "Product Name": "NURTURE CHOCO POWDER 200GM",
         "Pack": "200GM",
         "Company Name": "WANBURY LTD (MAIN)"
@@ -117107,6 +117222,11 @@ const navkarMedicineData = [
     {
         "Product Name": "TALIA D3 400 IU DROPS",
         "Pack": "30 ML",
+        "Company Name": "WANBURY LTD (MAIN)"
+    },
+    {
+        "Product Name": "WAN HA ONE INJ",
+        "Pack": "4ML",
         "Company Name": "WANBURY LTD (MAIN)"
     },
     {
@@ -117317,6 +117437,11 @@ const navkarMedicineData = [
     {
         "Product Name": "BETADINE HAND RUB",
         "Pack": "200 ML",
+        "Company Name": "BETADINE GARGLE SMALL MINT 50ML"
+    },
+    {
+        "Product Name": "BETADINE OINT 125GM",
+        "Pack": "125GM",
         "Company Name": "BETADINE GARGLE SMALL MINT 50ML"
     },
     {
@@ -118350,7 +118475,7 @@ const navkarMedicineData = [
         "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
     },
     {
-        "Product Name": "GLAZENTA SUSPENSION 30ML",
+        "Product Name": "GLAZENTA SUSPENSION 30MLK1",
         "Pack": "30ML",
         "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
     },
@@ -121195,6 +121320,11 @@ const navkarMedicineData = [
         "Company Name": "ZYDUS PHARMA (NUTRIVA)MAHAVIR"
     },
     {
+        "Product Name": "GRD GOLD CHOCO POWDER",
+        "Pack": "200 GM",
+        "Company Name": "ZYDUS PHARMA (NUTRIVA)MAHAVIR"
+    },
+    {
         "Product Name": "GRD POWDER CHOCO 200GM",
         "Pack": "200GM",
         "Company Name": "ZYDUS PHARMA (NUTRIVA)MAHAVIR"
@@ -121575,6 +121705,11 @@ const navkarMedicineData = [
         "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
     },
     {
+        "Product Name": "ERDOZYD AB TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
+    },
+    {
         "Product Name": "GROFACTOR HAIR SYSTEM 4 ML",
         "Pack": "4 ML",
         "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
@@ -121637,6 +121772,11 @@ const navkarMedicineData = [
     {
         "Product Name": "STYPTIN CR 15TAB",
         "Pack": "15TAB",
+        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
+    },
+    {
+        "Product Name": "THROMBOZYME TAB",
+        "Pack": "10 TAB",
         "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
     },
     {
