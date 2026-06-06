@@ -2585,6 +2585,11 @@ const otcData = [
         "Company Name": "GLAXO SMITHKLINE (CONSUMER HC)"
     },
     {
+        "Product Name": "SENSODYNE RAPID RELIEF 40GM",
+        "Pack": "40GM",
+        "Company Name": "GLAXO SMITHKLINE (CONSUMER HC)"
+    },
+    {
         "Product Name": "SENSODYNE RAPID RELIEF 80GM",
         "Pack": "80GM",
         "Company Name": "GLAXO SMITHKLINE (CONSUMER HC)"
@@ -5860,6 +5865,11 @@ const otcData = [
         "Company Name": "SHETH BROS."
     },
     {
+        "Product Name": "KAYAM STRIP",
+        "Pack": "1BLS",
+        "Company Name": "SHETH BROS."
+    },
+    {
         "Product Name": "KAYAM TAB [10TAB]",
         "Pack": "10TAB",
         "Company Name": "SHETH BROS."
@@ -6271,11 +6281,6 @@ const otcData = [
     },
     {
         "Product Name": "SENSODYNE FRESH GEL [40GM]",
-        "Pack": "40GM",
-        "Company Name": "SHRIRAMA STORES YELLAPUR"
-    },
-    {
-        "Product Name": "SENSODYNE RAPID RELIEF 40GM",
         "Pack": "40GM",
         "Company Name": "SHRIRAMA STORES YELLAPUR"
     },

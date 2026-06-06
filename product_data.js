@@ -16590,6 +16590,11 @@ const productData = [
         "Company Name": "LEEFORD HEALTHCARE LTD"
     },
     {
+        "Product Name": "LEEFORD LS BELT (L)",
+        "Pack": "PC",
+        "Company Name": "LEEFORD HEALTHCARE LTD"
+    },
+    {
         "Product Name": "LEEFORD TENIS ELBOW SUPPORT XL",
         "Pack": "XL",
         "Company Name": "LEEFORD HEALTHCARE LTD"
@@ -18971,6 +18976,11 @@ const productData = [
     },
     {
         "Product Name": "LUPIN NATRAJ WRITING KIT",
+        "Pack": "PC",
+        "Company Name": "LUPIN LIFESCIENCES LIMITED"
+    },
+    {
+        "Product Name": "LUPIN NOTEBOOK",
         "Pack": "PC",
         "Company Name": "LUPIN LIFESCIENCES LIMITED"
     },
@@ -24720,11 +24730,6 @@ const productData = [
         "Company Name": "SHENZHEN JUMPER MEDICAL"
     },
     {
-        "Product Name": "KAYAM STRIP F",
-        "Pack": "1BLS",
-        "Company Name": "SHETH BROS."
-    },
-    {
         "Product Name": "AB COTTON 200GM SHIVANI",
         "Pack": "200GM",
         "Company Name": "SHIVANI MEDIPRO PVT.LTD"
@@ -26813,6 +26818,11 @@ const productData = [
         "Product Name": "ZINCOFAB TAB",
         "Pack": "1X15TAB",
         "Company Name": "SMART ICONIC LAB"
+    },
+    {
+        "Product Name": "10BOX/300PC THE MENS PERFUME",
+        "Pack": "20 ML",
+        "Company Name": "SMART LAB"
     },
     {
         "Product Name": "ACECREST SR TAB",
@@ -30662,6 +30672,11 @@ const productData = [
     {
         "Product Name": "TORSEWAL-20MG TABS",
         "Pack": "1X10T",
+        "Company Name": "WALLACE PHARMACEUTICALS PVT LTD"
+    },
+    {
+        "Product Name": "URIZOR-0.4MG CAP",
+        "Pack": "20CAP",
         "Company Name": "WALLACE PHARMACEUTICALS PVT LTD"
     },
     {
