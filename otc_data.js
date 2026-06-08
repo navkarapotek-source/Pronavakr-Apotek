@@ -3050,6 +3050,11 @@ const otcData = [
         "Company Name": "HIMALAYA COSMETICS"
     },
     {
+        "Product Name": "BABY SOAP [5+1] 50GM",
+        "Pack": "50GM",
+        "Company Name": "HIMALAYA COSMETICS"
+    },
+    {
         "Product Name": "BABY SOAP [75GM] RS.68",
         "Pack": "75 GM",
         "Company Name": "HIMALAYA COSMETICS"

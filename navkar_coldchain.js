@@ -1500,14 +1500,14 @@ const navkarColdchainData = [
         "Company Name": "GERBISA SUPPO [ADULT]"
     },
     {
-        "Product Name": "JONAC ADULT 100MG SUPPOS",
-        "Pack": "TAB",
+        "Product Name": "HAPPIBIOTIC DS CAP",
+        "Pack": "10TAB",
         "Company Name": "GERBISA SUPPO [ADULT]"
     },
     {
-        "Product Name": "HAPPIBIOTIC DS CAP",
-        "Pack": "10TAB",
-        "Company Name": "ZYDUS PHARMA (CND)"
+        "Product Name": "JONAC ADULT 100MG SUPPOS",
+        "Pack": "TAB",
+        "Company Name": "GERBISA SUPPO [ADULT]"
     },
     {
         "Product Name": "ALTERME INJ 3ML + 10 NEEDLES",

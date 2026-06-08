@@ -13045,6 +13045,11 @@ const navkarMedicineData = [
         "Company Name": "ANAX LIFESCIENCE PVT LTD"
     },
     {
+        "Product Name": "COLAHOP SACHET",
+        "Pack": "1 UNIT",
+        "Company Name": "ANAX LIFESCIENCE PVT LTD"
+    },
+    {
         "Product Name": "HOLYTEL 40 TAB",
         "Pack": "10TAB",
         "Company Name": "ANAX LIFESCIENCE PVT LTD"
@@ -13162,11 +13167,6 @@ const navkarMedicineData = [
     {
         "Product Name": "COBAFOL TAB",
         "Pack": "10 TAB",
-        "Company Name": "ANAX LIFESCIENCE PVT LTD(NEURO)"
-    },
-    {
-        "Product Name": "COLAHOP SACHET",
-        "Pack": "1 UNIT",
         "Company Name": "ANAX LIFESCIENCE PVT LTD(NEURO)"
     },
     {
@@ -22180,6 +22180,11 @@ const navkarMedicineData = [
         "Company Name": "CIPLA LIMITED"
     },
     {
+        "Product Name": "IMATIB 400MG",
+        "Pack": "10TAB",
+        "Company Name": "CIPLA LIMITED"
+    },
+    {
         "Product Name": "ITRANOX 200 MG CAP",
         "Pack": "7 CAP",
         "Company Name": "CIPLA LIMITED"
@@ -22362,11 +22367,6 @@ const navkarMedicineData = [
     {
         "Product Name": "PICICLIB 125 TAB",
         "Pack": "125TAB",
-        "Company Name": "CIPLA LIMITED"
-    },
-    {
-        "Product Name": "PIRFENEX 801 TAB",
-        "Pack": "10 TAB",
         "Company Name": "CIPLA LIMITED"
     },
     {
@@ -25882,6 +25882,11 @@ const navkarMedicineData = [
     {
         "Product Name": "PIRFENEX 600MG TAB",
         "Pack": "TAB",
+        "Company Name": "NINTIB 150MG CAP"
+    },
+    {
+        "Product Name": "PIRFENEX 801 TAB",
+        "Pack": "10 TAB",
         "Company Name": "NINTIB 150MG CAP"
     },
     {
@@ -43065,6 +43070,11 @@ const navkarMedicineData = [
         "Company Name": "GENERICS"
     },
     {
+        "Product Name": "ENTEROSHIELD INJ",
+        "Pack": "0.5ML",
+        "Company Name": "GENERICS"
+    },
+    {
         "Product Name": "ENTROQUINE TAB",
         "Pack": "20 TAB",
         "Company Name": "GENERICS"
@@ -45572,6 +45582,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ALEX L SYP",
         "Pack": "100ML",
+        "Company Name": "GLENMARK (RESPICARE)"
+    },
+    {
+        "Product Name": "ALEX P PEADIATRIC DROPS",
+        "Pack": "15 ML",
         "Company Name": "GLENMARK (RESPICARE)"
     },
     {
@@ -51765,6 +51780,11 @@ const navkarMedicineData = [
         "Company Name": "ICON LIFE SCIENCES (MESMER)"
     },
     {
+        "Product Name": "BRIVUP 25 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ICON LIFE SCIENCES (MESMER)"
+    },
+    {
         "Product Name": "BRIVUP 50 TAB",
         "Pack": "10 TAB",
         "Company Name": "ICON LIFE SCIENCES (MESMER)"
@@ -57780,11 +57800,6 @@ const navkarMedicineData = [
         "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
-        "Product Name": "DEPRAN 10MG TAB",
-        "Pack": "15TAB",
-        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
-    },
-    {
         "Product Name": "DEPRANEX 10 MG TAB",
         "Pack": "10TAB",
         "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
@@ -60795,34 +60810,39 @@ const navkarMedicineData = [
         "Company Name": "IPCA LABORATORIES (PHARMA)"
     },
     {
+        "Product Name": "ZERODOL TAB",
+        "Pack": "10 TAB",
+        "Company Name": "IPCA LABORATORIES (PHARMA)"
+    },
+    {
         "Product Name": "ZERODOL TC  TAB",
         "Pack": "10 TAB",
-        "Company Name": "ZERODOL TAB"
+        "Company Name": "IPCA LABORATORIES (PHARMA)"
     },
     {
         "Product Name": "ZERODOL TH 4 TAB",
         "Pack": "10 TAB",
-        "Company Name": "ZERODOL TAB"
+        "Company Name": "IPCA LABORATORIES (PHARMA)"
     },
     {
         "Product Name": "ZERODOL TH 8 TAB",
         "Pack": "10 TAB",
-        "Company Name": "ZERODOL TAB"
+        "Company Name": "IPCA LABORATORIES (PHARMA)"
     },
     {
         "Product Name": "ZERODOL TH MAX 4 TAB",
         "Pack": "10 TAB",
-        "Company Name": "ZERODOL TAB"
+        "Company Name": "IPCA LABORATORIES (PHARMA)"
     },
     {
         "Product Name": "ZERODOL TH MAX 8 TAB",
         "Pack": "10 TAB",
-        "Company Name": "ZERODOL TAB"
+        "Company Name": "IPCA LABORATORIES (PHARMA)"
     },
     {
         "Product Name": "ZERODOL TH OD 8MG CAP",
         "Pack": "5 CAP",
-        "Company Name": "ZERODOL TAB"
+        "Company Name": "IPCA LABORATORIES (PHARMA)"
     },
     {
         "Product Name": "ACERA [D] CAP",
@@ -76030,6 +76050,11 @@ const navkarMedicineData = [
         "Company Name": "MACLEODS (PHARMA)"
     },
     {
+        "Product Name": "MACLIGA",
+        "Pack": "10'S",
+        "Company Name": "MACLEODS (PHARMA)"
+    },
+    {
         "Product Name": "MACPOD CV 200MG TAB",
         "Pack": "10 TAB",
         "Company Name": "MACLEODS (PHARMA)"
@@ -80405,12 +80430,12 @@ const navkarMedicineData = [
         "Company Name": "GASTICA FIZ TAB"
     },
     {
-        "Product Name": "THERMOKIND ADVANCE TOOTHPASTE",
+        "Product Name": "THERMOKIND ADVANCE TOOTHPASTE 100GM",
         "Pack": "100GM",
         "Company Name": "GASTICA FIZ TAB"
     },
     {
-        "Product Name": "THERMOKIND ADVANCE TOOTHPASTE",
+        "Product Name": "THERMOKIND ADVANCE TOOTHPASTE 50GM",
         "Pack": "50GM",
         "Company Name": "GASTICA FIZ TAB"
     },
@@ -81647,16 +81672,6 @@ const navkarMedicineData = [
     {
         "Product Name": "VONALONG 20 TAB",
         "Pack": "TAB",
-        "Company Name": "TELMIKIND [AM] TAB"
-    },
-    {
-        "Product Name": "ZENFLOX 100 DT TAB",
-        "Pack": "10 TAB",
-        "Company Name": "TELMIKIND [AM] TAB"
-    },
-    {
-        "Product Name": "ZENFLOX 200 TAB",
-        "Pack": "10TAB",
         "Company Name": "TELMIKIND [AM] TAB"
     },
     {
@@ -83355,6 +83370,16 @@ const navkarMedicineData = [
         "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
+        "Product Name": "ZENFLOX 100 DT TAB",
+        "Pack": "10 TAB",
+        "Company Name": "MANKIND PHARMA {VISTAR}"
+    },
+    {
+        "Product Name": "ZENFLOX 200 TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA {VISTAR}"
+    },
+    {
         "Product Name": "ZENFLOX EYE DROPS",
         "Pack": "10ML",
         "Company Name": "MANKIND PHARMA {VISTAR}"
@@ -84475,7 +84500,7 @@ const navkarMedicineData = [
         "Company Name": "MED MANOR (GLORIA)"
     },
     {
-        "Product Name": "KETO B CREAM",
+        "Product Name": "KETO B CREAM 10GM",
         "Pack": "10GM",
         "Company Name": "MED MANOR (GLORIA)"
     },
@@ -96020,6 +96045,11 @@ const navkarMedicineData = [
         "Company Name": "RANBAXY (CORONUS)"
     },
     {
+        "Product Name": "ROSUVAS D 10 TAB",
+        "Pack": "15'S",
+        "Company Name": "RANBAXY (CORONUS)"
+    },
+    {
         "Product Name": "SITARED MD IR 500MG",
         "Pack": "TAB",
         "Company Name": "RANBAXY (CORONUS)"
@@ -102025,11 +102055,6 @@ const navkarMedicineData = [
         "Company Name": "SUN PHARMA (PHARMA)"
     },
     {
-        "Product Name": "ROSUVAS D 10 TAB",
-        "Pack": "15'S",
-        "Company Name": "SUN PHARMA (PHARMA)"
-    },
-    {
         "Product Name": "TIGATEL 80MG TAB",
         "Pack": "10 TAB",
         "Company Name": "SUN PHARMA (PHARMA)"
@@ -103345,634 +103370,639 @@ const navkarMedicineData = [
         "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
+        "Product Name": "AZTOR ASP 75MG CAP",
+        "Pack": "10 CAP",
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
+    },
+    {
         "Product Name": "BENFOMET FORTE TAB 10`S",
         "Pack": "TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "BENFOMET PLUS TAB 10`S",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "BETACAP PLUS 10MG CAP 10`S",
         "Pack": "10 CAP",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "BETACAP PLUS 5MG CAP 10`S",
         "Pack": "10 CAP",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "BETACAP TR 20MG CAP 10`S",
         "Pack": "10 CAP",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "BETACAP TR 40MG CAP 10`S",
         "Pack": "10 CAP",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "BETAVERT 16 TAB",
         "Pack": "TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "BREVIPIL 100 MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "BREVIPIL 50 MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "BREVIPIL 75 MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "BRIMOLOL EYE DROPS 5ML",
         "Pack": "5ML",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "BRINZOTIM EYE DROPS",
         "Pack": "5ML",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "BUDEZ CR CAP",
         "Pack": "TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "BUPRON SR 150MG TAB",
         "Pack": "TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "BUPRON XL 150MG TAB",
         "Pack": "TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "BUPRON XL 300MG TAB",
         "Pack": "TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "CABERLIN 0.25MG TAB",
         "Pack": "4 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "CABERLIN 0.5MG TAB",
         "Pack": "4 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "CABGOLIN 0.25MG TAB",
         "Pack": "4 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "CABGOLIN 0.5MG TAB",
         "Pack": "4 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "CANSOFT CL VAG SUPPOS",
         "Pack": "3`S",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "CARDIVAS 12.5MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "CARDIVAS 25MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "CARDIVAS 3.125MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "CARDIVAS 6.25MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "CARDIVAS CR 10MG CAP",
         "Pack": "10 CAP",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "CARDIVAS CR 20MG CAP",
         "Pack": "10 CAP",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "CARITEC INJ 100 MCG",
         "Pack": "1 ML",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "CLOPILET A 75MG CAP",
         "Pack": "15 CAP",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "D VENIZ 100MG TAB 10``S",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "D VENIZ 50MG TAB 10`S",
         "Pack": "TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "D VENIZEP 50MG TAB",
         "Pack": "TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "DALSTEP CAP",
         "Pack": "10 CAP",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "DEPOPRED INJ 2ML",
         "Pack": "2ML",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "DIAMOX 250MG TAB",
         "Pack": "TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "DICORATE ER 250MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "DICORATE ER 500MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "DICORATE ER 750MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "DIZITAC TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "DONAMEM 10MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "DONAMEM 5MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "DRONIS 20MCG TAB",
         "Pack": "21 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "DULANE 20MG CAP",
         "Pack": "10 CAP",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "DUZELA 20MG CAP",
         "Pack": "10 CAP",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "DUZELA 30MG CAP",
         "Pack": "10 CAP",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "DUZELA M 20MG CAP",
         "Pack": "10 CAP",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "ENCORATE 500MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "ENCORATE CHRONO 200MG TAB",
         "Pack": "TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "ENCORATE CHRONO 300MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "ENCORATE CHRONO 400MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "ENCORATE CHRONO 500MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "ENCORATE SYP 200ML",
         "Pack": "200ML",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "ETOSHINE 60MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "ETOSHINE 90MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "ETOSHINE MR TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "EYEMIST EYE DROPS",
         "Pack": "10ML",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "EYEMIST EYE GEL",
         "Pack": "10GM",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "EYEMIST FORTE EYE DROPS",
         "Pack": "10ML",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "EZACT MR 4MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "FEBUGET 40MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "FEBUTAZ 80MG TAB",
         "Pack": "TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "FERTISURE FEM TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "FLEXURA D TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "FLUVOXIN CR 100MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "FREEDASE 30MG TAB",
         "Pack": "21 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "FULNITE 2 MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "GABANTIN 100MG CAP",
         "Pack": "TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "GABANTIN 300MG CAP",
         "Pack": "10 CAP",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "GABANTIN GRS 300 MG",
         "Pack": "10TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "GABANTIN NT TAB",
         "Pack": "10TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "GABANTIN PLUS TAB",
         "Pack": "TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "GABANTIP AT 100MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "GEMER 0.5 TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "GEMER 1MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "GEMER 2MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "GEMER DS 1MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "GEMER DS 2MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "GEMER FORTE 2MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "GEMER P1 TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "GEMER P2 TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "GEMER SITA IR 50/1000/1 TAB",
         "Pack": "TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "GEMER SITA IR 50/1000/2 TAB",
         "Pack": "TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "GEMER V 1 TAB",
         "Pack": "TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "GEMER V 2 TAB",
         "Pack": "TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "GLOEYE TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "GLUCORED FORTE TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "GRAVITOR TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "HP KIT TAB",
         "Pack": "6 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "INSTARAFT SUPS 200 ML",
         "Pack": "200 ML",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "ISITE AF TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "ISTAMET 50/1000MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "ISTAMET D XR 1000 TAB",
         "Pack": "15 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "ISTAMET D XR 500 TAB",
         "Pack": "15 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "ISTAMET G IR 50/1000/2",
         "Pack": "TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "ISTAMET XR 100/1000 TAB",
         "Pack": "TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "ISTAMET XR 500 TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "ISTAVEL 100MG TAB",
         "Pack": "10TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "ISTAVEL 50MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "ISTAVEL D 10/100 MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "KETOADD TAB",
         "Pack": "20 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "KORANDIL 10MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "KORANDIL 5MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "KRIMSON 35MCG TAB",
         "Pack": "21 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "LABEBET 100 TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "LACOSET 100 TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "LACOSET 200 TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "LACOSET 50 TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "LACTIFIBER 120G",
         "Pack": "120G",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "LACTIFIBER 210GM",
         "Pack": "210GM",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "LACTIFIBER GRANULES 180GM",
         "Pack": "180GM",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "LACTIFIBER SYP",
         "Pack": "180ML",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "LACTIHEP PLUS SYP",
         "Pack": "250ML",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "LACTIHEP SYP 200ML",
         "Pack": "200ML",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "LATOCOM CF EYE DROPS",
         "Pack": "2.5ML",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "LATOPROST RT EYE DROPS",
         "Pack": "2.5ML",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "LESURIDE INJ",
         "Pack": "2ML",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "LESURIDE TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "LETOVAL 2.5MG TAB",
         "Pack": "5 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "LETROZ 2.5 TAB",
         "Pack": "5 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "LEVIPIL 1GM TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "LEVIPIL 250MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "LEVIPIL 500MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "LEVIPIL 750MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "LEVIPIL INJ",
         "Pack": "5ML",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "LEVIPIL SYP",
         "Pack": "100ML",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "LEVIPIL XR 1GM TAB",
         "Pack": "10 TAB",
-        "Company Name": "AZTOR ASP 75MG CAP"
+        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
         "Product Name": "LIOFEN 10MG TAB",
@@ -113940,69 +113970,74 @@ const navkarMedicineData = [
         "Company Name": "USV LIMITED (CENTRA)"
     },
     {
+        "Product Name": "ECOSPRIN 150 TAB",
+        "Pack": "14 TAB",
+        "Company Name": "USV LIMITED (CENTRA)"
+    },
+    {
         "Product Name": "ECOSPRIN 325 TAB",
         "Pack": "TAB",
-        "Company Name": "ECOSPRIN 150 TAB"
+        "Company Name": "USV LIMITED (CENTRA)"
     },
     {
         "Product Name": "ECOSPRIN 75 TAB",
         "Pack": "14TAB",
-        "Company Name": "ECOSPRIN 150 TAB"
+        "Company Name": "USV LIMITED (CENTRA)"
     },
     {
         "Product Name": "ECOSPRIN GOLD 40 CAP",
         "Pack": "15 CAP",
-        "Company Name": "ECOSPRIN 150 TAB"
+        "Company Name": "USV LIMITED (CENTRA)"
     },
     {
         "Product Name": "ECOSPRIN GOLD FORTE 10 CAP",
         "Pack": "10 CAP",
-        "Company Name": "ECOSPRIN 150 TAB"
+        "Company Name": "USV LIMITED (CENTRA)"
     },
     {
         "Product Name": "ROSEDAY CV 10 TAB",
         "Pack": "10TAB",
-        "Company Name": "ECOSPRIN 150 TAB"
+        "Company Name": "USV LIMITED (CENTRA)"
     },
     {
         "Product Name": "ROSEDAY CV 20 TAB",
         "Pack": "10TAB",
-        "Company Name": "ECOSPRIN 150 TAB"
+        "Company Name": "USV LIMITED (CENTRA)"
     },
     {
         "Product Name": "ROSEDAY F 10 TAB",
         "Pack": "10TAB",
-        "Company Name": "ECOSPRIN 150 TAB"
+        "Company Name": "USV LIMITED (CENTRA)"
     },
     {
         "Product Name": "ROSEDAY F 20 TAB",
         "Pack": "10 TAB",
-        "Company Name": "ECOSPRIN 150 TAB"
+        "Company Name": "USV LIMITED (CENTRA)"
     },
     {
         "Product Name": "ROSEDAY F 5 TAB",
         "Pack": "10 TAB",
-        "Company Name": "ECOSPRIN 150 TAB"
+        "Company Name": "USV LIMITED (CENTRA)"
     },
     {
         "Product Name": "TICASPAN 90MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "ECOSPRIN 150 TAB"
+        "Company Name": "USV LIMITED (CENTRA)"
     },
     {
         "Product Name": "USEMA 0.25/0.5MG PREFILLED",
         "Pack": "PEN",
-        "Company Name": "ECOSPRIN 150 TAB"
+        "Company Name": "USV LIMITED (CENTRA)"
     },
     {
         "Product Name": "XENIA 10MG TAB",
         "Pack": "10TAB",
-        "Company Name": "ECOSPRIN 150 TAB"
+        "Company Name": "USV LIMITED (CENTRA)"
     },
     {
         "Product Name": "XENIA 25MG  TAB",
         "Pack": "10'S",
-        "Company Name": "ECOSPRIN 150 TAB"
+        "Company Name": "USV LIMITED (CENTRA)"
     },
     {
         "Product Name": "AMLACE TAB",
@@ -116685,6 +116720,11 @@ const navkarMedicineData = [
         "Company Name": "WALTER BUSHNELL LTD ACE"
     },
     {
+        "Product Name": "MARTIVON 20MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "WALTER BUSHNELL LTD ACE"
+    },
+    {
         "Product Name": "OVAGEN 50MG TAB",
         "Pack": "10 TAB",
         "Company Name": "WALTER BUSHNELL LTD ACE"
@@ -116837,6 +116877,11 @@ const navkarMedicineData = [
     {
         "Product Name": "MARTIVIT D3 NANO SYR",
         "Pack": "5 ML",
+        "Company Name": "MARTIFUR 100MG TAB"
+    },
+    {
+        "Product Name": "MARTIVON 10MG TAB",
+        "Pack": "10TAB",
         "Company Name": "MARTIFUR 100MG TAB"
     },
     {
@@ -120360,6 +120405,21 @@ const navkarMedicineData = [
         "Company Name": "ZYDUS CADILA-GEO-CHAN"
     },
     {
+        "Product Name": "ALLRITE DC TAB 10``S",
+        "Pack": "10 TAB",
+        "Company Name": "ZYDUS GERMEN GYNEXT (A.C.D)"
+    },
+    {
+        "Product Name": "AMLODAC 10 TAB",
+        "Pack": "15TAB",
+        "Company Name": "ZYDUS GERMEN GYNEXT (A.C.D)"
+    },
+    {
+        "Product Name": "DIANE 35MCG TAB",
+        "Pack": "TAB",
+        "Company Name": "ZYDUS GERMEN GYNEXT (A.C.D)"
+    },
+    {
         "Product Name": "DUOLUTON L TAB",
         "Pack": "21 TAB*BOT",
         "Company Name": "ZYDUS GERMEN GYNEXT (A.C.D)"
@@ -120420,6 +120480,11 @@ const navkarMedicineData = [
         "Company Name": "ZYDUS GERMEN GYNEXT (A.C.D)"
     },
     {
+        "Product Name": "NUCOXIA INJ",
+        "Pack": "1ML",
+        "Company Name": "ZYDUS GERMEN GYNEXT (A.C.D)"
+    },
+    {
         "Product Name": "PRIMOLUT [N] TAB",
         "Pack": "10 TAB",
         "Company Name": "ZYDUS GERMEN GYNEXT (A.C.D)"
@@ -120445,6 +120510,11 @@ const navkarMedicineData = [
         "Company Name": "ZYDUS GERMEN GYNEXT (A.C.D)"
     },
     {
+        "Product Name": "SKINLITE BRIGHT FW GEL",
+        "Pack": "50GM",
+        "Company Name": "ZYDUS GERMEN GYNEXT (A.C.D)"
+    },
+    {
         "Product Name": "STYPTIN-CR TAB",
         "Pack": "10 TAB",
         "Company Name": "ZYDUS GERMEN GYNEXT (A.C.D)"
@@ -120455,14 +120525,9 @@ const navkarMedicineData = [
         "Company Name": "ZYDUS GERMEN GYNEXT (A.C.D)"
     },
     {
-        "Product Name": "ALLRITE DC TAB 10``S",
-        "Pack": "10 TAB",
-        "Company Name": "ZYDUS GERMEN REMEDIES (A.C.D)"
-    },
-    {
-        "Product Name": "AMLODAC 10 TAB",
-        "Pack": "15TAB",
-        "Company Name": "ZYDUS GERMEN REMEDIES (A.C.D)"
+        "Product Name": "XYLOCAINE EYE DROPS",
+        "Pack": "10 ML",
+        "Company Name": "ZYDUS GERMEN GYNEXT (A.C.D)"
     },
     {
         "Product Name": "COMPLAMINA 150MG TAB 10``S",
@@ -120530,11 +120595,6 @@ const navkarMedicineData = [
         "Company Name": "ZYDUS GERMEN REMEDIES (A.C.D)"
     },
     {
-        "Product Name": "DIANE 35MCG TAB",
-        "Pack": "TAB",
-        "Company Name": "ZYDUS GERMEN REMEDIES (A.C.D)"
-    },
-    {
         "Product Name": "DOXOLIN [M] TAB",
         "Pack": "10 TAB",
         "Company Name": "ZYDUS GERMEN REMEDIES (A.C.D)"
@@ -120547,6 +120607,16 @@ const navkarMedicineData = [
     {
         "Product Name": "DOXOLIN 400 TAB",
         "Pack": "30 TAB",
+        "Company Name": "ZYDUS GERMEN REMEDIES (A.C.D)"
+    },
+    {
+        "Product Name": "ERDOZYD AB TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ZYDUS GERMEN REMEDIES (A.C.D)"
+    },
+    {
+        "Product Name": "ERDOZYD TAB",
+        "Pack": "10TAB",
         "Company Name": "ZYDUS GERMEN REMEDIES (A.C.D)"
     },
     {
@@ -120580,6 +120650,11 @@ const navkarMedicineData = [
         "Company Name": "ZYDUS GERMEN REMEDIES (A.C.D)"
     },
     {
+        "Product Name": "HAPPIRAFI SUSP",
+        "Pack": "200ML",
+        "Company Name": "ZYDUS GERMEN REMEDIES (A.C.D)"
+    },
+    {
         "Product Name": "HYOCIMAX INJ",
         "Pack": "1ML",
         "Company Name": "ZYDUS GERMEN REMEDIES (A.C.D)"
@@ -120605,18 +120680,8 @@ const navkarMedicineData = [
         "Company Name": "ZYDUS GERMEN REMEDIES (A.C.D)"
     },
     {
-        "Product Name": "NUCOXIA INJ",
-        "Pack": "1ML",
-        "Company Name": "ZYDUS GERMEN REMEDIES (A.C.D)"
-    },
-    {
         "Product Name": "ORNI O TAB",
         "Pack": "10 TAB",
-        "Company Name": "ZYDUS GERMEN REMEDIES (A.C.D)"
-    },
-    {
-        "Product Name": "SKINLITE BRIGHT FW GEL",
-        "Pack": "50GM",
         "Company Name": "ZYDUS GERMEN REMEDIES (A.C.D)"
     },
     {
@@ -120632,11 +120697,6 @@ const navkarMedicineData = [
     {
         "Product Name": "XYLOCAINE 5% OINT 50GM",
         "Pack": "50GM",
-        "Company Name": "ZYDUS GERMEN REMEDIES (A.C.D)"
-    },
-    {
-        "Product Name": "XYLOCAINE EYE DROPS",
-        "Pack": "10 ML",
         "Company Name": "ZYDUS GERMEN REMEDIES (A.C.D)"
     },
     {
@@ -121015,11 +121075,6 @@ const navkarMedicineData = [
         "Company Name": "ZYDUS PHARMA (FORTIZA)CHANDAN"
     },
     {
-        "Product Name": "HAPPIRAFI SUSP",
-        "Pack": "200ML",
-        "Company Name": "ZYDUS PHARMA (INDON)"
-    },
-    {
         "Product Name": "ATEN D TAB",
         "Pack": "TAB",
         "Company Name": "ZYDUS PHARMA (MEDICA)"
@@ -121097,11 +121152,6 @@ const navkarMedicineData = [
     {
         "Product Name": "DAPAGLYN M 500 TAB",
         "Pack": "15TAB",
-        "Company Name": "ZYDUS PHARMA (MEDICA)"
-    },
-    {
-        "Product Name": "ERDOZYD TAB",
-        "Pack": "10TAB",
         "Company Name": "ZYDUS PHARMA (MEDICA)"
     },
     {
@@ -121552,11 +121602,6 @@ const navkarMedicineData = [
     {
         "Product Name": "BIODOXI LB CAP",
         "Pack": "10CAP",
-        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
-    },
-    {
-        "Product Name": "ERDOZYD AB TAB",
-        "Pack": "10 TAB",
         "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
     },
     {

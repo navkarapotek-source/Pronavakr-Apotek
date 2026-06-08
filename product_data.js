@@ -670,12 +670,12 @@ const productData = [
         "Company Name": "AJANTA PHARMA LTD"
     },
     {
-        "Product Name": "TELTAN-MT 40/25MG TAB",
+        "Product Name": "TELTAN-MT 25MG TAB",
         "Pack": "1X10TAB",
         "Company Name": "AJANTA PHARMA LTD"
     },
     {
-        "Product Name": "TELTAN-MT 40/50MG TAB",
+        "Product Name": "TELTAN-MT 50MG TAB",
         "Pack": "1X10TAB",
         "Company Name": "AJANTA PHARMA LTD"
     },
@@ -747,11 +747,6 @@ const productData = [
     {
         "Product Name": "PALOMBA P CAPS",
         "Pack": "10CAP",
-        "Company Name": "AJANTA PHARMA LTD GENCARE"
-    },
-    {
-        "Product Name": "PALOMBA-2 TAB",
-        "Pack": "10TAB",
         "Company Name": "AJANTA PHARMA LTD GENCARE"
     },
     {
@@ -4910,11 +4905,6 @@ const productData = [
         "Company Name": "CIPLA"
     },
     {
-        "Product Name": "CLOCIP CREAM 15GM",
-        "Pack": "1X15 GM",
-        "Company Name": "CIPLA"
-    },
-    {
         "Product Name": "CLOPICARD AP 75 TAB (1X15T)",
         "Pack": "1X15T",
         "Company Name": "CIPLA"
@@ -5597,6 +5587,11 @@ const productData = [
     {
         "Product Name": "CLOCIP DUST.75GM POWDER",
         "Pack": "1X75GM",
+        "Company Name": "CIPLA OTC MAIN"
+    },
+    {
+        "Product Name": "CLOCIP L CREAM 10GM",
+        "Pack": "10GM",
         "Company Name": "CIPLA OTC MAIN"
     },
     {
@@ -7155,11 +7150,6 @@ const productData = [
         "Company Name": "DR.REDDY LABORATORIES LTD."
     },
     {
-        "Product Name": "WOKADINE OINT  10GM",
-        "Pack": "1X10GM",
-        "Company Name": "DR.REDDY LABORATORIES LTD."
-    },
-    {
         "Product Name": "WOKADINE OINT 20GM",
         "Pack": "1X20GM",
         "Company Name": "DR.REDDY LABORATORIES LTD."
@@ -7357,6 +7347,11 @@ const productData = [
     {
         "Product Name": "ELDERVIT INJ 12 COMBIKIT",
         "Pack": "1X1.5ML",
+        "Company Name": "ELDER PHARMACEUTICALS LTD"
+    },
+    {
+        "Product Name": "ELDERVIT SYP 225ML",
+        "Pack": "225ML",
         "Company Name": "ELDER PHARMACEUTICALS LTD"
     },
     {
@@ -10850,6 +10845,16 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "CITICOHEAL 500 TAB",
+        "Pack": "10TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "CITROHEAL SYP",
+        "Pack": "100ML",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "CLARIFACE-250 TAB",
         "Pack": "1X4TAB",
         "Company Name": "HEALING PHARMA"
@@ -11235,6 +11240,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "FLAVEHEAL MR 35 TAB",
+        "Pack": "10TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "FLAVOTENS 200 TAB",
         "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
@@ -11422,6 +11432,11 @@ const productData = [
     {
         "Product Name": "HEALCEE PLUS TAB",
         "Pack": "15TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "HEALING  BAGPACK (WILDCRAFT)",
+        "Pack": "1PC",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -11870,6 +11885,16 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "HYLORIC 100 TAB",
+        "Pack": "10",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "HYLORIC 300 TAB",
+        "Pack": "10TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "IBUBROOK PLUS SYRUP",
         "Pack": "1X100ML",
         "Company Name": "HEALING PHARMA"
@@ -12050,6 +12075,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "MECOBROOK FORTE TAB",
+        "Pack": "10TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "MECOBROOK LC TAB",
         "Pack": "15TAB",
         "Company Name": "HEALING PHARMA"
@@ -12187,6 +12217,11 @@ const productData = [
     {
         "Product Name": "MUPIHEAL F OINT",
         "Pack": "1X10GM",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "N-ACETAU TAB",
+        "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -12617,6 +12652,11 @@ const productData = [
     {
         "Product Name": "SENSTONE TAB",
         "Pack": "60TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "SEROQUIT 50 TAB",
+        "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -20950,6 +20990,16 @@ const productData = [
         "Company Name": "NARENDRA MARKETING"
     },
     {
+        "Product Name": "NM SING RAINCOAT",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "NM UMBRELLA",
+        "Pack": "1PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
         "Product Name": "SHEVASH CREAM",
         "Pack": "1X60GM",
         "Company Name": "NARENDRA MARKETING"
@@ -20972,11 +21022,6 @@ const productData = [
     {
         "Product Name": "SUN SENSE SUN SCREEN LOTION",
         "Pack": "50GM",
-        "Company Name": "NARENDRA MARKETING"
-    },
-    {
-        "Product Name": "UMBRELLA",
-        "Pack": "1PC",
         "Company Name": "NARENDRA MARKETING"
     },
     {
@@ -25887,6 +25932,11 @@ const productData = [
     {
         "Product Name": "LEVOSCORE 0.63 RESPULES",
         "Pack": "1X2.5ML",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
+        "Product Name": "LIVART ADVANCE TAB",
+        "Pack": "100TAB",
         "Company Name": "SMART ICONIC LAB"
     },
     {
