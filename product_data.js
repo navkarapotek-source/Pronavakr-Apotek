@@ -13550,11 +13550,6 @@ const productData = [
         "Company Name": "HINDUSTAN MEDICAL DEVICES"
     },
     {
-        "Product Name": "DISP SYR 1ML NEED MP-40",
-        "Pack": "-",
-        "Company Name": "HINDUSTAN MEDICAL DEVICES"
-    },
-    {
         "Product Name": "DISP SYR 2.5ML  23G",
         "Pack": "1 PC",
         "Company Name": "HINDUSTAN MEDICAL DEVICES"
@@ -28987,6 +28982,11 @@ const productData = [
     {
         "Product Name": "HYDROQUIZ-200 TABS",
         "Pack": "1X15T",
+        "Company Name": "STERIS HEALTHCARE"
+    },
+    {
+        "Product Name": "HYDROXENA-500 CAPS",
+        "Pack": "1X10C",
         "Company Name": "STERIS HEALTHCARE"
     },
     {

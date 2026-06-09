@@ -180,6 +180,11 @@ const navkarColdchainData = [
         "Company Name": "ALKEM LAB (GASTOKEM)"
     },
     {
+        "Product Name": "OBESEMA 0.5MG INJ",
+        "Pack": "INJ",
+        "Company Name": "ALKEM LABORATORIES LIMITED"
+    },
+    {
         "Product Name": "PULMOSMART PULMULES",
         "Pack": "2 ML",
         "Company Name": "ALKEM PULMOCARE"

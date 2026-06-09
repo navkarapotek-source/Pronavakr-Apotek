@@ -1280,11 +1280,6 @@ const otcData = [
         "Company Name": "DABUR INDIA LIMITED"
     },
     {
-        "Product Name": "IME-9 TAB",
-        "Pack": "60TAB",
-        "Company Name": "DABUR INDIA LIMITED"
-    },
-    {
         "Product Name": "INDULEKHA OIL [100ML]",
         "Pack": "100ML",
         "Company Name": "DABUR INDIA LIMITED"
@@ -1367,11 +1362,6 @@ const otcData = [
     {
         "Product Name": "PLAYWIN CAP",
         "Pack": "10CAP",
-        "Company Name": "DABUR INDIA LIMITED"
-    },
-    {
-        "Product Name": "PLAYWIN OIL",
-        "Pack": "15ML",
         "Company Name": "DABUR INDIA LIMITED"
     },
     {
@@ -6020,6 +6010,11 @@ const otcData = [
         "Company Name": "SHRIRAMA STORES YELLAPUR"
     },
     {
+        "Product Name": "IME-9 TAB",
+        "Pack": "60TAB",
+        "Company Name": "SHRIRAMA STORES YELLAPUR"
+    },
+    {
         "Product Name": "IODEX ACTIVE 16GM",
         "Pack": "16GM",
         "Company Name": "SHRIRAMA STORES YELLAPUR"
@@ -6207,6 +6202,11 @@ const otcData = [
     {
         "Product Name": "PINKOO GRIPE WATER",
         "Pack": "135ML",
+        "Company Name": "SHRIRAMA STORES YELLAPUR"
+    },
+    {
+        "Product Name": "PLAYWIN OIL",
+        "Pack": "15ML",
         "Company Name": "SHRIRAMA STORES YELLAPUR"
     },
     {

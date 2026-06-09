@@ -10455,11 +10455,6 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LABORATORIES LIMITED"
     },
     {
-        "Product Name": "OBESEMA 0.5MG INJ",
-        "Pack": "INJ",
-        "Company Name": "ALKEM LABORATORIES LIMITED"
-    },
-    {
         "Product Name": "OBESEMA 1.7MG INJ",
         "Pack": "INJ",
         "Company Name": "ALKEM LABORATORIES LIMITED"
@@ -59400,6 +59395,11 @@ const navkarMedicineData = [
         "Company Name": "IPCA HEALTHCARE PVT. LTD."
     },
     {
+        "Product Name": "VENPOWER 100 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "IPCA HEALTHCARE PVT. LTD."
+    },
+    {
         "Product Name": "VENPOWER 50 TAB",
         "Pack": "10TAB",
         "Company Name": "IPCA HEALTHCARE PVT. LTD."
@@ -97405,11 +97405,6 @@ const navkarMedicineData = [
         "Company Name": "RAPTAKOS BRETT & COMPANY LTD"
     },
     {
-        "Product Name": "DEXTRAMIN SACHET",
-        "Pack": "1 SACHET",
-        "Company Name": "RAPTAKOS BRETT & COMPANY LTD"
-    },
-    {
         "Product Name": "FRUCTODEX IN SALAINE INF 500ML",
         "Pack": "500ML",
         "Company Name": "RAPTAKOS BRETT & COMPANY LTD"
@@ -97462,11 +97457,6 @@ const navkarMedicineData = [
     {
         "Product Name": "ISOFLAV CR CAP",
         "Pack": "TAB",
-        "Company Name": "RAPTAKOS BRETT & COMPANY LTD"
-    },
-    {
-        "Product Name": "LACTODEX 4-1000 G",
-        "Pack": "1000G",
         "Company Name": "RAPTAKOS BRETT & COMPANY LTD"
     },
     {
@@ -97585,6 +97575,11 @@ const navkarMedicineData = [
         "Company Name": "RAPTAKOS BRETT & COMPANY LTD (EIDIKOS)"
     },
     {
+        "Product Name": "DEXTRAMIN SACHET",
+        "Pack": "1 SACHET",
+        "Company Name": "RAPTAKOS BRETT & COMPANY LTD (EIDIKOS)"
+    },
+    {
         "Product Name": "HOVITE L DROPS",
         "Pack": "15ML",
         "Company Name": "RAPTAKOS BRETT & COMPANY LTD (EIDIKOS)"
@@ -97607,6 +97602,11 @@ const navkarMedicineData = [
     {
         "Product Name": "LACTODEX 2 FOLLOW UP 450 GM",
         "Pack": "450GM",
+        "Company Name": "RAPTAKOS BRETT & COMPANY LTD (EIDIKOS)"
+    },
+    {
+        "Product Name": "LACTODEX 4-1000 G",
+        "Pack": "1000G",
         "Company Name": "RAPTAKOS BRETT & COMPANY LTD (EIDIKOS)"
     },
     {
@@ -100397,6 +100397,11 @@ const navkarMedicineData = [
     {
         "Product Name": "DCLEAR GEL 20GM",
         "Pack": "20GM",
+        "Company Name": "SKINNOVATE THERAPUTICS LLP"
+    },
+    {
+        "Product Name": "ELVETA 10 MG",
+        "Pack": "10TAB",
         "Company Name": "SKINNOVATE THERAPUTICS LLP"
     },
     {
@@ -120500,13 +120505,13 @@ const navkarMedicineData = [
         "Company Name": "ZYDUS GERMEN GYNEXT (A.C.D)"
     },
     {
-        "Product Name": "PROLUTON DEPOT 250MG INJ 1ML",
-        "Pack": "1ML",
+        "Product Name": "PROLUTON DEPOT 002MG INJ 2ML",
+        "Pack": "2ML",
         "Company Name": "ZYDUS GERMEN GYNEXT (A.C.D)"
     },
     {
-        "Product Name": "PROLUTON DEPOT 500MG INJ 2ML",
-        "Pack": "2ML",
+        "Product Name": "PROLUTON DEPOT 250MG INJ 1ML",
+        "Pack": "1ML",
         "Company Name": "ZYDUS GERMEN GYNEXT (A.C.D)"
     },
     {
