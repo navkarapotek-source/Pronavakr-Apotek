@@ -16540,6 +16540,31 @@ const navkarMedicineData = [
         "Company Name": "ARISTO PHARMACEUTICALS"
     },
     {
+        "Product Name": "ARIZCLOFEN-SP TAB",
+        "Pack": "10TAB",
+        "Company Name": "ARIZMA LIFESCIENCES LLP"
+    },
+    {
+        "Product Name": "DEFLARIMA 6 TAB",
+        "Pack": "10TAB",
+        "Company Name": "ARIZMA LIFESCIENCES LLP"
+    },
+    {
+        "Product Name": "MOXARIZMA 625 TAB",
+        "Pack": "10TAB",
+        "Company Name": "ARIZMA LIFESCIENCES LLP"
+    },
+    {
+        "Product Name": "REEBSUG-DSR CAP",
+        "Pack": "10CAP",
+        "Company Name": "ARIZMA LIFESCIENCES LLP"
+    },
+    {
+        "Product Name": "SUGNERVE-M TAB",
+        "Pack": "10TAB",
+        "Company Name": "ARIZMA LIFESCIENCES LLP"
+    },
+    {
         "Product Name": "B 24 SYRUP",
         "Pack": "200ML",
         "Company Name": "ASK BIOPHARMA"
@@ -31365,6 +31390,11 @@ const navkarMedicineData = [
         "Company Name": "DR REDDYS LABORATORIES LTD."
     },
     {
+        "Product Name": "VENUSIA ACNE MOISTURIZING GEL",
+        "Pack": "60G",
+        "Company Name": "DR REDDYS LABORATORIES LTD."
+    },
+    {
         "Product Name": "VENUSIA GLO FACEWASH",
         "Pack": "100GM",
         "Company Name": "DR REDDYS LABORATORIES LTD."
@@ -36120,6 +36150,11 @@ const navkarMedicineData = [
         "Company Name": "ENTOD MEDEVA"
     },
     {
+        "Product Name": "COLINTOD DROPS",
+        "Pack": "15ML",
+        "Company Name": "ENTOD MEDEVA"
+    },
+    {
         "Product Name": "EYECIRQUE ADVANCE UNDER EYE GEL SERUM",
         "Pack": "30GM",
         "Company Name": "ENTOD MEDEVA"
@@ -39700,19 +39735,24 @@ const navkarMedicineData = [
         "Company Name": "ELECTRAL ORANGE POWDER"
     },
     {
+        "Product Name": "ELECTRAL POWDER 4.4GM",
+        "Pack": "4 .4 GM",
+        "Company Name": "ELECTRAL ORANGE POWDER"
+    },
+    {
         "Product Name": "ELECTRAL Z PLUS LIQ",
         "Pack": "200ML",
-        "Company Name": "ELECTRAL POWDER 4.4GM"
+        "Company Name": "ELECTRAL ORANGE POWDER"
     },
     {
         "Product Name": "ELECTRAL Z+ SACHETS",
         "Pack": "4.38 GM",
-        "Company Name": "ELECTRAL POWDER 4.4GM"
+        "Company Name": "ELECTRAL ORANGE POWDER"
     },
     {
         "Product Name": "ZIORAL ORAL SOLU",
         "Pack": "100ML",
-        "Company Name": "ELECTRAL POWDER 4.4GM"
+        "Company Name": "ELECTRAL ORANGE POWDER"
     },
     {
         "Product Name": "ARFLUR 100 TAB",
@@ -40230,89 +40270,94 @@ const navkarMedicineData = [
         "Company Name": "FDC LTD (SELECT)"
     },
     {
+        "Product Name": "7 LA SUSP",
+        "Pack": "250 ML",
+        "Company Name": "FDC LTD (SPECTRA)"
+    },
+    {
         "Product Name": "99F 250 MG SYP",
         "Pack": "60 ML",
-        "Company Name": "7 LA SUSP"
+        "Company Name": "FDC LTD (SPECTRA)"
     },
     {
         "Product Name": "99F 650 TAB",
         "Pack": "15 TAB",
-        "Company Name": "7 LA SUSP"
+        "Company Name": "FDC LTD (SPECTRA)"
     },
     {
         "Product Name": "ENTERO PLUS CAPSULES",
         "Pack": "10 CAP",
-        "Company Name": "7 LA SUSP"
+        "Company Name": "FDC LTD (SPECTRA)"
     },
     {
         "Product Name": "ENTERO PLUS DROP",
         "Pack": "3.5 ML",
-        "Company Name": "7 LA SUSP"
+        "Company Name": "FDC LTD (SPECTRA)"
     },
     {
         "Product Name": "ENTERO PLUS SACHET",
         "Pack": "1GM",
-        "Company Name": "7 LA SUSP"
+        "Company Name": "FDC LTD (SPECTRA)"
     },
     {
         "Product Name": "TURBO 600 TAB",
         "Pack": "10 TAB",
-        "Company Name": "7 LA SUSP"
+        "Company Name": "FDC LTD (SPECTRA)"
     },
     {
         "Product Name": "ZIFI 100 DRY SYP",
         "Pack": "30ML",
-        "Company Name": "7 LA SUSP"
+        "Company Name": "FDC LTD (SPECTRA)"
     },
     {
         "Product Name": "ZIFI 100 DRY SYP 60ML",
         "Pack": "60ML",
-        "Company Name": "7 LA SUSP"
+        "Company Name": "FDC LTD (SPECTRA)"
     },
     {
         "Product Name": "ZIFI 100 DT TAB",
         "Pack": "10 TAB",
-        "Company Name": "7 LA SUSP"
+        "Company Name": "FDC LTD (SPECTRA)"
     },
     {
         "Product Name": "ZIFI 100 READYMIX  SYS",
         "Pack": "60ML",
-        "Company Name": "7 LA SUSP"
+        "Company Name": "FDC LTD (SPECTRA)"
     },
     {
         "Product Name": "ZIFI 100 READYMIX SYP",
         "Pack": "30ML",
-        "Company Name": "7 LA SUSP"
+        "Company Name": "FDC LTD (SPECTRA)"
     },
     {
         "Product Name": "ZIFI 200 TAB",
         "Pack": "15 TAB",
-        "Company Name": "7 LA SUSP"
+        "Company Name": "FDC LTD (SPECTRA)"
     },
     {
         "Product Name": "ZIFI 400 TAB",
         "Pack": "TAB",
-        "Company Name": "7 LA SUSP"
+        "Company Name": "FDC LTD (SPECTRA)"
     },
     {
         "Product Name": "ZIFI 50 DRY SYR",
         "Pack": "30 ML",
-        "Company Name": "7 LA SUSP"
+        "Company Name": "FDC LTD (SPECTRA)"
     },
     {
         "Product Name": "ZIFI 50 DT TAB",
         "Pack": "10 TAB",
-        "Company Name": "7 LA SUSP"
+        "Company Name": "FDC LTD (SPECTRA)"
     },
     {
         "Product Name": "ZIFI 50 READYMIX SYP",
         "Pack": "60 ML",
-        "Company Name": "7 LA SUSP"
+        "Company Name": "FDC LTD (SPECTRA)"
     },
     {
         "Product Name": "ZIFI CV 100 DRY SYP",
         "Pack": "30ML",
-        "Company Name": "7 LA SUSP"
+        "Company Name": "FDC LTD (SPECTRA)"
     },
     {
         "Product Name": "ZIFI CV 200 TAB",
@@ -49947,6 +49992,11 @@ const navkarMedicineData = [
     {
         "Product Name": "B BOLD PATCHES",
         "Pack": "5'S",
+        "Company Name": "HETERO HEALTHCARE LTD MAIN"
+    },
+    {
+        "Product Name": "BILASET {M} SYRUP",
+        "Pack": "60ML",
         "Company Name": "HETERO HEALTHCARE LTD MAIN"
     },
     {
@@ -61665,11 +61715,6 @@ const navkarMedicineData = [
         "Company Name": "J.B CHEMICALS ( OPTHA DIVISION)"
     },
     {
-        "Product Name": "CILACAR B 5 MG TAB",
-        "Pack": "10TAB",
-        "Company Name": "J.B CHEMICALS ( OPTHA DIVISION)"
-    },
-    {
         "Product Name": "ILEVRO 0.3% EYE DROPS",
         "Pack": "3 ML",
         "Company Name": "J.B CHEMICALS ( OPTHA DIVISION)"
@@ -62481,6 +62526,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "CILACAR 5 TAB",
+        "Pack": "10TAB",
+        "Company Name": "J.B.PHARMA( VIVA )"
+    },
+    {
+        "Product Name": "CILACAR B 5 MG TAB",
         "Pack": "10TAB",
         "Company Name": "J.B.PHARMA( VIVA )"
     },

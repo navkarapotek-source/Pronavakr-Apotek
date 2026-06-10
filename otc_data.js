@@ -5120,7 +5120,7 @@ const otcData = [
         "Company Name": "RECKITT BENCKISER INDIA"
     },
     {
-        "Product Name": "DETTOL H/W REFIL [ORIGINAL] 180ML",
+        "Product Name": "DETTOL H/W REFIL [ORIGINAL] 1+1FREE",
         "Pack": "180ML",
         "Company Name": "RECKITT BENCKISER INDIA"
     },
@@ -5976,11 +5976,6 @@ const otcData = [
     },
     {
         "Product Name": "ENDURA MASS [BANANA]",
-        "Pack": "500GM",
-        "Company Name": "SHRIRAMA STORES YELLAPUR"
-    },
-    {
-        "Product Name": "ENDURA MASS [CHOCLATE]",
         "Pack": "500GM",
         "Company Name": "SHRIRAMA STORES YELLAPUR"
     },

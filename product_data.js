@@ -11335,7 +11335,12 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
-        "Product Name": "GABATOP NT TAB",
+        "Product Name": "GABATOP NT 100 TAB",
+        "Pack": "10TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "GABATOP NT 400 TAB",
         "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
     },
@@ -14370,6 +14375,16 @@ const productData = [
         "Company Name": "JOHNSON & JOHNSON"
     },
     {
+        "Product Name": "ERZL APPLE DRINK 200ML",
+        "Pack": "200ML",
+        "Company Name": "JOHNSON & JOHNSON (OTC)"
+    },
+    {
+        "Product Name": "ERZL ORANGE DRINK 200ML",
+        "Pack": "200ML",
+        "Company Name": "JOHNSON & JOHNSON (OTC)"
+    },
+    {
         "Product Name": "ORSL WHO APPLE 200ML (JOHNSON)",
         "Pack": "1X200ML",
         "Company Name": "JOHNSON & JOHNSON (OTC)"
@@ -16977,11 +16992,6 @@ const productData = [
     {
         "Product Name": "DERMIFORD OINT.15GM",
         "Pack": "1X15 GM",
-        "Company Name": "LEEFORD HEALTHCARE LTD."
-    },
-    {
-        "Product Name": "DERMIFRESH CREAM 10GM",
-        "Pack": "1X10GM",
         "Company Name": "LEEFORD HEALTHCARE LTD."
     },
     {
@@ -24790,6 +24800,11 @@ const productData = [
         "Company Name": "SHREE SWAMI SAMARTH AGENCIES"
     },
     {
+        "Product Name": "ENDURA MASS [CHOCLATE]",
+        "Pack": "500GM",
+        "Company Name": "SHRIRAMA STORES YELLAPUR"
+    },
+    {
         "Product Name": "ACECREST SP15 TAB",
         "Pack": "10TAB",
         "Company Name": "SMART BFGF"
@@ -25687,6 +25702,11 @@ const productData = [
     {
         "Product Name": "COOLWAVE LIME POWDER 75GM",
         "Pack": "75GM",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
+        "Product Name": "DERMIFRESH CREAM 10GM",
+        "Pack": "1X10GM",
         "Company Name": "SMART ICONIC LAB"
     },
     {
