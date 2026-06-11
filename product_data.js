@@ -11130,6 +11130,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "DULATA-20MG TABS",
+        "Pack": "1X10T",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "DUTAHEAL 0.5 SOFTGEL 30CAP",
         "Pack": "30CAP",
         "Company Name": "HEALING PHARMA"
@@ -12222,6 +12227,11 @@ const productData = [
     {
         "Product Name": "MUPIHEAL F OINT",
         "Pack": "1X10GM",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "MYCOTRANS 500 TAB",
+        "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -18995,6 +19005,11 @@ const productData = [
         "Company Name": "LUPIN LIFESCIENCES LIMITED"
     },
     {
+        "Product Name": "LUPIN FOLDING STOOL",
+        "Pack": "PC",
+        "Company Name": "LUPIN LIFESCIENCES LIMITED"
+    },
+    {
         "Product Name": "LUPIN HEADPHONE",
         "Pack": "PC",
         "Company Name": "LUPIN LIFESCIENCES LIMITED"
@@ -19086,6 +19101,11 @@ const productData = [
     },
     {
         "Product Name": "LUPIN VACCUM CLEANER",
+        "Pack": "PC",
+        "Company Name": "LUPIN LIFESCIENCES LIMITED"
+    },
+    {
+        "Product Name": "LUPIN WATER BOTTLE",
         "Pack": "PC",
         "Company Name": "LUPIN LIFESCIENCES LIMITED"
     },
