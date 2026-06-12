@@ -6820,6 +6820,51 @@ const otcData = [
         "Company Name": "WESTERN REMEDIES(INDIA)"
     },
     {
+        "Product Name": "GLUCOVITA BOLTS [MRP 250]",
+        "Pack": "1JAR",
+        "Company Name": "WIPRO CONSUMER CARE"
+    },
+    {
+        "Product Name": "SANTOOR H/W CLASSIC 180ML [MRP 70]1+1FREE",
+        "Pack": "180",
+        "Company Name": "WIPRO CONSUMER CARE"
+    },
+    {
+        "Product Name": "SANTOOR H/W MILD 180ML [MRP 70]1+1FREE",
+        "Pack": "180ML",
+        "Company Name": "WIPRO CONSUMER CARE"
+    },
+    {
+        "Product Name": "SANTOOR H/W PUMP [CLASSIC]1+1FREE",
+        "Pack": "200ML",
+        "Company Name": "WIPRO CONSUMER CARE"
+    },
+    {
+        "Product Name": "SANTOOR H/W PUMP [FRESH]1+1FREE",
+        "Pack": "200ML",
+        "Company Name": "WIPRO CONSUMER CARE"
+    },
+    {
+        "Product Name": "SANTOOR H/W PUMP [MILD]1+1FREE",
+        "Pack": "200ML",
+        "Company Name": "WIPRO CONSUMER CARE"
+    },
+    {
+        "Product Name": "SANTOOR H/W PUMP [TURMERIC]1+1FREE",
+        "Pack": "200ML",
+        "Company Name": "WIPRO CONSUMER CARE"
+    },
+    {
+        "Product Name": "SANTOOR SOAP  37GM",
+        "Pack": "4PC",
+        "Company Name": "WIPRO CONSUMER CARE"
+    },
+    {
+        "Product Name": "SANTOOR SOAP 100GM",
+        "Pack": "4PC",
+        "Company Name": "WIPRO CONSUMER CARE"
+    },
+    {
         "Product Name": "NITYAM TAB",
         "Pack": "10TAB",
         "Company Name": "ZANDU"

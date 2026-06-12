@@ -19105,11 +19105,6 @@ const productData = [
         "Company Name": "LUPIN LIFESCIENCES LIMITED"
     },
     {
-        "Product Name": "LUPIN WATER BOTTLE",
-        "Pack": "PC",
-        "Company Name": "LUPIN LIFESCIENCES LIMITED"
-    },
-    {
         "Product Name": "LUPIPARA FORTE SYP 60ML",
         "Pack": "60ML",
         "Company Name": "LUPIN LIFESCIENCES LIMITED"
@@ -30828,6 +30823,11 @@ const productData = [
         "Product Name": "WAL-TARTAN CT 12.5 TAB",
         "Pack": "10X15T",
         "Company Name": "WALLACE PHARMACEUTICALS PVT LTD"
+    },
+    {
+        "Product Name": "SANTOOR HANDY REFILL [MRP 10]",
+        "Pack": "7.65GM",
+        "Company Name": "WIPRO CONSUMER CARE"
     },
     {
         "Product Name": "FERRIWOK-XT TAB (A/A)",

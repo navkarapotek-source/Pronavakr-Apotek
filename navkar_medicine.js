@@ -4485,89 +4485,94 @@ const navkarMedicineData = [
         "Company Name": "LINATIN 5 MG TAB"
     },
     {
+        "Product Name": "MET XL 50 TAB",
+        "Pack": "20 TAB",
+        "Company Name": "LINATIN 5 MG TAB"
+    },
+    {
         "Product Name": "MET XL 75 TAB",
         "Pack": "TAB",
-        "Company Name": "MET XL 50 TAB"
+        "Company Name": "LINATIN 5 MG TAB"
     },
     {
         "Product Name": "MET XL AM 25/2.5 TAB",
         "Pack": "TAB",
-        "Company Name": "MET XL 50 TAB"
+        "Company Name": "LINATIN 5 MG TAB"
     },
     {
         "Product Name": "MET XL AM 25/5MG TAB",
         "Pack": "20 TAB",
-        "Company Name": "MET XL 50 TAB"
+        "Company Name": "LINATIN 5 MG TAB"
     },
     {
         "Product Name": "MET XL AM 50/5MG TAB",
         "Pack": "20 TAB",
-        "Company Name": "MET XL 50 TAB"
+        "Company Name": "LINATIN 5 MG TAB"
     },
     {
         "Product Name": "MET XL D 25/10MG TABG83",
         "Pack": "10TAB",
-        "Company Name": "MET XL 50 TAB"
+        "Company Name": "LINATIN 5 MG TAB"
     },
     {
         "Product Name": "MET XL D 50/10MG TAB",
         "Pack": "10TAB",
-        "Company Name": "MET XL 50 TAB"
+        "Company Name": "LINATIN 5 MG TAB"
     },
     {
         "Product Name": "MET XL H 25/12.5 TAB",
         "Pack": "20 TAB",
-        "Company Name": "MET XL 50 TAB"
+        "Company Name": "LINATIN 5 MG TAB"
     },
     {
         "Product Name": "MET XL H 50/12.5 TAB",
         "Pack": "20 TAB",
-        "Company Name": "MET XL 50 TAB"
+        "Company Name": "LINATIN 5 MG TAB"
     },
     {
         "Product Name": "MET XL R 25/2.5 TAB",
         "Pack": "15 TAB",
-        "Company Name": "MET XL 50 TAB"
+        "Company Name": "LINATIN 5 MG TAB"
     },
     {
         "Product Name": "MET XL R 25/5 TAB",
         "Pack": "15 TAB",
-        "Company Name": "MET XL 50 TAB"
+        "Company Name": "LINATIN 5 MG TAB"
     },
     {
         "Product Name": "MET XL R 50/5 TAB",
         "Pack": "15 TAB",
-        "Company Name": "MET XL 50 TAB"
+        "Company Name": "LINATIN 5 MG TAB"
     },
     {
         "Product Name": "MET XL T 25MG TAB",
         "Pack": "TAB",
-        "Company Name": "MET XL 50 TAB"
+        "Company Name": "LINATIN 5 MG TAB"
     },
     {
         "Product Name": "MET XL T 50MG TAB",
         "Pack": "20 TAB",
-        "Company Name": "MET XL 50 TAB"
+        "Company Name": "LINATIN 5 MG TAB"
     },
     {
         "Product Name": "MET XL-3D 25/12.5/40 TAB",
         "Pack": "15 TAB",
-        "Company Name": "MET XL 50 TAB"
+        "Company Name": "LINATIN 5 MG TAB"
     },
     {
         "Product Name": "MET XL-3D 25/6.25 TAB",
         "Pack": "15 TAB",
-        "Company Name": "MET XL 50 TAB"
+        "Company Name": "LINATIN 5 MG TAB"
     },
     {
         "Product Name": "MET XL-3D 50/12.5 TAB",
         "Pack": "15 TAB",
-        "Company Name": "MET XL 50 TAB"
+        "Company Name": "LINATIN 5 MG TAB"
     },
     {
         "Product Name": "MET XL-3D 50/6.25MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "MET XL 50 TAB"
+        "Company Name": "LINATIN 5 MG TAB"
     },
     {
         "Product Name": "CALTUF TAB",
@@ -64955,6 +64960,11 @@ const navkarMedicineData = [
         "Company Name": "KLM LABORATORIES PHARMA"
     },
     {
+        "Product Name": "EXTEND VITA SYRUP",
+        "Pack": "200ML",
+        "Company Name": "KLM LABORATORIES PHARMA"
+    },
+    {
         "Product Name": "GA 6 CREAM",
         "Pack": "30GM",
         "Company Name": "KLM LABORATORIES PHARMA"
@@ -85036,7 +85046,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "SACHET",
-        "Pack": "180",
+        "Pack": "680",
         "Company Name": "MEDIBLESS"
     },
     {
@@ -111656,7 +111666,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "FEBUGOOD 40MG TAB",
-        "Pack": "TAB",
+        "Pack": "10 TAB",
         "Company Name": "TORRENT PHARMA (UNO SPIRIT)"
     },
     {
@@ -113895,6 +113905,11 @@ const navkarMedicineData = [
         "Company Name": "UNIVERSAL GENERIC"
     },
     {
+        "Product Name": "COREDENSE 7.48GM",
+        "Pack": "1'S SACHET",
+        "Company Name": "UNIVERSAL GENERIC"
+    },
+    {
         "Product Name": "EUNYKTA SALES TAB",
         "Pack": "10TAB",
         "Company Name": "UNIVERSAL GENERIC"
@@ -116115,13 +116130,13 @@ const navkarMedicineData = [
         "Company Name": "VETLANDA HEALTHCARE PVT LTD"
     },
     {
-        "Product Name": "NEX VICCO PASTE 100 GM",
-        "Pack": "100 GM",
+        "Product Name": "VICCO NARAYANI CREAM 30GM",
+        "Pack": "30GM",
         "Company Name": "VICCO LABORATORIES"
     },
     {
-        "Product Name": "VICCO NARAYANI CREAM 30GM",
-        "Pack": "30GM",
+        "Product Name": "VICCO PASTE 100 GM",
+        "Pack": "100 GM",
         "Company Name": "VICCO LABORATORIES"
     },
     {
@@ -121767,6 +121782,11 @@ const navkarMedicineData = [
     {
         "Product Name": "STYPTIN CR 15TAB",
         "Pack": "15TAB",
+        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
+    },
+    {
+        "Product Name": "THROMBOZYME FORTE TAB",
+        "Pack": "10TAB",
         "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
     },
     {
