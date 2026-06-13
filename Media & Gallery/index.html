@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Media & Gallery - Navkar Apotek & Pronavkar Lifecare</title>
+<meta name="description" content="Navkar Apotek LLP & Pronavkar Lifecare LLP - Trusted pharmaceutical wholesale distribution in India. Quality medicines, healthcare products, and reliable supply chain." />
+<meta name="keywords" content="pharmaceutical distributor, medicine wholesaler, Navkar Apotek, Pronavkar Lifecare, pharma distribution India, healthcare products" />
+<link rel="icon" type="image/png" href="../logo.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+<style>
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy: #1A9E8F;
+    --navy-mid: #148074;
+    --teal: #1A9E8F;
+    --accent: #F5C125;
+    --warm-white: #fefcf9;
+  }
+
+  body, html {
+    min-height: 100%;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    background: #000;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    word-wrap: break-word;
+    position: relative;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 0 2rem;
+    display: flex; align-items: center;
+    height: 64px;
+    border-bottom: 2px solid var(--accent);
+    backdrop-filter: blur(5px);
+    gap: 1rem;
+  }
+  .nav-brand { display: flex; flex-direction: column; text-decoration: none; }
+  .nav-brand span:first-child {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px; font-weight: 600; color: #1A9E96;
+  }
+  .nav-brand span:last-child {
+    font-size: 10px; color: #F5C518; text-transform: uppercase;
+  }
+  .nav-links { display: flex; gap: 2rem; list-style: none; margin-left: auto; }
+  .nav-links a { color: #373c44; text-decoration: none; text-transform: uppercase; font-size: 13px; }
+  .nav-links a:hover, .nav-links a.active { color: #000; font-weight: 600; }
+
+  .nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .login-btn {
+    padding: 8px 20px;
+    background: var(--accent);
+    color: #000;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    white-space: nowrap;
+  }
+  .login-btn:hover {
+    background: #000;
+    color: #fff;
+  }
+
+  /* Hamburger Menu CSS */
+  .menu-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; z-index: 1001; }
+  .menu-toggle span { width: 25px; height: 3px; background: #373c44; transition: 0.3s; border-radius: 2px; }
+  .nav-overlay {
+    position: fixed; top: 0; right: -100%; width: 250px; height: 100vh;
+    background: var(--navy); z-index: 1000; padding: 80px 2rem; transition: 0.4s ease-in-out;
+    box-shadow: -5px 0 15px rgba(0,0,0,0.3);
+  }
+  .nav-overlay.active { right: 0; }
+  .close-overlay {
+    position: absolute; top: 20px; right: 20px;
+    font-size: 40px; color: #fff; cursor: pointer;
+    line-height: 1;
+  }
+  .overlay-links { list-style: none; display: flex; flex-direction: column; gap: 1.5rem; }
+  .overlay-links a { color: #fff; text-decoration: none; font-size: 18px; text-transform: uppercase; }
+  .menu-toggle.active span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+  .menu-toggle.active span:nth-child(2) { opacity: 0; }
+  .menu-toggle.active span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+
+  /* ── FOOTER STYLES ── */
+  footer {
+    background: #0f2c2a; color: #fff;
+    padding: 4rem 2rem 2rem;
+    position: relative; z-index: 10;
+  }
+  .footer-container {
+    max-width: 1100px; margin: 0 auto;
+    display: grid; grid-template-columns: 2fr 1fr 1.5fr; gap: 4rem;
+    text-align: left;
+  }
+  .footer-col h4 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.4rem; color: var(--accent); margin-bottom: 1.5rem;
+  }
+  .footer-col p { font-size: 14px; color: #bbb; line-height: 1.8; margin-bottom: 1rem; }
+  .footer-links { list-style: none; }
+  .footer-links li { margin-bottom: 0.8rem; }
+  .footer-links a { color: #bbb; text-decoration: none; font-size: 14px; transition: color 0.2s; }
+  .footer-links a:hover { color: #fff; }
+  .footer-contact { display: flex; flex-direction: column; gap: 1rem; }
+
+  /* UPDATED Contact Icons Styling */
+  .contact-item { 
+    display: flex; 
+    align-items: center; 
+    gap: 12px; 
+    font-size: 14px; 
+    color: #bbb; 
+    min-width: 0; 
+    overflow-wrap: break-word; 
+    word-break: break-word; 
+    line-height: 1.4; 
+  }
+  .contact-icon {
+    width: 42px;
+    height: 42px;
+    min-width: 42px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+  .contact-icon svg {
+    width: 20px;
+    height: 20px;
+  }
+  .contact-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .contact-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--accent);
+    font-weight: 700;
+  }
+
+  .footer-bottom {
+    max-width: 1100px; margin: 3rem auto 0;
+    border-top: 1px solid #333; padding-top: 2rem;
+    text-align: center;
+  }
+  .legal-info { font-size: 11px; color: #777; line-height: 2; margin-bottom: 1.5rem; }
+  .footer-credits { font-size: 12px; color: #555; }
+
+  /* ── FULL SCREEN SLIDER ── */
+  .slider-container {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1;
+    transition: transform 0.1s linear, opacity 0.1s linear;
+    will-change: transform, opacity;
+  }
+
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+    z-index: 1;
+  }
+
+  .slide.active {
+    opacity: 1;
+    z-index: 2;
+  }
+
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Ken Burns Effect */
+  @keyframes kenburns {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.15); }
+  }
+
+  .slide.active img {
+    animation: kenburns 6s linear forwards;
+  }
+
+  /* Overlay Text */
+  .slide-content {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    z-index: 3;
+    color: #fff;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease-out 0.5s;
+  }
+  .slide.active .slide-content {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .slide-content h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  .slide-content p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+  }
+
+  /* ── CONTROLS ── */
+  .control-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s;
+    backdrop-filter: blur(3px);
+  }
+  .control-btn:hover {
+    background: rgba(255, 255, 255, 0.4);
+  }
+  .prev-btn { left: 2rem; }
+  .next-btn { right: 2rem; }
+
+  .indicators {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    display: flex;
+    gap: 10px;
+  }
+  .indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  .indicator.active {
+    background: var(--accent);
+  }
+
+  @media (max-width: 768px) {
+    nav { padding: 0 1rem; }
+    .nav-brand span:first-child { font-size: 12px; }
+    .nav-brand span:last-child { display: none; }
+    .nav-links { display: none; }
+    .menu-toggle { display: flex; }
+    .slide-content h2 { font-size: 2rem; }
+    .slide-content p { font-size: 1rem; }
+    .control-btn { width: 45px; height: 45px; font-size: 18px; }
+    .prev-btn { left: 1rem; }
+    .next-btn { right: 1rem; }
+    .footer-container {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+    .contact-icon { width: 36px; height: 36px; min-width: 36px; }
+  }
+
+  /* ── FESTIVAL SECTION ── */
+  .festival-section {
+    position: relative;
+    z-index: 10;
+    padding: 3rem 2rem;
+    background: var(--warm-white);
+    color: #333;
+    box-shadow: 0 -20px 50px rgba(0,0,0,0.5);
+  }
+  .festival-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .festival-section h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    color: var(--navy);
+    position: relative;
+  }
+  .festival-section h2::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: var(--accent);
+  }
+  .festival-item {
+    margin-bottom: 3rem;
+  }
+  .festival-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 2rem;
+    align-items: center;
+  }
+  .festival-item:nth-child(even) .festival-grid {
+    grid-template-columns: 0.8fr 1.2fr;
+  }
+  .festival-item:nth-child(even) .festival-image-group,
+  .festival-item:nth-child(even) .festival-image-container {
+    order: 2;
+  }
+
+  .festival-image-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+  }
+  .festival-image-container {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+  }
+  .festival-image-container img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+  }
+  .festival-image-container:hover img {
+    transform: scale(1.05);
+  }
+  .festival-text {
+    padding: 0 1rem;
+  }
+  .festival-text h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2.2rem;
+    color: #222;
+    margin-bottom: 0.8rem;
+  }
+  .festival-text p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 0.8rem;
+  }
+  .demo-badge {
+    display: inline-block;
+    padding: 6px 15px;
+    background: var(--accent);
+    color: #000;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+  }
+
+  @media (max-width: 900px) {
+    .festival-grid, .festival-item:nth-child(even) .festival-grid {
+      grid-template-columns: 1fr;
+      gap: 3rem;
+    }
+    .festival-image-group, .festival-image-container {
+      order: 2;
+    }
+    .festival-text {
+      text-align: center;
+      padding: 0;
+      order: 1;
+    }
+    .festival-section h2 { font-size: 2.8rem; }
+    .festival-image-container img { height: 250px; }
+  }
+
+  /* ── LIGHTBOX MODAL ── */
+  .lightbox-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(10px);
+    z-index: 2000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: zoom-out;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+  .lightbox-modal.active {
+    display: flex;
+    opacity: 1;
+  }
+  .lightbox-content {
+    max-width: 90%;
+    max-height: 85%;
+    border-radius: 8px;
+    box-shadow: 0 0 50px rgba(0,0,0,0.5);
+    transform: scale(0.9);
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .lightbox-modal.active .lightbox-content {
+    transform: scale(1);
+  }
+  .close-lightbox {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+    line-height: 1;
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="../" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
+    <img src="../logo.png" alt="Logo" style="height: 45px; width: auto;">
+    <div class="nav-brand">
+      <span>Navkar Apotek &amp; Pronavkar Lifecare</span>
+      <span>Pharmaceutical Excellence</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="../">Home</a></li>
+    <li><a href="../products/">Products</a></li>
+    <li><a href="../companies/">Companies</a></li>
+    <li><a href="../about-us/">About</a></li>
+    <li><a href="#" class="active">Gallery</a></li>
+    <li><a href="../how-to-use-app/">How to Use App</a></li>
+    <li><a href="../Contact-us/">Contact</a></li>
+    <li><a href="../our-network/">Our Network</a></li>
+  </ul>
+  <div class="nav-actions">
+    <a href="../login/" class="login-btn">Login</a>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<div class="nav-overlay" id="navOverlay">
+  <span class="close-overlay" onclick="toggleMenu()">&times;</span>
+  <ul class="overlay-links">
+    <li><a href="../" onclick="toggleMenu()">Home</a></li>
+    <li><a href="../products/" onclick="toggleMenu()">Products</a></li>
+    <li><a href="../companies/" onclick="toggleMenu()">Companies</a></li>
+    <li><a href="../about-us/" onclick="toggleMenu()">About</a></li>
+    <li><a href="../Media & Gallery/" onclick="toggleMenu()">Gallery</a></li>
+    <li><a href="../how-to-use-app/" onclick="toggleMenu()">How to Use App</a></li>
+    <li><a href="../Contact-us/" onclick="toggleMenu()">Contact</a></li>
+    <li><a href="../our-network/" onclick="toggleMenu()">Our Network</a></li>
+    <li><a href="../login/" onclick="toggleMenu()">Login</a></li>
+  </ul>
+</div>
+
+<div class="slider-container">
+  <!-- Slides -->
+  <div class="slide active">
+    <img src="../Media & Gallery Photos/Teams.jpeg" alt="Our Team">
+    <div class="slide-content">
+      <h2>Streamlined layout designed for efficient logistics.</h2>
+      <p>Systematic aisles for quick tracking and fast dispatch.</p>
+    </div>
+  </div>
+  <div class="slide">
+    <img src="../Media & Gallery Photos/Teams 4.jpeg" alt="Celebrating Success">
+    <div class="slide-content">
+      <h2>Comprehensive medicine inventory ready for bulk orders.</h2>
+      <p>Fully stocked racks maintaining strict safety standards.</p>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <button class="control-btn prev-btn" onclick="prevSlide()">&#10094;</button>
+  <button class="control-btn next-btn" onclick="nextSlide()">&#10095;</button>
+
+  <!-- Indicators -->
+  <div class="indicators">
+    <div class="indicator active" onclick="goToSlide(0)"></div>
+    <div class="indicator" onclick="goToSlide(1)"></div>
+  </div>
+</div>
+
+<section class="festival-section">
+  <div class="container">
+    <h2>Events &amp; Social Initiatives</h2>
+    
+    <!-- Ganesh Utsav -->
+    <div class="festival-item">
+      <div class="festival-grid">
+        <div class="festival-text">
+          <span class="demo-badge">Devotion &amp; Harmony</span>
+          <h3>Ganesh Utsav</h3>
+          <p>
+            Ganesh Utsav is a period of profound spiritual rejuvenation at Navkar. We welcome Bappa with immense devotion, uniting our team through traditional aartis, vibrant decorations, and a shared commitment to positivity.
+          </p>
+          <p>
+            This celebration brings together everyone in the Navkar family, fostering a culture of togetherness and faith as we seek blessings for a prosperous and healthy future for all.
+          </p>
+        </div>
+        <div class="festival-image-group">
+          <div class="festival-image-container">
+            <img src="../Media & Gallery Photos/Ganesh Utsav.jpeg" alt="Ganesh Utsav Celebration">
+          </div>
+          <div class="festival-image-container">
+            <img src="../Media & Gallery Photos/Ganesh Utsav 2.jpeg" alt="Ganesh Utsav Prayers">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navkar Utsav -->
+    <div class="festival-item">
+      <div class="festival-grid">
+        <div class="festival-image-container">
+          <img src="../Media & Gallery Photos/Navkar Utsav.jpeg" alt="Navkar Utsav Celebration">
+        </div>
+        <div class="festival-text">
+          <span class="demo-badge">Celebration &amp; Culture</span>
+          <h3>Navkar Utsav</h3>
+          <p>
+            Navkar Utsav is our flagship annual event that celebrates our journey, achievements, and the vibrant culture of our organization. It is a day dedicated to honoring the hard work of our team and the strong bonds we share.
+          </p>
+          <p>
+            With cultural performances and team recognition, Navkar Utsav stands as a testament to our unity and our shared vision of "Pharmaceutical Excellence".
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Yugendra Pawar -->
+    <div class="festival-item">
+      <div class="festival-grid">
+        <div class="festival-text">
+          <span class="demo-badge">Yugendra Pawar</span>
+          <h3>A Memorable Visit</h3>
+          <p>Mr. Yugendra Pawar with the entire Navkar Apotek LLP family. From our dedicated warehouse and operations team to the leadership group and our talented women workforce, his visit brought warmth, inspiration, and positivity to every member. These memorable moments reflect his genuine connect with the team and reinforce our shared values of unity, dedication, and growth. We are truly grateful for his valuable time and encouraging presence at Navkar Apotek LLP.</p>
+        </div>
+        <div class="festival-image-group" style="grid-template-columns:1fr;">
+          <div class="yug-slider" style="position:relative;border-radius:12px;overflow:hidden;box-shadow:0 15px 30px rgba(0,0,0,0.12);background:#000;">
+            <div class="yug-slides" style="position:relative;width:100%;aspect-ratio:16/10;overflow:hidden;">
+              <img class="yug-slide" src="../Media & Gallery Photos/yugendra pawar2.jpeg" alt="Yugendra Pawar" style="width:100%;height:100%;object-fit:cover;display:none;">
+              <img class="yug-slide" src="../Media & Gallery Photos/yugendra pawar.jpeg" alt="Yugendra Pawar 1" style="width:100%;height:100%;object-fit:cover;display:none;">
+              <img class="yug-slide" src="../Media & Gallery Photos/yugendra pawar3.jpeg" alt="Yugendra Pawar 3" style="width:100%;height:100%;object-fit:cover;display:none;">
+              <img class="yug-slide" src="../Media & Gallery Photos/yugendra pawar4.jpeg" alt="Yugendra Pawar 4" style="width:100%;height:100%;object-fit:cover;display:none;">
+            </div>
+            <button class="yug-prev" style="position:absolute;top:50%;left:10px;transform:translateY(-50%);z-index:10;background:rgba(255,255,255,0.3);border:none;color:#fff;width:44px;height:44px;border-radius:50%;cursor:pointer;font-size:20px;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(3px);">&#10094;</button>
+            <button class="yug-next" style="position:absolute;top:50%;right:10px;transform:translateY(-50%);z-index:10;background:rgba(255,255,255,0.3);border:none;color:#fff;width:44px;height:44px;border-radius:50%;cursor:pointer;font-size:20px;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(3px);">&#10095;</button>
+            <div class="yug-dots" style="position:absolute;bottom:15px;left:50%;transform:translateX(-50%);z-index:10;display:flex;gap:8px;">
+              <span class="yug-dot active" style="width:10px;height:10px;border-radius:50%;background:#F5C125;cursor:pointer;transition:background 0.3s;"></span>
+              <span class="yug-dot" style="width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,0.4);cursor:pointer;transition:background 0.3s;"></span>
+              <span class="yug-dot" style="width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,0.4);cursor:pointer;transition:background 0.3s;"></span>
+              <span class="yug-dot" style="width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,0.4);cursor:pointer;transition:background 0.3s;"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blood Donation -->
+    <div class="festival-item">
+      <div class="festival-grid">
+        <div class="festival-image-container">
+          <img src="../Media & Gallery Photos/Blood Donation.jpeg" alt="Blood Donation Drive">
+        </div>
+        <div class="festival-text">
+          <span class="demo-badge">Social Responsibility</span>
+          <h3>Blood Donation Drive</h3>
+          <p>
+            At Navkar, we believe that our responsibility extends beyond pharmaceutical excellence to the well-being of our community. Our blood donation drives are a testament to our team's commitment to saving lives and supporting the healthcare ecosystem.
+          </p>
+          <p>
+            This initiative showcases the spirit of compassion and selflessness that defines the Navkar family, proving that we are dedicated to making a real difference in people's lives through every action we take.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Lightbox Modal -->
+<div class="lightbox-modal" id="lightbox">
+  <span class="close-lightbox">&times;</span>
+  <img class="lightbox-content" id="lightboxImg">
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-container">
+    <div class="footer-col">
+      <h4>Navkar & Pronavkar</h4>
+      <p>Navkar Apotek LLP & Pronavkar Lifecare LLP are leading pharmaceutical distributors committed to delivering excellence in healthcare. We bridge the gap between quality manufacturers and healthcare providers across India.</p>
+      <div style="display: flex; gap: 15px; margin-top: 1.5rem;">
+        <a href="https://www.instagram.com/navkarapotekllp/" target="_blank"><img src="../Icons/instagram.png" alt="Instagram" style="height: 28px; width: auto;"></a>
+        <a href="https://in.linkedin.com/company/navkar-apotek-llp" target="_blank"><img src="../Icons/linkedin.png" alt="LinkedIn" style="height: 28px; width: auto;"></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul class="footer-links">
+        <li><a href="../careers/">Academic Careers</a></li>
+        <li><a href="../terms-conditions/">Terms & Conditions</a></li>
+        <li><a href="../privacy-policy/">Privacy Policy</a></li>
+        <li><a href="https://play.google.com/store/apps/details?id=in.relysoft.navkarapotekllp" target="_blank"><img src="../PlayStore.jpg" alt="Get it on Google Play" style="height:36px;width:auto;border-radius:4px;"></a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Get In Touch</h4>
+      <div class="footer-contact">
+        <!-- Location -->
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Address</span>
+            <span>Baramati, Pune, Maharashtra - 413102</span>
+          </div>
+        </div>
+
+        <!-- Phone -->
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Phone</span>
+            <span>+91 9529337113</span>
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Email</span>
+            <span>info@navkarapotek.com</span>
+          </div>
+        </div>
+
+        <!-- Working Hours -->
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Working Hours</span>
+            <span>Mon - Sat: 10:00 AM - 7:00 PM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer-bottom">
+  </div>
+</footer>
+
+<script>
+let currentSlide = 0;
+const slides = document.querySelectorAll('.slide');
+const indicators = document.querySelectorAll('.indicator');
+const totalSlides = slides.length;
+let autoPlayInterval;
+
+function showSlide(index) {
+  // Reset previous active slide
+  slides[currentSlide].classList.remove('active');
+  indicators[currentSlide].classList.remove('active');
+  
+  // Set new active slide
+  currentSlide = index;
+  if (currentSlide >= totalSlides) currentSlide = 0;
+  if (currentSlide < 0) currentSlide = totalSlides - 1;
+  
+  slides[currentSlide].classList.add('active');
+  indicators[currentSlide].classList.add('active');
+}
+
+function nextSlide() {
+  showSlide(currentSlide + 1);
+  resetTimer();
+}
+
+function prevSlide() {
+  showSlide(currentSlide - 1);
+  resetTimer();
+}
+
+function goToSlide(index) {
+  showSlide(index);
+  resetTimer();
+}
+
+function startTimer() {
+  autoPlayInterval = setInterval(nextSlide, 5000); // 5 seconds
+}
+
+function resetTimer() {
+  clearInterval(autoPlayInterval);
+  startTimer();
+}
+
+function toggleMenu() {
+  document.getElementById('navOverlay').classList.toggle('active');
+  document.querySelector('.menu-toggle').classList.toggle('active');
+}
+
+// Lightbox Functionality
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightboxImg');
+const festivalImages = document.querySelectorAll('.festival-image-container img');
+const closeBtn = document.querySelector('.close-lightbox');
+
+festivalImages.forEach(img => {
+  img.style.cursor = 'zoom-in';
+  img.addEventListener('click', () => {
+    lightboxImg.src = img.src;
+    lightbox.style.display = 'flex';
+    setTimeout(() => {
+      lightbox.classList.add('active');
+    }, 10);
+  });
+});
+
+function closeLightbox() {
+  lightbox.classList.remove('active');
+  setTimeout(() => {
+    lightbox.style.display = 'none';
+  }, 400);
+}
+
+closeBtn.addEventListener('click', closeLightbox);
+lightbox.addEventListener('click', (e) => {
+  if (e.target !== lightboxImg) closeLightbox();
+});
+
+// Start auto-play
+startTimer();
+
+// Scroll Animation for Hero
+window.addEventListener('scroll', () => {
+  const scrolled = window.pageYOffset;
+  const slider = document.querySelector('.slider-container');
+  const winHeight = window.innerHeight;
+  
+  if (scrolled <= winHeight) {
+    const progress = scrolled / winHeight;
+    // Parallax and Scale effect
+    const yPos = -(scrolled * 0.3);
+    const scale = 1 - (progress * 0.1);
+    const opacity = 1 - (progress * 0.8);
+    
+    slider.style.transform = `translateY(${yPos}px) scale(${scale})`;
+    slider.style.opacity = opacity;
+  } else {
+    slider.style.opacity = 0;
+  }
+});
+
+// Handle keyboard navigation
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'ArrowRight') nextSlide();
+  if (e.key === 'ArrowLeft') prevSlide();
+  if (e.key === 'Escape') closeLightbox();
+});
+
+// Lightbox for Yugendra slider images
+document.querySelectorAll('.yug-slide').forEach(img => {
+  img.style.cursor = 'zoom-in';
+  img.addEventListener('click', (e) => {
+    lightboxImg.src = e.target.src;
+    lightbox.style.display = 'flex';
+    setTimeout(() => { lightbox.classList.add('active'); }, 10);
+  });
+});
+
+// ── Yugendra Pawar Slider ──
+(function() {
+  const slides = document.querySelectorAll('.yug-slide');
+  const dots = document.querySelectorAll('.yug-dot');
+  const prev = document.querySelector('.yug-prev');
+  const next = document.querySelector('.yug-next');
+  if (!slides.length) return;
+  let cur = 0;
+  function show(i) {
+    slides.forEach(s => s.style.display = 'none');
+    dots.forEach(d => d.style.background = 'rgba(255,255,255,0.4)');
+    slides[i].style.display = 'block';
+    dots[i].style.background = '#F5C125';
+    cur = i;
+  }
+  show(0);
+  next.addEventListener('click', () => show((cur + 1) % slides.length));
+  prev.addEventListener('click', () => show((cur - 1 + slides.length) % slides.length));
+  dots.forEach((d, i) => d.addEventListener('click', () => show(i)));
+})();
+</script>
+
+</body>
+</html>

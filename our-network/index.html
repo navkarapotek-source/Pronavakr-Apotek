@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Our Network - Navkar Apotek & Pronavkar Lifecare</title>
+<meta name="description" content="Navkar Apotek LLP & Pronavkar Lifecare LLP - Pharmaceutical distribution network across India." />
+<link rel="icon" type="image/png" href="../logo.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+
+  html { overflow-x: hidden; }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy: #1A9E8F;
+    --navy-mid: #148074;
+    --teal: #1A9E8F;
+    --teal-light: #d2f0ec;
+    --cream: #f7f3ee;
+    --warm-white: #fefcf9;
+    --text: #1a1a1a;
+    --muted: #6b7280;
+    --border: #e5ddd3;
+    --accent: #F5C125;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--warm-white);
+    color: var(--text);
+    line-height: 1.6;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    word-wrap: break-word;
+    position: relative;
+  }
+
+  nav {
+    position: sticky; top: 0; z-index: 100;
+    background: #ffffff;
+    padding: 0 2rem;
+    display: flex; align-items: center;
+    height: 64px;
+    border-bottom: 2px solid var(--accent);
+    gap: 1rem;
+  }
+  .nav-brand { display: flex; flex-direction: column; }
+  .nav-brand span:first-child {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px; font-weight: 600; color: #1A9E96;
+  }
+  .nav-brand span:last-child {
+    font-size: 10px; color: #F5C518; text-transform: uppercase;
+  }
+  .nav-links { display: flex; gap: 2rem; list-style: none; margin-left: auto; }
+  .nav-links a {
+    font-size: 13px; color: #373c44; text-decoration: none;
+    text-transform: uppercase; transition: color 0.2s;
+  }
+  .nav-links a:hover { color: #000; }
+  .nav-links a.active { color: #000; font-weight: 600; }
+
+  .nav-actions { display: flex; align-items: center; gap: 12px; }
+  .login-btn {
+    padding: 8px 20px; background: var(--accent);
+    color: #000; text-decoration: none; border-radius: 8px;
+    font-size: 13px; font-weight: 700; text-transform: uppercase;
+    transition: all 0.3s; white-space: nowrap;
+  }
+  .login-btn:hover { background: #000; color: #fff; }
+
+  .menu-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; z-index: 1001; }
+  .menu-toggle span { width: 25px; height: 3px; background: #373c44; transition: 0.3s; border-radius: 2px; }
+  .nav-overlay {
+    position: fixed; top: 0; right: -100%; width: 250px; height: 100vh;
+    background: var(--navy); z-index: 1000; padding: 80px 2rem; transition: 0.4s ease-in-out;
+    box-shadow: -5px 0 15px rgba(0,0,0,0.3);
+  }
+  .nav-overlay.active { right: 0; }
+  .close-overlay {
+    position: absolute; top: 20px; right: 20px;
+    font-size: 40px; color: #fff; cursor: pointer; line-height: 1;
+  }
+  .overlay-links { list-style: none; display: flex; flex-direction: column; gap: 1.5rem; }
+  .overlay-links a { color: #fff; text-decoration: none; font-size: 18px; text-transform: uppercase; }
+  .menu-toggle.active span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+  .menu-toggle.active span:nth-child(2) { opacity: 0; }
+  .menu-toggle.active span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+
+  .hero {
+    background: var(--navy);
+    padding: 5rem 2rem 4rem;
+    text-align: center;
+    position: relative; overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute; inset: 0;
+    background-image: radial-gradient(rgba(255,255,255,0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+    opacity: 0.3;
+  }
+  .hero-pill {
+    display: inline-block; background: var(--accent);
+    border: 1px solid rgba(0,0,0,0.1); color: #000;
+    font-size: 11px; text-transform: uppercase;
+    padding: 6px 18px; border-radius: 999px;
+    margin-bottom: 1.5rem; font-weight: 700;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  .hero h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: clamp(2.4rem, 5vw, 4rem);
+    font-weight: 600; color: #fff;
+    max-width: 680px; margin: 0 auto 1.25rem;
+  }
+  .hero h1 em { font-style: italic; color: var(--accent); }
+  .hero p {
+    max-width: 600px; margin: 0 auto 2rem;
+    color: rgba(255,255,255,0.85); font-size: 16px;
+  }
+  .hero-divider {
+    width: 48px; height: 2px;
+    background: var(--accent);
+    margin: 0 auto;
+  }
+
+  .map-section {
+    max-width: 1100px; margin: 0 auto; padding: 4rem 2rem 2rem;
+  }
+  .map-wrapper {
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.1);
+    border: 2px solid var(--border);
+    height: 360px;
+  }
+  .map-wrapper .leaflet-container {
+    border-radius: 18px;
+  }
+  .map-legend {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 1.2rem;
+  }
+  .map-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .map-legend-dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 2px solid rgba(0,0,0,0.15);
+  }
+
+  @media (max-width: 768px) {
+    .map-wrapper { height: 260px; }
+  }
+
+  .network-section {
+    max-width: 1100px; margin: 0 auto; padding: 5rem 2rem;
+  }
+  .section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .section-header h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2.4rem;
+    color: var(--navy);
+    margin-bottom: 1rem;
+  }
+  .section-header p {
+    color: var(--muted);
+    font-size: 15px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .region-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  .region-card {
+    background: #fff;
+    border: 2px solid var(--border);
+    border-radius: 16px;
+    padding: 2rem;
+    transition: all 0.3s;
+  }
+  .region-card:hover {
+    border-color: var(--teal);
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(0,0,0,0.08);
+  }
+  .region-icon {
+    width: 52px; height: 52px;
+    background: var(--teal);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 1rem;
+    font-size: 22px;
+    color: #fff;
+  }
+  .region-card h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.4rem;
+    color: var(--text);
+    margin-bottom: 0.5rem;
+  }
+  .region-card .region-label {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--teal);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.8rem;
+  }
+  .region-card p {
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  .region-card ul {
+    list-style: none;
+    margin-top: 0.8rem;
+  }
+  .region-card ul li {
+    font-size: 13px;
+    color: var(--text);
+    padding: 4px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .region-card ul li::before {
+    content: '>';
+    color: var(--teal);
+    font-weight: 700;
+  }
+
+  /* Arrow toggle for city list */
+  .region-card .toggle-arrow {
+    cursor: pointer;
+    font-size: 0.85rem;
+    user-select: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    padding: 6px 16px;
+    background: linear-gradient(135deg, var(--teal-light), #fff);
+    color: var(--navy);
+    border-radius: 50px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0 2px 8px rgba(26,158,143,0.15);
+    position: relative;
+    overflow: hidden;
+  }
+  .region-card .toggle-arrow::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, var(--teal), #0d6b60);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    border-radius: 50px;
+  }
+  .region-card .toggle-arrow:hover::before {
+    opacity: 1;
+  }
+  .region-card .toggle-arrow:hover {
+    color: #fff;
+    box-shadow: 0 6px 20px rgba(26,158,143,0.35);
+    transform: translateY(-2px) scale(1.03);
+  }
+  .region-card .toggle-arrow:active {
+    transform: scale(0.95);
+  }
+  .toggle-arrow .arrow-icon {
+    display: inline-block;
+    transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    font-size: 0.7rem;
+  }
+  .region-card.expanded .toggle-arrow .arrow-icon {
+    transform: rotate(180deg);
+  }
+  .toggle-arrow .arrow-text {
+    position: relative;
+    z-index: 1;
+  }
+  .region-card .city-list {
+    display: none;
+    overflow: hidden;
+  }
+  .region-card.expanded .city-list {
+    display: block;
+    animation: slideReveal 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+  }
+  .region-card.expanded .city-list li {
+    opacity: 0;
+    animation: popIn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.5) forwards;
+  }
+  .region-card.expanded .city-list li:nth-child(1) { animation-delay: 0.05s; }
+  .region-card.expanded .city-list li:nth-child(2) { animation-delay: 0.10s; }
+  .region-card.expanded .city-list li:nth-child(3) { animation-delay: 0.15s; }
+  .region-card.expanded .city-list li:nth-child(4) { animation-delay: 0.20s; }
+  .region-card.expanded .city-list li:nth-child(5) { animation-delay: 0.25s; }
+  .region-card.expanded .city-list li:nth-child(6) { animation-delay: 0.30s; }
+  .region-card.expanded .city-list li:nth-child(7) { animation-delay: 0.35s; }
+  .region-card.expanded .city-list li:nth-child(8) { animation-delay: 0.40s; }
+  .region-card.expanded .city-list li:nth-child(9) { animation-delay: 0.45s; }
+  .region-card.expanded .city-list li:nth-child(10) { animation-delay: 0.50s; }
+  .region-card.expanded .city-list li:nth-child(11) { animation-delay: 0.55s; }
+  @keyframes slideReveal {
+    0% { max-height: 0; opacity: 0; transform: translateY(-10px) scaleY(0.8); }
+    100% { max-height: 600px; opacity: 1; transform: translateY(0) scaleY(1); }
+  }
+  @keyframes popIn {
+    0% { opacity: 0; transform: translateX(-20px) scale(0.8); }
+    60% { transform: translateX(4px) scale(1.05); }
+    100% { opacity: 1; transform: translateX(0) scale(1); }
+  }
+  .region-card .city-list li {
+    transition: all 0.3s ease;
+    position: relative;
+  }
+  .region-card .city-list li:hover {
+    color: var(--teal);
+    transform: translateX(6px);
+  }
+  .region-card .city-list li::before {
+    transition: all 0.3s ease;
+  }
+  .region-card .city-list li:hover::before {
+    color: var(--accent);
+    transform: scale(1.3);
+  }
+
+  .stats-band {
+    background: var(--cream);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    padding: 3rem 2rem;
+  }
+  .stats-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 700px;
+    margin: 0 auto;
+    gap: 1.5rem;
+  }
+  .stat-item {
+    text-align: center;
+  }
+  .stat-item .num {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: var(--navy);
+    line-height: 1.1;
+  }
+  .stat-item .label {
+    font-size: 11px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-top: 4px;
+    font-weight: 600;
+  }
+
+  .coverage-section {
+    background: var(--teal);
+    padding: 3rem 2rem;
+  }
+  .coverage-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .coverage-inner h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+  }
+  .coverage-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+  }
+  .coverage-item {
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 12px;
+    padding: 1.2rem;
+    text-align: center;
+  }
+  .coverage-item span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  footer {
+    background: #0f2c2a; color: #fff;
+    padding: 4rem 2rem 2rem;
+  }
+  .footer-container {
+    max-width: 1100px; margin: 0 auto;
+    display: grid; grid-template-columns: 2fr 1fr 1.5fr; gap: 4rem;
+  }
+  .footer-col h4 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.4rem; color: var(--accent); margin-bottom: 1.5rem;
+  }
+  .footer-col p { font-size: 14px; color: #bbb; line-height: 1.8; margin-bottom: 1rem; }
+  .footer-links { list-style: none; }
+  .footer-links li { margin-bottom: 0.8rem; }
+  .footer-links a { color: #bbb; text-decoration: none; font-size: 14px; transition: color 0.2s; }
+  .footer-links a:hover { color: #fff; }
+  .footer-contact { display: flex; flex-direction: column; gap: 1rem; }
+
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+    color: #bbb;
+    min-width: 0;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    line-height: 1.4;
+  }
+  .contact-icon {
+    width: 42px; height: 42px; min-width: 42px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+  .contact-icon svg { width: 20px; height: 20px; }
+  .contact-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .contact-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--accent);
+    font-weight: 700;
+  }
+
+  .footer-bottom {
+    max-width: 1100px; margin: 3rem auto 0;
+    border-top: 1px solid #333; padding-top: 2rem;
+    text-align: center;
+  }
+
+  .whatsapp-float {
+    position: fixed; bottom: 20px; right: 20px;
+    background-color: #25d366; color: #fff; border-radius: 50%;
+    padding: 14px; display: flex; align-items: center; justify-content: center;
+    text-decoration: none; box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    z-index: 1000; transition: all 0.3s ease;
+    width: 56px; height: 56px;
+  }
+  .whatsapp-float:hover {
+    transform: translateY(-3px); background-color: #128c7e;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+  }
+  .back-to-top {
+    position: fixed; bottom: 85px; right: 25px;
+    background: var(--navy); color: #fff; width: 40px; height: 40px;
+    border-radius: 50%; border: 1px solid rgba(255,255,255,0.2);
+    cursor: pointer; display: none; z-index: 999;
+    font-size: 20px; font-weight: bold; box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+  }
+  .back-to-top:hover { background: var(--accent); color: #000; transform: translateY(-3px); }
+
+  @media (max-width: 768px) {
+    nav { padding: 0 1rem; }
+    .nav-brand span:first-child { font-size: 12px; }
+    .nav-brand span:last-child { display: none; }
+    .nav-links { display: none; }
+    .menu-toggle { display: flex; }
+    .hero { padding: 3rem 1.5rem 2rem; }
+    .hero h1 { font-size: 2rem; }
+    .network-section { padding: 3rem 1rem; }
+    .stats-inner { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+    .footer-container { grid-template-columns: 1fr; gap: 2rem; }
+    .whatsapp-float { width: 50px; height: 50px; padding: 12px; bottom: 20px; right: 20px; }
+    .back-to-top { bottom: 80px; right: 20px; width: 45px; height: 45px; }
+    .contact-icon { width: 36px; height: 36px; min-width: 36px; }
+  }
+
+  @media (max-width: 480px) {
+    .hero h1 { font-size: 1.6rem; }
+    .stats-inner { grid-template-columns: 1fr; }
+    .section-header h2 { font-size: 1.8rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="../" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
+    <img src="../logo.png" alt="Logo" style="height: 45px; width: auto;">
+    <div class="nav-brand">
+      <span>Navkar Apotek &amp; Pronavkar Lifecare</span>
+      <span>Pharmaceutical Excellence</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="../">Home</a></li>
+    <li><a href="../products/">Products</a></li>
+    <li><a href="../companies/">Companies</a></li>
+    <li><a href="../about-us/">About</a></li>
+    <li><a href="../Media & Gallery/">Gallery</a></li>
+    <li><a href="../how-to-use-app/">How to Use App</a></li>
+    <li><a href="../Contact-us/">Contact</a></li>
+    <li><a href="./" class="active">Our Network</a></li>
+  </ul>
+  <div class="nav-actions">
+    <a href="../login/" class="login-btn">Login</a>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<div class="nav-overlay" id="navOverlay">
+  <span class="close-overlay" onclick="toggleMenu()">&times;</span>
+  <ul class="overlay-links">
+    <li><a href="../" onclick="toggleMenu()">Home</a></li>
+    <li><a href="../products/" onclick="toggleMenu()">Products</a></li>
+    <li><a href="../companies/" onclick="toggleMenu()">Companies</a></li>
+    <li><a href="../about-us/" onclick="toggleMenu()">About</a></li>
+    <li><a href="../Media & Gallery/" onclick="toggleMenu()">Gallery</a></li>
+    <li><a href="../how-to-use-app/" onclick="toggleMenu()">How to Use App</a></li>
+    <li><a href="../Contact-us/" onclick="toggleMenu()">Contact</a></li>
+    <li><a href="./" onclick="toggleMenu()">Our Network</a></li>
+    <li><a href="../login/" onclick="toggleMenu()">Login</a></li>
+  </ul>
+</div>
+
+<section class="hero">
+  <div class="hero-pill">Our Reach</div>
+  <h1>Our <em>Distribution</em> Network</h1>
+  <p>Spanning across Maharashtra, delivering quality pharmaceuticals to retailers, hospitals, and healthcare providers.</p>
+  <div class="hero-divider"></div>
+</section>
+
+<section class="network-section">
+  <div class="section-header">
+    <h2>Service Regions</h2>
+    <p>Our products reach retailers and healthcare institutions across multiple regions in Maharashtra through a well-organized distribution network.</p>
+  </div>
+  <div class="region-grid">
+    <div class="region-card">
+      <div class="region-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+      <h3>Pune District</h3>
+      <div class="region-label">Coverage Area</div>
+      <p>Baramati (HO) and surrounding Pune districts.</p>
+      <span class="toggle-arrow" onclick="toggleCities(event)"><span class="arrow-icon">▼</span><span class="arrow-text">Show Cities</span></span>
+      <ul class="city-list">
+        <li>Pune</li>
+        <li>Baramati City</li>
+        <li>Daund</li>
+        <li>Indapur</li>
+        <li>Nimgaon</li>
+        <li>Kedgaon</li>
+        <li>Patas</li>
+        <li>Supa</li>
+        <li>Nira</li>
+        <li>Saswad</li>
+        <li>Walchandnagar</li>
+        <li>Jejuri</li>
+        <li>Morgaon</li>
+        <li>Bhor</li>
+        <li>Dulegaon Raje</li>
+        <li>Kurkumbh</li>
+        <li>Shirsuphal</li>
+        <li>Rawangaon</li>
+        <li>Undavadi</li>
+        <li>Pargaon</li>
+        <li>Pandare</li>
+        <li>Someshwar</li>
+        <li>Sangavi</li>
+        <li>Pimprad</li>
+        <li>Shirur</li>
+        <li>Songaon</li>
+      </ul>
+    </div>
+    <div class="region-card">
+      <div class="region-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+      <h3>Satara District</h3>
+      <div class="region-label">Coverage Area</div>
+      <p>Key towns and rural areas in the Satara belt.</p>
+      <span class="toggle-arrow" onclick="toggleCities(event)"><span class="arrow-icon">▼</span><span class="arrow-text">Show Cities</span></span>
+      <ul class="city-list">
+        <li>Satara</li>
+        <li>Gunaware</li>
+        <li>Lonand</li>
+        <li>Sakhrwadi</li>
+        <li>Phaltan</li>
+        <li>Pusegaon</li>
+        <li>Wathar</li>
+      </ul>
+    </div>
+    <div class="region-card">
+      <div class="region-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+      <h3>Solapur District</h3>
+      <div class="region-label">Coverage Area</div>
+      <p>Extending towards Solapur and neighboring districts.</p>
+      <span class="toggle-arrow" onclick="toggleCities(event)"><span class="arrow-icon">▼</span><span class="arrow-text">Show Cities</span></span>
+      <ul class="city-list">
+        <li>Solapur</li>
+        <li>Natepute</li>
+        <li>Karmala</li>
+        <li>Parewadi</li>
+        <li>Malshiras</li>
+      </ul>
+    </div>
+    <div class="region-card">
+      <div class="region-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+      <h3>Ahilyanagar District</h3>
+      <div class="region-label">Coverage Area</div>
+      <p>Serving retailers in the Ahilyanagar.</p>
+      <span class="toggle-arrow" onclick="toggleCities(event)"><span class="arrow-icon">▼</span><span class="arrow-text">Show Cities</span></span>
+      <ul class="city-list">
+        <li>Ahilyanagar</li>
+        <li>Rashin</li>
+        <li>Karjat</li>
+        <li>Shrigonda</li>
+        <li>Kashti</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="stats-band">
+  <div class="stats-inner">
+    <div class="stat-item">
+      <div class="num">40+</div>
+      <div class="label">Cities &amp; Towns</div>
+    </div>
+    <div class="stat-item">
+      <div class="num">30,000+</div>
+      <div class="label">Products Supplied</div>
+    </div>
+    <div class="stat-item">
+      <div class="num">300+</div>
+      <div class="label">Pharma Companies</div>
+    </div>
+  </div>
+</section>
+
+<section class="coverage-section">
+  <div class="coverage-inner">
+    <h2>Our Product Categories Reach</h2>
+    <div class="coverage-grid">
+      <div class="coverage-item"><span>Ethical Medicines</span></div>
+      <div class="coverage-item"><span>OTC Products</span></div>
+      <div class="coverage-item"><span>Cold Chain</span></div>
+      <div class="coverage-item"><span>Generic Medicines</span></div>
+      <div class="coverage-item"><span>Surgical Items</span></div>
+      <div class="coverage-item"><span>healthcare nutraceuticals</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="map-section">
+  <div class="section-header">
+    <h2>Our <em style="color:var(--navy);font-style:italic;">Coverage</em> Map</h2>
+    <p>All cities and towns we serve across Maharashtra, marked on the map below.</p>
+  </div>
+  <div class="map-wrapper" id="map"></div>
+  <div class="map-legend">
+    <span class="map-legend-item"><span class="map-legend-dot" style="background:#e74c3c"></span> Pune District</span>
+    <span class="map-legend-item"><span class="map-legend-dot" style="background:#f39c12"></span> Satara District</span>
+    <span class="map-legend-item"><span class="map-legend-dot" style="background:#3498db"></span> Solapur District</span>
+    <span class="map-legend-item"><span class="map-legend-dot" style="background:#2ecc71"></span> Ahilyanagar District</span>
+  </div>
+  <div style="text-align:center; margin:2rem 0;">
+    <h3 style="margin-bottom:1rem; font-size:1.5rem; color:var(--navy);">Expand your business with Navkar Apotek.</h3>
+    <a href="https://forms.gle/QKtBVCaWDcJrra1o8" target="_blank" style="display:inline-block; padding:12px 24px; background:var(--accent); color:#000; font-weight:700; text-decoration:none; border-radius:8px; transition:background 0.3s;">Join Our Network</a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-col">
+      <h4>Navkar & Pronavkar</h4>
+      <p>Navkar Apotek LLP & Pronavkar Lifecare LLP are leading pharmaceutical distributors committed to delivering excellence in healthcare. We bridge the gap between quality manufacturers and healthcare providers across India.</p>
+      <div style="display: flex; gap: 15px; margin-top: 1.5rem;">
+        <a href="https://www.instagram.com/navkarapotekllp/" target="_blank"><img src="../Icons/instagram.png" alt="Instagram" style="height: 28px; width: auto;"></a>
+        <a href="https://in.linkedin.com/company/navkar-apotek-llp" target="_blank"><img src="../Icons/linkedin.png" alt="LinkedIn" style="height: 28px; width: auto;"></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul class="footer-links">
+        <li><a href="../careers/">Academic Careers</a></li>
+        <li><a href="../terms-conditions/">Terms & Conditions</a></li>
+        <li><a href="../privacy-policy/">Privacy Policy</a></li>
+        <li><a href="https://play.google.com/store/apps/details?id=in.relysoft.navkarapotekllp" target="_blank"><img src="../PlayStore.jpg" alt="Get it on Google Play" style="height:36px;width:auto;border-radius:4px;"></a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Get In Touch</h4>
+      <div class="footer-contact">
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Address</span>
+            <span>Baramati, Pune, Maharashtra - 413102</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Phone</span>
+            <span>+91 9529337113</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Email</span>
+            <span>info@navkarapotek.com</span>
+          </div>
+        </div>
+
+        <!-- Working Hours -->
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Working Hours</span>
+            <span>Mon - Sat: 10:00 AM - 7:00 PM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom"></div>
+</footer>
+
+<a href="https://wa.me/919529337113" class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.246 2.248 3.484 5.232 3.483 8.412-.003 6.557-5.338 11.892-11.893 11.892-1.997-.001-3.951-.499-5.702-1.445l-6.194 1.654zm6.755-3.917c1.448.859 2.995 1.312 4.59 1.313 5.503 0 9.975-4.472 9.977-9.977.001-2.669-1.038-5.176-2.927-7.065-1.889-1.889-4.396-2.928-7.062-2.929-5.505 0-9.979 4.472-9.981 9.978-.001 1.77.449 3.502 1.306 5.047l-1.014 3.704 6.299-1.681-.188-.11zm11.362-7.108c-.312-.156-1.848-.912-2.134-1.017-.286-.105-.494-.156-.702.156-.208.312-.806 1.017-.988 1.222-.182.205-.364.231-.677.075-.312-.156-1.318-.486-2.51-1.548-.928-.827-1.554-1.849-1.736-2.161-.182-.312-.019-.481.137-.635.141-.139.312-.364.468-.547.156-.182.208-.312.312-.52.105-.208.052-.39-.026-.547-.052-.156-.702-1.691-.962-2.315-.253-.608-.51-.525-.702-.535-.181-.01-.39-.01-.599-.01-.208 0-.546.078-.832.39-.286.312-1.092 1.067-1.092 2.603 0 1.536 1.118 3.02 1.274 3.228.156.208 2.2 3.359 5.328 4.707.744.321 1.325.512 1.778.656.748.237 1.429.204 1.967.124.6-.089 1.848-.755 2.108-1.485.26-.73.26-1.353.182-1.485-.078-.13-.286-.208-.598-.364z"/></svg>
+</a>
+
+<button id="backToTop" class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" title="Back to top">↑</button>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+var map = L.map('map', { scrollWheelZoom: false }).setView([18.3, 74.7], 8);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 18,
+  attribution: '&copy; OpenStreetMap'
+}).addTo(map);
+
+var puneCities = [
+  { name: 'Pune', lat: 18.5204, lng: 73.8567 },
+  { name: 'Baramati City', lat: 18.1520, lng: 74.5777 },
+  { name: 'Daund', lat: 18.4654, lng: 74.5955 },
+  { name: 'Indapur', lat: 18.1136, lng: 75.0260 },
+  { name: 'Nimgaon', lat: 18.086503, lng: 74.916415 },
+  { name: 'Kedgaon', lat: 18.464511, lng: 74.338425 },
+  { name: 'Patas', lat: 18.434345, lng: 74.461478 },
+  { name: 'Supa', lat: 18.337018, lng: 74.377436 },
+  { name: 'Nira', lat: 18.103182, lng: 74.215083 },
+  { name: 'Saswad', lat: 18.346599, lng: 74.029998 },
+  { name: 'Walchandnagar', lat: 18.033565, lng: 74.790459 },
+  { name: 'Jejuri', lat: 18.277883, lng: 74.161351 },
+  { name: 'Morgaon', lat: 18.272804, lng: 74.320213 },
+  { name: 'Bhor', lat: 18.146066, lng: 73.842800 },
+  { name: 'Dulegaon Raje', lat: 18.453458 , lng: 74.679773 },
+  { name: 'Kurkumbh', lat: 18.395406, lng: 74.539863 },
+  { name: 'Shirsuphal', lat: 18.325547, lng: 74.581190 },
+  { name: 'Rawangaon', lat: 18.358573, lng: 74.622202 },
+  { name: 'Undavadi', lat: 18.525343, lng: 74.267410 },
+  { name: 'Pargaon', lat: 18.560472, lng: 74.373239 },
+  { name: 'Pandare', lat: 18.138629, lng: 74.462224 },
+  { name: 'Someshwar', lat: 18.150047, lng: 74.277077 },
+  { name: 'Sangavi', lat: 18.170951, lng: 73.662604 },
+  { name: 'Pimprad', lat: 17.980637, lng: 74.532850 },
+  { name: 'Shirur', lat: 18.825228, lng: 74.377352 },
+  { name: 'Songaon', lat: 18.057148, lng: 74.642293 }
+];
+var sataraCities = [
+  { name: 'Satara', lat: 17.688471, lng: 74.005645 },
+  { name: 'Gunaware', lat: 17.990444, lng: 74.592719 },
+  { name: 'Lonand', lat: 18.042349, lng: 74.185283 },
+  { name: 'Shirwal', lat: 18.146981, lng: 73.976804 },
+  { name: 'Sakhrwadi', lat: 18.056191, lng: 74.332938 },
+  { name: 'Phaltan', lat: 17.990533, lng: 74.434462 },
+  { name: 'Pusegaon', lat: 17.708609, lng: 74.320866 },
+  { name: 'Wathar', lat: 17.181469, lng: 74.181346 }
+];
+var solapurCities = [
+  { name: 'Solapur', lat: 17.671692, lng: 75.898940 },
+  { name: 'Natepute', lat: 17.899278, lng: 74.754365 },
+  { name: 'Karmala', lat: 18.404877, lng: 75.194750 },
+  { name: 'Parewadi', lat: 18.303188, lng: 74.964169 },
+  { name: 'Malshiras', lat: 17.863722, lng: 74.905140 }
+];
+var ahilyanagarCities = [
+  { name: 'Ahilyanagar', lat: 19.092878, lng: 74.733170 },
+  { name: 'Rashin', lat: 18.438345, lng: 74.924553 },
+  { name: 'Karjat', lat: 18.553606, lng: 75.008932 },
+  { name: 'Shrigonda', lat: 18.617892, lng: 74.697634 },
+  { name: 'Kashti', lat: 18.549931, lng: 74.582985 }
+];
+
+
+var redIcon = new L.Icon({ iconUrl: 'https://cdn.jsdelivr.net/gh/pointhi/leaflet-color-markers@master/img/marker-icon-red.png', shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png', iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41] });
+var orangeIcon = new L.Icon({ iconUrl: 'https://cdn.jsdelivr.net/gh/pointhi/leaflet-color-markers@master/img/marker-icon-orange.png', shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png', iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41] });
+var blueIcon = new L.Icon({ iconUrl: 'https://cdn.jsdelivr.net/gh/pointhi/leaflet-color-markers@master/img/marker-icon-blue.png', shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png', iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41] });
+var greenIcon = new L.Icon({ iconUrl: 'https://cdn.jsdelivr.net/gh/pointhi/leaflet-color-markers@master/img/marker-icon-green.png', shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png', iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41] });
+
+puneCities.forEach(function(c) { L.marker([c.lat, c.lng], {icon: redIcon}).addTo(map).bindPopup('<b>' + c.name + '</b><br>Pune District'); });
+sataraCities.forEach(function(c) { L.marker([c.lat, c.lng], {icon: orangeIcon}).addTo(map).bindPopup('<b>' + c.name + '</b><br>Satara District'); });
+solapurCities.forEach(function(c) { L.marker([c.lat, c.lng], {icon: blueIcon}).addTo(map).bindPopup('<b>' + c.name + '</b><br>Solapur District'); });
+ahilyanagarCities.forEach(function(c) { L.marker([c.lat, c.lng], {icon: greenIcon}).addTo(map).bindPopup('<b>' + c.name + '</b><br>Ahilyanagar District'); });
+
+map.on('click', function() { if (map.scrollWheelZoom.enabled()) { map.scrollWheelZoom.disable(); } });
+map.on('mouseover', function() { map.scrollWheelZoom.enable(); });
+
+function toggleMenu() {
+  document.getElementById('navOverlay').classList.toggle('active');
+  document.querySelector('.menu-toggle').classList.toggle('active');
+}
+
+function toggleCities(event) {
+  const card = event.currentTarget.closest('.region-card');
+  card.classList.toggle('expanded');
+  const text = card.querySelector('.arrow-text');
+  if (card.classList.contains('expanded')) {
+    text.textContent = 'Show Less';
+  } else {
+    text.textContent = 'Show Cities';
+  }
+}
+
+window.onscroll = function() {
+  const btn = document.getElementById('backToTop');
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    btn.style.display = 'block';
+  } else {
+    btn.style.display = 'none';
+  }
+};
+</script>
+
+</body>
+</html>

@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Our Partner Companies - Navkar Apotek & Pronavkar Lifecare</title>
+<meta name="description" content="Navkar Apotek LLP & Pronavkar Lifecare LLP - Trusted pharmaceutical wholesale distribution in India. Quality medicines, healthcare products, and reliable supply chain." />
+<meta name="keywords" content="pharmaceutical distributor, medicine wholesaler, Navkar Apotek, Pronavkar Lifecare, pharma distribution India, healthcare products" />
+<link rel="icon" type="image/png" href="../logo.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+<style>
+  @font-face {
+    font-family: 'Adam CG Pro';
+    src: url('../fonts/AdamCGPro.woff2') format('woff2'),
+         url('../fonts/AdamCGPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  html { overflow-x: hidden; }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy: #1A9E8F;
+    --navy-mid: #148074;
+    --teal: #1A9E8F;
+    --accent: #F5C125;
+    --warm-white: #fefcf9;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--warm-white);
+    color: #333;
+    line-height: 1.6;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    word-wrap: break-word;
+    position: relative;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 0 2rem;
+    display: flex; align-items: center;
+    height: 64px;
+    border-bottom: 2px solid var(--accent);
+    backdrop-filter: blur(5px);
+    gap: 1rem;
+  }
+  .nav-brand { display: flex; flex-direction: column; text-decoration: none; }
+  .nav-brand span:first-child {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px; font-weight: 600; color: #1A9E96;
+  }
+  .nav-brand span:last-child {
+    font-size: 10px; color: #F5C518; text-transform: uppercase;
+  }
+  .nav-links { display: flex; gap: 2rem; list-style: none; margin-left: auto; }
+  .nav-links a { color: #373c44; text-decoration: none; text-transform: uppercase; font-size: 13px; }
+  .nav-links a:hover, .nav-links a.active { color: #000; font-weight: 600; }
+
+  .nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .login-btn {
+    padding: 8px 20px;
+    background: var(--accent);
+    color: #000;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    white-space: nowrap;
+  }
+  .login-btn:hover {
+    background: #000;
+    color: #fff;
+  }
+
+  /* Hamburger Menu CSS */
+  .menu-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; z-index: 1001; }
+  .menu-toggle span { width: 25px; height: 3px; background: #373c44; transition: 0.3s; border-radius: 2px; }
+  .nav-overlay {
+    position: fixed; top: 0; right: -100%; width: 250px; height: 100vh;
+    background: var(--navy); z-index: 1000; padding: 80px 2rem; transition: 0.4s ease-in-out;
+    box-shadow: -5px 0 15px rgba(0,0,0,0.3);
+  }
+  .nav-overlay.active { right: 0; }
+  .close-overlay {
+    position: absolute; top: 20px; right: 20px;
+    font-size: 40px; color: #fff; cursor: pointer;
+    line-height: 1;
+  }
+  .overlay-links { list-style: none; display: flex; flex-direction: column; gap: 1.5rem; }
+  .overlay-links a { color: #fff; text-decoration: none; font-size: 18px; text-transform: uppercase; }
+  .menu-toggle.active span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+  .menu-toggle.active span:nth-child(2) { opacity: 0; }
+  .menu-toggle.active span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+
+  /* ── HERO SECTION ── */
+  .hero {
+    height: 40vh;
+    background: linear-gradient(rgba(26, 158, 143, 0.9), rgba(26, 158, 143, 0.8)), url('../logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    margin-top: 64px;
+    position: relative; overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute; inset: 0;
+    background-image: radial-gradient(rgba(255,255,255,0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+    opacity: 0.3;
+  }
+  .hero h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
+  .hero p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+    opacity: 0.95;
+  }
+
+  /* ── COMPANIES SECTION ── */
+  .companies-section {
+    padding: 6rem 2rem;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .section-intro {
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+  .section-intro h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5rem;
+    color: var(--navy);
+    margin-bottom: 1.5rem;
+  }
+  .companies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 40px;
+    align-items: center;
+  }
+  .company-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    height: 100%;
+    justify-content: center;
+  }
+  .company-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  }
+  .company-card img {
+    max-width: 100%;
+    height: auto;
+    max-height: 80px;
+    object-fit: contain;
+    margin-bottom: 1.5rem;
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: all 0.3s ease;
+  }
+  .company-card:hover img {
+    filter: grayscale(0%);
+    opacity: 1;
+  }
+  .company-card span {
+    font-size: 0.9rem;
+    color: #555;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    background: #0f2c2a; color: #fff;
+    padding: 4rem 2rem 2rem;
+  }
+  .footer-container {
+    max-width: 1100px; margin: 0 auto;
+    display: grid; grid-template-columns: 2fr 1fr 1.5fr; gap: 4rem;
+  }
+  .footer-col h4 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.4rem; color: var(--accent); margin-bottom: 1.5rem;
+  }
+  .footer-col p { font-size: 14px; color: #bbb; line-height: 1.8; margin-bottom: 1rem; }
+  .footer-links { list-style: none; }
+  .footer-links li { margin-bottom: 0.8rem; }
+  .footer-links a { color: #bbb; text-decoration: none; font-size: 14px; transition: color 0.2s; }
+  .footer-links a:hover { color: #fff; }
+  .footer-contact { display: flex; flex-direction: column; gap: 1rem; }
+  
+  /* UPDATED Contact Icons Styling */
+  .contact-item { 
+    display: flex; 
+    align-items: center; 
+    gap: 12px; 
+    font-size: 14px; 
+    color: #bbb; 
+    min-width: 0; 
+    overflow-wrap: break-word; 
+    word-break: break-word; 
+    line-height: 1.4; 
+  }
+  .contact-icon {
+    width: 42px;
+    height: 42px;
+    min-width: 42px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+  .contact-icon svg {
+    width: 20px;
+    height: 20px;
+  }
+  .contact-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .contact-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--accent);
+    font-weight: 700;
+  }
+
+  .footer-bottom {
+    max-width: 1100px; margin: 3rem auto 0;
+    border-top: 1px solid #333; padding-top: 2rem;
+    text-align: center;
+  }
+  .legal-info { font-size: 11px; color: #777; line-height: 2; margin-bottom: 1.5rem; }
+  .footer-credits { font-size: 12px; color: #555; }
+
+  @media (max-width: 768px) {
+    nav { padding: 0 1rem; }
+    .nav-brand span:first-child { font-size: 12px; }
+    .nav-brand span:last-child { display: none; }
+    .nav-links { display: none; }
+    .menu-toggle { display: flex; }
+    .hero h1 { font-size: 2.5rem; }
+    .companies-grid { grid-template-columns: 1fr; gap: 20px; }
+    .footer-container {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+    .contact-icon { width: 36px; height: 36px; min-width: 36px; }
+  }
+    /* Mobile‑text tweaks */
+    @media (max-width: 480px) {
+      .hero h1 { font-size: 1.8rem; }
+      .hero p { font-size: 0.95rem; line-height: 1.4; }
+      .section-intro h2 { font-size: 1.8rem; }
+      .section-intro { margin-bottom: 2rem; }
+      .company-card { padding: 1rem; }
+      .company-card span { font-size: 0.8rem; line-height: 1.2; }
+      .companies-grid { gap: 15px; }
+    }
+    </style>
+</head>
+<body>
+
+<nav>
+  <a href="../" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
+    <img src="../logo.png" alt="Logo" style="height: 45px; width: auto;">
+    <div class="nav-brand">
+      <span>Navkar Apotek &amp; Pronavkar Lifecare</span>
+      <span>Pharmaceutical Excellence</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="../">Home</a></li>
+    <li><a href="../products/">Products</a></li>
+    <li><a href="#" class="active">Companies</a></li>
+    <li><a href="../about-us/">About</a></li>
+    <li><a href="../Media & Gallery/">Gallery</a></li>
+    <li><a href="../how-to-use-app/">How to Use App</a></li>
+    <li><a href="../Contact-us/">Contact</a></li>
+    <li><a href="../our-network/">Our Network</a></li>
+  </ul>
+  <div class="nav-actions">
+    <a href="../login/" class="login-btn">Login</a>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<div class="nav-overlay" id="navOverlay">
+  <span class="close-overlay" onclick="toggleMenu()">&times;</span>
+  <ul class="overlay-links">
+    <li><a href="../" onclick="toggleMenu()">Home</a></li>
+    <li><a href="../products/" onclick="toggleMenu()">Products</a></li>
+    <li><a href="./" onclick="toggleMenu()">Companies</a></li>
+    <li><a href="../about-us/" onclick="toggleMenu()">About</a></li>
+    <li><a href="../Media & Gallery/" onclick="toggleMenu()">Gallery</a></li>
+    <li><a href="../how-to-use-app/" onclick="toggleMenu()">How to Use App</a></li>
+    <li><a href="../Contact-us/" onclick="toggleMenu()">Contact</a></li>
+    <li><a href="../our-network/" onclick="toggleMenu()">Our Network</a></li>
+    <li><a href="../login/" onclick="toggleMenu()">Login</a></li>
+  </ul>
+</div>
+
+<header class="hero">
+  <div class="container">
+    <h1>Our Partner Companies</h1>
+    <b>We collaborate with India's leading pharmaceutical manufacturers to bring you high-quality healthcare products.</b>
+  </div>
+</header>
+
+<section class="companies-section">
+  <div class="container">
+    <div class="section-intro">
+      <h2>Pharmaceutical Partners</h2>
+      <p>Click on any logo to visit the company's official website.</p>
+    </div>
+    <div class="companies-grid">
+      <!-- Abbott -->
+      <a href="https://www.abbott.in/" target="_blank" class="company-card">
+        <img src="../Company Logos/Abott.png" alt="Abbott">
+        <span>Abbott Pharma</span>
+      </a>
+      <!-- Alkem -->
+      <a href="https://www.alkemlabs.com/" target="_blank" class="company-card">
+        <img src="../Company Logos/alkem.png" alt="Alkem">
+        <span>Alkem Laboratories</span>
+      </a>
+      <!-- Cipla -->
+      <a href="https://www.cipla.com/" target="_blank" class="company-card">
+        <img src="../Company Logos/Cipla.png" alt="Cipla">
+        <span>Cipla Ltd.</span>
+      </a>
+      <!-- Sun Pharma -->
+      <a href="https://sunpharma.com/" target="_blank" class="company-card">
+        <img src="../Company Logos/Sun.png" alt="Sun Pharma">
+        <span>Sun Pharma</span>
+      </a>
+      <!-- Mankind -->
+      <a href="https://www.mankindpharma.com/" target="_blank" class="company-card">
+        <img src="../Company Logos/Mankind.png" alt="Mankind">
+        <span>Mankind Pharma</span>
+      </a>
+      <!-- Alcon India -->
+      <a href="https://www.alcon.com/in/" target="_blank" class="company-card">
+        <img src="../Company Logos/Alcon.png" alt="Alcon India">
+        <span>Alcon India</span>
+      </a>
+      <!-- Aristo Pharmaceuticals -->
+      <a href="https://www.aristopharma.co.in/" target="_blank" class="company-card">
+        <img src="../Company Logos/Aristo.png" alt="Aristo Pharmaceuticals">
+        <span>Aristo Pharmaceuticals</span>
+      </a>
+      <!-- Blue Cross Laboratories -->
+      <a href="https://www.bluecrosslabs.com/" target="_blank" class="company-card">
+        <img src="../Company Logos/Blue.png" alt="Blue Cross Laboratories">
+        <span>Blue Cross Laboratories</span>
+      </a>
+      <!-- British Biologicals -->
+      <a href="https://www.britishbiologicals.com/" target="_blank" class="company-card">
+        <img src="../Company Logos/British.png" alt="British Biologicals">
+        <span>British Biologicals</span>
+      </a>
+      <!-- Cachet Pharmaceuticals -->
+      <a href="https://www.cachetindia.com/" target="_blank" class="company-card">
+        <img src="../Company Logos/Cachet.png" alt="Cachet Pharmaceuticals">
+        <span>Cachet Pharmaceuticals</span>
+      </a>
+      <!-- Dr. Reddy's Laboratories -->
+      <a href="https://www.drreddys.com/" target="_blank" class="company-card">
+        <img src="../Company Logos/DrReddys.png" alt="Dr. Reddy's Laboratories">
+        <span>Dr. Reddy's Laboratories</span>
+      </a>
+      <!-- Emcure Pharmaceuticals -->
+      <a href="https://www.emcure.com/" target="_blank" class="company-card">
+        <img src="../Company Logos/Emcure.png" alt="Emcure Pharmaceuticals">
+        <span>Emcure Pharmaceuticals</span>
+      </a>
+      <!-- FDC Limited -->
+      <a href="https://www.fdcindia.com/" target="_blank" class="company-card">
+        <img src="../Company Logos/FDC.png" alt="FDC Limited">
+        <span>FDC Limited</span>
+      </a>
+      <!-- GlaxoSmithKline -->
+      <a href="https://www.gsk.com/" target="_blank" class="company-card">
+        <img src="../Company Logos/GSK.png" alt="GlaxoSmithKline">
+        <span>GlaxoSmithKline</span>
+      </a>
+      <!-- Glenmark Pharmaceuticals -->
+      <a href="https://www.glenmarkpharma.com/" target="_blank" class="company-card">
+        <img src="../Company Logos/Glenmark.png" alt="Glenmark Pharmaceuticals">
+        <span>Glenmark Pharmaceuticals</span>
+      </a>
+      <!-- H&H Pharmaceuticals -->
+      <a href="https://www.hhpharma.com/" target="_blank" class="company-card">
+        <img src="../Company Logos/HH.png" alt="H&H Pharmaceuticals">
+        <span>H&H Pharmaceuticals</span>
+      </a>
+      <!-- Intas Pharmaceuticals -->
+      <a href="https://www.intaspharma.com/" target="_blank" class="company-card">
+        <img src="../Company Logos/Intas.png" alt="Intas Pharmaceuticals">
+        <span>Intas Pharmaceuticals</span>
+      </a>
+      <!-- Ipca Laboratories -->
+      <a href="https://www.ipca.com/" target="_blank" class="company-card">
+        <img src="../Company Logos/Ipca.png" alt="Ipca Laboratories">
+        <span>Ipca Laboratories</span>
+      </a>
+      <!-- J.B. Chemicals & Pharmaceuticals -->
+      <a href="https://www.jbpharma.com/" target="_blank" class="company-card">
+        <img src="../Company Logos/JB.png" alt="J.B. Chemicals">
+        <span>J.B. Chemicals</span>
+      </a>
+      <!-- Johnson & Johnson -->
+      <a href="https://www.jnj.com/" target="_blank" class="company-card">
+        <img src="../Company Logos/JnJ.png" alt="Johnson & Johnson">
+        <span>Johnson & Johnson</span>
+      </a>
+      <!-- La Renon Healthcare -->
+      <a href="https://www.larenon.com/" target="_blank" class="company-card">
+        <img src="../Company Logos/LaRenon.png" alt="La Renon Healthcare">
+        <span>La Renon Healthcare</span>
+      </a>
+      <!-- Lupin Limited -->
+      <a href="https://www.lupin.com/" target="_blank" class="company-card">
+        <img src="../Company Logos/Lupin.png" alt="Lupin Limited">
+        <span>Lupin Limited</span>
+      </a>
+      <!-- Macleods Pharmaceuticals -->
+      <a href="https://www.macleodspharma.com/" target="_blank" class="company-card">
+        <img src="../Company Logos/Macleods.png" alt="Macleods Pharmaceuticals">
+        <span>Macleods Pharmaceuticals</span>
+      </a>
+      <!-- Mayer Organics -->
+      <a href="https://meyer.co.in/" target="_blank" class="company-card">
+        <img src="../Company Logos/Mayer.png" alt="Mayer Organics">
+        <span>Mayer Organics</span>
+      </a>
+      <!-- Pfizer Limited -->
+      <a href="https://www.pfizerindia.com/" target="_blank" class="company-card">
+        <img src="../Company Logos/Pfizer.png" alt="Pfizer Limited">
+        <span>Pfizer Limited</span>
+      </a>
+      <!-- P&G Health -->
+      <a href="https://www.pghealthindia.com/" target="_blank" class="company-card">
+        <img src="../Company Logos/PG.png" alt="P&G Health">
+        <span>P&G Health</span>
+      </a>
+      <!-- Ranbaxy Laboratories -->
+      <a href="https://ranbaxylabs.com/" target="_blank" class="company-card">
+        <img src="../Company Logos/Ranbaxy.png" alt="Ranbaxy Laboratories">
+        <span>Ranbaxy Laboratories</span>
+      </a>
+      <!-- Raptakos, Brett & Co. Ltd. -->
+      <a href="https://www.raptakos.com/" target="_blank" class="company-card">
+        <img src="../Company Logos/Raptakos.png" alt="Raptakos, Brett & Co.">
+        <span>Raptakos, Brett & Co.</span>
+      </a>
+      <!-- Serum Institute of India -->
+      <a href="https://www.seruminstitute.com/" target="_blank" class="company-card">
+        <img src="../Company Logos/Serum.png" alt="Serum Institute">
+        <span>Serum Institute</span>
+      </a>
+      <!-- Systopic Laboratories -->
+      <a href="https://www.systopic.com/" target="_blank" class="company-card">
+        <img src="../Company Logos/Systopic.png" alt="Systopic Laboratories">
+        <span>Systopic Laboratories</span>
+      </a>
+      <!-- Torrent Pharmaceuticals -->
+      <a href="https://www.torrentpharma.com/" target="_blank" class="company-card">
+        <img src="../Company Logos/Torrent.png" alt="Torrent Pharmaceuticals">
+        <span>Torrent Pharmaceuticals</span>
+      </a>
+      <!-- Troikaa Pharmaceuticals -->
+      <a href="https://www.troikaa.com/" target="_blank" class="company-card">
+        <img src="../Company Logos/Troikaa.png" alt="Troikaa Pharmaceuticals">
+        <span>Troikaa Pharmaceuticals</span>
+      </a>
+      <!-- USV Private Limited -->
+      <a href="https://www.usv.in/" target="_blank" class="company-card">
+        <img src="../Company Logos/USV.png" alt="USV Private Limited">
+        <span>USV Private Limited</span>
+      </a>
+      <!-- Win-Medicare -->
+      <a href="javascript:void(0);" target="_blank" class="company-card">
+        <img src="../Company Logos/WinMedicare.png" alt="Win-Medicare">
+        <span>Win-Medicare</span>
+      </a>
+      <!-- Zuventus Healthcare -->
+      <a href="javascript:void(0);" target="_blank" class="company-card">
+        <img src="../Company Logos/Zuventus.png" alt="Zuventus Healthcare">
+        <span>Zuventus Healthcare</span>
+      </a>
+      <div style="grid-column: 1 / -1; text-align: center; padding: 2rem 0 0;">
+        <span style="font-size: 1.1rem; color: var(--navy); font-weight: 600;">&amp; MANY MORE...</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-col">
+      <h4>Navkar & Pronavkar</h4>
+      <p>Navkar Apotek LLP & Pronavkar Lifecare LLP are leading pharmaceutical distributors committed to delivering excellence in healthcare. We bridge the gap between quality manufacturers and healthcare providers across India.</p>
+      <div style="display: flex; gap: 15px; margin-top: 1.5rem;">
+        <a href="https://www.instagram.com/navkarapotekllp/" target="_blank"><img src="../Icons/instagram.png" alt="Instagram" style="height: 28px; width: auto;"></a>
+        <a href="https://in.linkedin.com/company/navkar-apotek-llp" target="_blank"><img src="../Icons/linkedin.png" alt="LinkedIn" style="height: 28px; width: auto;"></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul class="footer-links">
+        <li><a href="../careers/">Academic Careers</a></li>
+        <li><a href="../terms-conditions/">Terms & Conditions</a></li>
+        <li><a href="../privacy-policy/">Privacy Policy</a></li>
+        <li><a href="https://play.google.com/store/apps/details?id=in.relysoft.navkarapotekllp" target="_blank"><img src="../PlayStore.jpg" alt="Get it on Google Play" style="height:36px;width:auto;border-radius:4px;"></a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Get In Touch</h4>
+      <div class="footer-contact">
+        <!-- Location -->
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Address</span>
+            <span>Baramati, Pune, Maharashtra - 413102</span>
+          </div>
+        </div>
+
+        <!-- Phone -->
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Phone</span>
+            <span>+91 9529337113</span>
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Email</span>
+            <span>info@navkarapotek.com</span>
+          </div>
+        </div>
+
+        <!-- Working Hours -->
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Working Hours</span>
+            <span>Mon - Sat: 10:00 AM - 7:00 PM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer-bottom">
+  </div>
+</footer>
+
+<script>
+function toggleMenu() {
+  document.getElementById('navOverlay').classList.toggle('active');
+  document.querySelector('.menu-toggle').classList.toggle('active');
+}
+</script>
+
+</body>
+</html>
