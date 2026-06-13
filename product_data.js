@@ -10015,6 +10015,11 @@ const productData = [
         "Company Name": "GENERAL COMPANIES"
     },
     {
+        "Product Name": "COFSILS COUGH DROPS [205+5 FREE]",
+        "Pack": "1JAR",
+        "Company Name": "GENERAL...A"
+    },
+    {
         "Product Name": "AUGMED 375MG TABS",
         "Pack": "1X6T",
         "Company Name": "GERMAN REMEDIES LTD"
@@ -11685,6 +11690,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "HEALING UMBREALLA",
+        "Pack": "1",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "HEALING VACCUM CLEANER",
         "Pack": "1",
         "Company Name": "HEALING PHARMA"
@@ -12932,11 +12942,6 @@ const productData = [
     {
         "Product Name": "TRYPTICAN 25 TAB",
         "Pack": "10TAB",
-        "Company Name": "HEALING PHARMA"
-    },
-    {
-        "Product Name": "UMBREALL HEALING",
-        "Pack": "1",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -22185,6 +22190,11 @@ const productData = [
         "Company Name": "OSWAL CHEMICALS"
     },
     {
+        "Product Name": "HYDROGEN PEROXID 5 LITER",
+        "Pack": "1X5LTR",
+        "Company Name": "OSWAL CHEMICALS"
+    },
+    {
         "Product Name": "LIQUID PARAFIN IP.",
         "Pack": "200ML",
         "Company Name": "OSWAL CHEMICALS"
@@ -24770,11 +24780,6 @@ const productData = [
         "Company Name": "SD CARE"
     },
     {
-        "Product Name": "SHIKAKAI POWDER (SDL) JAR",
-        "Pack": "50GM",
-        "Company Name": "SDL"
-    },
-    {
         "Product Name": "SEAGULLS OLIVON OIL 100ML",
         "Pack": "1X100ML",
         "Company Name": "SEAGULLS OLIVON"
@@ -26820,7 +26825,7 @@ const productData = [
         "Company Name": "SMART ICONIC LAB"
     },
     {
-        "Product Name": "TINYFACE TOOTHPASTEF 38",
+        "Product Name": "TINYFACE TOOTHPASTE",
         "Pack": "1X80GM",
         "Company Name": "SMART ICONIC LAB"
     },
@@ -28467,6 +28472,11 @@ const productData = [
     {
         "Product Name": "RESPIJOY VAPORIZING RUB 10 ML",
         "Pack": "10ML",
+        "Company Name": "PROTIFRESH ADVANCE POWDER"
+    },
+    {
+        "Product Name": "RESPITHIK A NF SYP",
+        "Pack": "100ML",
         "Company Name": "PROTIFRESH ADVANCE POWDER"
     },
     {

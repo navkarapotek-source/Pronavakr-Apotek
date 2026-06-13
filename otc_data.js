@@ -2070,11 +2070,6 @@ const otcData = [
         "Company Name": "GENERAL...A"
     },
     {
-        "Product Name": "COFSILS COUGH DROPS [205+5 FREE]",
-        "Pack": "1JAR",
-        "Company Name": "GENERAL...A"
-    },
-    {
         "Product Name": "COLDAVIN 100GM",
         "Pack": "100GM",
         "Company Name": "GENERAL...A"
@@ -3732,11 +3727,6 @@ const otcData = [
     {
         "Product Name": "DAKTARIN GEL 40GM",
         "Pack": "40GM",
-        "Company Name": "JOHNSON & JOHNSON (OTC)"
-    },
-    {
-        "Product Name": "HAJMOLA BOTTLE [ANANRDANA] 120TAB",
-        "Pack": "120TAB",
         "Company Name": "JOHNSON & JOHNSON (OTC)"
     },
     {
@@ -5792,6 +5782,11 @@ const otcData = [
     {
         "Product Name": "SHATAVRI KALP [SDL]",
         "Pack": "250GM",
+        "Company Name": "SDL"
+    },
+    {
+        "Product Name": "SHIKAKAI POWDER (SDL) JAR",
+        "Pack": "50GM",
         "Company Name": "SDL"
     },
     {
