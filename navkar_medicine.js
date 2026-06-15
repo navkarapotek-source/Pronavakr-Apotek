@@ -8075,6 +8075,11 @@ const navkarMedicineData = [
         "Company Name": "ALEMBIC PHARMACEUTICALS P.LTD"
     },
     {
+        "Product Name": "RELUHER TAB",
+        "Pack": "10TAB",
+        "Company Name": "ALEMBIC PHARMACEUTICALS P.LTD"
+    },
+    {
         "Product Name": "SITALEMBIC 100 MG TAB",
         "Pack": "10 TAB",
         "Company Name": "ALEMBIC PHARMACEUTICALS P.LTD"
@@ -29905,79 +29910,84 @@ const navkarMedicineData = [
         "Company Name": "ATOCOR 20MG TAB"
     },
     {
+        "Product Name": "TELSARTAN AM 40MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ATOCOR 20MG TAB"
+    },
+    {
         "Product Name": "TELSARTAN AM 80MG TAB",
         "Pack": "14 TAB",
-        "Company Name": "TELSARTAN AM 40MG TAB"
+        "Company Name": "ATOCOR 20MG TAB"
     },
     {
         "Product Name": "TELSARTAN CT 40MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "TELSARTAN AM 40MG TAB"
+        "Company Name": "ATOCOR 20MG TAB"
     },
     {
         "Product Name": "TELSARTAN CT 80MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "TELSARTAN AM 40MG TAB"
+        "Company Name": "ATOCOR 20MG TAB"
     },
     {
         "Product Name": "TELSARTAN H 40MG TAB",
         "Pack": "14 TAB",
-        "Company Name": "TELSARTAN AM 40MG TAB"
+        "Company Name": "ATOCOR 20MG TAB"
     },
     {
         "Product Name": "TELSARTAN H 80MG TAB",
         "Pack": "14 TAB",
-        "Company Name": "TELSARTAN AM 40MG TAB"
+        "Company Name": "ATOCOR 20MG TAB"
     },
     {
         "Product Name": "TELSARTAN LN 40 TAB",
         "Pack": "10 TAB",
-        "Company Name": "TELSARTAN AM 40MG TAB"
+        "Company Name": "ATOCOR 20MG TAB"
     },
     {
         "Product Name": "TELSARTAN LN 80 TAB",
         "Pack": "10 TAB",
-        "Company Name": "TELSARTAN AM 40MG TAB"
+        "Company Name": "ATOCOR 20MG TAB"
     },
     {
         "Product Name": "TELSARTAN M 25 TAB",
         "Pack": "10 TAB",
-        "Company Name": "TELSARTAN AM 40MG TAB"
+        "Company Name": "ATOCOR 20MG TAB"
     },
     {
         "Product Name": "TELSARTAN M 50 TAB",
         "Pack": "10 TAB",
-        "Company Name": "TELSARTAN AM 40MG TAB"
+        "Company Name": "ATOCOR 20MG TAB"
     },
     {
         "Product Name": "TELSARTAN TRIO TAB",
         "Pack": "30 TAB",
-        "Company Name": "TELSARTAN AM 40MG TAB"
+        "Company Name": "ATOCOR 20MG TAB"
     },
     {
         "Product Name": "VICRA 10MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "TELSARTAN AM 40MG TAB"
+        "Company Name": "ATOCOR 20MG TAB"
     },
     {
         "Product Name": "VICRA 25MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "TELSARTAN AM 40MG TAB"
+        "Company Name": "ATOCOR 20MG TAB"
     },
     {
         "Product Name": "VICRA M TAB 12.5/500MG",
         "Pack": "10TAB",
-        "Company Name": "TELSARTAN AM 40MG TAB"
+        "Company Name": "ATOCOR 20MG TAB"
     },
     {
         "Product Name": "VICRA SM 10/100/1000MG TAB",
         "Pack": "10TAB",
-        "Company Name": "TELSARTAN AM 40MG TAB"
+        "Company Name": "ATOCOR 20MG TAB"
     },
     {
         "Product Name": "VICRA SM 25/100/1000MG TAB",
         "Pack": "10TAB",
-        "Company Name": "TELSARTAN AM 40MG TAB"
+        "Company Name": "ATOCOR 20MG TAB"
     },
     {
         "Product Name": "REDOTIL 100MG CAP 15``S",
@@ -30157,6 +30167,11 @@ const navkarMedicineData = [
     {
         "Product Name": "KETOROL SP TAB",
         "Pack": "10 TAB",
+        "Company Name": "DR REDDYS LAB (RECURA  ACE)"
+    },
+    {
+        "Product Name": "REELEASE TAB",
+        "Pack": "6'S",
         "Company Name": "DR REDDYS LAB (RECURA  ACE)"
     },
     {
@@ -31397,11 +31412,6 @@ const navkarMedicineData = [
     {
         "Product Name": "LEON 750 TAB",
         "Pack": "5 TAB",
-        "Company Name": "DR REDDYS LABORATORIES LTD."
-    },
-    {
-        "Product Name": "REELEASE TAB",
-        "Pack": "6'S",
         "Company Name": "DR REDDYS LABORATORIES LTD."
     },
     {
@@ -79090,34 +79100,39 @@ const navkarMedicineData = [
         "Company Name": "COMBIHALE FB 200 DPI CAP"
     },
     {
+        "Product Name": "NUROKIND D3 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "COMBIHALE FB 200 DPI CAP"
+    },
+    {
         "Product Name": "SYMBICORT 160/4.5",
         "Pack": "1 PACK",
-        "Company Name": "NUROKIND D3 TAB"
+        "Company Name": "COMBIHALE FB 200 DPI CAP"
     },
     {
         "Product Name": "SYMBICORT 80 / 4.5",
         "Pack": "1 PACK",
-        "Company Name": "NUROKIND D3 TAB"
+        "Company Name": "COMBIHALE FB 200 DPI CAP"
     },
     {
         "Product Name": "TURBUHALER 160/4.5 TAB",
         "Pack": "TAB",
-        "Company Name": "NUROKIND D3 TAB"
+        "Company Name": "COMBIHALE FB 200 DPI CAP"
     },
     {
         "Product Name": "TURBUHALER -80/4.5",
         "Pack": "1 PACK",
-        "Company Name": "NUROKIND D3 TAB"
+        "Company Name": "COMBIHALE FB 200 DPI CAP"
     },
     {
         "Product Name": "VILMIST 100 DPI CAP",
         "Pack": "30 CAP",
-        "Company Name": "NUROKIND D3 TAB"
+        "Company Name": "COMBIHALE FB 200 DPI CAP"
     },
     {
         "Product Name": "VILMIST 200 DPI CAP",
         "Pack": "30 CAP",
-        "Company Name": "NUROKIND D3 TAB"
+        "Company Name": "COMBIHALE FB 200 DPI CAP"
     },
     {
         "Product Name": "AGPTOY TAB",
@@ -83287,6 +83302,11 @@ const navkarMedicineData = [
     {
         "Product Name": "FLORA BC DRY SYP",
         "Pack": "60ML",
+        "Company Name": "MANKIND PHARMA {VISTAR}"
+    },
+    {
+        "Product Name": "FLORA MD SACHET",
+        "Pack": "1SAC",
         "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
@@ -88530,16 +88550,6 @@ const navkarMedicineData = [
         "Company Name": "MICRO LAB (CARSYON CARDIAC)"
     },
     {
-        "Product Name": "AVAS 10MG TAB 10`S",
-        "Pack": "10 TAB",
-        "Company Name": "MICRO LAB (CARSYON CARDIAC)"
-    },
-    {
-        "Product Name": "AVAS 10MG TAB 30`S",
-        "Pack": "TAB",
-        "Company Name": "MICRO LAB (CARSYON CARDIAC)"
-    },
-    {
         "Product Name": "AVAS 20MG TAB",
         "Pack": "10 TAB",
         "Company Name": "MICRO LAB (CARSYON CARDIAC)"
@@ -89397,6 +89407,16 @@ const navkarMedicineData = [
     {
         "Product Name": "AMLONG TL 40MG TAB 10`S",
         "Pack": "10 TAB",
+        "Company Name": "MICRO LAB { CARSYON ONE}"
+    },
+    {
+        "Product Name": "AVAS 10MG TAB 10`S",
+        "Pack": "10 TAB",
+        "Company Name": "MICRO LAB { CARSYON ONE}"
+    },
+    {
+        "Product Name": "AVAS 10MG TAB 30`S",
+        "Pack": "TAB",
         "Company Name": "MICRO LAB { CARSYON ONE}"
     },
     {
@@ -118170,6 +118190,11 @@ const navkarMedicineData = [
         "Company Name": "ZIPCO HEALTHCARE"
     },
     {
+        "Product Name": "OZIP D TAB",
+        "Pack": "10TAB",
+        "Company Name": "ZIPCO HEALTHCARE"
+    },
+    {
         "Product Name": "PACK-MF TAB",
         "Pack": "10 TAB",
         "Company Name": "ZIPCO HEALTHCARE"
@@ -118177,6 +118202,11 @@ const navkarMedicineData = [
     {
         "Product Name": "PACO [D] CAP",
         "Pack": "10CAP",
+        "Company Name": "ZIPCO HEALTHCARE"
+    },
+    {
+        "Product Name": "PACO 40 TAB",
+        "Pack": "10TAB",
         "Company Name": "ZIPCO HEALTHCARE"
     },
     {

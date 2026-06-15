@@ -6850,6 +6850,11 @@ const otcData = [
         "Company Name": "WIPRO CONSUMER CARE"
     },
     {
+        "Product Name": "SANTOOR HANDY REFILL [MRP 10]",
+        "Pack": "7.65GM",
+        "Company Name": "WIPRO CONSUMER CARE"
+    },
+    {
         "Product Name": "SANTOOR SOAP  37GM",
         "Pack": "4PC",
         "Company Name": "WIPRO CONSUMER CARE"

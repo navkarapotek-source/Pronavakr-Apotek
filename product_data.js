@@ -13070,7 +13070,7 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
-        "Product Name": "ZINCOHEAL TABS",
+        "Product Name": "ZINCOHEAL TAB",
         "Pack": "1X15T",
         "Company Name": "HEALING PHARMA"
     },
@@ -30515,7 +30515,7 @@ const productData = [
         "Company Name": "UNIVERSAL PHARMA"
     },
     {
-        "Product Name": "PROVIDINE-AM CREAM",
+        "Product Name": "PROVIDINE-AM+ CREAM",
         "Pack": "1X15 GM",
         "Company Name": "UNIVERSAL PHARMA"
     },
@@ -30833,11 +30833,6 @@ const productData = [
         "Product Name": "WAL-TARTAN CT 12.5 TAB",
         "Pack": "10X15T",
         "Company Name": "WALLACE PHARMACEUTICALS PVT LTD"
-    },
-    {
-        "Product Name": "SANTOOR HANDY REFILL [MRP 10]",
-        "Pack": "7.65GM",
-        "Company Name": "WIPRO CONSUMER CARE"
     },
     {
         "Product Name": "FERRIWOK-XT TAB (A/A)",
