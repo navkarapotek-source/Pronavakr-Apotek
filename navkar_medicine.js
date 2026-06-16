@@ -4830,154 +4830,159 @@ const navkarMedicineData = [
         "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
+        "Product Name": "COS 3 SYP",
+        "Pack": "200ML",
+        "Company Name": "AKUMENTIS DELCURE LIFE"
+    },
+    {
         "Product Name": "COS3 PLUS SYP",
         "Pack": "150ML",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "D LIQ DROPS 15ML",
         "Pack": "15ML",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "DELPOCALM DROPS",
         "Pack": "10ML",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "DELPOCALM PED SYRUP",
         "Pack": "30ML",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "DELPOCALM SYP",
         "Pack": "30ML",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "DELPOCLAV 228.5 DRY SYP",
         "Pack": "30ML",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "DELPOCLAV 457 TAB",
         "Pack": "10TAB",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "DELPOCLAV 625MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "DELPOCLAV DROP",
         "Pack": "ML",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "DELPOCLAV DS 457MG DRY SYP",
         "Pack": "30ML",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "DELPOCURE 100 DT TAB",
         "Pack": "10 TAB",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "DELPOCURE 100MG DRY SYP",
         "Pack": "30ML",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "DELPOCURE 200MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "DELPOCURE 50MG DRY SYP",
         "Pack": "30ML",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "DELPONORM SACHET",
         "Pack": "0.84GM",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "ECOGRO LIQUID 5ML",
         "Pack": "5ML",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "ESOLE GRANULES SACHETS",
         "Pack": "0.75GM",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "LIDOZONE EAR DROPS",
         "Pack": "10ML",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "LIDOZONE EAR DROPS 5ML",
         "Pack": "5ML",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "PAEDIASLEEP",
         "Pack": "10",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "PEDIGUT GG DRO",
         "Pack": "ML",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "PEDIGUT GG SACHET",
         "Pack": "1GM",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "SOFERI DROPS",
         "Pack": "15ML",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "TENDOKING TAB",
         "Pack": "15 TAB",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "UDCAMENT SYP",
         "Pack": "100ML",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "WALKTALL KID SYP",
         "Pack": "200ML",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "WELMINIC [DX] SYR",
         "Pack": "100ML",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "WELMINIC [LS] DROPS",
         "Pack": "15ML",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "WELMINIC AF DROP",
         "Pack": "ML",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "WELMINIC DROPS 30 ML",
         "Pack": "30 ML",
-        "Company Name": "COS 3 SYP"
+        "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
         "Product Name": "WELMINIC LD SYP",
@@ -9530,8 +9535,18 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LAB (NEXA)"
     },
     {
+        "Product Name": "A TO Z NS SYR 100ML",
+        "Pack": "100ML",
+        "Company Name": "ALKEM LAB (NEXA)"
+    },
+    {
         "Product Name": "A TO Z NS SYR 200ML",
         "Pack": "200ML",
+        "Company Name": "ALKEM LAB (NEXA)"
+    },
+    {
+        "Product Name": "A TO Z SMART SPRINKLE SACHET",
+        "Pack": "30'S",
         "Company Name": "ALKEM LAB (NEXA)"
     },
     {
@@ -10325,11 +10340,6 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LABORATORIES (ALTIS)"
     },
     {
-        "Product Name": "A TO Z SMART SPRINKLE SACHET",
-        "Pack": "30'S",
-        "Company Name": "ALKEM LABORATORIES LIMITED"
-    },
-    {
         "Product Name": "ALSITA E 10 TAB",
         "Pack": "10'S",
         "Company Name": "ALKEM LABORATORIES LIMITED"
@@ -10485,6 +10495,11 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LABORATORIES LIMITED"
     },
     {
+        "Product Name": "OLESOFT LITE GEL",
+        "Pack": "75GM",
+        "Company Name": "ALKEM LABORATORIES LIMITED"
+    },
+    {
         "Product Name": "OLYMPRIX TAB",
         "Pack": "TAB",
         "Company Name": "ALKEM LABORATORIES LIMITED"
@@ -10587,11 +10602,6 @@ const navkarMedicineData = [
     {
         "Product Name": "A TO Z NS DROPS",
         "Pack": "15ML",
-        "Company Name": "ALKEM PHARMA"
-    },
-    {
-        "Product Name": "A TO Z NS SYR 100ML",
-        "Pack": "100ML",
         "Company Name": "ALKEM PHARMA"
     },
     {
@@ -20315,11 +20325,6 @@ const navkarMedicineData = [
         "Company Name": "CADILA PHARMA  (MAGFAM)"
     },
     {
-        "Product Name": "ACILOC S SUSP",
-        "Pack": "200ML",
-        "Company Name": "CADILA PHARMA  (MAGFAM)"
-    },
-    {
         "Product Name": "CADILOSE SYP 100ML",
         "Pack": "100ML",
         "Company Name": "CADILA PHARMA  (MAGFAM)"
@@ -20358,6 +20363,11 @@ const navkarMedicineData = [
         "Product Name": "ZYCIN 200 MG SYR",
         "Pack": "30 ML",
         "Company Name": "CADILA PHARMA  (MAGFAM)"
+    },
+    {
+        "Product Name": "ACILOC S SUSP",
+        "Pack": "200ML",
+        "Company Name": "CADILA PHARMA  (MAGNA WAVE)"
     },
     {
         "Product Name": "CALCIROL FAST INJ",
@@ -21590,6 +21600,11 @@ const navkarMedicineData = [
         "Company Name": "CHARAK (PHYTONOVA)"
     },
     {
+        "Product Name": "OSTEOLIFE TAB",
+        "Pack": "30'S",
+        "Company Name": "CHARAK (PHYTONOVA)"
+    },
+    {
         "Product Name": "PALLARWYN FORTE TAB",
         "Pack": "30 TAB",
         "Company Name": "CHARAK (PHYTONOVA)"
@@ -21765,11 +21780,6 @@ const navkarMedicineData = [
         "Company Name": "CHARAK PHARMA"
     },
     {
-        "Product Name": "KOFOL CHEW TAB [20TAB]",
-        "Pack": "20TAB",
-        "Company Name": "CHARAK PHARMA"
-    },
-    {
         "Product Name": "KOFOL CHEW TAB [60TAB]",
         "Pack": "60TAB",
         "Company Name": "CHARAK PHARMA"
@@ -21870,11 +21880,6 @@ const navkarMedicineData = [
         "Company Name": "CHARAK PHARMA"
     },
     {
-        "Product Name": "OSTEOLIFE TAB",
-        "Pack": "30'S",
-        "Company Name": "CHARAK PHARMA"
-    },
-    {
         "Product Name": "OSTOLIEF NUTRA TAB",
         "Pack": "TAB",
         "Company Name": "CHARAK PHARMA"
@@ -21907,11 +21912,6 @@ const navkarMedicineData = [
     {
         "Product Name": "ZZOWIN NUTRA TAB",
         "Pack": "30'S",
-        "Company Name": "CHARAK PHARMA"
-    },
-    {
-        "Product Name": "ZZOWIN TAB",
-        "Pack": "TAB",
         "Company Name": "CHARAK PHARMA"
     },
     {
@@ -27400,6 +27400,11 @@ const navkarMedicineData = [
         "Company Name": "CORONA REMEDIES PVT. LTD AURA"
     },
     {
+        "Product Name": "EV TAB",
+        "Pack": "28TAB",
+        "Company Name": "CORONA REMEDIES PVT. LTD AURA"
+    },
+    {
         "Product Name": "IVAPACE 5MG TAB",
         "Pack": "10TAB",
         "Company Name": "CORONA REMEDIES PVT. LTD AURA"
@@ -30083,6 +30088,16 @@ const navkarMedicineData = [
         "Product Name": "VOZUCA 0.3MG TAB",
         "Pack": "15 TAB",
         "Company Name": "DR REDDYS LAB (OPTIMUS)"
+    },
+    {
+        "Product Name": "OBED1 INJ(PEN)",
+        "Pack": "4MG",
+        "Company Name": "DR REDDYS LAB (OTC)"
+    },
+    {
+        "Product Name": "OBEDA 0.25/0.5 INJ(PEN)",
+        "Pack": "2MG",
+        "Company Name": "DR REDDYS LAB (OTC)"
     },
     {
         "Product Name": "OBEDA 3MG TAB",
@@ -39665,11 +39680,6 @@ const navkarMedicineData = [
         "Company Name": "IOBET EYE DROPS"
     },
     {
-        "Product Name": "ZIFI 50 DRY SYP 60ML",
-        "Pack": "60ML",
-        "Company Name": "IOBET EYE DROPS"
-    },
-    {
         "Product Name": "ZIPOD CV 100 DT TAB",
         "Pack": "TAB",
         "Company Name": "IOBET EYE DROPS"
@@ -40000,99 +40010,104 @@ const navkarMedicineData = [
         "Company Name": "FDC LTD (PROXIMA)"
     },
     {
+        "Product Name": "ENERZAL ZERO ORANGE POWDER",
+        "Pack": "5 GM",
+        "Company Name": "FDC LTD (PROXIMA)"
+    },
+    {
         "Product Name": "ENERZAL ZERO PET LIQ",
         "Pack": "400ML",
-        "Company Name": "ENERZAL ZERO ORANGE POWDER"
+        "Company Name": "FDC LTD (PROXIMA)"
     },
     {
         "Product Name": "FLEMICLAV 1GM TAB",
         "Pack": "TAB",
-        "Company Name": "ENERZAL ZERO ORANGE POWDER"
+        "Company Name": "FDC LTD (PROXIMA)"
     },
     {
         "Product Name": "FLEMICLAV 375 MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "ENERZAL ZERO ORANGE POWDER"
+        "Company Name": "FDC LTD (PROXIMA)"
     },
     {
         "Product Name": "FLEMICLAV 625MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "ENERZAL ZERO ORANGE POWDER"
+        "Company Name": "FDC LTD (PROXIMA)"
     },
     {
         "Product Name": "FLEMICLAV FORTE DRY SYP",
         "Pack": "30ML",
-        "Company Name": "ENERZAL ZERO ORANGE POWDER"
+        "Company Name": "FDC LTD (PROXIMA)"
     },
     {
         "Product Name": "FLEMICLAV KID DRY SYP",
         "Pack": "30ML",
-        "Company Name": "ENERZAL ZERO ORANGE POWDER"
+        "Company Name": "FDC LTD (PROXIMA)"
     },
     {
         "Product Name": "FLEMICLAV KID DT TAB",
         "Pack": "10 TAB",
-        "Company Name": "ENERZAL ZERO ORANGE POWDER"
+        "Company Name": "FDC LTD (PROXIMA)"
     },
     {
         "Product Name": "FLUNARIN 10MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "ENERZAL ZERO ORANGE POWDER"
+        "Company Name": "FDC LTD (PROXIMA)"
     },
     {
         "Product Name": "FLUNARIN 5MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "ENERZAL ZERO ORANGE POWDER"
+        "Company Name": "FDC LTD (PROXIMA)"
     },
     {
         "Product Name": "GUTRITE SACH",
         "Pack": "1GM",
-        "Company Name": "ENERZAL ZERO ORANGE POWDER"
+        "Company Name": "FDC LTD (PROXIMA)"
     },
     {
         "Product Name": "MUCORIS ADULT NASAL SPRAY",
         "Pack": "10ML",
-        "Company Name": "ENERZAL ZERO ORANGE POWDER"
+        "Company Name": "FDC LTD (PROXIMA)"
     },
     {
         "Product Name": "MUCORIS P (PEAD) NASAL SPRAY",
         "Pack": "10ML",
-        "Company Name": "ENERZAL ZERO ORANGE POWDER"
+        "Company Name": "FDC LTD (PROXIMA)"
     },
     {
         "Product Name": "OTEK AC NEO EAR DROPS",
         "Pack": "5ML",
-        "Company Name": "ENERZAL ZERO ORANGE POWDER"
+        "Company Name": "FDC LTD (PROXIMA)"
     },
     {
         "Product Name": "OTEK AF EAR DROPS",
         "Pack": "10ML",
-        "Company Name": "ENERZAL ZERO ORANGE POWDER"
+        "Company Name": "FDC LTD (PROXIMA)"
     },
     {
         "Product Name": "PLARICA TAB",
         "Pack": "10 TAB",
-        "Company Name": "ENERZAL ZERO ORANGE POWDER"
+        "Company Name": "FDC LTD (PROXIMA)"
     },
     {
         "Product Name": "SALBETOL 2MG TAB",
         "Pack": "TAB",
-        "Company Name": "ENERZAL ZERO ORANGE POWDER"
+        "Company Name": "FDC LTD (PROXIMA)"
     },
     {
         "Product Name": "SALBETOL 4MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "ENERZAL ZERO ORANGE POWDER"
+        "Company Name": "FDC LTD (PROXIMA)"
     },
     {
         "Product Name": "URIPRO 0.4MG CAP",
         "Pack": "10 CAP",
-        "Company Name": "ENERZAL ZERO ORANGE POWDER"
+        "Company Name": "FDC LTD (PROXIMA)"
     },
     {
         "Product Name": "VITCOFOL [S] INJ",
         "Pack": "5 ML*AMP",
-        "Company Name": "ENERZAL ZERO ORANGE POWDER"
+        "Company Name": "FDC LTD (PROXIMA)"
     },
     {
         "Product Name": "VITCOFOL FCM 1000 INJ",
@@ -40372,6 +40387,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ZIFI 400 TAB",
         "Pack": "TAB",
+        "Company Name": "FDC LTD (SPECTRA)"
+    },
+    {
+        "Product Name": "ZIFI 50 DRY SYP 60ML",
+        "Pack": "60ML",
         "Company Name": "FDC LTD (SPECTRA)"
     },
     {
@@ -41705,11 +41725,6 @@ const navkarMedicineData = [
         "Company Name": "FOURRTS LAB (PREMIERE GASTRO)"
     },
     {
-        "Product Name": "NEFROSAVE KETO TAB",
-        "Pack": "10TAB",
-        "Company Name": "FOURRTS LAB (PREMIERE GASTRO)"
-    },
-    {
         "Product Name": "OXERUTE CD TAB",
         "Pack": "TAB",
         "Company Name": "FOURRTS LAB (PREMIERE GASTRO)"
@@ -41817,6 +41832,11 @@ const navkarMedicineData = [
     {
         "Product Name": "NEFROSAVE KETO SACHETS",
         "Pack": "10GM",
+        "Company Name": "FOURRTS LAB (SPECIALITY)"
+    },
+    {
+        "Product Name": "NEFROSAVE KETO TAB",
+        "Pack": "10TAB",
         "Company Name": "FOURRTS LAB (SPECIALITY)"
     },
     {
@@ -49375,6 +49395,16 @@ const navkarMedicineData = [
         "Company Name": "HETERO HEALTHCARE DERMA GLOW"
     },
     {
+        "Product Name": "CABENZA 20MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "HETERO HEALTHCARE LTD (ASRA)"
+    },
+    {
+        "Product Name": "DULGA 20 MG CAP",
+        "Pack": "10TAB",
+        "Company Name": "HETERO HEALTHCARE LTD (ASRA)"
+    },
+    {
         "Product Name": "HETQ 200 TAB",
         "Pack": "10TAB",
         "Company Name": "HETERO HEALTHCARE LTD (ASRA)"
@@ -49402,6 +49432,11 @@ const navkarMedicineData = [
     {
         "Product Name": "JAKURA 5MG TAB",
         "Pack": "10 TAB",
+        "Company Name": "HETERO HEALTHCARE LTD (ASRA)"
+    },
+    {
+        "Product Name": "JOGREN TAB",
+        "Pack": "10'S",
         "Company Name": "HETERO HEALTHCARE LTD (ASRA)"
     },
     {
@@ -49910,11 +49945,6 @@ const navkarMedicineData = [
         "Company Name": "HETERO HEALTHCARE LTD (ULTRA)"
     },
     {
-        "Product Name": "JOGREN TAB",
-        "Pack": "10'S",
-        "Company Name": "HETERO HEALTHCARE LTD (ULTRA)"
-    },
-    {
         "Product Name": "PREGAEND TAB",
         "Pack": "5 TAB",
         "Company Name": "HETERO HEALTHCARE LTD (ULTRA)"
@@ -50188,16 +50218,6 @@ const navkarMedicineData = [
         "Product Name": "VETORY MX TAB",
         "Pack": "10 TAB",
         "Company Name": "LINOWIN 600MG TAB"
-    },
-    {
-        "Product Name": "CABENZA 20MG TAB",
-        "Pack": "10TAB",
-        "Company Name": "HETERO HEALTHCARE LTD."
-    },
-    {
-        "Product Name": "DULGA 20 MG CAP",
-        "Pack": "10TAB",
-        "Company Name": "HETERO HEALTHCARE LTD."
     },
     {
         "Product Name": "SEPIA TAB",
@@ -58975,6 +58995,11 @@ const navkarMedicineData = [
         "Company Name": "INUEN HEALTHCARE PRIVATE LIMITED"
     },
     {
+        "Product Name": "INUROSU CV 10 CAP",
+        "Pack": "10CAP",
+        "Company Name": "INUEN HEALTHCARE PRIVATE LIMITED"
+    },
+    {
         "Product Name": "INUROSU CV 20 CAP",
         "Pack": "10CAP",
         "Company Name": "INUEN HEALTHCARE PRIVATE LIMITED"
@@ -63321,7 +63346,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "POWERGESIC PLUS GEL",
-        "Pack": "30GM",
+        "Pack": "50 GM",
         "Company Name": "JENBURKT(ZORA)"
     },
     {
@@ -67036,6 +67061,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "TELMODOR B 40/2.5",
+        "Pack": "10 TAB",
+        "Company Name": "LA RENON HELATHACRE LAUREL"
+    },
+    {
+        "Product Name": "TELMODOR C 40/12.5",
         "Pack": "10 TAB",
         "Company Name": "LA RENON HELATHACRE LAUREL"
     },
@@ -73741,7 +73771,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "UMETRIO TRANSCAP",
-        "Pack": "30 CAP",
+        "Pack": "10CAP",
         "Company Name": "LUPIN NEW RESPIRASPECIALITYCAR"
     },
     {
@@ -92695,8 +92725,8 @@ const navkarMedicineData = [
         "Company Name": "PANACEA BIOTEC (TRANSPLANT)"
     },
     {
-        "Product Name": "GLIZID  XR 30 TAB",
-        "Pack": "10TAB",
+        "Product Name": "GLIZID M XR 30 TAB",
+        "Pack": "10 TAB",
         "Company Name": "PANACEA BIOTEC LTD"
     },
     {
@@ -93302,6 +93332,11 @@ const navkarMedicineData = [
     {
         "Product Name": "OXXOCID TAB",
         "Pack": "10 TAB",
+        "Company Name": "PHARMAC PHARMA DIVISION"
+    },
+    {
+        "Product Name": "OXXOMIN FORTE",
+        "Pack": "10TAB",
         "Company Name": "PHARMAC PHARMA DIVISION"
     },
     {
@@ -101556,7 +101591,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "ROSUVAS CV 20MG CAP",
-        "Pack": "TAB",
+        "Pack": "10 TAB",
         "Company Name": "SUN PHARMA (AMAZE)"
     },
     {
@@ -116815,6 +116850,11 @@ const navkarMedicineData = [
         "Company Name": "WALLACE PHARMACEUTICALS LTD"
     },
     {
+        "Product Name": "CIDREL ORAL SUSPENSION",
+        "Pack": "200 ML",
+        "Company Name": "WALTER BUSHNELL LTD ACE"
+    },
+    {
         "Product Name": "CLINDAZOLE VAGINAL SUPP",
         "Pack": "3 SUPP",
         "Company Name": "WALTER BUSHNELL LTD ACE"
@@ -116977,11 +117017,6 @@ const navkarMedicineData = [
     {
         "Product Name": "BILALIFE TAB",
         "Pack": "10 TAB",
-        "Company Name": "WALTER BUSHNELL LTD STAR"
-    },
-    {
-        "Product Name": "CIDREL ORAL SUSPENSION",
-        "Pack": "200ML",
         "Company Name": "WALTER BUSHNELL LTD STAR"
     },
     {
@@ -121897,6 +121932,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ELROMO 75 MG TAB",
         "Pack": "7 TAB",
+        "Company Name": "ZYDUS WELLNESS LTD"
+    },
+    {
+        "Product Name": "TACROMUS 1 MG CAP",
+        "Pack": "10 CAP",
         "Company Name": "ZYDUS WELLNESS LTD"
     },
     {

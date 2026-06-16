@@ -4710,6 +4710,11 @@ const productData = [
         "Company Name": "CARE"
     },
     {
+        "Product Name": "MATERNITY NAPKIN",
+        "Pack": "PC",
+        "Company Name": "CARE TACH COMPANY"
+    },
+    {
         "Product Name": "ALGICHEW TAB",
         "Pack": "10TAB",
         "Company Name": "CIPLA"
@@ -5167,6 +5172,11 @@ const productData = [
     {
         "Product Name": "NOVACLAV-625",
         "Pack": "1X6T",
+        "Company Name": "CIPLA"
+    },
+    {
+        "Product Name": "NOVACLOX CAPS",
+        "Pack": "1X10C",
         "Company Name": "CIPLA"
     },
     {
@@ -10395,6 +10405,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "ACETASMART 250 TAB",
+        "Pack": "15TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "ACNETOP CREAM",
         "Pack": "1X20GM",
         "Company Name": "HEALING PHARMA"
@@ -10930,6 +10945,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "CRAMPISCON 150ML SYP",
+        "Pack": "150ML",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "CREAMOFORCE PLUS SYP",
         "Pack": "1X225ML",
         "Company Name": "HEALING PHARMA"
@@ -11380,6 +11400,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "GERMOSPORIN OINT",
+        "Pack": "10GM",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "GLYCOHEAL G-1003 TABS",
         "Pack": "1X10T",
         "Company Name": "HEALING PHARMA"
@@ -11730,6 +11755,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "HEALPECIA 1 TAB",
+        "Pack": "10TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "HEALSORE GEL",
         "Pack": "1X10GM",
         "Company Name": "HEALING PHARMA"
@@ -12022,6 +12052,11 @@ const productData = [
     {
         "Product Name": "LIVERHEAL 52 TAB",
         "Pack": "1X200TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "LORABROOK 10 TAB",
+        "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -12465,6 +12500,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "P-NOLOL 10 TAB",
+        "Pack": "10TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "PODOSMART PAINT",
         "Pack": "1X10ML",
         "Company Name": "HEALING PHARMA"
@@ -12572,6 +12612,11 @@ const productData = [
     {
         "Product Name": "RANIHEAL-DC TAB",
         "Pack": "1X10TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "RESPOFYL RETARD 150 TAB",
+        "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -12701,6 +12746,11 @@ const productData = [
     },
     {
         "Product Name": "SITASMART DAPA 10/100 TAB",
+        "Pack": "10TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "SITASMART DAPA 50/10TAB",
         "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
     },
@@ -13900,7 +13950,7 @@ const productData = [
         "Company Name": "INTAS"
     },
     {
-        "Product Name": "INTACOXIA P TABS",
+        "Product Name": "INTACOXIA P TABSC",
         "Pack": "1X10T",
         "Company Name": "INTAS"
     },
@@ -24820,11 +24870,6 @@ const productData = [
         "Company Name": "SHREE SWAMI SAMARTH AGENCIES"
     },
     {
-        "Product Name": "ENDURA MASS [CHOCLATE]",
-        "Pack": "500GM",
-        "Company Name": "SHRIRAMA STORES YELLAPUR"
-    },
-    {
         "Product Name": "ACECREST SP15 TAB",
         "Pack": "10TAB",
         "Company Name": "SMART BFGF"
@@ -28270,139 +28315,139 @@ const productData = [
         "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
-        "Product Name": "200ML",
+        "Product Name": "ORAWET ORS ORANGE TETRAPACK200ML",
         "Pack": "200ML",
-        "Company Name": "ORAWET ORS ORANGE TETRAPACK"
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
         "Product Name": "ORAWET ORS POWDER NIMBUPANI",
         "Pack": "22GM",
-        "Company Name": "ORAWET ORS ORANGE TETRAPACK"
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
         "Product Name": "ORAWET ORS SACHET",
         "Pack": "22GM",
-        "Company Name": "ORAWET ORS ORANGE TETRAPACK"
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
         "Product Name": "ORAWET PRO SACHET ORANGE",
         "Pack": "5.6 GM",
-        "Company Name": "ORAWET ORS ORANGE TETRAPACK"
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
         "Product Name": "PANTOCOAT 40 TAB",
         "Pack": "10TAB",
-        "Company Name": "ORAWET ORS ORANGE TETRAPACK"
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
         "Product Name": "PANTOCOAT 40 TAB 15",
         "Pack": "15TAB",
-        "Company Name": "ORAWET ORS ORANGE TETRAPACK"
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
         "Product Name": "PANTOCOAT D 15TAB",
         "Pack": "15TAB",
-        "Company Name": "ORAWET ORS ORANGE TETRAPACK"
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
         "Product Name": "PANTOCOAT D TAB",
         "Pack": "10TAB",
-        "Company Name": "ORAWET ORS ORANGE TETRAPACK"
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
         "Product Name": "PANTOCOAT IT CAP",
         "Pack": "10CAP",
-        "Company Name": "ORAWET ORS ORANGE TETRAPACK"
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
         "Product Name": "PANTOCOAT LS CAP",
         "Pack": "10CAP",
-        "Company Name": "ORAWET ORS ORANGE TETRAPACK"
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
         "Product Name": "PARASQUARE 150 DROPS",
         "Pack": "15ML",
-        "Company Name": "ORAWET ORS ORANGE TETRAPACK"
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
         "Product Name": "PARASQUARE 500 TAB",
         "Pack": "10TAB",
-        "Company Name": "ORAWET ORS ORANGE TETRAPACK"
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
         "Product Name": "PARASQUARE DS SUSPENSION",
         "Pack": "60ML",
-        "Company Name": "ORAWET ORS ORANGE TETRAPACK"
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
         "Product Name": "PARASQUARE M DS SUSPENSION",
         "Pack": "60ML",
-        "Company Name": "ORAWET ORS ORANGE TETRAPACK"
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
         "Product Name": "PARASQUARE M SUSPENSION",
         "Pack": "60ML",
-        "Company Name": "ORAWET ORS ORANGE TETRAPACK"
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
         "Product Name": "PERMELAN LOTION",
         "Pack": "50ML",
-        "Company Name": "ORAWET ORS ORANGE TETRAPACK"
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
         "Product Name": "POVIFRESH 10 OINTMENT",
         "Pack": "15GM",
-        "Company Name": "ORAWET ORS ORANGE TETRAPACK"
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
         "Product Name": "POVIFRESH GARGLE 2 %",
         "Pack": "100ML",
-        "Company Name": "ORAWET ORS ORANGE TETRAPACK"
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
         "Product Name": "POVIFRESH GARGLE C MOUTHWASH",
         "Pack": "150ML",
-        "Company Name": "ORAWET ORS ORANGE TETRAPACK"
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
         "Product Name": "POVIFRESH OINTMENT",
         "Pack": "15GM",
-        "Company Name": "ORAWET ORS ORANGE TETRAPACK"
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
         "Product Name": "POVIFRESH OINTMENT",
         "Pack": "25GM",
-        "Company Name": "ORAWET ORS ORANGE TETRAPACK"
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
         "Product Name": "POVIFRESH OZ OINTMENT",
         "Pack": "15GM",
-        "Company Name": "ORAWET ORS ORANGE TETRAPACK"
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
         "Product Name": "POVIFRESH POWDER",
         "Pack": "10GM",
-        "Company Name": "ORAWET ORS ORANGE TETRAPACK"
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
         "Product Name": "POVIFRESH SOLUTION 5%",
         "Pack": "100ML",
-        "Company Name": "ORAWET ORS ORANGE TETRAPACK"
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
         "Product Name": "PREDFIX 10 DT TAB",
         "Pack": "15TAB",
-        "Company Name": "ORAWET ORS ORANGE TETRAPACK"
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
         "Product Name": "PREGAJOY HCG KIT",
         "Pack": "1NOS.",
-        "Company Name": "ORAWET ORS ORANGE TETRAPACK"
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
         "Product Name": "PRIMINOR N TAB",
         "Pack": "10TAB",
-        "Company Name": "ORAWET ORS ORANGE TETRAPACK"
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
         "Product Name": "CHOCO",
