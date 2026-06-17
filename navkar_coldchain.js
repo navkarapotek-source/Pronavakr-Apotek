@@ -45,6 +45,16 @@ const navkarColdchainData = [
         "Company Name": "ABBOTT INDIA LTD"
     },
     {
+        "Product Name": "WEGOVY FLXT 0.25MG",
+        "Pack": "1.5ML",
+        "Company Name": "ABBOTT INDIA LTD"
+    },
+    {
+        "Product Name": "WEGOVY FLXT 0.5 MG INJ",
+        "Pack": "1 PFS",
+        "Company Name": "ABBOTT INDIA LTD"
+    },
+    {
         "Product Name": "ACTRAPID 100IU FLEXPEN INJ 3ML",
         "Pack": "1 PEN",
         "Company Name": "ABBOTT INDIA LTD (NOVO NORDISK-EDC)"
@@ -108,6 +118,11 @@ const navkarColdchainData = [
         "Product Name": "LACOMA T EYE DROPS 2.5ML",
         "Pack": "2.5ML",
         "Company Name": "AJANTA PHARMA (ANSCA)"
+    },
+    {
+        "Product Name": "PEROCLIN 2.5% GEL",
+        "Pack": "15GM",
+        "Company Name": "AJANTA PHARMA (AVECIA)"
     },
     {
         "Product Name": "VIVETA CREAM 5 GM",
@@ -1193,6 +1208,11 @@ const navkarColdchainData = [
         "Product Name": "TRESIBA 100IU FLEX TOUCH PEN INJ",
         "Pack": "3ML",
         "Company Name": "NOVO NORDISK INDIA PRIVATE LIMITED"
+    },
+    {
+        "Product Name": "OZEMPIC 0.25 MG INJ",
+        "Pack": "1 PFS",
+        "Company Name": "NOVO NORDISK INDIA PVT LTD"
     },
     {
         "Product Name": "RYBELSUS 14 MG",

@@ -2315,6 +2315,11 @@ const otcData = [
         "Company Name": "GENERAL...A"
     },
     {
+        "Product Name": "ORAL B DEEP CLEAN CAVITY DEFENSE [9+3]",
+        "Pack": "PC",
+        "Company Name": "GENERAL...A"
+    },
+    {
         "Product Name": "ORAL B EVERYDAY CARE BRUSH [6+2]",
         "Pack": "PC",
         "Company Name": "GENERAL...A"

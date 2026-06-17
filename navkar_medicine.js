@@ -2000,16 +2000,6 @@ const navkarMedicineData = [
         "Company Name": "ABBOTT INDIA LTD"
     },
     {
-        "Product Name": "WEGOVY FLXT 0.25MG",
-        "Pack": "1.5ML",
-        "Company Name": "ABBOTT INDIA LTD"
-    },
-    {
-        "Product Name": "WEGOVY FLXT 0.5 MG INJ",
-        "Pack": "1 PFS",
-        "Company Name": "ABBOTT INDIA LTD"
-    },
-    {
         "Product Name": "WEGOVY FLXT 1 MG",
         "Pack": "1*3ML",
         "Company Name": "ABBOTT INDIA LTD"
@@ -3452,11 +3442,6 @@ const navkarMedicineData = [
     {
         "Product Name": "PATADIN 5MG TAB",
         "Pack": "TAB",
-        "Company Name": "AJANTA PHARMA (AVECIA)"
-    },
-    {
-        "Product Name": "PEROCLIN 2.5% GEL",
-        "Pack": "15GM",
         "Company Name": "AJANTA PHARMA (AVECIA)"
     },
     {
@@ -10550,6 +10535,11 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LABORATORIES LIMITED"
     },
     {
+        "Product Name": "SUNHEAL GEL",
+        "Pack": "50GM",
+        "Company Name": "ALKEM LABORATORIES LIMITED"
+    },
+    {
         "Product Name": "TAXIM O FORTE DRY SYP 60 ML",
         "Pack": "60ML",
         "Company Name": "ALKEM LABORATORIES LIMITED"
@@ -13065,6 +13055,11 @@ const navkarMedicineData = [
         "Company Name": "ANAX LIFESCIENCE PVT LTD"
     },
     {
+        "Product Name": "FERTICEEV TAB",
+        "Pack": "10TAB",
+        "Company Name": "ANAX LIFESCIENCE PVT LTD"
+    },
+    {
         "Product Name": "HOLYTEL 40 TAB",
         "Pack": "10TAB",
         "Company Name": "ANAX LIFESCIENCE PVT LTD"
@@ -13092,6 +13087,11 @@ const navkarMedicineData = [
     {
         "Product Name": "HOLYTEL-MT 25 TAB",
         "Pack": "10TAB",
+        "Company Name": "ANAX LIFESCIENCE PVT LTD"
+    },
+    {
+        "Product Name": "LANFOL SACHET",
+        "Pack": "GM",
         "Company Name": "ANAX LIFESCIENCE PVT LTD"
     },
     {
@@ -13143,16 +13143,6 @@ const navkarMedicineData = [
         "Product Name": "SITALSA M 500MG TAB",
         "Pack": "10TAB",
         "Company Name": "ANAX LIFESCIENCE PVT LTD"
-    },
-    {
-        "Product Name": "FERTICEEV TAB",
-        "Pack": "10TAB",
-        "Company Name": "ANAX LIFESCIENCE PVT LTD (GYNE)"
-    },
-    {
-        "Product Name": "LANFOL SACHET",
-        "Pack": "GM",
-        "Company Name": "ANAX LIFESCIENCE PVT LTD (GYNE)"
     },
     {
         "Product Name": "OSITATE D TAB",
@@ -20301,7 +20291,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "ACILOC [RD] TAB",
-        "Pack": "30 TAB",
+        "Pack": "15 TAB",
         "Company Name": "CADILA PHARMA  (MAGFAM)"
     },
     {
@@ -31190,64 +31180,69 @@ const navkarMedicineData = [
         "Company Name": "DR REDDYS LABORATORIES (OPTIMUS)"
     },
     {
+        "Product Name": "GLIMY 4MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "DR REDDYS LABORATORIES (OPTIMUS)"
+    },
+    {
         "Product Name": "GLIMY DM 1 TAB",
         "Pack": "10'S",
-        "Company Name": "GLIMY 4MG TAB"
+        "Company Name": "DR REDDYS LABORATORIES (OPTIMUS)"
     },
     {
         "Product Name": "GLIMY DM 2 TAB",
         "Pack": "10'S",
-        "Company Name": "GLIMY 4MG TAB"
+        "Company Name": "DR REDDYS LABORATORIES (OPTIMUS)"
     },
     {
         "Product Name": "GLIMY M 0.5MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "GLIMY 4MG TAB"
+        "Company Name": "DR REDDYS LABORATORIES (OPTIMUS)"
     },
     {
         "Product Name": "GLIMY M1 FORTE TAB",
         "Pack": "10 TAB",
-        "Company Name": "GLIMY 4MG TAB"
+        "Company Name": "DR REDDYS LABORATORIES (OPTIMUS)"
     },
     {
         "Product Name": "GLIMY M1 TAB",
         "Pack": "15 TAB",
-        "Company Name": "GLIMY 4MG TAB"
+        "Company Name": "DR REDDYS LABORATORIES (OPTIMUS)"
     },
     {
         "Product Name": "GLIMY M2 FORTE TAB",
         "Pack": "10 TAB",
-        "Company Name": "GLIMY 4MG TAB"
+        "Company Name": "DR REDDYS LABORATORIES (OPTIMUS)"
     },
     {
         "Product Name": "GLIMY M2 TAB",
         "Pack": "15 TAB",
-        "Company Name": "GLIMY 4MG TAB"
+        "Company Name": "DR REDDYS LABORATORIES (OPTIMUS)"
     },
     {
         "Product Name": "GLIMY MP1 TAB",
         "Pack": "10 TAB",
-        "Company Name": "GLIMY 4MG TAB"
+        "Company Name": "DR REDDYS LABORATORIES (OPTIMUS)"
     },
     {
         "Product Name": "GLIMY MP2 TAB",
         "Pack": "10 TAB",
-        "Company Name": "GLIMY 4MG TAB"
+        "Company Name": "DR REDDYS LABORATORIES (OPTIMUS)"
     },
     {
         "Product Name": "GLIMY MV 1MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "GLIMY 4MG TAB"
+        "Company Name": "DR REDDYS LABORATORIES (OPTIMUS)"
     },
     {
         "Product Name": "GLIMY MV 2MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "GLIMY 4MG TAB"
+        "Company Name": "DR REDDYS LABORATORIES (OPTIMUS)"
     },
     {
         "Product Name": "OLSERTAIN 20MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "GLIMY 4MG TAB"
+        "Company Name": "DR REDDYS LABORATORIES (OPTIMUS)"
     },
     {
         "Product Name": "OLSERTAIN AM TAB",
@@ -49535,8 +49530,18 @@ const navkarMedicineData = [
         "Company Name": "HETERO HEALTHCARE LTD (GENX)"
     },
     {
+        "Product Name": "BILASET {M} SYRUP",
+        "Pack": "60ML",
+        "Company Name": "HETERO HEALTHCARE LTD (GENX)"
+    },
+    {
         "Product Name": "BILASET 20 TAB",
         "Pack": "10 TAB",
+        "Company Name": "HETERO HEALTHCARE LTD (GENX)"
+    },
+    {
+        "Product Name": "BILASET SYP 60MLP",
+        "Pack": "60 ML",
         "Company Name": "HETERO HEALTHCARE LTD (GENX)"
     },
     {
@@ -49950,11 +49955,6 @@ const navkarMedicineData = [
         "Company Name": "HETERO HEALTHCARE LTD (ULTRA)"
     },
     {
-        "Product Name": "BILASET SYP 60MLP",
-        "Pack": "60 ML",
-        "Company Name": "HETERO HEALTHCARE LTD [FRENZA]"
-    },
-    {
         "Product Name": "CARBIACT INJ RT 100 MC",
         "Pack": "VIAL",
         "Company Name": "HETERO HEALTHCARE LTD [FRENZA]"
@@ -50057,11 +50057,6 @@ const navkarMedicineData = [
     {
         "Product Name": "B BOLD PATCHES",
         "Pack": "5'S",
-        "Company Name": "HETERO HEALTHCARE LTD MAIN"
-    },
-    {
-        "Product Name": "BILASET {M} SYRUP",
-        "Pack": "60ML",
         "Company Name": "HETERO HEALTHCARE LTD MAIN"
     },
     {
@@ -64605,7 +64600,7 @@ const navkarMedicineData = [
         "Company Name": "KEPLER HEALTHCARE PVT LTD"
     },
     {
-        "Product Name": "AUTINORM SYRUP",
+        "Product Name": "AUTINORM SYRUP 3.",
         "Pack": "200ML",
         "Company Name": "KEPLER HEALTHCARE PVT LTD ONYX"
     },
@@ -73520,144 +73515,149 @@ const navkarMedicineData = [
         "Company Name": "LUPIN NEW PRIMUS"
     },
     {
+        "Product Name": "DILNIP 5 TAB",
+        "Pack": "15TAB",
+        "Company Name": "LUPIN NEW PRIMUS"
+    },
+    {
         "Product Name": "DILNIP M 25MG TAB",
         "Pack": "10TAB",
-        "Company Name": "DILNIP 5 TAB"
+        "Company Name": "LUPIN NEW PRIMUS"
     },
     {
         "Product Name": "DILNIP M 50MG TAB",
         "Pack": "10TAB",
-        "Company Name": "DILNIP 5 TAB"
+        "Company Name": "LUPIN NEW PRIMUS"
     },
     {
         "Product Name": "DILNIP T 10/80 TAB",
         "Pack": "10TAB",
-        "Company Name": "DILNIP 5 TAB"
+        "Company Name": "LUPIN NEW PRIMUS"
     },
     {
         "Product Name": "DILNIP T 20/40 TAB",
         "Pack": "10TAB",
-        "Company Name": "DILNIP 5 TAB"
+        "Company Name": "LUPIN NEW PRIMUS"
     },
     {
         "Product Name": "DILNIP T 40 TAB",
         "Pack": "15TAB",
-        "Company Name": "DILNIP 5 TAB"
+        "Company Name": "LUPIN NEW PRIMUS"
     },
     {
         "Product Name": "DILNIP TM 25 TAB",
         "Pack": "25 TAB",
-        "Company Name": "DILNIP 5 TAB"
+        "Company Name": "LUPIN NEW PRIMUS"
     },
     {
         "Product Name": "DILNIP TM 50 TAB",
         "Pack": "50TAB",
-        "Company Name": "DILNIP 5 TAB"
+        "Company Name": "LUPIN NEW PRIMUS"
     },
     {
         "Product Name": "DILNIP-TRIO 12.5 TAB",
         "Pack": "10TAB",
-        "Company Name": "DILNIP 5 TAB"
+        "Company Name": "LUPIN NEW PRIMUS"
     },
     {
         "Product Name": "DILNIP-TRIO 6.25 TAB",
         "Pack": "10TAB",
-        "Company Name": "DILNIP 5 TAB"
+        "Company Name": "LUPIN NEW PRIMUS"
     },
     {
         "Product Name": "HARTY PLUS CAP",
         "Pack": "10X15",
-        "Company Name": "DILNIP 5 TAB"
+        "Company Name": "LUPIN NEW PRIMUS"
     },
     {
         "Product Name": "IVABRAD 5 TAB",
         "Pack": "15 TAB",
-        "Company Name": "DILNIP 5 TAB"
+        "Company Name": "LUPIN NEW PRIMUS"
     },
     {
         "Product Name": "IVABRAD 7.5 TAB",
         "Pack": "15TAB",
-        "Company Name": "DILNIP 5 TAB"
+        "Company Name": "LUPIN NEW PRIMUS"
     },
     {
         "Product Name": "IVABRAD OD 10MG (10X10T)",
         "Pack": "1 TAB",
-        "Company Name": "DILNIP 5 TAB"
+        "Company Name": "LUPIN NEW PRIMUS"
     },
     {
         "Product Name": "IVABRAD OD 15MG (10X10T)",
         "Pack": "1 TAB",
-        "Company Name": "DILNIP 5 TAB"
+        "Company Name": "LUPIN NEW PRIMUS"
     },
     {
         "Product Name": "LUPICLOR 12.5 TAB",
         "Pack": "15TAB",
-        "Company Name": "DILNIP 5 TAB"
+        "Company Name": "LUPIN NEW PRIMUS"
     },
     {
         "Product Name": "LUPICLOR 6.25 TAB",
         "Pack": "15TAB",
-        "Company Name": "DILNIP 5 TAB"
+        "Company Name": "LUPIN NEW PRIMUS"
     },
     {
         "Product Name": "MACIKAD TAB",
         "Pack": "1X10",
-        "Company Name": "DILNIP 5 TAB"
+        "Company Name": "LUPIN NEW PRIMUS"
     },
     {
         "Product Name": "PINOM 10 MG TAB",
         "Pack": "15TAB",
-        "Company Name": "DILNIP 5 TAB"
+        "Company Name": "LUPIN NEW PRIMUS"
     },
     {
         "Product Name": "PINOM 20 MG TAB",
         "Pack": "15TAB",
-        "Company Name": "DILNIP 5 TAB"
+        "Company Name": "LUPIN NEW PRIMUS"
     },
     {
         "Product Name": "PINOM 40 MG TAB",
         "Pack": "15TAB",
-        "Company Name": "DILNIP 5 TAB"
+        "Company Name": "LUPIN NEW PRIMUS"
     },
     {
         "Product Name": "PINOM A 40 TAB",
         "Pack": "15TAB",
-        "Company Name": "DILNIP 5 TAB"
+        "Company Name": "LUPIN NEW PRIMUS"
     },
     {
         "Product Name": "PINOM –CT 20 TAB",
         "Pack": "10TAB",
-        "Company Name": "DILNIP 5 TAB"
+        "Company Name": "LUPIN NEW PRIMUS"
     },
     {
         "Product Name": "PINOM –CT 40 TAB",
         "Pack": "10TAB",
-        "Company Name": "DILNIP 5 TAB"
+        "Company Name": "LUPIN NEW PRIMUS"
     },
     {
         "Product Name": "PINOM -M 25 TAB",
         "Pack": "10TAB",
-        "Company Name": "DILNIP 5 TAB"
+        "Company Name": "LUPIN NEW PRIMUS"
     },
     {
         "Product Name": "PINOM -M 50 TAB",
         "Pack": "10TAB",
-        "Company Name": "DILNIP 5 TAB"
+        "Company Name": "LUPIN NEW PRIMUS"
     },
     {
         "Product Name": "PINOM-A 20 MG TAB",
         "Pack": "15TAB",
-        "Company Name": "DILNIP 5 TAB"
+        "Company Name": "LUPIN NEW PRIMUS"
     },
     {
         "Product Name": "PINOM-H 20 MG TAB",
         "Pack": "15TAB",
-        "Company Name": "DILNIP 5 TAB"
+        "Company Name": "LUPIN NEW PRIMUS"
     },
     {
         "Product Name": "PINOM-H 40 MG TAB",
         "Pack": "10 X 15",
-        "Company Name": "DILNIP 5 TAB"
+        "Company Name": "LUPIN NEW PRIMUS"
     },
     {
         "Product Name": "RIVABAN 15MG TAB",
@@ -80245,394 +80245,399 @@ const navkarMedicineData = [
         "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
+        "Product Name": "GASTICA FIZ TAB",
+        "Pack": "6TAB",
+        "Company Name": "MANKIND PHARMA (FUTURE)"
+    },
+    {
         "Product Name": "GLIPTAGREAT 50MG TAB",
         "Pack": "15TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "GLIPTAGREAT D 10 TAB",
         "Pack": "10 TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "GLIPTAGREAT D 5 TAB",
         "Pack": "10TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "GLIPTAGREAT DM 1000 TAB",
         "Pack": "TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "GLIPTAGREAT DM 500 TAB",
         "Pack": "TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "GLIPTAGREAT M 1000 OD TAB",
         "Pack": "10 TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "GLIPTAGREAT M 1000MG TAB",
         "Pack": "10TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "GLIPTAGREAT M 500 OD TAB",
         "Pack": "10TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "GLIPTAGREAT M 500MG TAB",
         "Pack": "10TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "GLIPTAGREAT OD 100 TAB",
         "Pack": "10 TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "GUDLAX PLUS SUSP",
         "Pack": "110ML",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "GUDLAX PLUS SUSP 200ML",
         "Pack": "200 ML",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "HISTAFREE 120MG TAB",
         "Pack": "10TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "HISTAFREE 180MG TAB",
         "Pack": "10TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "HISTAFREE M SUSP",
         "Pack": "60ML",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "HISTAFREE M TAB",
         "Pack": "10TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "HISTAFREE SUSP",
         "Pack": "60ML",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "INZOFRESH 10MG TAB",
         "Pack": "TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "LIPIROSE 10MG TAB",
         "Pack": "10TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "LIPIROSE 20MG TAB",
         "Pack": "10TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "LIPIROSE 40 TAB",
         "Pack": "10TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "LIPIROSE 5MG TAB",
         "Pack": "10TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "LIPIROSE AS 10 CAP",
         "Pack": "10 CAP",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "LIPIROSE AS 20 CAP",
         "Pack": "10CAP",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "LIPIROSE CV 10",
         "Pack": "TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "LIPIROSE CV 20",
         "Pack": "TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "LIPIROSE EZ 10TAB",
         "Pack": "10TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "LIPIROSE EZ 20 TAB",
         "Pack": "10TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "LIPIROSE F 10MG TAB",
         "Pack": "10TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "LIPIROSE F 5MG TAB",
         "Pack": "TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "LIPIROSE GOLD 10MG CAP",
         "Pack": "10TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "LIPIROSE GOLD 20MG CAP",
         "Pack": "10TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "LYCOSTAR CAP",
         "Pack": "10 CAP",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "LYCOSTAR SYP",
         "Pack": "200ML",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "MOXIFORCE CV  DRY SYP",
         "Pack": "30ML",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "MOXIFORCE CV 228.5MG KID DT TAB 10``S",
         "Pack": "TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "MOXIFORCE CV 375MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "MOXIFORCE CV 625MG TAB",
         "Pack": "10TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "MOXIFORCE CV FORTE DRY SYR",
         "Pack": "30 ML",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "NUROKIND GOLD INJ",
         "Pack": "2ML",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "NUROKIND GOLD RF CAP",
         "Pack": "10 CAP",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "NUROKIND GOLD SACHET",
         "Pack": "5 GM",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "NUROKIND GOLD SUSPENSION",
         "Pack": "200ML",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "OLMETIME 20MG TAB",
         "Pack": "10TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "OLMETIME 40MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "OLMETIME AM 20MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "OLMETIME AM 40MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "OLMETIME AMH 20MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "OLMETIME AMH 40MG TAB",
         "Pack": "TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "OLMETIME CT 20MG TAB 10`S",
         "Pack": "TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "OLMETIME CT 40MG TAB 10`S",
         "Pack": "TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "OLMETIME H 20MG TAB 10`S",
         "Pack": "10TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "OLMETIME H 40MG TAB",
         "Pack": "10TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "ORAHELP GEL",
         "Pack": "15GM",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "PILORUTE CREAM 30GM",
         "Pack": "30GM",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "PILORUTE EP CREAM 30 GM",
         "Pack": "30 GM",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "PILORUTE EP FORTE TAB",
         "Pack": "7TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "PILORUTE EP TAB",
         "Pack": "TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "RAMIHART 2.5 TAB",
         "Pack": "10 TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "RAMIHART 5 TAB",
         "Pack": "10 TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "RAMIHART H 2.5 TAB",
         "Pack": "10 TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "RAMIHART H 5 TAB",
         "Pack": "10 TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "RANIDOM RAFT SUSP 200 ML",
         "Pack": "200 ML",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "REHEPTIN TAB",
         "Pack": "10 TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "REHEPTIN-UD 150",
         "Pack": "10TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "REHEPTIN-UD 300",
         "Pack": "10TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "SAMLOKIND AT TAB",
         "Pack": "10 TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "THERMOKIND ADVANCE TOOTHPASTE 100GM",
         "Pack": "100GM",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "THERMOKIND ADVANCE TOOTHPASTE 50GM",
         "Pack": "50GM",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "THERMOKIND F GEL 100GM",
         "Pack": "100GM",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "THERMOKIND F GEL 50GM",
         "Pack": "50GM",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "THERMOKIND MOUTH WASH 150ML",
         "Pack": "150ML",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "TRAMASURE 100 INJ 2 ML",
         "Pack": "2 ML",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "TRAMASURE PLUS TAB",
         "Pack": "10TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "URIKIND TAB",
         "Pack": "10TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "VITAGREAT TAB",
         "Pack": "10TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "ZEROGRAIN PLUS TAB",
         "Pack": "10 TAB",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "ZINCOLIFE SYP",
         "Pack": "50ML",
-        "Company Name": "GASTICA FIZ TAB"
+        "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
         "Product Name": "AMLOKIND BETA 25 TAB",
@@ -84082,6 +84087,11 @@ const navkarMedicineData = [
     {
         "Product Name": "BABYPEP D2 DROPS",
         "Pack": "ML",
+        "Company Name": "MAYPHARM LIFESCINCES PVT LTD"
+    },
+    {
+        "Product Name": "CALCIPEP TAB",
+        "Pack": "10TAB",
         "Company Name": "MAYPHARM LIFESCINCES PVT LTD"
     },
     {
@@ -91295,11 +91305,6 @@ const navkarMedicineData = [
         "Company Name": "NOVO NORDISK INDIA PVT LTD"
     },
     {
-        "Product Name": "OZEMPIC 0.25 MG INJ",
-        "Pack": "1 PFS",
-        "Company Name": "NOVO NORDISK INDIA PVT LTD"
-    },
-    {
         "Product Name": "XULTOPHY PEN",
         "Pack": "3 ML",
         "Company Name": "NOVO NORDISK INDIA PVT LTD"
@@ -94291,7 +94296,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "STONVIL CAP",
-        "Pack": "TAB",
+        "Pack": "30CAP",
         "Company Name": "PHYTO PHARMA"
     },
     {
@@ -120350,184 +120355,204 @@ const navkarMedicineData = [
         "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
+        "Product Name": "NUCOXIA [MR] TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
+    },
+    {
         "Product Name": "NUCOXIA [P] TAB",
         "Pack": "15 TAB",
-        "Company Name": "NUCOXIA [MR] TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "NUCOXIA [SP] TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUCOXIA [MR] TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "NUCOXIA 120MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUCOXIA [MR] TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
+    },
+    {
+        "Product Name": "NUCOXIA 60MG TAB",
+        "Pack": "15 TAB",
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "NUCOXIA 90MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "NUCOXIA D3 CAP",
         "Pack": "10 TAB",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "NUCOXIA EMUGL 30 GM",
         "Pack": "30 GM",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "NUCOXIA MR 8MG TAB",
         "Pack": "TAB",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "NUCOXIA PG TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "NUCOXIA XP 120MG TAB",
         "Pack": "TAB",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
+    },
+    {
+        "Product Name": "NUCOXIA XP 60MG TAB",
+        "Pack": "TAB",
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
+    },
+    {
+        "Product Name": "NUCOXIA XP 90MG TAB",
+        "Pack": "TAB",
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "OFLIN 200MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "OXALGIN DP TAB",
         "Pack": "TAB",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "OXALGIN NANO GEL",
         "Pack": "30GM",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "OXALGIN SPRAY  55 GM",
         "Pack": "55 GM",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "OXALGIN TH GEL",
         "Pack": "30 GM",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "SALAZAR 500MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "SALAZAR DS 1000MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "SIGLYN 100MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "SIGLYN 50MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "SIGLYN D 100/10 TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "SIGLYN D 100/5 TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "SIGLYN D 50/5 TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "SIGLYN DM 100/1000 TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "SIGLYN DM 100/500 TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "SIGLYN M 100/1000 TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "SIGLYN M 100/500 TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "SIGLYN M 50/1000 TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "SIGLYN M 50/500 TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "SIGLYN M IR 50/1000 TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "SIGLYN M IR 50/500 TAB",
         "Pack": "10TAB",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "SKINLITE CREAM 25GM",
         "Pack": "25GM",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "VOCID 10 TAB",
         "Pack": "10TAB",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "VOCID 20 TAB",
         "Pack": "10TAB",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "ZY Q 200MG TAB 30`S",
         "Pack": "30 TAB",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "ZY Q 300MG TAB",
         "Pack": "30`S",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "ZY Q 400 TAB",
         "Pack": "30 TAB",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "ZYPARA 650 TAB",
         "Pack": "15'S",
-        "Company Name": "NUCOXIA 60MG TAB"
+        "Company Name": "ZYDUS CADILA HEALTH LTD CHANDA"
     },
     {
         "Product Name": "CADIPHYLATE ELIXIR",
@@ -121857,16 +121882,6 @@ const navkarMedicineData = [
     {
         "Product Name": "MPOWER 2% 60 ML",
         "Pack": "60 ML",
-        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
-    },
-    {
-        "Product Name": "NUCOXIA XP 60MG TAB",
-        "Pack": "TAB",
-        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
-    },
-    {
-        "Product Name": "NUCOXIA XP 90MG TAB",
-        "Pack": "TAB",
         "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
     },
     {
