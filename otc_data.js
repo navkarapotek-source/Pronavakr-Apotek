@@ -3560,6 +3560,86 @@ const otcData = [
         "Company Name": "ITC INDIA LIMITED"
     },
     {
+        "Product Name": "J ALOVERA GEL 50GM",
+        "Pack": "50GM",
+        "Company Name": "JIDEN FORMULATION PVT LTD"
+    },
+    {
+        "Product Name": "J ANTI AGING F/W 100ML",
+        "Pack": "100ML",
+        "Company Name": "JIDEN FORMULATION PVT LTD"
+    },
+    {
+        "Product Name": "J BRIGHTENING F/W 45ML [MRP 99]",
+        "Pack": "45ML",
+        "Company Name": "JIDEN FORMULATION PVT LTD"
+    },
+    {
+        "Product Name": "J CHARCOL F/W 45ML [MRP 99]",
+        "Pack": "45ML",
+        "Company Name": "JIDEN FORMULATION PVT LTD"
+    },
+    {
+        "Product Name": "J ENRICHING F/W 50ML [MRP 89]",
+        "Pack": "50ML",
+        "Company Name": "JIDEN FORMULATION PVT LTD"
+    },
+    {
+        "Product Name": "J HEALTHY SHINE SHAMPOO",
+        "Pack": "5ML",
+        "Company Name": "JIDEN FORMULATION PVT LTD"
+    },
+    {
+        "Product Name": "J MEN ALMIGHTY 40ML DEO",
+        "Pack": "40ML",
+        "Company Name": "JIDEN FORMULATION PVT LTD"
+    },
+    {
+        "Product Name": "J MEN OCEAN-X 40ML DEO",
+        "Pack": "40ML",
+        "Company Name": "JIDEN FORMULATION PVT LTD"
+    },
+    {
+        "Product Name": "J MEN SUCCESS 40ML DEO",
+        "Pack": "40ML",
+        "Company Name": "JIDEN FORMULATION PVT LTD"
+    },
+    {
+        "Product Name": "J MOISTURISING F/W 50ML [MRP 89]",
+        "Pack": "50ML",
+        "Company Name": "JIDEN FORMULATION PVT LTD"
+    },
+    {
+        "Product Name": "J NEEM SHAMPOO",
+        "Pack": "4.5ML",
+        "Company Name": "JIDEN FORMULATION PVT LTD"
+    },
+    {
+        "Product Name": "J PURE & CLEAN F/W 50ML [MRP 89]",
+        "Pack": "50ML",
+        "Company Name": "JIDEN FORMULATION PVT LTD"
+    },
+    {
+        "Product Name": "J TATOO LUV CREAM 15GM",
+        "Pack": "15GM",
+        "Company Name": "JIDEN FORMULATION PVT LTD"
+    },
+    {
+        "Product Name": "J WOMEN ANGEL 40ML DEO",
+        "Pack": "40ML",
+        "Company Name": "JIDEN FORMULATION PVT LTD"
+    },
+    {
+        "Product Name": "J WOMEN FLIRT 40ML DEO",
+        "Pack": "40ML",
+        "Company Name": "JIDEN FORMULATION PVT LTD"
+    },
+    {
+        "Product Name": "J WOMEN MYSTIC 40ML DEO",
+        "Pack": "40ML",
+        "Company Name": "JIDEN FORMULATION PVT LTD"
+    },
+    {
         "Product Name": "VARAD NACHANI SATVA [MANGO]",
         "Pack": "200 GM",
         "Company Name": "JIYA HERBALS"

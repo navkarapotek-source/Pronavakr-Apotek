@@ -5010,6 +5010,11 @@ const navkarMedicineData = [
         "Company Name": "WELMINIC DROPS"
     },
     {
+        "Product Name": "WELTONE GOLD +",
+        "Pack": "200ML",
+        "Company Name": "WELMINIC DROPS"
+    },
+    {
         "Product Name": "WELTONE GOLD CAP",
         "Pack": "10 CAP",
         "Company Name": "WELMINIC DROPS"
@@ -5193,11 +5198,6 @@ const navkarMedicineData = [
         "Product Name": "VILMAX M 1000 MG TAB",
         "Pack": "10 TAB",
         "Company Name": "AKUMENTIS HEALTHCARE (CREATIS)"
-    },
-    {
-        "Product Name": "WELTONE GOLD +",
-        "Pack": "200ML",
-        "Company Name": "AKUMENTIS HEALTHCARE (DELIGHTS)"
     },
     {
         "Product Name": "WELMINIC COLD",
@@ -20291,7 +20291,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "ACILOC [RD] TAB",
-        "Pack": "15 TAB",
+        "Pack": "30 TAB",
         "Company Name": "CADILA PHARMA  (MAGFAM)"
     },
     {
@@ -22340,26 +22340,6 @@ const navkarMedicineData = [
         "Company Name": "CIPLA LIMITED"
     },
     {
-        "Product Name": "OFLOX [D] EYE DROPS",
-        "Pack": "10ML",
-        "Company Name": "CIPLA LIMITED"
-    },
-    {
-        "Product Name": "OFLOX 100 RED SUSP",
-        "Pack": "60ML",
-        "Company Name": "CIPLA LIMITED"
-    },
-    {
-        "Product Name": "OFLOX 50 RED SUSP",
-        "Pack": "60ML",
-        "Company Name": "CIPLA LIMITED"
-    },
-    {
-        "Product Name": "OFLOX EYE DROPS",
-        "Pack": "5 ML",
-        "Company Name": "CIPLA LIMITED"
-    },
-    {
         "Product Name": "OLMECIP TRIO TAB",
         "Pack": "10 TAB",
         "Company Name": "CIPLA LIMITED"
@@ -22972,11 +22952,6 @@ const navkarMedicineData = [
     {
         "Product Name": "NADIBACT PLUS CREAM",
         "Pack": "7.5 GM",
-        "Company Name": "CIPLA LIMITED (NEXURA)"
-    },
-    {
-        "Product Name": "OFLOX TZ TAB",
-        "Pack": "10 TAB",
         "Company Name": "CIPLA LIMITED (NEXURA)"
     },
     {
@@ -24005,11 +23980,6 @@ const navkarMedicineData = [
         "Company Name": "CIPLA LIMITED CRITICAL CARE 1"
     },
     {
-        "Product Name": "OFLOX INF",
-        "Pack": "100ML",
-        "Company Name": "CIPLA LIMITED CRITICAL CARE 1"
-    },
-    {
         "Product Name": "TIGANEX 50 MG INJ",
         "Pack": "1 VIAL",
         "Company Name": "CIPLA LIMITED CRITICAL CARE 1"
@@ -24610,21 +24580,6 @@ const navkarMedicineData = [
         "Company Name": "CIPLA LIMITED NEXURA"
     },
     {
-        "Product Name": "OFLOX 200 TAB",
-        "Pack": "10 TAB",
-        "Company Name": "CIPLA LIMITED NEXURA"
-    },
-    {
-        "Product Name": "OFLOX 400 TAB",
-        "Pack": "10 TAB",
-        "Company Name": "CIPLA LIMITED NEXURA"
-    },
-    {
-        "Product Name": "OFLOX OZ TAB",
-        "Pack": "10 TAB",
-        "Company Name": "CIPLA LIMITED NEXURA"
-    },
-    {
         "Product Name": "ANTIFLU SYP 75ML",
         "Pack": "75ML",
         "Company Name": "CIPLA LIMITED NURTURE 2"
@@ -24770,8 +24725,8 @@ const navkarMedicineData = [
         "Company Name": "CIPLA LIMITED RESPI 1"
     },
     {
-        "Product Name": "VOLTIDO ROTACAP",
-        "Pack": "..",
+        "Product Name": "VOLTIDO TRIO 100 ROTACAP",
+        "Pack": "30 CAP",
         "Company Name": "CIPLA LIMITED RESPI 1"
     },
     {
@@ -25830,8 +25785,53 @@ const navkarMedicineData = [
         "Company Name": "CIPLA LIMITED(ZESTA)"
     },
     {
+        "Product Name": "OFLOX [D] EYE DROPS",
+        "Pack": "10ML",
+        "Company Name": "CIPLA LIMITED(ZESTA)"
+    },
+    {
+        "Product Name": "OFLOX 100 RED SUSP",
+        "Pack": "60ML",
+        "Company Name": "CIPLA LIMITED(ZESTA)"
+    },
+    {
+        "Product Name": "OFLOX 200 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "CIPLA LIMITED(ZESTA)"
+    },
+    {
+        "Product Name": "OFLOX 400 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "CIPLA LIMITED(ZESTA)"
+    },
+    {
+        "Product Name": "OFLOX 50 RED SUSP",
+        "Pack": "60ML",
+        "Company Name": "CIPLA LIMITED(ZESTA)"
+    },
+    {
+        "Product Name": "OFLOX EYE DROPS",
+        "Pack": "5 ML",
+        "Company Name": "CIPLA LIMITED(ZESTA)"
+    },
+    {
+        "Product Name": "OFLOX INF",
+        "Pack": "100ML",
+        "Company Name": "CIPLA LIMITED(ZESTA)"
+    },
+    {
         "Product Name": "OFLOX M SUSP",
         "Pack": "60ML",
+        "Company Name": "CIPLA LIMITED(ZESTA)"
+    },
+    {
+        "Product Name": "OFLOX OZ TAB",
+        "Pack": "10 TAB",
+        "Company Name": "CIPLA LIMITED(ZESTA)"
+    },
+    {
+        "Product Name": "OFLOX TZ TAB",
+        "Pack": "10 TAB",
         "Company Name": "CIPLA LIMITED(ZESTA)"
     },
     {
@@ -30080,16 +30080,6 @@ const navkarMedicineData = [
         "Company Name": "DR REDDYS LAB (OPTIMUS)"
     },
     {
-        "Product Name": "OBED1 INJ(PEN)",
-        "Pack": "4MG",
-        "Company Name": "DR REDDYS LAB (OTC)"
-    },
-    {
-        "Product Name": "OBEDA 0.25/0.5 INJ(PEN)",
-        "Pack": "2MG",
-        "Company Name": "DR REDDYS LAB (OTC)"
-    },
-    {
         "Product Name": "OBEDA 3MG TAB",
         "Pack": "10TAB",
         "Company Name": "DR REDDYS LAB (OTC)"
@@ -33360,6 +33350,11 @@ const navkarMedicineData = [
         "Company Name": "ELDER PHARMACEUTICALS LTD"
     },
     {
+        "Product Name": "BONMAX PTH DISPO PEN",
+        "Pack": "3ML",
+        "Company Name": "ELEGARE BEAUTY PVT LTD"
+    },
+    {
         "Product Name": "3-STAR TABLETS",
         "Pack": "10 TAB",
         "Company Name": "ELEMENT PHARMA PVT LTD"
@@ -33432,6 +33427,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ELMIGEST SR 300 TAB",
         "Pack": "TAB",
+        "Company Name": "ELEMENT PHARMA PVT LTD"
+    },
+    {
+        "Product Name": "ENZOPAP-D TAB",
+        "Pack": "10 TAB",
         "Company Name": "ELEMENT PHARMA PVT LTD"
     },
     {
@@ -33525,12 +33525,27 @@ const navkarMedicineData = [
         "Company Name": "ELEMENT PHARMA PVT LTD"
     },
     {
+        "Product Name": "QPENTA D CAP",
+        "Pack": "10TAB",
+        "Company Name": "ELEMENT PHARMA PVT LTD"
+    },
+    {
+        "Product Name": "QUADRASIS TAB",
+        "Pack": "10TAB",
+        "Company Name": "ELEMENT PHARMA PVT LTD"
+    },
+    {
         "Product Name": "QUDOL-MR TAB",
         "Pack": "10 TAB",
         "Company Name": "ELEMENT PHARMA PVT LTD"
     },
     {
         "Product Name": "QUDOL-TR TAB 10'S",
+        "Pack": "10 TAB",
+        "Company Name": "ELEMENT PHARMA PVT LTD"
+    },
+    {
+        "Product Name": "UC ROSE TAB",
         "Pack": "10 TAB",
         "Company Name": "ELEMENT PHARMA PVT LTD"
     },
@@ -43155,6 +43170,11 @@ const navkarMedicineData = [
         "Company Name": "GENERICS"
     },
     {
+        "Product Name": "DECMAX 8 MG TAB",
+        "Pack": "8 TAB",
+        "Company Name": "GENERICS"
+    },
+    {
         "Product Name": "DERMIKEM OC PLUS CREAM",
         "Pack": "15GM",
         "Company Name": "GENERICS"
@@ -44093,6 +44113,11 @@ const navkarMedicineData = [
         "Product Name": "FORMONIDE 200 ROTACAPE",
         "Pack": "30 TAB",
         "Company Name": "GERMAN REMEDIES LTD (RESPICARE)"
+    },
+    {
+        "Product Name": "DECMAX 4MG TAB 8``S",
+        "Pack": "TAB",
+        "Company Name": "GETWELL PHARMACEUTICALS (O)"
     },
     {
         "Product Name": "FLUARIX TETRA INJ",
@@ -95700,27 +95725,7 @@ const navkarMedicineData = [
         "Company Name": "QUADRANT LIFESCIENCES PVT LTD"
     },
     {
-        "Product Name": "BONMAX PTH DISPO PEN",
-        "Pack": "3ML",
-        "Company Name": "QUADRANT LIFESCIENCES PVT LTD"
-    },
-    {
-        "Product Name": "ENZOPAP-D TAB",
-        "Pack": "10 TAB",
-        "Company Name": "QUADRANT LIFESCIENCES PVT LTD"
-    },
-    {
         "Product Name": "QCORT TAB",
-        "Pack": "10TAB",
-        "Company Name": "QUADRANT LIFESCIENCES PVT LTD"
-    },
-    {
-        "Product Name": "QPENTA D CAP",
-        "Pack": "10TAB",
-        "Company Name": "QUADRANT LIFESCIENCES PVT LTD"
-    },
-    {
-        "Product Name": "QUADRASIS TAB",
         "Pack": "10TAB",
         "Company Name": "QUADRANT LIFESCIENCES PVT LTD"
     },
@@ -95731,11 +95736,6 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "QUDOL-SP TAB",
-        "Pack": "10 TAB",
-        "Company Name": "QUADRANT LIFESCIENCES PVT LTD"
-    },
-    {
-        "Product Name": "UC ROSE TAB",
         "Pack": "10 TAB",
         "Company Name": "QUADRANT LIFESCIENCES PVT LTD"
     },
@@ -112615,6 +112615,11 @@ const navkarMedicineData = [
         "Company Name": "TORRENT PHARMACEUTICALS LTD"
     },
     {
+        "Product Name": "AHAGLOW AC ACNECONTROAL MOIS GEL",
+        "Pack": "50GM",
+        "Company Name": "TORRENT PHARMACEUTICALS LTD"
+    },
+    {
         "Product Name": "AHAGLOW FACE PADS",
         "Pack": "1 UNIT",
         "Company Name": "TORRENT PHARMACEUTICALS LTD"
@@ -121427,6 +121432,11 @@ const navkarMedicineData = [
     {
         "Product Name": "FOL 5 TAB",
         "Pack": "30TAB",
+        "Company Name": "ZYDUS PHARMA (NUTRIVA)MAHAVIR"
+    },
+    {
+        "Product Name": "FOL D 10 CAP",
+        "Pack": "10 CAP",
         "Company Name": "ZYDUS PHARMA (NUTRIVA)MAHAVIR"
     },
     {

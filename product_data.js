@@ -7580,6 +7580,11 @@ const productData = [
         "Company Name": "ELDER PHARMACEUTICALS LTD"
     },
     {
+        "Product Name": "PANTADER 40 INJ",
+        "Pack": "40MG",
+        "Company Name": "ELDER PHARMACEUTICALS LTD"
+    },
+    {
         "Product Name": "PARADER INJ 2ML",
         "Pack": "2ML",
         "Company Name": "ELDER PHARMACEUTICALS LTD"
@@ -15475,6 +15480,11 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "AQUALAB HAIR REMOVAL CREAM (STRAW)",
+        "Pack": "25GM",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "AQUALAB HONEY ALMOD COLD CREAM",
         "Pack": "15GM.",
         "Company Name": "LABORATE AQUA LAB"
@@ -15860,6 +15870,11 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "LABOLIA BEAUTE CHARCOAL F/W",
+        "Pack": "50GM",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "LABOLIA BEAUTE NEEM F/W",
         "Pack": "50GM",
         "Company Name": "LABORATE AQUA LAB"
@@ -16032,6 +16047,11 @@ const productData = [
     {
         "Product Name": "OMETOR D CAP",
         "Pack": "15CAP",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "ORA CHARGE ORANGE 200ML",
+        "Pack": "200ML",
         "Company Name": "LABORATE AQUA LAB"
     },
     {
@@ -19070,6 +19090,11 @@ const productData = [
         "Company Name": "LUPIN LIFESCIENCES LIMITED"
     },
     {
+        "Product Name": "LUPIN KADAI",
+        "Pack": "PC",
+        "Company Name": "LUPIN LIFESCIENCES LIMITED"
+    },
+    {
         "Product Name": "LUPIN LAPTOP BAG",
         "Pack": "PC",
         "Company Name": "LUPIN LIFESCIENCES LIMITED"
@@ -19156,6 +19181,11 @@ const productData = [
     },
     {
         "Product Name": "LUPIN VACCUM CLEANER",
+        "Pack": "PC",
+        "Company Name": "LUPIN LIFESCIENCES LIMITED"
+    },
+    {
+        "Product Name": "LUPIN WATER CAMPER",
         "Pack": "PC",
         "Company Name": "LUPIN LIFESCIENCES LIMITED"
     },
@@ -26335,6 +26365,11 @@ const productData = [
         "Company Name": "SMART ICONIC LAB"
     },
     {
+        "Product Name": "ON 25000 AFFINITO ICE CREAM CUP SET",
+        "Pack": "PC",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
         "Product Name": "ON 25000 VIP SKYBAG TROLLEY BAG",
         "Pack": "1",
         "Company Name": "SMART ICONIC LAB"
@@ -29617,6 +29652,11 @@ const productData = [
     {
         "Product Name": "ELECTOZOF 500ML",
         "Pack": "500ML",
+        "Company Name": "TARUN PHARMACUTICAL"
+    },
+    {
+        "Product Name": "ELECTOZOF ORANGE (TETRA) 200ML",
+        "Pack": "200ML",
         "Company Name": "TARUN PHARMACUTICAL"
     },
     {
