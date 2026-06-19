@@ -10370,6 +10370,11 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LABORATORIES LIMITED"
     },
     {
+        "Product Name": "CLINDAC A GEL (30GM)",
+        "Pack": "30GM",
+        "Company Name": "ALKEM LABORATORIES LIMITED"
+    },
+    {
         "Product Name": "CLINDAC AN 30 GMS",
         "Pack": "30GMS",
         "Company Name": "ALKEM LABORATORIES LIMITED"
@@ -10432,6 +10437,11 @@ const navkarMedicineData = [
     {
         "Product Name": "JUPIROS EZ 40 TAB",
         "Pack": "10'S",
+        "Company Name": "ALKEM LABORATORIES LIMITED"
+    },
+    {
+        "Product Name": "KOJIGLO GOLD CREAM",
+        "Pack": "30GM",
         "Company Name": "ALKEM LABORATORIES LIMITED"
     },
     {
@@ -13055,11 +13065,6 @@ const navkarMedicineData = [
         "Company Name": "ANAX LIFESCIENCE PVT LTD"
     },
     {
-        "Product Name": "FERTICEEV TAB",
-        "Pack": "10TAB",
-        "Company Name": "ANAX LIFESCIENCE PVT LTD"
-    },
-    {
         "Product Name": "HOLYTEL 40 TAB",
         "Pack": "10TAB",
         "Company Name": "ANAX LIFESCIENCE PVT LTD"
@@ -13087,11 +13092,6 @@ const navkarMedicineData = [
     {
         "Product Name": "HOLYTEL-MT 25 TAB",
         "Pack": "10TAB",
-        "Company Name": "ANAX LIFESCIENCE PVT LTD"
-    },
-    {
-        "Product Name": "LANFOL SACHET",
-        "Pack": "GM",
         "Company Name": "ANAX LIFESCIENCE PVT LTD"
     },
     {
@@ -13143,6 +13143,16 @@ const navkarMedicineData = [
         "Product Name": "SITALSA M 500MG TAB",
         "Pack": "10TAB",
         "Company Name": "ANAX LIFESCIENCE PVT LTD"
+    },
+    {
+        "Product Name": "FERTICEEV TAB",
+        "Pack": "10TAB",
+        "Company Name": "ANAX LIFESCIENCE PVT LTD (GYNE)"
+    },
+    {
+        "Product Name": "LANFOL SACHET",
+        "Pack": "GM",
+        "Company Name": "ANAX LIFESCIENCE PVT LTD (GYNE)"
     },
     {
         "Product Name": "OSITATE D TAB",
@@ -38970,154 +38980,159 @@ const navkarMedicineData = [
         "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
+        "Product Name": "CYBLEX M XR 30MG TAB",
+        "Pack": "15TAB",
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
+    },
+    {
         "Product Name": "CYBLEX M XR 60MG TAB 15`S",
         "Pack": "TAB",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "CYBLEX MV 40.2MG TAB",
         "Pack": "15TAB",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "CYBLEX MV 40.3MG TAB 15`S",
         "Pack": "TAB",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "CYBLEX MV 80.2MG TAB 10``S",
         "Pack": "TAB",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "CYBLEX MV 80.3MG TAB 10``S",
         "Pack": "TAB",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "CYBLEX S XR 30 TAB",
         "Pack": "15 TAB",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "CYBLEX S XR 60 TAB",
         "Pack": "15 TAB",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "CYBLEX XR 30MG TAB",
         "Pack": "15TAB",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "CYBLEX XR 60MG TAB",
         "Pack": "15TAB",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "GLURA 100 TAB",
         "Pack": "15 TAB",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "GLURA 50 TAB",
         "Pack": "15 TAB",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "GLURA E 10",
         "Pack": "10 TAB",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "GLURA E 25 TAB",
         "Pack": "10 TAB",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "GLURA M 1000 TAB",
         "Pack": "10 TAB",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "GLURA M 500 TAB",
         "Pack": "10 TAB",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "GLURA M XR 100/500 TAB",
         "Pack": "10 TAB",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "GLURA M XR 1000 TAB",
         "Pack": "10 TAB",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "GLURA M XR 500 TAB",
         "Pack": "10 TAB",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "GLURA M XR FORTE TAB",
         "Pack": "10 TAB",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "GLURA MP 500 TAB",
         "Pack": "10 TAB",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "GLURA TRIO 10/1000 MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "GLURA TRIO 25/1000 MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "MAXUM TAB",
         "Pack": "10TAB",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "MAXUM WOMEN TAB",
         "Pack": "TAB",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "NUTRIRGHT MOM VANILLA POWER 200 GM",
         "Pack": "200 GM",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "PROTOTAL WHEY CHOCH SACH",
         "Pack": "10X45GM",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "PROTOTAL WHEY VANILLA SACH",
         "Pack": "10X45GM",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "TAYOCAL 1K",
         "Pack": "15'S",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "TAYOCAL 2K",
         "Pack": "15'S",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "ZOMELIS SG TAB",
         "Pack": "15 TAB",
-        "Company Name": "CYBLEX M XR 30MG TAB"
+        "Company Name": "ERIS LIFESCIENCES (PHOENIX)"
     },
     {
         "Product Name": "ESSOFIBER TAB",
@@ -50782,6 +50797,11 @@ const navkarMedicineData = [
     {
         "Product Name": "H SOAP HONEY & CREAM",
         "Pack": "75 GM",
+        "Company Name": "HIMALAYA COSMETICS"
+    },
+    {
+        "Product Name": "HIM ASHWAGANDHA ORGANIC",
+        "Pack": "30CAP",
         "Company Name": "HIMALAYA COSMETICS"
     },
     {
@@ -63590,13 +63610,8 @@ const navkarMedicineData = [
         "Company Name": "JUGGAT PHARMA LTD"
     },
     {
-        "Product Name": "BOTROCLOT TOPICAL SOLU 10ML",
-        "Pack": "10ML",
-        "Company Name": "JUGGAT PHARMA LTD"
-    },
-    {
-        "Product Name": "BOTROPASE ING 3ML",
-        "Pack": "3ML",
+        "Product Name": "BOTROCLOT TOPICAL SOLUTION",
+        "Pack": "15ML",
         "Company Name": "JUGGAT PHARMA LTD"
     },
     {
@@ -63670,22 +63685,7 @@ const navkarMedicineData = [
         "Company Name": "JUGGAT PHARMA LTD"
     },
     {
-        "Product Name": "ELEMENTAL CITRUS LITE",
-        "Pack": "200 ML",
-        "Company Name": "JUGGAT PHARMA LTD"
-    },
-    {
         "Product Name": "ELEMENTAL F SYRUP",
-        "Pack": "200 ML",
-        "Company Name": "JUGGAT PHARMA LTD"
-    },
-    {
-        "Product Name": "ELEMENTAL GOTUKOLA",
-        "Pack": "200 ML",
-        "Company Name": "JUGGAT PHARMA LTD"
-    },
-    {
-        "Product Name": "ELEMENTAL MANGA +",
         "Pack": "200 ML",
         "Company Name": "JUGGAT PHARMA LTD"
     },
@@ -63702,11 +63702,6 @@ const navkarMedicineData = [
     {
         "Product Name": "MULMIN DROPS",
         "Pack": "15 ML",
-        "Company Name": "JUGGAT PHARMA LTD"
-    },
-    {
-        "Product Name": "MULMIN PLUS CAP",
-        "Pack": "10CAP",
         "Company Name": "JUGGAT PHARMA LTD"
     },
     {
@@ -63798,11 +63793,6 @@ const navkarMedicineData = [
         "Product Name": "ZINCULA EYE DROP",
         "Pack": "1",
         "Company Name": "JUGGAT PHARMA LTD"
-    },
-    {
-        "Product Name": "BOTROCLOT TOPICAL SOLUTION",
-        "Pack": "15ML",
-        "Company Name": "JUGGAT PHARMA LTD."
     },
     {
         "Product Name": "AZIJET 500 TAB",
@@ -89920,8 +89910,8 @@ const navkarMedicineData = [
         "Company Name": "MSN LABORATORIES LTD"
     },
     {
-        "Product Name": "SEMABEST 2MG",
-        "Pack": "1'S",
+        "Product Name": "SEMABEST 2MG INJ",
+        "Pack": "1 PFS",
         "Company Name": "MSN LABORATORIES LTD"
     },
     {
@@ -97660,7 +97650,7 @@ const navkarMedicineData = [
         "Company Name": "RAPTAKOS BRETT & COMPANY LTD"
     },
     {
-        "Product Name": "NEOPEPTINE SYP 100MLAA033",
+        "Product Name": "NEOPEPTINE SYP 100ML",
         "Pack": "100ML",
         "Company Name": "RAPTAKOS BRETT & COMPANY LTD"
     },
@@ -97933,6 +97923,56 @@ const navkarMedicineData = [
         "Product Name": "REZICORT 6 TAB",
         "Pack": "TAB",
         "Company Name": "RECEPTORS MEDISCIENCE INDIA `"
+    },
+    {
+        "Product Name": "REFURO 250 TAB",
+        "Pack": "10TAB",
+        "Company Name": "REGALIA PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "REFURO 500 TAB",
+        "Pack": "10TAB",
+        "Company Name": "REGALIA PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "REGABACT 625 LB TAB",
+        "Pack": "10TAB",
+        "Company Name": "REGALIA PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "REGABACT DS FORTE SYURP",
+        "Pack": "30ML",
+        "Company Name": "REGALIA PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "REGABACT DS SYRUP",
+        "Pack": "30ML",
+        "Company Name": "REGALIA PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "REGACHILOR SYRUP",
+        "Pack": "60ML",
+        "Company Name": "REGALIA PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "REGAPOD 100 DS",
+        "Pack": "30ML",
+        "Company Name": "REGALIA PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "REGAPOD 200 TAB",
+        "Pack": "10TAB",
+        "Company Name": "REGALIA PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "REGAPOD 50 DS 30 ML",
+        "Pack": "30ML",
+        "Company Name": "REGALIA PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "REVOKAST SYRUP 60ML",
+        "Pack": "60ML",
+        "Company Name": "REGALIA PHARMACEUTICALS"
     },
     {
         "Product Name": "OSTEOTEN CAP",
@@ -111360,11 +111400,6 @@ const navkarMedicineData = [
         "Company Name": "TORRENT PHARMA (SPARSH)"
     },
     {
-        "Product Name": "AHAGLOW ADVANCED FACE WASH 100GM",
-        "Pack": "100GM",
-        "Company Name": "TORRENT PHARMA (SPARSH)"
-    },
-    {
         "Product Name": "AHAGLOW ADVANCED FACE WASH 50GM",
         "Pack": "50GM",
         "Company Name": "TORRENT PHARMA (SPARSH)"
@@ -111372,6 +111407,11 @@ const navkarMedicineData = [
     {
         "Product Name": "AHAGLOW GC SKIN CLEANSER",
         "Pack": "125 ML",
+        "Company Name": "TORRENT PHARMA (SPARSH)"
+    },
+    {
+        "Product Name": "AHAGLOW GLOGEOUS ADVANCED F/W",
+        "Pack": "100GM",
         "Company Name": "TORRENT PHARMA (SPARSH)"
     },
     {
@@ -117911,7 +117951,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "WOSULIN 30/70 CARTRIDGE",
-        "Pack": "3*5ML",
+        "Pack": "3*3ML",
         "Company Name": "WOCKHARDT LIMITED (DIABETES)"
     },
     {
@@ -121855,6 +121895,11 @@ const navkarMedicineData = [
         "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
     },
     {
+        "Product Name": "AEROSPIN INHALER",
+        "Pack": "1",
+        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
+    },
+    {
         "Product Name": "BILOVAS TAB 10`S",
         "Pack": "TAB",
         "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
@@ -121900,8 +121945,43 @@ const navkarMedicineData = [
         "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
     },
     {
+        "Product Name": "ODIHALE 100 INH",
+        "Pack": "120",
+        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
+    },
+    {
+        "Product Name": "ODIHALE 100 RESPICAP",
+        "Pack": "30",
+        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
+    },
+    {
+        "Product Name": "ODIHALE 200 RESPICAPS",
+        "Pack": "30CAP",
+        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
+    },
+    {
+        "Product Name": "ODIHALE 50INH",
+        "Pack": "120",
+        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
+    },
+    {
         "Product Name": "ODIHALE G 10 RESPICAPS",
         "Pack": "30CAP",
+        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
+    },
+    {
+        "Product Name": "ODIHALE G 100 INH",
+        "Pack": "120MD",
+        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
+    },
+    {
+        "Product Name": "ODIHALE G50 INH CFC",
+        "Pack": "120MD",
+        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
+    },
+    {
+        "Product Name": "ODIMONT AB TAB",
+        "Pack": "10TAB",
         "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
     },
     {
@@ -121932,6 +122012,11 @@ const navkarMedicineData = [
     {
         "Product Name": "THROMBOZYME TAB",
         "Pack": "10 TAB",
+        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
+    },
+    {
+        "Product Name": "UMIFLO PLUS 100 RESPICAPS",
+        "Pack": "15CAP",
         "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
     },
     {

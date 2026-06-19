@@ -9735,11 +9735,6 @@ const productData = [
         "Company Name": "GENERAL COMPANIES"
     },
     {
-        "Product Name": "JENRGIVO ENERGY DRINK 500ML",
-        "Pack": "500ML",
-        "Company Name": "GENERAL COMPANIES"
-    },
-    {
         "Product Name": "JNS SAFTI IV SET",
         "Pack": "PC",
         "Company Name": "GENERAL COMPANIES"
@@ -10368,6 +10363,11 @@ const productData = [
         "Product Name": "ALCOHOL SWABS",
         "Pack": "1X100",
         "Company Name": "HAIDEN"
+    },
+    {
+        "Product Name": "JNERGIVO ENERGY DRINK 500ML",
+        "Pack": "500ML",
+        "Company Name": "HALEWOOD LABORATORIES PVT LTD"
     },
     {
         "Product Name": "ABCDZ GOLD CAP",
@@ -26360,12 +26360,12 @@ const productData = [
         "Company Name": "SMART ICONIC LAB"
     },
     {
-        "Product Name": "ON 2500 ZEEBA PREMIUM RICE 1.2KG",
+        "Product Name": "ON 2500 AFFINITO ICE CREAM CUP SET",
         "Pack": "PC",
         "Company Name": "SMART ICONIC LAB"
     },
     {
-        "Product Name": "ON 25000 AFFINITO ICE CREAM CUP SET",
+        "Product Name": "ON 2500 ZEEBA PREMIUM RICE 1.2KG",
         "Pack": "PC",
         "Company Name": "SMART ICONIC LAB"
     },
