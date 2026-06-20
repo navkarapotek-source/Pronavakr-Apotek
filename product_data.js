@@ -2515,11 +2515,6 @@ const productData = [
         "Company Name": "ASKON HEALTHCARE"
     },
     {
-        "Product Name": "DICLOFENAC SODIUM 50",
-        "Pack": "100TAB",
-        "Company Name": "ATUL"
-    },
-    {
         "Product Name": "BIMATO-T EYE DROP",
         "Pack": "1X3ML",
         "Company Name": "AUSMED LIFE SCIENCES"
@@ -5237,6 +5232,11 @@ const productData = [
     {
         "Product Name": "PANTOSEC D 15TAB",
         "Pack": "15TAB",
+        "Company Name": "CIPLA"
+    },
+    {
+        "Product Name": "PANTOSEC DSR 15CAP",
+        "Pack": "15CAP",
         "Company Name": "CIPLA"
     },
     {
@@ -9625,6 +9625,11 @@ const productData = [
         "Company Name": "GENERAL COMPANIES"
     },
     {
+        "Product Name": "DICLOFENAC SODIUM 50",
+        "Pack": "100TAB",
+        "Company Name": "GENERAL COMPANIES"
+    },
+    {
         "Product Name": "DISP BLACK FACE MASK(3PLY)",
         "Pack": "1X100",
         "Company Name": "GENERAL COMPANIES"
@@ -9812,6 +9817,16 @@ const productData = [
     {
         "Product Name": "NIMESULIDE TAB",
         "Pack": "100TAB",
+        "Company Name": "GENERAL COMPANIES"
+    },
+    {
+        "Product Name": "NIMOREX-S TAB",
+        "Pack": "10TAB",
+        "Company Name": "GENERAL COMPANIES"
+    },
+    {
+        "Product Name": "NOCOHOL TABS",
+        "Pack": "1X4T",
         "Company Name": "GENERAL COMPANIES"
     },
     {
@@ -17285,7 +17300,7 @@ const productData = [
         "Company Name": "LEEFORD HEALTHCARE LTD."
     },
     {
-        "Product Name": "GESTOFORD 100MG CAPS",
+        "Product Name": "GESTOFORD 100MG CAPSC",
         "Pack": "1X10C",
         "Company Name": "LEEFORD HEALTHCARE LTD."
     },
@@ -26705,7 +26720,7 @@ const productData = [
         "Company Name": "SMART ICONIC LAB"
     },
     {
-        "Product Name": "SMARTAID CAPSICUM PLASTER",
+        "Product Name": "SMARTAID CAPSICUM PLASTERF",
         "Pack": "1PC",
         "Company Name": "SMART ICONIC LAB"
     },
@@ -26760,7 +26775,7 @@ const productData = [
         "Company Name": "SMART ICONIC LAB"
     },
     {
-        "Product Name": "SMARTAID HAND SANITIZER 55ML",
+        "Product Name": "SMARTAID HAND SANITIZER 55MLF",
         "Pack": "1X55ML",
         "Company Name": "SMART ICONIC LAB"
     },
@@ -30531,6 +30546,11 @@ const productData = [
     },
     {
         "Product Name": "AKNIRED 3D",
+        "Pack": "20GM",
+        "Company Name": "UNIVERSAL PHARMA"
+    },
+    {
+        "Product Name": "ANOBEC CREAM",
         "Pack": "20GM",
         "Company Name": "UNIVERSAL PHARMA"
     },

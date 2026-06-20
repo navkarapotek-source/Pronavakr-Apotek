@@ -2205,9 +2205,14 @@ const navkarMedicineData = [
         "Company Name": "ABBOTT INDIA LTD (GENERAL CARE)"
     },
     {
+        "Product Name": "ZOLFRESH 5 TAB",
+        "Pack": "15 TAB",
+        "Company Name": "ABBOTT INDIA LTD (GENERAL CARE)"
+    },
+    {
         "Product Name": "ZOLFRESH ER 12.5 TAB",
         "Pack": "15 TAB",
-        "Company Name": "ZOLFRESH 5 TAB"
+        "Company Name": "ABBOTT INDIA LTD (GENERAL CARE)"
     },
     {
         "Product Name": "COLOSPA 135 TAB",
@@ -15560,134 +15565,139 @@ const navkarMedicineData = [
         "Company Name": "ARISTO PHARMA (M F 4 )"
     },
     {
+        "Product Name": "MONOCEF 250 INJ",
+        "Pack": "1VIAL",
+        "Company Name": "ARISTO PHARMA (M F 4 )"
+    },
+    {
         "Product Name": "MONOCEF 2GM INJ",
         "Pack": "1VIAL",
-        "Company Name": "MONOCEF 250 INJ"
+        "Company Name": "ARISTO PHARMA (M F 4 )"
     },
     {
         "Product Name": "MONOCEF 500 INJ",
         "Pack": "1VIAL",
-        "Company Name": "MONOCEF 250 INJ"
+        "Company Name": "ARISTO PHARMA (M F 4 )"
     },
     {
         "Product Name": "MONOCEF O 100 DRY SYR",
         "Pack": "30ML",
-        "Company Name": "MONOCEF 250 INJ"
+        "Company Name": "ARISTO PHARMA (M F 4 )"
     },
     {
         "Product Name": "MONOCEF O 100 DT TAB",
         "Pack": "TAB",
-        "Company Name": "MONOCEF 250 INJ"
+        "Company Name": "ARISTO PHARMA (M F 4 )"
     },
     {
         "Product Name": "MONOCEF O 50 DROP",
         "Pack": "10ML",
-        "Company Name": "MONOCEF 250 INJ"
+        "Company Name": "ARISTO PHARMA (M F 4 )"
     },
     {
         "Product Name": "MONOCEF O 50 DRY SYR",
         "Pack": "30ML",
-        "Company Name": "MONOCEF 250 INJ"
+        "Company Name": "ARISTO PHARMA (M F 4 )"
     },
     {
         "Product Name": "MONOCEF O CV 100 DRY SYR",
         "Pack": "30 ML",
-        "Company Name": "MONOCEF 250 INJ"
+        "Company Name": "ARISTO PHARMA (M F 4 )"
     },
     {
         "Product Name": "MONOCEF O CV 200 TAB",
         "Pack": "10 TAB",
-        "Company Name": "MONOCEF 250 INJ"
+        "Company Name": "ARISTO PHARMA (M F 4 )"
     },
     {
         "Product Name": "MONOCEF O CV 50MG DRY SYP",
         "Pack": "30ML",
-        "Company Name": "MONOCEF 250 INJ"
+        "Company Name": "ARISTO PHARMA (M F 4 )"
     },
     {
         "Product Name": "MONOCEF O DROPS",
         "Pack": "10 ML",
-        "Company Name": "MONOCEF 250 INJ"
+        "Company Name": "ARISTO PHARMA (M F 4 )"
     },
     {
         "Product Name": "MONOCEF O KID 50 TAB",
         "Pack": "10 TAB",
-        "Company Name": "MONOCEF 250 INJ"
+        "Company Name": "ARISTO PHARMA (M F 4 )"
     },
     {
         "Product Name": "MONOCEF O SR 400 MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "MONOCEF 250 INJ"
+        "Company Name": "ARISTO PHARMA (M F 4 )"
     },
     {
         "Product Name": "SMULYTE 4K LIQUID 10G",
         "Pack": "100ML",
-        "Company Name": "MONOCEF 250 INJ"
+        "Company Name": "ARISTO PHARMA (M F 4 )"
     },
     {
         "Product Name": "SMULYTE ORAL SUSP 200 ML",
         "Pack": "200 ML",
-        "Company Name": "MONOCEF 250 INJ"
+        "Company Name": "ARISTO PHARMA (M F 4 )"
     },
     {
         "Product Name": "UDI 1 150MG TAB",
         "Pack": "10'S",
-        "Company Name": "MONOCEF 250 INJ"
+        "Company Name": "ARISTO PHARMA (M F 4 )"
     },
     {
         "Product Name": "UDI 1 300MG TAB",
         "Pack": "10'S",
-        "Company Name": "MONOCEF 250 INJ"
+        "Company Name": "ARISTO PHARMA (M F 4 )"
     },
     {
         "Product Name": "URIHOLD [S] 25 TAB",
         "Pack": "10TAB",
-        "Company Name": "MONOCEF 250 INJ"
+        "Company Name": "ARISTO PHARMA (M F 4 )"
     },
     {
         "Product Name": "URIHOLD [S] 50 TAB",
         "Pack": "10TAB",
-        "Company Name": "MONOCEF 250 INJ"
+        "Company Name": "ARISTO PHARMA (M F 4 )"
     },
     {
         "Product Name": "URIHOLD 25 TAB",
         "Pack": "10TAB",
-        "Company Name": "MONOCEF 250 INJ"
+        "Company Name": "ARISTO PHARMA (M F 4 )"
     },
     {
         "Product Name": "URIHOLD 50 TAB",
         "Pack": "10TAB",
-        "Company Name": "MONOCEF 250 INJ"
+        "Company Name": "ARISTO PHARMA (M F 4 )"
     },
     {
         "Product Name": "VONASEC 10GM TAB",
         "Pack": "TAB",
-        "Company Name": "MONOCEF 250 INJ"
+        "Company Name": "ARISTO PHARMA (M F 4 )"
     },
     {
         "Product Name": "VONASEC 20GM TAB",
         "Pack": "TAB",
-        "Company Name": "MONOCEF 250 INJ"
+        "Company Name": "ARISTO PHARMA (M F 4 )"
     },
     {
         "Product Name": "ZEROTUSS LS DROP",
         "Pack": "ML",
-        "Company Name": "MONOCEF 250 INJ"
+        "Company Name": "ARISTO PHARMA (M F 4 )"
     },
     {
         "Product Name": "ZEROTUSS LS SYS",
         "Pack": "100 ML",
-        "Company Name": "MONOCEF 250 INJ"
+        "Company Name": "ARISTO PHARMA (M F 4 )"
     },
     {
         "Product Name": "ZEROTUSS XP DROPS",
         "Pack": "15ML",
-        "Company Name": "MONOCEF 250 INJ"
+        "Company Name": "ARISTO PHARMA (M F 4 )"
     },
     {
         "Product Name": "ZEROTUSS XP SUSP.",
         "Pack": "100ML",
-        "Company Name": "MONOCEF 250 INJ"
+        "Company Name": "ARISTO PHARMA (M F 4 )"
     },
     {
         "Product Name": "AMLOSAFE 2.5MG TAB",
@@ -22477,6 +22487,11 @@ const navkarMedicineData = [
     {
         "Product Name": "VITOMIN D3 GRANULES",
         "Pack": "1GM",
+        "Company Name": "CIPLA LIMITED"
+    },
+    {
+        "Product Name": "VOLTIDO TRIO 100 CIPHALER",
+        "Pack": "60S",
         "Company Name": "CIPLA LIMITED"
     },
     {
@@ -29420,6 +29435,11 @@ const navkarMedicineData = [
         "Company Name": "DR REDDYS LAB (CEREBRA)"
     },
     {
+        "Product Name": "JAKONE 15MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "DR REDDYS LAB (DERMA  A)"
+    },
+    {
         "Product Name": "MINTOP 10% SOLU 60ML",
         "Pack": "60ML",
         "Company Name": "DR REDDYS LAB (DERMA  A)"
@@ -29427,6 +29447,11 @@ const navkarMedicineData = [
     {
         "Product Name": "MINTOP 2% SOLU",
         "Pack": "60ML",
+        "Company Name": "DR REDDYS LAB (DERMA  A)"
+    },
+    {
+        "Product Name": "MINTOP 2.5 TAB",
+        "Pack": "10 TAB",
         "Company Name": "DR REDDYS LAB (DERMA  A)"
     },
     {
@@ -30275,8 +30300,8 @@ const navkarMedicineData = [
         "Company Name": "DR REDDYS LAB (RECURA GRACE)"
     },
     {
-        "Product Name": "SENQUEL F TOOTH PASTE 100GM",
-        "Pack": "100GM",
+        "Product Name": "SENQUEL F+ FAST RELIF T/P",
+        "Pack": "100 GM",
         "Company Name": "DR REDDYS LAB (RECURA GRACE)"
     },
     {
@@ -30740,54 +30765,59 @@ const navkarMedicineData = [
         "Company Name": "STAMLO [D] TAB"
     },
     {
+        "Product Name": "STAMLO 2.5 TAB",
+        "Pack": "30 TAB",
+        "Company Name": "STAMLO [D] TAB"
+    },
+    {
         "Product Name": "STAMLO 5 TAB",
         "Pack": "30 TAB",
-        "Company Name": "STAMLO 2.5 TAB"
+        "Company Name": "STAMLO [D] TAB"
     },
     {
         "Product Name": "STAMLO BETA TAB",
         "Pack": "15 TAB",
-        "Company Name": "STAMLO 2.5 TAB"
+        "Company Name": "STAMLO [D] TAB"
     },
     {
         "Product Name": "STAMLO BIS 2.5 TAB",
         "Pack": "10 TAB",
-        "Company Name": "STAMLO 2.5 TAB"
+        "Company Name": "STAMLO [D] TAB"
     },
     {
         "Product Name": "STAMLO BIS 5 TAB",
         "Pack": "10 TAB",
-        "Company Name": "STAMLO 2.5 TAB"
+        "Company Name": "STAMLO [D] TAB"
     },
     {
         "Product Name": "STAMLO T 40MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "STAMLO 2.5 TAB"
+        "Company Name": "STAMLO [D] TAB"
     },
     {
         "Product Name": "STIG 100 TAB 15'S",
         "Pack": "15 TAB",
-        "Company Name": "STAMLO 2.5 TAB"
+        "Company Name": "STAMLO [D] TAB"
     },
     {
         "Product Name": "STIG 50 TAB 15'S",
         "Pack": "15 TAB",
-        "Company Name": "STAMLO 2.5 TAB"
+        "Company Name": "STAMLO [D] TAB"
     },
     {
         "Product Name": "STIG-MT 50/1000 MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "STAMLO 2.5 TAB"
+        "Company Name": "STAMLO [D] TAB"
     },
     {
         "Product Name": "STIG-MT 50/500MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "STAMLO 2.5 TAB"
+        "Company Name": "STAMLO [D] TAB"
     },
     {
         "Product Name": "V SMALL 50MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "STAMLO 2.5 TAB"
+        "Company Name": "STAMLO [D] TAB"
     },
     {
         "Product Name": "BECELAC FORTZ CAP",
@@ -30948,11 +30978,6 @@ const navkarMedicineData = [
         "Product Name": "WOKRIDE D CAP",
         "Pack": "15 CAP",
         "Company Name": "DR REDDYS LAB AQURA MS"
-    },
-    {
-        "Product Name": "JAKONE 15MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "DR REDDYS LAB DERMA A"
     },
     {
         "Product Name": "ANTOXID [HC] CAP",
@@ -31797,11 +31822,6 @@ const navkarMedicineData = [
     {
         "Product Name": "FINAX TAB 30`S",
         "Pack": "30 TAB",
-        "Company Name": "DR.REDDYS DERMA MAX"
-    },
-    {
-        "Product Name": "MINTOP 2.5 TAB",
-        "Pack": "10 TAB",
         "Company Name": "DR.REDDYS DERMA MAX"
     },
     {
@@ -73850,6 +73870,16 @@ const navkarMedicineData = [
         "Company Name": "GLUCONORM ZXR 60 TAB"
     },
     {
+        "Product Name": "TELISTA BS 2.5 TAB",
+        "Pack": "10TAB",
+        "Company Name": "GLUCONORM ZXR 60 TAB"
+    },
+    {
+        "Product Name": "TELISTA BS 5 TAB",
+        "Pack": "10TAB",
+        "Company Name": "GLUCONORM ZXR 60 TAB"
+    },
+    {
         "Product Name": "TELISTA CH 40/6.25 TAB",
         "Pack": "15TAB",
         "Company Name": "GLUCONORM ZXR 60 TAB"
@@ -89920,29 +89950,29 @@ const navkarMedicineData = [
         "Company Name": "MSN LABORATORIES LTD"
     },
     {
-        "Product Name": "DAPAONE SM 500 TAB",
-        "Pack": "10TAB",
-        "Company Name": "MSN LABORATORIES LTD (OQM)"
-    },
-    {
-        "Product Name": "FEPINK 1000 TAB",
-        "Pack": "1TAB",
-        "Company Name": "MSN LABORATORIES LTD (OQM)"
-    },
-    {
         "Product Name": "PLECTIDE TAB",
         "Pack": "3MG",
         "Company Name": "MSN LABORATORIES LTD (OQM)"
     },
     {
+        "Product Name": "DAPAONE SM 500 TAB",
+        "Pack": "10TAB",
+        "Company Name": "MSN LABORATORIES LTD (TCP)"
+    },
+    {
+        "Product Name": "FEPINK 1000 TAB",
+        "Pack": "1TAB",
+        "Company Name": "MSN LABORATORIES LTD (TCP)"
+    },
+    {
         "Product Name": "ROFUM TAB",
         "Pack": "10TAB",
-        "Company Name": "MSN LABORATORIES LTD (OQM)"
+        "Company Name": "MSN LABORATORIES LTD (TCP)"
     },
     {
         "Product Name": "TADOVAS 20MG",
         "Pack": "10TAB",
-        "Company Name": "MSN LABORATORIES LTD (OQM)"
+        "Company Name": "MSN LABORATORIES LTD (TCP)"
     },
     {
         "Product Name": "DAPAONE SM 1000 TAB",
@@ -94232,6 +94262,11 @@ const navkarMedicineData = [
     {
         "Product Name": "HEPJAUN TAB",
         "Pack": "60TAB",
+        "Company Name": "PHYTO PHARMA"
+    },
+    {
+        "Product Name": "LIMIRON GRANULES",
+        "Pack": "300GM",
         "Company Name": "PHYTO PHARMA"
     },
     {
@@ -112657,6 +112692,11 @@ const navkarMedicineData = [
     {
         "Product Name": "AHAGLOW AC ACNECONTROAL MOIS GEL",
         "Pack": "50GM",
+        "Company Name": "TORRENT PHARMACEUTICALS LTD"
+    },
+    {
+        "Product Name": "AHAGLOW ADVANCED FACE WASH",
+        "Pack": "100GM",
         "Company Name": "TORRENT PHARMACEUTICALS LTD"
     },
     {

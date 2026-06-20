@@ -460,6 +460,11 @@ const otcData = [
         "Company Name": "AVENTUS HYGINOVA"
     },
     {
+        "Product Name": "SUNKEY STRONG 5000ML",
+        "Pack": "5LITER",
+        "Company Name": "AVENTUS HYGINOVA"
+    },
+    {
         "Product Name": "SUNKEY STRONG 500ML",
         "Pack": "500ML",
         "Company Name": "AVENTUS HYGINOVA"
