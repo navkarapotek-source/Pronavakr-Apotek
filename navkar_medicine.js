@@ -4845,6 +4845,11 @@ const navkarMedicineData = [
         "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
+        "Product Name": "DELPOCALM SUSPENION",
+        "Pack": "60ML",
+        "Company Name": "AKUMENTIS DELCURE LIFE"
+    },
+    {
         "Product Name": "DELPOCALM SYP",
         "Pack": "30ML",
         "Company Name": "AKUMENTIS DELCURE LIFE"
@@ -23245,31 +23250,6 @@ const navkarMedicineData = [
         "Company Name": "CIPLA LIMITED (OPTIMUS)"
     },
     {
-        "Product Name": "AZIMAX 100 DRY SYRUP",
-        "Pack": "15ML",
-        "Company Name": "CIPLA LIMITED (OPTIMUS)"
-    },
-    {
-        "Product Name": "AZIMAX 200 DT TAB",
-        "Pack": "3 TAB",
-        "Company Name": "CIPLA LIMITED (OPTIMUS)"
-    },
-    {
-        "Product Name": "AZIMAX 200MG DRY SYP",
-        "Pack": "15ML",
-        "Company Name": "CIPLA LIMITED (OPTIMUS)"
-    },
-    {
-        "Product Name": "AZIMAX 250MG TAB",
-        "Pack": "6 TAB",
-        "Company Name": "CIPLA LIMITED (OPTIMUS)"
-    },
-    {
-        "Product Name": "AZIMAX 500MG TAB",
-        "Pack": "5 TAB",
-        "Company Name": "CIPLA LIMITED (OPTIMUS)"
-    },
-    {
         "Product Name": "CIPLACTIN SYP 200ML",
         "Pack": "200ML",
         "Company Name": "CIPLA LIMITED (OPTIMUS)"
@@ -25185,7 +25165,7 @@ const navkarMedicineData = [
         "Company Name": "CIPLA LIMITED VITALIS"
     },
     {
-        "Product Name": "METOLAR TRIO 25 TAB",
+        "Product Name": "METOLAR TRIO 25 TAB2",
         "Pack": "TAB",
         "Company Name": "CIPLA LIMITED VITALIS"
     },
@@ -25477,6 +25457,11 @@ const navkarMedicineData = [
     {
         "Product Name": "RIVELA TINT 50PF SUNSCREEN LOTION",
         "Pack": "50ML",
+        "Company Name": "CIPLA LIMITED XTERNA"
+    },
+    {
+        "Product Name": "SALIC 1% FOAM WASH",
+        "Pack": "1UNIT",
         "Company Name": "CIPLA LIMITED XTERNA"
     },
     {
@@ -33610,8 +33595,8 @@ const navkarMedicineData = [
         "Company Name": "ELI LILLY AND COMPANY INDIA PV"
     },
     {
-        "Product Name": "MOUNJARO 2.5 MG KWIKPEN",
-        "Pack": "2.4 ML",
+        "Product Name": "MOUNJARO 2.5 MG VIAL",
+        "Pack": "0.5ML",
         "Company Name": "ELI LILLY AND COMPANY INDIA PV"
     },
     {
@@ -53275,11 +53260,6 @@ const navkarMedicineData = [
         "Company Name": "INDOCO REMEDIES (WARREN ACE )"
     },
     {
-        "Product Name": "HOMIDE EYE DROPS 5ML",
-        "Pack": "5ML",
-        "Company Name": "INDOCO REMEDIES (WARREN ACE )"
-    },
-    {
         "Product Name": "RENOLEN EYE DROPS",
         "Pack": "10ML",
         "Company Name": "INDOCO REMEDIES (WARREN ACE )"
@@ -66395,6 +66375,11 @@ const navkarMedicineData = [
         "Company Name": "LA RENON HELATH CARE LAUREATE"
     },
     {
+        "Product Name": "PALMIHER TAB",
+        "Pack": "10TAB",
+        "Company Name": "LA RENON HELATH CARE LAUREATE"
+    },
+    {
         "Product Name": "Q4LIC PLUS TAB",
         "Pack": "10'TAB",
         "Company Name": "LA RENON HELATH CARE LAUREATE"
@@ -67622,11 +67607,6 @@ const navkarMedicineData = [
     {
         "Product Name": "OCHEK CAP",
         "Pack": "TAB",
-        "Company Name": "LA RENON LAMBENT BETA"
-    },
-    {
-        "Product Name": "PALMIHER TAB",
-        "Pack": "10TAB",
         "Company Name": "LA RENON LAMBENT BETA"
     },
     {
@@ -72270,6 +72250,11 @@ const navkarMedicineData = [
         "Company Name": "LUPIN NEW ENDEAVOUR"
     },
     {
+        "Product Name": "LUPIBIX 5MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "LUPIN NEW ENDEAVOUR"
+    },
+    {
         "Product Name": "LUPIFIT CAP",
         "Pack": "10CAP",
         "Company Name": "LUPIN NEW ENDEAVOUR"
@@ -74091,11 +74076,6 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "LUPIBAC 10MG TAB",
-        "Pack": "10TAB",
-        "Company Name": "LUPIN PHARMA (PHARMA)"
-    },
-    {
-        "Product Name": "LUPIBIX 5MG TAB",
         "Pack": "10TAB",
         "Company Name": "LUPIN PHARMA (PHARMA)"
     },
@@ -82775,6 +82755,11 @@ const navkarMedicineData = [
         "Company Name": "MANKIND PHARMA (SPECIAL)"
     },
     {
+        "Product Name": "MAN STAYLONG GEL",
+        "Pack": "1GM",
+        "Company Name": "MANKIND PHARMA (SPECIAL)"
+    },
+    {
         "Product Name": "MAN STRABERRY XOITIC 3PC",
         "Pack": "3 PC",
         "Company Name": "MANKIND PHARMA (SPECIAL)"
@@ -86045,6 +86030,11 @@ const navkarMedicineData = [
         "Company Name": "MEDIXER LIFE SCIENCE"
     },
     {
+        "Product Name": "CLAFI-LS TAB",
+        "Pack": "10TAB",
+        "Company Name": "MEDIXER LIFE SCIENCE"
+    },
+    {
         "Product Name": "FOLIXER HD CAP",
         "Pack": "10 CAP",
         "Company Name": "MEDIXER LIFE SCIENCE"
@@ -86107,6 +86097,11 @@ const navkarMedicineData = [
     {
         "Product Name": "TRIVICAL TAB",
         "Pack": "10 TAB",
+        "Company Name": "PRICOX MR TAB"
+    },
+    {
+        "Product Name": "VIMONT COLD TAB",
+        "Pack": "10TAB",
         "Company Name": "PRICOX MR TAB"
     },
     {
@@ -106307,6 +106302,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ETAPRED 0.5% E DROP 5 ML",
         "Pack": "5 ML",
+        "Company Name": "SUNWAYS (ORIZO)"
+    },
+    {
+        "Product Name": "HOMIDE EYE DROPS 5ML",
+        "Pack": "5ML",
         "Company Name": "SUNWAYS (ORIZO)"
     },
     {

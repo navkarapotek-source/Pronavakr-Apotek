@@ -9820,7 +9820,7 @@ const productData = [
         "Company Name": "GENERAL COMPANIES"
     },
     {
-        "Product Name": "NIMOREX-S TAB",
+        "Product Name": "NIMOREX-S TAB (NS-50)",
         "Pack": "10TAB",
         "Company Name": "GENERAL COMPANIES"
     },
@@ -16745,6 +16745,11 @@ const productData = [
         "Company Name": "LEEFORD HEALTHCARE LTD"
     },
     {
+        "Product Name": "LEEFORD MILTON BOTTLE",
+        "Pack": "700ML",
+        "Company Name": "LEEFORD HEALTHCARE LTD"
+    },
+    {
         "Product Name": "LEEFORD TENIS ELBOW SUPPORT XL",
         "Pack": "XL",
         "Company Name": "LEEFORD HEALTHCARE LTD"
@@ -21540,6 +21545,11 @@ const productData = [
         "Company Name": "NIVCA HEALTHCARE"
     },
     {
+        "Product Name": "COOL MAX EYE DROP",
+        "Pack": "10ML",
+        "Company Name": "NIVCA HEALTHCARE"
+    },
+    {
         "Product Name": "COOLSILS COUGH LOZENGES",
         "Pack": "10 LOZ",
         "Company Name": "NIVCA HEALTHCARE"
@@ -21625,6 +21635,11 @@ const productData = [
         "Company Name": "NIVCA HEALTHCARE"
     },
     {
+        "Product Name": "FERICA XT TAB",
+        "Pack": "10TAB",
+        "Company Name": "NIVCA HEALTHCARE"
+    },
+    {
         "Product Name": "FLUZOC-150 TAB",
         "Pack": "1TAB",
         "Company Name": "NIVCA HEALTHCARE"
@@ -21647,6 +21662,11 @@ const productData = [
     {
         "Product Name": "GLORICA FACE WASH",
         "Pack": "70ML",
+        "Company Name": "NIVCA HEALTHCARE"
+    },
+    {
+        "Product Name": "GLUCOSE-C 100GM",
+        "Pack": "100GM",
         "Company Name": "NIVCA HEALTHCARE"
     },
     {
@@ -21677,6 +21697,11 @@ const productData = [
     {
         "Product Name": "ITRON 200 CAP",
         "Pack": "10CAP",
+        "Company Name": "NIVCA HEALTHCARE"
+    },
+    {
+        "Product Name": "KESH UP ONION HAIR OIL",
+        "Pack": "100ML",
         "Company Name": "NIVCA HEALTHCARE"
     },
     {
@@ -21720,6 +21745,11 @@ const productData = [
         "Company Name": "NIVCA HEALTHCARE"
     },
     {
+        "Product Name": "LZ SYRUP 30ML",
+        "Pack": "30ML",
+        "Company Name": "NIVCA HEALTHCARE"
+    },
+    {
         "Product Name": "LZ TAB (ALU)",
         "Pack": "10TAB",
         "Company Name": "NIVCA HEALTHCARE"
@@ -21751,6 +21781,11 @@ const productData = [
     },
     {
         "Product Name": "LZ-M TAB",
+        "Pack": "10TAB",
+        "Company Name": "NIVCA HEALTHCARE"
+    },
+    {
+        "Product Name": "MEFNIC DR TAB",
         "Pack": "10TAB",
         "Company Name": "NIVCA HEALTHCARE"
     },
@@ -21970,6 +22005,11 @@ const productData = [
         "Company Name": "NIVCA HEALTHCARE"
     },
     {
+        "Product Name": "RANICA D TAB",
+        "Pack": "20TAB",
+        "Company Name": "NIVCA HEALTHCARE"
+    },
+    {
         "Product Name": "RESPIDEX AMT SYP 100ML",
         "Pack": "100ML",
         "Company Name": "NIVCA HEALTHCARE"
@@ -21977,6 +22017,11 @@ const productData = [
     {
         "Product Name": "RESPIDEX AMT SYP 60ML",
         "Pack": "60ML",
+        "Company Name": "NIVCA HEALTHCARE"
+    },
+    {
+        "Product Name": "RESPIDEX COLD TAB",
+        "Pack": "10TAB",
         "Company Name": "NIVCA HEALTHCARE"
     },
     {
@@ -22117,6 +22162,11 @@ const productData = [
     {
         "Product Name": "VITAX-Z POWDER (MOJITO)",
         "Pack": "105GM",
+        "Company Name": "NIVCA HEALTHCARE"
+    },
+    {
+        "Product Name": "ZINCONIV TAB",
+        "Pack": "15TAB",
         "Company Name": "NIVCA HEALTHCARE"
     },
     {
@@ -27200,6 +27250,11 @@ const productData = [
         "Company Name": "ALKAFRESH SODA EFFERVESCENT"
     },
     {
+        "Product Name": "CALCIPUNCH D3 NANO SHOTS 5ML",
+        "Pack": "5ML",
+        "Company Name": "ALKAFRESH SODA EFFERVESCENT"
+    },
+    {
         "Product Name": "CALCIWAY 800 DROPS",
         "Pack": "30ML",
         "Company Name": "ALKAFRESH SODA EFFERVESCENT"
@@ -27690,6 +27745,11 @@ const productData = [
         "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
+        "Product Name": "DEXASCORE INJ",
+        "Pack": "2ML",
+        "Company Name": "DARKROOM SUPER DOTTED"
+    },
+    {
         "Product Name": "DEXASCORE TAB",
         "Pack": "10TAB",
         "Company Name": "DARKROOM SUPER DOTTED"
@@ -28125,6 +28185,11 @@ const productData = [
         "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
+        "Product Name": "LYTELAY CANDY JAR",
+        "Pack": "180UN ITS",
+        "Company Name": "DARKROOM SUPER DOTTED"
+    },
+    {
         "Product Name": "MEDROFIX 16 TAB",
         "Pack": "10TAB",
         "Company Name": "DARKROOM SUPER DOTTED"
@@ -28311,6 +28376,11 @@ const productData = [
     },
     {
         "Product Name": "ON 240000 SAMSUNG WASHING MACHINE",
+        "Pack": "PC",
+        "Company Name": "DARKROOM SUPER DOTTED"
+    },
+    {
+        "Product Name": "ON 30000 PRESTIGE GRILL SANDWICH MAKER",
         "Pack": "PC",
         "Company Name": "DARKROOM SUPER DOTTED"
     },
@@ -28650,6 +28720,11 @@ const productData = [
         "Company Name": "RIGHTPICK GLYCERIN WITH ROSE"
     },
     {
+        "Product Name": "RIGHTPICK ROSE WATER",
+        "Pack": "100ML",
+        "Company Name": "RIGHTPICK GLYCERIN WITH ROSE"
+    },
+    {
         "Product Name": "RIGHTPICK SUNSCREEN LOTION 30GM",
         "Pack": "30GM",
         "Company Name": "RIGHTPICK GLYCERIN WITH ROSE"
@@ -28852,6 +28927,11 @@ const productData = [
     {
         "Product Name": "VERTIOFF 8",
         "Pack": "10TAB",
+        "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
+    },
+    {
+        "Product Name": "VITAFLOW C-500 TAB",
+        "Pack": "15TAB",
         "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
     },
     {
@@ -29657,6 +29737,11 @@ const productData = [
     {
         "Product Name": "DO EXX CONDOM",
         "Pack": "1X10PCS",
+        "Company Name": "TARUN PHARMACUTICAL"
+    },
+    {
+        "Product Name": "ECORYL TOTAL TAB",
+        "Pack": "10TAB",
         "Company Name": "TARUN PHARMACUTICAL"
     },
     {

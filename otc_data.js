@@ -760,7 +760,7 @@ const otcData = [
         "Company Name": "BAIDYANATH AYURVEDA BHAVAN LTD"
     },
     {
-        "Product Name": "TRIPHALA CHURNA [100GM]J37",
+        "Product Name": "TRIPHALA CHURNA [100GM]",
         "Pack": "100 GM",
         "Company Name": "BAIDYANATH AYURVEDA BHAVAN LTD"
     },
@@ -3677,11 +3677,6 @@ const otcData = [
     {
         "Product Name": "HAJMOLA BOTTLE [REGULAR]",
         "Pack": "120 TAB",
-        "Company Name": "JOHNSON & JOHNSON"
-    },
-    {
-        "Product Name": "HAJMOLA BOTTLE [REGULAR]",
-        "Pack": "50 TAB",
         "Company Name": "JOHNSON & JOHNSON"
     },
     {
