@@ -1365,44 +1365,49 @@ const navkarMedicineData = [
         "Company Name": "ABBOTT HEALTHCARE (NOVACARE)"
     },
     {
+        "Product Name": "FLAGYL 200MG TAB",
+        "Pack": "20TAB",
+        "Company Name": "ABBOTT HEALTHCARE (NOVACARE)"
+    },
+    {
         "Product Name": "FLAGYL 400MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "FLAGYL 200MG TAB"
+        "Company Name": "ABBOTT HEALTHCARE (NOVACARE)"
     },
     {
         "Product Name": "FLAGYL SUSP 60ML",
         "Pack": "60ML",
-        "Company Name": "FLAGYL 200MG TAB"
+        "Company Name": "ABBOTT HEALTHCARE (NOVACARE)"
     },
     {
         "Product Name": "MODCEF D TAB",
         "Pack": "TAB",
-        "Company Name": "FLAGYL 200MG TAB"
+        "Company Name": "ABBOTT HEALTHCARE (NOVACARE)"
     },
     {
         "Product Name": "RASHFREE CREAM 30GM",
         "Pack": "30GM",
-        "Company Name": "FLAGYL 200MG TAB"
+        "Company Name": "ABBOTT HEALTHCARE (NOVACARE)"
     },
     {
         "Product Name": "RIVAXA 10 TAB",
         "Pack": "15 TAB",
-        "Company Name": "FLAGYL 200MG TAB"
+        "Company Name": "ABBOTT HEALTHCARE (NOVACARE)"
     },
     {
         "Product Name": "SIAGLIDE EM 10 TAB",
         "Pack": "10S",
-        "Company Name": "FLAGYL 200MG TAB"
+        "Company Name": "ABBOTT HEALTHCARE (NOVACARE)"
     },
     {
         "Product Name": "SURBEX STAR NEW",
         "Pack": "CAP",
-        "Company Name": "FLAGYL 200MG TAB"
+        "Company Name": "ABBOTT HEALTHCARE (NOVACARE)"
     },
     {
         "Product Name": "SURBEX XT TAB",
         "Pack": "15 TAB",
-        "Company Name": "FLAGYL 200MG TAB"
+        "Company Name": "ABBOTT HEALTHCARE (NOVACARE)"
     },
     {
         "Product Name": "B STIL 16MG TAB",
@@ -32652,6 +32657,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ELDAPA TRIO TAB",
         "Pack": "10 TAB",
+        "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
+    },
+    {
+        "Product Name": "ELDOGEST TAB",
+        "Pack": "10TAB",
         "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
     },
     {
@@ -101665,11 +101675,6 @@ const navkarMedicineData = [
         "Company Name": "SUN PHARMA (AMAZE)"
     },
     {
-        "Product Name": "ROSUVAS CV 20MG CAP",
-        "Pack": "10 TAB",
-        "Company Name": "SUN PHARMA (AMAZE)"
-    },
-    {
         "Product Name": "CERNOS CAP",
         "Pack": "10 CAP",
         "Company Name": "SUN PHARMA (AMPHION)"
@@ -105785,6 +105790,11 @@ const navkarMedicineData = [
         "Company Name": "DAPEFY 10 MG TAB"
     },
     {
+        "Product Name": "ROSUVAS CV 20MG CAP",
+        "Pack": "10 TAB",
+        "Company Name": "DAPEFY 10 MG TAB"
+    },
+    {
         "Product Name": "ROSUVAS F 10 MG TAB",
         "Pack": "15 TAB",
         "Company Name": "DAPEFY 10 MG TAB"
@@ -107838,6 +107848,11 @@ const navkarMedicineData = [
         "Product Name": "TOPNAC [TH] TAB",
         "Pack": "10TAB",
         "Company Name": "TOPISAL 6% LOTION"
+    },
+    {
+        "Product Name": "TOPNAC SP TAB",
+        "Pack": "10 TAB",
+        "Company Name": "TOPNAC 100MG TAB"
     },
     {
         "Product Name": "TOPP 40MG TAB",
@@ -113845,7 +113860,7 @@ const navkarMedicineData = [
         "Company Name": "NUROTROY SR TAB"
     },
     {
-        "Product Name": "XYKAA RAPID 650MG TAB.",
+        "Product Name": "XYKAA RAPID 650MG TAB",
         "Pack": "15 TAB",
         "Company Name": "NUROTROY SR TAB"
     },
@@ -118385,6 +118400,11 @@ const navkarMedicineData = [
         "Company Name": "ZIPCO HEALTHCARE"
     },
     {
+        "Product Name": "ZIPODOX-200 TAB",
+        "Pack": "10TAB",
+        "Company Name": "ZIPCO HEALTHCARE"
+    },
+    {
         "Product Name": "BABY WIPES LITTLES",
         "Pack": "30",
         "Company Name": "ZIVIRA PHARMA"
@@ -121355,6 +121375,11 @@ const navkarMedicineData = [
         "Company Name": "ZYDUS PHARMA (DISCOVERY)"
     },
     {
+        "Product Name": "OLMY H 40MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ZYDUS PHARMA (DISCOVERY)"
+    },
+    {
         "Product Name": "PIVASTA 2 MG TAB",
         "Pack": "TAB",
         "Company Name": "ZYDUS PHARMA (DISCOVERY)"
@@ -121371,6 +121396,16 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "SITAGLYN 50MG",
+        "Pack": "10",
+        "Company Name": "ZYDUS PHARMA (DISCOVERY)"
+    },
+    {
+        "Product Name": "SITAGLYN D 10/100 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ZYDUS PHARMA (DISCOVERY)"
+    },
+    {
+        "Product Name": "SITAGLYN DM 100/500",
         "Pack": "10",
         "Company Name": "ZYDUS PHARMA (DISCOVERY)"
     },
