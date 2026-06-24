@@ -3465,11 +3465,6 @@ const otcData = [
         "Company Name": "HINDUSTAN UNILEVER LIMITED"
     },
     {
-        "Product Name": "DERMI COOL POWDER [HER]",
-        "Pack": "50GM",
-        "Company Name": "HINIKAMS DRUGS & PHARMACEUTICAL"
-    },
-    {
         "Product Name": "DERMI COOL POWDER [LAVENDER]",
         "Pack": "50GM",
         "Company Name": "HINIKAMS DRUGS & PHARMACEUTICAL"

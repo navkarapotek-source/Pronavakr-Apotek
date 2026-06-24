@@ -4140,109 +4140,114 @@ const navkarMedicineData = [
         "Company Name": "AJANTA PHARMA (NUVENTA)"
     },
     {
+        "Product Name": "ATORFIT CV 10/75 MG CAP",
+        "Pack": "15 CAP",
+        "Company Name": "AJANTA PHARMA (NUVENTA)"
+    },
+    {
         "Product Name": "ATORFIT CV 20/75 MG CAP",
         "Pack": "15 CAP",
-        "Company Name": "ATORFIT CV 10/75 MG CAP"
+        "Company Name": "AJANTA PHARMA (NUVENTA)"
     },
     {
         "Product Name": "ATORFIT CV 40/75 MG CAP",
         "Pack": "10 TAB",
-        "Company Name": "ATORFIT CV 10/75 MG CAP"
+        "Company Name": "AJANTA PHARMA (NUVENTA)"
     },
     {
         "Product Name": "ATORFIT CV GOLD 10/75 CAP",
         "Pack": "15 CAP",
-        "Company Name": "ATORFIT CV 10/75 MG CAP"
+        "Company Name": "AJANTA PHARMA (NUVENTA)"
     },
     {
         "Product Name": "ATORFIT CV GOLD 20/75 MG CAP",
         "Pack": "15 CAP",
-        "Company Name": "ATORFIT CV 10/75 MG CAP"
+        "Company Name": "AJANTA PHARMA (NUVENTA)"
     },
     {
         "Product Name": "ATORFIT EZ 10/10MG TAB",
         "Pack": "10'S",
-        "Company Name": "ATORFIT CV 10/75 MG CAP"
+        "Company Name": "AJANTA PHARMA (NUVENTA)"
     },
     {
         "Product Name": "ATORFIT EZ 40/10 MG TAB",
         "Pack": "10'S",
-        "Company Name": "ATORFIT CV 10/75 MG CAP"
+        "Company Name": "AJANTA PHARMA (NUVENTA)"
     },
     {
         "Product Name": "CINOD 10MG TAB 20``S",
         "Pack": "20 TAB",
-        "Company Name": "ATORFIT CV 10/75 MG CAP"
+        "Company Name": "AJANTA PHARMA (NUVENTA)"
     },
     {
         "Product Name": "CINOD 20MG TAB 20``S",
         "Pack": "20 TAB",
-        "Company Name": "ATORFIT CV 10/75 MG CAP"
+        "Company Name": "AJANTA PHARMA (NUVENTA)"
     },
     {
         "Product Name": "CINOD 5MG TAB 20``S",
         "Pack": "20 TAB",
-        "Company Name": "ATORFIT CV 10/75 MG CAP"
+        "Company Name": "AJANTA PHARMA (NUVENTA)"
     },
     {
         "Product Name": "CINOD BETA 10/25MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "ATORFIT CV 10/75 MG CAP"
+        "Company Name": "AJANTA PHARMA (NUVENTA)"
     },
     {
         "Product Name": "CINOD BETA 10/50MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "ATORFIT CV 10/75 MG CAP"
+        "Company Name": "AJANTA PHARMA (NUVENTA)"
     },
     {
         "Product Name": "CINOD T 20MG TAB 15``S",
         "Pack": "15 TAB",
-        "Company Name": "ATORFIT CV 10/75 MG CAP"
+        "Company Name": "AJANTA PHARMA (NUVENTA)"
     },
     {
         "Product Name": "CINOD T TAB 10/40 MG",
         "Pack": "10 TAB",
-        "Company Name": "ATORFIT CV 10/75 MG CAP"
+        "Company Name": "AJANTA PHARMA (NUVENTA)"
     },
     {
         "Product Name": "CINOD T TAB 15``S",
         "Pack": "TAB",
-        "Company Name": "ATORFIT CV 10/75 MG CAP"
+        "Company Name": "AJANTA PHARMA (NUVENTA)"
     },
     {
         "Product Name": "MET XL AMT 25/5/40 TAB",
         "Pack": "10 TAB",
-        "Company Name": "ATORFIT CV 10/75 MG CAP"
+        "Company Name": "AJANTA PHARMA (NUVENTA)"
     },
     {
         "Product Name": "MET XL AMT 50/5/40 TAB",
         "Pack": "15TAB",
-        "Company Name": "ATORFIT CV 10/75 MG CAP"
+        "Company Name": "AJANTA PHARMA (NUVENTA)"
     },
     {
         "Product Name": "TIBAN 20MG TAB 15``S",
         "Pack": "15 TAB",
-        "Company Name": "ATORFIT CV 10/75 MG CAP"
+        "Company Name": "AJANTA PHARMA (NUVENTA)"
     },
     {
         "Product Name": "TIBAN M 20/1000MG TAB 15``S",
         "Pack": "TAB",
-        "Company Name": "ATORFIT CV 10/75 MG CAP"
+        "Company Name": "AJANTA PHARMA (NUVENTA)"
     },
     {
         "Product Name": "TIBAN M 20/500 TAB",
         "Pack": "15 TAB",
-        "Company Name": "ATORFIT CV 10/75 MG CAP"
+        "Company Name": "AJANTA PHARMA (NUVENTA)"
     },
     {
         "Product Name": "TRICINOD 10/12.5MG TAB 15``S",
         "Pack": "TAB",
-        "Company Name": "ATORFIT CV 10/75 MG CAP"
+        "Company Name": "AJANTA PHARMA (NUVENTA)"
     },
     {
         "Product Name": "TRICINOD 10/6.25MG TAB 15``S",
         "Pack": "TAB",
-        "Company Name": "ATORFIT CV 10/75 MG CAP"
+        "Company Name": "AJANTA PHARMA (NUVENTA)"
     },
     {
         "Product Name": "DAPALEX 10MG TAB",
@@ -10472,6 +10477,11 @@ const navkarMedicineData = [
     {
         "Product Name": "MELTOLAN 15 TAB",
         "Pack": "TAB",
+        "Company Name": "ALKEM LABORATORIES LIMITED"
+    },
+    {
+        "Product Name": "MIRTAKEM 30MG TAB",
+        "Pack": "10'S",
         "Company Name": "ALKEM LABORATORIES LIMITED"
     },
     {
@@ -20355,6 +20365,11 @@ const navkarMedicineData = [
         "Company Name": "CADILA PHARMA  (MAGFAM)"
     },
     {
+        "Product Name": "ESILOC I.V",
+        "Pack": "1 VIAL",
+        "Company Name": "CADILA PHARMA  (MAGFAM)"
+    },
+    {
         "Product Name": "GUTBUDDY CAP",
         "Pack": "10CAP",
         "Company Name": "CADILA PHARMA  (MAGFAM)"
@@ -20367,6 +20382,11 @@ const navkarMedicineData = [
     {
         "Product Name": "LMX FORTE SUSP",
         "Pack": "60 ML",
+        "Company Name": "CADILA PHARMA  (MAGFAM)"
+    },
+    {
+        "Product Name": "TRIOFLAM TAB",
+        "Pack": "10 TAB",
         "Company Name": "CADILA PHARMA  (MAGFAM)"
     },
     {
@@ -30750,64 +30770,69 @@ const navkarMedicineData = [
         "Company Name": "DR REDDYS LAB (ZENURA)"
     },
     {
+        "Product Name": "STAMLO [D] TAB",
+        "Pack": "15 TAB",
+        "Company Name": "DR REDDYS LAB (ZENURA)"
+    },
+    {
         "Product Name": "STAMLO 10 TAB",
         "Pack": "30 TAB",
-        "Company Name": "STAMLO [D] TAB"
+        "Company Name": "DR REDDYS LAB (ZENURA)"
     },
     {
         "Product Name": "STAMLO 2.5 TAB",
         "Pack": "30 TAB",
-        "Company Name": "STAMLO [D] TAB"
+        "Company Name": "DR REDDYS LAB (ZENURA)"
     },
     {
         "Product Name": "STAMLO 5 TAB",
         "Pack": "30 TAB",
-        "Company Name": "STAMLO [D] TAB"
+        "Company Name": "DR REDDYS LAB (ZENURA)"
     },
     {
         "Product Name": "STAMLO BETA TAB",
         "Pack": "15 TAB",
-        "Company Name": "STAMLO [D] TAB"
+        "Company Name": "DR REDDYS LAB (ZENURA)"
     },
     {
         "Product Name": "STAMLO BIS 2.5 TAB",
         "Pack": "10 TAB",
-        "Company Name": "STAMLO [D] TAB"
+        "Company Name": "DR REDDYS LAB (ZENURA)"
     },
     {
         "Product Name": "STAMLO BIS 5 TAB",
         "Pack": "10 TAB",
-        "Company Name": "STAMLO [D] TAB"
+        "Company Name": "DR REDDYS LAB (ZENURA)"
     },
     {
         "Product Name": "STAMLO T 40MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "STAMLO [D] TAB"
+        "Company Name": "DR REDDYS LAB (ZENURA)"
     },
     {
         "Product Name": "STIG 100 TAB 15'S",
         "Pack": "15 TAB",
-        "Company Name": "STAMLO [D] TAB"
+        "Company Name": "DR REDDYS LAB (ZENURA)"
     },
     {
         "Product Name": "STIG 50 TAB 15'S",
         "Pack": "15 TAB",
-        "Company Name": "STAMLO [D] TAB"
+        "Company Name": "DR REDDYS LAB (ZENURA)"
     },
     {
         "Product Name": "STIG-MT 50/1000 MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "STAMLO [D] TAB"
+        "Company Name": "DR REDDYS LAB (ZENURA)"
     },
     {
         "Product Name": "STIG-MT 50/500MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "STAMLO [D] TAB"
+        "Company Name": "DR REDDYS LAB (ZENURA)"
     },
     {
         "Product Name": "V SMALL 50MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "STAMLO [D] TAB"
+        "Company Name": "DR REDDYS LAB (ZENURA)"
     },
     {
         "Product Name": "BECELAC FORTZ CAP",
@@ -32660,11 +32685,6 @@ const navkarMedicineData = [
         "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
     },
     {
-        "Product Name": "ELDOGEST TAB",
-        "Pack": "10TAB",
-        "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
-    },
-    {
         "Product Name": "ELDOTEL 40 TRIO 6.25 TAB",
         "Pack": "10TAB",
         "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
@@ -33052,6 +33072,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ELDOFER TAB",
         "Pack": "10 TAB",
+        "Company Name": "EL DORADO(ZEALOUS)"
+    },
+    {
+        "Product Name": "ELDOGEST TAB",
+        "Pack": "10TAB",
         "Company Name": "EL DORADO(ZEALOUS)"
     },
     {
@@ -88191,7 +88216,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "PREGNACARE TAB",
-        "Pack": "10TAB",
+        "Pack": "30TAB",
         "Company Name": "MEYER ORGANICS POLARIS"
     },
     {
@@ -97995,6 +98020,11 @@ const navkarMedicineData = [
         "Company Name": "REGALIA PHARMACEUTICALS"
     },
     {
+        "Product Name": "REGAMOL MF SUSP",
+        "Pack": "60ML",
+        "Company Name": "REGALIA PHARMACEUTICALS"
+    },
+    {
         "Product Name": "REGAPOD 100 DS",
         "Pack": "30ML",
         "Company Name": "REGALIA PHARMACEUTICALS"
@@ -105386,7 +105416,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "XAFINACT 50MG TAB",
-        "Pack": "TAB",
+        "Pack": "10 TAB",
         "Company Name": "OXETOL 450 TAB"
     },
     {
@@ -110521,7 +110551,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "TIDOMET PLUS TAB",
-        "Pack": "TAB",
+        "Pack": "10 TAB",
         "Company Name": "TORRENT PHARMA (NEURON)"
     },
     {
@@ -111750,64 +111780,69 @@ const navkarMedicineData = [
         "Company Name": "EUREPA V 1/0.3MG TAB"
     },
     {
+        "Product Name": "METOCARD XL 25 TAB",
+        "Pack": "15 TAB",
+        "Company Name": "EUREPA V 1/0.3MG TAB"
+    },
+    {
         "Product Name": "METOCARD XL 50 TAB",
         "Pack": "15 TAB",
-        "Company Name": "METOCARD XL 25 TAB"
+        "Company Name": "EUREPA V 1/0.3MG TAB"
     },
     {
         "Product Name": "METOCARD XL 75 TAB",
         "Pack": "10 TAB",
-        "Company Name": "METOCARD XL 25 TAB"
+        "Company Name": "EUREPA V 1/0.3MG TAB"
     },
     {
         "Product Name": "MODLIP 10 TAB",
         "Pack": "15 TAB",
-        "Company Name": "METOCARD XL 25 TAB"
+        "Company Name": "EUREPA V 1/0.3MG TAB"
     },
     {
         "Product Name": "MODLIP 20 TAB",
         "Pack": "15 TAB",
-        "Company Name": "METOCARD XL 25 TAB"
+        "Company Name": "EUREPA V 1/0.3MG TAB"
     },
     {
         "Product Name": "MODLIP 40 TAB",
         "Pack": "10 TAB",
-        "Company Name": "METOCARD XL 25 TAB"
+        "Company Name": "EUREPA V 1/0.3MG TAB"
     },
     {
         "Product Name": "MODLIP AM TAB",
         "Pack": "TAB",
-        "Company Name": "METOCARD XL 25 TAB"
+        "Company Name": "EUREPA V 1/0.3MG TAB"
     },
     {
         "Product Name": "MODLIP ASG 20 CAP",
         "Pack": "CAP",
-        "Company Name": "METOCARD XL 25 TAB"
+        "Company Name": "EUREPA V 1/0.3MG TAB"
     },
     {
         "Product Name": "MODLIP ASG 75MG CAP",
         "Pack": "TAB",
-        "Company Name": "METOCARD XL 25 TAB"
+        "Company Name": "EUREPA V 1/0.3MG TAB"
     },
     {
         "Product Name": "MODLIP F TAB",
         "Pack": "TAB",
-        "Company Name": "METOCARD XL 25 TAB"
+        "Company Name": "EUREPA V 1/0.3MG TAB"
     },
     {
         "Product Name": "SEMBOLIC 14 TAB",
         "Pack": "10TAB",
-        "Company Name": "METOCARD XL 25 TAB"
+        "Company Name": "EUREPA V 1/0.3MG TAB"
     },
     {
         "Product Name": "SEMBOLIC 3TAB",
         "Pack": "10TAB",
-        "Company Name": "METOCARD XL 25 TAB"
+        "Company Name": "EUREPA V 1/0.3MG TAB"
     },
     {
         "Product Name": "SEMBOLIC 7 MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "METOCARD XL 25 TAB"
+        "Company Name": "EUREPA V 1/0.3MG TAB"
     },
     {
         "Product Name": "CHYMORAL [AP] TAB",
@@ -113860,8 +113895,13 @@ const navkarMedicineData = [
         "Company Name": "NUROTROY SR TAB"
     },
     {
-        "Product Name": "XYKAA RAPID 650MG TAB",
+        "Product Name": "XYKAA RAPID 650 TAB.",
         "Pack": "15 TAB",
+        "Company Name": "NUROTROY SR TAB"
+    },
+    {
+        "Product Name": "XYKAA RAPID 650MG TAB ( CONTAINAR )",
+        "Pack": "39'SBOX",
         "Company Name": "NUROTROY SR TAB"
     },
     {
