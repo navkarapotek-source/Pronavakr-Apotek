@@ -9765,21 +9765,6 @@ const productData = [
         "Company Name": "GENERAL COMPANIES"
     },
     {
-        "Product Name": "KOJICID FACE WASH",
-        "Pack": "70ML",
-        "Company Name": "GENERAL COMPANIES"
-    },
-    {
-        "Product Name": "KOJICID GEL 15GM",
-        "Pack": "15GM",
-        "Company Name": "GENERAL COMPANIES"
-    },
-    {
-        "Product Name": "KOJICID SOAP",
-        "Pack": "75GM",
-        "Company Name": "GENERAL COMPANIES"
-    },
-    {
         "Product Name": "LEVEDER 500 PEN SET",
         "Pack": "-",
         "Company Name": "GENERAL COMPANIES"
@@ -9840,11 +9825,6 @@ const productData = [
         "Company Name": "GENERAL COMPANIES"
     },
     {
-        "Product Name": "NIMOREX-S TAB (NS-50)",
-        "Pack": "10TAB",
-        "Company Name": "GENERAL COMPANIES"
-    },
-    {
         "Product Name": "NOCOHOL TABS",
         "Pack": "1X4T",
         "Company Name": "GENERAL COMPANIES"
@@ -9857,6 +9837,11 @@ const productData = [
     {
         "Product Name": "NO-SCARS SOAP 150GM",
         "Pack": "1X150GM",
+        "Company Name": "GENERAL COMPANIES"
+    },
+    {
+        "Product Name": "NS-15 TAB",
+        "Pack": "10TAB",
         "Company Name": "GENERAL COMPANIES"
     },
     {
@@ -14005,7 +13990,7 @@ const productData = [
         "Company Name": "INTAS"
     },
     {
-        "Product Name": "INTACOXIA P TABSC",
+        "Product Name": "INTACOXIA P TAB",
         "Pack": "1X10T",
         "Company Name": "INTAS"
     },
@@ -14325,8 +14310,23 @@ const productData = [
         "Company Name": "JIYA HERBALS"
     },
     {
+        "Product Name": "AMLODE 5 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "AMLODE AT TB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
         "Product Name": "AZILMAC-40 TAB",
         "Pack": "10 TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "BISOMAX-5 H TAB",
+        "Pack": "10TAB",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
@@ -14357,6 +14357,41 @@ const productData = [
     {
         "Product Name": "CLARIFORD-500 TAB",
         "Pack": "10 TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "ECOPRIL-75(MONO) TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "ECOPRIL-A GOLD 10/75 CAPS",
+        "Pack": "1X15C",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "ECOPRIL-A GOLD 20/75 CAP",
+        "Pack": "15CAP",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "GLICLIZE-40MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "GLICLIZE-80 MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "GLIMITH MF-1 1000SR",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "GLIMITH MF-2 1000SR",
+        "Pack": "10TAB",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
@@ -14405,8 +14440,48 @@ const productData = [
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
+        "Product Name": "GLIMITH-MP1 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "GLIMITH-MP2",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "JONFASTACE-GEL 30GM",
+        "Pack": "30GM",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "JONPIOLEEA 15 10TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "JONPIOLEEA 30 10TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "JOVASTATIN-10 TAB(AL)",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "JOVASTATIN-80 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
         "Product Name": "LEEMIGRAN-50MG TABS",
         "Pack": "1X10T",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "LINAPROVE 5",
+        "Pack": "10TAB",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
@@ -14417,6 +14492,11 @@ const productData = [
     {
         "Product Name": "LONAX-OD 450 TAB",
         "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "METFORD-500 TAB",
+        "Pack": "20TAB",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
@@ -14435,6 +14515,16 @@ const productData = [
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
+        "Product Name": "NFD-RETARD 20 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "OMTEN-20-AM TAB",
+        "Pack": "1X10T",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
         "Product Name": "PIRMAX-200 TABS",
         "Pack": "1X10T",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
@@ -14445,8 +14535,28 @@ const productData = [
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
+        "Product Name": "PRAZOCIN-5XL TAB",
+        "Pack": "15TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "PROLEE 10 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
         "Product Name": "QTF-50MG TAB",
         "Pack": "10 TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "RABEJOHN-DSR CAP",
+        "Pack": "10CAP",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "RANOFLAWS-500 SR TAB",
+        "Pack": "10TAB",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
@@ -14460,8 +14570,123 @@ const productData = [
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
+        "Product Name": "ROSUPROVE-A 10/75 CAP",
+        "Pack": "10CAP",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "ROSUPROVE-A 20/75 CAP",
+        "Pack": "15CAP",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "ROSUPROVEA-10 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "ROSUPROVEA-20 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "ROSUPROVE-CV 10/75 CAP",
+        "Pack": "10CAP",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "ROSUPROVE-GOLD 10/75 CAP",
+        "Pack": "15CAP",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "ROSUPROVE-GOLD 20/75 CAP",
+        "Pack": "15CAP",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
         "Product Name": "SILECTONE-T 5 TABLET",
         "Pack": "10 TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "SILOFIRST-8 CAP",
+        "Pack": "10CAP",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "TELGO CH-12.50 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "TELGO CH-6.25 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "TELGO-20 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "TELGO-80 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "TELGO-AH TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "TELGO-AM TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "TELGO-C TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "TELGO-CC TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "TELGO-M-50 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "TEMSUJOHN 0.4 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "TEMSUJOHN-D TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "TENALIP-20 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "TERBILINE-250 TAB",
+        "Pack": "7TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "THALIDON 12.5 TABS",
+        "Pack": "1X10T",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "TIMINTA-90 TAB",
+        "Pack": "14TAB",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
@@ -14470,8 +14695,63 @@ const productData = [
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
+        "Product Name": "TOPME-AM TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "TOPME-XL 12.5 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "TOPME-XL 25 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "TOPME-XL 50 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
         "Product Name": "TORSIMID S 20/50 TAB",
         "Pack": "10 TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "TORSIMID-10 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "TORSIMID-5 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "TRYPTILINE-10 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "VILDALIP MET-50/500 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "VILDALIP-100 TAB",
+        "Pack": "15TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "VILDALIP-50 TAB",
+        "Pack": "15TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "VOKEM-0.3(BL)",
+        "Pack": "10TAB",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
@@ -14487,6 +14767,11 @@ const productData = [
     {
         "Product Name": "VOKEM-GM3 TABLET",
         "Pack": "10 TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "VOKEM-MF3 TAB",
+        "Pack": "10TAB",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
@@ -29743,6 +30028,21 @@ const productData = [
         "Product Name": "NOCOHOL TAB",
         "Pack": "4 TAB",
         "Company Name": "SYNTHIKO"
+    },
+    {
+        "Product Name": "KOJICID FACE WASH",
+        "Pack": "70ML",
+        "Company Name": "TABLETS (INDIA) LIMITED"
+    },
+    {
+        "Product Name": "KOJICID GEL 15GM",
+        "Pack": "15GM",
+        "Company Name": "TABLETS (INDIA) LIMITED"
+    },
+    {
+        "Product Name": "KOJICID SOAP",
+        "Pack": "75GM",
+        "Company Name": "TABLETS (INDIA) LIMITED"
     },
     {
         "Product Name": "PARACETAMOL ROUND",

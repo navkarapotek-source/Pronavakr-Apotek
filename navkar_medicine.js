@@ -3750,6 +3750,11 @@ const navkarMedicineData = [
         "Company Name": "AJANTA PHARMA (ILLUMA)"
     },
     {
+        "Product Name": "NEPAFLAM XL EYE DROPS",
+        "Pack": "7.5ML",
+        "Company Name": "AJANTA PHARMA (ILLUMA)"
+    },
+    {
         "Product Name": "OCUGOLD PLUS TAB",
         "Pack": "TAB",
         "Company Name": "AJANTA PHARMA (ILLUMA)"
@@ -11315,139 +11320,144 @@ const navkarMedicineData = [
         "Company Name": "ALKEM PHARMACEUTICALS (IMPERIA )"
     },
     {
+        "Product Name": "HOMOCHEK CAP",
+        "Pack": "10 CAP",
+        "Company Name": "ALKEM PHARMACEUTICALS (IMPERIA )"
+    },
+    {
         "Product Name": "JUPIROS  5 TAB",
         "Pack": "15 TAB",
-        "Company Name": "HOMOCHEK CAP"
+        "Company Name": "ALKEM PHARMACEUTICALS (IMPERIA )"
     },
     {
         "Product Name": "JUPIROS 10 TAB",
         "Pack": "15 TAB",
-        "Company Name": "HOMOCHEK CAP"
+        "Company Name": "ALKEM PHARMACEUTICALS (IMPERIA )"
     },
     {
         "Product Name": "JUPIROS 20 TAB",
         "Pack": "15 TAB",
-        "Company Name": "HOMOCHEK CAP"
+        "Company Name": "ALKEM PHARMACEUTICALS (IMPERIA )"
     },
     {
         "Product Name": "JUPIROS 40 TAB",
         "Pack": "TAB",
-        "Company Name": "HOMOCHEK CAP"
+        "Company Name": "ALKEM PHARMACEUTICALS (IMPERIA )"
     },
     {
         "Product Name": "JUPIROS A 150 CAP",
         "Pack": "10 CAP",
-        "Company Name": "HOMOCHEK CAP"
+        "Company Name": "ALKEM PHARMACEUTICALS (IMPERIA )"
     },
     {
         "Product Name": "JUPIROS A 20/150 CAP",
         "Pack": "CAP",
-        "Company Name": "HOMOCHEK CAP"
+        "Company Name": "ALKEM PHARMACEUTICALS (IMPERIA )"
     },
     {
         "Product Name": "JUPIROS A 75 TAB",
         "Pack": "10 TAB",
-        "Company Name": "HOMOCHEK CAP"
+        "Company Name": "ALKEM PHARMACEUTICALS (IMPERIA )"
     },
     {
         "Product Name": "JUPIROS CV 10 CAP",
         "Pack": "10 CAP",
-        "Company Name": "HOMOCHEK CAP"
+        "Company Name": "ALKEM PHARMACEUTICALS (IMPERIA )"
     },
     {
         "Product Name": "JUPIROS CV 20 TAB",
         "Pack": "TAB",
-        "Company Name": "HOMOCHEK CAP"
+        "Company Name": "ALKEM PHARMACEUTICALS (IMPERIA )"
     },
     {
         "Product Name": "JUPIROS EZ 10 MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "HOMOCHEK CAP"
+        "Company Name": "ALKEM PHARMACEUTICALS (IMPERIA )"
     },
     {
         "Product Name": "JUPIROS EZ 20 MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "HOMOCHEK CAP"
+        "Company Name": "ALKEM PHARMACEUTICALS (IMPERIA )"
     },
     {
         "Product Name": "JUPIROS F TAB",
         "Pack": "10 TAB",
-        "Company Name": "HOMOCHEK CAP"
+        "Company Name": "ALKEM PHARMACEUTICALS (IMPERIA )"
     },
     {
         "Product Name": "JUPIROS GOLD 10 CAP",
         "Pack": "10 CAP",
-        "Company Name": "HOMOCHEK CAP"
+        "Company Name": "ALKEM PHARMACEUTICALS (IMPERIA )"
     },
     {
         "Product Name": "JUPIROS GOLD 20 CAP",
         "Pack": "10 CAP",
-        "Company Name": "HOMOCHEK CAP"
+        "Company Name": "ALKEM PHARMACEUTICALS (IMPERIA )"
     },
     {
         "Product Name": "TICAVIC 60 TAB",
         "Pack": "10 TAB",
-        "Company Name": "HOMOCHEK CAP"
+        "Company Name": "ALKEM PHARMACEUTICALS (IMPERIA )"
     },
     {
         "Product Name": "TICAVIC 90MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "HOMOCHEK CAP"
+        "Company Name": "ALKEM PHARMACEUTICALS (IMPERIA )"
     },
     {
         "Product Name": "TSART 20MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "HOMOCHEK CAP"
+        "Company Name": "ALKEM PHARMACEUTICALS (IMPERIA )"
     },
     {
         "Product Name": "TSART 40MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "HOMOCHEK CAP"
+        "Company Name": "ALKEM PHARMACEUTICALS (IMPERIA )"
     },
     {
         "Product Name": "TSART 80MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "HOMOCHEK CAP"
+        "Company Name": "ALKEM PHARMACEUTICALS (IMPERIA )"
     },
     {
         "Product Name": "TSART B 2.5MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "HOMOCHEK CAP"
+        "Company Name": "ALKEM PHARMACEUTICALS (IMPERIA )"
     },
     {
         "Product Name": "TSART B 5MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "HOMOCHEK CAP"
+        "Company Name": "ALKEM PHARMACEUTICALS (IMPERIA )"
     },
     {
         "Product Name": "TSART H 40MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "HOMOCHEK CAP"
+        "Company Name": "ALKEM PHARMACEUTICALS (IMPERIA )"
     },
     {
         "Product Name": "TSART TRIO 12.5MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "HOMOCHEK CAP"
+        "Company Name": "ALKEM PHARMACEUTICALS (IMPERIA )"
     },
     {
         "Product Name": "TSART TRIO 6.25MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "HOMOCHEK CAP"
+        "Company Name": "ALKEM PHARMACEUTICALS (IMPERIA )"
     },
     {
         "Product Name": "VALERA M 1000MG TAB",
         "Pack": "TAB",
-        "Company Name": "HOMOCHEK CAP"
+        "Company Name": "ALKEM PHARMACEUTICALS (IMPERIA )"
     },
     {
         "Product Name": "VALERA M 500 TAB",
         "Pack": "15 TAB",
-        "Company Name": "HOMOCHEK CAP"
+        "Company Name": "ALKEM PHARMACEUTICALS (IMPERIA )"
     },
     {
         "Product Name": "VALERA TAB",
         "Pack": "15 TAB",
-        "Company Name": "HOMOCHEK CAP"
+        "Company Name": "ALKEM PHARMACEUTICALS (IMPERIA )"
     },
     {
         "Product Name": "BUDASURE L PULMULES",
@@ -11717,6 +11727,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ZYLOPRED DROPS",
         "Pack": "5 ML",
+        "Company Name": "ALLERGAN INDIA LIMITED"
+    },
+    {
+        "Product Name": "ZYMAR 0.3% 5ML",
+        "Pack": "5ML",
         "Company Name": "ALLERGAN INDIA LIMITED"
     },
     {
@@ -18920,6 +18935,11 @@ const navkarMedicineData = [
         "Company Name": "BLUE CROSS LABORATORIES LTD"
     },
     {
+        "Product Name": "TENEBLU-DM 20/10/500MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "BLUE CROSS LABORATORIES LTD"
+    },
+    {
         "Product Name": "TUSQ [D] COUGH LOZEN",
         "Pack": "6 TAB",
         "Company Name": "BLUE CROSS LABORATORIES LTD"
@@ -20330,11 +20350,6 @@ const navkarMedicineData = [
         "Company Name": "CADILA HEALTH CARE (GR) AEROFORCE"
     },
     {
-        "Product Name": "ACILOC [RD] TAB",
-        "Pack": "30 TAB",
-        "Company Name": "CADILA PHARMA  (MAGFAM)"
-    },
-    {
         "Product Name": "ACILOC 150 TAB",
         "Pack": "30 TAB",
         "Company Name": "CADILA PHARMA  (MAGFAM)"
@@ -20352,6 +20367,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ACILOC ONLY SYR",
         "Pack": "100 ML",
+        "Company Name": "CADILA PHARMA  (MAGFAM)"
+    },
+    {
+        "Product Name": "ACILOC RD",
+        "Pack": "30 TAB",
         "Company Name": "CADILA PHARMA  (MAGFAM)"
     },
     {
@@ -48320,11 +48340,6 @@ const navkarMedicineData = [
         "Company Name": "HBC DERMIZA HEALTHCARE LTD"
     },
     {
-        "Product Name": "SPORMIZA SB 100 TAB",
-        "Pack": "10CAP",
-        "Company Name": "HBC DERMIZA HEALTHCARE LTD"
-    },
-    {
         "Product Name": "TACROMIZ  OINTMENT 0.1% 10 GM",
         "Pack": "10 GM",
         "Company Name": "HBC DERMIZA HEALTHCARE LTD"
@@ -50100,6 +50115,11 @@ const navkarMedicineData = [
         "Company Name": "HETERO HEALTHCARE LTD [FRENZA]"
     },
     {
+        "Product Name": "MIDOHEP 10 TAB",
+        "Pack": "10TAB",
+        "Company Name": "HETERO HEALTHCARE LTD [FRENZA]"
+    },
+    {
         "Product Name": "MPX CV DRY SYP",
         "Pack": "30ML",
         "Company Name": "HETERO HEALTHCARE LTD [FRENZA]"
@@ -51542,6 +51562,11 @@ const navkarMedicineData = [
     {
         "Product Name": "BIOHOMIN LS TAB",
         "Pack": "10TAB",
+        "Company Name": "ICON LIFE SCIENCE (IMPETUS)"
+    },
+    {
+        "Product Name": "BIOHOMIN TAB",
+        "Pack": "10 TAB",
         "Company Name": "ICON LIFE SCIENCE (IMPETUS)"
     },
     {
@@ -62512,11 +62537,6 @@ const navkarMedicineData = [
     {
         "Product Name": "AZMARDA 50MG TAB",
         "Pack": "14TAB",
-        "Company Name": "J.B.CHEMICALS VIVA (HF)"
-    },
-    {
-        "Product Name": "AZOVAS 16 TAB",
-        "Pack": "TAB",
         "Company Name": "J.B.CHEMICALS VIVA (HF)"
     },
     {
@@ -73772,6 +73792,11 @@ const navkarMedicineData = [
     {
         "Product Name": "DUOMATE FORTE TRANSCAPS (30 CAPS)",
         "Pack": "1 tab",
+        "Company Name": "LUPIN NEW RESPIRA"
+    },
+    {
+        "Product Name": "IDOFNIB 100 MG CAP",
+        "Pack": "1 TAB",
         "Company Name": "LUPIN NEW RESPIRA"
     },
     {
@@ -98480,6 +98505,11 @@ const navkarMedicineData = [
         "Company Name": "ROMATUS HEALTHCARE"
     },
     {
+        "Product Name": "UBITUS TAB",
+        "Pack": "10TAB",
+        "Company Name": "ROMATUS HEALTHCARE"
+    },
+    {
         "Product Name": "AZORAN 25MG TAB",
         "Pack": "25 TAB",
         "Company Name": "RPG LIFE SCIENCE  (PINNACLE)"
@@ -107880,39 +107910,44 @@ const navkarMedicineData = [
         "Company Name": "TOPISAL 6% LOTION"
     },
     {
+        "Product Name": "TOPNAC 100MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "TOPISAL 6% LOTION"
+    },
+    {
         "Product Name": "TOPNAC SP TAB",
         "Pack": "10 TAB",
-        "Company Name": "TOPNAC 100MG TAB"
+        "Company Name": "TOPISAL 6% LOTION"
     },
     {
         "Product Name": "TOPP 40MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "TOPNAC 100MG TAB"
+        "Company Name": "TOPISAL 6% LOTION"
     },
     {
         "Product Name": "TOPP D CAP",
         "Pack": "10CAP",
-        "Company Name": "TOPNAC 100MG TAB"
+        "Company Name": "TOPISAL 6% LOTION"
     },
     {
         "Product Name": "TOPP LS TAB",
         "Pack": "10 TAB",
-        "Company Name": "TOPNAC 100MG TAB"
+        "Company Name": "TOPISAL 6% LOTION"
     },
     {
         "Product Name": "VARENYA CREAM",
         "Pack": "30GM",
-        "Company Name": "TOPNAC 100MG TAB"
+        "Company Name": "TOPISAL 6% LOTION"
     },
     {
         "Product Name": "VH 3 VAG PESSARIES",
         "Pack": "3`S",
-        "Company Name": "TOPNAC 100MG TAB"
+        "Company Name": "TOPISAL 6% LOTION"
     },
     {
         "Product Name": "VOGS [M] 0.2 TAB",
         "Pack": "10TAB",
-        "Company Name": "TOPNAC 100MG TAB"
+        "Company Name": "TOPISAL 6% LOTION"
     },
     {
         "Product Name": "VOGS 0.2 TAB",
@@ -109167,6 +109202,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ROVOR 10MG TAB",
         "Pack": "10 TAB",
+        "Company Name": "TORRENT PHARMA (AZUCA)"
+    },
+    {
+        "Product Name": "SEMALIX 8MG/3ML INJ",
+        "Pack": "VIAL",
         "Company Name": "TORRENT PHARMA (AZUCA)"
     },
     {
@@ -113052,11 +113092,6 @@ const navkarMedicineData = [
     {
         "Product Name": "ROZUCOR F 5 TAB",
         "Pack": "TAB",
-        "Company Name": "TORRENT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "SEMALIX 8MG/3ML INJ",
-        "Pack": "VIAL",
         "Company Name": "TORRENT PHARMACEUTICALS LTD"
     },
     {
@@ -117553,6 +117588,21 @@ const navkarMedicineData = [
         "Product Name": "WAYOPAN TAB",
         "Pack": "10 TAB",
         "Company Name": "WAYONEXT PHARMACEUTICALS PVT LTD"
+    },
+    {
+        "Product Name": "ESOPEARL-40",
+        "Pack": "10TAB",
+        "Company Name": "WELIXON LIFE SCIENCES PRIVATE"
+    },
+    {
+        "Product Name": "GUTPEARL BC",
+        "Pack": "10*5ML",
+        "Company Name": "WELIXON LIFE SCIENCES PRIVATE"
+    },
+    {
+        "Product Name": "LACTIPEARL",
+        "Pack": "90GM",
+        "Company Name": "WELIXON LIFE SCIENCES PRIVATE"
     },
     {
         "Product Name": "ALZORET CAPS (FOOD)",

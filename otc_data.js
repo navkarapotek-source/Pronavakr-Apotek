@@ -1380,6 +1380,11 @@ const otcData = [
         "Company Name": "DABUR INDIA LIMITED"
     },
     {
+        "Product Name": "RAJBINDU SYP",
+        "Pack": "60ML",
+        "Company Name": "DABUR INDIA LIMITED"
+    },
+    {
         "Product Name": "RAJBINDU SYR",
         "Pack": "30ML",
         "Company Name": "DABUR INDIA LIMITED"
@@ -5790,7 +5795,7 @@ const otcData = [
         "Company Name": "SDL"
     },
     {
-        "Product Name": "MULTANI MATTI 50GM [SDL]K26",
+        "Product Name": "MULTANI MATTI 50GM [SDL]",
         "Pack": "50GM",
         "Company Name": "SDL"
     },
