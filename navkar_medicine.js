@@ -1725,11 +1725,6 @@ const navkarMedicineData = [
         "Company Name": "ABBOTT HEALTHCARE PVT RESOTORA"
     },
     {
-        "Product Name": "CREMADIET PLUS POWDER 100GM",
-        "Pack": "100GM",
-        "Company Name": "ABBOTT HELATH CARE (EPTION)"
-    },
-    {
         "Product Name": "EPTOIN 100MG TAB",
         "Pack": "120 TAB",
         "Company Name": "ABBOTT HELATH CARE (EPTION)"
@@ -2022,6 +2017,11 @@ const navkarMedicineData = [
     {
         "Product Name": "CREMA-ANO CREAM",
         "Pack": "20 GM",
+        "Company Name": "ABBOTT INDIA LTD (GASTRO)"
+    },
+    {
+        "Product Name": "CREMADIET PLUS POWDER 100GM",
+        "Pack": "100GM",
         "Company Name": "ABBOTT INDIA LTD (GASTRO)"
     },
     {
@@ -13405,7 +13405,7 @@ const navkarMedicineData = [
         "Company Name": "APEX (YVO)"
     },
     {
-        "Product Name": "P-100 DROPS",
+        "Product Name": "P 100 DROPS",
         "Pack": "15ML",
         "Company Name": "APEX LABORATORIES PRIVATE LIMITED"
     },
@@ -35330,69 +35330,74 @@ const navkarMedicineData = [
         "Company Name": "EMCURE PHARMA CV DIVISION"
     },
     {
+        "Product Name": "LASILACTONE 50MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "EMCURE PHARMA CV DIVISION"
+    },
+    {
         "Product Name": "LASIX 40 TAB",
         "Pack": "15 TAB",
-        "Company Name": "LASILACTONE 50MG TAB"
+        "Company Name": "EMCURE PHARMA CV DIVISION"
     },
     {
         "Product Name": "LASIX INJ 4ML AMP",
         "Pack": "10*4ML",
-        "Company Name": "LASILACTONE 50MG TAB"
+        "Company Name": "EMCURE PHARMA CV DIVISION"
     },
     {
         "Product Name": "PLAVIX 75 TAB",
         "Pack": "14 TAB",
-        "Company Name": "LASILACTONE 50MG TAB"
+        "Company Name": "EMCURE PHARMA CV DIVISION"
     },
     {
         "Product Name": "ROSUVAS EZ 10MG TAB",
         "Pack": "10ATB",
-        "Company Name": "LASILACTONE 50MG TAB"
+        "Company Name": "EMCURE PHARMA CV DIVISION"
     },
     {
         "Product Name": "ROSUVAS EZ 20MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "LASILACTONE 50MG TAB"
+        "Company Name": "EMCURE PHARMA CV DIVISION"
     },
     {
         "Product Name": "ROSUVAS EZ 40 TAB",
         "Pack": "TAB",
-        "Company Name": "LASILACTONE 50MG TAB"
+        "Company Name": "EMCURE PHARMA CV DIVISION"
     },
     {
         "Product Name": "TELSITE 20MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "LASILACTONE 50MG TAB"
+        "Company Name": "EMCURE PHARMA CV DIVISION"
     },
     {
         "Product Name": "TELSITE 40MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "LASILACTONE 50MG TAB"
+        "Company Name": "EMCURE PHARMA CV DIVISION"
     },
     {
         "Product Name": "TELSITE 80 MG PLANE",
         "Pack": "15 TAB",
-        "Company Name": "LASILACTONE 50MG TAB"
+        "Company Name": "EMCURE PHARMA CV DIVISION"
     },
     {
         "Product Name": "TELSITE AM 40/5MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "LASILACTONE 50MG TAB"
+        "Company Name": "EMCURE PHARMA CV DIVISION"
     },
     {
         "Product Name": "TELSITE AMH TAB",
         "Pack": "10 TAB",
-        "Company Name": "LASILACTONE 50MG TAB"
+        "Company Name": "EMCURE PHARMA CV DIVISION"
     },
     {
         "Product Name": "TELSITE H 40+12.5 MG",
         "Pack": "10 TAB",
-        "Company Name": "LASILACTONE 50MG TAB"
+        "Company Name": "EMCURE PHARMA CV DIVISION"
     },
     {
         "Product Name": "TELSITE H 80MG TAB",
         "Pack": "TAB",
-        "Company Name": "LASILACTONE 50MG TAB"
+        "Company Name": "EMCURE PHARMA CV DIVISION"
     },
     {
         "Product Name": "SEVCAR 400MG TAB 10`S",
@@ -36987,6 +36992,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ERA HB TAB",
         "Pack": "TAB",
+        "Company Name": "ERA PHARMACEUTICALS PVT LTD"
+    },
+    {
+        "Product Name": "ERA OSTEO 2000 TAB",
+        "Pack": "10 TAB",
         "Company Name": "ERA PHARMACEUTICALS PVT LTD"
     },
     {
@@ -46973,6 +46983,106 @@ const navkarMedicineData = [
         "Product Name": "TAMSQUARE Z CAP",
         "Pack": "10 CAP",
         "Company Name": "GOLDEN SQUARE LAB PYT LTD"
+    },
+    {
+        "Product Name": "AMFLOR ORAL RINSE 250ML",
+        "Pack": "250ML",
+        "Company Name": "GROUP PHARMACEUTICALS LTD."
+    },
+    {
+        "Product Name": "AMFLOR TOOTH PASTE 70GM",
+        "Pack": "70GM",
+        "Company Name": "GROUP PHARMACEUTICALS LTD."
+    },
+    {
+        "Product Name": "CASTUS RETAINER & ALIGNER",
+        "Pack": "5*6T",
+        "Company Name": "GROUP PHARMACEUTICALS LTD."
+    },
+    {
+        "Product Name": "DENSIVE DENTURE ADHESIVE",
+        "Pack": "GM",
+        "Company Name": "GROUP PHARMACEUTICALS LTD."
+    },
+    {
+        "Product Name": "DENSIVE DENTURE ADHESIVE POWDER",
+        "Pack": "15GM",
+        "Company Name": "GROUP PHARMACEUTICALS LTD."
+    },
+    {
+        "Product Name": "ENAFIX PROGEL NATURAL",
+        "Pack": "50GM",
+        "Company Name": "GROUP PHARMACEUTICALS LTD."
+    },
+    {
+        "Product Name": "ENAFIX PROGEL VANILLA",
+        "Pack": "50GM",
+        "Company Name": "GROUP PHARMACEUTICALS LTD."
+    },
+    {
+        "Product Name": "ENAFIX TOOTH PASTE",
+        "Pack": "70GM",
+        "Company Name": "GROUP PHARMACEUTICALS LTD."
+    },
+    {
+        "Product Name": "ETHIASPIRE TODDLER TOOTHPASTE",
+        "Pack": "50GM",
+        "Company Name": "GROUP PHARMACEUTICALS LTD."
+    },
+    {
+        "Product Name": "FRESHCLOR MOUTH WASH 100ML",
+        "Pack": "100ML",
+        "Company Name": "GROUP PHARMACEUTICALS LTD."
+    },
+    {
+        "Product Name": "GLODENT TOOTH PASTE 70GM",
+        "Pack": "70GM",
+        "Company Name": "GROUP PHARMACEUTICALS LTD."
+    },
+    {
+        "Product Name": "GUARD ORAL RINSE 100ML",
+        "Pack": "100ML",
+        "Company Name": "GROUP PHARMACEUTICALS LTD."
+    },
+    {
+        "Product Name": "OMNIDENT GEL 70GM",
+        "Pack": "70GM",
+        "Company Name": "GROUP PHARMACEUTICALS LTD."
+    },
+    {
+        "Product Name": "ORALIFE 250ML SALE",
+        "Pack": "250ML",
+        "Company Name": "GROUP PHARMACEUTICALS LTD."
+    },
+    {
+        "Product Name": "PEDIFLOR 1000 TOOTHPASTE",
+        "Pack": "70GM",
+        "Company Name": "GROUP PHARMACEUTICALS LTD."
+    },
+    {
+        "Product Name": "PEDIFLOR GREEN APPLE PASTE 70GM",
+        "Pack": "70GM",
+        "Company Name": "GROUP PHARMACEUTICALS LTD."
+    },
+    {
+        "Product Name": "PEDIFLOR KIDZ NATURAL ORANGE 70GM",
+        "Pack": "70GM",
+        "Company Name": "GROUP PHARMACEUTICALS LTD."
+    },
+    {
+        "Product Name": "SHY NM TOOTH PASTE 100GM",
+        "Pack": "100GM",
+        "Company Name": "GROUP PHARMACEUTICALS LTD."
+    },
+    {
+        "Product Name": "SHY NM TOOTH PASTE 50GM",
+        "Pack": "50GM",
+        "Company Name": "GROUP PHARMACEUTICALS LTD."
+    },
+    {
+        "Product Name": "SHY -XT TOOTH PASTE 70G",
+        "Pack": "70GM",
+        "Company Name": "GROUP PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "SHINGRIX VACCINE",
@@ -57400,6 +57510,11 @@ const navkarMedicineData = [
         "Company Name": "INTAS PHARMACEUTICALS (VECTOR)"
     },
     {
+        "Product Name": "CARCA CR 10MG TAB 15`S",
+        "Pack": "15TAB",
+        "Company Name": "INTAS PHARMACEUTICALS (VECTOR)"
+    },
+    {
         "Product Name": "CARCA CR 20MG TAB",
         "Pack": "TAB",
         "Company Name": "INTAS PHARMACEUTICALS (VECTOR)"
@@ -57437,6 +57552,11 @@ const navkarMedicineData = [
     {
         "Product Name": "CLAVIX GOLD 20MG CAP",
         "Pack": "15 CAP",
+        "Company Name": "INTAS PHARMACEUTICALS (VECTOR)"
+    },
+    {
+        "Product Name": "CLAVIX GOLD 40 MG TAB",
+        "Pack": "TAB",
         "Company Name": "INTAS PHARMACEUTICALS (VECTOR)"
     },
     {
@@ -58010,18 +58130,8 @@ const navkarMedicineData = [
         "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
-        "Product Name": "CARCA CR 10MG TAB 15`S",
-        "Pack": "15TAB",
-        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
-    },
-    {
         "Product Name": "CELETOIN 100 MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
-    },
-    {
-        "Product Name": "CLAVIX GOLD 40 MG TAB",
-        "Pack": "TAB",
         "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
@@ -59597,6 +59707,11 @@ const navkarMedicineData = [
     {
         "Product Name": "TEL REVELOL 40/50MG TAB",
         "Pack": "TAB",
+        "Company Name": "IPCA HEALTHCARE PVT. LTD."
+    },
+    {
+        "Product Name": "TFCT NIB 60S",
+        "Pack": "60S",
         "Company Name": "IPCA HEALTHCARE PVT. LTD."
     },
     {
@@ -64275,6 +64390,31 @@ const navkarMedicineData = [
         "Company Name": "KEPLER [JOVIA]"
     },
     {
+        "Product Name": "AUTINORM SYRUP 3.",
+        "Pack": "200ML",
+        "Company Name": "KEPLER {VIBRONICA}"
+    },
+    {
+        "Product Name": "HISTAFER SYP",
+        "Pack": "200ML",
+        "Company Name": "KEPLER {VIBRONICA}"
+    },
+    {
+        "Product Name": "IQNORM DHA DROPS",
+        "Pack": "30ML",
+        "Company Name": "KEPLER {VIBRONICA}"
+    },
+    {
+        "Product Name": "IQNORM DHA SYP",
+        "Pack": "200ML",
+        "Company Name": "KEPLER {VIBRONICA}"
+    },
+    {
+        "Product Name": "VIBROCAR JUNIOR SYP",
+        "Pack": "200ML",
+        "Company Name": "KEPLER {VIBRONICA}"
+    },
+    {
         "Product Name": "ADMOL 120 SUSPENSION",
         "Pack": "60 ML",
         "Company Name": "KEPLER HEALTHCARE PVT LTD"
@@ -64455,16 +64595,6 @@ const navkarMedicineData = [
         "Company Name": "KEPLER HEALTHCARE PVT LTD"
     },
     {
-        "Product Name": "HISTAFER SYP",
-        "Pack": "200ML",
-        "Company Name": "KEPLER HEALTHCARE PVT LTD"
-    },
-    {
-        "Product Name": "IQNORM DHA SYP",
-        "Pack": "200ML",
-        "Company Name": "KEPLER HEALTHCARE PVT LTD"
-    },
-    {
         "Product Name": "KEP D SYP",
         "Pack": "100ML",
         "Company Name": "KEPLER HEALTHCARE PVT LTD"
@@ -64635,11 +64765,6 @@ const navkarMedicineData = [
         "Company Name": "KEPLER HEALTHCARE PVT LTD"
     },
     {
-        "Product Name": "VIBROCAR JUNIOR SYP",
-        "Pack": "200ML",
-        "Company Name": "KEPLER HEALTHCARE PVT LTD"
-    },
-    {
         "Product Name": "VOGIPAX 0.2 TAB",
         "Pack": "10 TAB",
         "Company Name": "KEPLER HEALTHCARE PVT LTD"
@@ -64670,11 +64795,6 @@ const navkarMedicineData = [
         "Company Name": "KEPLER HEALTHCARE PVT LTD"
     },
     {
-        "Product Name": "AUTINORM SYRUP 3.",
-        "Pack": "200ML",
-        "Company Name": "KEPLER HEALTHCARE PVT LTD ONYX"
-    },
-    {
         "Product Name": "BEE 12 ACTIVE TAB",
         "Pack": "10TAB",
         "Company Name": "KEPLER HEALTHCARE PVT LTD ONYX"
@@ -64682,11 +64802,6 @@ const navkarMedicineData = [
     {
         "Product Name": "BEE12 AQ INJ",
         "Pack": "1ML",
-        "Company Name": "KEPLER HEALTHCARE PVT LTD ONYX"
-    },
-    {
-        "Product Name": "IQNORM DHA DROPS",
-        "Pack": "30ML",
         "Company Name": "KEPLER HEALTHCARE PVT LTD ONYX"
     },
     {
@@ -71102,6 +71217,11 @@ const navkarMedicineData = [
     {
         "Product Name": "VILFURO 100 CAP",
         "Pack": "10 CAP",
+        "Company Name": "LUPIN (RESPIRA PULMONIS)"
+    },
+    {
+        "Product Name": "VILFURO G 10CAP",
+        "Pack": "10CAP",
         "Company Name": "LUPIN (RESPIRA PULMONIS)"
     },
     {
@@ -79950,7 +80070,7 @@ const navkarMedicineData = [
         "Company Name": "NOBEL GEL 10GM"
     },
     {
-        "Product Name": "NOBEL PLU DS SUSPENSION",
+        "Product Name": "NOBEL PLUS DS SUSPENSION",
         "Pack": "60ML",
         "Company Name": "NOBEL GEL 10GM"
     },
@@ -89987,11 +90107,6 @@ const navkarMedicineData = [
     {
         "Product Name": "MIRABIG S 50 MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "MSN LABORATORIES LTD"
-    },
-    {
-        "Product Name": "REBOPAG 75 MG TAB",
-        "Pack": "7 TAB",
         "Company Name": "MSN LABORATORIES LTD"
     },
     {

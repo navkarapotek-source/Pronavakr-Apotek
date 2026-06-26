@@ -4855,6 +4855,11 @@ const productData = [
         "Company Name": "CIPLA"
     },
     {
+        "Product Name": "CHESTON COLD TAB (WHITE)",
+        "Pack": "1X10T",
+        "Company Name": "CIPLA"
+    },
+    {
         "Product Name": "CHESTON COLD TOTAL TABS",
         "Pack": "1X10T",
         "Company Name": "CIPLA"
@@ -5448,11 +5453,6 @@ const productData = [
         "Product Name": "ZYRIK 300MG TABS",
         "Pack": "1X10T",
         "Company Name": "CIPLA"
-    },
-    {
-        "Product Name": "CHESTON COLD TAB (WHITE)",
-        "Pack": "1X10T",
-        "Company Name": "CIPLA ETHICAL"
     },
     {
         "Product Name": "AMICIP 250MG INJECTION",

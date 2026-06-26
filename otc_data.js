@@ -1390,11 +1390,6 @@ const otcData = [
         "Company Name": "DABUR INDIA LIMITED"
     },
     {
-        "Product Name": "SATAVAREX GRANUELS",
-        "Pack": "250GM",
-        "Company Name": "DABUR INDIA LIMITED"
-    },
-    {
         "Product Name": "STAMINA TAB",
         "Pack": "60TAB",
         "Company Name": "DABUR INDIA LIMITED"
@@ -6957,6 +6952,11 @@ const otcData = [
     {
         "Product Name": "NITYAM TAB [30TAB]",
         "Pack": "30TAB",
+        "Company Name": "ZANDU"
+    },
+    {
+        "Product Name": "SATAVAREX GRANUELS",
+        "Pack": "250GM",
         "Company Name": "ZANDU"
     },
     {
