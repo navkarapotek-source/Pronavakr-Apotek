@@ -6905,7 +6905,7 @@ const navkarMedicineData = [
         "Company Name": "ALEMBIC (ELINA)"
     },
     {
-        "Product Name": "ISOFIT SR 20MG TAB",
+        "Product Name": "ISOFIT SR 20MG",
         "Pack": "10 TAB",
         "Company Name": "ISOFIT 10 MG TAB"
     },
@@ -16626,6 +16626,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "SUGNERVE-M TAB",
+        "Pack": "10TAB",
+        "Company Name": "ARIZMA LIFESCIENCES LLP"
+    },
+    {
+        "Product Name": "SUGNERVE-Q 10 TAB",
         "Pack": "10TAB",
         "Company Name": "ARIZMA LIFESCIENCES LLP"
     },
@@ -30230,7 +30235,7 @@ const navkarMedicineData = [
         "Company Name": "DR REDDYS LAB (RECURA  ACE)"
     },
     {
-        "Product Name": "REELEASE TAB",
+        "Product Name": "RELEASE TAB",
         "Pack": "6'S",
         "Company Name": "DR REDDYS LAB (RECURA  ACE)"
     },
@@ -37920,26 +37925,6 @@ const navkarMedicineData = [
         "Company Name": "ERIS LIFE SCIENCES (INSPIRA)"
     },
     {
-        "Product Name": "JARDIX 10 TAB",
-        "Pack": "10 TAB",
-        "Company Name": "ERIS LIFE SCIENCES (INSPIRA)"
-    },
-    {
-        "Product Name": "JARDIX 25 TAB",
-        "Pack": "10 TAB",
-        "Company Name": "ERIS LIFE SCIENCES (INSPIRA)"
-    },
-    {
-        "Product Name": "JARDIX M 12.5 TAB",
-        "Pack": "10 TAB",
-        "Company Name": "ERIS LIFE SCIENCES (INSPIRA)"
-    },
-    {
-        "Product Name": "JARDIX M FORTE TAB",
-        "Pack": "10 TAB",
-        "Company Name": "ERIS LIFE SCIENCES (INSPIRA)"
-    },
-    {
         "Product Name": "LINARES M 5 TAB",
         "Pack": "10'S",
         "Company Name": "ERIS LIFE SCIENCES (INSPIRA)"
@@ -38861,6 +38846,26 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "GLIMISAVE DM2/500 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ERIS LIFE SCIENCES(ASPIRE)"
+    },
+    {
+        "Product Name": "JARDIX 10 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ERIS LIFE SCIENCES(ASPIRE)"
+    },
+    {
+        "Product Name": "JARDIX 25 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ERIS LIFE SCIENCES(ASPIRE)"
+    },
+    {
+        "Product Name": "JARDIX M 12.5 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ERIS LIFE SCIENCES(ASPIRE)"
+    },
+    {
+        "Product Name": "JARDIX M FORTE TAB",
         "Pack": "10 TAB",
         "Company Name": "ERIS LIFE SCIENCES(ASPIRE)"
     },
@@ -44406,7 +44411,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "AUGMENTIN DUO 625MG TAB",
-        "Pack": "6 TAB",
+        "Pack": "10 TAB",
         "Company Name": "GLAXO SMITHKLINE [PROTEUS]"
     },
     {
@@ -59125,11 +59130,6 @@ const navkarMedicineData = [
         "Company Name": "INUEN HEALTHCARE PRIVATE LIMITED"
     },
     {
-        "Product Name": "INBLOC T 5 TAB",
-        "Pack": "10TAB",
-        "Company Name": "INUEN HEALTHCARE PRIVATE LIMITED"
-    },
-    {
         "Product Name": "INUBLOC 2.5 TAB",
         "Pack": "10TAB",
         "Company Name": "INUEN HEALTHCARE PRIVATE LIMITED"
@@ -67605,11 +67605,6 @@ const navkarMedicineData = [
         "Company Name": "LA RENON LAMBENT APLHA"
     },
     {
-        "Product Name": "TOLVAHIKE 30 TAB",
-        "Pack": "10TAB",
-        "Company Name": "LA RENON LAMBENT APLHA"
-    },
-    {
         "Product Name": "VITQUENCH TAB",
         "Pack": "15TAB",
         "Company Name": "LA RENON LAMBENT APLHA"
@@ -68970,6 +68965,11 @@ const navkarMedicineData = [
         "Company Name": "SOBISIS FORTE 15TAB"
     },
     {
+        "Product Name": "TOLVAHIKE 30 TAB",
+        "Pack": "10TAB",
+        "Company Name": "SOBISIS FORTE 15TAB"
+    },
+    {
         "Product Name": "VALCHEK (DPCO)TAB",
         "Pack": "2 TAB",
         "Company Name": "SOBISIS FORTE 15TAB"
@@ -70020,9 +70020,109 @@ const navkarMedicineData = [
         "Company Name": "LLOYD HEALTHCARE (CARUS)"
     },
     {
+        "Product Name": "CILIDIN 10 MG TAB",
+        "Pack": "15 TAB",
+        "Company Name": "LLOYD HEALTHCARE (TORUS)"
+    },
+    {
+        "Product Name": "CILIDIN 20MG TAB",
+        "Pack": "TAB",
+        "Company Name": "LLOYD HEALTHCARE (TORUS)"
+    },
+    {
+        "Product Name": "CILIDIN 5 MG TAB",
+        "Pack": "15S",
+        "Company Name": "LLOYD HEALTHCARE (TORUS)"
+    },
+    {
+        "Product Name": "CILIDIN CH TAB",
+        "Pack": "15S",
+        "Company Name": "LLOYD HEALTHCARE (TORUS)"
+    },
+    {
+        "Product Name": "CILIDIN M TAB",
+        "Pack": "15 TAB",
+        "Company Name": "LLOYD HEALTHCARE (TORUS)"
+    },
+    {
+        "Product Name": "CILIDIN O20",
+        "Pack": "15S",
+        "Company Name": "LLOYD HEALTHCARE (TORUS)"
+    },
+    {
+        "Product Name": "CILIDIN O40",
+        "Pack": "10S",
+        "Company Name": "LLOYD HEALTHCARE (TORUS)"
+    },
+    {
+        "Product Name": "CILIDIN T TAB",
+        "Pack": "15 TAB",
+        "Company Name": "LLOYD HEALTHCARE (TORUS)"
+    },
+    {
+        "Product Name": "CILIDIN TCH TAB",
+        "Pack": "10 TAB",
+        "Company Name": "LLOYD HEALTHCARE (TORUS)"
+    },
+    {
+        "Product Name": "CILIDIN TM 25 TAB",
+        "Pack": "15 TAB",
+        "Company Name": "LLOYD HEALTHCARE (TORUS)"
+    },
+    {
+        "Product Name": "CILIDIN TM 50 TAB",
+        "Pack": "15 TAB",
+        "Company Name": "LLOYD HEALTHCARE (TORUS)"
+    },
+    {
+        "Product Name": "CILIDIN TRIO TAB",
+        "Pack": "TAB",
+        "Company Name": "LLOYD HEALTHCARE (TORUS)"
+    },
+    {
+        "Product Name": "VILDARAY 50MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "LLOYD HEALTHCARE (TORUS)"
+    },
+    {
+        "Product Name": "VILDARAY D 10 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "LLOYD HEALTHCARE (TORUS)"
+    },
+    {
         "Product Name": "VILDARAY M FORTE",
         "Pack": "15S",
-        "Company Name": "LLOYD HEALTHCARE (CARUS)"
+        "Company Name": "LLOYD HEALTHCARE (TORUS)"
+    },
+    {
+        "Product Name": "VILDARAY M OD",
+        "Pack": "TAB",
+        "Company Name": "LLOYD HEALTHCARE (TORUS)"
+    },
+    {
+        "Product Name": "VILDARAY M PLUS",
+        "Pack": "15S",
+        "Company Name": "LLOYD HEALTHCARE (TORUS)"
+    },
+    {
+        "Product Name": "VILDARAY M SR",
+        "Pack": "15S",
+        "Company Name": "LLOYD HEALTHCARE (TORUS)"
+    },
+    {
+        "Product Name": "VILDARAY M TAB",
+        "Pack": "TAB",
+        "Company Name": "LLOYD HEALTHCARE (TORUS)"
+    },
+    {
+        "Product Name": "VILDARAY SR 100 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "LLOYD HEALTHCARE (TORUS)"
+    },
+    {
+        "Product Name": "VILDARAY SR 50 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "LLOYD HEALTHCARE (TORUS)"
     },
     {
         "Product Name": "LINARAY 5 MG TAB",
@@ -70505,66 +70605,6 @@ const navkarMedicineData = [
         "Company Name": "LLOYDS HEALTHCARE"
     },
     {
-        "Product Name": "CILIDIN 10 MG TAB",
-        "Pack": "15 TAB",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "CILIDIN 20MG TAB",
-        "Pack": "TAB",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "CILIDIN 5 MG TAB",
-        "Pack": "15S",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "CILIDIN CH TAB",
-        "Pack": "15S",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "CILIDIN M TAB",
-        "Pack": "15 TAB",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "CILIDIN O20",
-        "Pack": "15S",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "CILIDIN O40",
-        "Pack": "10S",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "CILIDIN T TAB",
-        "Pack": "15 TAB",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "CILIDIN TCH TAB",
-        "Pack": "10 TAB",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "CILIDIN TM 25 TAB",
-        "Pack": "15 TAB",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "CILIDIN TM 50 TAB",
-        "Pack": "15 TAB",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "CILIDIN TRIO TAB",
-        "Pack": "TAB",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
         "Product Name": "CLOYD 75MG TAB",
         "Pack": "15 TAB",
         "Company Name": "LLOYDS HEALTHCARE"
@@ -70872,46 +70912,6 @@ const navkarMedicineData = [
     {
         "Product Name": "TICALOY 90 TAB",
         "Pack": "10TAB",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "VILDARAY 50MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "VILDARAY D 10 TAB",
-        "Pack": "10 TAB",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "VILDARAY M OD",
-        "Pack": "TAB",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "VILDARAY M PLUS",
-        "Pack": "15S",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "VILDARAY M SR",
-        "Pack": "15S",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "VILDARAY M TAB",
-        "Pack": "TAB",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "VILDARAY SR 100 TAB",
-        "Pack": "10 TAB",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "VILDARAY SR 50 MG TAB",
-        "Pack": "10 TAB",
         "Company Name": "LLOYDS HEALTHCARE"
     },
     {
@@ -73170,6 +73170,11 @@ const navkarMedicineData = [
         "Company Name": "LUPIN NEW NEXTRA"
     },
     {
+        "Product Name": "BEPLEX [FORTE] TAB",
+        "Pack": "20TAB",
+        "Company Name": "LUPIN NEW NEXTRA"
+    },
+    {
         "Product Name": "BEPLEX FORTE MONO 11ML INJ",
         "Pack": "1VAIL",
         "Company Name": "LUPIN NEW NEXTRA"
@@ -74242,11 +74247,6 @@ const navkarMedicineData = [
     {
         "Product Name": "AKT 4 KIT",
         "Pack": "TAB",
-        "Company Name": "LUPIN PHARMA (PHARMA)"
-    },
-    {
-        "Product Name": "BEPLEX [FORTE] TAB",
-        "Pack": "20TAB",
         "Company Name": "LUPIN PHARMA (PHARMA)"
     },
     {
@@ -94745,74 +94745,379 @@ const navkarMedicineData = [
         "Company Name": "PINION HELATHCARE"
     },
     {
+        "Product Name": "CALADRYL LOTION [125ML]",
+        "Pack": "125 ML",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "CALADRYL LOTION [65ML]",
+        "Pack": "65 ML",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
         "Product Name": "CHANDRIKA SOAP",
         "Pack": "75GM",
-        "Company Name": "PIRAMAL HEALTHCARE (CONSUMER)"
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
     },
     {
         "Product Name": "CIR CLASIC DIAP [L10]450",
         "Pack": "10PIS",
-        "Company Name": "PIRAMAL HEALTHCARE (CONSUMER)"
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
     },
     {
         "Product Name": "CIR CLASIC DIAP [XL10]475",
         "Pack": "10PIS",
-        "Company Name": "PIRAMAL HEALTHCARE (CONSUMER)"
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
     },
     {
         "Product Name": "CIR DIAP PANTS [M]10",
         "Pack": "10PIC",
-        "Company Name": "PIRAMAL HEALTHCARE (CONSUMER)"
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "DIGEPLEX [T] TAB",
+        "Pack": "10TAB",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
     },
     {
         "Product Name": "DIGEPLEX SYP 100ML",
         "Pack": "100ML",
-        "Company Name": "PIRAMAL HEALTHCARE (CONSUMER)"
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "DIGEPLEX SYP 200ML",
+        "Pack": "200ML",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "I ACTIV MENSTRUAL CUP LARGE",
+        "Pack": "1CUP",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "I ACTIV MENSTRUAL CUP MEDIUM",
+        "Pack": "1CUP",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "I ACTIV MENSTRUAL CUP SMALL",
+        "Pack": "1CUP",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
     },
     {
         "Product Name": "I CAN PREGNANCY TEST KIT",
         "Pack": "KIT",
-        "Company Name": "PIRAMAL HEALTHCARE (CONSUMER)"
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "I KNOW PH KIT",
+        "Pack": "1KIT",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "I PILL TAB",
+        "Pack": "36'S",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
     },
     {
         "Product Name": "I-CAN TAB",
         "Pack": "1 TESTKIT",
-        "Company Name": "PIRAMAL HEALTHCARE (CONSUMER)"
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
     },
     {
         "Product Name": "L BABY WIPES [RS.99]",
         "Pack": "72PC",
-        "Company Name": "PIRAMAL HEALTHCARE (CONSUMER)"
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LACTO CALAMINE [GREEN]",
+        "Pack": "115 ML",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LACTO CALAMINE [GREEN]",
+        "Pack": "55ML",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LACTO CALAMINE [GREEN] 30ML",
+        "Pack": "30 ML",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LACTO CALAMINE [PURPLE]",
+        "Pack": "55 ML",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LACTO CALAMINE [PURPLE] 120ML",
+        "Pack": "120 ML",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LACTO CALAMINE [PURPLE] 30ML",
+        "Pack": "30 ML",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LACTO CALAMINE [SPF30]",
+        "Pack": "50GM",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LACTO CALAMINE [SPF50]",
+        "Pack": "50 GM",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LACTO CALAMINE F/W KAOLIN",
+        "Pack": "50ML",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LACTO CALAMINE F/W VITAMIN C",
+        "Pack": "50ML",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
     },
     {
         "Product Name": "LACTO CALAMINE OIL SKIN LOTION",
         "Pack": "30ML",
-        "Company Name": "PIRAMAL HEALTHCARE (CONSUMER)"
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LACTO CALAMINE OILY SKIN LOTION 115ML",
+        "Pack": "115ML",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
     },
     {
         "Product Name": "LACTO CALAMINE OILY SKIN LOTION 60ML",
         "Pack": "60ML",
-        "Company Name": "PIRAMAL HEALTHCARE (CONSUMER)"
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
     },
     {
         "Product Name": "LACTO CALAMINE WIPES",
         "Pack": "25'S",
-        "Company Name": "PIRAMAL HEALTHCARE (CONSUMER)"
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE BABY WIPES [30'S]",
+        "Pack": "30'S",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE BABY WIPES [72`S]",
+        "Pack": "72`S",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE DIAPER [M9] RS.95",
+        "Pack": "1PACK",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE DIAPERS [L8] RS.95",
+        "Pack": "1PACK",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE PANT [L1] RS.10",
+        "Pack": "1 PACK",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE PANT [L30] RS.399",
+        "Pack": "1 PACK",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE PANT [L4] RS.50",
+        "Pack": "1 PACK",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE PANT [M1] RS.11",
+        "Pack": "1 PACK",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE PANT [M34]RS.399",
+        "Pack": "1 PACK",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE PANT [NB1] RS.9",
+        "Pack": "1PACK",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE PANT [NB11] RS.99",
+        "Pack": "1 PACK",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE PANT [S1] RS.10",
+        "Pack": "1 PACK",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE PANT [S10] RS.95",
+        "Pack": "1 PACK",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE PANT [S4]",
+        "Pack": "1 PACK",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE PANT [S40] RS.399",
+        "Pack": "1 PACK",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE PANT [XL1] RS.15",
+        "Pack": "1 PACK",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE PANT [XL26] RS.399",
+        "Pack": "1 PACK",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE PANT [XL4] RS.58",
+        "Pack": "1 PACK",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE PANT [XL7] RS.95",
+        "Pack": "1 PACK",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE PANT [XXL48] RS.1149",
+        "Pack": "PACK1",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE PANTS [L62] RS.1149",
+        "Pack": "PACK 1",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE PANTS [M72] RS.1149",
+        "Pack": "M72",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE PANTS [S78] RS.1149",
+        "Pack": "PACK1",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE PANTS [XL54] RS.1149",
+        "Pack": "PACK1",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE WIPES LID 80 WIPES",
+        "Pack": "2PACK",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE'S FEDDING BOTTLE [MINI]",
+        "Pack": "1PIS",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE'S FEEDING BOTTLE [MAXI]",
+        "Pack": "1PIS",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLES PANTS [M4]",
+        "Pack": "1 PACK",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLES PANTS [NB1] RS.9",
+        "Pack": "PACK1",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLES PANTS [NB11] RS.95",
+        "Pack": "PACK1",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE'S SILICONE NIPPLE",
+        "Pack": "1PACK",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
     },
     {
         "Product Name": "NATUROLAX-A POWDER [110GM]",
         "Pack": "110 GM",
-        "Company Name": "PIRAMAL HEALTHCARE (CONSUMER)"
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
     },
     {
         "Product Name": "NATUROLAX-A POWDER [300GM]",
         "Pack": "300GM",
-        "Company Name": "PIRAMAL HEALTHCARE (CONSUMER)"
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "NEKO BOUQUET SOAP 75 GM",
+        "Pack": "75 GM",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "NEKO DAILY HYGIENE SOAP 100 G",
+        "Pack": "100GM",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
     },
     {
         "Product Name": "NEKO SOAP 100GM",
         "Pack": "100GM",
-        "Company Name": "PIRAMAL HEALTHCARE (CONSUMER)"
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "SLOAN SPRAY",
+        "Pack": "55GM",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "SLOANS BALM [10GM]",
+        "Pack": "10GM",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "SLOANS BALM [20GM]",
+        "Pack": "20GM",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "SLOANS LINIMENT",
+        "Pack": "71ML",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "TETMOSOL POWDER",
+        "Pack": "150 GM",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "TETMOSOL POWDER [100GM]",
+        "Pack": "100GM",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "TETMOSOL SOAP [100GM]",
+        "Pack": "100GM",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "TETMOSOL SOAP [60GM]",
+        "Pack": "60GM",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
     },
     {
         "Product Name": "ALASPAN [AG] SYR",
@@ -94870,11 +95175,6 @@ const navkarMedicineData = [
         "Company Name": "PIRAMAL HEALTHCARE -TRISHUL"
     },
     {
-        "Product Name": "LITTLE PANTS [L62] RS.1149",
-        "Pack": "PACK 1",
-        "Company Name": "PIRAMAL HEALTHCARE -TRISHUL"
-    },
-    {
         "Product Name": "LUCIARA CREAM 50G",
         "Pack": "50GM",
         "Company Name": "PIRAMAL HEALTHCARE -TRISHUL"
@@ -94898,16 +95198,6 @@ const navkarMedicineData = [
         "Product Name": "SUPRADYN TAB",
         "Pack": "15 TAB",
         "Company Name": "SARIDON TAB"
-    },
-    {
-        "Product Name": "CALADRYL LOTION [125ML]",
-        "Pack": "125 ML",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "CALADRYL LOTION [65ML]",
-        "Pack": "65 ML",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
     },
     {
         "Product Name": "CANESTEN POWDER",
@@ -94980,303 +95270,13 @@ const navkarMedicineData = [
         "Company Name": "PIRAMAL PHARMA LIMITED"
     },
     {
-        "Product Name": "DIGEPLEX [T] TAB",
-        "Pack": "10TAB",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "DIGEPLEX SYP 200ML",
-        "Pack": "200ML",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
         "Product Name": "GV BOLTS FLOWWRAP ORANGE 18G",
         "Pack": "18G",
         "Company Name": "PIRAMAL PHARMA LIMITED"
     },
     {
-        "Product Name": "I ACTIV MENSTRUAL CUP LARGE",
-        "Pack": "1CUP",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "I ACTIV MENSTRUAL CUP MEDIUM",
-        "Pack": "1CUP",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "I ACTIV MENSTRUAL CUP SMALL",
-        "Pack": "1CUP",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "I KNOW PH KIT",
-        "Pack": "1KIT",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "I PILL TAB",
-        "Pack": "36'S",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LACTO CALAMINE [GREEN]",
-        "Pack": "115 ML",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LACTO CALAMINE [GREEN]",
-        "Pack": "55ML",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LACTO CALAMINE [GREEN] 30ML",
-        "Pack": "30 ML",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LACTO CALAMINE [PURPLE]",
-        "Pack": "55 ML",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LACTO CALAMINE [PURPLE] 120ML",
-        "Pack": "120 ML",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LACTO CALAMINE [PURPLE] 30ML",
-        "Pack": "30 ML",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LACTO CALAMINE [SPF30]",
-        "Pack": "50GM",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LACTO CALAMINE [SPF50]",
-        "Pack": "50 GM",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LACTO CALAMINE F/W KAOLIN",
-        "Pack": "50ML",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LACTO CALAMINE F/W VITAMIN C",
-        "Pack": "50ML",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LACTO CALAMINE OILY SKIN LOTION 115ML",
-        "Pack": "115ML",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE BABY WIPES [30'S]",
-        "Pack": "30'S",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE BABY WIPES [72`S]",
-        "Pack": "72`S",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE DIAPER [M9] RS.95",
-        "Pack": "1PACK",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE DIAPERS [L8] RS.95",
-        "Pack": "1PACK",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE PANT [L1] RS.10",
-        "Pack": "1 PACK",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE PANT [L30] RS.399",
-        "Pack": "1 PACK",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE PANT [L4] RS.50",
-        "Pack": "1 PACK",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE PANT [M1] RS.11",
-        "Pack": "1 PACK",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE PANT [M34]RS.399",
-        "Pack": "1 PACK",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE PANT [NB1] RS.9",
-        "Pack": "1PACK",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE PANT [NB11] RS.99",
-        "Pack": "1 PACK",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE PANT [S1] RS.10",
-        "Pack": "1 PACK",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE PANT [S10] RS.95",
-        "Pack": "1 PACK",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE PANT [S4]",
-        "Pack": "1 PACK",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE PANT [S40] RS.399",
-        "Pack": "1 PACK",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE PANT [XL1] RS.15",
-        "Pack": "1 PACK",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE PANT [XL26] RS.399",
-        "Pack": "1 PACK",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE PANT [XL4] RS.58",
-        "Pack": "1 PACK",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE PANT [XL7] RS.95",
-        "Pack": "1 PACK",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE PANT [XXL48] RS.1149",
-        "Pack": "PACK1",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE PANTS [M72] RS.1149",
-        "Pack": "M72",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE PANTS [S78] RS.1149",
-        "Pack": "PACK1",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE PANTS [XL54] RS.1149",
-        "Pack": "PACK1",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE WIPES LID 80 WIPES",
-        "Pack": "2PACK",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE'S FEDDING BOTTLE [MINI]",
-        "Pack": "1PIS",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE'S FEEDING BOTTLE [MAXI]",
-        "Pack": "1PIS",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLES PANTS [M4]",
-        "Pack": "1 PACK",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLES PANTS [NB1] RS.9",
-        "Pack": "PACK1",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLES PANTS [NB11] RS.95",
-        "Pack": "PACK1",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE'S SILICONE NIPPLE",
-        "Pack": "1PACK",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "NEKO BOUQUET SOAP 75 GM",
-        "Pack": "75 GM",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "NEKO DAILY HYGIENE SOAP 100 G",
-        "Pack": "100GM",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
         "Product Name": "QUIK KOOL MOUTH ULCER GEL",
         "Pack": "10GM",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "SLOAN SPRAY",
-        "Pack": "55GM",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "SLOANS BALM [10GM]",
-        "Pack": "10GM",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "SLOANS BALM [20GM]",
-        "Pack": "20GM",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "SLOANS LINIMENT",
-        "Pack": "71ML",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "TETMOSOL POWDER",
-        "Pack": "150 GM",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "TETMOSOL POWDER [100GM]",
-        "Pack": "100GM",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "TETMOSOL SOAP [100GM]",
-        "Pack": "100GM",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "TETMOSOL SOAP [60GM]",
-        "Pack": "60GM",
         "Company Name": "PIRAMAL PHARMA LIMITED"
     },
     {
@@ -110885,6 +110885,11 @@ const navkarMedicineData = [
         "Company Name": "PRUVICT 1MG TAB"
     },
     {
+        "Product Name": "UPADACOL 45 TAB",
+        "Pack": "10TAB",
+        "Company Name": "PRUVICT 1MG TAB"
+    },
+    {
         "Product Name": "URSETOR 150MG TAB",
         "Pack": "10 TAB",
         "Company Name": "PRUVICT 1MG TAB"
@@ -113357,11 +113362,6 @@ const navkarMedicineData = [
     {
         "Product Name": "UNIENZYME XT 15 TAB",
         "Pack": "TAB",
-        "Company Name": "TORRENT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "UPADACOL 45 TAB",
-        "Pack": "10TAB",
         "Company Name": "TORRENT PHARMACEUTICALS LTD"
     },
     {
@@ -116532,11 +116532,6 @@ const navkarMedicineData = [
     {
         "Product Name": "VICCO NARAYANI CREAM 30GM",
         "Pack": "30GM",
-        "Company Name": "VICCO LABORATORIES"
-    },
-    {
-        "Product Name": "VICCO PASTE 100 GM",
-        "Pack": "100 GM",
         "Company Name": "VICCO LABORATORIES"
     },
     {

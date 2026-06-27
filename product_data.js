@@ -6040,11 +6040,6 @@ const productData = [
         "Company Name": "CIPLA RETAIL"
     },
     {
-        "Product Name": "VITOMIN-D3 DROPS",
-        "Pack": "1X30ML",
-        "Company Name": "CIPLA RETAIL"
-    },
-    {
         "Product Name": "ALERGIN -L TABS",
         "Pack": "1X10T",
         "Company Name": "CIPLA VITAL CARE"
@@ -6387,6 +6382,11 @@ const productData = [
     {
         "Product Name": "VITOMIN D3 SACHETS",
         "Pack": "1X1GM",
+        "Company Name": "CIPLA VITAL CARE"
+    },
+    {
+        "Product Name": "VITOMIN-D3 DROPS",
+        "Pack": "1X30ML",
         "Company Name": "CIPLA VITAL CARE"
     },
     {
@@ -25283,6 +25283,11 @@ const productData = [
         "Product Name": "WELL BUDS PAPER STICK POUCH",
         "Pack": "100PCS",
         "Company Name": "SHREE SWAMI SAMARTH AGENCIES"
+    },
+    {
+        "Product Name": "GIFT ARTICLES",
+        "Pack": "1",
+        "Company Name": "SHRIRAMA STORES YELLAPUR"
     },
     {
         "Product Name": "ACECREST SP15 TAB",
