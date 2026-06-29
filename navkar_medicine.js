@@ -4205,6 +4205,11 @@ const navkarMedicineData = [
         "Company Name": "AJANTA PHARMA (NUVENTA)"
     },
     {
+        "Product Name": "CINOD T 10/80MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "AJANTA PHARMA (NUVENTA)"
+    },
+    {
         "Product Name": "CINOD T 20MG TAB 15``S",
         "Pack": "15 TAB",
         "Company Name": "AJANTA PHARMA (NUVENTA)"
@@ -4717,11 +4722,6 @@ const navkarMedicineData = [
     {
         "Product Name": "AZUSA T TAB 16/40MG",
         "Pack": "BL",
-        "Company Name": "AJANTA PHARMA LIMITED"
-    },
-    {
-        "Product Name": "CINOD T 10/80MG TAB",
-        "Pack": "10TAB",
         "Company Name": "AJANTA PHARMA LIMITED"
     },
     {
@@ -22036,7 +22036,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "NICOTEX GUM 4MG  MINT PLUS",
-        "Pack": "9 CAP",
+        "Pack": "15 CAP",
         "Company Name": "CIPLA HEALTH"
     },
     {
@@ -62255,6 +62255,21 @@ const navkarMedicineData = [
         "Company Name": "J.B. CHEMICALS"
     },
     {
+        "Product Name": "AZMARDA 100MG TAB",
+        "Pack": "14 TAB",
+        "Company Name": "J.B. PHARMA IIVA"
+    },
+    {
+        "Product Name": "AZMARDA 200MG TAB",
+        "Pack": "7TAB",
+        "Company Name": "J.B. PHARMA IIVA"
+    },
+    {
+        "Product Name": "AZMARDA 50MG TAB",
+        "Pack": "14TAB",
+        "Company Name": "J.B. PHARMA IIVA"
+    },
+    {
         "Product Name": "AZOVAS 16MG TAB",
         "Pack": "10TAB",
         "Company Name": "J.B. PHARMA IIVA"
@@ -62445,6 +62460,21 @@ const navkarMedicineData = [
         "Company Name": "J.B. PHARMA IIVA"
     },
     {
+        "Product Name": "RAZEL EZ 10MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "J.B. PHARMA IIVA"
+    },
+    {
+        "Product Name": "RAZEL EZ 20 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "J.B. PHARMA IIVA"
+    },
+    {
+        "Product Name": "RAZEL EZ 40 TAB",
+        "Pack": "TAB",
+        "Company Name": "J.B. PHARMA IIVA"
+    },
+    {
         "Product Name": "RAZEL F + 20 TAB",
         "Pack": "15 TAB",
         "Company Name": "J.B. PHARMA IIVA"
@@ -62467,6 +62497,26 @@ const navkarMedicineData = [
     {
         "Product Name": "RAZEL F LS 5MG TAB",
         "Pack": "15TAB",
+        "Company Name": "J.B. PHARMA IIVA"
+    },
+    {
+        "Product Name": "RAZEL GOLD 10MG CAP",
+        "Pack": "15CAP",
+        "Company Name": "J.B. PHARMA IIVA"
+    },
+    {
+        "Product Name": "RAZEL GOLD 20MG CAP",
+        "Pack": "15CAP",
+        "Company Name": "J.B. PHARMA IIVA"
+    },
+    {
+        "Product Name": "SENZICOOL MAX MEN SF 20 MG",
+        "Pack": "8TAB",
+        "Company Name": "J.B. PHARMA IIVA"
+    },
+    {
+        "Product Name": "SITACOSE M 50/500 TAB",
+        "Pack": "10 TAB",
         "Company Name": "J.B. PHARMA IIVA"
     },
     {
@@ -62638,56 +62688,6 @@ const navkarMedicineData = [
         "Product Name": "SPORLAC DG TAB",
         "Pack": "10 TAB",
         "Company Name": "J.B.CHEMICALS (YUVA)"
-    },
-    {
-        "Product Name": "AZMARDA 100MG TAB",
-        "Pack": "14 TAB",
-        "Company Name": "J.B.CHEMICALS VIVA (HF)"
-    },
-    {
-        "Product Name": "AZMARDA 200MG TAB",
-        "Pack": "7TAB",
-        "Company Name": "J.B.CHEMICALS VIVA (HF)"
-    },
-    {
-        "Product Name": "AZMARDA 50MG TAB",
-        "Pack": "14TAB",
-        "Company Name": "J.B.CHEMICALS VIVA (HF)"
-    },
-    {
-        "Product Name": "RAZEL EZ 10MG TAB",
-        "Pack": "10TAB",
-        "Company Name": "J.B.CHEMICALS VIVA (HF)"
-    },
-    {
-        "Product Name": "RAZEL EZ 20 TAB",
-        "Pack": "10 TAB",
-        "Company Name": "J.B.CHEMICALS VIVA (HF)"
-    },
-    {
-        "Product Name": "RAZEL EZ 40 TAB",
-        "Pack": "TAB",
-        "Company Name": "J.B.CHEMICALS VIVA (HF)"
-    },
-    {
-        "Product Name": "RAZEL GOLD 10MG CAP",
-        "Pack": "15CAP",
-        "Company Name": "J.B.CHEMICALS VIVA (HF)"
-    },
-    {
-        "Product Name": "RAZEL GOLD 20MG CAP",
-        "Pack": "15CAP",
-        "Company Name": "J.B.CHEMICALS VIVA (HF)"
-    },
-    {
-        "Product Name": "SENZICOOL MAX MEN SF 20 MG",
-        "Pack": "8TAB",
-        "Company Name": "J.B.CHEMICALS VIVA (HF)"
-    },
-    {
-        "Product Name": "SITACOSE M 50/500 TAB",
-        "Pack": "10 TAB",
-        "Company Name": "J.B.CHEMICALS VIVA (HF)"
     },
     {
         "Product Name": "BISOTAB 2.5MG TAB",
@@ -74197,6 +74197,11 @@ const navkarMedicineData = [
     {
         "Product Name": "LUPASE 10000IU TAB",
         "Pack": "TAB",
+        "Company Name": "LUPIN PHARMA (MAXTER)"
+    },
+    {
+        "Product Name": "LUPIRAFT",
+        "Pack": "200ML",
         "Company Name": "LUPIN PHARMA (MAXTER)"
     },
     {
@@ -88571,7 +88576,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "WELLMAN TAB",
-        "Pack": "10TAB",
+        "Pack": "30 TAB",
         "Company Name": "MEYER VITABIOTICS"
     },
     {
@@ -88581,7 +88586,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "WELLWOMAN CAP 2*15 CAP",
-        "Pack": "2*15 CAP",
+        "Pack": "30 CAP",
         "Company Name": "MEYER VITABIOTICS"
     },
     {
@@ -92385,6 +92390,11 @@ const navkarMedicineData = [
         "Company Name": "OTHERS"
     },
     {
+        "Product Name": "DET 50 ML",
+        "Pack": "50 ML",
+        "Company Name": "OTHERS"
+    },
+    {
         "Product Name": "FLAMONIL OIL 50 ML",
         "Pack": "50 ML",
         "Company Name": "OTHERS"
@@ -92880,7 +92890,7 @@ const navkarMedicineData = [
         "Company Name": "OZONE PHARMACEUTICALS LTD(BAJAJ)"
     },
     {
-        "Product Name": "CEFILAB 200 TAB",
+        "Product Name": "CEFILAB DT 200 TAB",
         "Pack": "TAB",
         "Company Name": "OZONE PHARMACEUTICALS LTD(BAJAJ)"
     },
@@ -94555,7 +94565,7 @@ const navkarMedicineData = [
         "Company Name": "PINION HELATHCARE"
     },
     {
-        "Product Name": "CITRAMIN  T TAB",
+        "Product Name": "CITRAMIN TAB",
         "Pack": "15 T",
         "Company Name": "PINION HELATHCARE"
     },
@@ -97957,11 +97967,6 @@ const navkarMedicineData = [
     {
         "Product Name": "HOVITE L SYP",
         "Pack": "120ML",
-        "Company Name": "RAPTAKOS BRETT & COMPANY LTD (EIDIKOS)"
-    },
-    {
-        "Product Name": "LACTODEX 1 POWDER 450 GM",
-        "Pack": "450 GM",
         "Company Name": "RAPTAKOS BRETT & COMPANY LTD (EIDIKOS)"
     },
     {
@@ -111640,6 +111645,11 @@ const navkarMedicineData = [
         "Company Name": "TORRENT PHARMA (SPARSH)"
     },
     {
+        "Product Name": "AHAGLOW ADVANCED FACE WASH",
+        "Pack": "100GM",
+        "Company Name": "TORRENT PHARMA (SPARSH)"
+    },
+    {
         "Product Name": "AHAGLOW ADVANCED FACE WASH 50GM",
         "Pack": "50GM",
         "Company Name": "TORRENT PHARMA (SPARSH)"
@@ -112902,11 +112912,6 @@ const navkarMedicineData = [
     {
         "Product Name": "AHAGLOW AC ACNECONTROAL MOIS GEL",
         "Pack": "50GM",
-        "Company Name": "TORRENT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "AHAGLOW ADVANCED FACE WASH",
-        "Pack": "100GM",
         "Company Name": "TORRENT PHARMACEUTICALS LTD"
     },
     {

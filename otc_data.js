@@ -1295,16 +1295,6 @@ const otcData = [
         "Company Name": "DABUR INDIA LIMITED"
     },
     {
-        "Product Name": "JAMBAVASAVA SYP [500ML]",
-        "Pack": "500ML",
-        "Company Name": "DABUR INDIA LIMITED"
-    },
-    {
-        "Product Name": "JAMBVASAV SYR [250ML]",
-        "Pack": "250 ML",
-        "Company Name": "DABUR INDIA LIMITED"
-    },
-    {
         "Product Name": "JIVAN MIXTURE SYP 60ML",
         "Pack": "60ML",
         "Company Name": "DABUR INDIA LIMITED"
@@ -2197,6 +2187,16 @@ const otcData = [
     {
         "Product Name": "IODEX ULTRA GEL [15GM]",
         "Pack": "15GM",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "JAMBAVASAVA SYP [500ML]",
+        "Pack": "500ML",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "JAMBVASAV SYR [250ML]",
+        "Pack": "250 ML",
         "Company Name": "GENERAL...A"
     },
     {
