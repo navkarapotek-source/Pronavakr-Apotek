@@ -7335,6 +7335,11 @@ const productData = [
         "Company Name": "ELDER PHARMACEUTICALS LTD"
     },
     {
+        "Product Name": "ELCOVIT SG CAP",
+        "Pack": "10CAP",
+        "Company Name": "ELDER PHARMACEUTICALS LTD"
+    },
+    {
         "Product Name": "ELCUBIDER 50 TAB",
         "Pack": "1*14TAB",
         "Company Name": "ELDER PHARMACEUTICALS LTD"
@@ -7622,6 +7627,11 @@ const productData = [
     {
         "Product Name": "RABIDER-DSR CAP",
         "Pack": "1X10CAP",
+        "Company Name": "ELDER PHARMACEUTICALS LTD"
+    },
+    {
+        "Product Name": "RABIZENA DSR CAP",
+        "Pack": "10CAP",
         "Company Name": "ELDER PHARMACEUTICALS LTD"
     },
     {
@@ -8745,6 +8755,11 @@ const productData = [
         "Company Name": "EUROCARE"
     },
     {
+        "Product Name": "MUPIDAC OINT",
+        "Pack": "5GM",
+        "Company Name": "EUROCARE"
+    },
+    {
         "Product Name": "NORCARE-TZ TABS",
         "Pack": "1X10T",
         "Company Name": "EUROCARE"
@@ -9635,6 +9650,11 @@ const productData = [
         "Company Name": "GENERAL COMPANIES"
     },
     {
+        "Product Name": "DANISH ZVTS CAP",
+        "Pack": "15CAP",
+        "Company Name": "GENERAL COMPANIES"
+    },
+    {
         "Product Name": "DICLO PLUS TABS",
         "Pack": "1X10T",
         "Company Name": "GENERAL COMPANIES"
@@ -10048,6 +10068,11 @@ const productData = [
         "Product Name": "COFSILS COUGH DROPS [205+5 FREE]",
         "Pack": "1JAR",
         "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "SANITIZER 100ML",
+        "Pack": "100ML",
+        "Company Name": "GENERICS"
     },
     {
         "Product Name": "AUGMED 375MG TABS",
@@ -15977,6 +16002,11 @@ const productData = [
     {
         "Product Name": "CANDY(CHOC)ULTRATHIN CONDOM",
         "Pack": "3PC",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "CANDY(CHOC)ULTRATHIN CONDOM 10PC",
+        "Pack": "10PC",
         "Company Name": "LABORATE AQUA LAB"
     },
     {
@@ -30472,6 +30502,16 @@ const productData = [
     {
         "Product Name": "TORMOXIN CLAV SRYRUP 228.5MG",
         "Pack": "1X30ML",
+        "Company Name": "TORRENT PHARMA(ETHICAL)"
+    },
+    {
+        "Product Name": "TORRENT HAND POUCH",
+        "Pack": "PC",
+        "Company Name": "TORRENT PHARMA(ETHICAL)"
+    },
+    {
+        "Product Name": "TORRENT MOBILE STAND METAL",
+        "Pack": "PC",
         "Company Name": "TORRENT PHARMA(ETHICAL)"
     },
     {

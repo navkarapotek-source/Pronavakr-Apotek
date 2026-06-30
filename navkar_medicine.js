@@ -3160,11 +3160,6 @@ const navkarMedicineData = [
         "Company Name": "AJANTA PHARMA (ALMIRON)"
     },
     {
-        "Product Name": "SITAMAX M 20/500 TAB",
-        "Pack": "10'S",
-        "Company Name": "AJANTA PHARMA (ALMIRON)"
-    },
-    {
         "Product Name": "TALIMUS 0.1% 5 GM CREAM",
         "Pack": "5 GM",
         "Company Name": "AJANTA PHARMA (ALMIRON)"
@@ -3870,6 +3865,11 @@ const navkarMedicineData = [
         "Company Name": "AJANTA PHARMA (INOVIO)"
     },
     {
+        "Product Name": "SITAMAX M 20/500 TAB",
+        "Pack": "10'S",
+        "Company Name": "AJANTA PHARMA (INOVIO)"
+    },
+    {
         "Product Name": "SITAMAX M 50/1000 TAB",
         "Pack": "10 TAB",
         "Company Name": "AJANTA PHARMA (INOVIO)"
@@ -3900,13 +3900,13 @@ const navkarMedicineData = [
         "Company Name": "AJANTA PHARMA (INOVIO)"
     },
     {
-        "Product Name": "VOLGA R 0.3/1MG TAB",
-        "Pack": "15 TAB",
+        "Product Name": "VOLGA R 0.3/0.5 MG TAB",
+        "Pack": "TAB",
         "Company Name": "AJANTA PHARMA (INOVIO)"
     },
     {
-        "Product Name": "VOLGA R 0.5/0.3MG TAB",
-        "Pack": "TAB",
+        "Product Name": "VOLGA R 0.3/1MG TAB",
+        "Pack": "15 TAB",
         "Company Name": "AJANTA PHARMA (INOVIO)"
     },
     {
@@ -8045,6 +8045,11 @@ const navkarMedicineData = [
         "Company Name": "ALEMBIC (ZENOVI)"
     },
     {
+        "Product Name": "RELUHER TAB",
+        "Pack": "10TAB",
+        "Company Name": "ALEMBIC (ZENOVI)"
+    },
+    {
         "Product Name": "RICHAR FCM 10 ML INJ",
         "Pack": "10 ML",
         "Company Name": "ALEMBIC (ZENOVI)"
@@ -8087,11 +8092,6 @@ const navkarMedicineData = [
     {
         "Product Name": "PENTAB 40 MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "ALEMBIC PHARMACEUTICALS P.LTD"
-    },
-    {
-        "Product Name": "RELUHER TAB",
-        "Pack": "10TAB",
         "Company Name": "ALEMBIC PHARMACEUTICALS P.LTD"
     },
     {
@@ -12115,6 +12115,11 @@ const navkarMedicineData = [
         "Company Name": "ALTEUS BIOGENICS PVT LTD (CILIX 2)"
     },
     {
+        "Product Name": "SITALONG DM 10/100/1000",
+        "Pack": "10TAB",
+        "Company Name": "ALTEUS BIOGENICS PVT LTD (CILIX 2)"
+    },
+    {
         "Product Name": "SITALONG DM 10/100/500",
         "Pack": "10TAB",
         "Company Name": "ALTEUS BIOGENICS PVT LTD (CILIX 2)"
@@ -14110,6 +14115,11 @@ const navkarMedicineData = [
         "Company Name": "ARINNA LIFESCIENCES (ARISSA)"
     },
     {
+        "Product Name": "CERELCARNO PLUS SUSP",
+        "Pack": "200ML",
+        "Company Name": "ARINNA LIFESCIENCES (ARISSA)"
+    },
+    {
         "Product Name": "CEREVION 90 MG TAB",
         "Pack": "10 TAB",
         "Company Name": "ARINNA LIFESCIENCES (ARISSA)"
@@ -15135,6 +15145,11 @@ const navkarMedicineData = [
         "Company Name": "ARISTO PHARMA (M F 2)"
     },
     {
+        "Product Name": "MONTAZ 1.125G INJ",
+        "Pack": "1VIAL",
+        "Company Name": "ARISTO PHARMA (M F 2)"
+    },
+    {
         "Product Name": "MONTAZ 1GM INJ",
         "Pack": "VIAL",
         "Company Name": "ARISTO PHARMA (M F 2)"
@@ -16047,11 +16062,6 @@ const navkarMedicineData = [
     {
         "Product Name": "ITRAFIX SB 130 CAP",
         "Pack": "10CAP",
-        "Company Name": "ARISTO PHARMA (TASK FORCE)"
-    },
-    {
-        "Product Name": "MONTAZ 1.125G INJ",
-        "Pack": "1VIAL",
         "Company Name": "ARISTO PHARMA (TASK FORCE)"
     },
     {
@@ -21320,6 +21330,11 @@ const navkarMedicineData = [
         "Company Name": "CENTAUR PHARMA (SANKALP)"
     },
     {
+        "Product Name": "TVAPTAN 15 TAB",
+        "Pack": "TAB",
+        "Company Name": "CENTAUR PHARMA (SANKALP)"
+    },
+    {
         "Product Name": "ALBUTAMOL NEO SYRUP",
         "Pack": "100ML",
         "Company Name": "CENTAUR PHARMA (SHASHVATHAM-B)"
@@ -21527,11 +21542,6 @@ const navkarMedicineData = [
     {
         "Product Name": "RIPAROCK EYE DROP",
         "Pack": "5 ML",
-        "Company Name": "CENTAUR PHARMACEUTICALS PVT. LTD."
-    },
-    {
-        "Product Name": "TVAPTAN 15 TAB",
-        "Pack": "TAB",
         "Company Name": "CENTAUR PHARMACEUTICALS PVT. LTD."
     },
     {
@@ -50835,6 +50845,11 @@ const navkarMedicineData = [
         "Company Name": "HICURE BIOTECH"
     },
     {
+        "Product Name": "PANO PLUS OIL",
+        "Pack": "50ML",
+        "Company Name": "HICURE BIOTECH"
+    },
+    {
         "Product Name": "PATOPAN DSR CAP",
         "Pack": "10 CAP",
         "Company Name": "HICURE BIOTECH"
@@ -56302,6 +56317,16 @@ const navkarMedicineData = [
     {
         "Product Name": "REXIPRA FORTE 20 TAB",
         "Pack": "15TAB",
+        "Company Name": "INTAS PHARMACEUTICALS (AQUILA)"
+    },
+    {
+        "Product Name": "RIFANIA 1.5MG CAP",
+        "Pack": "10CAP",
+        "Company Name": "INTAS PHARMACEUTICALS (AQUILA)"
+    },
+    {
+        "Product Name": "RIFANIA 3 MG CAP",
+        "Pack": "10CAP",
         "Company Name": "INTAS PHARMACEUTICALS (AQUILA)"
     },
     {
@@ -79161,12 +79186,12 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "HAIRBLESS DIVA TAB",
-        "Pack": "30TAB",
+        "Pack": "10TAB",
         "Company Name": "MANKIND PHARMA (3D)"
     },
     {
         "Product Name": "HAIRBLESS DIVA TAB",
-        "Pack": "TAB",
+        "Pack": "30TAB",
         "Company Name": "MANKIND PHARMA (3D)"
     },
     {
@@ -79232,6 +79257,11 @@ const navkarMedicineData = [
     {
         "Product Name": "SCAREND SILICONE GEL",
         "Pack": "10GM",
+        "Company Name": "MANKIND PHARMA (3D)"
+    },
+    {
+        "Product Name": "SCAREND SILICONE GEL",
+        "Pack": "30GM",
         "Company Name": "MANKIND PHARMA (3D)"
     },
     {
@@ -81155,14 +81185,19 @@ const navkarMedicineData = [
         "Company Name": "MANKIND PHARMA (GRAVITAS)"
     },
     {
+        "Product Name": "VERTISTAR MD 16MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "MANKIND PHARMA (GRAVITAS)"
+    },
+    {
         "Product Name": "VERTISTAR MD 24MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "VERTISTAR MD 16MG TAB"
+        "Company Name": "MANKIND PHARMA (GRAVITAS)"
     },
     {
         "Product Name": "VERTISTAR MD 8MG TAB",
         "Pack": "10TAB",
-        "Company Name": "VERTISTAR MD 16MG TAB"
+        "Company Name": "MANKIND PHARMA (GRAVITAS)"
     },
     {
         "Product Name": "ALOGRACE BATHING BAR",
@@ -82455,6 +82490,16 @@ const navkarMedicineData = [
         "Company Name": "MANKIND PHARMA (NOBELIS)"
     },
     {
+        "Product Name": "VOGLISTAR R 0.5 TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (NOBELIS)"
+    },
+    {
+        "Product Name": "VOGLISTAR R 1 TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (NOBELIS)"
+    },
+    {
         "Product Name": "ZUKANORM 100 SR TAB",
         "Pack": "TAB",
         "Company Name": "MANKIND PHARMA (NOBELIS)"
@@ -82576,6 +82621,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "LUBIMOIST EYE DROPS",
+        "Pack": "10ML",
+        "Company Name": "MANKIND PHARMA (OCULARIS)"
+    },
+    {
+        "Product Name": "LUBIMOIST MAX EYE DROPS",
         "Pack": "10ML",
         "Company Name": "MANKIND PHARMA (OCULARIS)"
     },
@@ -94095,6 +94145,11 @@ const navkarMedicineData = [
         "Company Name": "PHARMED MEDICARE (SYNERGY)"
     },
     {
+        "Product Name": "SUPRACAL OS CAP",
+        "Pack": "TAB",
+        "Company Name": "PHARMED MEDICARE (SYNERGY)"
+    },
+    {
         "Product Name": "SYNERTAB TAB",
         "Pack": "10 TAB",
         "Company Name": "PHARMED MEDICARE (SYNERGY)"
@@ -99582,6 +99637,11 @@ const navkarMedicineData = [
     {
         "Product Name": "COMBIFLAM [MS] CREAM",
         "Pack": "30GM",
+        "Company Name": "SANOFI CONSUMER HEALTHCARE INDIA LTD"
+    },
+    {
+        "Product Name": "COMBIFLAM KID SUPS",
+        "Pack": "100ML",
         "Company Name": "SANOFI CONSUMER HEALTHCARE INDIA LTD"
     },
     {
@@ -122186,6 +122246,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "BIODOXI LB CAP",
+        "Pack": "10CAP",
+        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
+    },
+    {
+        "Product Name": "GLOBAC ACTIVE CAP",
         "Pack": "10CAP",
         "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
     },
