@@ -650,11 +650,6 @@ const navkarColdchainData = [
         "Company Name": "EMCURE PHARMA (NUCRON)"
     },
     {
-        "Product Name": "TENECTASE 20 MG INJ",
-        "Pack": "1 KIT",
-        "Company Name": "EMCURE PHARMA (VAGUS)"
-    },
-    {
         "Product Name": "ELAXIM 30MG INJ",
         "Pack": "1 VIAL",
         "Company Name": "EMCURE PHARMA CV DIVISION"
@@ -783,6 +778,11 @@ const navkarColdchainData = [
         "Product Name": "SMALL COOLANT",
         "Pack": "1'S",
         "Company Name": "GENERICS"
+    },
+    {
+        "Product Name": "TENECTASE 20 MG INJ",
+        "Pack": "1 KIT",
+        "Company Name": "GENNOVA BIO PHARMACEUTICALS LT"
     },
     {
         "Product Name": "LIRAFIT INJ (PREFILLED PEN)",

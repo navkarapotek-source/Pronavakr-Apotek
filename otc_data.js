@@ -2105,56 +2105,6 @@ const otcData = [
         "Company Name": "GENERAL...A"
     },
     {
-        "Product Name": "GILLETE CREAM 125GM [MRP 62]",
-        "Pack": "125GM",
-        "Company Name": "GENERAL...A"
-    },
-    {
-        "Product Name": "GILLETE CREAM 25GM [MRP 25]",
-        "Pack": "25GM",
-        "Company Name": "GENERAL...A"
-    },
-    {
-        "Product Name": "GILLETE CREAM 30GM [MRP 40]",
-        "Pack": "30GM",
-        "Company Name": "GENERAL...A"
-    },
-    {
-        "Product Name": "GILLETE CREAM REGULAR 70GM [MRP 71]",
-        "Pack": "70GM",
-        "Company Name": "GENERAL...A"
-    },
-    {
-        "Product Name": "GILLETE FOAM REGULAR 418GM [RS 290]",
-        "Pack": "418GM",
-        "Company Name": "GENERAL...A"
-    },
-    {
-        "Product Name": "GILLETE FOAM REGULAR 50GM [RS 95]",
-        "Pack": "50GM",
-        "Company Name": "GENERAL...A"
-    },
-    {
-        "Product Name": "GILLETE FOAM SENSITIVE 418GM [RS 290]",
-        "Pack": "418GM",
-        "Company Name": "GENERAL...A"
-    },
-    {
-        "Product Name": "GILLETE LIME CREAM 30GM [MRP 40]",
-        "Pack": "30GM",
-        "Company Name": "GENERAL...A"
-    },
-    {
-        "Product Name": "GILLETE LIME CREAM 70GM [MRP 71]",
-        "Pack": "70GM",
-        "Company Name": "GENERAL...A"
-    },
-    {
-        "Product Name": "GILLETE SHAVE BRUSH [7+1]",
-        "Pack": "PC",
-        "Company Name": "GENERAL...A"
-    },
-    {
         "Product Name": "HAPPYDENT [WAVE]",
         "Pack": "1JAR",
         "Company Name": "GENERAL...A"
@@ -2445,11 +2395,6 @@ const otcData = [
         "Company Name": "GENERAL...A"
     },
     {
-        "Product Name": "VICKS COUGH DROPS [105+5FREE]",
-        "Pack": "1JAR",
-        "Company Name": "GENERAL...A"
-    },
-    {
         "Product Name": "WARTOSIN",
         "Pack": "3ML",
         "Company Name": "GENERAL...A"
@@ -2510,6 +2455,11 @@ const otcData = [
         "Company Name": "GLAXO SMITHKLINE (CONSUMER HC)"
     },
     {
+        "Product Name": "ENO LEMON SACHET [100+2] PCS",
+        "Pack": "100+2PCS",
+        "Company Name": "GLAXO SMITHKLINE (CONSUMER HC)"
+    },
+    {
         "Product Name": "IODEX BALM [RS.15]",
         "Pack": "4GM",
         "Company Name": "GLAXO SMITHKLINE (CONSUMER HC)"
@@ -2542,6 +2492,11 @@ const otcData = [
     {
         "Product Name": "SENSODYNE FRESH GEL [150GM]",
         "Pack": "150GM",
+        "Company Name": "GLAXO SMITHKLINE (CONSUMER HC)"
+    },
+    {
+        "Product Name": "SENSODYNE FRESH GEL [40GM]",
+        "Pack": "40GM",
         "Company Name": "GLAXO SMITHKLINE (CONSUMER HC)"
     },
     {
@@ -2592,6 +2547,11 @@ const otcData = [
     {
         "Product Name": "SENSODYNE REPAIR & PROTECT 100GM",
         "Pack": "100GM",
+        "Company Name": "GLAXO SMITHKLINE (CONSUMER HC)"
+    },
+    {
+        "Product Name": "SENSODYNE REPAIR & PROTECT 70GM",
+        "Pack": "70GM",
         "Company Name": "GLAXO SMITHKLINE (CONSUMER HC)"
     },
     {
@@ -3300,6 +3260,36 @@ const otcData = [
         "Company Name": "HINDUSTAN LEVER LIMITED"
     },
     {
+        "Product Name": "DOVE DAILY SHINE CONDITIONER",
+        "Pack": "75ML",
+        "Company Name": "HINDUSTAN UNILEVER LIMITED"
+    },
+    {
+        "Product Name": "DOVE HAIRFALL CONDITIONER",
+        "Pack": "75ML",
+        "Company Name": "HINDUSTAN UNILEVER LIMITED"
+    },
+    {
+        "Product Name": "DOVE HAIRFALL SHAMPOO",
+        "Pack": "75ML",
+        "Company Name": "HINDUSTAN UNILEVER LIMITED"
+    },
+    {
+        "Product Name": "DOVE HAIRFALL SHAMPOO [2RS]",
+        "Pack": "6ML",
+        "Company Name": "HINDUSTAN UNILEVER LIMITED"
+    },
+    {
+        "Product Name": "DOVE INTENSE REPAIR CONDITIONER",
+        "Pack": "75ML",
+        "Company Name": "HINDUSTAN UNILEVER LIMITED"
+    },
+    {
+        "Product Name": "DOVE INTENSE REPAIR SHAMPOO",
+        "Pack": "75ML",
+        "Company Name": "HINDUSTAN UNILEVER LIMITED"
+    },
+    {
         "Product Name": "DOVE S&C DAILY SHINE [5RS]",
         "Pack": "5ML",
         "Company Name": "HINDUSTAN UNILEVER LIMITED"
@@ -3320,13 +3310,28 @@ const otcData = [
         "Company Name": "HINDUSTAN UNILEVER LIMITED"
     },
     {
-        "Product Name": "DOVE SHAMPOO [2RS]",
-        "Pack": "6ML",
+        "Product Name": "GLOW & LOVELY AYURVEDIC CARE 25GM",
+        "Pack": "25GM",
+        "Company Name": "HINDUSTAN UNILEVER LIMITED"
+    },
+    {
+        "Product Name": "GLOW & LOVELY BB CREAM 18GM",
+        "Pack": "18GM",
+        "Company Name": "HINDUSTAN UNILEVER LIMITED"
+    },
+    {
+        "Product Name": "GLOW & LOVELY BB CREAM 9GM",
+        "Pack": "9GM",
         "Company Name": "HINDUSTAN UNILEVER LIMITED"
     },
     {
         "Product Name": "GLOW & LOVELY RS10",
         "Pack": "9GM",
+        "Company Name": "HINDUSTAN UNILEVER LIMITED"
+    },
+    {
+        "Product Name": "GLOW & LOVELY SB SUNSCREEN SPF 50",
+        "Pack": "6GM",
         "Company Name": "HINDUSTAN UNILEVER LIMITED"
     },
     {
@@ -3430,8 +3435,18 @@ const otcData = [
         "Company Name": "HINDUSTAN UNILEVER LIMITED"
     },
     {
+        "Product Name": "TRESMME HAIRFALL CONDITIONER",
+        "Pack": "80ML",
+        "Company Name": "HINDUSTAN UNILEVER LIMITED"
+    },
+    {
         "Product Name": "TRESMME HAIRFALL SHAMPOO RS 65",
         "Pack": "85ML",
+        "Company Name": "HINDUSTAN UNILEVER LIMITED"
+    },
+    {
+        "Product Name": "TRESMME KERATIN CONDITIONER 80ML",
+        "Pack": "80ML",
         "Company Name": "HINDUSTAN UNILEVER LIMITED"
     },
     {
@@ -4275,7 +4290,7 @@ const otcData = [
         "Company Name": "NUTRICIA INTERNATIONAL PVT LTD"
     },
     {
-        "Product Name": "PROTINEX POWDER [CHOCLATE]",
+        "Product Name": "PROTINEX POWDER [CHOCLATE]H",
         "Pack": "250GM",
         "Company Name": "NUTRICIA INTERNATIONAL PVT LTD"
     },
@@ -4620,6 +4635,56 @@ const otcData = [
         "Company Name": "PITAMBARI PRODUCTS PVT. LTD."
     },
     {
+        "Product Name": "GILLETE CREAM 125GM [MRP 62]",
+        "Pack": "125GM",
+        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
+    },
+    {
+        "Product Name": "GILLETE CREAM 25GM [MRP 25]",
+        "Pack": "25GM",
+        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
+    },
+    {
+        "Product Name": "GILLETE CREAM 30GM [MRP 40]",
+        "Pack": "30GM",
+        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
+    },
+    {
+        "Product Name": "GILLETE CREAM REGULAR 70GM [MRP 71]",
+        "Pack": "70GM",
+        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
+    },
+    {
+        "Product Name": "GILLETE FOAM REGULAR 418GM [RS 290]",
+        "Pack": "418GM",
+        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
+    },
+    {
+        "Product Name": "GILLETE FOAM REGULAR 50GM [RS 95]",
+        "Pack": "50GM",
+        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
+    },
+    {
+        "Product Name": "GILLETE FOAM SENSITIVE 418GM [RS 290]",
+        "Pack": "418GM",
+        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
+    },
+    {
+        "Product Name": "GILLETE LIME CREAM 30GM [MRP 40]",
+        "Pack": "30GM",
+        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
+    },
+    {
+        "Product Name": "GILLETE LIME CREAM 70GM [MRP 71]",
+        "Pack": "70GM",
+        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
+    },
+    {
+        "Product Name": "GILLETE SHAVE BRUSH [7+1]",
+        "Pack": "PC",
+        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
+    },
+    {
         "Product Name": "GILLETTE GAURD [RS125] 3IN1",
         "Pack": "3IN1",
         "Company Name": "PROCTER & GAMBLE HEALTH LTD."
@@ -4760,12 +4825,22 @@ const otcData = [
         "Company Name": "PROCTER & GAMBLE HEALTH LTD."
     },
     {
+        "Product Name": "VICKS ACTION 500 TAB",
+        "Pack": "10TAB",
+        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
+    },
+    {
         "Product Name": "VICKS BABY RUB [25ML]",
         "Pack": "25ML",
         "Company Name": "PROCTER & GAMBLE HEALTH LTD."
     },
     {
         "Product Name": "VICKS COUGH DROP [175+50]",
+        "Pack": "1JAR",
+        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
+    },
+    {
+        "Product Name": "VICKS COUGH DROPS [105+5FREE]",
         "Pack": "1JAR",
         "Company Name": "PROCTER & GAMBLE HEALTH LTD."
     },
@@ -4782,6 +4857,31 @@ const otcData = [
     {
         "Product Name": "VICKS COUGH DROPS [850+100FREE]",
         "Pack": "1JAR",
+        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
+    },
+    {
+        "Product Name": "VICKS INHALER",
+        "Pack": "1`S",
+        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
+    },
+    {
+        "Product Name": "VICKS VAPORUB [10GM]",
+        "Pack": "10GM",
+        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
+    },
+    {
+        "Product Name": "VICKS VAPORUB [25GM]",
+        "Pack": "25GM",
+        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
+    },
+    {
+        "Product Name": "VICKS VAPORUB [50GM]",
+        "Pack": "50GM",
+        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
+    },
+    {
+        "Product Name": "VICKS VAPORUB [5GM]",
+        "Pack": "5GM",
         "Company Name": "PROCTER & GAMBLE HEALTH LTD."
     },
     {
@@ -6355,16 +6455,6 @@ const otcData = [
         "Company Name": "SHRIRAMA STORES YELLAPUR"
     },
     {
-        "Product Name": "SENSODYNE FRESH GEL [40GM]",
-        "Pack": "40GM",
-        "Company Name": "SHRIRAMA STORES YELLAPUR"
-    },
-    {
-        "Product Name": "SENSODYNE REPAIR & PROTECT 70GM",
-        "Pack": "70GM",
-        "Company Name": "SHRIRAMA STORES YELLAPUR"
-    },
-    {
         "Product Name": "SESA OIL [100ML]",
         "Pack": "100ML",
         "Company Name": "SHRIRAMA STORES YELLAPUR"
@@ -6437,36 +6527,6 @@ const otcData = [
     {
         "Product Name": "VEET CREAM [ALOVERA+ROSE] NORMAL SKIN",
         "Pack": "30GM",
-        "Company Name": "SHRIRAMA STORES YELLAPUR"
-    },
-    {
-        "Product Name": "VICKS ACTION 500 TAB",
-        "Pack": "10TAB",
-        "Company Name": "SHRIRAMA STORES YELLAPUR"
-    },
-    {
-        "Product Name": "VICKS INHALER",
-        "Pack": "1`S",
-        "Company Name": "SHRIRAMA STORES YELLAPUR"
-    },
-    {
-        "Product Name": "VICKS VAPORUB [10GM]",
-        "Pack": "10GM",
-        "Company Name": "SHRIRAMA STORES YELLAPUR"
-    },
-    {
-        "Product Name": "VICKS VAPORUB [25GM]",
-        "Pack": "25GM",
-        "Company Name": "SHRIRAMA STORES YELLAPUR"
-    },
-    {
-        "Product Name": "VICKS VAPORUB [50GM]",
-        "Pack": "50GM",
-        "Company Name": "SHRIRAMA STORES YELLAPUR"
-    },
-    {
-        "Product Name": "VICKS VAPORUB [5GM]",
-        "Pack": "5GM",
         "Company Name": "SHRIRAMA STORES YELLAPUR"
     },
     {
@@ -6887,6 +6947,11 @@ const otcData = [
     {
         "Product Name": "VICCO WSO TURMERIC 30 GM",
         "Pack": "30 GM",
+        "Company Name": "VICCO LABORATORIES"
+    },
+    {
+        "Product Name": "VICCO WSO TURMERIC CREAM POUCH 7GM",
+        "Pack": "7GM",
         "Company Name": "VICCO LABORATORIES"
     },
     {

@@ -345,6 +345,11 @@ const productData = [
         "Company Name": "ABBOTT PHARMA"
     },
     {
+        "Product Name": "ACEFILE P TAB",
+        "Pack": "10TAB",
+        "Company Name": "AJANTA PHARMA LTD"
+    },
+    {
         "Product Name": "ACEFILE SP TAB",
         "Pack": "1X10TAB",
         "Company Name": "AJANTA PHARMA LTD"
@@ -560,6 +565,11 @@ const productData = [
         "Company Name": "AJANTA PHARMA LTD"
     },
     {
+        "Product Name": "MUGARD DG GEL",
+        "Pack": "20GM",
+        "Company Name": "AJANTA PHARMA LTD"
+    },
+    {
         "Product Name": "MUGARD FORTE GEL",
         "Pack": "15GM",
         "Company Name": "AJANTA PHARMA LTD"
@@ -732,11 +742,6 @@ const productData = [
     {
         "Product Name": "FOLIVIA TAB 5MG",
         "Pack": "30TAB",
-        "Company Name": "AJANTA PHARMA LTD GENCARE"
-    },
-    {
-        "Product Name": "MUGARD DG GEL",
-        "Pack": "20GM",
         "Company Name": "AJANTA PHARMA LTD GENCARE"
     },
     {
@@ -5636,7 +5641,7 @@ const productData = [
     },
     {
         "Product Name": "COFSILS COUGH ASSRTD JAR (RS.1)",
-        "Pack": "1/210",
+        "Pack": "JAR",
         "Company Name": "CIPLA OTC MAIN"
     },
     {
@@ -6935,6 +6940,11 @@ const productData = [
         "Company Name": "DR.REDDY LABORATORIES LTD."
     },
     {
+        "Product Name": "COMIFFIN PLUS ORAL EMULSION",
+        "Pack": "170ML",
+        "Company Name": "DR.REDDY LABORATORIES LTD."
+    },
+    {
         "Product Name": "DEFZACORT 6 MG",
         "Pack": "1X10TAB",
         "Company Name": "DR.REDDY LABORATORIES LTD."
@@ -7115,6 +7125,11 @@ const productData = [
         "Company Name": "DR.REDDY LABORATORIES LTD."
     },
     {
+        "Product Name": "REDIHEALTH XT TAB",
+        "Pack": "10TAB",
+        "Company Name": "DR.REDDY LABORATORIES LTD."
+    },
+    {
         "Product Name": "RIFNIMX 200 TAB",
         "Pack": "10TAB",
         "Company Name": "DR.REDDY LABORATORIES LTD."
@@ -7177,6 +7192,11 @@ const productData = [
     {
         "Product Name": "WOKADINE OINT 20GM",
         "Pack": "1X20GM",
+        "Company Name": "DR.REDDY LABORATORIES LTD."
+    },
+    {
+        "Product Name": "ZEDEX LOZENGES JAR",
+        "Pack": "10TAB",
         "Company Name": "DR.REDDY LABORATORIES LTD."
     },
     {
@@ -10065,11 +10085,6 @@ const productData = [
         "Company Name": "GENERAL COMPANIES"
     },
     {
-        "Product Name": "COFSILS COUGH DROPS [205+5 FREE]",
-        "Pack": "1JAR",
-        "Company Name": "GENERAL...A"
-    },
-    {
         "Product Name": "SANITIZER 100ML",
         "Pack": "100ML",
         "Company Name": "GENERICS"
@@ -11760,6 +11775,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "HEALING TEA JAR 500GM",
+        "Pack": "500GM",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "HEALING TROLLY DUFFLE BAG 18%",
         "Pack": "-",
         "Company Name": "HEALING PHARMA"
@@ -12955,11 +12975,6 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
-        "Product Name": "TEA JAR 500GM",
-        "Pack": "-",
-        "Company Name": "HEALING PHARMA"
-    },
-    {
         "Product Name": "TELMAHEAL 40 TAB",
         "Pack": "1X15TAB",
         "Company Name": "HEALING PHARMA"
@@ -13813,6 +13828,11 @@ const productData = [
         "Product Name": "SCALP VEIN SET 24 (HMD)",
         "Pack": "PIECE",
         "Company Name": "HINDUSTAN MEDICAL DEVICES"
+    },
+    {
+        "Product Name": "DOVE DAILY SHINE SHAMPOO",
+        "Pack": "75ML",
+        "Company Name": "HINDUSTAN UNILEVER LIMITED"
     },
     {
         "Product Name": "HYTAG EYE DROP",
@@ -17060,8 +17080,33 @@ const productData = [
         "Company Name": "LEEFORD HEALTHCARE LTD"
     },
     {
+        "Product Name": "CEFITAXE CV TAB",
+        "Pack": "10TAB",
+        "Company Name": "LEEFORD HEALTHCARE LTD"
+    },
+    {
+        "Product Name": "DEBISTAL GM2 TAB",
+        "Pack": "10TAB",
+        "Company Name": "LEEFORD HEALTHCARE LTD"
+    },
+    {
         "Product Name": "DIPLOMAX PLUS OINT",
         "Pack": "30GM",
+        "Company Name": "LEEFORD HEALTHCARE LTD"
+    },
+    {
+        "Product Name": "ETOLID TAB",
+        "Pack": "10TAB",
+        "Company Name": "LEEFORD HEALTHCARE LTD"
+    },
+    {
+        "Product Name": "FLUMET 150 TAB",
+        "Pack": "1TB",
+        "Company Name": "LEEFORD HEALTHCARE LTD"
+    },
+    {
+        "Product Name": "FLUMET 200 TAB",
+        "Pack": "1TAB",
         "Company Name": "LEEFORD HEALTHCARE LTD"
     },
     {
@@ -17072,6 +17117,11 @@ const productData = [
     {
         "Product Name": "GEOFIT OMEGA3 FISH OIL SG CAP",
         "Pack": "30CAP",
+        "Company Name": "LEEFORD HEALTHCARE LTD"
+    },
+    {
+        "Product Name": "GESTOFORD 200 SR TAB",
+        "Pack": "10TAB",
         "Company Name": "LEEFORD HEALTHCARE LTD"
     },
     {
@@ -17105,6 +17155,11 @@ const productData = [
         "Company Name": "LEEFORD HEALTHCARE LTD"
     },
     {
+        "Product Name": "LEEFORD WRIST BRACE",
+        "Pack": "PC",
+        "Company Name": "LEEFORD HEALTHCARE LTD"
+    },
+    {
         "Product Name": "LEEKUF TAB",
         "Pack": "10 TAB",
         "Company Name": "LEEFORD HEALTHCARE LTD"
@@ -17125,6 +17180,21 @@ const productData = [
         "Company Name": "LEEFORD HEALTHCARE LTD"
     },
     {
+        "Product Name": "ORALYTE ORS APPLE 200ML",
+        "Pack": "200ML",
+        "Company Name": "LEEFORD HEALTHCARE LTD"
+    },
+    {
+        "Product Name": "ORALYTE ORS MANGO 200ML",
+        "Pack": "200ML",
+        "Company Name": "LEEFORD HEALTHCARE LTD"
+    },
+    {
+        "Product Name": "ORALYTE ORS ORANGE 200ML",
+        "Pack": "200ML",
+        "Company Name": "LEEFORD HEALTHCARE LTD"
+    },
+    {
         "Product Name": "ORTHO AID ROLL ON 50ML",
         "Pack": "50ML",
         "Company Name": "LEEFORD HEALTHCARE LTD"
@@ -17140,13 +17210,38 @@ const productData = [
         "Company Name": "LEEFORD HEALTHCARE LTD"
     },
     {
+        "Product Name": "SCRABIC LOTION",
+        "Pack": "50ML",
+        "Company Name": "LEEFORD HEALTHCARE LTD"
+    },
+    {
         "Product Name": "SUNSHADE 50SPF ULTRA BLOCK LOTION",
         "Pack": "50ML",
         "Company Name": "LEEFORD HEALTHCARE LTD"
     },
     {
+        "Product Name": "URILOSIN 0.4 CAP",
+        "Pack": "15CAP",
+        "Company Name": "LEEFORD HEALTHCARE LTD"
+    },
+    {
+        "Product Name": "VOGLIMET GM 2 FORTE TAB",
+        "Pack": "10TAB",
+        "Company Name": "LEEFORD HEALTHCARE LTD"
+    },
+    {
         "Product Name": "VOMIFORD SYRUP",
         "Pack": "30ML",
+        "Company Name": "LEEFORD HEALTHCARE LTD"
+    },
+    {
+        "Product Name": "VOMIRAP MD TAB",
+        "Pack": "10TAB",
+        "Company Name": "LEEFORD HEALTHCARE LTD"
+    },
+    {
+        "Product Name": "ZEFCORT-6MG TAB",
+        "Pack": "10TAB",
         "Company Name": "LEEFORD HEALTHCARE LTD"
     },
     {
@@ -17307,6 +17402,11 @@ const productData = [
     {
         "Product Name": "BILAFORD-M TABS",
         "Pack": "1X10T",
+        "Company Name": "LEEFORD HEALTHCARE LTD."
+    },
+    {
+        "Product Name": "BIOPRESS-AM TAB",
+        "Pack": "20X10T",
         "Company Name": "LEEFORD HEALTHCARE LTD."
     },
     {
@@ -18045,6 +18145,11 @@ const productData = [
         "Company Name": "LEEFORD HEALTHCARE LTD."
     },
     {
+        "Product Name": "PETOWASH SHAMPOO 100ML",
+        "Pack": "100ML",
+        "Company Name": "LEEFORD HEALTHCARE LTD."
+    },
+    {
         "Product Name": "PILO GO CAPS",
         "Pack": "1X10C",
         "Company Name": "LEEFORD HEALTHCARE LTD."
@@ -18331,6 +18436,11 @@ const productData = [
     },
     {
         "Product Name": "VOMIFORD-8 MD TABS",
+        "Pack": "1X10T",
+        "Company Name": "LEEFORD HEALTHCARE LTD."
+    },
+    {
+        "Product Name": "VOVEDIC-MR TABS",
         "Pack": "1X10T",
         "Company Name": "LEEFORD HEALTHCARE LTD."
     },
@@ -25485,6 +25595,11 @@ const productData = [
         "Company Name": "SMART ECO"
     },
     {
+        "Product Name": "AMLOECO 2.5 TAB",
+        "Pack": "15TAB",
+        "Company Name": "SMART ECO"
+    },
+    {
         "Product Name": "AMLOECO 5 TAB",
         "Pack": "14TAB",
         "Company Name": "SMART ECO"
@@ -25582,6 +25697,11 @@ const productData = [
     {
         "Product Name": "CLINIPECO T 40 TAB",
         "Pack": "15TAB",
+        "Company Name": "SMART ECO"
+    },
+    {
+        "Product Name": "CLINIPECO TM TAB",
+        "Pack": "10TAB",
         "Company Name": "SMART ECO"
     },
     {
@@ -25865,6 +25985,11 @@ const productData = [
         "Company Name": "SMART ECO"
     },
     {
+        "Product Name": "ROSUECO 40 TAB",
+        "Pack": "15TAB",
+        "Company Name": "SMART ECO"
+    },
+    {
         "Product Name": "ROSUECO 5 TAB",
         "Pack": "15 TAB",
         "Company Name": "SMART ECO"
@@ -25911,6 +26036,11 @@ const productData = [
     },
     {
         "Product Name": "TAMSUECO D TAB",
+        "Pack": "15TAB",
+        "Company Name": "SMART ECO"
+    },
+    {
+        "Product Name": "TELMIECO 20 TAB",
         "Pack": "15TAB",
         "Company Name": "SMART ECO"
     },
@@ -30897,6 +31027,11 @@ const productData = [
     {
         "Product Name": "MOMIN CREAM 15GM",
         "Pack": "1X15GM",
+        "Company Name": "UNIVERSAL IMPEX"
+    },
+    {
+        "Product Name": "OVORL-L TAB",
+        "Pack": "21TAB",
         "Company Name": "UNIVERSAL IMPEX"
     },
     {
