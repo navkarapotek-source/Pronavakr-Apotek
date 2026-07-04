@@ -5095,6 +5095,11 @@ const navkarMedicineData = [
         "Company Name": "AKUMENTIS HEALTHCARE (CREATIS)"
     },
     {
+        "Product Name": "ALL 9 CAL TAB",
+        "Pack": "15TAB",
+        "Company Name": "AKUMENTIS HEALTHCARE (CREATIS)"
+    },
+    {
         "Product Name": "ALL 9 D CAP",
         "Pack": "TAB",
         "Company Name": "AKUMENTIS HEALTHCARE (CREATIS)"
@@ -10595,8 +10600,23 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LABORATORIES LIMITED"
     },
     {
+        "Product Name": "SACUVAL D 200 TAB",
+        "Pack": "10TAB",
+        "Company Name": "ALKEM LABORATORIES LIMITED"
+    },
+    {
         "Product Name": "SACUVAL D 50 TAB",
         "Pack": "10'S",
+        "Company Name": "ALKEM LABORATORIES LIMITED"
+    },
+    {
+        "Product Name": "SEMASIZE 0.5 INJ",
+        "Pack": "VIAL",
+        "Company Name": "ALKEM LABORATORIES LIMITED"
+    },
+    {
+        "Product Name": "SEMASIZE 2MG INJ",
+        "Pack": "VIAL",
         "Company Name": "ALKEM LABORATORIES LIMITED"
     },
     {
@@ -25590,6 +25610,11 @@ const navkarMedicineData = [
         "Company Name": "CIPLA LIMITED XTERNA"
     },
     {
+        "Product Name": "NADIBACT GEL",
+        "Pack": "10GM",
+        "Company Name": "CIPLA LIMITED XTERNA"
+    },
+    {
         "Product Name": "RIVELA TINT 50PF SUNSCREEN LOTION",
         "Pack": "50ML",
         "Company Name": "CIPLA LIMITED XTERNA"
@@ -35935,6 +35960,11 @@ const navkarMedicineData = [
         "Company Name": "EMCURE(PHARMA)"
     },
     {
+        "Product Name": "EMNAC 600MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "EMCURE(PHARMA)"
+    },
+    {
         "Product Name": "EMNU-1GM INJ",
         "Pack": "1VIAL",
         "Company Name": "EMCURE(PHARMA)"
@@ -35947,6 +35977,16 @@ const navkarMedicineData = [
     {
         "Product Name": "FILET-S-1.5GM INJ",
         "Pack": "1VIAL",
+        "Company Name": "EMCURE(PHARMA)"
+    },
+    {
+        "Product Name": "FULL 24 D3 TAB",
+        "Pack": "15TAB",
+        "Company Name": "EMCURE(PHARMA)"
+    },
+    {
+        "Product Name": "FULL 24 PLUS CAP",
+        "Pack": "10CAP",
         "Company Name": "EMCURE(PHARMA)"
     },
     {
@@ -36007,6 +36047,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ULTIMOXCLAV 1.2GM INJ",
         "Pack": "1VIAL",
+        "Company Name": "EMCURE(PHARMA)"
+    },
+    {
+        "Product Name": "VIFEX CAP",
+        "Pack": "10CAP",
         "Company Name": "EMCURE(PHARMA)"
     },
     {
@@ -36557,6 +36602,11 @@ const navkarMedicineData = [
     {
         "Product Name": "E SALIVA  PLUS MOUTH SPRAY",
         "Pack": "15ML",
+        "Company Name": "ENTOD OPTHAMNIC"
+    },
+    {
+        "Product Name": "ENOCLAV 625 TAB",
+        "Pack": "10TAB",
         "Company Name": "ENTOD OPTHAMNIC"
     },
     {
@@ -41965,39 +42015,44 @@ const navkarMedicineData = [
         "Company Name": "FOURRTS LAB (PREMIERE GASTRO)"
     },
     {
+        "Product Name": "SUCRAFIL SUSP 200ML",
+        "Pack": "200ML",
+        "Company Name": "SUCRAFIL O GEL 200ML"
+    },
+    {
         "Product Name": "SUCRAFIL TAB",
         "Pack": "10(S/P)",
-        "Company Name": "SUCRAFIL SUSP 200ML"
+        "Company Name": "SUCRAFIL O GEL 200ML"
     },
     {
         "Product Name": "TOCOFIL CAP",
         "Pack": "TAB",
-        "Company Name": "SUCRAFIL SUSP 200ML"
+        "Company Name": "SUCRAFIL O GEL 200ML"
     },
     {
         "Product Name": "TOCOFIL MAX CAP",
         "Pack": "15'S",
-        "Company Name": "SUCRAFIL SUSP 200ML"
+        "Company Name": "SUCRAFIL O GEL 200ML"
     },
     {
         "Product Name": "UDIMARIN 150 TAB",
         "Pack": "10 TAB",
-        "Company Name": "SUCRAFIL SUSP 200ML"
+        "Company Name": "SUCRAFIL O GEL 200ML"
     },
     {
         "Product Name": "UDIMARIN 300 TAB",
         "Pack": "TAB",
-        "Company Name": "SUCRAFIL SUSP 200ML"
+        "Company Name": "SUCRAFIL O GEL 200ML"
     },
     {
         "Product Name": "UDIMARIN SR 450 TAB",
         "Pack": "TAB",
-        "Company Name": "SUCRAFIL SUSP 200ML"
+        "Company Name": "SUCRAFIL O GEL 200ML"
     },
     {
         "Product Name": "UDIMARIN SUSP 100 ML",
         "Pack": "100 ML",
-        "Company Name": "SUCRAFIL SUSP 200ML"
+        "Company Name": "SUCRAFIL O GEL 200ML"
     },
     {
         "Product Name": "K MAC UTI SYR",
@@ -44835,6 +44890,11 @@ const navkarMedicineData = [
         "Company Name": "GLENMARK  (SHWAS 1)"
     },
     {
+        "Product Name": "CYSTEO CREAM 15 GM",
+        "Pack": "15 GM",
+        "Company Name": "GLENMARK (COSMO CARE)"
+    },
+    {
         "Product Name": "ELOVERA AD LOTION 100 GM",
         "Pack": "100GM",
         "Company Name": "GLENMARK (COSMO CARE)"
@@ -44847,11 +44907,6 @@ const navkarMedicineData = [
     {
         "Product Name": "EPISOFT AC SPF 50+ 50GM",
         "Pack": "50 GM",
-        "Company Name": "GLENMARK (COSMO CARE)"
-    },
-    {
-        "Product Name": "GLENMARK CYSTEO CREAM 15 GM",
-        "Pack": "15 GM",
         "Company Name": "GLENMARK (COSMO CARE)"
     },
     {
@@ -47110,6 +47165,16 @@ const navkarMedicineData = [
         "Company Name": "GROUP PHARMACEUTICALS LTD."
     },
     {
+        "Product Name": "DENSIVE DENTURE CARE KIT",
+        "Pack": "GM",
+        "Company Name": "GROUP PHARMACEUTICALS LTD."
+    },
+    {
+        "Product Name": "DENSIVE TAB",
+        "Pack": "6TAB",
+        "Company Name": "GROUP PHARMACEUTICALS LTD."
+    },
+    {
         "Product Name": "ENAFIX PROGEL NATURAL",
         "Pack": "50GM",
         "Company Name": "GROUP PHARMACEUTICALS LTD."
@@ -47166,6 +47231,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "PEDIFLOR KIDZ NATURAL ORANGE 70GM",
+        "Pack": "70GM",
+        "Company Name": "GROUP PHARMACEUTICALS LTD."
+    },
+    {
+        "Product Name": "PEDIFLOR KIDZ TOOTHPASTE",
         "Pack": "70GM",
         "Company Name": "GROUP PHARMACEUTICALS LTD."
     },
@@ -49000,8 +49070,18 @@ const navkarMedicineData = [
         "Company Name": "HBC LIFESCIENCES AURA"
     },
     {
+        "Product Name": "OLCURE AMH TAB",
+        "Pack": "10 TAB",
+        "Company Name": "HBC LIFESCIENCES AURA"
+    },
+    {
         "Product Name": "OLCURE BETA 25 MG TAB",
         "Pack": "15 TAB",
+        "Company Name": "HBC LIFESCIENCES AURA"
+    },
+    {
+        "Product Name": "OLCURE CN TAB",
+        "Pack": "10 TAB",
         "Company Name": "HBC LIFESCIENCES AURA"
     },
     {
@@ -50330,11 +50410,6 @@ const navkarMedicineData = [
         "Company Name": "HETERO HEALTHCARE LTD [FRENZA]"
     },
     {
-        "Product Name": "MIDOHEP 10 TAB",
-        "Pack": "10TAB",
-        "Company Name": "HETERO HEALTHCARE LTD [FRENZA]"
-    },
-    {
         "Product Name": "MPX CV DRY SYP",
         "Pack": "30ML",
         "Company Name": "HETERO HEALTHCARE LTD [FRENZA]"
@@ -50642,6 +50717,11 @@ const navkarMedicineData = [
     {
         "Product Name": "MESAREM 1200 MG TAB",
         "Pack": "15 TAB",
+        "Company Name": "HETRO HEALTHCARE GASTROCARE"
+    },
+    {
+        "Product Name": "MIDOHEP 10 TAB",
+        "Pack": "10TAB",
         "Company Name": "HETRO HEALTHCARE GASTROCARE"
     },
     {
@@ -75577,6 +75657,11 @@ const navkarMedicineData = [
     {
         "Product Name": "MACBERY JUNIOR EXPT",
         "Pack": "60ML",
+        "Company Name": "MACLEODS (MACPHAR)"
+    },
+    {
+        "Product Name": "MACBERY PRO SYS",
+        "Pack": "100ML",
         "Company Name": "MACLEODS (MACPHAR)"
     },
     {
@@ -107215,7 +107300,7 @@ const navkarMedicineData = [
         "Company Name": "SVIZERA HEALTHCARE (ACE)"
     },
     {
-        "Product Name": "ELFERRI XT NEW TAB",
+        "Product Name": "ELFERRI XT + NEU TAB",
         "Pack": "10 TAB",
         "Company Name": "SVIZERA HEALTHCARE (ACE)"
     },

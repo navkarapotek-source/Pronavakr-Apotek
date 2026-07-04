@@ -955,6 +955,11 @@ const otcData = [
         "Company Name": "CIPLA OTC"
     },
     {
+        "Product Name": "AB DETAN SUN TAN REMOVAL 72GM",
+        "Pack": "72GM",
+        "Company Name": "CIPLA OTC"
+    },
+    {
         "Product Name": "AB F/W  FRUIT",
         "Pack": "60ML",
         "Company Name": "CIPLA OTC"

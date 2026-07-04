@@ -7665,11 +7665,6 @@ const productData = [
         "Company Name": "ELDER PHARMACEUTICALS LTD"
     },
     {
-        "Product Name": "SILDOZEN 8MG CAPS",
-        "Pack": "1X10T",
-        "Company Name": "ELDER PHARMACEUTICALS LTD"
-    },
-    {
         "Product Name": "SILDOZEN-4 MG CAPS",
         "Pack": "1X10C",
         "Company Name": "ELDER PHARMACEUTICALS LTD"
@@ -11685,6 +11680,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "HEALING NEBULIZER COMFORT(HICKS)",
+        "Pack": "-",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "HEALING NYLON BAG",
         "Pack": "PC",
         "Company Name": "HEALING PHARMA"
@@ -12382,11 +12382,6 @@ const productData = [
     {
         "Product Name": "NAPROHEAL D 500 TAB",
         "Pack": "1X10TAB",
-        "Company Name": "HEALING PHARMA"
-    },
-    {
-        "Product Name": "NEBULIZER COMFORT (HICKS)",
-        "Pack": "-",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -30960,13 +30955,13 @@ const productData = [
         "Company Name": "UCARE"
     },
     {
-        "Product Name": "I.V SET U-CARE",
-        "Pack": "1X50PC",
+        "Product Name": "EXAMINATION GLOVES UCARE (MEDIUM)",
+        "Pack": "1X100",
         "Company Name": "UCARE"
     },
     {
-        "Product Name": "LATEX EXAMINATION GLOVES (MEDIUM)",
-        "Pack": "1X100",
+        "Product Name": "IV SET U-CARE",
+        "Pack": "1X50PC",
         "Company Name": "UCARE"
     },
     {
