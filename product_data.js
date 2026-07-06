@@ -13825,11 +13825,6 @@ const productData = [
         "Company Name": "HINDUSTAN MEDICAL DEVICES"
     },
     {
-        "Product Name": "DOVE DAILY SHINE SHAMPOO",
-        "Pack": "75ML",
-        "Company Name": "HINDUSTAN UNILEVER LIMITED"
-    },
-    {
         "Product Name": "HYTAG EYE DROP",
         "Pack": "1X5ML",
         "Company Name": "IKON REMEDIES PVT.LTD."
@@ -30337,6 +30332,11 @@ const productData = [
     {
         "Product Name": "HARD CONDOMS 12PC",
         "Pack": "1X12PCS",
+        "Company Name": "TARUN PHARMACUTICAL"
+    },
+    {
+        "Product Name": "MANMOODS CONDOM 3PCS",
+        "Pack": "3PCS",
         "Company Name": "TARUN PHARMACUTICAL"
     },
     {

@@ -3465,6 +3465,11 @@ const navkarMedicineData = [
         "Company Name": "AJANTA PHARMA (AVECIA)"
     },
     {
+        "Product Name": "PEROCLIN GEL 3.75%",
+        "Pack": "15GM",
+        "Company Name": "AJANTA PHARMA (AVECIA)"
+    },
+    {
         "Product Name": "SORILAST CREAM 150 GM",
         "Pack": "150 GM",
         "Company Name": "AJANTA PHARMA (AVECIA)"
@@ -5712,6 +5717,11 @@ const navkarMedicineData = [
     {
         "Product Name": "MAXCEF 1.5 GM INJ",
         "Pack": "1VAIL",
+        "Company Name": "AKUMENTIS HEALTHCARE (WELLESHEA)"
+    },
+    {
+        "Product Name": "MET PCO SR TAB",
+        "Pack": "15TAB",
         "Company Name": "AKUMENTIS HEALTHCARE (WELLESHEA)"
     },
     {
@@ -16782,6 +16792,11 @@ const navkarMedicineData = [
     {
         "Product Name": "KOFASK SYRUP",
         "Pack": "60ML",
+        "Company Name": "ASKEM PHARMA"
+    },
+    {
+        "Product Name": "KRINAC SP TAB",
+        "Pack": "10 TAB",
         "Company Name": "ASKEM PHARMA"
     },
     {
@@ -37840,6 +37855,16 @@ const navkarMedicineData = [
         "Company Name": "ERIS LIFE SCIENCES (ETERNA)"
     },
     {
+        "Product Name": "COSLO XR 100",
+        "Pack": "10'S",
+        "Company Name": "ERIS LIFE SCIENCES (ETERNA)"
+    },
+    {
+        "Product Name": "COSLO XR 200",
+        "Pack": "10'S",
+        "Company Name": "ERIS LIFE SCIENCES (ETERNA)"
+    },
+    {
         "Product Name": "DESVAL ER 250MG TAB",
         "Pack": "TAB",
         "Company Name": "ERIS LIFE SCIENCES (ETERNA)"
@@ -53070,6 +53095,21 @@ const navkarMedicineData = [
         "Company Name": "INDCHEMIE HEALTH SPECIALITIES PVT. LTD"
     },
     {
+        "Product Name": "LIPIES 10 TAB",
+        "Pack": "15TAB",
+        "Company Name": "INDCHEMIE HEALTH SPECIALITIES PVT. LTD"
+    },
+    {
+        "Product Name": "LIPIES 20 TAB",
+        "Pack": "15TAB",
+        "Company Name": "INDCHEMIE HEALTH SPECIALITIES PVT. LTD"
+    },
+    {
+        "Product Name": "LIPIES F TAB",
+        "Pack": "10TAB",
+        "Company Name": "INDCHEMIE HEALTH SPECIALITIES PVT. LTD"
+    },
+    {
         "Product Name": "MUSCODAC GEL 30GM",
         "Pack": "30GM",
         "Company Name": "INDCHEMIE HEALTH SPECIALITIES PVT. LTD"
@@ -53102,6 +53142,11 @@ const navkarMedicineData = [
     {
         "Product Name": "SOFZID WOMAN CAP",
         "Pack": "15CAP",
+        "Company Name": "INDCHEMIE HEALTH SPECIALITIES PVT. LTD"
+    },
+    {
+        "Product Name": "ZECAL MG TAB",
+        "Pack": "15TAB",
         "Company Name": "INDCHEMIE HEALTH SPECIALITIES PVT. LTD"
     },
     {
@@ -54362,6 +54407,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ALZIL M 5MG TAB",
         "Pack": "10TAB",
+        "Company Name": "INTAS (AVANTA)"
+    },
+    {
+        "Product Name": "BRIVAZEN 100 TAB",
+        "Pack": "15TAB",
         "Company Name": "INTAS (AVANTA)"
     },
     {
@@ -68115,6 +68165,11 @@ const navkarMedicineData = [
         "Company Name": "LA RENON LAVIATOR"
     },
     {
+        "Product Name": "BRIVAHENZ 25 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "LA RENON LAVIATOR"
+    },
+    {
         "Product Name": "BRIVAHENZ 50 TAB",
         "Pack": "15 TAB",
         "Company Name": "LA RENON LAVIATOR"
@@ -79400,6 +79455,11 @@ const navkarMedicineData = [
         "Company Name": "MANEESH PHARMACEUTICALS"
     },
     {
+        "Product Name": "FIXMAN 200 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "MANEESH PHARMACEUTICALS"
+    },
+    {
         "Product Name": "AMROBRUT CREAM 25 GM",
         "Pack": "25 GM",
         "Company Name": "MANKIND PHARMA (3D)"
@@ -84690,6 +84750,16 @@ const navkarMedicineData = [
         "Company Name": "MAYPHARM LIFESCINCES PVT LTD"
     },
     {
+        "Product Name": "MAYMOX 375MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "MAYPHARM LIFESCINCES PVT LTD"
+    },
+    {
+        "Product Name": "MAYMOX 625MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "MAYPHARM LIFESCINCES PVT LTD"
+    },
+    {
         "Product Name": "PEGQWIK 100ML",
         "Pack": "100ML",
         "Company Name": "MAYPHARM LIFESCINCES PVT LTD"
@@ -85742,6 +85812,11 @@ const navkarMedicineData = [
     {
         "Product Name": "FINEDHEA SR TAB",
         "Pack": "10 TAB",
+        "Company Name": "BONETAS K2 TAB"
+    },
+    {
+        "Product Name": "FOLCAN NVP 30 TAB",
+        "Pack": "30TAB",
         "Company Name": "BONETAS K2 TAB"
     },
     {
@@ -101268,6 +101343,16 @@ const navkarMedicineData = [
         "Product Name": "XENOBID NEW 275 TABH",
         "Pack": "10'S",
         "Company Name": "SHREYA LIFE SCIENCES PVT. LTD."
+    },
+    {
+        "Product Name": "FIXMAN CV 200 TAB",
+        "Pack": "10S",
+        "Company Name": "SIGMA SVIZERA HEALTHCARE"
+    },
+    {
+        "Product Name": "FIXMAN DRY SYRUP 8G/30ML",
+        "Pack": "30ML",
+        "Company Name": "SIGMA SVIZERA HEALTHCARE"
     },
     {
         "Product Name": "CALAME SOFT LOTION",

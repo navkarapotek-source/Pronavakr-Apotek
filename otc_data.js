@@ -3270,6 +3270,11 @@ const otcData = [
         "Company Name": "HINDUSTAN UNILEVER LIMITED"
     },
     {
+        "Product Name": "DOVE DAILY SHINE SHAMPOO",
+        "Pack": "75ML",
+        "Company Name": "HINDUSTAN UNILEVER LIMITED"
+    },
+    {
         "Product Name": "DOVE HAIRFALL CONDITIONER",
         "Pack": "75ML",
         "Company Name": "HINDUSTAN UNILEVER LIMITED"
@@ -6935,7 +6940,7 @@ const otcData = [
         "Company Name": "VICCO LABORATORIES"
     },
     {
-        "Product Name": "VICCO TURMARIC CREAM 70GM",
+        "Product Name": "VICCO TURMARIC CREAM 70GMH",
         "Pack": "70GM",
         "Company Name": "VICCO LABORATORIES"
     },
