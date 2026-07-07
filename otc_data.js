@@ -4910,13 +4910,13 @@ const otcData = [
         "Company Name": "PROCTER & GAMBLE HEALTH LTD."
     },
     {
-        "Product Name": "WHISPER NIGHT XXL [MRP 110]",
-        "Pack": "7PC",
+        "Product Name": "WHISPER NIGHT XXL 16PCS",
+        "Pack": "16PC",
         "Company Name": "PROCTER & GAMBLE HEALTH LTD."
     },
     {
-        "Product Name": "WHISPER NIGHT XXL 16PCS",
-        "Pack": "16PC",
+        "Product Name": "WHISPER REGULAR [MRP 115]",
+        "Pack": "120PCS",
         "Company Name": "PROCTER & GAMBLE HEALTH LTD."
     },
     {

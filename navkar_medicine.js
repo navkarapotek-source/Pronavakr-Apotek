@@ -18015,33 +18015,8 @@ const navkarMedicineData = [
         "Company Name": "BIOCHEM (VIVO)"
     },
     {
-        "Product Name": "BIOPIPER TZ 2.25G INJ",
-        "Pack": "INJ",
-        "Company Name": "BIOCON LIMITED (CARDIOLOGY)"
-    },
-    {
-        "Product Name": "BIOPIPER TZ 4.5G INJ",
-        "Pack": "4.5G INJ",
-        "Company Name": "BIOCON LIMITED (CARDIOLOGY)"
-    },
-    {
-        "Product Name": "CEGAVA 1.5G INJ",
-        "Pack": "1.5G INJ",
-        "Company Name": "BIOCON LIMITED (CARDIOLOGY)"
-    },
-    {
         "Product Name": "DYNALIX 40 MG INJ",
         "Pack": "40MG",
-        "Company Name": "BIOCON LIMITED (CARDIOLOGY)"
-    },
-    {
-        "Product Name": "FERVAY 1.5 G INJ",
-        "Pack": "1.5MG",
-        "Company Name": "BIOCON LIMITED (CARDIOLOGY)"
-    },
-    {
-        "Product Name": "FERVAY 500 TAB",
-        "Pack": "500 TAB",
         "Company Name": "BIOCON LIMITED (CARDIOLOGY)"
     },
     {
@@ -18065,28 +18040,8 @@ const navkarMedicineData = [
         "Company Name": "BIOCON LIMITED (CARDIOLOGY)"
     },
     {
-        "Product Name": "PENMER 1G INJ",
-        "Pack": "INJ",
-        "Company Name": "BIOCON LIMITED (CARDIOLOGY)"
-    },
-    {
-        "Product Name": "PENMER 500 INJ",
-        "Pack": "INJ",
-        "Company Name": "BIOCON LIMITED (CARDIOLOGY)"
-    },
-    {
-        "Product Name": "PROLOP INJ",
-        "Pack": "INJ",
-        "Company Name": "BIOCON LIMITED (CARDIOLOGY)"
-    },
-    {
         "Product Name": "SUPRAVA 1 G INJ",
         "Pack": "1G INJ",
-        "Company Name": "BIOCON LIMITED (CARDIOLOGY)"
-    },
-    {
-        "Product Name": "SUPRAVA TZ 1.125 G INJ",
-        "Pack": "INJ",
         "Company Name": "BIOCON LIMITED (CARDIOLOGY)"
     },
     {
@@ -18382,11 +18337,6 @@ const navkarMedicineData = [
     {
         "Product Name": "BIOVIT MOM SF POWDER",
         "Pack": "300 GM",
-        "Company Name": "BIOVITAMINS PRIVATE LIMITED"
-    },
-    {
-        "Product Name": "BIOVIT POWDER",
-        "Pack": "200GM",
         "Company Name": "BIOVITAMINS PRIVATE LIMITED"
     },
     {
@@ -27430,6 +27380,11 @@ const navkarMedicineData = [
         "Company Name": "CORONA REMEDIES (SOLENZA)"
     },
     {
+        "Product Name": "RESPICURE LDP SYS",
+        "Pack": "120ML0",
+        "Company Name": "CORONA REMEDIES (SOLENZA)"
+    },
+    {
         "Product Name": "RESPICURE LS JUNIOR SYP",
         "Pack": "60ML",
         "Company Name": "CORONA REMEDIES (SOLENZA)"
@@ -32870,7 +32825,7 @@ const navkarMedicineData = [
         "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
     },
     {
-        "Product Name": "GMM 1 TAB",
+        "Product Name": "GMM 1PR TAB",
         "Pack": "10 TAB",
         "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
     },
@@ -36702,6 +36657,11 @@ const navkarMedicineData = [
     {
         "Product Name": "R-1500 TAB",
         "Pack": "10TAB",
+        "Company Name": "ENTOD OPTHAMNIC"
+    },
+    {
+        "Product Name": "SKINITRA PLUS 200 CAP",
+        "Pack": "10CAP",
         "Company Name": "ENTOD OPTHAMNIC"
     },
     {
@@ -49195,6 +49155,26 @@ const navkarMedicineData = [
         "Company Name": "HBC LIFESCIENCES AURA"
     },
     {
+        "Product Name": "VOLICURE TRIO FORTE 1/0.2 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "HBC LIFESCIENCES AURA"
+    },
+    {
+        "Product Name": "VOLICURE TRIO FORTE 2/0.2 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "HBC LIFESCIENCES AURA"
+    },
+    {
+        "Product Name": "VOLICURE TRIO FORTE 2/0.3 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "HBC LIFESCIENCES AURA"
+    },
+    {
+        "Product Name": "VOLICURE TRIO FORTE 3/0.3 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "HBC LIFESCIENCES AURA"
+    },
+    {
         "Product Name": "ARGI GOLD 1 GM TAB",
         "Pack": "10'S",
         "Company Name": "HBC LIFESCIENCES GLORIA"
@@ -61215,24 +61195,29 @@ const navkarMedicineData = [
         "Company Name": "IPCA LABORATORIES (INTIMA)"
     },
     {
+        "Product Name": "PACIMOL DROPS",
+        "Pack": "15ML",
+        "Company Name": "IPCA LABORATORIES (INTIMA)"
+    },
+    {
         "Product Name": "PACIMOL DS 250 SUSP",
         "Pack": "60ML",
-        "Company Name": "PACIMOL DROPS"
+        "Company Name": "IPCA LABORATORIES (INTIMA)"
     },
     {
         "Product Name": "PACIMOL IV 100 ML",
         "Pack": "100 ML",
-        "Company Name": "PACIMOL DROPS"
+        "Company Name": "IPCA LABORATORIES (INTIMA)"
     },
     {
         "Product Name": "PACIMOL MF TAB",
         "Pack": "10 TAB",
-        "Company Name": "PACIMOL DROPS"
+        "Company Name": "IPCA LABORATORIES (INTIMA)"
     },
     {
         "Product Name": "TAZOFAST 4.5 GM",
         "Pack": "VAIL",
-        "Company Name": "PACIMOL DROPS"
+        "Company Name": "IPCA LABORATORIES (INTIMA)"
     },
     {
         "Product Name": "AQUASURGE  MAX EYE DROPS 10ML",
@@ -66697,6 +66682,11 @@ const navkarMedicineData = [
     {
         "Product Name": "DENTE91 TOOTHPASTE 100 GM",
         "Pack": "100 GM",
+        "Company Name": "LA RENON HEALTH CARE (ORAL)"
+    },
+    {
+        "Product Name": "SIRACILT BODY WASH",
+        "Pack": "200ML",
         "Company Name": "LA RENON HEALTH CARE (ORAL)"
     },
     {
@@ -83565,6 +83555,11 @@ const navkarMedicineData = [
         "Company Name": "MANKIND PHARMA (STAR)"
     },
     {
+        "Product Name": "GUDCEF 100 DRY SYS",
+        "Pack": "60ML",
+        "Company Name": "MANKIND PHARMA (STAR)"
+    },
+    {
         "Product Name": "GUDCEF 100MG DRY SYP",
         "Pack": "30ML",
         "Company Name": "MANKIND PHARMA (STAR)"
@@ -88195,6 +88190,11 @@ const navkarMedicineData = [
         "Company Name": "MERCK SPECIALITIE LTD(CM CARE)"
     },
     {
+        "Product Name": "NASOMIST NASAL SPRAY",
+        "Pack": "20ML",
+        "Company Name": "MERCK SPECIALITIES PVT.LTD"
+    },
+    {
         "Product Name": "AYURVEL POWDER [JAR]",
         "Pack": "60GM",
         "Company Name": "MERIDIAN ENTERPRISES"
@@ -88332,11 +88332,6 @@ const navkarMedicineData = [
     {
         "Product Name": "NASOMIST [XP] DROPS",
         "Pack": "15ML",
-        "Company Name": "MERIDIAN ENTERPRISES"
-    },
-    {
-        "Product Name": "NASOMIST NASAL SPRAY .",
-        "Pack": "20ML",
         "Company Name": "MERIDIAN ENTERPRISES"
     },
     {
@@ -93200,6 +93195,11 @@ const navkarMedicineData = [
         "Company Name": "OVERSEAS HEALTH CARE P.L"
     },
     {
+        "Product Name": "MOFESTAT S TAB",
+        "Pack": "10TAB",
+        "Company Name": "OVERSEAS HEALTH CARE P.L"
+    },
+    {
         "Product Name": "MOXIGEM-625 TABLET",
         "Pack": "10 TAB",
         "Company Name": "OVERSEAS HEALTH CARE P.L"
@@ -93915,8 +93915,18 @@ const navkarMedicineData = [
         "Company Name": "PHARMAC DRUGS(MAXIMMA DIV)"
     },
     {
+        "Product Name": "SACCROMAC LB SACHET",
+        "Pack": "GM",
+        "Company Name": "PHARMAC DRUGS(MAXIMMA DIV)"
+    },
+    {
         "Product Name": "SUREMUNE TAB",
         "Pack": "10 TAB",
+        "Company Name": "PHARMAC DRUGS(MAXIMMA DIV)"
+    },
+    {
+        "Product Name": "TOXOLAX TAB",
+        "Pack": "10TAB",
         "Company Name": "PHARMAC DRUGS(MAXIMMA DIV)"
     },
     {
@@ -107535,6 +107545,11 @@ const navkarMedicineData = [
         "Company Name": "SVIZERA HEALTHCARE (INSPIRA)"
     },
     {
+        "Product Name": "VITEXID PLUS CAP",
+        "Pack": "10CAP",
+        "Company Name": "SVIZERA HEALTHCARE (INSPIRA)"
+    },
+    {
         "Product Name": "VITEXID SYR",
         "Pack": "200 ML",
         "Company Name": "SVIZERA HEALTHCARE (INSPIRA)"
@@ -119175,6 +119190,66 @@ const navkarMedicineData = [
         "Company Name": "ZIVIRA PHARMA"
     },
     {
+        "Product Name": "BIOPIPER TZ 2.25G INJ",
+        "Pack": "INJ",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "BIOPIPER TZ 4.5G INJ",
+        "Pack": "4.5G INJ",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "CEGAVA 1.5G INJ",
+        "Pack": "1.5G INJ",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "CEGAVA 1G INJ",
+        "Pack": "VIAL",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "CELRIM TZ 1.125G INJ",
+        "Pack": "VIAL",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "COSKLOT 250 TAB",
+        "Pack": "10TAB",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "COSKLOT 500 TAB",
+        "Pack": "10TAB",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "COSKLOT HMB TAB",
+        "Pack": "10TAB",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "COSKLOT MF TAB",
+        "Pack": "10TAB",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "COSKLOT PLUS TAB",
+        "Pack": "10TAB",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "COSLYTE ORANGE 21GM",
+        "Pack": "21GM",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "COSLYTE ORS 4.4G",
+        "Pack": "4.4G",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
         "Product Name": "DECOKIT S NASAL SPRAY 20ML",
         "Pack": "20ML",
         "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
@@ -119185,6 +119260,11 @@ const navkarMedicineData = [
         "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
     },
     {
+        "Product Name": "DENSICAL XT TAB",
+        "Pack": "TAB",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
         "Product Name": "DLUNE D3 800 DROPS",
         "Pack": "15ML",
         "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
@@ -119192,6 +119272,16 @@ const navkarMedicineData = [
     {
         "Product Name": "DLUNE D3 SG CAP",
         "Pack": "4 CAP",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "DROPHARM TAB",
+        "Pack": "10TAB",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "DYNALIX 60 MG INJ",
+        "Pack": "VIAL",
         "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
     },
     {
@@ -119212,6 +119302,36 @@ const navkarMedicineData = [
     {
         "Product Name": "EMPLIC M 500 TAB",
         "Pack": "10TAB",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "FANEMIA 1K INJ 20ML",
+        "Pack": "20ML VIAL",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "FANEMIA INJ NEW",
+        "Pack": "VIAL",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "FEROSE IV INJ 10ML",
+        "Pack": "VIAL",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "FEROSE IV INJ 5ML",
+        "Pack": "5ML",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "FERVAY 1.5 G INJ",
+        "Pack": "1.5MG",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "FERVAY 500 TAB",
+        "Pack": "500 TAB",
         "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
     },
     {
@@ -119240,6 +119360,21 @@ const navkarMedicineData = [
         "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
     },
     {
+        "Product Name": "JECTOCOS INJ 1.5ML",
+        "Pack": "1.5ML",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "JECTOCOS LIPO TAB",
+        "Pack": "TAB",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "JECTOCOS S 200 INJ",
+        "Pack": "VIAL",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
         "Product Name": "LINECTRA 5 TAB",
         "Pack": "10TAB",
         "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
@@ -119260,6 +119395,11 @@ const navkarMedicineData = [
         "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
     },
     {
+        "Product Name": "MARZON TAB",
+        "Pack": "10TAB",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
         "Product Name": "MUCODRINE SYRUP",
         "Pack": "100ML",
         "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
@@ -119267,6 +119407,26 @@ const navkarMedicineData = [
     {
         "Product Name": "OVASIX TAB",
         "Pack": "10TAB",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "PEGZOR SYRUP 200ML",
+        "Pack": "200ML",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "PENMER 1G INJ",
+        "Pack": "INJ",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "PENMER 500 INJ",
+        "Pack": "INJ",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "PROLOP INJ",
+        "Pack": "INJ",
         "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
     },
     {
@@ -119297,6 +119457,16 @@ const navkarMedicineData = [
     {
         "Product Name": "SOFITOL LIQUID (SF) 200ML",
         "Pack": "200ML",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "SUPRAVA SB 1.5G INJ",
+        "Pack": "VIAL",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "SUPRAVA TZ 1.125 G INJ",
+        "Pack": "INJ",
         "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
     },
     {
@@ -119495,6 +119665,11 @@ const navkarMedicineData = [
         "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
     },
     {
+        "Product Name": "TAMIBID 75 CAP",
+        "Pack": "10CAP",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
+    },
+    {
         "Product Name": "ZEGABA 100 TAB",
         "Pack": "10TAB",
         "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
@@ -119507,6 +119682,16 @@ const navkarMedicineData = [
     {
         "Product Name": "ZEGABA 400 TAB",
         "Pack": "10TAB",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
+    },
+    {
+        "Product Name": "ZOLEXTRA D CAP",
+        "Pack": "15CAP",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
+    },
+    {
+        "Product Name": "ZOLEXTRA TAB",
+        "Pack": "15TAB",
         "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
     },
     {

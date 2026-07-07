@@ -8920,6 +8920,11 @@ const productData = [
         "Company Name": "FLEMINGO PRODUCTS"
     },
     {
+        "Product Name": "FLA  KNEE CAP XXL",
+        "Pack": "2  S",
+        "Company Name": "FLEMINGO PRODUCTS"
+    },
+    {
         "Product Name": "FLA ABD BELT (L) BROWN",
         "Pack": "PC",
         "Company Name": "FLEMINGO PRODUCTS"
@@ -9932,6 +9937,11 @@ const productData = [
     {
         "Product Name": "SAFTI BLOOD IV SET",
         "Pack": "1PIC",
+        "Company Name": "GENERAL COMPANIES"
+    },
+    {
+        "Product Name": "SAFTI IV SET",
+        "Pack": "PIECE",
         "Company Name": "GENERAL COMPANIES"
     },
     {
@@ -12085,7 +12095,7 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
-        "Product Name": "LEVOCETZIME-10MG TABS",
+        "Product Name": "LEVOCETZIME-10MG TAB",
         "Pack": "1X10T",
         "Company Name": "HEALING PHARMA"
     },
@@ -15597,6 +15607,11 @@ const productData = [
     {
         "Product Name": "AQUA EASY INHALER",
         "Pack": "0.5ML",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "AQUA ELBOW SUPPORT (LARGE)",
+        "Pack": "PC",
         "Company Name": "LABORATE AQUA LAB"
     },
     {
@@ -25158,11 +25173,6 @@ const productData = [
         "Product Name": "VIKAMISHI SMALL 1MTR",
         "Pack": "1MTR",
         "Company Name": "S & N"
-    },
-    {
-        "Product Name": "SAFTI IV SET",
-        "Pack": "PIECE",
-        "Company Name": "S.H.C."
     },
     {
         "Product Name": "SHATAVARE KALP ELAICHI [SAIE] 1KG",
