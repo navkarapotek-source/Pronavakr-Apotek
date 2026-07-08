@@ -3100,6 +3100,11 @@ const productData = [
         "Company Name": "BIOSYNERGY"
     },
     {
+        "Product Name": "RL 250ML (BIO)",
+        "Pack": "250ML",
+        "Company Name": "BIOSYNERGY"
+    },
+    {
         "Product Name": "RL 500ML BIO",
         "Pack": "500 ML",
         "Company Name": "BIOSYNERGY"
@@ -13845,6 +13850,11 @@ const productData = [
         "Company Name": "IKON REMEDIES PVT.LTD."
     },
     {
+        "Product Name": "RL 500ML (CAP)",
+        "Pack": "500ML",
+        "Company Name": "IND"
+    },
+    {
         "Product Name": "ALCONOL TAB",
         "Pack": "1X4TAB",
         "Company Name": "IND SWIFT LTD(MEGACARE)"
@@ -22645,13 +22655,13 @@ const productData = [
         "Company Name": "NULIFE"
     },
     {
-        "Product Name": "NULIFE EXAM NON-STERILE NITRILE GLOVES LARGE",
-        "Pack": "1PAIR",
+        "Product Name": "NULIFE EXAM GLVES LARGE",
+        "Pack": "100PIC",
         "Company Name": "NULIFE"
     },
     {
-        "Product Name": "NULIFE NITRILE EXAM GLVES LARGE",
-        "Pack": "100PIC",
+        "Product Name": "NULIFE EXAM NON-STERILE NITRILE GLOVES LARGE",
+        "Pack": "1PAIR",
         "Company Name": "NULIFE"
     },
     {
@@ -23803,11 +23813,6 @@ const productData = [
         "Product Name": "TROLLY BAG RUMAFLAM MR ON 3 BOX",
         "Pack": "PC",
         "Company Name": "REMEDIA INDIA PVT LTD"
-    },
-    {
-        "Product Name": "BREAST PUMP ( MANUAL)",
-        "Pack": "1",
-        "Company Name": "RIZ"
     },
     {
         "Product Name": "ACCU CHEK INSTANT 25 STRIP",
@@ -26385,7 +26390,7 @@ const productData = [
         "Company Name": "SMART ICONIC LAB"
     },
     {
-        "Product Name": "DINZYME TAB",
+        "Product Name": "DINZYME TABF",
         "Pack": "1X10TAB",
         "Company Name": "SMART ICONIC LAB"
     },
@@ -27625,13 +27630,13 @@ const productData = [
         "Company Name": "ALKAFRESH SODA EFFERVESCENT"
     },
     {
-        "Product Name": "AYUPASS NEEM OIL",
-        "Pack": "100ML",
+        "Product Name": "AYUPASS NEEM OIL 50ML",
+        "Pack": "50ML",
         "Company Name": "ALKAFRESH SODA EFFERVESCENT"
     },
     {
-        "Product Name": "AYUPASS NEEM OIL 50ML",
-        "Pack": "50ML",
+        "Product Name": "AYUPASS NEEM OILF",
+        "Pack": "100ML",
         "Company Name": "ALKAFRESH SODA EFFERVESCENT"
     },
     {
@@ -30140,6 +30145,16 @@ const productData = [
         "Company Name": "SURGEON"
     },
     {
+        "Product Name": "BREAST PUMP ( MANUAL)",
+        "Pack": "1",
+        "Company Name": "SURGICAL ITEM"
+    },
+    {
+        "Product Name": "BREST PUMP ELECTRIC",
+        "Pack": "PIC",
+        "Company Name": "SURGICAL ITEM"
+    },
+    {
         "Product Name": "COMM.PC CHAIR METAL HNDL",
         "Pack": "1PC",
         "Company Name": "SURGICAL ITEM"
@@ -30155,8 +30170,8 @@ const productData = [
         "Company Name": "SURGICAL ITEM"
     },
     {
-        "Product Name": "ELECTRIC BREST PUMP",
-        "Pack": "PIC",
+        "Product Name": "HOT WATER BAG 2000ML",
+        "Pack": "-",
         "Company Name": "SURGICAL ITEM"
     },
     {
@@ -30172,6 +30187,11 @@ const productData = [
     {
         "Product Name": "WALKER FLODING PLAIN",
         "Pack": "PIC",
+        "Company Name": "SURGICAL ITEM"
+    },
+    {
+        "Product Name": "WATER BED",
+        "Pack": "1",
         "Company Name": "SURGICAL ITEM"
     },
     {
@@ -30925,6 +30945,16 @@ const productData = [
         "Company Name": "T-WALKER"
     },
     {
+        "Product Name": "ABDOMINAL BELT L (UCARE)",
+        "Pack": "PC",
+        "Company Name": "UCARE"
+    },
+    {
+        "Product Name": "ABDOMINAL BELT M (UCARE)",
+        "Pack": "PC",
+        "Company Name": "UCARE"
+    },
+    {
         "Product Name": "ABDOMINAL BELT XL (UCARE)",
         "Pack": "PC",
         "Company Name": "UCARE"
@@ -30980,8 +31010,18 @@ const productData = [
         "Company Name": "UCARE"
     },
     {
+        "Product Name": "ROLLED BANDAGE 10CMX12Y",
+        "Pack": "10CMX12Y",
+        "Company Name": "UCARE"
+    },
+    {
         "Product Name": "ROLLED BANDAGE 10CMX3Y(UCARE)",
         "Pack": "1DOZ",
+        "Company Name": "UCARE"
+    },
+    {
+        "Product Name": "ROLLED BANDAGE 15CMX12Y",
+        "Pack": "15CMX12Y",
         "Company Name": "UCARE"
     },
     {
@@ -30990,13 +31030,28 @@ const productData = [
         "Company Name": "UCARE"
     },
     {
+        "Product Name": "ROLLED BANDAGE 5CMX12Y",
+        "Pack": "5CMX12Y",
+        "Company Name": "UCARE"
+    },
+    {
         "Product Name": "ROLLED BANDAGE 5CMX3Y (UCARE)",
         "Pack": "1DOZ",
         "Company Name": "UCARE"
     },
     {
+        "Product Name": "ROLLED BANDAGE 7.5CMX12Y",
+        "Pack": "7.5CMX12Y",
+        "Company Name": "UCARE"
+    },
+    {
         "Product Name": "ROLLED BANDAGE 7.5CMX3Y(UCARE)",
         "Pack": "1DOZ",
+        "Company Name": "UCARE"
+    },
+    {
+        "Product Name": "WRIST BELT UNIVERSAL(UCARE)",
+        "Pack": "PC",
         "Company Name": "UCARE"
     },
     {
@@ -31292,11 +31347,6 @@ const productData = [
     {
         "Product Name": "V L INHALER",
         "Pack": "PIC",
-        "Company Name": "V.L.P"
-    },
-    {
-        "Product Name": "WATER BED",
-        "Pack": "1",
         "Company Name": "V.L.P"
     },
     {

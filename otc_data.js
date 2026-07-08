@@ -2120,11 +2120,6 @@ const otcData = [
         "Company Name": "GENERAL...A"
     },
     {
-        "Product Name": "HEAD & SHOULDER SHAMPOO [2RS]",
-        "Pack": "5ML",
-        "Company Name": "GENERAL...A"
-    },
-    {
         "Product Name": "HEMPUSHPA SYRUP",
         "Pack": "170ML",
         "Company Name": "GENERAL...A"
@@ -4725,6 +4720,11 @@ const otcData = [
         "Company Name": "PROCTER & GAMBLE HEALTH LTD."
     },
     {
+        "Product Name": "HEAD & SHOULDER SHAMPOO [2RS]",
+        "Pack": "5ML",
+        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
+    },
+    {
         "Product Name": "PAMPER PANTS [L] RS.374",
         "Pack": "PIC",
         "Company Name": "PROCTER & GAMBLE HEALTH LTD."
@@ -6912,6 +6912,11 @@ const otcData = [
     {
         "Product Name": "VICCO POWDER 100 GM",
         "Pack": "100 GM",
+        "Company Name": "VICCO LABORATORIES"
+    },
+    {
+        "Product Name": "VICCO POWDER 20GM POUCH",
+        "Pack": "20GM",
         "Company Name": "VICCO LABORATORIES"
     },
     {
