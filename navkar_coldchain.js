@@ -905,49 +905,54 @@ const navkarColdchainData = [
         "Company Name": "LUPIN NEW CVN"
     },
     {
+        "Product Name": "BASUGINE 100IU CARTRIDGE 3ML",
+        "Pack": "3ML",
+        "Company Name": "LUPIN NEW LUPIN INSPIRE"
+    },
+    {
         "Product Name": "BASUGINE PEN",
         "Pack": "1 TAB",
-        "Company Name": "BASUGINE 100IU CARTRIDGE 3ML"
+        "Company Name": "LUPIN NEW LUPIN INSPIRE"
     },
     {
         "Product Name": "LUPISULIN - M 30/70  (5X3ML CARTRIDGE)",
         "Pack": "1INJ",
-        "Company Name": "BASUGINE 100IU CARTRIDGE 3ML"
+        "Company Name": "LUPIN NEW LUPIN INSPIRE"
     },
     {
         "Product Name": "LUPISULIN - R (5 X 3 ML CARTRIDGE)",
         "Pack": "1 TAB",
-        "Company Name": "BASUGINE 100IU CARTRIDGE 3ML"
+        "Company Name": "LUPIN NEW LUPIN INSPIRE"
     },
     {
         "Product Name": "LUPISULIN M 30/70 (1 VIAL)",
         "Pack": "1 TAB",
-        "Company Name": "BASUGINE 100IU CARTRIDGE 3ML"
+        "Company Name": "LUPIN NEW LUPIN INSPIRE"
     },
     {
         "Product Name": "LUPISULIN M 50/50 (1 VIAL)",
         "Pack": "1 TAB",
-        "Company Name": "BASUGINE 100IU CARTRIDGE 3ML"
+        "Company Name": "LUPIN NEW LUPIN INSPIRE"
     },
     {
         "Product Name": "LUPISULIN M 50/50 CARTR",
         "Pack": "5*3 ML CAR",
-        "Company Name": "BASUGINE 100IU CARTRIDGE 3ML"
+        "Company Name": "LUPIN NEW LUPIN INSPIRE"
     },
     {
         "Product Name": "LUPISULIN N 40IU INJ",
         "Pack": "VIAL",
-        "Company Name": "BASUGINE 100IU CARTRIDGE 3ML"
+        "Company Name": "LUPIN NEW LUPIN INSPIRE"
     },
     {
         "Product Name": "LUPISULIN PEN ( TWIST)",
         "Pack": "1 TAB",
-        "Company Name": "BASUGINE 100IU CARTRIDGE 3ML"
+        "Company Name": "LUPIN NEW LUPIN INSPIRE"
     },
     {
         "Product Name": "LUPISULIN R (1 VIAL)",
         "Pack": "40ML",
-        "Company Name": "BASUGINE 100IU CARTRIDGE 3ML"
+        "Company Name": "LUPIN NEW LUPIN INSPIRE"
     },
     {
         "Product Name": "DARGEN 25 MCG PFS",

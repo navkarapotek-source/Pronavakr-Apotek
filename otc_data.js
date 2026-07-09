@@ -2290,7 +2290,7 @@ const otcData = [
         "Company Name": "GENERAL...A"
     },
     {
-        "Product Name": "ORAL B SHINY SOFT MEDIUM BRUSH [11+2}",
+        "Product Name": "ORAL B SHINY MEDIUM BRUSH [11+2}",
         "Pack": "PC",
         "Company Name": "GENERAL...A"
     },
