@@ -3280,11 +3280,6 @@ const otcData = [
         "Company Name": "HINDUSTAN UNILEVER LIMITED"
     },
     {
-        "Product Name": "DOVE HAIRFALL SHAMPOO [2RS]",
-        "Pack": "6ML",
-        "Company Name": "HINDUSTAN UNILEVER LIMITED"
-    },
-    {
         "Product Name": "DOVE INTENSE REPAIR CONDITIONER",
         "Pack": "75ML",
         "Company Name": "HINDUSTAN UNILEVER LIMITED"
@@ -3312,6 +3307,11 @@ const otcData = [
     {
         "Product Name": "DOVE SERUM SOAP RS25",
         "Pack": "50GM",
+        "Company Name": "HINDUSTAN UNILEVER LIMITED"
+    },
+    {
+        "Product Name": "DOVE SHAMPOO [RS.2]",
+        "Pack": "6ML",
         "Company Name": "HINDUSTAN UNILEVER LIMITED"
     },
     {
@@ -6757,6 +6757,11 @@ const otcData = [
     {
         "Product Name": "M POKO PANTS [M7] RS.93",
         "Pack": "8PIS",
+        "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
+    },
+    {
+        "Product Name": "M POKO PANTS [NB 8]",
+        "Pack": "8PANTS",
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
     {

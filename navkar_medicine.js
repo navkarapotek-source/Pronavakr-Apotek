@@ -9120,8 +9120,8 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LAB (GENERIC) ALIVA"
     },
     {
-        "Product Name": "ALKOF COFGELS 10``S",
-        "Pack": "TAB",
+        "Product Name": "ALKOF COFGELS CAP",
+        "Pack": "15CAP",
         "Company Name": "ALKEM LAB (GENERIC) FUTURA"
     },
     {
@@ -28090,6 +28090,11 @@ const navkarMedicineData = [
         "Company Name": "CORONA REMEDIES RADIANCE"
     },
     {
+        "Product Name": "LINABITE EM 5/25/1000 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "CORONA REMEDIES RADIANCE"
+    },
+    {
         "Product Name": "OBIMET GX 0.5MG TAB",
         "Pack": "TAB",
         "Company Name": "CORONA REMEDIES RADIANCE"
@@ -45992,6 +45997,11 @@ const navkarMedicineData = [
     {
         "Product Name": "AIRTEC FB 400MG ROTACAP",
         "Pack": "30 CAP",
+        "Company Name": "GLENMARK (SHWAS 2)"
+    },
+    {
+        "Product Name": "AIRTEC SF 250MG INSTACAPS",
+        "Pack": "30`S",
         "Company Name": "GLENMARK (SHWAS 2)"
     },
     {
@@ -119587,6 +119597,11 @@ const navkarMedicineData = [
     {
         "Product Name": "SOFITOL LIQUID (SF) 200ML",
         "Pack": "200ML",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "SUPRAVA 1G INJ",
+        "Pack": "VIAL",
         "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
     },
     {

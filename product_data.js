@@ -5630,6 +5630,11 @@ const productData = [
         "Company Name": "CIPLA OTC MAIN"
     },
     {
+        "Product Name": "CLOCIP PHP REGULAR POWDER",
+        "Pack": "150GM",
+        "Company Name": "CIPLA OTC MAIN"
+    },
+    {
         "Product Name": "CLOCIP-B CREAM 10GM",
         "Pack": "1X10GM",
         "Company Name": "CIPLA OTC MAIN"
@@ -10640,6 +10645,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "AVADAFORCE 100 TAB",
+        "Pack": "4TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "AZEETOP 100 DT TAB",
         "Pack": "1X10TAB",
         "Company Name": "HEALING PHARMA"
@@ -10990,6 +11000,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "CODIVER COD LIVER CAP",
+        "Pack": "100CAP",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "COLIBROOK DROPS",
         "Pack": "30ML",
         "Company Name": "HEALING PHARMA"
@@ -11270,6 +11285,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "ENTOGEST SACHET 765MCG",
+        "Pack": "PC",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "ENTOGEST SUSPENSION",
         "Pack": "1X5ML",
         "Company Name": "HEALING PHARMA"
@@ -11317,6 +11337,11 @@ const productData = [
     {
         "Product Name": "ETORIZOX MR TAB",
         "Pack": "1X10TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "EVIBROOK 400 CAP",
+        "Pack": "10CAP",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -13081,6 +13106,11 @@ const productData = [
     },
     {
         "Product Name": "TRYPTICAN 25 TAB",
+        "Pack": "10TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "UROFLOZIN 10PR TAB",
         "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
     },
@@ -21430,6 +21460,11 @@ const productData = [
         "Company Name": "NARENDRA MARKETING"
     },
     {
+        "Product Name": "BACTIPAX-C GAUZE DRESSING",
+        "Pack": "10PCS",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
         "Product Name": "B-COZULE Z+ CAP",
         "Pack": "15CAP",
         "Company Name": "NARENDRA MARKETING"
@@ -21472,6 +21507,11 @@ const productData = [
     {
         "Product Name": "CETACARE MOIST LOTION",
         "Pack": "125ML",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "CHANDAN PERFUME BASED POWDER 10GM",
+        "Pack": "10GM",
         "Company Name": "NARENDRA MARKETING"
     },
     {
@@ -21555,6 +21595,11 @@ const productData = [
         "Company Name": "NARENDRA MARKETING"
     },
     {
+        "Product Name": "MOVIE TICKET",
+        "Pack": "1",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
         "Product Name": "NETRAGESIC MR TAB",
         "Pack": "10TAB",
         "Company Name": "NARENDRA MARKETING"
@@ -21562,6 +21607,11 @@ const productData = [
     {
         "Product Name": "NEW GRILENCTAZ + SYP",
         "Pack": "100ML",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "NIMIRF PLUS TAB",
+        "Pack": "10TAB",
         "Company Name": "NARENDRA MARKETING"
     },
     {
@@ -21622,6 +21672,11 @@ const productData = [
     {
         "Product Name": "SUN SENSE SUN SCREEN LOTION",
         "Pack": "50GM",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "VEBACTO-DS CAP",
+        "Pack": "10CAP",
         "Company Name": "NARENDRA MARKETING"
     },
     {
@@ -23228,6 +23283,16 @@ const productData = [
         "Product Name": "VAPORIZER SINGAL (TWO IN ONE)",
         "Pack": "1PC",
         "Company Name": "PERFECT SURGICARE INDUSTRIES"
+    },
+    {
+        "Product Name": "D-PROTIMAN POWDER (CHOC)",
+        "Pack": "200GM",
+        "Company Name": "PHARMACEUTICAL INSTITUTE OF INDIA PVT. LTD."
+    },
+    {
+        "Product Name": "ELECTROLYTE ORS POWDER 21.8GM",
+        "Pack": "21.8GM",
+        "Company Name": "PHARMACEUTICAL INSTITUTE OF INDIA PVT. LTD."
     },
     {
         "Product Name": "FAIR & WHITE SOAP",
