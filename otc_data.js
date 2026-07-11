@@ -3695,7 +3695,7 @@ const otcData = [
         "Company Name": "JOHNSON & JOHNSON"
     },
     {
-        "Product Name": "HAJMOLA CANDY JAR",
+        "Product Name": "HAJMOLA CANDY JAR [IMLI]",
         "Pack": "1JAR",
         "Company Name": "JOHNSON & JOHNSON"
     },

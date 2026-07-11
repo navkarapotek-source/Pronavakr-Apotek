@@ -8000,6 +8000,16 @@ const productData = [
         "Company Name": "EMCURE PHARMACEUTICALS"
     },
     {
+        "Product Name": "NECTUS TOTAL TABS",
+        "Pack": "1X10T",
+        "Company Name": "EMCURE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "NIMATOR COLD & FLU TAB",
+        "Pack": "10TAB",
+        "Company Name": "EMCURE PHARMACEUTICALS"
+    },
+    {
         "Product Name": "OMEEPUT 20 CAP",
         "Pack": "1X20CAPS",
         "Company Name": "EMCURE PHARMACEUTICALS"
@@ -20120,6 +20130,176 @@ const productData = [
         "Company Name": "MANIKIND PHARMA"
     },
     {
+        "Product Name": "ACNEKIND GEL",
+        "Pack": "22GM",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "ACNEKIND SOAP",
+        "Pack": "75GM",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "BACTOFLORA SACHETS",
+        "Pack": "1GM",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "BRUTASTRONG 100MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "CEFAGRATE 500 TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "CIPROGYL-OFM SUSP",
+        "Pack": "30ML",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "DERMIKIND CF CREAM",
+        "Pack": "15GM",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "DOLOBAN MR TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "DOLOKIND STRONG GEL",
+        "Pack": "30GM",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "DOLOKIND-RF GEL",
+        "Pack": "30GM",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "ELECTROKIND ORS LIQUID (APPLE)",
+        "Pack": "200ML",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "ELECTROKIND ORS LIQUID (ORANGE)",
+        "Pack": "200ML",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "ELECTROKIND ORS SACHET",
+        "Pack": "1X21GM",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "FLUKAYES-150 TAB",
+        "Pack": "1 TAB",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "FLUKAYES-200 TAB",
+        "Pack": "1TAB",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "ITOSTAR 100 CAP",
+        "Pack": "10CAP",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "ITOSTAR 200 CAP",
+        "Pack": "10CAP",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "MAHAKETO CREAM",
+        "Pack": "30GM",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "MANKINDS PROTEIN PWD CHOC 200 GM",
+        "Pack": "200 GM",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "NASORYL JUNIOR SPRAY",
+        "Pack": "10ML",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "NIMULID ASP TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "NIMULID COLD & FLU TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "NIMULID MD TAB",
+        "Pack": "15TAB",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "NIMULID PLUS GOLD TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "NORADAY 400 TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "NORADAY TZ TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "OSKAR 20 CAP",
+        "Pack": "15CAP",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "OSKAR DSR CAP",
+        "Pack": "10CAP",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "PANTAPOINT 40 TAB",
+        "Pack": "15TAB",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "PANTAPOINT DSR CAP",
+        "Pack": "15CAP",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "RABEPOINT DSR CAP",
+        "Pack": "15CAP",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "TUSSMARK DX SYP",
+        "Pack": "100ML",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "TUSSMARK LS DROP",
+        "Pack": "15ML",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
+        "Product Name": "TUSSMARK LS SYP",
+        "Pack": "100ML",
+        "Company Name": "MANKIND PHARMA (PRIME)"
+    },
+    {
         "Product Name": "NIMEKIND PLUS GOLD TAB",
         "Pack": "10TAB",
         "Company Name": "MANKIND PHARMA (SPECIAL)"
@@ -20175,11 +20355,6 @@ const productData = [
         "Company Name": "MANKIND PHARMA LTD."
     },
     {
-        "Product Name": "ELECTROKIND ORS SACHET",
-        "Pack": "1X21GM",
-        "Company Name": "MANKIND PHARMA LTD."
-    },
-    {
         "Product Name": "FUL-AID GOLD CAPS",
         "Pack": "1X10C",
         "Company Name": "MANKIND PHARMA LTD."
@@ -20232,11 +20407,6 @@ const productData = [
     {
         "Product Name": "MAHAGESIC-TH4 TAB",
         "Pack": "1X10TAB",
-        "Company Name": "MANKIND PHARMA LTD."
-    },
-    {
-        "Product Name": "MANKINDS PROTEIN PWD CHOC 200 GM",
-        "Pack": "200 GM",
         "Company Name": "MANKIND PHARMA LTD."
     },
     {
@@ -30215,7 +30385,7 @@ const productData = [
         "Company Name": "SURGICAL ITEM"
     },
     {
-        "Product Name": "BREST PUMP ELECTRIC",
+        "Product Name": "BREAST PUMP ELECTRIC",
         "Pack": "PIC",
         "Company Name": "SURGICAL ITEM"
     },
@@ -30232,6 +30402,11 @@ const productData = [
     {
         "Product Name": "COMMODE STOOL MS SQ PIPE",
         "Pack": "1PIC",
+        "Company Name": "SURGICAL ITEM"
+    },
+    {
+        "Product Name": "CORO GEL PAC ACTIVE COMPRESS",
+        "Pack": "PC",
         "Company Name": "SURGICAL ITEM"
     },
     {

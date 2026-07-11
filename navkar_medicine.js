@@ -3715,6 +3715,11 @@ const navkarMedicineData = [
         "Company Name": "AJANTA PHARMA (ILLUMA)"
     },
     {
+        "Product Name": "KETOGATE EYE DROPS",
+        "Pack": "5ML",
+        "Company Name": "AJANTA PHARMA (ILLUMA)"
+    },
+    {
         "Product Name": "LOTEGATE EYE DROPS",
         "Pack": "5ML",
         "Company Name": "AJANTA PHARMA (ILLUMA)"
@@ -16005,16 +16010,6 @@ const navkarMedicineData = [
         "Company Name": "ARISTO PHARMA (OSTIRAGENETICA)"
     },
     {
-        "Product Name": "NEBI 5MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "ARISTO PHARMA (OSTIRAGENETICA)"
-    },
-    {
-        "Product Name": "NEBI AM TAB",
-        "Pack": "10 TAB",
-        "Company Name": "ARISTO PHARMA (OSTIRAGENETICA)"
-    },
-    {
         "Product Name": "NEBI H TAB",
         "Pack": "10 TAB",
         "Company Name": "ARISTO PHARMA (OSTIRAGENETICA)"
@@ -16295,16 +16290,6 @@ const navkarMedicineData = [
         "Company Name": "ARISTO PHARMA (TF DIV)"
     },
     {
-        "Product Name": "MELOSET 10MG TAB",
-        "Pack": "10",
-        "Company Name": "ARISTO PHARMA (TF DIV)"
-    },
-    {
-        "Product Name": "MELOSET 3MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "ARISTO PHARMA (TF DIV)"
-    },
-    {
         "Product Name": "O STAT 60MG CAP",
         "Pack": "TAB",
         "Company Name": "ARISTO PHARMA (TF DIV)"
@@ -16580,11 +16565,6 @@ const navkarMedicineData = [
         "Company Name": "ARISTO PHARMA (TF2)"
     },
     {
-        "Product Name": "TELVAS CT LS TAB",
-        "Pack": "TAB",
-        "Company Name": "ARISTO PHARMA (TF2)"
-    },
-    {
         "Product Name": "TELVAS LN 40 TAB",
         "Pack": "10 TAB",
         "Company Name": "ARISTO PHARMA (TF2)"
@@ -16600,36 +16580,6 @@ const navkarMedicineData = [
         "Company Name": "ARISTO PHARMA (TF2)"
     },
     {
-        "Product Name": "TORSID  PLUS 10/50 TAB",
-        "Pack": "10 TAB",
-        "Company Name": "ARISTO PHARMA (TF2)"
-    },
-    {
-        "Product Name": "TORSID 10MG TAB",
-        "Pack": "TAB",
-        "Company Name": "ARISTO PHARMA (TF2)"
-    },
-    {
-        "Product Name": "TORSID 20 MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "ARISTO PHARMA (TF2)"
-    },
-    {
-        "Product Name": "TORSID 5MG TAB",
-        "Pack": "TAB",
-        "Company Name": "ARISTO PHARMA (TF2)"
-    },
-    {
-        "Product Name": "TORSID PLUS  20/50 MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "ARISTO PHARMA (TF2)"
-    },
-    {
-        "Product Name": "TORSID PLUS 5/50 MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "ARISTO PHARMA (TF2)"
-    },
-    {
         "Product Name": "TRIGLIMIPREX 1MG TAB",
         "Pack": "10 TAB",
         "Company Name": "ARISTO PHARMA (TF2)"
@@ -16638,6 +16588,56 @@ const navkarMedicineData = [
         "Product Name": "TRIGLIMIPREX 2MG TAB",
         "Pack": "10 TAB",
         "Company Name": "ARISTO PHARMA (TF2)"
+    },
+    {
+        "Product Name": "MELOSET 10MG TAB",
+        "Pack": "10",
+        "Company Name": "ARISTO PHARMA { TF3}"
+    },
+    {
+        "Product Name": "NEBI 5MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ARISTO PHARMA { TF3}"
+    },
+    {
+        "Product Name": "NEBI AM TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ARISTO PHARMA { TF3}"
+    },
+    {
+        "Product Name": "TELVAS CT LS TAB",
+        "Pack": "TAB",
+        "Company Name": "ARISTO PHARMA { TF3}"
+    },
+    {
+        "Product Name": "TORSID  PLUS 10/50 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ARISTO PHARMA { TF3}"
+    },
+    {
+        "Product Name": "TORSID 10MG TAB",
+        "Pack": "TAB",
+        "Company Name": "ARISTO PHARMA { TF3}"
+    },
+    {
+        "Product Name": "TORSID 20 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ARISTO PHARMA { TF3}"
+    },
+    {
+        "Product Name": "TORSID 5MG TAB",
+        "Pack": "TAB",
+        "Company Name": "ARISTO PHARMA { TF3}"
+    },
+    {
+        "Product Name": "TORSID PLUS  20/50 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ARISTO PHARMA { TF3}"
+    },
+    {
+        "Product Name": "TORSID PLUS 5/50 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ARISTO PHARMA { TF3}"
     },
     {
         "Product Name": "AMLOSAFE 3D 80 TAB",
@@ -38785,6 +38785,16 @@ const navkarMedicineData = [
         "Company Name": "ERIS LIFE SCIENCES (PHARMA)"
     },
     {
+        "Product Name": "SUNDAE PEN 8MG/3ML",
+        "Pack": "1'S",
+        "Company Name": "ERIS LIFE SCIENCES (PHARMA)"
+    },
+    {
+        "Product Name": "SUNDAE VIAL 8MG/3ML",
+        "Pack": "1'S",
+        "Company Name": "ERIS LIFE SCIENCES (PHARMA)"
+    },
+    {
         "Product Name": "TRIGLIMISAVE 2MG TAB",
         "Pack": "15TAB",
         "Company Name": "TRIGLIMISAVE 1 MG TAB"
@@ -39390,8 +39400,23 @@ const navkarMedicineData = [
         "Company Name": "ESSONITE PHARMACEUTICAL PVT"
     },
     {
+        "Product Name": "KIDODENT CAV SLD BUB KIDOT PASTE",
+        "Pack": "75G",
+        "Company Name": "ESVEE PHAMACHEM PVT LTD"
+    },
+    {
         "Product Name": "KIDODENT CAVITY SHIELD BRUSH",
         "Pack": "1",
+        "Company Name": "ESVEE PHAMACHEM PVT LTD"
+    },
+    {
+        "Product Name": "KIDODENT MILKY TEETH 75G (BANANA FLV)",
+        "Pack": "75GM",
+        "Company Name": "ESVEE PHAMACHEM PVT LTD"
+    },
+    {
+        "Product Name": "SENSODENT SOFT TOOTHBRUSH",
+        "Pack": "1S",
         "Company Name": "ESVEE PHAMACHEM PVT LTD"
     },
     {
@@ -48820,6 +48845,16 @@ const navkarMedicineData = [
         "Company Name": "HBC LIFESCIENCES ATRIA"
     },
     {
+        "Product Name": "METABEST GZ SR 30 TAB",
+        "Pack": "TAB",
+        "Company Name": "HBC LIFESCIENCES ATRIA"
+    },
+    {
+        "Product Name": "METABEST GZ SR 60 TAB",
+        "Pack": "TAB",
+        "Company Name": "HBC LIFESCIENCES ATRIA"
+    },
+    {
         "Product Name": "MYMI 60 K NANO SUSP",
         "Pack": "5 ML",
         "Company Name": "HBC LIFESCIENCES ATRIA"
@@ -49512,16 +49547,6 @@ const navkarMedicineData = [
     {
         "Product Name": "ELIPTIN M TAB",
         "Pack": "15 TAB",
-        "Company Name": "HBC LIFESCIENCES QURA"
-    },
-    {
-        "Product Name": "METABEST GZ SR 30 TAB",
-        "Pack": "TAB",
-        "Company Name": "HBC LIFESCIENCES QURA"
-    },
-    {
-        "Product Name": "METABEST GZ SR 60 TAB",
-        "Pack": "TAB",
         "Company Name": "HBC LIFESCIENCES QURA"
     },
     {
@@ -59940,11 +59965,6 @@ const navkarMedicineData = [
         "Company Name": "IPCA HEALTHCARE PVT. LTD."
     },
     {
-        "Product Name": "REVELOL 40/50",
-        "Pack": "10'S",
-        "Company Name": "IPCA HEALTHCARE PVT. LTD."
-    },
-    {
         "Product Name": "SACUMADA 100 MG TAB",
         "Pack": "14 TAB",
         "Company Name": "IPCA HEALTHCARE PVT. LTD."
@@ -61952,6 +61972,11 @@ const navkarMedicineData = [
     {
         "Product Name": "MOVICAM NT FORTE 75 MG",
         "Pack": "TAB",
+        "Company Name": "IPCA LABORATORIES PVT LTD"
+    },
+    {
+        "Product Name": "PIRAMENT 400 TAB",
+        "Pack": "10TAB",
         "Company Name": "IPCA LABORATORIES PVT LTD"
     },
     {
@@ -85791,7 +85816,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "SACHET",
-        "Pack": "680",
+        "Pack": "540",
         "Company Name": "MEDIBLESS"
     },
     {
@@ -92576,7 +92601,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "SYMTONE SOFTGEL CAP",
-        "Pack": "CAP",
+        "Pack": "15 CAP",
         "Company Name": "NUVOX HEALTHCARE LTD"
     },
     {
@@ -92967,6 +92992,11 @@ const navkarMedicineData = [
     {
         "Product Name": "GIFT HANSAPLAST 1PC",
         "Pack": "1 PC",
+        "Company Name": "OTHERS"
+    },
+    {
+        "Product Name": "MELOSET 3MG TAB",
+        "Pack": "10 TAB",
         "Company Name": "OTHERS"
     },
     {
