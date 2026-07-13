@@ -15000,6 +15000,11 @@ const navkarMedicineData = [
         "Company Name": "ARISTO PHARMA"
     },
     {
+        "Product Name": "MELOSET 3MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ARISTO PHARMA"
+    },
+    {
         "Product Name": "MONTINA BL 20/10 TAB",
         "Pack": "10'S",
         "Company Name": "ARISTO PHARMA"
@@ -16005,21 +16010,6 @@ const navkarMedicineData = [
         "Company Name": "ARISTO PHARMA (OSTIRAGENETICA)"
     },
     {
-        "Product Name": "NEBI 2.5MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "ARISTO PHARMA (OSTIRAGENETICA)"
-    },
-    {
-        "Product Name": "NEBI H TAB",
-        "Pack": "10 TAB",
-        "Company Name": "ARISTO PHARMA (OSTIRAGENETICA)"
-    },
-    {
-        "Product Name": "NEBI T  TAB",
-        "Pack": "10 TAB",
-        "Company Name": "ARISTO PHARMA (OSTIRAGENETICA)"
-    },
-    {
         "Product Name": "OLMESAFE 20MG TAB",
         "Pack": "TAB",
         "Company Name": "ARISTO PHARMA (OSTIRAGENETICA)"
@@ -16267,16 +16257,6 @@ const navkarMedicineData = [
     {
         "Product Name": "GABANEURON SR 600 TAB",
         "Pack": "10TAB",
-        "Company Name": "ARISTO PHARMA (TF DIV)"
-    },
-    {
-        "Product Name": "GLYCIGON 80MG TAB",
-        "Pack": "TAB",
-        "Company Name": "ARISTO PHARMA (TF DIV)"
-    },
-    {
-        "Product Name": "GLYCIGON M TAB",
-        "Pack": "10 TAB",
         "Company Name": "ARISTO PHARMA (TF DIV)"
     },
     {
@@ -16590,8 +16570,23 @@ const navkarMedicineData = [
         "Company Name": "ARISTO PHARMA (TF2)"
     },
     {
+        "Product Name": "GLYCIGON 80MG TAB",
+        "Pack": "TAB",
+        "Company Name": "ARISTO PHARMA { TF3}"
+    },
+    {
+        "Product Name": "GLYCIGON M TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ARISTO PHARMA { TF3}"
+    },
+    {
         "Product Name": "MELOSET 10MG TAB",
         "Pack": "10",
+        "Company Name": "ARISTO PHARMA { TF3}"
+    },
+    {
+        "Product Name": "NEBI 2.5MG TAB",
+        "Pack": "10 TAB",
         "Company Name": "ARISTO PHARMA { TF3}"
     },
     {
@@ -16601,6 +16596,16 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "NEBI AM TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ARISTO PHARMA { TF3}"
+    },
+    {
+        "Product Name": "NEBI H TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ARISTO PHARMA { TF3}"
+    },
+    {
+        "Product Name": "NEBI T  TAB",
         "Pack": "10 TAB",
         "Company Name": "ARISTO PHARMA { TF3}"
     },
@@ -16792,6 +16797,11 @@ const navkarMedicineData = [
     {
         "Product Name": "KOFASK SYRUP",
         "Pack": "60ML",
+        "Company Name": "ASKEM PHARMA"
+    },
+    {
+        "Product Name": "KOFASK SYRUP 100ML",
+        "Pack": "100ML",
         "Company Name": "ASKEM PHARMA"
     },
     {
@@ -27610,6 +27620,11 @@ const navkarMedicineData = [
         "Company Name": "CORONA REMEDIES PVT. LTD AURA"
     },
     {
+        "Product Name": "ROSULESS EZ 40/10 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "CORONA REMEDIES PVT. LTD AURA"
+    },
+    {
         "Product Name": "ROSULESS F 10 MG TAB",
         "Pack": "10 TAB",
         "Company Name": "CORONA REMEDIES PVT. LTD AURA"
@@ -32840,6 +32855,11 @@ const navkarMedicineData = [
         "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
     },
     {
+        "Product Name": "GMM FORTE TABLETS",
+        "Pack": "10 TAB",
+        "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
+    },
+    {
         "Product Name": "GMM V 0.5.2 TAB",
         "Pack": "10TAB",
         "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
@@ -33518,11 +33538,6 @@ const navkarMedicineData = [
         "Product Name": "ELDERVIT 12 INJ COMNIKIT",
         "Pack": "1.5 ML",
         "Company Name": "ELDER PHARMA (ELVISTA HEALTH CARE)"
-    },
-    {
-        "Product Name": "GMM FORTE TABLETS",
-        "Pack": "10 TAB",
-        "Company Name": "ELDER PHARMACEUTICALS LTD"
     },
     {
         "Product Name": "BONMAX PTH DISPO PEN",
@@ -38782,11 +38797,6 @@ const navkarMedicineData = [
     {
         "Product Name": "SUNDAE PEN 4MG/3ML (1MG)",
         "Pack": "1 PFS",
-        "Company Name": "ERIS LIFE SCIENCES (PHARMA)"
-    },
-    {
-        "Product Name": "SUNDAE PEN 8MG/3ML",
-        "Pack": "1'S",
         "Company Name": "ERIS LIFE SCIENCES (PHARMA)"
     },
     {
@@ -51125,6 +51135,11 @@ const navkarMedicineData = [
         "Company Name": "HICURE BIOTECH"
     },
     {
+        "Product Name": "TERGEM 250 CAP- 7 CAP",
+        "Pack": "CAP",
+        "Company Name": "HICURE BIOTECH"
+    },
+    {
         "Product Name": "TRNIDE INJ",
         "Pack": "1ML",
         "Company Name": "HICURE BIOTECH"
@@ -51417,6 +51432,11 @@ const navkarMedicineData = [
     {
         "Product Name": "RENALKA SYRUP.",
         "Pack": "100ML",
+        "Company Name": "BONNISAN DROPS"
+    },
+    {
+        "Product Name": "RENOSANTE CAP",
+        "Pack": "60'S",
         "Company Name": "BONNISAN DROPS"
     },
     {
@@ -54430,11 +54450,6 @@ const navkarMedicineData = [
         "Company Name": "INGA LABORATORIES PRIVATE LIMITED"
     },
     {
-        "Product Name": "00000BRIVAZEN 100 MG",
-        "Pack": "10",
-        "Company Name": "INTAS (AVANTA)"
-    },
-    {
         "Product Name": "ALZIL 10MG TAB",
         "Pack": "10TAB",
         "Company Name": "INTAS (AVANTA)"
@@ -54631,7 +54646,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "PALMIFLAM 300 MG",
-        "Pack": "10",
+        "Pack": "10 CAP",
         "Company Name": "INTAS (AVANTA)"
     },
     {
@@ -56485,6 +56500,11 @@ const navkarMedicineData = [
         "Company Name": "INTAS PHARMACEUTICALS (AQUILA)"
     },
     {
+        "Product Name": "GABAPIN PLUS 100 TAB",
+        "Pack": "10TAB",
+        "Company Name": "INTAS PHARMACEUTICALS (AQUILA)"
+    },
+    {
         "Product Name": "GABAPIN PLUS 300 TAB",
         "Pack": "TAB",
         "Company Name": "INTAS PHARMACEUTICALS (AQUILA)"
@@ -56973,6 +56993,11 @@ const navkarMedicineData = [
         "Product Name": "ZONIMID 50MG CAP",
         "Pack": "10CAP",
         "Company Name": "INTAS PHARMACEUTICALS (ASTERA)"
+    },
+    {
+        "Product Name": "BLYNDS PRO",
+        "Pack": "50GM",
+        "Company Name": "INTAS PHARMACEUTICALS (AYOKKA)"
     },
     {
         "Product Name": "CAREL SOLUTION 60ML",
@@ -60426,6 +60451,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "RXTOR F 10MG TAB",
+        "Pack": "TAB",
+        "Company Name": "IPCA LABORATORIES (3D)"
+    },
+    {
+        "Product Name": "RXTOR F 5MG TAB",
         "Pack": "TAB",
         "Company Name": "IPCA LABORATORIES (3D)"
     },
@@ -90700,6 +90730,11 @@ const navkarMedicineData = [
         "Company Name": "MSN LABORATORIES LTD"
     },
     {
+        "Product Name": "RIOCI 2.5 TAB",
+        "Pack": "10'S",
+        "Company Name": "MSN LABORATORIES LTD"
+    },
+    {
         "Product Name": "SEMABEST 2MG INJ",
         "Pack": "1 PFS",
         "Company Name": "MSN LABORATORIES LTD"
@@ -92992,11 +93027,6 @@ const navkarMedicineData = [
     {
         "Product Name": "GIFT HANSAPLAST 1PC",
         "Pack": "1 PC",
-        "Company Name": "OTHERS"
-    },
-    {
-        "Product Name": "MELOSET 3MG TAB",
-        "Pack": "10 TAB",
         "Company Name": "OTHERS"
     },
     {
@@ -102986,7 +103016,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "GEMER SITA IR 50/500/2 TAB",
-        "Pack": "TAB",
+        "Pack": "10 TAB",
         "Company Name": "SUN PHARMA (AZURA)"
     },
     {
@@ -103122,11 +103152,6 @@ const navkarMedicineData = [
     {
         "Product Name": "ONCOTREX 7.5 TAB",
         "Pack": "10'S",
-        "Company Name": "SUN PHARMA (ONCOLOGY)"
-    },
-    {
-        "Product Name": "TERGEM 250 CAP- 7 CAP",
-        "Pack": "CAP",
         "Company Name": "SUN PHARMA (ONCOLOGY)"
     },
     {

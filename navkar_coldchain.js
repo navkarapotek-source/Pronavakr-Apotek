@@ -710,6 +710,11 @@ const navkarColdchainData = [
         "Company Name": "ERIS LIFE SCIENCES (PHARMA)"
     },
     {
+        "Product Name": "SUNDAE PEN 8MG/3ML",
+        "Pack": "1'S",
+        "Company Name": "ERIS LIFE SCIENCES (PHARMA)"
+    },
+    {
         "Product Name": "XGLAR ONE PEN",
         "Pack": "1 PEN",
         "Company Name": "ERIS LIFE SCIENCES(ASPIRE)"

@@ -19180,6 +19180,11 @@ const productData = [
         "Company Name": "LUPIN LIFESCIENCES LIMITED"
     },
     {
+        "Product Name": "DEFENAC MAXX SPRAY 55GM",
+        "Pack": "55GM",
+        "Company Name": "LUPIN LIFESCIENCES LIMITED"
+    },
+    {
         "Product Name": "DEFENAC SPRAY 20GM",
         "Pack": "20GM",
         "Company Name": "LUPIN LIFESCIENCES LIMITED"
@@ -19657,6 +19662,11 @@ const productData = [
     {
         "Product Name": "LUPIN NOTEBOOK",
         "Pack": "PC",
+        "Company Name": "LUPIN LIFESCIENCES LIMITED"
+    },
+    {
+        "Product Name": "LUPIN OMEGA 3 6 7& 9SG CAP",
+        "Pack": "60CAP",
         "Company Name": "LUPIN LIFESCIENCES LIMITED"
     },
     {
