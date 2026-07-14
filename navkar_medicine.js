@@ -34991,7 +34991,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "SYLATE INJ 2ML",
-        "Pack": "2ML",
+        "Pack": "10AMP*2ML",
         "Company Name": "EMCURE PHARMA (XENNEX)"
     },
     {
@@ -38797,11 +38797,6 @@ const navkarMedicineData = [
     {
         "Product Name": "SUNDAE PEN 4MG/3ML (1MG)",
         "Pack": "1 PFS",
-        "Company Name": "ERIS LIFE SCIENCES (PHARMA)"
-    },
-    {
-        "Product Name": "SUNDAE VIAL 8MG/3ML",
-        "Pack": "1'S",
         "Company Name": "ERIS LIFE SCIENCES (PHARMA)"
     },
     {
@@ -70320,18 +70315,8 @@ const navkarMedicineData = [
         "Company Name": "LLOYD HEALTHCARE (AURUS)"
     },
     {
-        "Product Name": "D CHOLE 60K",
-        "Pack": "TAB",
-        "Company Name": "LLOYD HEALTHCARE (CARUS)"
-    },
-    {
-        "Product Name": "ENZOLOY D TAB",
-        "Pack": "TAB",
-        "Company Name": "LLOYD HEALTHCARE (CARUS)"
-    },
-    {
-        "Product Name": "ENZOLOY TAB",
-        "Pack": "TAB",
+        "Product Name": "EMPADOZ L 10/5 TAB",
+        "Pack": "10'S",
         "Company Name": "LLOYD HEALTHCARE (CARUS)"
     },
     {
@@ -70345,38 +70330,18 @@ const navkarMedicineData = [
         "Company Name": "LLOYD HEALTHCARE (CARUS)"
     },
     {
-        "Product Name": "L PANTO 40 TAB",
-        "Pack": "15TAB",
-        "Company Name": "LLOYD HEALTHCARE (CARUS)"
-    },
-    {
-        "Product Name": "L PANTO D CAP",
-        "Pack": "10TAB",
-        "Company Name": "LLOYD HEALTHCARE (CARUS)"
-    },
-    {
         "Product Name": "LOY D3 60K",
         "Pack": "4S",
         "Company Name": "LLOYD HEALTHCARE (CARUS)"
     },
     {
-        "Product Name": "LOYFENAC T4 TAB",
-        "Pack": "15TAB",
-        "Company Name": "LLOYD HEALTHCARE (CARUS)"
-    },
-    {
-        "Product Name": "LOYFENAC TP4 TAB",
-        "Pack": "15TAB",
+        "Product Name": "LOY D3 60K 8'S",
+        "Pack": "8'S",
         "Company Name": "LLOYD HEALTHCARE (CARUS)"
     },
     {
         "Product Name": "LOYFER XT TAB",
         "Pack": "10S",
-        "Company Name": "LLOYD HEALTHCARE (CARUS)"
-    },
-    {
-        "Product Name": "LOYMAX GOLD CAP",
-        "Pack": "10 CAP",
         "Company Name": "LLOYD HEALTHCARE (CARUS)"
     },
     {
@@ -70407,16 +70372,6 @@ const navkarMedicineData = [
     {
         "Product Name": "RABEZOX D",
         "Pack": "10S",
-        "Company Name": "LLOYD HEALTHCARE (CARUS)"
-    },
-    {
-        "Product Name": "REANTRO TAB",
-        "Pack": "10TAB",
-        "Company Name": "LLOYD HEALTHCARE (CARUS)"
-    },
-    {
-        "Product Name": "ROSLOY 5 TAB",
-        "Pack": "15S",
         "Company Name": "LLOYD HEALTHCARE (CARUS)"
     },
     {
@@ -70523,6 +70478,51 @@ const navkarMedicineData = [
         "Product Name": "VILDARAY SR 50 MG TAB",
         "Pack": "10 TAB",
         "Company Name": "LLOYD HEALTHCARE (TORUS)"
+    },
+    {
+        "Product Name": "BYLENTA 20",
+        "Pack": "15'S",
+        "Company Name": "LLOYD HEALTHCARE (ZORUS)"
+    },
+    {
+        "Product Name": "BYLENTA 40",
+        "Pack": "15'S",
+        "Company Name": "LLOYD HEALTHCARE (ZORUS)"
+    },
+    {
+        "Product Name": "BYLENTA AM",
+        "Pack": "15'S",
+        "Company Name": "LLOYD HEALTHCARE (ZORUS)"
+    },
+    {
+        "Product Name": "BYLENTA CH 40",
+        "Pack": "15'S",
+        "Company Name": "LLOYD HEALTHCARE (ZORUS)"
+    },
+    {
+        "Product Name": "BYLENTA H",
+        "Pack": "15'S",
+        "Company Name": "LLOYD HEALTHCARE (ZORUS)"
+    },
+    {
+        "Product Name": "BYLENTA LN",
+        "Pack": "15'S",
+        "Company Name": "LLOYD HEALTHCARE (ZORUS)"
+    },
+    {
+        "Product Name": "BYLENTA M 25",
+        "Pack": "15'S",
+        "Company Name": "LLOYD HEALTHCARE (ZORUS)"
+    },
+    {
+        "Product Name": "BYLENTA M 50",
+        "Pack": "15'S",
+        "Company Name": "LLOYD HEALTHCARE (ZORUS)"
+    },
+    {
+        "Product Name": "BYLENTA TRIO",
+        "Pack": "15'S",
+        "Company Name": "LLOYD HEALTHCARE (ZORUS)"
     },
     {
         "Product Name": "LINARAY 5 MG TAB",
@@ -70765,11 +70765,6 @@ const navkarMedicineData = [
         "Company Name": "LLOYD HELATHCARE PORUS"
     },
     {
-        "Product Name": "EMPADOZ L 10/5 TAB",
-        "Pack": "10'S",
-        "Company Name": "LLOYD HELATHCARE PORUS"
-    },
-    {
         "Product Name": "LOYFENAC R TAB",
         "Pack": "10'S",
         "Company Name": "LLOYD HELATHCARE PORUS"
@@ -70955,51 +70950,6 @@ const navkarMedicineData = [
         "Company Name": "LLOYD HELATHCARE PORUS"
     },
     {
-        "Product Name": "BYLENTA 20",
-        "Pack": "15'S",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "BYLENTA 40",
-        "Pack": "15'S",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "BYLENTA AM",
-        "Pack": "15'S",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "BYLENTA CH 40",
-        "Pack": "15'S",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "BYLENTA H",
-        "Pack": "15'S",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "BYLENTA LN",
-        "Pack": "15'S",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "BYLENTA M 25",
-        "Pack": "15'S",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "BYLENTA M 50",
-        "Pack": "15'S",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "BYLENTA TRIO",
-        "Pack": "15'S",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
         "Product Name": "CILDIN TM 25 MG TAB",
         "Pack": "15 TAB",
         "Company Name": "LLOYDS HEALTHCARE"
@@ -71025,6 +70975,11 @@ const navkarMedicineData = [
         "Company Name": "LLOYDS HEALTHCARE"
     },
     {
+        "Product Name": "D CHOLE 60K",
+        "Pack": "TAB",
+        "Company Name": "LLOYDS HEALTHCARE"
+    },
+    {
         "Product Name": "EMPADOZ 10",
         "Pack": "10 AB",
         "Company Name": "LLOYDS HEALTHCARE"
@@ -71042,6 +70997,16 @@ const navkarMedicineData = [
     {
         "Product Name": "EMPADOZ S 25/100",
         "Pack": "10 TAB",
+        "Company Name": "LLOYDS HEALTHCARE"
+    },
+    {
+        "Product Name": "ENZOLOY D TAB",
+        "Pack": "TAB",
+        "Company Name": "LLOYDS HEALTHCARE"
+    },
+    {
+        "Product Name": "ENZOLOY TAB",
+        "Pack": "TAB",
         "Company Name": "LLOYDS HEALTHCARE"
     },
     {
@@ -71175,8 +71140,23 @@ const navkarMedicineData = [
         "Company Name": "LLOYDS HEALTHCARE"
     },
     {
-        "Product Name": "LOY D3 60K 8'S",
-        "Pack": "8'S",
+        "Product Name": "L PANTO 40 TAB",
+        "Pack": "15TAB",
+        "Company Name": "LLOYDS HEALTHCARE"
+    },
+    {
+        "Product Name": "L PANTO D CAP",
+        "Pack": "10TAB",
+        "Company Name": "LLOYDS HEALTHCARE"
+    },
+    {
+        "Product Name": "LOYFENAC TP4 TAB",
+        "Pack": "15TAB",
+        "Company Name": "LLOYDS HEALTHCARE"
+    },
+    {
+        "Product Name": "LOYMAX GOLD CAP",
+        "Pack": "10 CAP",
         "Company Name": "LLOYDS HEALTHCARE"
     },
     {
@@ -71240,6 +71220,11 @@ const navkarMedicineData = [
         "Company Name": "LLOYDS HEALTHCARE"
     },
     {
+        "Product Name": "REANTRO TAB",
+        "Pack": "10TAB",
+        "Company Name": "LLOYDS HEALTHCARE"
+    },
+    {
         "Product Name": "REMETOR CV 10MG CAP",
         "Pack": "TAB",
         "Company Name": "LLOYDS HEALTHCARE"
@@ -71266,6 +71251,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "ROSLOY 40",
+        "Pack": "15S",
+        "Company Name": "LLOYDS HEALTHCARE"
+    },
+    {
+        "Product Name": "ROSLOY 5 TAB",
         "Pack": "15S",
         "Company Name": "LLOYDS HEALTHCARE"
     },
@@ -71323,6 +71313,11 @@ const navkarMedicineData = [
         "Product Name": "ZILZOX 80 MG TAB",
         "Pack": "10 TAB",
         "Company Name": "LLOYDS HEALTHCARE"
+    },
+    {
+        "Product Name": "LOYFENAC T4 TAB",
+        "Pack": "15TAB",
+        "Company Name": "LOREAL INDIA PVT.LTD"
     },
     {
         "Product Name": "ONDERO 5 TAB",
@@ -72846,7 +72841,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "PERCIN TAB 10X5 TABLET",
-        "Pack": "1 TAB",
+        "Pack": "5 TAB",
         "Company Name": "LUPIN NEW ENDEAVOUR"
     },
     {
@@ -84855,12 +84850,12 @@ const navkarMedicineData = [
         "Company Name": "MAYPHARM LIFESCINCES PVT LTD"
     },
     {
-        "Product Name": "MAYMOX 375MG TAB",
+        "Product Name": "MAYMOX CV 375MG TAB",
         "Pack": "10TAB",
         "Company Name": "MAYPHARM LIFESCINCES PVT LTD"
     },
     {
-        "Product Name": "MAYMOX 625MG TAB",
+        "Product Name": "MAYMOX CV 625MG TAB",
         "Pack": "10TAB",
         "Company Name": "MAYPHARM LIFESCINCES PVT LTD"
     },
@@ -89983,6 +89978,11 @@ const navkarMedicineData = [
         "Product Name": "SITAPRIDE TAB",
         "Pack": "15 TAB",
         "Company Name": "MICRO LAB (GRATIA DERMA)"
+    },
+    {
+        "Product Name": "ARNIV 100 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "MICRO LAB (HEALTHCARE)"
     },
     {
         "Product Name": "ARNIV 50 TAB",
@@ -114067,6 +114067,11 @@ const navkarMedicineData = [
     {
         "Product Name": "TRACNIL M TAB",
         "Pack": "10TAB",
+        "Company Name": "TORRENT PHARMACEUTICALS LTD"
+    },
+    {
+        "Product Name": "TRAVATAN OPTHALMIC SYS",
+        "Pack": "2.5ML",
         "Company Name": "TORRENT PHARMACEUTICALS LTD"
     },
     {
