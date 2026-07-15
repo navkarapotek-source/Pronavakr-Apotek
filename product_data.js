@@ -15640,6 +15640,11 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "AQUA CYCLE HERCULES",
+        "Pack": "PC",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "AQUA DERMILAB CREAM",
         "Pack": "15GM",
         "Company Name": "LABORATE AQUA LAB"
@@ -15681,6 +15686,11 @@ const productData = [
     },
     {
         "Product Name": "AQUA IMPERIAL ELEGANCE RICE",
+        "Pack": "PC",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "AQUA KNEE CAP L",
         "Pack": "PC",
         "Company Name": "LABORATE AQUA LAB"
     },
@@ -15750,6 +15760,11 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "AQUA SAFARI TROLLY BAG VIVID PLUS",
+        "Pack": "PC",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "AQUA SLING BAG",
         "Pack": "PC",
         "Company Name": "LABORATE AQUA LAB"
@@ -15762,6 +15777,11 @@ const productData = [
     {
         "Product Name": "AQUA THERMO DIGITAL THERMOMETER",
         "Pack": "1PC",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "AQUA THUMB WRIST WRAP",
+        "Pack": "PC",
         "Company Name": "LABORATE AQUA LAB"
     },
     {
@@ -15795,6 +15815,11 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "AQUA WALL CLOCK",
+        "Pack": "PC",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "AQUA WEIGHING SCALE",
         "Pack": "1",
         "Company Name": "LABORATE AQUA LAB"
@@ -15802,6 +15827,11 @@ const productData = [
     {
         "Product Name": "AQUA ZEBRONICS HEADPHONES",
         "Pack": "PC",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "AQUACAINE GEL MINTS",
+        "Pack": "170ML",
         "Company Name": "LABORATE AQUA LAB"
     },
     {
@@ -15857,6 +15887,11 @@ const productData = [
     {
         "Product Name": "AQUAFZOLE 200 TAB",
         "Pack": "4TAB",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "AQUAFZOLE 400 TAB",
+        "Pack": "2TAB",
         "Company Name": "LABORATE AQUA LAB"
     },
     {
@@ -16180,6 +16215,16 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "DECAROLON 25 AMP",
+        "Pack": "1ML",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "DECAROLON 50 AMP",
+        "Pack": "1ML",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "DEEP RELIEF GEL 30GM",
         "Pack": "30GM",
         "Company Name": "LABORATE AQUA LAB"
@@ -16440,6 +16485,11 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "NERVE KING CAP",
+        "Pack": "10CAP",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "NERVE KING FORTE TAB",
         "Pack": "30TAB",
         "Company Name": "LABORATE AQUA LAB"
@@ -16522,6 +16572,11 @@ const productData = [
     {
         "Product Name": "PAITOR L CAP",
         "Pack": "10CAP",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "PATHARI NASHAK 200ML",
+        "Pack": "1X200ML",
         "Company Name": "LABORATE AQUA LAB"
     },
     {
@@ -16697,6 +16752,11 @@ const productData = [
     {
         "Product Name": "VOMIPRESS TAB",
         "Pack": "10TAB",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "VOTANEC 2X SPRAY 55GM",
+        "Pack": "55GM",
         "Company Name": "LABORATE AQUA LAB"
     },
     {
@@ -17067,11 +17127,6 @@ const productData = [
     {
         "Product Name": "OXYLAB 30ML INJ.",
         "Pack": "1X30ML",
-        "Company Name": "LABORATE PHARMA"
-    },
-    {
-        "Product Name": "PATHARI NASHAK 200ML",
-        "Pack": "1X200ML",
         "Company Name": "LABORATE PHARMA"
     },
     {
@@ -27597,6 +27652,11 @@ const productData = [
     {
         "Product Name": "SUGARSENSE PELLETS",
         "Pack": "110NOS",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
+        "Product Name": "SULPHANIC BOLUS (VET)",
+        "Pack": "4BOLUS",
         "Company Name": "SMART ICONIC LAB"
     },
     {

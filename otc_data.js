@@ -2420,6 +2420,11 @@ const otcData = [
         "Company Name": "GLAXO SMITHKLINE (CONSUMER HC)"
     },
     {
+        "Product Name": "CROCIN LOZENGES",
+        "Pack": "1JAR",
+        "Company Name": "GLAXO SMITHKLINE (CONSUMER HC)"
+    },
+    {
         "Product Name": "CROCIN PAIN RELIEF TAB",
         "Pack": "15 TAB",
         "Company Name": "GLAXO SMITHKLINE (CONSUMER HC)"
