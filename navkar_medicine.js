@@ -6300,6 +6300,11 @@ const navkarMedicineData = [
         "Company Name": "ALCON LABORATORIES INC"
     },
     {
+        "Product Name": "RICHAR CR 100 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ALCON PARAKH"
+    },
+    {
         "Product Name": "ABFLORA GG SACHET",
         "Pack": "1GM",
         "Company Name": "ALDRIN PHARMA PVT LTD"
@@ -6562,11 +6567,6 @@ const navkarMedicineData = [
     {
         "Product Name": "PROTINULES PL [ELICHI] 200 GM",
         "Pack": "200 GM",
-        "Company Name": "GESTOFIT 200MG CAP"
-    },
-    {
-        "Product Name": "RICHAR CR 100 MG TAB",
-        "Pack": "10 TAB",
         "Company Name": "GESTOFIT 200MG CAP"
     },
     {
@@ -27112,6 +27112,11 @@ const navkarMedicineData = [
     {
         "Product Name": "STELBID SPAS TAB",
         "Pack": "10TAB",
+        "Company Name": "B 29 TAB"
+    },
+    {
+        "Product Name": "TYVENZA 8MG/3ML PEN",
+        "Pack": "8/3ML",
         "Company Name": "B 29 TAB"
     },
     {
@@ -57845,6 +57850,21 @@ const navkarMedicineData = [
         "Company Name": "INTAS PHARMACEUTICALS (VECTOR)"
     },
     {
+        "Product Name": "CLAVINTAS 75 TAB",
+        "Pack": "15TAB",
+        "Company Name": "INTAS PHARMACEUTICALS (VECTOR)"
+    },
+    {
+        "Product Name": "CLAVINTAS A 150 TAB",
+        "Pack": "15TAB",
+        "Company Name": "INTAS PHARMACEUTICALS (VECTOR)"
+    },
+    {
+        "Product Name": "CLAVINTAS A 75 TAB",
+        "Pack": "15TAB",
+        "Company Name": "INTAS PHARMACEUTICALS (VECTOR)"
+    },
+    {
         "Product Name": "CLAVIX 75 TAB",
         "Pack": "TAB",
         "Company Name": "INTAS PHARMACEUTICALS (VECTOR)"
@@ -80850,6 +80870,11 @@ const navkarMedicineData = [
         "Company Name": "MANKIND PHARMA (FUTURE)"
     },
     {
+        "Product Name": "DENTAFORCE DT TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (FUTURE)"
+    },
+    {
         "Product Name": "DOLOFORCE DT 20MG TAB",
         "Pack": "10TAB",
         "Company Name": "MANKIND PHARMA (FUTURE)"
@@ -82415,119 +82440,124 @@ const navkarMedicineData = [
         "Company Name": "LIPIKIND AS CAP"
     },
     {
+        "Product Name": "TELMIKIND [AM] TAB",
+        "Pack": "10 TAB",
+        "Company Name": "LIPIKIND AS CAP"
+    },
+    {
         "Product Name": "TELMIKIND [AMH] TAB",
         "Pack": "10TAB",
-        "Company Name": "TELMIKIND [AM] TAB"
+        "Company Name": "LIPIKIND AS CAP"
     },
     {
         "Product Name": "TELMIKIND [H] TAB",
         "Pack": "10TAB",
-        "Company Name": "TELMIKIND [AM] TAB"
+        "Company Name": "LIPIKIND AS CAP"
     },
     {
         "Product Name": "TELMIKIND 20 TAB",
         "Pack": "10TAB",
-        "Company Name": "TELMIKIND [AM] TAB"
+        "Company Name": "LIPIKIND AS CAP"
     },
     {
         "Product Name": "TELMIKIND 40 TAB",
         "Pack": "15TAB",
-        "Company Name": "TELMIKIND [AM] TAB"
+        "Company Name": "LIPIKIND AS CAP"
     },
     {
         "Product Name": "TELMIKIND 80 TAB",
         "Pack": "10 TAB",
-        "Company Name": "TELMIKIND [AM] TAB"
+        "Company Name": "LIPIKIND AS CAP"
     },
     {
         "Product Name": "TELMIKIND AM 80 TAB",
         "Pack": "10TAB",
-        "Company Name": "TELMIKIND [AM] TAB"
+        "Company Name": "LIPIKIND AS CAP"
     },
     {
         "Product Name": "TELMIKIND AM BETA 50",
         "Pack": "10TAB",
-        "Company Name": "TELMIKIND [AM] TAB"
+        "Company Name": "LIPIKIND AS CAP"
     },
     {
         "Product Name": "TELMIKIND BETA 25 TAB",
         "Pack": "10TAB",
-        "Company Name": "TELMIKIND [AM] TAB"
+        "Company Name": "LIPIKIND AS CAP"
     },
     {
         "Product Name": "TELMIKIND BETA 50 TAB",
         "Pack": "10TAB",
-        "Company Name": "TELMIKIND [AM] TAB"
+        "Company Name": "LIPIKIND AS CAP"
     },
     {
         "Product Name": "TELMIKIND H 80 TAB",
         "Pack": "10TAB",
-        "Company Name": "TELMIKIND [AM] TAB"
+        "Company Name": "LIPIKIND AS CAP"
     },
     {
         "Product Name": "TELMIKIND MCT 25 TAB",
         "Pack": "10TAB",
-        "Company Name": "TELMIKIND [AM] TAB"
+        "Company Name": "LIPIKIND AS CAP"
     },
     {
         "Product Name": "TELMIKIND MCT 50 TAB",
         "Pack": "10TAB",
-        "Company Name": "TELMIKIND [AM] TAB"
+        "Company Name": "LIPIKIND AS CAP"
     },
     {
         "Product Name": "TELMIKIND TRIO 12.5 TAB",
         "Pack": "10TAB",
-        "Company Name": "TELMIKIND [AM] TAB"
+        "Company Name": "LIPIKIND AS CAP"
     },
     {
         "Product Name": "TELMIKIND TRIO 6.25 TAB",
         "Pack": "10TAB",
-        "Company Name": "TELMIKIND [AM] TAB"
+        "Company Name": "LIPIKIND AS CAP"
     },
     {
         "Product Name": "VOMIKIND FAST STRIP",
         "Pack": "1`S",
-        "Company Name": "TELMIKIND [AM] TAB"
+        "Company Name": "LIPIKIND AS CAP"
     },
     {
         "Product Name": "VOMIKIND INJ 10 ML",
         "Pack": "10 ML",
-        "Company Name": "TELMIKIND [AM] TAB"
+        "Company Name": "LIPIKIND AS CAP"
     },
     {
         "Product Name": "VOMIKIND INJ 2ML",
         "Pack": "2ML",
-        "Company Name": "TELMIKIND [AM] TAB"
+        "Company Name": "LIPIKIND AS CAP"
     },
     {
         "Product Name": "VOMIKIND MD 2 TAB",
         "Pack": "10TAB",
-        "Company Name": "TELMIKIND [AM] TAB"
+        "Company Name": "LIPIKIND AS CAP"
     },
     {
         "Product Name": "VOMIKIND MD 4 TAB",
         "Pack": "10 TAB",
-        "Company Name": "TELMIKIND [AM] TAB"
+        "Company Name": "LIPIKIND AS CAP"
     },
     {
         "Product Name": "VOMIKIND SYP",
         "Pack": "30ML",
-        "Company Name": "TELMIKIND [AM] TAB"
+        "Company Name": "LIPIKIND AS CAP"
     },
     {
         "Product Name": "VONALONG 10 TAB",
         "Pack": "TAB",
-        "Company Name": "TELMIKIND [AM] TAB"
+        "Company Name": "LIPIKIND AS CAP"
     },
     {
         "Product Name": "VONALONG 20 TAB",
         "Pack": "TAB",
-        "Company Name": "TELMIKIND [AM] TAB"
+        "Company Name": "LIPIKIND AS CAP"
     },
     {
         "Product Name": "ZIVERDO KIT",
         "Pack": "10 TAB",
-        "Company Name": "TELMIKIND [AM] TAB"
+        "Company Name": "LIPIKIND AS CAP"
     },
     {
         "Product Name": "ALFA MAXICAL CAP",
@@ -83275,6 +83305,11 @@ const navkarMedicineData = [
         "Company Name": "MANKIND PHARMA (SPECIAL)"
     },
     {
+        "Product Name": "KABZ END GRANULES",
+        "Pack": "120GM",
+        "Company Name": "MANKIND PHARMA (SPECIAL)"
+    },
+    {
         "Product Name": "KABZ END GRANULES 100GM",
         "Pack": "100GM",
         "Company Name": "MANKIND PHARMA (SPECIAL)"
@@ -83727,6 +83762,11 @@ const navkarMedicineData = [
     {
         "Product Name": "GUDCEF XL 200MG TAB",
         "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (STAR)"
+    },
+    {
+        "Product Name": "IPRALUNGS LD BREZPULES",
+        "Pack": "2.5ML",
         "Company Name": "MANKIND PHARMA (STAR)"
     },
     {
@@ -85886,7 +85926,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "SACHET",
-        "Pack": "440",
+        "Pack": "340",
         "Company Name": "MEDIBLESS"
     },
     {
@@ -96190,6 +96230,11 @@ const navkarMedicineData = [
         "Company Name": "PRECIA PHARMA"
     },
     {
+        "Product Name": "CORAL CALCIUM B12 TAB",
+        "Pack": "15 TAB",
+        "Company Name": "PREMIER NUTRACEUTICALS"
+    },
+    {
         "Product Name": "DILUCORT OINT",
         "Pack": "50 GM",
         "Company Name": "PRETIUM PHARMACEUTICALS"
@@ -99435,6 +99480,11 @@ const navkarMedicineData = [
         "Company Name": "RPG LIFE SCIENCE  (PINNACLE)"
     },
     {
+        "Product Name": "DASLIN CDT SYP 100ML",
+        "Pack": "100ML",
+        "Company Name": "RPG LIFE SCIENCE  (PINNACLE)"
+    },
+    {
         "Product Name": "DRAMINATE CN TAB",
         "Pack": "10 TAB",
         "Company Name": "RPG LIFE SCIENCE  (PINNACLE)"
@@ -100732,6 +100782,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ON TEARS MINI 0.5% EYE DROPS",
         "Pack": "7.5ML",
+        "Company Name": "SENTISS PHARMA PVT.LTD."
+    },
+    {
+        "Product Name": "SENTISOLO FOR OLOPATADINE 0.7%",
+        "Pack": "0.07ML",
         "Company Name": "SENTISS PHARMA PVT.LTD."
     },
     {
