@@ -6030,6 +6030,11 @@ const otcData = [
         "Company Name": "SHARANDHAR"
     },
     {
+        "Product Name": "SHATAVATRI KALP [SHARANGDHAR] TIN",
+        "Pack": "500GM",
+        "Company Name": "SHARANDHAR"
+    },
+    {
         "Product Name": "SUKHSARAK TAB [30TAB]",
         "Pack": "30TAB",
         "Company Name": "SHARANDHAR"

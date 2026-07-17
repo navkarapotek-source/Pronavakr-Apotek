@@ -4100,6 +4100,11 @@ const navkarMedicineData = [
         "Company Name": "AJANTA PHARMA (MEXLON)"
     },
     {
+        "Product Name": "BILANTA M 40/10MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "AJANTA PHARMA (MEXLON)"
+    },
+    {
         "Product Name": "CHOLTRAN SACH 5GM",
         "Pack": "5GM",
         "Company Name": "AJANTA PHARMA (MEXLON)"
@@ -10280,6 +10285,11 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LAB (VISTA)"
     },
     {
+        "Product Name": "SEMASIZE 1MG INJ",
+        "Pack": "1KIT",
+        "Company Name": "ALKEM LAB { METASMART}"
+    },
+    {
         "Product Name": "SEMASIZE PLUS 2.4MG INJ",
         "Pack": "INJ",
         "Company Name": "ALKEM LAB { METASMART}"
@@ -13160,11 +13170,6 @@ const navkarMedicineData = [
         "Company Name": "AMRUT PHARMACEUTICALS"
     },
     {
-        "Product Name": "BRIVAYES 50MG TAB",
-        "Pack": "10TAB",
-        "Company Name": "ANAX LIFESCIENCE PVT LTD"
-    },
-    {
         "Product Name": "CILCRUV 10 TAB",
         "Pack": "10TAB",
         "Company Name": "ANAX LIFESCIENCE PVT LTD"
@@ -13172,11 +13177,6 @@ const navkarMedicineData = [
     {
         "Product Name": "CILCRUV T 40 TAB",
         "Pack": "10TAB",
-        "Company Name": "ANAX LIFESCIENCE PVT LTD"
-    },
-    {
-        "Product Name": "COLAHOP SACHET",
-        "Pack": "1 UNIT",
         "Company Name": "ANAX LIFESCIENCE PVT LTD"
     },
     {
@@ -13285,6 +13285,11 @@ const navkarMedicineData = [
         "Company Name": "ANAX LIFESCIENCE PVT LTD (GYNE)"
     },
     {
+        "Product Name": "BRIVAYES 50MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "ANAX LIFESCIENCE PVT LTD(NEURO)"
+    },
+    {
         "Product Name": "COBAFOL AQ PFS INJ",
         "Pack": "1 INJ",
         "Company Name": "ANAX LIFESCIENCE PVT LTD(NEURO)"
@@ -13297,6 +13302,11 @@ const navkarMedicineData = [
     {
         "Product Name": "COBAFOL TAB",
         "Pack": "10 TAB",
+        "Company Name": "ANAX LIFESCIENCE PVT LTD(NEURO)"
+    },
+    {
+        "Product Name": "COLAHOP SACHET",
+        "Pack": "1 UNIT",
         "Company Name": "ANAX LIFESCIENCE PVT LTD(NEURO)"
     },
     {
@@ -27835,8 +27845,18 @@ const navkarMedicineData = [
         "Company Name": "CORONA REMEDIES PVT.LTD.(PIONEER)"
     },
     {
+        "Product Name": "WOKADINE 10% SYR",
+        "Pack": "500ML",
+        "Company Name": "CORONA REMEDIES PVT.LTD.(PIONEER)"
+    },
+    {
         "Product Name": "WOKADINE 2% GARGLE 50ML",
         "Pack": "50ML",
+        "Company Name": "CORONA REMEDIES PVT.LTD.(PIONEER)"
+    },
+    {
+        "Product Name": "WOKADINE 5% OINT",
+        "Pack": "125ML",
         "Company Name": "CORONA REMEDIES PVT.LTD.(PIONEER)"
     },
     {
@@ -45040,6 +45060,21 @@ const navkarMedicineData = [
         "Company Name": "GLENMARK (CV)"
     },
     {
+        "Product Name": "GLIPIQ INJ 2MG/1.5ML",
+        "Pack": "VIAL",
+        "Company Name": "GLENMARK (DIABETES CARE)"
+    },
+    {
+        "Product Name": "GLIPIQ INJ 4MG/3ML",
+        "Pack": "VIAL",
+        "Company Name": "GLENMARK (DIABETES CARE)"
+    },
+    {
+        "Product Name": "GLIPIQ INJ 8MG/6ML",
+        "Pack": "VIAL",
+        "Company Name": "GLENMARK (DIABETES CARE)"
+    },
+    {
         "Product Name": "TELMA LN 40 TAB",
         "Pack": "15 TAB",
         "Company Name": "GLENMARK (DIABETES CARE)"
@@ -45343,21 +45378,6 @@ const navkarMedicineData = [
         "Product Name": "TRIGLOW CREAM 20GM",
         "Pack": "20GM",
         "Company Name": "GLENMARK (GRACEWELL-SPECIALITY)"
-    },
-    {
-        "Product Name": "GLIPIQ INJ 2MG/1.5ML",
-        "Pack": "VIAL",
-        "Company Name": "GLENMARK (HEALTHEON)"
-    },
-    {
-        "Product Name": "GLIPIQ INJ 4MG/3ML",
-        "Pack": "VIAL",
-        "Company Name": "GLENMARK (HEALTHEON)"
-    },
-    {
-        "Product Name": "GLIPIQ INJ 8MG/6ML",
-        "Pack": "VIAL",
-        "Company Name": "GLENMARK (HEALTHEON)"
     },
     {
         "Product Name": "MAXRICH YU CREAM 100 GM",
@@ -45758,6 +45778,11 @@ const navkarMedicineData = [
         "Product Name": "MILIXIM DT 100MG TAB",
         "Pack": "TAB",
         "Company Name": "GLENMARK (MILIEUS)"
+    },
+    {
+        "Product Name": "2B12 TAB",
+        "Pack": "15TAB",
+        "Company Name": "GLENMARK (PHARMA)"
     },
     {
         "Product Name": "CANDID [B] CREAM 10GM",
@@ -65460,8 +65485,33 @@ const navkarMedicineData = [
         "Company Name": "KLM LABORATORIES PED"
     },
     {
+        "Product Name": "EXTEND TOTAL",
+        "Pack": "15TAB",
+        "Company Name": "KLM LABORATORIES PED"
+    },
+    {
+        "Product Name": "IMXIA PLUS SHAMPOO",
+        "Pack": "150ML",
+        "Company Name": "KLM LABORATORIES PED"
+    },
+    {
+        "Product Name": "K-DOX CAP",
+        "Pack": "10CAP",
+        "Company Name": "KLM LABORATORIES PED"
+    },
+    {
+        "Product Name": "KLCLAV 625MG TAB",
+        "Pack": "TAB",
+        "Company Name": "KLM LABORATORIES PED"
+    },
+    {
         "Product Name": "KLCLAV DRY SYRUP 30ML",
         "Pack": "30ML",
+        "Company Name": "KLM LABORATORIES PED"
+    },
+    {
+        "Product Name": "KLCLAV ES ORAL SUSPENSION",
+        "Pack": "50ML",
         "Company Name": "KLM LABORATORIES PED"
     },
     {
@@ -65472,6 +65522,11 @@ const navkarMedicineData = [
     {
         "Product Name": "KLM D3 NANO DROPS 30 ML",
         "Pack": "30 ML",
+        "Company Name": "KLM LABORATORIES PED"
+    },
+    {
+        "Product Name": "KLM D3 NANO SHOTS",
+        "Pack": "5ML",
         "Company Name": "KLM LABORATORIES PED"
     },
     {
@@ -65620,6 +65675,11 @@ const navkarMedicineData = [
         "Company Name": "KLM LABORATORIES PHARMA"
     },
     {
+        "Product Name": "GA 12 CREAM 30GM",
+        "Pack": "30GM",
+        "Company Name": "KLM LABORATORIES PHARMA"
+    },
+    {
         "Product Name": "GA 6 CREAM",
         "Pack": "30GM",
         "Company Name": "KLM LABORATORIES PHARMA"
@@ -65630,8 +65690,8 @@ const navkarMedicineData = [
         "Company Name": "KLM LABORATORIES PHARMA"
     },
     {
-        "Product Name": "IMXIA PLUS SHAMPOO",
-        "Pack": "150ML",
+        "Product Name": "KLMITE CREAM",
+        "Pack": "60GM",
         "Company Name": "KLM LABORATORIES PHARMA"
     },
     {
@@ -67140,134 +67200,139 @@ const navkarMedicineData = [
         "Company Name": "LA RENON HELATH CARE LAUREUS"
     },
     {
+        "Product Name": "NUHENZ CAP",
+        "Pack": "15 CAP",
+        "Company Name": "LA RENON HELATH CARE LAUREUS"
+    },
+    {
         "Product Name": "NUHENZ D TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUHENZ CAP"
+        "Company Name": "LA RENON HELATH CARE LAUREUS"
     },
     {
         "Product Name": "NUHENZ FORTE TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUHENZ CAP"
+        "Company Name": "LA RENON HELATH CARE LAUREUS"
     },
     {
         "Product Name": "NUHENZ LS TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUHENZ CAP"
+        "Company Name": "LA RENON HELATH CARE LAUREUS"
     },
     {
         "Product Name": "OLAGRESS MD 10MG TAB",
         "Pack": "TAB",
-        "Company Name": "NUHENZ CAP"
+        "Company Name": "LA RENON HELATH CARE LAUREUS"
     },
     {
         "Product Name": "OLAGRESS MD 2.5MG TAB",
         "Pack": "TAB",
-        "Company Name": "NUHENZ CAP"
+        "Company Name": "LA RENON HELATH CARE LAUREUS"
     },
     {
         "Product Name": "OLAGRESS MD 5MG TAB",
         "Pack": "TAB",
-        "Company Name": "NUHENZ CAP"
+        "Company Name": "LA RENON HELATH CARE LAUREUS"
     },
     {
         "Product Name": "PALMIGES FORTE CAP",
         "Pack": "15 CAP",
-        "Company Name": "NUHENZ CAP"
+        "Company Name": "LA RENON HELATH CARE LAUREUS"
     },
     {
         "Product Name": "PALMIGES PLUS CAP",
         "Pack": "15 CAP",
-        "Company Name": "NUHENZ CAP"
+        "Company Name": "LA RENON HELATH CARE LAUREUS"
     },
     {
         "Product Name": "PALMIGES TAB",
         "Pack": "15TAB",
-        "Company Name": "NUHENZ CAP"
+        "Company Name": "LA RENON HELATH CARE LAUREUS"
     },
     {
         "Product Name": "POGES CAP",
         "Pack": "10'S",
-        "Company Name": "NUHENZ CAP"
+        "Company Name": "LA RENON HELATH CARE LAUREUS"
     },
     {
         "Product Name": "PRAXOHENZ CR 12.5 TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUHENZ CAP"
+        "Company Name": "LA RENON HELATH CARE LAUREUS"
     },
     {
         "Product Name": "PRAXOHENZ CR 25 TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUHENZ CAP"
+        "Company Name": "LA RENON HELATH CARE LAUREUS"
     },
     {
         "Product Name": "PRAXOHENZ CZ 12.5/0.5 TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUHENZ CAP"
+        "Company Name": "LA RENON HELATH CARE LAUREUS"
     },
     {
         "Product Name": "QUOGRESS CAP",
         "Pack": "10 TAB",
-        "Company Name": "NUHENZ CAP"
+        "Company Name": "LA RENON HELATH CARE LAUREUS"
     },
     {
         "Product Name": "QUOGRESS FORTE CAP",
         "Pack": "15 CAP",
-        "Company Name": "NUHENZ CAP"
+        "Company Name": "LA RENON HELATH CARE LAUREUS"
     },
     {
         "Product Name": "QUOGRESS NEW CAP",
         "Pack": "15 TAB",
-        "Company Name": "NUHENZ CAP"
+        "Company Name": "LA RENON HELATH CARE LAUREUS"
     },
     {
         "Product Name": "ROSLAREN F 20 TAB",
         "Pack": "10TAB",
-        "Company Name": "NUHENZ CAP"
+        "Company Name": "LA RENON HELATH CARE LAUREUS"
     },
     {
         "Product Name": "THICHOREN 4MG TAB",
         "Pack": "TAB",
-        "Company Name": "NUHENZ CAP"
+        "Company Name": "LA RENON HELATH CARE LAUREUS"
     },
     {
         "Product Name": "THICHOREN 8MG TAB",
         "Pack": "10'S",
-        "Company Name": "NUHENZ CAP"
+        "Company Name": "LA RENON HELATH CARE LAUREUS"
     },
     {
         "Product Name": "THICHOREN AC 4MG TAB",
         "Pack": "TAB",
-        "Company Name": "NUHENZ CAP"
+        "Company Name": "LA RENON HELATH CARE LAUREUS"
     },
     {
         "Product Name": "THICHOREN AC 8MG TAB",
         "Pack": "TAB",
-        "Company Name": "NUHENZ CAP"
+        "Company Name": "LA RENON HELATH CARE LAUREUS"
     },
     {
         "Product Name": "VALGRESS CR 200 TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUHENZ CAP"
+        "Company Name": "LA RENON HELATH CARE LAUREUS"
     },
     {
         "Product Name": "VALGRESS CR 300MG TAB",
         "Pack": "TAB",
-        "Company Name": "NUHENZ CAP"
+        "Company Name": "LA RENON HELATH CARE LAUREUS"
     },
     {
         "Product Name": "VALGRESS CR 500MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUHENZ CAP"
+        "Company Name": "LA RENON HELATH CARE LAUREUS"
     },
     {
         "Product Name": "ZINEPRA 10MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUHENZ CAP"
+        "Company Name": "LA RENON HELATH CARE LAUREUS"
     },
     {
         "Product Name": "ZINEPRA 5MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "NUHENZ CAP"
+        "Company Name": "LA RENON HELATH CARE LAUREUS"
     },
     {
         "Product Name": "ACOTIBIEN 300 ER TAB",
@@ -83515,6 +83580,11 @@ const navkarMedicineData = [
         "Company Name": "MANKIND PHARMA (SPECIAL)"
     },
     {
+        "Product Name": "MAN XOTIC (STRABERY) CONDOM",
+        "Pack": "3 PCS",
+        "Company Name": "MANKIND PHARMA (SPECIAL)"
+    },
+    {
         "Product Name": "MAN XOTIC CHOCOLATE 20 PCS",
         "Pack": "20 PCS",
         "Company Name": "MANKIND PHARMA (SPECIAL)"
@@ -96042,6 +96112,16 @@ const navkarMedicineData = [
     {
         "Product Name": "GV BOLTS FLOWWRAP ORANGE 18G",
         "Pack": "18G",
+        "Company Name": "PIRAMAL PHARMA LIMITED"
+    },
+    {
+        "Product Name": "LACTO CALAMINE F/W BRIGHTEING",
+        "Pack": "50ML",
+        "Company Name": "PIRAMAL PHARMA LIMITED"
+    },
+    {
+        "Product Name": "LACTO CALAMINE F/W OIL CONTROL",
+        "Pack": "50ML",
         "Company Name": "PIRAMAL PHARMA LIMITED"
     },
     {
@@ -109795,174 +109875,179 @@ const navkarMedicineData = [
         "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
+        "Product Name": "LACOSAM 100 TAB",
+        "Pack": "15 TAB",
+        "Company Name": "TORRENT PHARMA (AXON)"
+    },
+    {
         "Product Name": "LACOSAM 150 TAB",
         "Pack": "15 TAB",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "LACOSAM 200 TAB",
         "Pack": "15 TAB",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "LACOSAM 50 TAB",
         "Pack": "15 TAB",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "LACOSAM INJ",
         "Pack": "20ML",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "PALIDO OD 3",
         "Pack": "10 TAB",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "PALIDO OD 6",
         "Pack": "10 TAB",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "PARADISE XR 12.5MG TAB",
         "Pack": "TAB",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "PREGALIN 100 MG CAP",
         "Pack": "15 CAP",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "PREGALIN 150MG CAP",
         "Pack": "10 CAP",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "PREGALIN 25 MG CAP",
         "Pack": "15 CAP",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "PREGALIN 50MG CAP",
         "Pack": "TAB",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "PREGALIN D 75/20 CAP",
         "Pack": "10 CAP",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "PREGALIN D 75/30 CAP",
         "Pack": "10 CAP",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "PREGALIN DM 75+20",
         "Pack": "10'S",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "PREGALIN DM 75+30 CAP",
         "Pack": "10CAP",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "PREGALIN GEL",
         "Pack": "30 GM",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "PREGALIN M 150MG CAP",
         "Pack": "10 CAP",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "PREGALIN M 75MG CAP",
         "Pack": "15 CAP",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "PREGALIN M SR 75MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "PREGALIN MNT TAB",
         "Pack": "10 TAB",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "PREGALIN NT TAB",
         "Pack": "10 TAB",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "RESPIDON 1MG TAB",
         "Pack": "TAB",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "RESPIDON 2MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "RESPIDON 3 MG TAB",
         "Pack": "TAB",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "TORVOX 10 TAB",
         "Pack": "10 TAB",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "TORVOX 20 TAB.",
         "Pack": "10 TAB",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "TORVOX 5MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "TREND XR 250MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "TREND XR 500MG TAB",
         "Pack": "TAB",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "TRINICALM FORTE TAB",
         "Pack": "15 TAB",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "TRINICALM PLUS TAB",
         "Pack": "10 TAB",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "ZISPER FORTE TAB'10S",
         "Pack": "TAB",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "ZISPER LS TAB",
         "Pack": "10 TAB",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "ZISPER PLUS TAB",
         "Pack": "10 TAB",
-        "Company Name": "LACOSAM 100 TAB"
+        "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
         "Product Name": "AZULIX 1MG TAB",
@@ -123010,6 +123095,46 @@ const navkarMedicineData = [
         "Company Name": "ZYDUS PHARMA (ZIVA) SHREE AGEN"
     },
     {
+        "Product Name": "AEROSPIN INHALER",
+        "Pack": "1",
+        "Company Name": "ZYDUS PHARMA {RESEPICURE}"
+    },
+    {
+        "Product Name": "ODIHALE 100 INH",
+        "Pack": "120",
+        "Company Name": "ZYDUS PHARMA {RESEPICURE}"
+    },
+    {
+        "Product Name": "ODIHALE 200 RESPICAPS",
+        "Pack": "30CAP",
+        "Company Name": "ZYDUS PHARMA {RESEPICURE}"
+    },
+    {
+        "Product Name": "ODIHALE 50INH",
+        "Pack": "120",
+        "Company Name": "ZYDUS PHARMA {RESEPICURE}"
+    },
+    {
+        "Product Name": "ODIHALE G 10 RESPICAPS",
+        "Pack": "30CAP",
+        "Company Name": "ZYDUS PHARMA {RESEPICURE}"
+    },
+    {
+        "Product Name": "ODIHALE G 100 INH",
+        "Pack": "120MD",
+        "Company Name": "ZYDUS PHARMA {RESEPICURE}"
+    },
+    {
+        "Product Name": "ODIHALE G50 INH CFC",
+        "Pack": "120MD",
+        "Company Name": "ZYDUS PHARMA {RESEPICURE}"
+    },
+    {
+        "Product Name": "ODIMONT AB TAB",
+        "Pack": "10TAB",
+        "Company Name": "ZYDUS PHARMA {RESEPICURE}"
+    },
+    {
         "Product Name": "ALOEKIN CREAM 50 G",
         "Pack": "50 GM",
         "Company Name": "ZYDUS PHARMA(LIVA HEALTH)SHREE"
@@ -123275,11 +123400,6 @@ const navkarMedicineData = [
         "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
     },
     {
-        "Product Name": "AEROSPIN INHALER",
-        "Pack": "1",
-        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
-    },
-    {
         "Product Name": "BILOVAS TAB 10`S",
         "Pack": "TAB",
         "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
@@ -123335,43 +123455,8 @@ const navkarMedicineData = [
         "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
     },
     {
-        "Product Name": "ODIHALE 100 INH",
-        "Pack": "120",
-        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
-    },
-    {
         "Product Name": "ODIHALE 100 RESPICAP",
         "Pack": "30",
-        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
-    },
-    {
-        "Product Name": "ODIHALE 200 RESPICAPS",
-        "Pack": "30CAP",
-        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
-    },
-    {
-        "Product Name": "ODIHALE 50INH",
-        "Pack": "120",
-        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
-    },
-    {
-        "Product Name": "ODIHALE G 10 RESPICAPS",
-        "Pack": "30CAP",
-        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
-    },
-    {
-        "Product Name": "ODIHALE G 100 INH",
-        "Pack": "120MD",
-        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
-    },
-    {
-        "Product Name": "ODIHALE G50 INH CFC",
-        "Pack": "120MD",
-        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
-    },
-    {
-        "Product Name": "ODIMONT AB TAB",
-        "Pack": "10TAB",
         "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
     },
     {

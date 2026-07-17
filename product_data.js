@@ -5250,6 +5250,11 @@ const productData = [
         "Company Name": "CIPLA"
     },
     {
+        "Product Name": "PANTOSEC 40 15TAB",
+        "Pack": "15TAB",
+        "Company Name": "CIPLA"
+    },
+    {
         "Product Name": "PANTOSEC 40MG TABS",
         "Pack": "1X10T",
         "Company Name": "CIPLA"
@@ -5711,6 +5716,11 @@ const productData = [
     },
     {
         "Product Name": "NICOGUM  FRESH MINT 4MG (16GUMS)",
+        "Pack": "16GUMS",
+        "Company Name": "CIPLA OTC MAIN"
+    },
+    {
+        "Product Name": "NICOGUM FRESH MINT 2MG",
         "Pack": "16GUMS",
         "Company Name": "CIPLA OTC MAIN"
     },
@@ -14445,6 +14455,16 @@ const productData = [
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
+        "Product Name": "CIDIPINE 10 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "CIDIPINE 20 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
         "Product Name": "CLARIFORD-250 TAB",
         "Pack": "1X10TAB",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
@@ -14452,6 +14472,11 @@ const productData = [
     {
         "Product Name": "CLARIFORD-500 TAB",
         "Pack": "10 TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "DAFLORA M 10/500 TAB",
+        "Pack": "10TAB",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
@@ -14545,6 +14570,16 @@ const productData = [
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
+        "Product Name": "ISONIT 10 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "ISONIT 20 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
         "Product Name": "JONFASTACE-GEL 30GM",
         "Pack": "30GM",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
@@ -14612,6 +14647,11 @@ const productData = [
     {
         "Product Name": "NFD-RETARD 20 TAB",
         "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "OMERTOX 20 CAP",
+        "Pack": "20CAP",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
@@ -14721,6 +14761,11 @@ const productData = [
     },
     {
         "Product Name": "TELGO-20 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "TELGO-40 TAB",
         "Pack": "10TAB",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
@@ -19791,6 +19836,11 @@ const productData = [
     },
     {
         "Product Name": "LUPIPARA FORTE SYP 60ML",
+        "Pack": "60ML",
+        "Company Name": "LUPIN LIFESCIENCES LIMITED"
+    },
+    {
+        "Product Name": "LUPIPARA SUSP 60ML",
         "Pack": "60ML",
         "Company Name": "LUPIN LIFESCIENCES LIMITED"
     },
@@ -26480,6 +26530,16 @@ const productData = [
         "Company Name": "SMART ECO"
     },
     {
+        "Product Name": "10BOX/300PC FOLDABLE PLASTIC STOOL",
+        "Pack": "PC",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
+        "Product Name": "5BOX/150PCS 6PC CELLO RICCA CUP SET 6PCS",
+        "Pack": "PC",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
         "Product Name": "ACIFRESH EG EFFERVESENT TAB",
         "Pack": "1X4TAB",
         "Company Name": "SMART ICONIC LAB"
@@ -27250,6 +27310,11 @@ const productData = [
         "Company Name": "SMART ICONIC LAB"
     },
     {
+        "Product Name": "ON 42000 BOAT  ULTIMA EMBER SMART WATCH",
+        "Pack": "PC",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
         "Product Name": "ON 6 BOX/18OPCS CELLO FLORA MUG 6PCS",
         "Pack": "PC",
         "Company Name": "SMART ICONIC LAB"
@@ -27842,6 +27907,11 @@ const productData = [
     {
         "Product Name": "ZINCOFAB TAB",
         "Pack": "1X15TAB",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
+        "Product Name": "ZZ ICONIC MR BAG",
+        "Pack": "1PC",
         "Company Name": "SMART ICONIC LAB"
     },
     {
