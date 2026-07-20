@@ -4300,7 +4300,7 @@ const otcData = [
         "Company Name": "NUTRICIA INTERNATIONAL PVT LTD"
     },
     {
-        "Product Name": "PROTINEX POWDER [CHOCLATE]H",
+        "Product Name": "PROTINEX POWDER [CHOCLATE]",
         "Pack": "250GM",
         "Company Name": "NUTRICIA INTERNATIONAL PVT LTD"
     },

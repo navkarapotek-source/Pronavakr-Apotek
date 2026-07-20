@@ -26750,7 +26750,7 @@ const productData = [
         "Company Name": "SMART ICONIC LAB"
     },
     {
-        "Product Name": "DINZYME TABF",
+        "Product Name": "DINZYME TAB",
         "Pack": "1X10TAB",
         "Company Name": "SMART ICONIC LAB"
     },

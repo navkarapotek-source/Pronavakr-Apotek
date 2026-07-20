@@ -1315,6 +1315,11 @@ const navkarColdchainData = [
         "Company Name": "SANOFI INDIA LIMITED (DIABETO INSULIN)"
     },
     {
+        "Product Name": "SOLIQUA 300IU/+INJ SOLO1 PEA IN",
+        "Pack": "INJ",
+        "Company Name": "SANOFI INDIA LIMITED (DIABETO INSULIN)"
+    },
+    {
         "Product Name": "TOUJEO 450IU SOLOSTAR INJ",
         "Pack": "VIAL",
         "Company Name": "SANOFI INDIA LIMITED (DIABETO INSULIN)"
