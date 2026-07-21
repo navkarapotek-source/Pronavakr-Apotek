@@ -8015,11 +8015,6 @@ const productData = [
         "Company Name": "EMCURE PHARMACEUTICALS"
     },
     {
-        "Product Name": "NIMATOR COLD & FLU TAB",
-        "Pack": "10TAB",
-        "Company Name": "EMCURE PHARMACEUTICALS"
-    },
-    {
         "Product Name": "OMEEPUT 20 CAP",
         "Pack": "1X20CAPS",
         "Company Name": "EMCURE PHARMACEUTICALS"
@@ -15725,6 +15720,11 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "AQUA HUNGREE PLUS SYP",
+        "Pack": "200ML",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "AQUA I MOL SUSP 100ML",
         "Pack": "100ML",
         "Company Name": "LABORATE AQUA LAB"
@@ -15747,6 +15747,11 @@ const productData = [
     {
         "Product Name": "AQUA KT5 (PLASTIC BOX)",
         "Pack": "15GM",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "AQUA LED BULB",
+        "Pack": "PC",
         "Company Name": "LABORATE AQUA LAB"
     },
     {
@@ -15801,6 +15806,11 @@ const productData = [
     },
     {
         "Product Name": "AQUA PORTABLE STOOL",
+        "Pack": "PC",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "AQUA RAIN COAT (INSTANT)",
         "Pack": "PC",
         "Company Name": "LABORATE AQUA LAB"
     },
@@ -16022,6 +16032,11 @@ const productData = [
     {
         "Product Name": "AQUAMOS CREAM 30GM",
         "Pack": "30GM",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "AQUAS D3 ORAL SOLUTION",
+        "Pack": "5ML",
         "Company Name": "LABORATE AQUA LAB"
     },
     {
@@ -16352,6 +16367,11 @@ const productData = [
     {
         "Product Name": "FUNGI X CREAM",
         "Pack": "15GM",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "GASOLAB SACHET (JEERA)",
+        "Pack": "5GM",
         "Company Name": "LABORATE AQUA LAB"
     },
     {
@@ -22165,6 +22185,11 @@ const productData = [
         "Company Name": "NAVA HEALTHCARE PVT LTD"
     },
     {
+        "Product Name": "NIMTAR COLD & FLU TAB",
+        "Pack": "10TAB",
+        "Company Name": "NECTOR LIFESCIENCES LIMITED"
+    },
+    {
         "Product Name": "AMIDURO 3ML INJ",
         "Pack": "1X3ML",
         "Company Name": "NEILSEN BIOLOGICAL PVT LTD"
@@ -27310,11 +27335,6 @@ const productData = [
         "Company Name": "SMART ICONIC LAB"
     },
     {
-        "Product Name": "ON 42000 BOAT  ULTIMA EMBER SMART WATCH",
-        "Pack": "PC",
-        "Company Name": "SMART ICONIC LAB"
-    },
-    {
         "Product Name": "ON 6 BOX/18OPCS CELLO FLORA MUG 6PCS",
         "Pack": "PC",
         "Company Name": "SMART ICONIC LAB"
@@ -29251,6 +29271,11 @@ const productData = [
     },
     {
         "Product Name": "ON 4000 GIANT PUSH & CHOP CHOPPER",
+        "Pack": "PC",
+        "Company Name": "DARKROOM SUPER DOTTED"
+    },
+    {
+        "Product Name": "ON 42000 BOAT ULTIMA EMBER SMART WATCH",
         "Pack": "PC",
         "Company Name": "DARKROOM SUPER DOTTED"
     },

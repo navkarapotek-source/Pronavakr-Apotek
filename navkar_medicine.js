@@ -39420,23 +39420,8 @@ const navkarMedicineData = [
         "Company Name": "ESSONITE PHARMACEUTICAL PVT"
     },
     {
-        "Product Name": "KIDODENT CAV SLD BUB KIDOT PASTE",
-        "Pack": "75G",
-        "Company Name": "ESVEE PHAMACHEM PVT LTD"
-    },
-    {
         "Product Name": "KIDODENT CAVITY SHIELD BRUSH",
         "Pack": "1",
-        "Company Name": "ESVEE PHAMACHEM PVT LTD"
-    },
-    {
-        "Product Name": "KIDODENT MILKY TEETH 75G (BANANA FLV)",
-        "Pack": "75GM",
-        "Company Name": "ESVEE PHAMACHEM PVT LTD"
-    },
-    {
-        "Product Name": "SENSODENT SOFT TOOTHBRUSH",
-        "Pack": "1S",
         "Company Name": "ESVEE PHAMACHEM PVT LTD"
     },
     {
@@ -52405,6 +52390,11 @@ const navkarMedicineData = [
         "Company Name": "ICON LIFE SCIENCES (MESMER)"
     },
     {
+        "Product Name": "COSATUS SYS",
+        "Pack": "ML",
+        "Company Name": "ICON LIFE SCIENCES (MESMER)"
+    },
+    {
         "Product Name": "ECT 60MG TAB",
         "Pack": "TAB",
         "Company Name": "ICON LIFE SCIENCES (MESMER)"
@@ -53805,6 +53795,16 @@ const navkarMedicineData = [
         "Company Name": "INDOCO REMEDIES (WARREN)"
     },
     {
+        "Product Name": "KIDODENT MILKY TEETH 75G (BANANA FLV)",
+        "Pack": "75GM",
+        "Company Name": "INDOCO REMEDIES (WARREN)"
+    },
+    {
+        "Product Name": "KIDODENT PASTE",
+        "Pack": "75G",
+        "Company Name": "INDOCO REMEDIES (WARREN)"
+    },
+    {
         "Product Name": "KIDODENT PASTE 60GM",
         "Pack": "60GM",
         "Company Name": "INDOCO REMEDIES (WARREN)"
@@ -53887,6 +53887,11 @@ const navkarMedicineData = [
     {
         "Product Name": "SENSODENT K PLUS 50G",
         "Pack": "50G",
+        "Company Name": "INDOCO REMEDIES (WARREN)"
+    },
+    {
+        "Product Name": "SENSODENT SOFT TOOTHBRUSH",
+        "Pack": "1S",
         "Company Name": "INDOCO REMEDIES (WARREN)"
     },
     {
@@ -62405,206 +62410,6 @@ const navkarMedicineData = [
         "Company Name": "J B CHEMICALS (AUSTER/LEKAR)"
     },
     {
-        "Product Name": "ARNILIFE 100 TAB",
-        "Pack": "14'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "ARNILIFE 50 TAB",
-        "Pack": "14'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "BISOFIVE 2.5 TAB",
-        "Pack": "15'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "BISOFIVE 5 TAB",
-        "Pack": "15'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "ESTYLO PLUS TAB",
-        "Pack": "10'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "IVABITE 10 TAB",
-        "Pack": "10'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "IVABITE 5 TAB",
-        "Pack": "10'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "IVABITE 7.5 TAB",
-        "Pack": "10'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "MULTINUS GOLD TAB",
-        "Pack": "10'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "MULTINUS LC TAB",
-        "Pack": "10'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "MULTINUS NP TAB",
-        "Pack": "10'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "MULTINUS P SR TAB",
-        "Pack": "10'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "MYMETO 3C TAB",
-        "Pack": "10'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "MYMETO 3C-25 TAB",
-        "Pack": "10'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "MYMETO 3D TAB",
-        "Pack": "10'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "MYMETO AM TAB",
-        "Pack": "10'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "MYMETO AMT TAB",
-        "Pack": "10'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "MYMETO XL 12.5 TAB",
-        "Pack": "10'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "MYMETO XL 25 TAB",
-        "Pack": "3'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "MYMETO XL 50 TAB",
-        "Pack": "10'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "MYMETO-3D*25",
-        "Pack": "10'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "ROZBITE 10 TAB",
-        "Pack": "15'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "ROZBITE 20 TAB",
-        "Pack": "15'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "ROZBITE 40 TAB",
-        "Pack": "15'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "ROZBITE ASP 10/75 CAP",
-        "Pack": "10'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "ROZBITE ASP 20/75 CAP",
-        "Pack": "10'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "ROZBITE CV 10 CAP",
-        "Pack": "10'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "ROZBITE F TAB",
-        "Pack": "10'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "ROZBITE GOLD 10 CAP",
-        "Pack": "10'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "ROZBITE GOLD 20 CAP",
-        "Pack": "10'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "TELFIVE 3D TAB",
-        "Pack": "10'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "TELFIVE 40 TAB",
-        "Pack": "15'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "TELFIVE AM TAB",
-        "Pack": "10'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "TELFIVE BETA 25 TAB",
-        "Pack": "15'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "TELFIVE BETA 50 TAB",
-        "Pack": "15'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "TELFIVE CH 40 TAB",
-        "Pack": "15'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "TELFIVE CH 6.25 TAB",
-        "Pack": "10'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "TELFIVE H TAB",
-        "Pack": "10'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "TELFIVE LN TAB",
-        "Pack": "15'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
-        "Product Name": "TELFIVE TRIO TAB",
-        "Pack": "10'S",
-        "Company Name": "J P ASSOCIATES"
-    },
-    {
         "Product Name": "AZARGA DROPS 5ML",
         "Pack": "5ML",
         "Company Name": "J.B CHEMICALS ( OPTHA DIVISION)"
@@ -71105,6 +70910,21 @@ const navkarMedicineData = [
         "Company Name": "LLOYD HELATHCARE PORUS"
     },
     {
+        "Product Name": "EMPADOZ M 12.5/1000 TAB",
+        "Pack": "10'S",
+        "Company Name": "LLOYD HELATHCARE PORUS"
+    },
+    {
+        "Product Name": "EMPADOZ S 10/100 TAB",
+        "Pack": "10'S",
+        "Company Name": "LLOYD HELATHCARE PORUS"
+    },
+    {
+        "Product Name": "EMPADOZ SM 25/100/1000 TAB",
+        "Pack": "10TAB",
+        "Company Name": "LLOYD HELATHCARE PORUS"
+    },
+    {
         "Product Name": "LOYFENAC R TAB",
         "Pack": "10'S",
         "Company Name": "LLOYD HELATHCARE PORUS"
@@ -71151,6 +70971,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "ROSLOY CV 10 TAB",
+        "Pack": "10'S",
+        "Company Name": "LLOYD HELATHCARE PORUS"
+    },
+    {
+        "Product Name": "ROSLOY EZ 20 TAB",
         "Pack": "10'S",
         "Company Name": "LLOYD HELATHCARE PORUS"
     },
@@ -71330,6 +71155,16 @@ const navkarMedicineData = [
         "Company Name": "LLOYDS HEALTHCARE"
     },
     {
+        "Product Name": "EMPADOZ L 25/5 TAB",
+        "Pack": "10TAB",
+        "Company Name": "LLOYDS HEALTHCARE"
+    },
+    {
+        "Product Name": "EMPADOZ LM 25/5/1000 TAB",
+        "Pack": "10TAB",
+        "Company Name": "LLOYDS HEALTHCARE"
+    },
+    {
         "Product Name": "EMPADOZ M 12.5/500",
         "Pack": "10 TAB",
         "Company Name": "LLOYDS HEALTHCARE"
@@ -71337,6 +71172,11 @@ const navkarMedicineData = [
     {
         "Product Name": "EMPADOZ S 25/100",
         "Pack": "10 TAB",
+        "Company Name": "LLOYDS HEALTHCARE"
+    },
+    {
+        "Product Name": "EMPADOZ SM 10/100/1000 TAB",
+        "Pack": "10'S",
         "Company Name": "LLOYDS HEALTHCARE"
     },
     {
@@ -71352,6 +71192,11 @@ const navkarMedicineData = [
     {
         "Product Name": "G'LITAR",
         "Pack": "10 TAB",
+        "Company Name": "LLOYDS HEALTHCARE"
+    },
+    {
+        "Product Name": "GLITARAY 1 TAB",
+        "Pack": "10'S",
         "Company Name": "LLOYDS HEALTHCARE"
     },
     {
@@ -71490,6 +71335,16 @@ const navkarMedicineData = [
         "Company Name": "LLOYDS HEALTHCARE"
     },
     {
+        "Product Name": "LOY CTN 2.6 TAB",
+        "Pack": "15'S",
+        "Company Name": "LLOYDS HEALTHCARE"
+    },
+    {
+        "Product Name": "LOY CTN 6.4 TAB",
+        "Pack": "10TAB",
+        "Company Name": "LLOYDS HEALTHCARE"
+    },
+    {
         "Product Name": "LOYFENAC TP4 TAB",
         "Pack": "15TAB",
         "Company Name": "LLOYDS HEALTHCARE"
@@ -71612,6 +71467,16 @@ const navkarMedicineData = [
     {
         "Product Name": "ROSLOY D 10",
         "Pack": "10S",
+        "Company Name": "LLOYDS HEALTHCARE"
+    },
+    {
+        "Product Name": "ROSLOY EZ 10",
+        "Pack": "10'S",
+        "Company Name": "LLOYDS HEALTHCARE"
+    },
+    {
+        "Product Name": "ROSLOY EZ 40 TAB",
+        "Pack": "10'S",
         "Company Name": "LLOYDS HEALTHCARE"
     },
     {
@@ -77417,6 +77282,16 @@ const navkarMedicineData = [
     {
         "Product Name": "TRENAXA SR 750 TAB",
         "Pack": "10TAB",
+        "Company Name": "MACLEODS (PHARMA)"
+    },
+    {
+        "Product Name": "UDVEZA 150MG TAB",
+        "Pack": "15TAB",
+        "Company Name": "MACLEODS (PHARMA)"
+    },
+    {
+        "Product Name": "UDVEZA 300MG TAB",
+        "Pack": "15TAB",
         "Company Name": "MACLEODS (PHARMA)"
     },
     {
@@ -86625,6 +86500,11 @@ const navkarMedicineData = [
         "Company Name": "MEDIGAP PHARMA PRIVAT LIMITED"
     },
     {
+        "Product Name": "GAPYLAC DS CAP",
+        "Pack": "10CAP",
+        "Company Name": "MEDIGAP PHARMA PRIVAT LIMITED"
+    },
+    {
         "Product Name": "LEVOGAP AX",
         "Pack": "10 TAB",
         "Company Name": "MEDIGAP PHARMA PRIVAT LIMITED"
@@ -91067,6 +90947,11 @@ const navkarMedicineData = [
     {
         "Product Name": "KLARIM 250 TAB",
         "Pack": "10'S",
+        "Company Name": "MOREPEN RX LIMITED"
+    },
+    {
+        "Product Name": "KOMPACT JUNIOR VANILLA 200GM",
+        "Pack": "200GM",
         "Company Name": "MOREPEN RX LIMITED"
     },
     {
@@ -101905,11 +101790,6 @@ const navkarMedicineData = [
         "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
     },
     {
-        "Product Name": "RELYTE RTU LIQUID",
-        "Pack": "200ML",
-        "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
-    },
-    {
         "Product Name": "SARIL TAB",
         "Pack": "10 TAB",
         "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
@@ -101917,6 +101797,11 @@ const navkarMedicineData = [
     {
         "Product Name": "SWIFTOLAC SYP",
         "Pack": "150ML",
+        "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
+    },
+    {
+        "Product Name": "VRELYTE RTU LIQUID",
+        "Pack": "200ML",
         "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
     },
     {
@@ -119518,6 +119403,226 @@ const navkarMedicineData = [
         "Product Name": "WOSULIN 30/70 40IU INJ VAIL",
         "Pack": "10ML",
         "Company Name": "WOCKHARDT LIMITED (METABOLICS)"
+    },
+    {
+        "Product Name": "ARNILIFE 100 TAB",
+        "Pack": "14'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "ARNILIFE 50 TAB",
+        "Pack": "14'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "BISOFIVE 2.5 TAB",
+        "Pack": "15'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "BISOFIVE 5 TAB",
+        "Pack": "15'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "ESTYLO PLUS TAB",
+        "Pack": "10'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "IVABITE 10 TAB",
+        "Pack": "10'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "IVABITE 5 TAB",
+        "Pack": "10'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "IVABITE 7.5 TAB",
+        "Pack": "10'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "MULTINUS GOLD TAB",
+        "Pack": "10'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "MULTINUS LC TAB",
+        "Pack": "10'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "MULTINUS NP TAB",
+        "Pack": "10'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "MULTINUS P SR TAB",
+        "Pack": "10'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "MYMETO 3C TAB",
+        "Pack": "10'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "MYMETO 3C-25 TAB",
+        "Pack": "10'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "MYMETO 3D TAB",
+        "Pack": "10'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "MYMETO AM TAB",
+        "Pack": "10'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "MYMETO AMT TAB",
+        "Pack": "10'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "MYMETO XL 12.5 TAB",
+        "Pack": "10'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "MYMETO XL 25 TAB",
+        "Pack": "3'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "MYMETO XL 50 TAB",
+        "Pack": "10'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "MYMETO-3D*25",
+        "Pack": "10'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "ROZBITE 10 TAB",
+        "Pack": "15'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "ROZBITE 20 TAB",
+        "Pack": "15'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "ROZBITE 40 TAB",
+        "Pack": "15'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "ROZBITE ASP 10/75 CAP",
+        "Pack": "10'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "ROZBITE ASP 20/75 CAP",
+        "Pack": "10'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "ROZBITE CV 10 CAP",
+        "Pack": "10'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "ROZBITE F TAB",
+        "Pack": "10'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "ROZBITE GOLD 10 CAP",
+        "Pack": "10'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "ROZBITE GOLD 20 CAP",
+        "Pack": "10'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "TELFIVE 3D TAB",
+        "Pack": "10'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "TELFIVE 40 TAB",
+        "Pack": "15'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "TELFIVE AM TAB",
+        "Pack": "10'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "TELFIVE BETA 25 TAB",
+        "Pack": "15'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "TELFIVE BETA 50 TAB",
+        "Pack": "15'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "TELFIVE CH 40 TAB",
+        "Pack": "15'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "TELFIVE CH 6.25 TAB",
+        "Pack": "10'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "TELFIVE H TAB",
+        "Pack": "10'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "TELFIVE LN TAB",
+        "Pack": "15'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "TELFIVE TRIO TAB",
+        "Pack": "10'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "XENOGLIM M1 TAB",
+        "Pack": "15'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "XENOGLIM M2 TAB",
+        "Pack": "15'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "XENOGLIM MV 1 TAB",
+        "Pack": "15'S",
+        "Company Name": "XENA CARE"
+    },
+    {
+        "Product Name": "XENOGLIM MV 2 TAB",
+        "Pack": "15'S",
+        "Company Name": "XENA CARE"
     },
     {
         "Product Name": "EUKROMA CREAM 20GM",
