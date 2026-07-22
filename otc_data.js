@@ -6690,6 +6690,11 @@ const otcData = [
         "Company Name": "SUN HEALTHCARE"
     },
     {
+        "Product Name": "M POKO PANTS [2XL] RS.36",
+        "Pack": "2PIS",
+        "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
+    },
+    {
         "Product Name": "M POKO PANTS [L1] RS.14",
         "Pack": "1PIS",
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"

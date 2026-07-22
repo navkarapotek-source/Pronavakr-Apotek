@@ -9855,6 +9855,11 @@ const productData = [
         "Company Name": "GENERAL COMPANIES"
     },
     {
+        "Product Name": "LUCKY DRAW 1.0 GIFT",
+        "Pack": "1 PACK",
+        "Company Name": "GENERAL COMPANIES"
+    },
+    {
         "Product Name": "LUPICORT ING",
         "Pack": "1VIAL",
         "Company Name": "GENERAL COMPANIES"
@@ -12751,7 +12756,7 @@ const productData = [
     },
     {
         "Product Name": "RESPOFYL RETARD 150 TAB",
-        "Pack": "10TAB",
+        "Pack": "30TAB",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -14415,7 +14420,7 @@ const productData = [
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
-        "Product Name": "AMLODE AT TB",
+        "Product Name": "AMLODE AT TAB",
         "Pack": "10TAB",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },

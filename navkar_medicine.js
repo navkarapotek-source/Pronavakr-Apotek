@@ -10405,6 +10405,11 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LAB(DERMA ONE)"
     },
     {
+        "Product Name": "TOFATOP XR TAB",
+        "Pack": "10TAB",
+        "Company Name": "ALKEM LAB(DERMA ONE)"
+    },
+    {
         "Product Name": "NEWCITA  15MG TAB",
         "Pack": "10TAB",
         "Company Name": "ALKEM LABORATORIES (ALTIS)"
@@ -20728,6 +20733,136 @@ const navkarMedicineData = [
         "Product Name": "WAVEFLU 75 TAB",
         "Pack": "10TAB",
         "Company Name": "CAFOLI LIFECARE PVT LTD"
+    },
+    {
+        "Product Name": "BONASURE PLUS TAB",
+        "Pack": "10TAB",
+        "Company Name": "CALLIDUS LIFE SCIENCES PVT.LTD."
+    },
+    {
+        "Product Name": "BONASURE-P SYP",
+        "Pack": "200ML",
+        "Company Name": "CALLIDUS LIFE SCIENCES PVT.LTD."
+    },
+    {
+        "Product Name": "CALICLAV 625 TAB",
+        "Pack": "10TAB",
+        "Company Name": "CALLIDUS LIFE SCIENCES PVT.LTD."
+    },
+    {
+        "Product Name": "CALICLAV FORTE SUSP",
+        "Pack": "30ML",
+        "Company Name": "CALLIDUS LIFE SCIENCES PVT.LTD."
+    },
+    {
+        "Product Name": "CALIDOL SP TAB",
+        "Pack": "10TAB",
+        "Company Name": "CALLIDUS LIFE SCIENCES PVT.LTD."
+    },
+    {
+        "Product Name": "CORTIZEN 6 TAB",
+        "Pack": "10TAB",
+        "Company Name": "CALLIDUS LIFE SCIENCES PVT.LTD."
+    },
+    {
+        "Product Name": "DOLACE MR TAB",
+        "Pack": "10TAB",
+        "Company Name": "CALLIDUS LIFE SCIENCES PVT.LTD."
+    },
+    {
+        "Product Name": "DOLACE P TAB",
+        "Pack": "10TAB",
+        "Company Name": "CALLIDUS LIFE SCIENCES PVT.LTD."
+    },
+    {
+        "Product Name": "FERIFAST TAB",
+        "Pack": "10TAB",
+        "Company Name": "CALLIDUS LIFE SCIENCES PVT.LTD."
+    },
+    {
+        "Product Name": "GUDSPORE SUSP",
+        "Pack": "5ML",
+        "Company Name": "CALLIDUS LIFE SCIENCES PVT.LTD."
+    },
+    {
+        "Product Name": "HISTARID TAB",
+        "Pack": "10TAB",
+        "Company Name": "CALLIDUS LIFE SCIENCES PVT.LTD."
+    },
+    {
+        "Product Name": "KUFHEAL DX SYRUP",
+        "Pack": "100ML",
+        "Company Name": "CALLIDUS LIFE SCIENCES PVT.LTD."
+    },
+    {
+        "Product Name": "KUFHEAL LS SYRUP",
+        "Pack": "100ML",
+        "Company Name": "CALLIDUS LIFE SCIENCES PVT.LTD."
+    },
+    {
+        "Product Name": "MASTOKAST SYRUP",
+        "Pack": "60ML",
+        "Company Name": "CALLIDUS LIFE SCIENCES PVT.LTD."
+    },
+    {
+        "Product Name": "MASTOKAST TAB",
+        "Pack": "10TAB",
+        "Company Name": "CALLIDUS LIFE SCIENCES PVT.LTD."
+    },
+    {
+        "Product Name": "MYCORID 100 TAB",
+        "Pack": "10TAB",
+        "Company Name": "CALLIDUS LIFE SCIENCES PVT.LTD."
+    },
+    {
+        "Product Name": "MYCORID 200 TAB",
+        "Pack": "10TAB",
+        "Company Name": "CALLIDUS LIFE SCIENCES PVT.LTD."
+    },
+    {
+        "Product Name": "PAZO 40 D TAB",
+        "Pack": "10TAB",
+        "Company Name": "CALLIDUS LIFE SCIENCES PVT.LTD."
+    },
+    {
+        "Product Name": "PAZO 40 TAB",
+        "Pack": "10TAB",
+        "Company Name": "CALLIDUS LIFE SCIENCES PVT.LTD."
+    },
+    {
+        "Product Name": "PODZEN 100 DS SUSP",
+        "Pack": "30ML",
+        "Company Name": "CALLIDUS LIFE SCIENCES PVT.LTD."
+    },
+    {
+        "Product Name": "PODZEN 200 TAB",
+        "Pack": "10TAB",
+        "Company Name": "CALLIDUS LIFE SCIENCES PVT.LTD."
+    },
+    {
+        "Product Name": "PODZEN CV",
+        "Pack": "10TAB",
+        "Company Name": "CALLIDUS LIFE SCIENCES PVT.LTD."
+    },
+    {
+        "Product Name": "TRIBALIN TAB",
+        "Pack": "10TAB",
+        "Company Name": "CALLIDUS LIFE SCIENCES PVT.LTD."
+    },
+    {
+        "Product Name": "UBERVIT PLUS TAB",
+        "Pack": "3TAB",
+        "Company Name": "CALLIDUS LIFE SCIENCES PVT.LTD."
+    },
+    {
+        "Product Name": "UBERVIT SUS",
+        "Pack": "200ML",
+        "Company Name": "CALLIDUS LIFE SCIENCES PVT.LTD."
+    },
+    {
+        "Product Name": "URITREAT SYP",
+        "Pack": "100ML",
+        "Company Name": "CALLIDUS LIFE SCIENCES PVT.LTD."
     },
     {
         "Product Name": "BMD CAL",
@@ -32835,6 +32970,11 @@ const navkarMedicineData = [
         "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
     },
     {
+        "Product Name": "ELDOPOD 100 DT TAB",
+        "Pack": "10TAB",
+        "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
+    },
+    {
         "Product Name": "ELDOTEL 40 TRIO 6.25 TAB",
         "Pack": "10TAB",
         "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
@@ -41770,6 +41910,11 @@ const navkarMedicineData = [
         "Company Name": "FLEXICARE PHARMA"
     },
     {
+        "Product Name": "BREVIXA FORTE TAB",
+        "Pack": "10TAB",
+        "Company Name": "FLEXICARE PHARMA"
+    },
+    {
         "Product Name": "CD ACE TAB",
         "Pack": "15S",
         "Company Name": "FLEXICARE PHARMA"
@@ -47200,6 +47345,11 @@ const navkarMedicineData = [
         "Company Name": "GROUP PHARMACEUTICALS LTD."
     },
     {
+        "Product Name": "ASTRIGUM PAINT",
+        "Pack": "15ML",
+        "Company Name": "GROUP PHARMACEUTICALS LTD."
+    },
+    {
         "Product Name": "CASTUS RETAINER & ALIGNER",
         "Pack": "5*6T",
         "Company Name": "GROUP PHARMACEUTICALS LTD."
@@ -47222,6 +47372,11 @@ const navkarMedicineData = [
     {
         "Product Name": "DENSIVE TAB",
         "Pack": "6TAB",
+        "Company Name": "GROUP PHARMACEUTICALS LTD."
+    },
+    {
+        "Product Name": "ELSENZ TOOTHPASTE",
+        "Pack": "70GM",
         "Company Name": "GROUP PHARMACEUTICALS LTD."
     },
     {
@@ -47267,6 +47422,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ORALIFE 250ML SALE",
         "Pack": "250ML",
+        "Company Name": "GROUP PHARMACEUTICALS LTD."
+    },
+    {
+        "Product Name": "ORTHODONTIC KIT AMFLOR",
+        "Pack": "KIT",
         "Company Name": "GROUP PHARMACEUTICALS LTD."
     },
     {
@@ -48433,6 +48593,16 @@ const navkarMedicineData = [
         "Product Name": "SUNBAN ULTRA PRO GEL 60GM",
         "Pack": "60GM",
         "Company Name": "H&H PHARMA SYNERGY"
+    },
+    {
+        "Product Name": "RAUGHAN E BADAM SYS",
+        "Pack": "25ML",
+        "Company Name": "HAMDARD (WAKF) LABORATORIES"
+    },
+    {
+        "Product Name": "RAUGHAN E BADAM SYS 50ML",
+        "Pack": "50ML",
+        "Company Name": "HAMDARD (WAKF) LABORATORIES"
     },
     {
         "Product Name": "ELUGIA CLEANSER 125ML",
@@ -76935,11 +77105,6 @@ const navkarMedicineData = [
         "Company Name": "MACLEODS (PHARMA)"
     },
     {
-        "Product Name": "FLUTROL KID (DOSE COUNTER & INDICATOR)",
-        "Pack": "VIAL",
-        "Company Name": "MACLEODS (PHARMA)"
-    },
-    {
         "Product Name": "GEMINOR MS 1/50/1000 TAB",
         "Pack": "10TAB",
         "Company Name": "MACLEODS (PHARMA)"
@@ -78552,6 +78717,11 @@ const navkarMedicineData = [
     {
         "Product Name": "FLUTROL 250MG INHALER",
         "Pack": "120MD",
+        "Company Name": "MACLEODS (TB CARE)"
+    },
+    {
+        "Product Name": "FLUTROL KID (DOSE COUNTER & INDICATOR)",
+        "Pack": "VIAL",
         "Company Name": "MACLEODS (TB CARE)"
     },
     {
@@ -84270,6 +84440,11 @@ const navkarMedicineData = [
         "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
+        "Product Name": "DOLOKIND SP TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA {VISTAR}"
+    },
+    {
         "Product Name": "DOLOKIND TAB",
         "Pack": "10TAB",
         "Company Name": "MANKIND PHARMA {VISTAR}"
@@ -85075,6 +85250,11 @@ const navkarMedicineData = [
         "Company Name": "MAYPHARM LIFESCINCES PVT LTD"
     },
     {
+        "Product Name": "FERROCHIP DROPS",
+        "Pack": "30ML",
+        "Company Name": "MAYPHARM LIFESCINCES PVT LTD"
+    },
+    {
         "Product Name": "FERROCHIP KIDS TAB",
         "Pack": "10TAB",
         "Company Name": "MAYPHARM LIFESCINCES PVT LTD"
@@ -85115,6 +85295,16 @@ const navkarMedicineData = [
         "Company Name": "MAYPHARM LIFESCINCES PVT LTD"
     },
     {
+        "Product Name": "MAYMOX 375MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "MAYPHARM LIFESCINCES PVT LTD"
+    },
+    {
+        "Product Name": "MAYMOX 625MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "MAYPHARM LIFESCINCES PVT LTD"
+    },
+    {
         "Product Name": "MAYMOX CV 375MG TAB",
         "Pack": "10TAB",
         "Company Name": "MAYPHARM LIFESCINCES PVT LTD"
@@ -85137,6 +85327,11 @@ const navkarMedicineData = [
     {
         "Product Name": "PEGQWIK PFS POWDER",
         "Pack": "GM",
+        "Company Name": "MAYPHARM LIFESCINCES PVT LTD"
+    },
+    {
+        "Product Name": "VENTOLAST",
+        "Pack": "10TAB",
         "Company Name": "MAYPHARM LIFESCINCES PVT LTD"
     },
     {
@@ -101790,6 +101985,11 @@ const navkarMedicineData = [
         "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
     },
     {
+        "Product Name": "RELYTE RTU LIQUID",
+        "Pack": "200ML",
+        "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
+    },
+    {
         "Product Name": "SARIL TAB",
         "Pack": "10 TAB",
         "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
@@ -101797,11 +101997,6 @@ const navkarMedicineData = [
     {
         "Product Name": "SWIFTOLAC SYP",
         "Pack": "150ML",
-        "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
-    },
-    {
-        "Product Name": "VRELYTE RTU LIQUID",
-        "Pack": "200ML",
         "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
     },
     {
