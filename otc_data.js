@@ -1900,6 +1900,11 @@ const otcData = [
         "Company Name": "GALDERMA INDIA PVT LTD"
     },
     {
+        "Product Name": "CETAPHIL DAM LOTION 50GM",
+        "Pack": "50GM",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
         "Product Name": "CETAPHIL DAY BRIGHTENING CREAM",
         "Pack": "50GM",
         "Company Name": "GALDERMA INDIA PVT LTD"
@@ -5295,6 +5300,11 @@ const otcData = [
         "Company Name": "RANBAXY LAB (CROSLANDS)"
     },
     {
+        "Product Name": "DETTOL FRESH SHAVING 60GM",
+        "Pack": "60GM",
+        "Company Name": "RECKITT BENCKISER INDIA"
+    },
+    {
         "Product Name": "DETTOL H/W [PUMP]",
         "Pack": "200ML",
         "Company Name": "RECKITT BENCKISER INDIA"
@@ -5315,6 +5325,11 @@ const otcData = [
         "Company Name": "RECKITT BENCKISER INDIA"
     },
     {
+        "Product Name": "DETTOL HAND  SANITIZER",
+        "Pack": "50ML",
+        "Company Name": "RECKITT BENCKISER INDIA"
+    },
+    {
         "Product Name": "DETTOL LIQUID [1LITER]",
         "Pack": "1LTR",
         "Company Name": "RECKITT BENCKISER INDIA"
@@ -5330,6 +5345,11 @@ const otcData = [
         "Company Name": "RECKITT BENCKISER INDIA"
     },
     {
+        "Product Name": "DETTOL ORIGINAL SOAP 100GM X 5",
+        "Pack": "100GM X 5",
+        "Company Name": "RECKITT BENCKISER INDIA"
+    },
+    {
         "Product Name": "DETTOL SOAP [ORIGINAL]RS.46",
         "Pack": "100GM",
         "Company Name": "RECKITT BENCKISER INDIA"
@@ -5337,6 +5357,16 @@ const otcData = [
     {
         "Product Name": "DETTOL SOAP [SKINCARE]RS.154",
         "Pack": "75GM",
+        "Company Name": "RECKITT BENCKISER INDIA"
+    },
+    {
+        "Product Name": "HRP POWDER 200ML",
+        "Pack": "200ML",
+        "Company Name": "RECKITT BENCKISER INDIA"
+    },
+    {
+        "Product Name": "HRP POWDER 500ML",
+        "Pack": "500ML",
         "Company Name": "RECKITT BENCKISER INDIA"
     },
     {
@@ -6491,6 +6521,11 @@ const otcData = [
     },
     {
         "Product Name": "STREPSILS JAR [30+6FREE]",
+        "Pack": "1JAR",
+        "Company Name": "SHRIRAMA STORES YELLAPUR"
+    },
+    {
+        "Product Name": "STREPSILS JAR [MRP 420]",
         "Pack": "1JAR",
         "Company Name": "SHRIRAMA STORES YELLAPUR"
     },

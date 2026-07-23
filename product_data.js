@@ -6010,6 +6010,11 @@ const productData = [
         "Company Name": "CIPLA RETAIL"
     },
     {
+        "Product Name": "NICIP ASP TAB",
+        "Pack": "10TAB",
+        "Company Name": "CIPLA RETAIL"
+    },
+    {
         "Product Name": "NO DARAR CREAM",
         "Pack": "1X25GM",
         "Company Name": "CIPLA RETAIL"
@@ -6287,11 +6292,6 @@ const productData = [
     {
         "Product Name": "NEW OKACET TABLETS(ROUND)",
         "Pack": "1X10T",
-        "Company Name": "CIPLA VITAL CARE"
-    },
-    {
-        "Product Name": "NICIP ASP TAB",
-        "Pack": "10TAB",
         "Company Name": "CIPLA VITAL CARE"
     },
     {
@@ -7667,6 +7667,11 @@ const productData = [
     {
         "Product Name": "RABIDER-DSR CAP",
         "Pack": "1X10CAP",
+        "Company Name": "ELDER PHARMACEUTICALS LTD"
+    },
+    {
+        "Product Name": "RABI-DSR CAP ELDER",
+        "Pack": "10CAP",
         "Company Name": "ELDER PHARMACEUTICALS LTD"
     },
     {
@@ -9777,6 +9782,11 @@ const productData = [
     {
         "Product Name": "GASTROZYME B/P TAB",
         "Pack": "10 TAB",
+        "Company Name": "GENERAL COMPANIES"
+    },
+    {
+        "Product Name": "GIFT COOKER",
+        "Pack": "PC",
         "Company Name": "GENERAL COMPANIES"
     },
     {
@@ -19360,7 +19370,7 @@ const productData = [
         "Company Name": "LUPIN LIFESCIENCES LIMITED"
     },
     {
-        "Product Name": "EUFOX O TAB",
+        "Product Name": "EUFOX O TAB*",
         "Pack": "1X10TAB",
         "Company Name": "LUPIN LIFESCIENCES LIMITED"
     },
@@ -24240,7 +24250,7 @@ const productData = [
         "Company Name": "ROMSON"
     },
     {
-        "Product Name": "BLOOD ADMIN SET",
+        "Product Name": "BLOOD ADMIN SET ROMSON",
         "Pack": "PC",
         "Company Name": "ROMSON"
     },
@@ -26695,6 +26705,11 @@ const productData = [
         "Company Name": "SMART ICONIC LAB"
     },
     {
+        "Product Name": "CHARGEMORE DAILY 10GM",
+        "Pack": "10GM",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
         "Product Name": "CHYMOCREST AP TAB",
         "Pack": "1X10TAB",
         "Company Name": "SMART ICONIC LAB"
@@ -27711,6 +27726,31 @@ const productData = [
     },
     {
         "Product Name": "SMARTAID HEAT & COOL GEL PACK",
+        "Pack": "PC",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
+        "Product Name": "SMARTAID KNEE CAP L",
+        "Pack": "PC",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
+        "Product Name": "SMARTAID KNEE CAP M",
+        "Pack": "PC",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
+        "Product Name": "SMARTAID KNEE CAP S",
+        "Pack": "PC",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
+        "Product Name": "SMARTAID KNEE CAP XL",
+        "Pack": "PC",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
+        "Product Name": "SMARTAID KNEE CAP XXL",
         "Pack": "PC",
         "Company Name": "SMART ICONIC LAB"
     },

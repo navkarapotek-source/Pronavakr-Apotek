@@ -17815,6 +17815,11 @@ const navkarMedicineData = [
         "Company Name": "BHARAT SERUMS (FEMINORA)"
     },
     {
+        "Product Name": "LONOPIN 60MG INJ",
+        "Pack": "0.6ML",
+        "Company Name": "BHARAT SERUMS (FEMINORA)"
+    },
+    {
         "Product Name": "CABERCET TAB",
         "Pack": "TAB",
         "Company Name": "BHARAT SERUMS WOMENS HEALTH"
@@ -22680,6 +22685,11 @@ const navkarMedicineData = [
         "Company Name": "CIPLA LIMITED"
     },
     {
+        "Product Name": "REVESMART RESPULES 7",
+        "Pack": "3ML",
+        "Company Name": "CIPLA LIMITED"
+    },
+    {
         "Product Name": "ROKFOS 100 ML",
         "Pack": "1VIAL",
         "Company Name": "CIPLA LIMITED"
@@ -22792,6 +22802,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ACIVIR CREAM 10GM",
         "Pack": "10GM",
+        "Company Name": "CIPLA LIMITED (CRESTA)"
+    },
+    {
+        "Product Name": "ACIVIR SUSPENSION",
+        "Pack": "100ML",
         "Company Name": "CIPLA LIMITED (CRESTA)"
     },
     {
@@ -23127,6 +23142,11 @@ const navkarMedicineData = [
     {
         "Product Name": "FLOMIST AZ 70MD SPRAY",
         "Pack": "70 MD",
+        "Company Name": "CIPLA LIMITED (INSPIRA)"
+    },
+    {
+        "Product Name": "FLOMIST F 160 MD",
+        "Pack": "160MD",
         "Company Name": "CIPLA LIMITED (INSPIRA)"
     },
     {
@@ -24377,6 +24397,11 @@ const navkarMedicineData = [
     {
         "Product Name": "AMLIP AT TAB 10`S",
         "Pack": "TAB",
+        "Company Name": "CIPLA LIMITED GENERIC"
+    },
+    {
+        "Product Name": "ARMOTRAZ 1MG TAB",
+        "Pack": "10TAB",
         "Company Name": "CIPLA LIMITED GENERIC"
     },
     {
@@ -41496,7 +41521,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "FINEGRELOR 90 TAB",
-        "Pack": "10TAB",
+        "Pack": "15 TAB",
         "Company Name": "FINECURE PHARMACEUTICALS LTD"
     },
     {
@@ -71330,7 +71355,7 @@ const navkarMedicineData = [
         "Company Name": "LLOYDS HEALTHCARE"
     },
     {
-        "Product Name": "EMPADOZ LM 25/5/1000 TAB",
+        "Product Name": "EMPADOZ LM 25/5/1000 TABC1",
         "Pack": "10TAB",
         "Company Name": "LLOYDS HEALTHCARE"
     },
@@ -73437,11 +73462,6 @@ const navkarMedicineData = [
     {
         "Product Name": "GLUCONORM-G PLUS 3 TAB",
         "Pack": "15TAB",
-        "Company Name": "LUPIN NEW METABOLICS"
-    },
-    {
-        "Product Name": "HUMAPEN ERGO II",
-        "Pack": "1 TAB",
         "Company Name": "LUPIN NEW METABOLICS"
     },
     {
@@ -96085,16 +96105,6 @@ const navkarMedicineData = [
         "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
     },
     {
-        "Product Name": "LACTO CALAMINE F/W KAOLIN",
-        "Pack": "50ML",
-        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
-    },
-    {
-        "Product Name": "LACTO CALAMINE F/W VITAMIN C",
-        "Pack": "50ML",
-        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
-    },
-    {
         "Product Name": "LACTO CALAMINE FACE CTNS LOTION 60ML",
         "Pack": "60ML",
         "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
@@ -96500,12 +96510,12 @@ const navkarMedicineData = [
         "Company Name": "PIRAMAL PHARMA LIMITED"
     },
     {
-        "Product Name": "LACTO CALAMINE F/W BRIGHTEING",
+        "Product Name": "LACTO CALAMINE F/W BRIGHTEING VIT C",
         "Pack": "50ML",
         "Company Name": "PIRAMAL PHARMA LIMITED"
     },
     {
-        "Product Name": "LACTO CALAMINE F/W OIL CONTROL",
+        "Product Name": "LACTO CALAMINE F/W OIL CONTROL KAOLIN CLAY",
         "Pack": "50ML",
         "Company Name": "PIRAMAL PHARMA LIMITED"
     },
@@ -103850,22 +103860,17 @@ const navkarMedicineData = [
         "Company Name": "SUN PHARMA (PRIMALANDS)"
     },
     {
+        "Product Name": "AB PHYLLINE N TAB",
+        "Pack": "10 TAB",
+        "Company Name": "SUN PHARMA (RADIANT)"
+    },
+    {
         "Product Name": "BESVIL 100MG OCTACAPS",
         "Pack": "30CAP",
         "Company Name": "SUN PHARMA (RADIANT)"
     },
     {
         "Product Name": "BESVIL 200 MG OCTACAPS",
-        "Pack": "30CAP",
-        "Company Name": "SUN PHARMA (RADIANT)"
-    },
-    {
-        "Product Name": "BESVIL G 100MG CAP",
-        "Pack": "30CAP",
-        "Company Name": "SUN PHARMA (RADIANT)"
-    },
-    {
-        "Product Name": "BESVIL G 200MG CAP",
         "Pack": "30CAP",
         "Company Name": "SUN PHARMA (RADIANT)"
     },
@@ -103905,8 +103910,13 @@ const navkarMedicineData = [
         "Company Name": "SUN PHARMA (RADIANT)"
     },
     {
-        "Product Name": "NEZAFLO D  NASAL SPRAY",
-        "Pack": "BL 1",
+        "Product Name": "MONTEK LC  TAB",
+        "Pack": "10 TAB",
+        "Company Name": "SUN PHARMA (RADIANT)"
+    },
+    {
+        "Product Name": "MONTEK LC KID SYP",
+        "Pack": "60ML",
         "Company Name": "SUN PHARMA (RADIANT)"
     },
     {
@@ -103950,6 +103960,16 @@ const navkarMedicineData = [
         "Company Name": "SUN PHARMA (RESPIRISE)"
     },
     {
+        "Product Name": "BESVIL G 100MG CAP",
+        "Pack": "30CAP",
+        "Company Name": "SUN PHARMA (SENORA)"
+    },
+    {
+        "Product Name": "BESVIL G 200MG CAP",
+        "Pack": "30CAP",
+        "Company Name": "SUN PHARMA (SENORA)"
+    },
+    {
         "Product Name": "EGOLIX  200MG TAB",
         "Pack": "10TAB",
         "Company Name": "SUN PHARMA (SENORA)"
@@ -103962,6 +103982,11 @@ const navkarMedicineData = [
     {
         "Product Name": "FENTIN CAP",
         "Pack": "1`S",
+        "Company Name": "SUN PHARMA (SENORA)"
+    },
+    {
+        "Product Name": "NEZAFLO D  NASAL SPRAY",
+        "Pack": "BL 1",
         "Company Name": "SUN PHARMA (SENORA)"
     },
     {
@@ -105045,11 +105070,6 @@ const navkarMedicineData = [
         "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
-        "Product Name": "AB PHYLLINE N TAB",
-        "Pack": "10 TAB",
-        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
-    },
-    {
         "Product Name": "AB PHYLLINE SR 200MG TAB 10`S",
         "Pack": "10 TAB",
         "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
@@ -105997,16 +106017,6 @@ const navkarMedicineData = [
     {
         "Product Name": "MONTEK AB TAB",
         "Pack": "10",
-        "Company Name": "LEVIPIL XR 500MG TAB"
-    },
-    {
-        "Product Name": "MONTEK LC  TAB",
-        "Pack": "10 TAB",
-        "Company Name": "LEVIPIL XR 500MG TAB"
-    },
-    {
-        "Product Name": "MONTEK LC KID SYP",
-        "Pack": "60ML",
         "Company Name": "LEVIPIL XR 500MG TAB"
     },
     {

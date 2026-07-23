@@ -1010,6 +1010,11 @@ const navkarColdchainData = [
         "Company Name": "LUPIN NEW METABOLICS"
     },
     {
+        "Product Name": "HUMAPEN ERGO II",
+        "Pack": "1 TAB",
+        "Company Name": "LUPIN NEW METABOLICS"
+    },
+    {
         "Product Name": "HUMINSULIN 30/70",
         "Pack": "VIAL",
         "Company Name": "LUPIN NEW METABOLICS"
