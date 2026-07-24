@@ -1870,6 +1870,11 @@ const otcData = [
         "Company Name": "GALDERMA INDIA PVT LTD"
     },
     {
+        "Product Name": "CETAPHIL BABY MILD BAR [2+1]100GM",
+        "Pack": "PC",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
         "Product Name": "CETAPHIL BABY MILD BAR 100GM",
         "Pack": "1X100GM",
         "Company Name": "GALDERMA INDIA PVT LTD"
@@ -5360,12 +5365,12 @@ const otcData = [
         "Company Name": "RECKITT BENCKISER INDIA"
     },
     {
-        "Product Name": "HRP POWDER 200ML",
+        "Product Name": "HERPIC LIQUID 200ML",
         "Pack": "200ML",
         "Company Name": "RECKITT BENCKISER INDIA"
     },
     {
-        "Product Name": "HRP POWDER 500ML",
+        "Product Name": "HERPIC LIQUID 500ML",
         "Pack": "500ML",
         "Company Name": "RECKITT BENCKISER INDIA"
     },

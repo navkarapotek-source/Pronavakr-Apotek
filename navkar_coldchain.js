@@ -860,11 +860,6 @@ const navkarColdchainData = [
         "Company Name": "LA RENON(NEPHRO)LACONIC"
     },
     {
-        "Product Name": "CUDO FORTE TAB",
-        "Pack": "TAB",
-        "Company Name": "LA RENON(NEPHRO)LACONIC"
-    },
-    {
         "Product Name": "JUVOBIN 25 MG INJ",
         "Pack": "1 PFS",
         "Company Name": "LA RENON(NEPHRO)LACONIC"

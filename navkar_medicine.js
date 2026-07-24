@@ -12120,7 +12120,7 @@ const navkarMedicineData = [
         "Company Name": "ALTEUS BIOGENICS PVT LTD (CILIX 2)"
     },
     {
-        "Product Name": "CILIX TM -10/40/50 TAB",
+        "Product Name": "CILIX TM -10/40/50 TAB.",
         "Pack": "15TAB",
         "Company Name": "ALTEUS BIOGENICS PVT LTD (CILIX 2)"
     },
@@ -22685,11 +22685,6 @@ const navkarMedicineData = [
         "Company Name": "CIPLA LIMITED"
     },
     {
-        "Product Name": "REVESMART RESPULES 7",
-        "Pack": "3ML",
-        "Company Name": "CIPLA LIMITED"
-    },
-    {
         "Product Name": "ROKFOS 100 ML",
         "Pack": "1VIAL",
         "Company Name": "CIPLA LIMITED"
@@ -26312,6 +26307,11 @@ const navkarMedicineData = [
     {
         "Product Name": "MUCINAC INJ 5ML",
         "Pack": "5ML",
+        "Company Name": "CIPLA RESPI NEB2"
+    },
+    {
+        "Product Name": "REVESMART RESPULES 7*3ML PACK",
+        "Pack": "7*3ML",
         "Company Name": "CIPLA RESPI NEB2"
     },
     {
@@ -35575,6 +35575,11 @@ const navkarMedicineData = [
         "Company Name": "EMCURE PHARMA CV DIVISION"
     },
     {
+        "Product Name": "CARDACE PROTECT 2.5 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "EMCURE PHARMA CV DIVISION"
+    },
+    {
         "Product Name": "CARDACE PROTECT 5/10 TAB",
         "Pack": "10 TAB",
         "Company Name": "EMCURE PHARMA CV DIVISION"
@@ -35941,11 +35946,6 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "BEATHF 5 MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "EMCURE PHARMA."
-    },
-    {
-        "Product Name": "CARDACE PROTECT 2.5 TAB",
         "Pack": "10 TAB",
         "Company Name": "EMCURE PHARMA."
     },
@@ -65030,6 +65030,11 @@ const navkarMedicineData = [
         "Company Name": "KEPLER {VIBRONICA}"
     },
     {
+        "Product Name": "LACTOBRAIN SACHET",
+        "Pack": "1GM",
+        "Company Name": "KEPLER {VIBRONICA}"
+    },
+    {
         "Product Name": "VIBROCAR JUNIOR SYP",
         "Pack": "200ML",
         "Company Name": "KEPLER {VIBRONICA}"
@@ -65272,11 +65277,6 @@ const navkarMedicineData = [
     {
         "Product Name": "KEPODIL CV 200 TAB",
         "Pack": "TAB",
-        "Company Name": "KEPLER HEALTHCARE PVT LTD"
-    },
-    {
-        "Product Name": "LACTOBRAIN SACHET",
-        "Pack": "1GM",
         "Company Name": "KEPLER HEALTHCARE PVT LTD"
     },
     {
@@ -69357,6 +69357,11 @@ const navkarMedicineData = [
     {
         "Product Name": "CONSTEZ SACHETS",
         "Pack": "10 GM",
+        "Company Name": "LA RENON(NEPHRO)LACONIC"
+    },
+    {
+        "Product Name": "CUDO FORTE TAB",
+        "Pack": "TAB",
         "Company Name": "LA RENON(NEPHRO)LACONIC"
     },
     {
