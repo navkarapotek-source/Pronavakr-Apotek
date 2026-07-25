@@ -77110,6 +77110,11 @@ const navkarMedicineData = [
         "Company Name": "MACLEODS (PHARMA)"
     },
     {
+        "Product Name": "CEFOLAC PLUS TAB",
+        "Pack": "10TAB",
+        "Company Name": "MACLEODS (PHARMA)"
+    },
+    {
         "Product Name": "DAPAMAC M 5/500 (15S)",
         "Pack": "10 TAB",
         "Company Name": "MACLEODS (PHARMA)"
@@ -84440,6 +84445,11 @@ const navkarMedicineData = [
         "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
+        "Product Name": "CILAKIND 10 TAB",
+        "Pack": "15TAB",
+        "Company Name": "MANKIND PHARMA {VISTAR}"
+    },
+    {
         "Product Name": "DOLOKIND [AQUA] INJ",
         "Pack": "1ML",
         "Company Name": "MANKIND PHARMA {VISTAR}"
@@ -85320,17 +85330,7 @@ const navkarMedicineData = [
         "Company Name": "MAYPHARM LIFESCINCES PVT LTD"
     },
     {
-        "Product Name": "MAYMOX 375MG TAB",
-        "Pack": "10TAB",
-        "Company Name": "MAYPHARM LIFESCINCES PVT LTD"
-    },
-    {
-        "Product Name": "MAYMOX 625MG TAB",
-        "Pack": "10TAB",
-        "Company Name": "MAYPHARM LIFESCINCES PVT LTD"
-    },
-    {
-        "Product Name": "MAYMOX CV 375MG TAB",
+        "Product Name": "MAYMOX CV 375MG TABAA118",
         "Pack": "10TAB",
         "Company Name": "MAYPHARM LIFESCINCES PVT LTD"
     },
@@ -85355,8 +85355,8 @@ const navkarMedicineData = [
         "Company Name": "MAYPHARM LIFESCINCES PVT LTD"
     },
     {
-        "Product Name": "VENTOLAST",
-        "Pack": "10TAB",
+        "Product Name": "VENTOLAST 60 ML SYP",
+        "Pack": "60 ML",
         "Company Name": "MAYPHARM LIFESCINCES PVT LTD"
     },
     {
@@ -86326,7 +86326,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "SACHET",
-        "Pack": "340",
+        "Pack": "200",
         "Company Name": "MEDIBLESS"
     },
     {
@@ -90555,6 +90555,11 @@ const navkarMedicineData = [
         "Company Name": "MICRO LAB (MICRO VISION)"
     },
     {
+        "Product Name": "TREHALUBE EYE DROPS",
+        "Pack": "10ML",
+        "Company Name": "MICRO LAB (MICRO VISION)"
+    },
+    {
         "Product Name": "TRISOPT EYE DROP 5ML",
         "Pack": "5ML",
         "Company Name": "MICRO LAB (MICRO VISION)"
@@ -90912,11 +90917,6 @@ const navkarMedicineData = [
     {
         "Product Name": "TENEPRIDE P TAB",
         "Pack": "TAB",
-        "Company Name": "MICRO LABS LIMITED"
-    },
-    {
-        "Product Name": "TREHALUBE EYE DROPS",
-        "Pack": "10ML",
         "Company Name": "MICRO LABS LIMITED"
     },
     {
@@ -96882,6 +96882,11 @@ const navkarMedicineData = [
     {
         "Product Name": "PRISTACID 40 TAB",
         "Pack": "TAB",
+        "Company Name": "PRISTINO PHARMA PVT LTD"
+    },
+    {
+        "Product Name": "PRISTACID DSR TAB",
+        "Pack": "10TAB",
         "Company Name": "PRISTINO PHARMA PVT LTD"
     },
     {
@@ -111295,7 +111300,7 @@ const navkarMedicineData = [
         "Company Name": "TORRENT PHARMA (CV-LIFE)"
     },
     {
-        "Product Name": "TRIKA 0.5 TAB",
+        "Product Name": "TRIKA 0.5 TAB5",
         "Pack": "15 TAB",
         "Company Name": "TORRENT PHARMA (CV-LIFE)"
     },
@@ -119095,6 +119100,11 @@ const navkarMedicineData = [
         "Company Name": "WELIXON LIFE SCIENCES PRIVATE"
     },
     {
+        "Product Name": "LACTIPEARL 180",
+        "Pack": "180GM",
+        "Company Name": "WELIXON LIFE SCIENCES PRIVATE"
+    },
+    {
         "Product Name": "ALZORET CAPS (FOOD)",
         "Pack": "10 TAB",
         "Company Name": "WHITE AND TRUST PHARMACEUTICALS PVT LIMITED"
@@ -124037,6 +124047,11 @@ const navkarMedicineData = [
     {
         "Product Name": "BIODOXI LB CAP",
         "Pack": "10CAP",
+        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
+    },
+    {
+        "Product Name": "FORGLYN FORTE RESPICAPS",
+        "Pack": "30CAP",
         "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
     },
     {

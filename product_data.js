@@ -9670,6 +9670,11 @@ const productData = [
         "Company Name": "GENERAL COMPANIES"
     },
     {
+        "Product Name": "BURNCARE CREAM",
+        "Pack": "20GM",
+        "Company Name": "GENERAL COMPANIES"
+    },
+    {
         "Product Name": "CALCULATOR",
         "Pack": "PC",
         "Company Name": "GENERAL COMPANIES"
@@ -17325,6 +17330,11 @@ const productData = [
         "Company Name": "LEEFORD HEALTHCARE LTD"
     },
     {
+        "Product Name": "LEEFORD DIGITAL THERMOMETER",
+        "Pack": "PC",
+        "Company Name": "LEEFORD HEALTHCARE LTD"
+    },
+    {
         "Product Name": "LEEFORD L.S BELT XL",
         "Pack": "XL",
         "Company Name": "LEEFORD HEALTHCARE LTD"
@@ -17832,6 +17842,11 @@ const productData = [
     {
         "Product Name": "ENSHINE TOOTHPASTE 50GM",
         "Pack": "1X50GM",
+        "Company Name": "LEEFORD HEALTHCARE LTD."
+    },
+    {
+        "Product Name": "ETAZYME TABS",
+        "Pack": "1X15T",
         "Company Name": "LEEFORD HEALTHCARE LTD."
     },
     {
