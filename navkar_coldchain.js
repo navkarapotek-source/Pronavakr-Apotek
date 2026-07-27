@@ -625,6 +625,11 @@ const navkarColdchainData = [
         "Company Name": "ELI LILLY AND COMPANY INDIA PV"
     },
     {
+        "Product Name": "VINTOR 10000 IU INJ",
+        "Pack": "1 PFS",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
         "Product Name": "POVIZTRA FLXT 0.25MG",
         "Pack": "1.5ML",
         "Company Name": "EMCURE PHARMA (NUCRON)"
@@ -678,11 +683,6 @@ const navkarColdchainData = [
         "Product Name": "OSTERI INJ NEEDLES",
         "Pack": "NEEDLE",
         "Company Name": "EMCURE PHARMA NEXT"
-    },
-    {
-        "Product Name": "VINTOR 10000 IU INJ",
-        "Pack": "1 PFS",
-        "Company Name": "EMCURE PHARMA."
     },
     {
         "Product Name": "NUCORIL 5MG TAB",

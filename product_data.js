@@ -11631,7 +11631,7 @@ const productData = [
     },
     {
         "Product Name": "HEALING BASMATI RICE LAL QILLA",
-        "Pack": "-",
+        "Pack": "5KG",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -16232,6 +16232,11 @@ const productData = [
     {
         "Product Name": "CEFKIL 50 D/S",
         "Pack": "30ML",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "CEFKIL OF TAB",
+        "Pack": "10TAB",
         "Company Name": "LABORATE AQUA LAB"
     },
     {

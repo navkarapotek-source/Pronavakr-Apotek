@@ -5365,12 +5365,12 @@ const otcData = [
         "Company Name": "RECKITT BENCKISER INDIA"
     },
     {
-        "Product Name": "HERPIC LIQUID 200ML",
+        "Product Name": "HARPIC LIQUID 200ML",
         "Pack": "200ML",
         "Company Name": "RECKITT BENCKISER INDIA"
     },
     {
-        "Product Name": "HERPIC LIQUID 500ML",
+        "Product Name": "HARPIC LIQUID 500ML",
         "Pack": "500ML",
         "Company Name": "RECKITT BENCKISER INDIA"
     },

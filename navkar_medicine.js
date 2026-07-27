@@ -17790,6 +17790,11 @@ const navkarMedicineData = [
         "Company Name": "BHARAT SERUM (FEMICARE)"
     },
     {
+        "Product Name": "DYNASEMO 0.25/0.5MG",
+        "Pack": "VIAL",
+        "Company Name": "BHARAT SERUMS & VACCINES LTD"
+    },
+    {
         "Product Name": "LONOPIN 20 MG INJ",
         "Pack": "1 PFS",
         "Company Name": "BHARAT SERUMS & VACCINES LTD"
@@ -34245,6 +34250,156 @@ const navkarMedicineData = [
         "Company Name": "EMAMI LTD"
     },
     {
+        "Product Name": "ACEGABA ME 300 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
+        "Product Name": "BEATHF 5 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
+        "Product Name": "EMLEVO 250 MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
+        "Product Name": "EMLINZ M5/1000 TAB",
+        "Pack": "TAB",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
+        "Product Name": "EMPROGEST 200 MG CAP",
+        "Pack": "10 CAP",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
+        "Product Name": "EMPROGEST 400 MG CAP",
+        "Pack": "10 CAP",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
+        "Product Name": "EOPTAL 300 TAB",
+        "Pack": "10TAB",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
+        "Product Name": "EXHEP 40 MG INJ",
+        "Pack": "0.4 ML",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
+        "Product Name": "EXHEP 60 MG INJ",
+        "Pack": "1 PFS",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
+        "Product Name": "EXHEP PEN CART 300 MG /3 ML INJ",
+        "Pack": "3 ML",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
+        "Product Name": "FCM O INJ 500MG",
+        "Pack": "10 ML",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
+        "Product Name": "GALACT CAP",
+        "Pack": "CAP",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
+        "Product Name": "MATERNA HCG 5000 IU INJ",
+        "Pack": "VIAL",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
+        "Product Name": "MATERNA HMG 150 IU",
+        "Pack": "1*1 VIAL",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
+        "Product Name": "MOFILET 500MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
+        "Product Name": "MOFILET S 180 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
+        "Product Name": "MOFILET S 360 MG TAB",
+        "Pack": "30 TAB",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
+        "Product Name": "PRADIL 150 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
+        "Product Name": "PREGANZA D 75/20 CAP",
+        "Pack": "CAP",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
+        "Product Name": "PREPIXA 2.5 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
+        "Product Name": "PREPIXA 5 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
+        "Product Name": "REATIX KIT",
+        "Pack": "6 COMBIKIT",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
+        "Product Name": "SAV HF 200 TAB",
+        "Pack": "10'S`",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
+        "Product Name": "SAV HF 50 TAB",
+        "Pack": "10'S",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
+        "Product Name": "SAV HF100 TAB",
+        "Pack": "10'S",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
+        "Product Name": "SILNAFIL 25 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
+        "Product Name": "SPEGRA TAB",
+        "Pack": "30TAB",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
+        "Product Name": "STROCOZ PLUS TABL",
+        "Pack": "10 TAB",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
+        "Product Name": "VINGRAF 1MG CAP",
+        "Pack": "TAB",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
+        "Product Name": "VIROPIL TAB",
+        "Pack": "30 TAB",
+        "Company Name": "EMCURE (IMPETUS)"
+    },
+    {
         "Product Name": "DYDROEVA TAB",
         "Pack": "10 TAB",
         "Company Name": "EMCURE PHARMA (ARV)"
@@ -35938,151 +36093,6 @@ const navkarMedicineData = [
         "Product Name": "EMPROGEST 1.125 GM GEL",
         "Pack": "GM",
         "Company Name": "EMCURE PHARMA UTH"
-    },
-    {
-        "Product Name": "ACEGABA ME 300 MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "EMCURE PHARMA."
-    },
-    {
-        "Product Name": "BEATHF 5 MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "EMCURE PHARMA."
-    },
-    {
-        "Product Name": "EMLEVO 250 MG TAB",
-        "Pack": "10TAB",
-        "Company Name": "EMCURE PHARMA."
-    },
-    {
-        "Product Name": "EMLINZ M5/1000 TAB",
-        "Pack": "TAB",
-        "Company Name": "EMCURE PHARMA."
-    },
-    {
-        "Product Name": "EMPROGEST 200 MG CAP",
-        "Pack": "10 CAP",
-        "Company Name": "EMCURE PHARMA."
-    },
-    {
-        "Product Name": "EMPROGEST 400 MG CAP",
-        "Pack": "10 CAP",
-        "Company Name": "EMCURE PHARMA."
-    },
-    {
-        "Product Name": "EXHEP 40 MG INJ",
-        "Pack": "0.4 ML",
-        "Company Name": "EMCURE PHARMA."
-    },
-    {
-        "Product Name": "EXHEP 60 MG INJ",
-        "Pack": "1 PFS",
-        "Company Name": "EMCURE PHARMA."
-    },
-    {
-        "Product Name": "EXHEP PEN CART 300 MG /3 ML INJ",
-        "Pack": "3 ML",
-        "Company Name": "EMCURE PHARMA."
-    },
-    {
-        "Product Name": "FCM O INJ 500MG",
-        "Pack": "10 ML",
-        "Company Name": "EMCURE PHARMA."
-    },
-    {
-        "Product Name": "GALACT CAP",
-        "Pack": "CAP",
-        "Company Name": "EMCURE PHARMA."
-    },
-    {
-        "Product Name": "MATERNA HCG 5000 IU INJ",
-        "Pack": "VIAL",
-        "Company Name": "EMCURE PHARMA."
-    },
-    {
-        "Product Name": "MATERNA HMG 150 IU",
-        "Pack": "1*1 VIAL",
-        "Company Name": "EMCURE PHARMA."
-    },
-    {
-        "Product Name": "MOFILET 500MG TAB",
-        "Pack": "10TAB",
-        "Company Name": "EMCURE PHARMA."
-    },
-    {
-        "Product Name": "MOFILET S 180 MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "EMCURE PHARMA."
-    },
-    {
-        "Product Name": "MOFILET S 360 MG TAB",
-        "Pack": "30 TAB",
-        "Company Name": "EMCURE PHARMA."
-    },
-    {
-        "Product Name": "PRADIL 150 MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "EMCURE PHARMA."
-    },
-    {
-        "Product Name": "PREGANZA D 75/20 CAP",
-        "Pack": "CAP",
-        "Company Name": "EMCURE PHARMA."
-    },
-    {
-        "Product Name": "PREPIXA 2.5 MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "EMCURE PHARMA."
-    },
-    {
-        "Product Name": "PREPIXA 5 MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "EMCURE PHARMA."
-    },
-    {
-        "Product Name": "REATIX KIT",
-        "Pack": "6 COMBIKIT",
-        "Company Name": "EMCURE PHARMA."
-    },
-    {
-        "Product Name": "SAV HF 200 TAB",
-        "Pack": "10'S`",
-        "Company Name": "EMCURE PHARMA."
-    },
-    {
-        "Product Name": "SAV HF 50 TAB",
-        "Pack": "10'S",
-        "Company Name": "EMCURE PHARMA."
-    },
-    {
-        "Product Name": "SAV HF100 TAB",
-        "Pack": "10'S",
-        "Company Name": "EMCURE PHARMA."
-    },
-    {
-        "Product Name": "SILNAFIL 25 MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "EMCURE PHARMA."
-    },
-    {
-        "Product Name": "SPEGRA TAB",
-        "Pack": "30TAB",
-        "Company Name": "EMCURE PHARMA."
-    },
-    {
-        "Product Name": "STROCOZ PLUS TABL",
-        "Pack": "10 TAB",
-        "Company Name": "EMCURE PHARMA."
-    },
-    {
-        "Product Name": "VINGRAF 1MG CAP",
-        "Pack": "TAB",
-        "Company Name": "EMCURE PHARMA."
-    },
-    {
-        "Product Name": "VIROPIL TAB",
-        "Pack": "30 TAB",
-        "Company Name": "EMCURE PHARMA."
     },
     {
         "Product Name": "NUCORIL OD TAB",
@@ -54710,6 +54720,11 @@ const navkarMedicineData = [
         "Company Name": "INTAS (AVANTA)"
     },
     {
+        "Product Name": "CLAVILIP GOLD 40",
+        "Pack": "15CAP",
+        "Company Name": "INTAS (AVANTA)"
+    },
+    {
         "Product Name": "CLONIL 10MG TAB",
         "Pack": "15TAB",
         "Company Name": "INTAS (AVANTA)"
@@ -55027,6 +55042,11 @@ const navkarMedicineData = [
     {
         "Product Name": "BLYNDS AC CREAM",
         "Pack": "50GM",
+        "Company Name": "INTAS ADRINA"
+    },
+    {
+        "Product Name": "CLAVILIP GOLD 10",
+        "Pack": "15CAP",
         "Company Name": "INTAS ADRINA"
     },
     {
@@ -55437,6 +55457,11 @@ const navkarMedicineData = [
     {
         "Product Name": "BIGBRO TAB",
         "Pack": "TAB",
+        "Company Name": "INTAS HELATHACRE SUPRIMA"
+    },
+    {
+        "Product Name": "CLAVILIP GOLD 20",
+        "Pack": "15CAP",
         "Company Name": "INTAS HELATHACRE SUPRIMA"
     },
     {
@@ -80865,6 +80890,11 @@ const navkarMedicineData = [
         "Company Name": "MANKIND PHARMA (DISCOVERY)"
     },
     {
+        "Product Name": "METATIME 500 XR TAB",
+        "Pack": "10TB",
+        "Company Name": "MANKIND PHARMA (DISCOVERY)"
+    },
+    {
         "Product Name": "METATIME 500MG TAB",
         "Pack": "10 TAB",
         "Company Name": "MANKIND PHARMA (DISCOVERY)"
@@ -92360,6 +92390,11 @@ const navkarMedicineData = [
         "Company Name": "NOVAE HEALTHCARE"
     },
     {
+        "Product Name": "NH SYN 500 TAB",
+        "Pack": "10'S",
+        "Company Name": "NOVAE HEALTHCARE"
+    },
+    {
         "Product Name": "NHFIX 200 DT TAB",
         "Pack": "TAB",
         "Company Name": "NOVAE HEALTHCARE"
@@ -96737,6 +96772,11 @@ const navkarMedicineData = [
     {
         "Product Name": "EFISPOR 100 MG CAP",
         "Pack": "10 CAP",
+        "Company Name": "PRETIUM PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "EFISPOR SB 65 CAP",
+        "Pack": "10CAP",
         "Company Name": "PRETIUM PHARMACEUTICALS"
     },
     {
@@ -115780,6 +115820,11 @@ const navkarMedicineData = [
         "Company Name": "UNIVERSAL MEDICARE (CHC/OTC)"
     },
     {
+        "Product Name": "PRIMOSA BOOST CAP",
+        "Pack": "10 CAP",
+        "Company Name": "UNIVERSAL MEDICARE (CHC/OTC)"
+    },
+    {
         "Product Name": "SEACOD 100MG CAP",
         "Pack": "100TAB",
         "Company Name": "UNIVERSAL MEDICARE (CHC/OTC)"
@@ -120195,8 +120240,18 @@ const navkarMedicineData = [
         "Company Name": "ZIPCO HEALTHCARE"
     },
     {
+        "Product Name": "RISETADA TAB",
+        "Pack": "10TAB",
+        "Company Name": "ZIPCO HEALTHCARE"
+    },
+    {
         "Product Name": "ZIPCAL D3 TAB",
         "Pack": "10 TAB",
+        "Company Name": "ZIPCO HEALTHCARE"
+    },
+    {
+        "Product Name": "ZIPCAL-60K",
+        "Pack": "4TAB",
         "Company Name": "ZIPCO HEALTHCARE"
     },
     {
@@ -120590,6 +120645,11 @@ const navkarMedicineData = [
         "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
     },
     {
+        "Product Name": "FORZEROL BUD 0.5MG RESPULES",
+        "Pack": "5*2ML",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
+    },
+    {
         "Product Name": "GLAZENTA 12 TAB",
         "Pack": "6TAB",
         "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
@@ -120690,6 +120750,11 @@ const navkarMedicineData = [
         "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
     },
     {
+        "Product Name": "TAMIBID SUSPENSION",
+        "Pack": "75ML",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
+    },
+    {
         "Product Name": "ZEGABA 100 TAB",
         "Pack": "10TAB",
         "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
@@ -120707,6 +120772,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ZOLEXTRA D CAP",
         "Pack": "15CAP",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
+    },
+    {
+        "Product Name": "ZOLEXTRA JR SACHET",
+        "Pack": "GM",
         "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
     },
     {
@@ -120742,6 +120812,21 @@ const navkarMedicineData = [
     {
         "Product Name": "ZORMOX CV FORTE DRY SYRUP",
         "Pack": "30ML",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
+    },
+    {
+        "Product Name": "ZORVIN 0.31 MG RESPULES",
+        "Pack": "5*2.5ML",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
+    },
+    {
+        "Product Name": "ZORVIN 0.63MG RESPULES",
+        "Pack": "5*2.5ML",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
+    },
+    {
+        "Product Name": "ZORVIN 1.25 MG RESPULES",
+        "Pack": "5*2.5ML",
         "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
     },
     {
@@ -123642,6 +123727,11 @@ const navkarMedicineData = [
     {
         "Product Name": "GRD SUGARFREE VANILLA POWDER 200GM",
         "Pack": "200GM",
+        "Company Name": "ZYDUS PHARMA (NUTRIVA)MAHAVIR"
+    },
+    {
+        "Product Name": "GRD VANILA BIX (FAT FREE) 2",
+        "Pack": "250 GM",
         "Company Name": "ZYDUS PHARMA (NUTRIVA)MAHAVIR"
     },
     {
