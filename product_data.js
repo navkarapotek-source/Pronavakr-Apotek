@@ -12195,6 +12195,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "LIPIDATOR GOLD 20 CAP",
+        "Pack": "10CAP",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "LIPIDATOR-5MG TABS",
         "Pack": "1X10T",
         "Company Name": "HEALING PHARMA"
@@ -12357,6 +12362,11 @@ const productData = [
     {
         "Product Name": "MINOXYTOP 5MG TAB",
         "Pack": "1X10TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "MINOXYTOP F 5% SOLUTION",
+        "Pack": "1X60ML",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -12817,6 +12827,11 @@ const productData = [
     {
         "Product Name": "ROBICAN-500MG TAB",
         "Pack": "1X10T",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "ROSUFREE 5 TAB",
+        "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -32671,11 +32686,6 @@ const productData = [
     },
     {
         "Product Name": "MINOXYTOP 10% SOL.",
-        "Pack": "1X60ML",
-        "Company Name": "ZEE DRUGS"
-    },
-    {
-        "Product Name": "MINOXYTOP F 5% SOLUTION",
         "Pack": "1X60ML",
         "Company Name": "ZEE DRUGS"
     },

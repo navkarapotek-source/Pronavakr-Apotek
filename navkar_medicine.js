@@ -17200,6 +17200,11 @@ const navkarMedicineData = [
         "Company Name": "BAKSUN DRUGS"
     },
     {
+        "Product Name": "BRAHMIWISE TAB",
+        "Pack": "TAB",
+        "Company Name": "BAKSUN DRUGS"
+    },
+    {
         "Product Name": "BRAMHIRICH SYP 200 ML",
         "Pack": "200 ML",
         "Company Name": "BAKSUN DRUGS"
@@ -17790,11 +17795,6 @@ const navkarMedicineData = [
         "Company Name": "BHARAT SERUM (FEMICARE)"
     },
     {
-        "Product Name": "DYNASEMO 0.25/0.5MG",
-        "Pack": "VIAL",
-        "Company Name": "BHARAT SERUMS & VACCINES LTD"
-    },
-    {
         "Product Name": "LONOPIN 20 MG INJ",
         "Pack": "1 PFS",
         "Company Name": "BHARAT SERUMS & VACCINES LTD"
@@ -17832,6 +17832,11 @@ const navkarMedicineData = [
     {
         "Product Name": "CARBITEX HS 100 MCG INJ",
         "Pack": "1 ML",
+        "Company Name": "BHARAT SERUMS WOMENS HEALTH"
+    },
+    {
+        "Product Name": "DYNASEMO 0.25/0.5MG",
+        "Pack": "VIAL",
         "Company Name": "BHARAT SERUMS WOMENS HEALTH"
     },
     {
@@ -45890,6 +45895,11 @@ const navkarMedicineData = [
         "Company Name": "GLENMARK (MAJESTA)"
     },
     {
+        "Product Name": "CORAL CALCIUM B12 TAB",
+        "Pack": "15 TAB",
+        "Company Name": "GLENMARK (MAJESTA)"
+    },
+    {
         "Product Name": "FLUBLOCK AZ NASAL SPRAY 7ML",
         "Pack": "70MD",
         "Company Name": "GLENMARK (MAJESTA)"
@@ -46060,6 +46070,11 @@ const navkarMedicineData = [
         "Company Name": "GLENMARK (PHARMA)"
     },
     {
+        "Product Name": "CORAL CALCIUM D3 SUSPENSION",
+        "Pack": "100ML",
+        "Company Name": "GLENMARK (PHARMA)"
+    },
+    {
         "Product Name": "D ACNE FOAMING FACE WASH 60ML",
         "Pack": "60ML",
         "Company Name": "GLENMARK (PHARMA)"
@@ -46090,6 +46105,11 @@ const navkarMedicineData = [
         "Company Name": "GLENMARK (PHARMA)"
     },
     {
+        "Product Name": "PRORAC PLUS CREAM",
+        "Pack": "20GM",
+        "Company Name": "GLENMARK (PHARMA)"
+    },
+    {
         "Product Name": "SCABOMA LOTION 100ML",
         "Pack": "100ML",
         "Company Name": "GLENMARK (PHARMA)"
@@ -46102,6 +46122,16 @@ const navkarMedicineData = [
     {
         "Product Name": "ASMITA TAB",
         "Pack": "21'S",
+        "Company Name": "GLENMARK (PHARMA-GYNAC)"
+    },
+    {
+        "Product Name": "CORAL CALCIUM D3 TAB 15`S",
+        "Pack": "TAB",
+        "Company Name": "GLENMARK (PHARMA-GYNAC)"
+    },
+    {
+        "Product Name": "CORAL CALCIUM TAB 15``S",
+        "Pack": "TAB",
         "Company Name": "GLENMARK (PHARMA-GYNAC)"
     },
     {
@@ -59875,6 +59905,11 @@ const navkarMedicineData = [
         "Company Name": "INVIO PHARMACEUTICALS PVT LTD"
     },
     {
+        "Product Name": "DEPRISA OD 750 TAB",
+        "Pack": "10TAB",
+        "Company Name": "INVIO PHARMACEUTICALS PVT LTD"
+    },
+    {
         "Product Name": "DESVIO XR 100 TAB",
         "Pack": "10TAB",
         "Company Name": "INVIO PHARMACEUTICALS PVT LTD"
@@ -65840,6 +65875,11 @@ const navkarMedicineData = [
         "Company Name": "SOFIDEW BABY MASSAGE OIL"
     },
     {
+        "Product Name": "SOFIDEW SHAMPOO 100 ML",
+        "Pack": "100 ML",
+        "Company Name": "SOFIDEW BABY MASSAGE OIL"
+    },
+    {
         "Product Name": "SOFIDOXIM DS SUSP",
         "Pack": "30ML",
         "Company Name": "SOFIDEW BABY MASSAGE OIL"
@@ -65957,11 +65997,6 @@ const navkarMedicineData = [
     {
         "Product Name": "OXIDOX CAP",
         "Pack": "TAB",
-        "Company Name": "KLM LABORATORIES PHARMA"
-    },
-    {
-        "Product Name": "SOFIDEW SHAMPOO 100 ML",
-        "Pack": "100 ML",
         "Company Name": "KLM LABORATORIES PHARMA"
     },
     {
@@ -96550,6 +96585,11 @@ const navkarMedicineData = [
         "Company Name": "PIRAMAL PHARMA LIMITED"
     },
     {
+        "Product Name": "I KNOW PREGNANCY KIT",
+        "Pack": "1KIT",
+        "Company Name": "PIRAMAL PHARMA LIMITED"
+    },
+    {
         "Product Name": "LACTO CALAMINE F/W BRIGHTEING VIT C",
         "Pack": "50ML",
         "Company Name": "PIRAMAL PHARMA LIMITED"
@@ -96567,6 +96607,21 @@ const navkarMedicineData = [
     {
         "Product Name": "LACTO CALAMINE FACE CTNS LOTION 30ML",
         "Pack": "30ML",
+        "Company Name": "PIRAMAL PHARMA LIMITED"
+    },
+    {
+        "Product Name": "LITTLE COMFY NIGHT MILDLARGE M8",
+        "Pack": "M8",
+        "Company Name": "PIRAMAL PHARMA LIMITED"
+    },
+    {
+        "Product Name": "LITTLE COMFY PANTS MID LARGE L8",
+        "Pack": "L8",
+        "Company Name": "PIRAMAL PHARMA LIMITED"
+    },
+    {
+        "Product Name": "LITTLE COMFY PANTS MID LARGE XI7",
+        "Pack": "XI7",
         "Company Name": "PIRAMAL PHARMA LIMITED"
     },
     {
@@ -96743,11 +96798,6 @@ const navkarMedicineData = [
         "Product Name": "ZEEGAB-MNT",
         "Pack": "10TAB",
         "Company Name": "PRECIA PHARMA"
-    },
-    {
-        "Product Name": "CORAL CALCIUM B12 TAB",
-        "Pack": "15 TAB",
-        "Company Name": "PREMIER NUTRACEUTICALS"
     },
     {
         "Product Name": "DILUCORT OINT",
@@ -102127,6 +102177,11 @@ const navkarMedicineData = [
     {
         "Product Name": "CEFRA-S 1.5GM INJ",
         "Pack": "INJ",
+        "Company Name": "SHREYA LIFE SCIENCES PVT. LTD."
+    },
+    {
+        "Product Name": "DEXAMET INJ 2ML",
+        "Pack": "2ML",
         "Company Name": "SHREYA LIFE SCIENCES PVT. LTD."
     },
     {
@@ -120295,11 +120350,6 @@ const navkarMedicineData = [
         "Company Name": "ZOETIS SANV (VET)"
     },
     {
-        "Product Name": "CELRIM TZ 1.125G INJ",
-        "Pack": "VIAL",
-        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
-    },
-    {
         "Product Name": "COSKLOT 250 TAB",
         "Pack": "10TAB",
         "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
@@ -120615,21 +120665,6 @@ const navkarMedicineData = [
         "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
     },
     {
-        "Product Name": "DENSICAL XT TAB",
-        "Pack": "TAB",
-        "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
-    },
-    {
-        "Product Name": "FEROSE IV INJ 10ML",
-        "Pack": "VIAL",
-        "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
-    },
-    {
-        "Product Name": "FEROSE IV INJ 5ML",
-        "Pack": "5ML",
-        "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
-    },
-    {
         "Product Name": "FORZEROL 100 CAP",
         "Pack": "30CAP",
         "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
@@ -120671,11 +120706,6 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "LACVIA MR TAB",
-        "Pack": "10TAB",
-        "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
-    },
-    {
-        "Product Name": "MARZON TAB",
         "Pack": "10TAB",
         "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
     },
@@ -120722,26 +120752,6 @@ const navkarMedicineData = [
     {
         "Product Name": "RHINAM M TAB",
         "Pack": "10TAB",
-        "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
-    },
-    {
-        "Product Name": "SUPRAVA 1 G INJ",
-        "Pack": "1G INJ",
-        "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
-    },
-    {
-        "Product Name": "SUPRAVA 1G INJ",
-        "Pack": "VIAL",
-        "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
-    },
-    {
-        "Product Name": "SUPRAVA SB 1.5G INJ",
-        "Pack": "VIAL",
-        "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
-    },
-    {
-        "Product Name": "SUPRAVA TZ 1.125 G INJ",
-        "Pack": "INJ",
         "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
     },
     {
@@ -120840,6 +120850,46 @@ const navkarMedicineData = [
         "Company Name": "ZORVIA HEALTHCARE (FORCE 2)"
     },
     {
+        "Product Name": "CELRIM TZ 1.125G INJ",
+        "Pack": "VIAL",
+        "Company Name": "ZORVIA HEALTHCARE LTD (ZORVI 3)"
+    },
+    {
+        "Product Name": "DENSICAL XT TAB",
+        "Pack": "TAB",
+        "Company Name": "ZORVIA HEALTHCARE LTD (ZORVI 3)"
+    },
+    {
+        "Product Name": "FEROSE IV INJ 10ML",
+        "Pack": "VIAL",
+        "Company Name": "ZORVIA HEALTHCARE LTD (ZORVI 3)"
+    },
+    {
+        "Product Name": "FEROSE IV INJ 5ML",
+        "Pack": "5ML",
+        "Company Name": "ZORVIA HEALTHCARE LTD (ZORVI 3)"
+    },
+    {
+        "Product Name": "SUPRAVA 1 G INJ",
+        "Pack": "1G INJ",
+        "Company Name": "ZORVIA HEALTHCARE LTD (ZORVI 3)"
+    },
+    {
+        "Product Name": "SUPRAVA 1G INJ",
+        "Pack": "VIAL",
+        "Company Name": "ZORVIA HEALTHCARE LTD (ZORVI 3)"
+    },
+    {
+        "Product Name": "SUPRAVA SB 1.5G INJ",
+        "Pack": "VIAL",
+        "Company Name": "ZORVIA HEALTHCARE LTD (ZORVI 3)"
+    },
+    {
+        "Product Name": "SUPRAVA TZ 1.125 G INJ",
+        "Pack": "INJ",
+        "Company Name": "ZORVIA HEALTHCARE LTD (ZORVI 3)"
+    },
+    {
         "Product Name": "BIOPIPER TZ 2.25G INJ",
         "Pack": "INJ",
         "Company Name": "ZORVIS HEALTHCARE LTD (ZORVIA 4)"
@@ -120872,6 +120922,11 @@ const navkarMedicineData = [
     {
         "Product Name": "FERVAY 750 INJ",
         "Pack": "750 INJ",
+        "Company Name": "ZORVIS HEALTHCARE LTD (ZORVIA 4)"
+    },
+    {
+        "Product Name": "MARZON TAB",
+        "Pack": "10TAB",
         "Company Name": "ZORVIS HEALTHCARE LTD (ZORVIA 4)"
     },
     {
