@@ -3095,6 +3095,11 @@ const otcData = [
         "Company Name": "HIMALAYA DRUG CO (ZEUS)"
     },
     {
+        "Product Name": "HIM STRESS RELIEF OIL",
+        "Pack": "200ML",
+        "Company Name": "HIMALAYA DRUG CO (ZEVIDA)"
+    },
+    {
         "Product Name": "ASHVAGANDHA CAP [HIMALYA]",
         "Pack": "60CAP",
         "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
@@ -3185,6 +3190,11 @@ const otcData = [
         "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
     },
     {
+        "Product Name": "HIM PAIN RELIEF OIL",
+        "Pack": "100ML",
+        "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
+    },
+    {
         "Product Name": "KOFLET LOZENGES (160+40)",
         "Pack": "JAR",
         "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
@@ -3202,6 +3212,11 @@ const otcData = [
     {
         "Product Name": "RUMALAYA GEL [10GM]",
         "Pack": "10GM",
+        "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
+    },
+    {
+        "Product Name": "RUMALAYA PAIN BALM",
+        "Pack": "8GM",
         "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
     },
     {

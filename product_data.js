@@ -11385,11 +11385,6 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
-        "Product Name": "EVIZONE-400 NF CAPS",
-        "Pack": "1X10CAP",
-        "Company Name": "HEALING PHARMA"
-    },
-    {
         "Product Name": "EYEHEAL DROPS",
         "Pack": "1X10ML",
         "Company Name": "HEALING PHARMA"

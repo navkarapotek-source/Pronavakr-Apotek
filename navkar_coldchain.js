@@ -30,6 +30,11 @@ const navkarColdchainData = [
         "Company Name": "ABBOTT HEALTHCARE (CRITICAL CARDIOLOGY)"
     },
     {
+        "Product Name": "AWIQLI FLEXTOUCH 700IU",
+        "Pack": "700IU",
+        "Company Name": "ABBOTT INDIA LTD"
+    },
+    {
         "Product Name": "HUMAN MIXARD 100 IU 10 ML",
         "Pack": "10 ML",
         "Company Name": "ABBOTT INDIA LTD"

@@ -1175,6 +1175,11 @@ const navkarMedicineData = [
         "Company Name": "ABBOTT HEALTHCARE (GENERICS)"
     },
     {
+        "Product Name": "ANASPAS INJ 2ML",
+        "Pack": "2ML",
+        "Company Name": "ABBOTT HEALTHCARE (GENERICS)"
+    },
+    {
         "Product Name": "JANUMET 50/1000 TAB",
         "Pack": "15TAB",
         "Company Name": "ABBOTT HEALTHCARE (GENERICS)"
@@ -5345,11 +5350,6 @@ const navkarMedicineData = [
         "Company Name": "AKUMENTIS HEALTHCARE (NOVELTIS)"
     },
     {
-        "Product Name": "ROSYCAP 5 TAB",
-        "Pack": "15 TAB",
-        "Company Name": "AKUMENTIS HEALTHCARE (NOVELTIS)"
-    },
-    {
         "Product Name": "ROSYCAP ASP 10/150 CAP",
         "Pack": "15 CAP",
         "Company Name": "AKUMENTIS HEALTHCARE (NOVELTIS)"
@@ -8705,74 +8705,79 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LAB (BERGEN ASTA)"
     },
     {
+        "Product Name": "GEMCAL [XT] TAB",
+        "Pack": "15 TAB",
+        "Company Name": "ALKEM LAB (BERGEN ASTA)"
+    },
+    {
         "Product Name": "GEMCAL 500MG TAB",
         "Pack": "15TAB",
-        "Company Name": "GEMCAL [XT] TAB"
+        "Company Name": "ALKEM LAB (BERGEN ASTA)"
     },
     {
         "Product Name": "GEMCAL CAP",
         "Pack": "15 CAP",
-        "Company Name": "GEMCAL [XT] TAB"
+        "Company Name": "ALKEM LAB (BERGEN ASTA)"
     },
     {
         "Product Name": "GEMCAL D3 CAP",
         "Pack": "15 CAP",
-        "Company Name": "GEMCAL [XT] TAB"
+        "Company Name": "ALKEM LAB (BERGEN ASTA)"
     },
     {
         "Product Name": "GEMCAL DS CAP",
         "Pack": "15 CAP",
-        "Company Name": "GEMCAL [XT] TAB"
+        "Company Name": "ALKEM LAB (BERGEN ASTA)"
     },
     {
         "Product Name": "GEMCAL DS SG CAP",
         "Pack": "15 CAP",
-        "Company Name": "GEMCAL [XT] TAB"
+        "Company Name": "ALKEM LAB (BERGEN ASTA)"
     },
     {
         "Product Name": "GEMCAL GOLD TAB",
         "Pack": "15'S",
-        "Company Name": "GEMCAL [XT] TAB"
+        "Company Name": "ALKEM LAB (BERGEN ASTA)"
     },
     {
         "Product Name": "GEMCAL KIT",
         "Pack": "7`S",
-        "Company Name": "GEMCAL [XT] TAB"
+        "Company Name": "ALKEM LAB (BERGEN ASTA)"
     },
     {
         "Product Name": "GEMCAL MOM TAB",
         "Pack": "30 TAB",
-        "Company Name": "GEMCAL [XT] TAB"
+        "Company Name": "ALKEM LAB (BERGEN ASTA)"
     },
     {
         "Product Name": "GEMCAL PLUS CAP",
         "Pack": "10 CAP",
-        "Company Name": "GEMCAL [XT] TAB"
+        "Company Name": "ALKEM LAB (BERGEN ASTA)"
     },
     {
         "Product Name": "GEMFOS TAB",
         "Pack": "4 TABS",
-        "Company Name": "GEMCAL [XT] TAB"
+        "Company Name": "ALKEM LAB (BERGEN ASTA)"
     },
     {
         "Product Name": "GEMIDRO 150MG TAB",
         "Pack": "1 TAB",
-        "Company Name": "GEMCAL [XT] TAB"
+        "Company Name": "ALKEM LAB (BERGEN ASTA)"
     },
     {
         "Product Name": "YEES 20MG TAB 10`S",
         "Pack": "TAB",
-        "Company Name": "GEMCAL [XT] TAB"
+        "Company Name": "ALKEM LAB (BERGEN ASTA)"
     },
     {
         "Product Name": "YEES 40MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "GEMCAL [XT] TAB"
+        "Company Name": "ALKEM LAB (BERGEN ASTA)"
     },
     {
         "Product Name": "YEES D CAP",
         "Pack": "10 TAB",
-        "Company Name": "GEMCAL [XT] TAB"
+        "Company Name": "ALKEM LAB (BERGEN ASTA)"
     },
     {
         "Product Name": "ALSITA MP 1000 MG TAB",
@@ -16560,16 +16565,6 @@ const navkarMedicineData = [
         "Company Name": "ARISTO PHARMA (TF2)"
     },
     {
-        "Product Name": "TELVAS CT 40 TAB",
-        "Pack": "10 TAB",
-        "Company Name": "ARISTO PHARMA (TF2)"
-    },
-    {
-        "Product Name": "TELVAS CT 80 TAB",
-        "Pack": "10 TAB",
-        "Company Name": "ARISTO PHARMA (TF2)"
-    },
-    {
         "Product Name": "TELVAS LN 40 TAB",
         "Pack": "10 TAB",
         "Company Name": "ARISTO PHARMA (TF2)"
@@ -16631,6 +16626,16 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "NEBI T  TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ARISTO PHARMA { TF3}"
+    },
+    {
+        "Product Name": "TELVAS CT 40 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ARISTO PHARMA { TF3}"
+    },
+    {
+        "Product Name": "TELVAS CT 80 TAB",
         "Pack": "10 TAB",
         "Company Name": "ARISTO PHARMA { TF3}"
     },
@@ -33005,11 +33010,6 @@ const navkarMedicineData = [
         "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
     },
     {
-        "Product Name": "ELDOPOD 100 DT TAB",
-        "Pack": "10TAB",
-        "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
-    },
-    {
         "Product Name": "ELDOTEL 40 TRIO 6.25 TAB",
         "Pack": "10TAB",
         "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
@@ -33416,6 +33416,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "ELDONET TAB",
+        "Pack": "10TAB",
+        "Company Name": "EL DORADO(ZEALOUS)"
+    },
+    {
+        "Product Name": "ELDOPOD 100 DT TAB",
         "Pack": "10TAB",
         "Company Name": "EL DORADO(ZEALOUS)"
     },
@@ -59795,6 +59800,11 @@ const navkarMedicineData = [
         "Company Name": "INUEN HEALTHCARE PRIVATE LIMITED"
     },
     {
+        "Product Name": "INUCARD M 25 TAB",
+        "Pack": "10TAB",
+        "Company Name": "INUEN HEALTHCARE PRIVATE LIMITED"
+    },
+    {
         "Product Name": "INUDAP 10 TAB",
         "Pack": "10TAB",
         "Company Name": "INUEN HEALTHCARE PRIVATE LIMITED"
@@ -59811,6 +59821,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "INUDAP M 10/500 TAB",
+        "Pack": "10TAB",
+        "Company Name": "INUEN HEALTHCARE PRIVATE LIMITED"
+    },
+    {
+        "Product Name": "INUDAP SGM 10/100/1000 TAB",
         "Pack": "10TAB",
         "Company Name": "INUEN HEALTHCARE PRIVATE LIMITED"
     },
@@ -71130,6 +71145,111 @@ const navkarMedicineData = [
         "Company Name": "LLOYD HEALTHCARE (ZORUS)"
     },
     {
+        "Product Name": "ROSLOY 10MG TAB",
+        "Pack": "TAB",
+        "Company Name": "LLOYD HEALTHCARE {LARUS}"
+    },
+    {
+        "Product Name": "ROSLOY 20 TAB",
+        "Pack": "10'S",
+        "Company Name": "LLOYD HEALTHCARE {LARUS}"
+    },
+    {
+        "Product Name": "ROSLOY 40",
+        "Pack": "15S",
+        "Company Name": "LLOYD HEALTHCARE {LARUS}"
+    },
+    {
+        "Product Name": "ROSLOY 5 TAB",
+        "Pack": "15S",
+        "Company Name": "LLOYD HEALTHCARE {LARUS}"
+    },
+    {
+        "Product Name": "ROSLOY ASP 10/150 CAP",
+        "Pack": "10 CAP",
+        "Company Name": "LLOYD HEALTHCARE {LARUS}"
+    },
+    {
+        "Product Name": "ROSLOY ASP 10/75MG TAB",
+        "Pack": "TAB",
+        "Company Name": "LLOYD HEALTHCARE {LARUS}"
+    },
+    {
+        "Product Name": "ROSLOY ASP 20/150 CAP",
+        "Pack": "10 CAP",
+        "Company Name": "LLOYD HEALTHCARE {LARUS}"
+    },
+    {
+        "Product Name": "ROSLOY ASP 20/75 CAP",
+        "Pack": "10 CAP",
+        "Company Name": "LLOYD HEALTHCARE {LARUS}"
+    },
+    {
+        "Product Name": "ROSLOY CV 10 TAB",
+        "Pack": "10'S",
+        "Company Name": "LLOYD HEALTHCARE {LARUS}"
+    },
+    {
+        "Product Name": "ROSLOY CV 20",
+        "Pack": "15S",
+        "Company Name": "LLOYD HEALTHCARE {LARUS}"
+    },
+    {
+        "Product Name": "ROSLOY CV 5",
+        "Pack": "10S",
+        "Company Name": "LLOYD HEALTHCARE {LARUS}"
+    },
+    {
+        "Product Name": "ROSLOY D 10",
+        "Pack": "10S",
+        "Company Name": "LLOYD HEALTHCARE {LARUS}"
+    },
+    {
+        "Product Name": "ROSLOY EZ 10",
+        "Pack": "10'S",
+        "Company Name": "LLOYD HEALTHCARE {LARUS}"
+    },
+    {
+        "Product Name": "ROSLOY EZ 20 TAB",
+        "Pack": "10'S",
+        "Company Name": "LLOYD HEALTHCARE {LARUS}"
+    },
+    {
+        "Product Name": "ROSLOY EZ 40 TAB",
+        "Pack": "10'S",
+        "Company Name": "LLOYD HEALTHCARE {LARUS}"
+    },
+    {
+        "Product Name": "ROSLOY F 10",
+        "Pack": "15S",
+        "Company Name": "LLOYD HEALTHCARE {LARUS}"
+    },
+    {
+        "Product Name": "ROSLOY F 20",
+        "Pack": "15S",
+        "Company Name": "LLOYD HEALTHCARE {LARUS}"
+    },
+    {
+        "Product Name": "ROSLOY F 5",
+        "Pack": "10S",
+        "Company Name": "LLOYD HEALTHCARE {LARUS}"
+    },
+    {
+        "Product Name": "ROSLOY GOLD 10 CAP",
+        "Pack": "10 CAP",
+        "Company Name": "LLOYD HEALTHCARE {LARUS}"
+    },
+    {
+        "Product Name": "ROSLOY GOLD 20 CAP",
+        "Pack": "10 CAP",
+        "Company Name": "LLOYD HEALTHCARE {LARUS}"
+    },
+    {
+        "Product Name": "ROSYCAP 5 TAB",
+        "Pack": "15 TAB",
+        "Company Name": "LLOYD HEALTHCARE {LARUS}"
+    },
+    {
         "Product Name": "ALCIUM TAB",
         "Pack": "15'S",
         "Company Name": "LLOYD HELATHCARE PORUS"
@@ -71197,56 +71317,6 @@ const navkarMedicineData = [
     {
         "Product Name": "ROSETO TAB",
         "Pack": "10TAB",
-        "Company Name": "LLOYD HELATHCARE PORUS"
-    },
-    {
-        "Product Name": "ROSLOY 10MG TAB",
-        "Pack": "TAB",
-        "Company Name": "LLOYD HELATHCARE PORUS"
-    },
-    {
-        "Product Name": "ROSLOY 20 TAB",
-        "Pack": "10'S",
-        "Company Name": "LLOYD HELATHCARE PORUS"
-    },
-    {
-        "Product Name": "ROSLOY ASP 10/150 CAP",
-        "Pack": "10 CAP",
-        "Company Name": "LLOYD HELATHCARE PORUS"
-    },
-    {
-        "Product Name": "ROSLOY ASP 10/75MG TAB",
-        "Pack": "TAB",
-        "Company Name": "LLOYD HELATHCARE PORUS"
-    },
-    {
-        "Product Name": "ROSLOY ASP 20/150 CAP",
-        "Pack": "10 CAP",
-        "Company Name": "LLOYD HELATHCARE PORUS"
-    },
-    {
-        "Product Name": "ROSLOY ASP 20/75 CAP",
-        "Pack": "10 CAP",
-        "Company Name": "LLOYD HELATHCARE PORUS"
-    },
-    {
-        "Product Name": "ROSLOY CV 10 TAB",
-        "Pack": "10'S",
-        "Company Name": "LLOYD HELATHCARE PORUS"
-    },
-    {
-        "Product Name": "ROSLOY EZ 20 TAB",
-        "Pack": "10'S",
-        "Company Name": "LLOYD HELATHCARE PORUS"
-    },
-    {
-        "Product Name": "ROSLOY GOLD 10 CAP",
-        "Pack": "10 CAP",
-        "Company Name": "LLOYD HELATHCARE PORUS"
-    },
-    {
-        "Product Name": "ROSLOY GOLD 20 CAP",
-        "Pack": "10 CAP",
         "Company Name": "LLOYD HELATHCARE PORUS"
     },
     {
@@ -71702,56 +71772,6 @@ const navkarMedicineData = [
     {
         "Product Name": "REMETOR F TAB",
         "Pack": "TAB",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "ROSLOY 40",
-        "Pack": "15S",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "ROSLOY 5 TAB",
-        "Pack": "15S",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "ROSLOY CV 20",
-        "Pack": "15S",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "ROSLOY CV 5",
-        "Pack": "10S",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "ROSLOY D 10",
-        "Pack": "10S",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "ROSLOY EZ 10",
-        "Pack": "10'S",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "ROSLOY EZ 40 TAB",
-        "Pack": "10'S",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "ROSLOY F 10",
-        "Pack": "15S",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "ROSLOY F 20",
-        "Pack": "15S",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
-        "Product Name": "ROSLOY F 5",
-        "Pack": "10S",
         "Company Name": "LLOYDS HEALTHCARE"
     },
     {
