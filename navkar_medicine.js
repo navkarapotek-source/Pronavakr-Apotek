@@ -155,6 +155,11 @@ const navkarMedicineData = [
         "Company Name": "ABBOT HEALTHCARE (QUANTAS)"
     },
     {
+        "Product Name": "SUPERMET XL 100MG TAB",
+        "Pack": "TAB",
+        "Company Name": "ABBOT HEALTHCARE (QUANTAS)"
+    },
+    {
         "Product Name": "SUPERMET XL 25MG TAB 15`S",
         "Pack": "15 TAB",
         "Company Name": "ABBOT HEALTHCARE (QUANTAS)"
@@ -13220,6 +13225,11 @@ const navkarMedicineData = [
         "Company Name": "ANAX LIFESCIENCE PVT LTD"
     },
     {
+        "Product Name": "LIMEVITA K TAB",
+        "Pack": "10TAB",
+        "Company Name": "ANAX LIFESCIENCE PVT LTD"
+    },
+    {
         "Product Name": "LIPIYES ASP 10/75 CAP",
         "Pack": "15CAP",
         "Company Name": "ANAX LIFESCIENCE PVT LTD"
@@ -15745,6 +15755,11 @@ const navkarMedicineData = [
         "Company Name": "ARISTO PHARMA (M F 4 )"
     },
     {
+        "Product Name": "MONOCEF O CV 100DT TAB",
+        "Pack": "10TAB",
+        "Company Name": "ARISTO PHARMA (M F 4 )"
+    },
+    {
         "Product Name": "MONOCEF O CV 200 TAB",
         "Pack": "10 TAB",
         "Company Name": "ARISTO PHARMA (M F 4 )"
@@ -16682,6 +16697,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ARISTOGYL 400 TAB",
         "Pack": "10 TAB",
+        "Company Name": "ARISTO PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "ARISTOZYME PRO DROPS",
+        "Pack": "10ML",
         "Company Name": "ARISTO PHARMACEUTICALS"
     },
     {
@@ -31360,21 +31380,6 @@ const navkarMedicineData = [
         "Company Name": "DR REDDYS LAB GRAND ERA"
     },
     {
-        "Product Name": "STUGERON 25 TAB",
-        "Pack": "25TAB",
-        "Company Name": "DR REDDYS LAB GRAND ERA"
-    },
-    {
-        "Product Name": "STUGERON FORTE TAB",
-        "Pack": "25TAB",
-        "Company Name": "DR REDDYS LAB GRAND ERA"
-    },
-    {
-        "Product Name": "STUGERON PLUS TAB",
-        "Pack": "10TAB",
-        "Company Name": "DR REDDYS LAB GRAND ERA"
-    },
-    {
         "Product Name": "VISCODYNE COUGH SYP 100ML",
         "Pack": "100ML",
         "Company Name": "DR REDDYS LAB GRAND ERA"
@@ -32877,6 +32882,11 @@ const navkarMedicineData = [
     {
         "Product Name": "FLUSHIT SYRUP",
         "Pack": "100ML",
+        "Company Name": "EISEN PHARMACEUTICALS PVT LTD"
+    },
+    {
+        "Product Name": "FLUSHTON TAB",
+        "Pack": "30TAB",
         "Company Name": "EISEN PHARMACEUTICALS PVT LTD"
     },
     {
@@ -35490,7 +35500,7 @@ const navkarMedicineData = [
         "Company Name": "CONSIVAS 10MG TAB"
     },
     {
-        "Product Name": "EMPRI L 25/5MGTAB",
+        "Product Name": "EMPRI L 25/5 TAB",
         "Pack": "10TAB",
         "Company Name": "CONSIVAS 10MG TAB"
     },
@@ -43525,11 +43535,6 @@ const navkarMedicineData = [
         "Company Name": "GENERAL...A"
     },
     {
-        "Product Name": "2B 12 TAB",
-        "Pack": "15 TAB",
-        "Company Name": "GENERICS"
-    },
-    {
         "Product Name": "ABZ 400MG TAB",
         "Pack": "1`S",
         "Company Name": "GENERICS"
@@ -45900,11 +45905,6 @@ const navkarMedicineData = [
         "Company Name": "GLENMARK (MAJESTA)"
     },
     {
-        "Product Name": "CORAL CALCIUM B12 TAB",
-        "Pack": "15 TAB",
-        "Company Name": "GLENMARK (MAJESTA)"
-    },
-    {
         "Product Name": "FLUBLOCK AZ NASAL SPRAY 7ML",
         "Pack": "70MD",
         "Company Name": "GLENMARK (MAJESTA)"
@@ -46075,11 +46075,6 @@ const navkarMedicineData = [
         "Company Name": "GLENMARK (PHARMA)"
     },
     {
-        "Product Name": "CORAL CALCIUM D3 SUSPENSION",
-        "Pack": "100ML",
-        "Company Name": "GLENMARK (PHARMA)"
-    },
-    {
         "Product Name": "D ACNE FOAMING FACE WASH 60ML",
         "Pack": "60ML",
         "Company Name": "GLENMARK (PHARMA)"
@@ -46110,11 +46105,6 @@ const navkarMedicineData = [
         "Company Name": "GLENMARK (PHARMA)"
     },
     {
-        "Product Name": "PRORAC PLUS CREAM",
-        "Pack": "20GM",
-        "Company Name": "GLENMARK (PHARMA)"
-    },
-    {
         "Product Name": "SCABOMA LOTION 100ML",
         "Pack": "100ML",
         "Company Name": "GLENMARK (PHARMA)"
@@ -46127,16 +46117,6 @@ const navkarMedicineData = [
     {
         "Product Name": "ASMITA TAB",
         "Pack": "21'S",
-        "Company Name": "GLENMARK (PHARMA-GYNAC)"
-    },
-    {
-        "Product Name": "CORAL CALCIUM D3 TAB 15`S",
-        "Pack": "TAB",
-        "Company Name": "GLENMARK (PHARMA-GYNAC)"
-    },
-    {
-        "Product Name": "CORAL CALCIUM TAB 15``S",
-        "Pack": "TAB",
         "Company Name": "GLENMARK (PHARMA-GYNAC)"
     },
     {
@@ -46540,11 +46520,6 @@ const navkarMedicineData = [
         "Company Name": "SITAZIT-D 10/100 TAB"
     },
     {
-        "Product Name": "TELMA DAPA 40/10 TAB",
-        "Pack": "10TAB",
-        "Company Name": "SITAZIT-D 10/100 TAB"
-    },
-    {
         "Product Name": "TELMA H 80 TAB",
         "Pack": "15 TAB",
         "Company Name": "SITAZIT-D 10/100 TAB"
@@ -46647,6 +46622,11 @@ const navkarMedicineData = [
     {
         "Product Name": "TELMA D 40 TAB",
         "Pack": "10 TAB",
+        "Company Name": "GLENMARK (SYNERG)"
+    },
+    {
+        "Product Name": "TELMA DAPA 40/10 TAB",
+        "Pack": "10TAB",
         "Company Name": "GLENMARK (SYNERG)"
     },
     {
@@ -52630,11 +52610,6 @@ const navkarMedicineData = [
         "Company Name": "ICON LIFE SCIENCES (MESMER)"
     },
     {
-        "Product Name": "COSATUS SYS",
-        "Pack": "ML",
-        "Company Name": "ICON LIFE SCIENCES (MESMER)"
-    },
-    {
         "Product Name": "ECT 60MG TAB",
         "Pack": "TAB",
         "Company Name": "ICON LIFE SCIENCES (MESMER)"
@@ -52812,6 +52787,11 @@ const navkarMedicineData = [
     {
         "Product Name": "CARNOSET SYR",
         "Pack": "200 ML",
+        "Company Name": "ICON LIFE SCIENCES ITTRIA"
+    },
+    {
+        "Product Name": "COSATUS SYS",
+        "Pack": "ML",
         "Company Name": "ICON LIFE SCIENCES ITTRIA"
     },
     {
@@ -61740,12 +61720,12 @@ const navkarMedicineData = [
         "Company Name": "IPCA LABORATORIES (PHARMA)"
     },
     {
-        "Product Name": "BLOCACID TAB",
+        "Product Name": "BLOCACID D TAB",
         "Pack": "15TAB",
         "Company Name": "IPCA LABORATORIES (PHARMA)"
     },
     {
-        "Product Name": "BLOCAID D TAB",
+        "Product Name": "BLOCACID TAB",
         "Pack": "15TAB",
         "Company Name": "IPCA LABORATORIES (PHARMA)"
     },
@@ -64355,6 +64335,21 @@ const navkarMedicineData = [
         "Company Name": "JOHNSON & JOHNSON (ETHNOR)"
     },
     {
+        "Product Name": "STUGERON 25 TAB",
+        "Pack": "25TAB",
+        "Company Name": "JOHNSON & JOHNSON (ETHNOR)"
+    },
+    {
+        "Product Name": "STUGERON FORTE TAB",
+        "Pack": "25TAB",
+        "Company Name": "JOHNSON & JOHNSON (ETHNOR)"
+    },
+    {
+        "Product Name": "STUGERON PLUS TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNSON & JOHNSON (ETHNOR)"
+    },
+    {
         "Product Name": "TOPAMAC 25MG TAB",
         "Pack": "TAB",
         "Company Name": "JOHNSON & JOHNSON (ETHNOR)"
@@ -65855,89 +65850,94 @@ const navkarMedicineData = [
         "Company Name": "KLM LABORATORIES PED"
     },
     {
+        "Product Name": "SOFIDEW BABY MASSAGE OIL",
+        "Pack": "100ML",
+        "Company Name": "KLM LABORATORIES PED"
+    },
+    {
         "Product Name": "SOFIDEW BABY MOIST LOTION 100ML",
         "Pack": "100ML",
-        "Company Name": "SOFIDEW BABY MASSAGE OIL"
+        "Company Name": "KLM LABORATORIES PED"
     },
     {
         "Product Name": "SOFIDEW BABY POWDER 100GM",
         "Pack": "100GM",
-        "Company Name": "SOFIDEW BABY MASSAGE OIL"
+        "Company Name": "KLM LABORATORIES PED"
     },
     {
         "Product Name": "SOFIDEW BABY SHAMPOO 100ML",
         "Pack": "100 ML",
-        "Company Name": "SOFIDEW BABY MASSAGE OIL"
+        "Company Name": "KLM LABORATORIES PED"
     },
     {
         "Product Name": "SOFIDEW CALOE LOTION 60ML",
         "Pack": "60ML",
-        "Company Name": "SOFIDEW BABY MASSAGE OIL"
+        "Company Name": "KLM LABORATORIES PED"
     },
     {
         "Product Name": "SOFIDEW CREAM 100GM",
         "Pack": "100GM",
-        "Company Name": "SOFIDEW BABY MASSAGE OIL"
+        "Company Name": "KLM LABORATORIES PED"
     },
     {
         "Product Name": "SOFIDEW LOTION",
         "Pack": "100ML",
-        "Company Name": "SOFIDEW BABY MASSAGE OIL"
+        "Company Name": "KLM LABORATORIES PED"
     },
     {
         "Product Name": "SOFIDEW RESYL LOTION",
         "Pack": "50ML",
-        "Company Name": "SOFIDEW BABY MASSAGE OIL"
+        "Company Name": "KLM LABORATORIES PED"
     },
     {
         "Product Name": "SOFIDEW SHAMPOO 100 ML",
         "Pack": "100 ML",
-        "Company Name": "SOFIDEW BABY MASSAGE OIL"
+        "Company Name": "KLM LABORATORIES PED"
     },
     {
         "Product Name": "SOFIDOXIM DS SUSP",
         "Pack": "30ML",
-        "Company Name": "SOFIDEW BABY MASSAGE OIL"
+        "Company Name": "KLM LABORATORIES PED"
     },
     {
         "Product Name": "SOFIKID DROPS DHA",
         "Pack": "30 ML",
-        "Company Name": "SOFIDEW BABY MASSAGE OIL"
+        "Company Name": "KLM LABORATORIES PED"
     },
     {
         "Product Name": "SOFIKID ZN DROP",
         "Pack": "15ML",
-        "Company Name": "SOFIDEW BABY MASSAGE OIL"
+        "Company Name": "KLM LABORATORIES PED"
     },
     {
         "Product Name": "SOFIKID ZN SYS",
         "Pack": "100ML",
-        "Company Name": "SOFIDEW BABY MASSAGE OIL"
+        "Company Name": "KLM LABORATORIES PED"
     },
     {
         "Product Name": "SOFIRASH CREAM 30GM",
         "Pack": "30GM",
-        "Company Name": "SOFIDEW BABY MASSAGE OIL"
+        "Company Name": "KLM LABORATORIES PED"
     },
     {
         "Product Name": "SPASTRET SUSP",
         "Pack": "60 ML",
-        "Company Name": "SOFIDEW BABY MASSAGE OIL"
+        "Company Name": "KLM LABORATORIES PED"
     },
     {
         "Product Name": "TODDRUB OINT",
         "Pack": "40GM",
-        "Company Name": "SOFIDEW BABY MASSAGE OIL"
+        "Company Name": "KLM LABORATORIES PED"
     },
     {
         "Product Name": "TRIPTOFER DROPS",
         "Pack": "15 ML",
-        "Company Name": "SOFIDEW BABY MASSAGE OIL"
+        "Company Name": "KLM LABORATORIES PED"
     },
     {
         "Product Name": "ZITLIN SUPS",
         "Pack": "30ML",
-        "Company Name": "SOFIDEW BABY MASSAGE OIL"
+        "Company Name": "KLM LABORATORIES PED"
     },
     {
         "Product Name": "CETALORE M 10MG TAB",
@@ -77467,6 +77467,21 @@ const navkarMedicineData = [
     {
         "Product Name": "RUBIRED [Z] TAB",
         "Pack": "10 TAB",
+        "Company Name": "MACLEODS (PHARMA)"
+    },
+    {
+        "Product Name": "SEMAMAC INJ 2MG/1.5ML",
+        "Pack": "1.5ML",
+        "Company Name": "MACLEODS (PHARMA)"
+    },
+    {
+        "Product Name": "SEMAMAC INJ 8MG/3ML",
+        "Pack": "3ML",
+        "Company Name": "MACLEODS (PHARMA)"
+    },
+    {
+        "Product Name": "SEMMAC INJ 4MG/3ML",
+        "Pack": "3ML",
         "Company Name": "MACLEODS (PHARMA)"
     },
     {
@@ -91305,6 +91320,11 @@ const navkarMedicineData = [
         "Company Name": "MSD PHARMACEUTICALS (METABOLIS)"
     },
     {
+        "Product Name": "UPADOZ 45MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "MSN LABORATORIES (THF)"
+    },
+    {
         "Product Name": "MIRABIG S 50 MG TAB",
         "Pack": "10 TAB",
         "Company Name": "MSN LABORATORIES LTD"
@@ -93215,17 +93235,17 @@ const navkarMedicineData = [
         "Company Name": "NUTRIGEN PHARMA"
     },
     {
-        "Product Name": "XPECOF EXP 60ML",
-        "Pack": "60 ML",
-        "Company Name": "NUTRIGEN PHARMA"
-    },
-    {
         "Product Name": "XPECOF LS DROPS",
         "Pack": "15ML",
         "Company Name": "NUTRIGEN PHARMA"
     },
     {
         "Product Name": "XPECOF LS JUNIOR SYP",
+        "Pack": "60 ML",
+        "Company Name": "NUTRIGEN PHARMA"
+    },
+    {
+        "Product Name": "XPECOF SYP 60ML",
         "Pack": "60 ML",
         "Company Name": "NUTRIGEN PHARMA"
     },
@@ -96818,6 +96838,36 @@ const navkarMedicineData = [
         "Product Name": "ZEEGAB-MNT",
         "Pack": "10TAB",
         "Company Name": "PRECIA PHARMA"
+    },
+    {
+        "Product Name": "2B 12 TAB",
+        "Pack": "15 TAB",
+        "Company Name": "PREMIER NUTRACEUTICALS"
+    },
+    {
+        "Product Name": "CORAL CALCIUM B12 TAB",
+        "Pack": "15 TAB",
+        "Company Name": "PREMIER NUTRACEUTICALS"
+    },
+    {
+        "Product Name": "CORAL CALCIUM D3 SUSPENSION",
+        "Pack": "100ML",
+        "Company Name": "PREMIER NUTRACEUTICALS"
+    },
+    {
+        "Product Name": "CORAL CALCIUM D3 TAB 15`S",
+        "Pack": "TAB",
+        "Company Name": "PREMIER NUTRACEUTICALS"
+    },
+    {
+        "Product Name": "CORAL CALCIUM TAB 15``S",
+        "Pack": "TAB",
+        "Company Name": "PREMIER NUTRACEUTICALS"
+    },
+    {
+        "Product Name": "PRORAC PLUS CREAM",
+        "Pack": "20GM",
+        "Company Name": "PREMIER NUTRACEUTICALS"
     },
     {
         "Product Name": "DILUCORT OINT",
@@ -119300,7 +119350,7 @@ const navkarMedicineData = [
         "Company Name": "WIN MEDICARE (ANTISEPTIC)"
     },
     {
-        "Product Name": "BETADINE FIRST AID SOLUTION 50ML",
+        "Product Name": "BETADINE FIRST AID SPRAY 50ML",
         "Pack": "50ML",
         "Company Name": "WIN MEDICARE (ANTISEPTIC)"
     },

@@ -307,72 +307,72 @@ const navkarColdchainData = [
     {
         "Product Name": "BASALOG 100IU INJ 3ML",
         "Pack": "3ML",
-        "Company Name": "BIOCON LIMITED (DIABETOLOGY)"
+        "Company Name": "BIOCON LIMITED (DIABETOLOGY) {ERIS}"
     },
     {
         "Product Name": "BASALOG 100IU INJ 5ML",
         "Pack": "5ML",
-        "Company Name": "BIOCON LIMITED (DIABETOLOGY)"
+        "Company Name": "BIOCON LIMITED (DIABETOLOGY) {ERIS}"
     },
     {
         "Product Name": "BASALOG ONE INJ PEN 3ML",
         "Pack": "3ML",
-        "Company Name": "BIOCON LIMITED (DIABETOLOGY)"
+        "Company Name": "BIOCON LIMITED (DIABETOLOGY) {ERIS}"
     },
     {
         "Product Name": "BASALOG REFIL CARTR INJ 1X3ML",
         "Pack": "1X3ML",
-        "Company Name": "BIOCON LIMITED (DIABETOLOGY)"
+        "Company Name": "BIOCON LIMITED (DIABETOLOGY) {ERIS}"
     },
     {
         "Product Name": "ERLY PEN 3ML+",
         "Pack": "3ML",
-        "Company Name": "BIOCON LIMITED (DIABETOLOGY)"
+        "Company Name": "BIOCON LIMITED (DIABETOLOGY) {ERIS}"
     },
     {
         "Product Name": "INSUGEN 30/70 100 IU",
         "Pack": "10 ML",
-        "Company Name": "BIOCON LIMITED (DIABETOLOGY)"
+        "Company Name": "BIOCON LIMITED (DIABETOLOGY) {ERIS}"
     },
     {
         "Product Name": "INSUGEN 30/70 40IU INJ 10ML",
         "Pack": "10ML",
-        "Company Name": "BIOCON LIMITED (DIABETOLOGY)"
+        "Company Name": "BIOCON LIMITED (DIABETOLOGY) {ERIS}"
     },
     {
         "Product Name": "INSUGEN 30/70 INJ REFILL",
         "Pack": "3ML",
-        "Company Name": "BIOCON LIMITED (DIABETOLOGY)"
+        "Company Name": "BIOCON LIMITED (DIABETOLOGY) {ERIS}"
     },
     {
         "Product Name": "INSUGEN 50/50 100IU INJ 10ML",
         "Pack": "10ML",
-        "Company Name": "BIOCON LIMITED (DIABETOLOGY)"
+        "Company Name": "BIOCON LIMITED (DIABETOLOGY) {ERIS}"
     },
     {
         "Product Name": "INSUGEN 50/50 40IU INJ 10ML",
         "Pack": "10ML",
-        "Company Name": "BIOCON LIMITED (DIABETOLOGY)"
+        "Company Name": "BIOCON LIMITED (DIABETOLOGY) {ERIS}"
     },
     {
         "Product Name": "INSUGEN 50/50 INJ REFILL",
         "Pack": "3ML",
-        "Company Name": "BIOCON LIMITED (DIABETOLOGY)"
+        "Company Name": "BIOCON LIMITED (DIABETOLOGY) {ERIS}"
     },
     {
         "Product Name": "INSUGEN N 100IU ING",
         "Pack": "1 VAIL",
-        "Company Name": "BIOCON LIMITED (DIABETOLOGY)"
+        "Company Name": "BIOCON LIMITED (DIABETOLOGY) {ERIS}"
     },
     {
         "Product Name": "INSUGEN N 40IU INJ 10ML",
         "Pack": "10ML",
-        "Company Name": "BIOCON LIMITED (DIABETOLOGY)"
+        "Company Name": "BIOCON LIMITED (DIABETOLOGY) {ERIS}"
     },
     {
         "Product Name": "INSUGEN R 100IU ING",
         "Pack": "1 VAIL",
-        "Company Name": "BIOCON LIMITED (DIABETOLOGY)"
+        "Company Name": "BIOCON LIMITED (DIABETOLOGY) {ERIS}"
     },
     {
         "Product Name": "INSUGEN R REFIL 100IU 5X3ML",
@@ -391,6 +391,11 @@ const navkarColdchainData = [
     },
     {
         "Product Name": "SUNDAE VIAL 4MG/3ML",
+        "Pack": "1'S",
+        "Company Name": "INSUGEN R 40IU INJ 10ML"
+    },
+    {
+        "Product Name": "SUNDAE VIAL 8MG/3ML",
         "Pack": "1'S",
         "Company Name": "INSUGEN R 40IU INJ 10ML"
     },
@@ -716,11 +721,6 @@ const navkarColdchainData = [
     },
     {
         "Product Name": "SUNDAE PEN 8MG/3ML",
-        "Pack": "1'S",
-        "Company Name": "ERIS LIFE SCIENCES (PHARMA)"
-    },
-    {
-        "Product Name": "SUNDAE VIAL 8MG/3ML",
         "Pack": "1'S",
         "Company Name": "ERIS LIFE SCIENCES (PHARMA)"
     },

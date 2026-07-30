@@ -5290,11 +5290,6 @@ const productData = [
         "Company Name": "CIPLA"
     },
     {
-        "Product Name": "PRESOLAR CAPS",
-        "Pack": "1X10C",
-        "Company Name": "CIPLA"
-    },
-    {
         "Product Name": "REACTIN 100 MG SR",
         "Pack": "1X10T",
         "Company Name": "CIPLA"
@@ -5552,6 +5547,11 @@ const productData = [
     {
         "Product Name": "NOVACEF-1.5 GM INJ",
         "Pack": "1X1VAIL",
+        "Company Name": "CIPLA NEXGEN"
+    },
+    {
+        "Product Name": "PRESOLAR CAPS",
+        "Pack": "1X10C",
         "Company Name": "CIPLA NEXGEN"
     },
     {
@@ -5887,6 +5887,21 @@ const productData = [
     {
         "Product Name": "PROLYTE ORS ORANGE LIQ",
         "Pack": "1X200ML",
+        "Company Name": "CIPLA OTC MAIN"
+    },
+    {
+        "Product Name": "PROLYTE ORS TANGY ORANGE 22.2GM",
+        "Pack": "22.2GM",
+        "Company Name": "CIPLA OTC MAIN"
+    },
+    {
+        "Product Name": "SOAK SHIELD ADULT PANT LARGE",
+        "Pack": "PC",
+        "Company Name": "CIPLA OTC MAIN"
+    },
+    {
+        "Product Name": "SOAK SHIELD ADULT PANT MEDIUM",
+        "Pack": "PC",
         "Company Name": "CIPLA OTC MAIN"
     },
     {
@@ -7692,11 +7707,6 @@ const productData = [
     {
         "Product Name": "SILDOZEN-4 MG CAPS",
         "Pack": "1X10C",
-        "Company Name": "ELDER PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "SILDOZEN-8D CAPS",
-        "Pack": "1X10T",
         "Company Name": "ELDER PHARMACEUTICALS LTD"
     },
     {
@@ -10600,6 +10610,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "AMIOCARDIA 200 TAB",
+        "Pack": "10TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "AMLOHEAL-5MG TAB",
         "Pack": "30TAB",
         "Company Name": "HEALING PHARMA"
@@ -10722,6 +10737,11 @@ const productData = [
     {
         "Product Name": "AZILSMART-80MG TABS",
         "Pack": "1X10T",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "BACLOHEAL OD 30 TAB",
+        "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -11306,6 +11326,11 @@ const productData = [
     },
     {
         "Product Name": "EMPASMART LINA 10/5 TAB",
+        "Pack": "10TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "EMPASMART-LINA 25/5 TAB",
         "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
     },
@@ -12440,6 +12465,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "MYCOTRANS S 360 TAB",
+        "Pack": "10TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "N-ACETAU TAB",
         "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
@@ -12910,6 +12940,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "SILDOHEAL D 8 CAP",
+        "Pack": "10CAP",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "SITASMART DAPA 10/100 TAB",
         "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
@@ -12921,6 +12956,11 @@ const productData = [
     },
     {
         "Product Name": "SITASMART GM 502 TAB",
+        "Pack": "10TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "SITASMART M 500/100 TAB",
         "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
     },
@@ -13102,6 +13142,11 @@ const productData = [
     {
         "Product Name": "THROMBOHEAL GEL",
         "Pack": "1X20GM",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "TICASMART 60 TAB",
+        "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -19965,6 +20010,11 @@ const productData = [
         "Company Name": "LUPIN LIFESCIENCES LIMITED"
     },
     {
+        "Product Name": "LUPIZYME PLUS SYP 200ML (MIXTED FRUIT)",
+        "Pack": "200ML",
+        "Company Name": "LUPIN LIFESCIENCES LIMITED"
+    },
+    {
         "Product Name": "LUPIZYME PLUS SYP 200ML(PINEAPPLE)",
         "Pack": "1X200ML",
         "Company Name": "LUPIN LIFESCIENCES LIMITED"
@@ -25960,6 +26010,16 @@ const productData = [
         "Company Name": "SMART BFGF"
     },
     {
+        "Product Name": "ITRAVEGAN 100 CAP",
+        "Pack": "10CAP",
+        "Company Name": "SMART BFGF"
+    },
+    {
+        "Product Name": "ITRAVEGAN 200 CAP",
+        "Pack": "10CAP",
+        "Company Name": "SMART BFGF"
+    },
+    {
         "Product Name": "KETOSCORE 6 CREAM 15 GM",
         "Pack": "15GM",
         "Company Name": "SMART BFGF"
@@ -25970,18 +26030,23 @@ const productData = [
         "Company Name": "SMART BFGF"
     },
     {
-        "Product Name": "MEFIFRESH SPAS TAB",
-        "Pack": "10TAB",
-        "Company Name": "SMART BFGF"
-    },
-    {
-        "Product Name": "MULTIFRESH SOFTCAPS",
-        "Pack": "10CAP",
-        "Company Name": "SMART BFGF"
-    },
-    {
         "Product Name": "NIMSQUARE P TAB",
         "Pack": "10TAB",
+        "Company Name": "SMART BFGF"
+    },
+    {
+        "Product Name": "ORASMUTH 4X TAB",
+        "Pack": "10TAB",
+        "Company Name": "SMART BFGF"
+    },
+    {
+        "Product Name": "ORASMUTH GEL",
+        "Pack": "10GM",
+        "Company Name": "SMART BFGF"
+    },
+    {
+        "Product Name": "PANTOCOAT 40 TAB 15",
+        "Pack": "15TAB",
         "Company Name": "SMART BFGF"
     },
     {
@@ -25990,22 +26055,7 @@ const productData = [
         "Company Name": "SMART BFGF"
     },
     {
-        "Product Name": "PARASQUARE 650 TAB",
-        "Pack": "15TAB",
-        "Company Name": "SMART BFGF"
-    },
-    {
         "Product Name": "RABEFRESH DSR CAP",
-        "Pack": "10CAP",
-        "Company Name": "SMART BFGF"
-    },
-    {
-        "Product Name": "RESPIJOY COUGH LOZENGES",
-        "Pack": "10LOZ",
-        "Company Name": "SMART BFGF"
-    },
-    {
-        "Product Name": "RESPIJOY D SOFTGEL CAP",
         "Pack": "10CAP",
         "Company Name": "SMART BFGF"
     },
@@ -26670,11 +26720,6 @@ const productData = [
         "Company Name": "SMART ICONIC LAB"
     },
     {
-        "Product Name": "AMISCORE 500 INJ",
-        "Pack": "1X2ML",
-        "Company Name": "SMART ICONIC LAB"
-    },
-    {
         "Product Name": "BABYBOND GRIPE WATER 150ML",
         "Pack": "150ML",
         "Company Name": "SMART ICONIC LAB"
@@ -26810,16 +26855,6 @@ const productData = [
         "Company Name": "SMART ICONIC LAB"
     },
     {
-        "Product Name": "DICLOSCORE 75 INJ",
-        "Pack": "1X1ML",
-        "Company Name": "SMART ICONIC LAB"
-    },
-    {
-        "Product Name": "DICLOSCORE AQ INJ",
-        "Pack": "1ML",
-        "Company Name": "SMART ICONIC LAB"
-    },
-    {
         "Product Name": "DINKHUSH POWDER 100GM",
         "Pack": "100GM",
         "Company Name": "SMART ICONIC LAB"
@@ -26932,16 +26967,6 @@ const productData = [
     {
         "Product Name": "FOURFIGHT CREAM 25GM",
         "Pack": "1X25GM",
-        "Company Name": "SMART ICONIC LAB"
-    },
-    {
-        "Product Name": "GABACREST M TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMART ICONIC LAB"
-    },
-    {
-        "Product Name": "GABACREST NT TAB",
-        "Pack": "1X10TAB",
         "Company Name": "SMART ICONIC LAB"
     },
     {
@@ -27420,11 +27445,6 @@ const productData = [
         "Company Name": "SMART ICONIC LAB"
     },
     {
-        "Product Name": "ONDASCORE INJ 2ML",
-        "Pack": "1X2ML",
-        "Company Name": "SMART ICONIC LAB"
-    },
-    {
         "Product Name": "ORAPASS GEL 10GM",
         "Pack": "10GM",
         "Company Name": "SMART ICONIC LAB"
@@ -27522,21 +27542,6 @@ const productData = [
     {
         "Product Name": "PLATPLUS TAB",
         "Pack": "1X15TAB",
-        "Company Name": "SMART ICONIC LAB"
-    },
-    {
-        "Product Name": "PREGACREST 75 CAP",
-        "Pack": "1X10CAP",
-        "Company Name": "SMART ICONIC LAB"
-    },
-    {
-        "Product Name": "PREGACREST M CAP",
-        "Pack": "1X10CAP",
-        "Company Name": "SMART ICONIC LAB"
-    },
-    {
-        "Product Name": "PREGACREST NTM TAB",
-        "Pack": "1X10TAB",
         "Company Name": "SMART ICONIC LAB"
     },
     {
@@ -27945,36 +27950,6 @@ const productData = [
         "Company Name": "SMART ICONIC LAB"
     },
     {
-        "Product Name": "TWELUP 1500 INJ",
-        "Pack": "1ML",
-        "Company Name": "SMART ICONIC LAB"
-    },
-    {
-        "Product Name": "TWELUP 2500 INJ",
-        "Pack": "1ML",
-        "Company Name": "SMART ICONIC LAB"
-    },
-    {
-        "Product Name": "TWELUP AQ PFS INJ 1ML",
-        "Pack": "1ML",
-        "Company Name": "SMART ICONIC LAB"
-    },
-    {
-        "Product Name": "TWELUP C INJ",
-        "Pack": "3ML",
-        "Company Name": "SMART ICONIC LAB"
-    },
-    {
-        "Product Name": "TWELUP FORTE INJ",
-        "Pack": "1X2ML",
-        "Company Name": "SMART ICONIC LAB"
-    },
-    {
-        "Product Name": "TWELUP SL TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMART ICONIC LAB"
-    },
-    {
         "Product Name": "VG-SHIELD INTIMATE WASH",
         "Pack": "1X100ML",
         "Company Name": "SMART ICONIC LAB"
@@ -28057,6 +28032,11 @@ const productData = [
     {
         "Product Name": "ALKAFRESH UTI SUSP",
         "Pack": "100ML",
+        "Company Name": "ALKAFRESH SODA EFFERVESCENT"
+    },
+    {
+        "Product Name": "AMISCORE 500 INJ",
+        "Pack": "1X2ML",
         "Company Name": "ALKAFRESH SODA EFFERVESCENT"
     },
     {
@@ -28730,6 +28710,16 @@ const productData = [
         "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
+        "Product Name": "DICLOSCORE 75 INJ",
+        "Pack": "1X1ML",
+        "Company Name": "DARKROOM SUPER DOTTED"
+    },
+    {
+        "Product Name": "DICLOSCORE AQ INJ",
+        "Pack": "1ML",
+        "Company Name": "DARKROOM SUPER DOTTED"
+    },
+    {
         "Product Name": "DOLOFRESH IBU SUSP",
         "Pack": "100ML",
         "Company Name": "DARKROOM SUPER DOTTED"
@@ -28865,6 +28855,16 @@ const productData = [
         "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
+        "Product Name": "GABACREST M TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "DARKROOM SUPER DOTTED"
+    },
+    {
+        "Product Name": "GABACREST NT TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "DARKROOM SUPER DOTTED"
+    },
+    {
         "Product Name": "GENTAFRESH DX DROPS",
         "Pack": "10ML",
         "Company Name": "DARKROOM SUPER DOTTED"
@@ -28937,16 +28937,6 @@ const productData = [
     {
         "Product Name": "HAIRLINE F SOLUTION",
         "Pack": "60ML",
-        "Company Name": "DARKROOM SUPER DOTTED"
-    },
-    {
-        "Product Name": "ITRAVEGAN 100 CAP",
-        "Pack": "10CAP",
-        "Company Name": "DARKROOM SUPER DOTTED"
-    },
-    {
-        "Product Name": "ITRAVEGAN 200 CAP",
-        "Pack": "10CAP",
         "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
@@ -29175,6 +29165,11 @@ const productData = [
         "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
+        "Product Name": "MEFIFRESH SPAS TAB",
+        "Pack": "10TAB",
+        "Company Name": "DARKROOM SUPER DOTTED"
+    },
+    {
         "Product Name": "MEFIFRESH TAB",
         "Pack": "10TAB",
         "Company Name": "DARKROOM SUPER DOTTED"
@@ -29267,6 +29262,11 @@ const productData = [
     {
         "Product Name": "MULTIFRESH HB SYRUP",
         "Pack": "200ML",
+        "Company Name": "DARKROOM SUPER DOTTED"
+    },
+    {
+        "Product Name": "MULTIFRESH SOFTCAPS",
+        "Pack": "10CAP",
         "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
@@ -29375,13 +29375,8 @@ const productData = [
         "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
-        "Product Name": "ORASMUTH 4X TAB",
-        "Pack": "10TAB",
-        "Company Name": "DARKROOM SUPER DOTTED"
-    },
-    {
-        "Product Name": "ORASMUTH GEL",
-        "Pack": "10GM",
+        "Product Name": "ONDASCORE INJ 2ML",
+        "Pack": "1X2ML",
         "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
@@ -29435,11 +29430,6 @@ const productData = [
         "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
-        "Product Name": "PANTOCOAT 40 TAB 15",
-        "Pack": "15TAB",
-        "Company Name": "ORAWET ORS APPLE TETRAPACK"
-    },
-    {
         "Product Name": "PANTOCOAT D 15TAB",
         "Pack": "15TAB",
         "Company Name": "ORAWET ORS APPLE TETRAPACK"
@@ -29467,6 +29457,11 @@ const productData = [
     {
         "Product Name": "PARASQUARE 500 TAB",
         "Pack": "10TAB",
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
+    },
+    {
+        "Product Name": "PARASQUARE 650 TAB",
+        "Pack": "15TAB",
         "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
@@ -29535,6 +29530,21 @@ const productData = [
         "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
+        "Product Name": "PREGACREST 75 CAP",
+        "Pack": "1X10CAP",
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
+    },
+    {
+        "Product Name": "PREGACREST M CAP",
+        "Pack": "1X10CAP",
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
+    },
+    {
+        "Product Name": "PREGACREST NTM TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
+    },
+    {
         "Product Name": "PREGAJOY HCG KIT",
         "Pack": "1NOS.",
         "Company Name": "ORAWET ORS APPLE TETRAPACK"
@@ -29597,6 +29607,16 @@ const productData = [
     {
         "Product Name": "RACEBREK-S SACHET",
         "Pack": "1GM",
+        "Company Name": "PROTIFRESH ADVANCE POWDER"
+    },
+    {
+        "Product Name": "RESPIJOY COUGH LOZENGES",
+        "Pack": "10LOZ",
+        "Company Name": "PROTIFRESH ADVANCE POWDER"
+    },
+    {
+        "Product Name": "RESPIJOY D SOFTGEL CAP",
+        "Pack": "10CAP",
         "Company Name": "PROTIFRESH ADVANCE POWDER"
     },
     {
@@ -29882,6 +29902,36 @@ const productData = [
     {
         "Product Name": "TUSSTHIK DX15 SYRUP",
         "Pack": "60ML",
+        "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
+    },
+    {
+        "Product Name": "TWELUP 1500 INJ",
+        "Pack": "1ML",
+        "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
+    },
+    {
+        "Product Name": "TWELUP 2500 INJ",
+        "Pack": "1ML",
+        "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
+    },
+    {
+        "Product Name": "TWELUP AQ PFS INJ 1ML",
+        "Pack": "1ML",
+        "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
+    },
+    {
+        "Product Name": "TWELUP C INJ",
+        "Pack": "3ML",
+        "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
+    },
+    {
+        "Product Name": "TWELUP FORTE INJ",
+        "Pack": "1X2ML",
+        "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
+    },
+    {
+        "Product Name": "TWELUP SL TAB",
+        "Pack": "1X10TAB",
         "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
     },
     {

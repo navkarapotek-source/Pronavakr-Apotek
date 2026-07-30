@@ -2250,6 +2250,11 @@ const otcData = [
         "Company Name": "GENERAL...A"
     },
     {
+        "Product Name": "NISHA HAIR SHAMPOO COLOUR [MRP 20]",
+        "Pack": "PC",
+        "Company Name": "GENERAL...A"
+    },
+    {
         "Product Name": "OLD SPICE LIME 70GM [MRP 71]",
         "Pack": "70GM",
         "Company Name": "GENERAL...A"
@@ -4922,6 +4927,11 @@ const otcData = [
     {
         "Product Name": "VICKS VAPORUB [5GM]",
         "Pack": "5GM",
+        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
+    },
+    {
+        "Product Name": "WHISPER CHOICE [11+1]MRP 550",
+        "Pack": "PC",
         "Company Name": "PROCTER & GAMBLE HEALTH LTD."
     },
     {
