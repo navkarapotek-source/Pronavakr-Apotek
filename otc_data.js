@@ -420,13 +420,13 @@ const otcData = [
         "Company Name": "AMRUT PHARMACEUTICALS"
     },
     {
-        "Product Name": "AMRUTANJAN BALM [27.5GM]",
-        "Pack": "27.5GM",
+        "Product Name": "AMRUTANJAN BALM [50ML](YELLOW)",
+        "Pack": "50GM",
         "Company Name": "AMRUTANJAN LIMITED"
     },
     {
-        "Product Name": "AMRUTANJAN BALM [50ML]",
-        "Pack": "50 ML",
+        "Product Name": "AMRUTANJAN BALM[27.5GM](YELLOW)",
+        "Pack": "27.5GM",
         "Company Name": "AMRUTANJAN LIMITED"
     },
     {
@@ -1192,6 +1192,16 @@ const otcData = [
     {
         "Product Name": "SOAK SHIELD ADULT DIAPER TAPED XL",
         "Pack": "1X10PCS",
+        "Company Name": "CIPLA OTC MAIN"
+    },
+    {
+        "Product Name": "SOAK SHIELD ADULT PANT LARGE",
+        "Pack": "PC",
+        "Company Name": "CIPLA OTC MAIN"
+    },
+    {
+        "Product Name": "SOAK SHIELD ADULT PANT MEDIUM",
+        "Pack": "PC",
         "Company Name": "CIPLA OTC MAIN"
     },
     {

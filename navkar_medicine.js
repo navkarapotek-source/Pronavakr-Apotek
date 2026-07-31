@@ -3470,6 +3470,11 @@ const navkarMedicineData = [
         "Company Name": "AJANTA PHARMA (AVECIA)"
     },
     {
+        "Product Name": "PEROCLIN 2.5% GEL",
+        "Pack": "15GM",
+        "Company Name": "AJANTA PHARMA (AVECIA)"
+    },
+    {
         "Product Name": "PEROCLIN 5% GEL",
         "Pack": "15GM",
         "Company Name": "AJANTA PHARMA (AVECIA)"
@@ -7210,6 +7215,11 @@ const navkarMedicineData = [
         "Company Name": "ALEMBIC (GENERICS)"
     },
     {
+        "Product Name": "PENTAB D TAB",
+        "Pack": "TAB",
+        "Company Name": "ALEMBIC (GENERICS)"
+    },
+    {
         "Product Name": "SITALEMBIC M 1000 TAB",
         "Pack": "15 TAB",
         "Company Name": "ALEMBIC (GENERICS)"
@@ -8805,6 +8815,11 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LAB (CYTOMED)"
     },
     {
+        "Product Name": "KOJIGLO GOLD CREAM",
+        "Pack": "30GM",
+        "Company Name": "ALKEM LAB (DERMA CARE)"
+    },
+    {
         "Product Name": "MIRAKEM 25 MG TAB",
         "Pack": "10 TAB",
         "Company Name": "ALKEM LAB (DERMA CARE)"
@@ -10305,6 +10320,11 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LAB { METASMART}"
     },
     {
+        "Product Name": "CLINDAC A GEL (30GM)",
+        "Pack": "30GM",
+        "Company Name": "ALKEM LAB(DERMA ONE)"
+    },
+    {
         "Product Name": "CLINDAC A GEL 20GM",
         "Pack": "20 GM",
         "Company Name": "ALKEM LAB(DERMA ONE)"
@@ -10315,6 +10335,11 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LAB(DERMA ONE)"
     },
     {
+        "Product Name": "CLINDAC AN 30 GMS",
+        "Pack": "30GMS",
+        "Company Name": "ALKEM LAB(DERMA ONE)"
+    },
+    {
         "Product Name": "CLINDAC AP GEL",
         "Pack": "15 MG",
         "Company Name": "ALKEM LAB(DERMA ONE)"
@@ -10322,6 +10347,11 @@ const navkarMedicineData = [
     {
         "Product Name": "FORTISIL SUNSCREEN SPF 50",
         "Pack": "50G",
+        "Company Name": "ALKEM LAB(DERMA ONE)"
+    },
+    {
+        "Product Name": "GLUTONE SX2 TAB",
+        "Pack": "15'S",
         "Company Name": "ALKEM LAB(DERMA ONE)"
     },
     {
@@ -10365,6 +10395,11 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LAB(DERMA ONE)"
     },
     {
+        "Product Name": "KOJIGLO SERUM",
+        "Pack": "30ML",
+        "Company Name": "ALKEM LAB(DERMA ONE)"
+    },
+    {
         "Product Name": "KOJIGLO SKIN LIGHTENING FACEWASH",
         "Pack": "100ML",
         "Company Name": "ALKEM LAB(DERMA ONE)"
@@ -10402,6 +10437,11 @@ const navkarMedicineData = [
     {
         "Product Name": "RENOCIA TAB",
         "Pack": "TAB",
+        "Company Name": "ALKEM LAB(DERMA ONE)"
+    },
+    {
+        "Product Name": "SUNHEAL GEL",
+        "Pack": "50GM",
         "Company Name": "ALKEM LAB(DERMA ONE)"
     },
     {
@@ -10470,16 +10510,6 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LABORATORIES LIMITED"
     },
     {
-        "Product Name": "CLINDAC A GEL (30GM)",
-        "Pack": "30GM",
-        "Company Name": "ALKEM LABORATORIES LIMITED"
-    },
-    {
-        "Product Name": "CLINDAC AN 30 GMS",
-        "Pack": "30GMS",
-        "Company Name": "ALKEM LABORATORIES LIMITED"
-    },
-    {
         "Product Name": "DAPANORM DUO 5  TAB",
         "Pack": "TAB",
         "Company Name": "ALKEM LABORATORIES LIMITED"
@@ -10525,11 +10555,6 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LABORATORIES LIMITED"
     },
     {
-        "Product Name": "GLUTONE SX2 TAB",
-        "Pack": "15'S",
-        "Company Name": "ALKEM LABORATORIES LIMITED"
-    },
-    {
         "Product Name": "GLUVILDA OD (10S)",
         "Pack": "10TAB",
         "Company Name": "ALKEM LABORATORIES LIMITED"
@@ -10537,16 +10562,6 @@ const navkarMedicineData = [
     {
         "Product Name": "JUPIROS EZ 40 TAB",
         "Pack": "10'S",
-        "Company Name": "ALKEM LABORATORIES LIMITED"
-    },
-    {
-        "Product Name": "KOJIGLO GOLD CREAM",
-        "Pack": "30GM",
-        "Company Name": "ALKEM LABORATORIES LIMITED"
-    },
-    {
-        "Product Name": "KOJIGLO SERUM",
-        "Pack": "30ML",
         "Company Name": "ALKEM LABORATORIES LIMITED"
     },
     {
@@ -10657,11 +10672,6 @@ const navkarMedicineData = [
     {
         "Product Name": "SEMASIZE 2MG INJ",
         "Pack": "VIAL",
-        "Company Name": "ALKEM LABORATORIES LIMITED"
-    },
-    {
-        "Product Name": "SUNHEAL GEL",
-        "Pack": "50GM",
         "Company Name": "ALKEM LABORATORIES LIMITED"
     },
     {
@@ -19956,6 +19966,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "B PROTIN MANGO FLAVOR 200GM",
+        "Pack": "200GM",
+        "Company Name": "BRITISH BIOLOGICALS(MAXIMUS)"
+    },
+    {
+        "Product Name": "B PROTIN VANILLA POWDER 200GM",
         "Pack": "200GM",
         "Company Name": "BRITISH BIOLOGICALS(MAXIMUS)"
     },
@@ -31440,6 +31455,11 @@ const navkarMedicineData = [
         "Company Name": "DR REDDYS LAB GRAND ERA"
     },
     {
+        "Product Name": "ZYRTEC SYP",
+        "Pack": "60ML",
+        "Company Name": "DR REDDYS LAB GRAND ERA"
+    },
+    {
         "Product Name": "CELEVIDA CHOCO  POWDER",
         "Pack": "400 GM",
         "Company Name": "DR REDDYS LAB VIVERA DIV"
@@ -32882,6 +32902,11 @@ const navkarMedicineData = [
     {
         "Product Name": "FLUSHIT SYRUP",
         "Pack": "100ML",
+        "Company Name": "EISEN PHARMACEUTICALS PVT LTD"
+    },
+    {
+        "Product Name": "FLUSHTON SYP",
+        "Pack": "450ML",
         "Company Name": "EISEN PHARMACEUTICALS PVT LTD"
     },
     {
@@ -54735,11 +54760,6 @@ const navkarMedicineData = [
         "Company Name": "INTAS (AVANTA)"
     },
     {
-        "Product Name": "CLAVILIP GOLD 40",
-        "Pack": "15CAP",
-        "Company Name": "INTAS (AVANTA)"
-    },
-    {
         "Product Name": "CLONIL 10MG TAB",
         "Pack": "15TAB",
         "Company Name": "INTAS (AVANTA)"
@@ -55057,11 +55077,6 @@ const navkarMedicineData = [
     {
         "Product Name": "BLYNDS AC CREAM",
         "Pack": "50GM",
-        "Company Name": "INTAS ADRINA"
-    },
-    {
-        "Product Name": "CLAVILIP GOLD 10",
-        "Pack": "15CAP",
         "Company Name": "INTAS ADRINA"
     },
     {
@@ -55472,11 +55487,6 @@ const navkarMedicineData = [
     {
         "Product Name": "BIGBRO TAB",
         "Pack": "TAB",
-        "Company Name": "INTAS HELATHACRE SUPRIMA"
-    },
-    {
-        "Product Name": "CLAVILIP GOLD 20",
-        "Pack": "15CAP",
         "Company Name": "INTAS HELATHACRE SUPRIMA"
     },
     {
@@ -58120,6 +58130,21 @@ const navkarMedicineData = [
         "Company Name": "INTAS PHARMACEUTICALS (VECTOR)"
     },
     {
+        "Product Name": "CLAVILIP GOLD 10",
+        "Pack": "15CAP",
+        "Company Name": "INTAS PHARMACEUTICALS (VECTOR)"
+    },
+    {
+        "Product Name": "CLAVILIP GOLD 20",
+        "Pack": "15CAP",
+        "Company Name": "INTAS PHARMACEUTICALS (VECTOR)"
+    },
+    {
+        "Product Name": "CLAVILIP GOLD 40",
+        "Pack": "15CAP",
+        "Company Name": "INTAS PHARMACEUTICALS (VECTOR)"
+    },
+    {
         "Product Name": "CLAVINTAS 75 TAB",
         "Pack": "15TAB",
         "Company Name": "INTAS PHARMACEUTICALS (VECTOR)"
@@ -59267,6 +59292,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ZORYL M4 FORTE TAB",
         "Pack": "15TAB",
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
+    },
+    {
+        "Product Name": "ZORYL MV 1 FORTE",
+        "Pack": "10TAB",
         "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
@@ -63995,11 +64025,6 @@ const navkarMedicineData = [
         "Company Name": "JENBURKT PHARMACEUTICALS LTD"
     },
     {
-        "Product Name": "NERVIJEN SYRUP",
-        "Pack": "200ML",
-        "Company Name": "JENBURKT PHARMACEUTICALS LTD"
-    },
-    {
         "Product Name": "TRIBEN AD SHAMPOO",
         "Pack": "120ML",
         "Company Name": "JENBURKT PHARMACEUTICALS LTD"
@@ -64177,6 +64202,11 @@ const navkarMedicineData = [
     {
         "Product Name": "NERVIJEN PLUS CAP",
         "Pack": "10CAP",
+        "Company Name": "JENBURKT(ZORA)"
+    },
+    {
+        "Product Name": "NERVIJEN SYRUP",
+        "Pack": "200ML",
         "Company Name": "JENBURKT(ZORA)"
     },
     {
@@ -66700,6 +66730,11 @@ const navkarMedicineData = [
         "Company Name": "LA PHARMACEUTICALS"
     },
     {
+        "Product Name": "AMGRACE-100 TAB",
+        "Pack": "10TAB",
+        "Company Name": "LA PHARMACEUTICALS"
+    },
+    {
         "Product Name": "AMOLIFE 50MG TAB",
         "Pack": "20 TAB",
         "Company Name": "LA PHARMACEUTICALS"
@@ -66771,6 +66806,16 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "EPCON 0.5 TAB",
+        "Pack": "10TAB",
+        "Company Name": "LA PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "ESITOR 10 TAB",
+        "Pack": "10TAB",
+        "Company Name": "LA PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "ESITOR 20 TAB",
         "Pack": "10TAB",
         "Company Name": "LA PHARMACEUTICALS"
     },
@@ -95780,11 +95825,6 @@ const navkarMedicineData = [
         "Company Name": "PHYTO PHARMA"
     },
     {
-        "Product Name": "LIMIRON GRANULES 250GM",
-        "Pack": "250GM",
-        "Company Name": "PHYTO PHARMA"
-    },
-    {
         "Product Name": "LIMIRON TAB",
         "Pack": "60 CAP",
         "Company Name": "PHYTO PHARMA"
@@ -116560,69 +116600,74 @@ const navkarMedicineData = [
         "Company Name": "USV LIMITED (CORVETTE)"
     },
     {
+        "Product Name": "GLYCOMET GP 1 FORTE TAB",
+        "Pack": "10 TAB",
+        "Company Name": "USV LIMITED (CORVETTE)"
+    },
+    {
         "Product Name": "GLYCOMET GP 1/850 TAB",
         "Pack": "10 TAB",
-        "Company Name": "GLYCOMET GP 1 FORTE TAB"
+        "Company Name": "USV LIMITED (CORVETTE)"
     },
     {
         "Product Name": "GLYCOMET GP 2 FORTE TAB",
         "Pack": "10 TAB",
-        "Company Name": "GLYCOMET GP 1 FORTE TAB"
+        "Company Name": "USV LIMITED (CORVETTE)"
     },
     {
         "Product Name": "GLYCOMET GP 2/850 TAB",
         "Pack": "10 TAB",
-        "Company Name": "GLYCOMET GP 1 FORTE TAB"
+        "Company Name": "USV LIMITED (CORVETTE)"
     },
     {
         "Product Name": "GLYCOMET GP 3 FORTE TAB",
         "Pack": "10 TAB",
-        "Company Name": "GLYCOMET GP 1 FORTE TAB"
+        "Company Name": "USV LIMITED (CORVETTE)"
     },
     {
         "Product Name": "GLYCOMET GP 3/850MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "GLYCOMET GP 1 FORTE TAB"
+        "Company Name": "USV LIMITED (CORVETTE)"
     },
     {
         "Product Name": "GLYCOMET GP 4 FORTE TAB",
         "Pack": "10 TAB",
-        "Company Name": "GLYCOMET GP 1 FORTE TAB"
+        "Company Name": "USV LIMITED (CORVETTE)"
     },
     {
         "Product Name": "GP 0.5MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "GLYCOMET GP 1 FORTE TAB"
+        "Company Name": "USV LIMITED (CORVETTE)"
     },
     {
         "Product Name": "GP 1MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "GLYCOMET GP 1 FORTE TAB"
+        "Company Name": "USV LIMITED (CORVETTE)"
     },
     {
         "Product Name": "GP 2MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "GLYCOMET GP 1 FORTE TAB"
+        "Company Name": "USV LIMITED (CORVETTE)"
     },
     {
         "Product Name": "GP 3MG TAB",
         "Pack": "TAB",
-        "Company Name": "GLYCOMET GP 1 FORTE TAB"
+        "Company Name": "USV LIMITED (CORVETTE)"
     },
     {
         "Product Name": "GP 4MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "GLYCOMET GP 1 FORTE TAB"
+        "Company Name": "USV LIMITED (CORVETTE)"
     },
     {
         "Product Name": "UDAPA TRIO FORTE TAB",
         "Pack": "10 TAB",
-        "Company Name": "GLYCOMET GP 1 FORTE TAB"
+        "Company Name": "USV LIMITED (CORVETTE)"
     },
     {
         "Product Name": "UDAPA TRIO TAB",
         "Pack": "10 TAB",
-        "Company Name": "GLYCOMET GP 1 FORTE TAB"
+        "Company Name": "USV LIMITED (CORVETTE)"
     },
     {
         "Product Name": "FOLCURE 5 TAB",

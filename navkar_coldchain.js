@@ -125,11 +125,6 @@ const navkarColdchainData = [
         "Company Name": "AJANTA PHARMA (ANSCA)"
     },
     {
-        "Product Name": "PEROCLIN 2.5% GEL",
-        "Pack": "15GM",
-        "Company Name": "AJANTA PHARMA (AVECIA)"
-    },
-    {
         "Product Name": "VIVETA CREAM 5 GM",
         "Pack": "5 GM",
         "Company Name": "AJANTA PHARMA (AXYS)"

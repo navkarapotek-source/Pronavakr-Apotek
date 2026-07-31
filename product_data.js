@@ -5070,11 +5070,6 @@ const productData = [
         "Company Name": "CIPLA"
     },
     {
-        "Product Name": "IBUGESIC TH 4MG TAB",
-        "Pack": "10TAB",
-        "Company Name": "CIPLA"
-    },
-    {
         "Product Name": "ITRANOX 100 CAP  10",
         "Pack": "10CAP",
         "Company Name": "CIPLA"
@@ -5400,6 +5395,11 @@ const productData = [
         "Company Name": "CIPLA"
     },
     {
+        "Product Name": "TELGARD H TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "CIPLA"
+    },
+    {
         "Product Name": "TENEPLA (M) 1000MG TABS",
         "Pack": "1X10T",
         "Company Name": "CIPLA"
@@ -5535,6 +5535,11 @@ const productData = [
         "Company Name": "CIPLA NEXGEN"
     },
     {
+        "Product Name": "IBUGESIC TH 4MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "CIPLA NEXGEN"
+    },
+    {
         "Product Name": "MICOGEL F OINT 15GM",
         "Pack": "15GM",
         "Company Name": "CIPLA NEXGEN"
@@ -5547,16 +5552,6 @@ const productData = [
     {
         "Product Name": "NOVACEF-1.5 GM INJ",
         "Pack": "1X1VAIL",
-        "Company Name": "CIPLA NEXGEN"
-    },
-    {
-        "Product Name": "PRESOLAR CAPS",
-        "Pack": "1X10C",
-        "Company Name": "CIPLA NEXGEN"
-    },
-    {
-        "Product Name": "TELGARD H TAB",
-        "Pack": "1X10TAB",
         "Company Name": "CIPLA NEXGEN"
     },
     {
@@ -5892,16 +5887,6 @@ const productData = [
     {
         "Product Name": "PROLYTE ORS TANGY ORANGE 22.2GM",
         "Pack": "22.2GM",
-        "Company Name": "CIPLA OTC MAIN"
-    },
-    {
-        "Product Name": "SOAK SHIELD ADULT PANT LARGE",
-        "Pack": "PC",
-        "Company Name": "CIPLA OTC MAIN"
-    },
-    {
-        "Product Name": "SOAK SHIELD ADULT PANT MEDIUM",
-        "Pack": "PC",
         "Company Name": "CIPLA OTC MAIN"
     },
     {
@@ -6377,6 +6362,11 @@ const productData = [
     {
         "Product Name": "PODOCIP CV TABS",
         "Pack": "1X10T",
+        "Company Name": "CIPLA VITAL CARE"
+    },
+    {
+        "Product Name": "PRESOLAR CAPS",
+        "Pack": "1X10C",
         "Company Name": "CIPLA VITAL CARE"
     },
     {
@@ -20362,172 +20352,177 @@ const productData = [
     {
         "Product Name": "ACNEKIND GEL",
         "Pack": "22GM",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "ACNEKIND SOAP",
         "Pack": "75GM",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "BACTOFLORA SACHETS",
         "Pack": "1GM",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "BRUTASTRONG 100MG TAB",
         "Pack": "10TAB",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "CEFAGRATE 500 TAB",
         "Pack": "10TAB",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "CIPROGYL-OFM SUSP",
         "Pack": "30ML",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "DERMIKIND CF CREAM",
         "Pack": "15GM",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "DOLOBAN MR TAB",
         "Pack": "10TAB",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "DOLOKIND STRONG GEL",
         "Pack": "30GM",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "DOLOKIND-RF GEL",
         "Pack": "30GM",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "DOMIPLAY DROP",
+        "Pack": "5ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "ELECTROKIND ORS LIQUID (APPLE)",
         "Pack": "200ML",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "ELECTROKIND ORS LIQUID (ORANGE)",
         "Pack": "200ML",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "ELECTROKIND ORS SACHET",
         "Pack": "1X21GM",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "FLUKAYES-150 TAB",
         "Pack": "1 TAB",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "FLUKAYES-200 TAB",
         "Pack": "1TAB",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "ITOSTAR 100 CAP",
         "Pack": "10CAP",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "ITOSTAR 200 CAP",
         "Pack": "10CAP",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "MAHAKETO CREAM",
         "Pack": "30GM",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "MANKINDS PROTEIN PWD CHOC 200 GM",
         "Pack": "200 GM",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "NASORYL JUNIOR SPRAY",
         "Pack": "10ML",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "NIMULID ASP TAB",
         "Pack": "10TAB",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "NIMULID COLD & FLU TAB",
         "Pack": "10TAB",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "NIMULID MD TAB",
         "Pack": "15TAB",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "NIMULID PLUS GOLD TAB",
         "Pack": "10TAB",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "NORADAY 400 TAB",
         "Pack": "10TAB",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "NORADAY TZ TAB",
         "Pack": "10TAB",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "OSKAR 20 CAP",
         "Pack": "15CAP",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "OSKAR DSR CAP",
         "Pack": "10CAP",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "PANTAPOINT 40 TAB",
         "Pack": "15TAB",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "PANTAPOINT DSR CAP",
         "Pack": "15CAP",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "RABEPOINT DSR CAP",
         "Pack": "15CAP",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "TUSSMARK DX SYP",
         "Pack": "100ML",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "TUSSMARK LS DROP",
         "Pack": "15ML",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "TUSSMARK LS SYP",
         "Pack": "100ML",
-        "Company Name": "MANKIND PHARMA (PRIME)"
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
         "Product Name": "NIMEKIND PLUS GOLD TAB",
@@ -20577,11 +20572,6 @@ const productData = [
     {
         "Product Name": "CEFACLASS DROP 10ML",
         "Pack": "1X10ML",
-        "Company Name": "MANKIND PHARMA LTD."
-    },
-    {
-        "Product Name": "DOMIPLAY DROP",
-        "Pack": "5ML",
         "Company Name": "MANKIND PHARMA LTD."
     },
     {
@@ -26660,16 +26650,6 @@ const productData = [
         "Company Name": "SMART ECO"
     },
     {
-        "Product Name": "10BOX/300PC FOLDABLE PLASTIC STOOL",
-        "Pack": "PC",
-        "Company Name": "SMART ICONIC LAB"
-    },
-    {
-        "Product Name": "5BOX/150PCS 6PC CELLO RICCA CUP SET 6PCS",
-        "Pack": "PC",
-        "Company Name": "SMART ICONIC LAB"
-    },
-    {
         "Product Name": "ACIFRESH EG EFFERVESENT TAB",
         "Pack": "1X4TAB",
         "Company Name": "SMART ICONIC LAB"
@@ -27995,8 +27975,18 @@ const productData = [
         "Company Name": "SMART ICONIC LAB"
     },
     {
+        "Product Name": "10BOX/300PC FOLDABLE PLASTIC STOOL",
+        "Pack": "PC",
+        "Company Name": "SMART LAB"
+    },
+    {
         "Product Name": "10BOX/300PC THE MENS PERFUME",
         "Pack": "20 ML",
+        "Company Name": "SMART LAB"
+    },
+    {
+        "Product Name": "5BOX/150PCS 6PC CELLO RICCA CUP SET 6PCS",
+        "Pack": "PC",
         "Company Name": "SMART LAB"
     },
     {
