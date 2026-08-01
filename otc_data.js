@@ -3965,6 +3965,11 @@ const otcData = [
         "Company Name": "KARKHANA ZINDA TILISMATH"
     },
     {
+        "Product Name": "ESKUF-DX SYP 100ML",
+        "Pack": "100ML",
+        "Company Name": "LABORATE PHARMA"
+    },
+    {
         "Product Name": "LOOKMAN HAYAT TEL [100ML]",
         "Pack": "100 ML",
         "Company Name": "M U AMRELIA"
@@ -4937,11 +4942,6 @@ const otcData = [
     {
         "Product Name": "VICKS VAPORUB [5GM]",
         "Pack": "5GM",
-        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
-    },
-    {
-        "Product Name": "WHISPER CHOICE [11+1]MRP 550",
-        "Pack": "PC",
         "Company Name": "PROCTER & GAMBLE HEALTH LTD."
     },
     {

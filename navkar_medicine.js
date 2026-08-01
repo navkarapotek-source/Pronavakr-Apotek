@@ -2101,7 +2101,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "ARACHITOL 3LAC INJ",
-        "Pack": "1 ML",
+        "Pack": "6*1 ML",
         "Company Name": "ABBOTT INDIA LTD (GENERAL CARE)"
     },
     {
@@ -3467,11 +3467,6 @@ const navkarMedicineData = [
     {
         "Product Name": "PATADIN 5MG TAB",
         "Pack": "TAB",
-        "Company Name": "AJANTA PHARMA (AVECIA)"
-    },
-    {
-        "Product Name": "PEROCLIN 2.5% GEL",
-        "Pack": "15GM",
         "Company Name": "AJANTA PHARMA (AVECIA)"
     },
     {
@@ -5030,6 +5025,11 @@ const navkarMedicineData = [
         "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
+        "Product Name": "WELMINIC COLD",
+        "Pack": "10ML",
+        "Company Name": "AKUMENTIS DELCURE LIFE"
+    },
+    {
         "Product Name": "WELMINIC DROPS 30 ML",
         "Pack": "30 ML",
         "Company Name": "AKUMENTIS DELCURE LIFE"
@@ -5193,11 +5193,6 @@ const navkarMedicineData = [
         "Product Name": "VILMAX M 1000 MG TAB",
         "Pack": "10 TAB",
         "Company Name": "AKUMENTIS HEALTHCARE (CREATIS)"
-    },
-    {
-        "Product Name": "WELMINIC COLD",
-        "Pack": "10ML",
-        "Company Name": "AKUMENTIS HEALTHCARE (ELITIS)"
     },
     {
         "Product Name": "ACT NVP TAB 10``S",
@@ -31725,6 +31720,11 @@ const navkarMedicineData = [
         "Company Name": "DR REDDYS LABORATORIES LTD"
     },
     {
+        "Product Name": "PCAB 25 MG TAB",
+        "Pack": "10'S",
+        "Company Name": "DR REDDYS LABORATORIES LTD"
+    },
+    {
         "Product Name": "PCAB 50 TAB",
         "Pack": "10 TAB",
         "Company Name": "DR REDDYS LABORATORIES LTD"
@@ -45990,11 +45990,6 @@ const navkarMedicineData = [
         "Company Name": "GLENMARK (MILIEUS)"
     },
     {
-        "Product Name": "2B12 TAB",
-        "Pack": "15TAB",
-        "Company Name": "GLENMARK (PHARMA)"
-    },
-    {
         "Product Name": "CANDID [B] CREAM 10GM",
         "Pack": "10GM",
         "Company Name": "GLENMARK (PHARMA)"
@@ -46112,6 +46107,11 @@ const navkarMedicineData = [
     {
         "Product Name": "D ACNE SOFT FOAM FACE WASH",
         "Pack": "100GM",
+        "Company Name": "GLENMARK (PHARMA)"
+    },
+    {
+        "Product Name": "GLENMARK CYSTEO CREAM",
+        "Pack": "15GM",
         "Company Name": "GLENMARK (PHARMA)"
     },
     {
@@ -51007,6 +51007,16 @@ const navkarMedicineData = [
     {
         "Product Name": "HETRIVA 18 PATCH",
         "Pack": "1 PATCH",
+        "Company Name": "HETRO HEALTHCARE (AURUM)"
+    },
+    {
+        "Product Name": "HEXUM MOUTH WASH",
+        "Pack": "10 ML",
+        "Company Name": "HETRO HEALTHCARE (AURUM)"
+    },
+    {
+        "Product Name": "HEXUM TOOTHPASTE",
+        "Pack": "50 GM",
         "Company Name": "HETRO HEALTHCARE (AURUM)"
     },
     {
@@ -64405,11 +64415,6 @@ const navkarMedicineData = [
         "Company Name": "JOHNSON & JOHNSON (JANSSEN)"
     },
     {
-        "Product Name": "ORS WHO ORANGE POWDER",
-        "Pack": "22.2GM",
-        "Company Name": "JOHNSON & JOHNSON (OTC)"
-    },
-    {
         "Product Name": "ORSL [APPALE] LIQUID [ERZL]",
         "Pack": "200ML",
         "Company Name": "JOHNSON & JOHNSON (OTC)"
@@ -64446,6 +64451,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "ORSL POWDER [ORANG]",
+        "Pack": "22.2GM",
+        "Company Name": "JOHNSON & JOHNSON (OTC)"
+    },
+    {
+        "Product Name": "ORSL WHO ORANGE POWDER",
         "Pack": "22.2GM",
         "Company Name": "JOHNSON & JOHNSON (OTC)"
     },
@@ -70665,6 +70675,11 @@ const navkarMedicineData = [
         "Company Name": "LLOYD HEALTHCARE (AURUS)"
     },
     {
+        "Product Name": "ROSYCAP 5 TAB",
+        "Pack": "15 TAB",
+        "Company Name": "LLOYD HEALTHCARE (AURUS)"
+    },
+    {
         "Product Name": "SUGARAY 100 MG TAB",
         "Pack": "15 TAB",
         "Company Name": "LLOYD HEALTHCARE (AURUS)"
@@ -71287,11 +71302,6 @@ const navkarMedicineData = [
     {
         "Product Name": "ROSLOY GOLD 20 CAP",
         "Pack": "10 CAP",
-        "Company Name": "LLOYD HEALTHCARE {LARUS}"
-    },
-    {
-        "Product Name": "ROSYCAP 5 TAB",
-        "Pack": "15 TAB",
         "Company Name": "LLOYD HEALTHCARE {LARUS}"
     },
     {
@@ -85945,6 +85955,11 @@ const navkarMedicineData = [
         "Company Name": "MED MANOR (GLORIA)"
     },
     {
+        "Product Name": "BILAHIST COOL LOTION",
+        "Pack": "150 ML",
+        "Company Name": "MED MANOR (GLORIA)"
+    },
+    {
         "Product Name": "BILAHIST M TAB",
         "Pack": "10 TAB",
         "Company Name": "MED MANOR (GLORIA)"
@@ -85992,6 +86007,11 @@ const navkarMedicineData = [
     {
         "Product Name": "KETO B LOTION 30ML",
         "Pack": "30ML",
+        "Company Name": "MED MANOR (GLORIA)"
+    },
+    {
+        "Product Name": "KETO COOL LOTION 100ML",
+        "Pack": "100 ML",
         "Company Name": "MED MANOR (GLORIA)"
     },
     {
@@ -93820,7 +93840,7 @@ const navkarMedicineData = [
         "Company Name": "OVERSEAS (PHARMA)"
     },
     {
-        "Product Name": "GOODVIT TAB",
+        "Product Name": "GOODVIT TAB3",
         "Pack": "TAB",
         "Company Name": "OVERSEAS (PHARMA)"
     },
@@ -94835,7 +94855,7 @@ const navkarMedicineData = [
         "Company Name": "PHARMAC PHARMA DIVISION"
     },
     {
-        "Product Name": "ACCO-NEX-TP",
+        "Product Name": "ACCONEX-TP",
         "Pack": "10TAB",
         "Company Name": "PHARMAC PHARMA DIVISION"
     },
@@ -96880,8 +96900,8 @@ const navkarMedicineData = [
         "Company Name": "PRECIA PHARMA"
     },
     {
-        "Product Name": "2B 12 TAB",
-        "Pack": "15 TAB",
+        "Product Name": "2B12 TAB",
+        "Pack": "15TAB",
         "Company Name": "PREMIER NUTRACEUTICALS"
     },
     {
@@ -109057,6 +109077,11 @@ const navkarMedicineData = [
     {
         "Product Name": "KINETOZYME TAB",
         "Pack": "10TAB",
+        "Company Name": "HALOSYS S OINT"
+    },
+    {
+        "Product Name": "L SYS CREAM",
+        "Pack": "100GM",
         "Company Name": "HALOSYS S OINT"
     },
     {

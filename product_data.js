@@ -14575,6 +14575,11 @@ const productData = [
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
+        "Product Name": "GLIMITH MF-4SR TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
         "Product Name": "GLIMITH-0.5MG TABS",
         "Pack": "1X10T",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
@@ -14655,6 +14660,11 @@ const productData = [
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
+        "Product Name": "JOVASTATIN 40 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
         "Product Name": "JOVASTATIN-10 TAB(AL)",
         "Pack": "10TAB",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
@@ -14662,6 +14672,11 @@ const productData = [
     {
         "Product Name": "JOVASTATIN-80 TAB",
         "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "LEEMATE-25 TABS",
+        "Pack": "1X10T",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
@@ -14730,6 +14745,11 @@ const productData = [
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
+        "Product Name": "PRAZOCIN 2.5XL TAB",
+        "Pack": "15TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
         "Product Name": "PRAZOCIN-5XL TAB",
         "Pack": "15TAB",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
@@ -14762,6 +14782,11 @@ const productData = [
     {
         "Product Name": "RISDOLE-2MG TABS",
         "Pack": "1X10T",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "ROSUPROVE 5 TAB",
+        "Pack": "10TAB",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
@@ -14810,12 +14835,22 @@ const productData = [
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
+        "Product Name": "TELGO 80 H TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
         "Product Name": "TELGO CH-12.50 TAB",
         "Pack": "10TAB",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
         "Product Name": "TELGO CH-6.25 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "TELGO H40 TAB",
         "Pack": "10TAB",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
@@ -14866,6 +14901,11 @@ const productData = [
     },
     {
         "Product Name": "TEMSUJOHN-D TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "TENALIP M TAB",
         "Pack": "10TAB",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
@@ -15625,6 +15665,11 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "AQKOLD  DROP 15ML",
+        "Pack": "15ML",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "AQKUF DX TAB",
         "Pack": "10TAB",
         "Company Name": "LABORATE AQUA LAB"
@@ -16150,6 +16195,11 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "AUDIMOX 250 CAP",
+        "Pack": "10CAP",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "AUDIMOX 250 DT TAB",
         "Pack": "10TAB",
         "Company Name": "LABORATE AQUA LAB"
@@ -16522,6 +16572,11 @@ const productData = [
     {
         "Product Name": "LINHEXA TAB",
         "Pack": "6 TAB",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "LOPRID TAB",
+        "Pack": "10TAB",
         "Company Name": "LABORATE AQUA LAB"
     },
     {
@@ -17112,11 +17167,6 @@ const productData = [
     {
         "Product Name": "DSP TABS (NEW)",
         "Pack": "10TAB",
-        "Company Name": "LABORATE PHARMA"
-    },
-    {
-        "Product Name": "ESKUF-DX SYP 100ML",
-        "Pack": "100ML",
         "Company Name": "LABORATE PHARMA"
     },
     {
