@@ -1075,6 +1075,11 @@ const productData = [
         "Company Name": "ALKEM"
     },
     {
+        "Product Name": "AZIKEM 200MG SUSP.",
+        "Pack": "1X15ML",
+        "Company Name": "ALKEM"
+    },
+    {
         "Product Name": "AZIKEM 250 MG TABS",
         "Pack": "1X6TAB",
         "Company Name": "ALKEM"
@@ -1945,13 +1950,38 @@ const productData = [
         "Company Name": "ALKEM (ALKAMAX)"
     },
     {
+        "Product Name": "AZIKEM 100MG SUSP",
+        "Pack": "15ML",
+        "Company Name": "ALKEM (ALKAMAX)"
+    },
+    {
+        "Product Name": "DAPAKING GM1XR TAB",
+        "Pack": "10TAB",
+        "Company Name": "ALKEM (ALKAMAX)"
+    },
+    {
+        "Product Name": "DAPAKING GM2 XR TAB",
+        "Pack": "10TAB",
+        "Company Name": "ALKEM (ALKAMAX)"
+    },
+    {
         "Product Name": "DAPAKING M 10/500 XR TAB",
+        "Pack": "10TAB",
+        "Company Name": "ALKEM (ALKAMAX)"
+    },
+    {
+        "Product Name": "DAPAKING TRIO FORTE XR TAB",
         "Pack": "10TAB",
         "Company Name": "ALKEM (ALKAMAX)"
     },
     {
         "Product Name": "DENTOSHILED INSTA MOUTH ULCER GEL",
         "Pack": "10GM",
+        "Company Name": "ALKEM (ALKAMAX)"
+    },
+    {
+        "Product Name": "GLICLAKEM 80MG TAB",
+        "Pack": "10TAB",
         "Company Name": "ALKEM (ALKAMAX)"
     },
     {
@@ -1970,6 +2000,11 @@ const productData = [
         "Company Name": "ALKEM (ALKAMAX)"
     },
     {
+        "Product Name": "LUBIKEM EYE DROPS",
+        "Pack": "10ML",
+        "Company Name": "ALKEM (ALKAMAX)"
+    },
+    {
         "Product Name": "LUBIKEM TEAR DROPS",
         "Pack": "10ML",
         "Company Name": "ALKEM (ALKAMAX)"
@@ -1980,12 +2015,47 @@ const productData = [
         "Company Name": "ALKEM (ALKAMAX)"
     },
     {
+        "Product Name": "LULIPERL LOTION 30ML",
+        "Pack": "30ML",
+        "Company Name": "ALKEM (ALKAMAX)"
+    },
+    {
+        "Product Name": "MULTIZYME + SYRUP MIXED FRUIT",
+        "Pack": "200ML",
+        "Company Name": "ALKEM (ALKAMAX)"
+    },
+    {
+        "Product Name": "MULTIZYME + SYRUP PINEAPPLE",
+        "Pack": "200ML",
+        "Company Name": "ALKEM (ALKAMAX)"
+    },
+    {
+        "Product Name": "MUPIVATE OINT 10GM",
+        "Pack": "10GM",
+        "Company Name": "ALKEM (ALKAMAX)"
+    },
+    {
         "Product Name": "NOZUKA COLD & FLU TAB",
         "Pack": "1X10TAB",
         "Company Name": "ALKEM (ALKAMAX)"
     },
     {
         "Product Name": "PYRAKEM 500 TAB",
+        "Pack": "15TAB",
+        "Company Name": "ALKEM (ALKAMAX)"
+    },
+    {
+        "Product Name": "PYRAKEM NOVO 250 SUSPENSION",
+        "Pack": "60ML",
+        "Company Name": "ALKEM (ALKAMAX)"
+    },
+    {
+        "Product Name": "SILOSPEED D4 TAB",
+        "Pack": "10TAB",
+        "Company Name": "ALKEM (ALKAMAX)"
+    },
+    {
+        "Product Name": "SILOSPEED D8 TAB",
         "Pack": "15TAB",
         "Company Name": "ALKEM (ALKAMAX)"
     },
@@ -11765,8 +11835,18 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "HEALING MULTI COLOUR STEEL GLASS SET",
+        "Pack": "6PCS",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "HEALING NEBULIZER COMFORT(HICKS)",
         "Pack": "-",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "HEALING NON STICK COOKWARE SET OF 7",
+        "Pack": "7PCS",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -11855,6 +11935,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "HEALING STUDY TABLE (YR)",
+        "Pack": "1PCS",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "HEALING TABLE FAN",
         "Pack": "PC",
         "Company Name": "HEALING PHARMA"
@@ -11862,6 +11947,16 @@ const productData = [
     {
         "Product Name": "HEALING TEA JAR 500GM",
         "Pack": "500GM",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "HEALING TOURISER BACKPAK AMERICAN",
+        "Pack": "1",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "HEALING TROLLEY DUFFLE BAG-52 VIP",
+        "Pack": "1",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -11882,6 +11977,11 @@ const productData = [
     {
         "Product Name": "HEALING VACCUM CLEANER",
         "Pack": "1",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "HEALING VACUUM BOTTLE +2 CUP SET GIFT",
+        "Pack": "2",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -12426,11 +12526,6 @@ const productData = [
     },
     {
         "Product Name": "MUG SET (PACK OF6)",
-        "Pack": "-",
-        "Company Name": "HEALING PHARMA"
-    },
-    {
-        "Product Name": "MULTI COLOUR STEEL GLASS SET",
         "Pack": "-",
         "Company Name": "HEALING PHARMA"
     },
@@ -13197,11 +13292,6 @@ const productData = [
     {
         "Product Name": "URSODEC-150TAB",
         "Pack": "15TAB",
-        "Company Name": "HEALING PHARMA"
-    },
-    {
-        "Product Name": "VACUUM BOTTLE +2 CUP SET GIFT",
-        "Pack": "-",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -18212,6 +18302,11 @@ const productData = [
     {
         "Product Name": "LEEFORD KNEE CAP (XL)",
         "Pack": "1PC",
+        "Company Name": "LEEFORD HEALTHCARE LTD."
+    },
+    {
+        "Product Name": "LEEFORD L S BELT M",
+        "Pack": "1",
         "Company Name": "LEEFORD HEALTHCARE LTD."
     },
     {
@@ -25765,7 +25860,7 @@ const productData = [
         "Company Name": "SATNAM"
     },
     {
-        "Product Name": "ANKLET BOX L (SATNAM)+",
+        "Product Name": "ANKLET BOX L (SATNAM)",
         "Pack": "PAIR",
         "Company Name": "SATNAM"
     },

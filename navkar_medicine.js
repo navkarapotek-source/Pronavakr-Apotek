@@ -10326,7 +10326,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "CLINDAC A SOLUTION",
-        "Pack": "25 ML",
+        "Pack": "30ML",
         "Company Name": "ALKEM LAB(DERMA ONE)"
     },
     {
@@ -10400,6 +10400,16 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LAB(DERMA ONE)"
     },
     {
+        "Product Name": "MELBILD SOLUTION 2ML",
+        "Pack": "2ML",
+        "Company Name": "ALKEM LAB(DERMA ONE)"
+    },
+    {
+        "Product Name": "MINOKEM  N 2% LOTION",
+        "Pack": "60ML",
+        "Company Name": "ALKEM LAB(DERMA ONE)"
+    },
+    {
         "Product Name": "MINOKEM N 5% LOTION",
         "Pack": "60 ML",
         "Company Name": "ALKEM LAB(DERMA ONE)"
@@ -10431,6 +10441,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "RENOCIA TAB",
+        "Pack": "TAB",
+        "Company Name": "ALKEM LAB(DERMA ONE)"
+    },
+    {
+        "Product Name": "SKINFAY CAP",
         "Pack": "TAB",
         "Company Name": "ALKEM LAB(DERMA ONE)"
     },
@@ -10670,7 +10685,12 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LABORATORIES LIMITED"
     },
     {
-        "Product Name": "TAXIM O FORTE DRY SYP 60 ML",
+        "Product Name": "TAXIM O FORTE DRY SYP",
+        "Pack": "60ML",
+        "Company Name": "ALKEM LABORATORIES LIMITED"
+    },
+    {
+        "Product Name": "TAXIM O FORTE DS (READY MIX)",
         "Pack": "60ML",
         "Company Name": "ALKEM LABORATORIES LIMITED"
     },
@@ -23873,6 +23893,11 @@ const navkarMedicineData = [
         "Product Name": "RISOFOS 35MG TAB",
         "Pack": "TAB",
         "Company Name": "CIPLA LIMITED (SPECIALITIES 3 )"
+    },
+    {
+        "Product Name": "AMANTREL SYP",
+        "Pack": "480ML",
+        "Company Name": "CIPLA LIMITED (SPECTRA 1)"
     },
     {
         "Product Name": "ITRANOX 100MG CAP",
@@ -52195,8 +52220,8 @@ const navkarMedicineData = [
         "Company Name": "IATROS PHARMACEUTICALS"
     },
     {
-        "Product Name": "ULTIM D3 SACHET",
-        "Pack": "10",
+        "Product Name": "ULTIM D3 TAB",
+        "Pack": "10TAB",
         "Company Name": "IATROS PHARMACEUTICALS"
     },
     {
@@ -58170,17 +58195,17 @@ const navkarMedicineData = [
         "Company Name": "INTAS PHARMACEUTICALS (VECTOR)"
     },
     {
-        "Product Name": "CLAVIX 75 TAB",
+        "Product Name": "CLAVIX 75 TAB (CLAVINTAS)",
         "Pack": "TAB",
         "Company Name": "INTAS PHARMACEUTICALS (VECTOR)"
     },
     {
-        "Product Name": "CLAVIX AS 150 TAB",
+        "Product Name": "CLAVIX AS 150 TAB (CLAVINTAS)",
         "Pack": "15 TAB",
         "Company Name": "INTAS PHARMACEUTICALS (VECTOR)"
     },
     {
-        "Product Name": "CLAVIX AS 75 TAB",
+        "Product Name": "CLAVIX AS 75 TAB (CLAVINTAS)",
         "Pack": "15 TAB",
         "Company Name": "INTAS PHARMACEUTICALS (VECTOR)"
     },
@@ -62385,6 +62410,11 @@ const navkarMedicineData = [
         "Company Name": "IPCA LABORATORIES PVT LTD"
     },
     {
+        "Product Name": "ZEMYA 15MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "IPCA LABORATORIES PVT LTD"
+    },
+    {
         "Product Name": "AZIFAST GEL 20GM",
         "Pack": "20GM",
         "Company Name": "IPCA LABORATORIES(BIONOVA ACE)"
@@ -65770,9 +65800,9 @@ const navkarMedicineData = [
         "Company Name": "KLM LABORATORIES DERMA"
     },
     {
-        "Product Name": "ZYDIP C CREAM",
-        "Pack": "20GM",
-        "Company Name": "KLM LABORATORIES DERMA"
+        "Product Name": "EKRAN 30 SILICON GEL",
+        "Pack": "30 GM",
+        "Company Name": "KLM LABORATORIES ORTHO"
     },
     {
         "Product Name": "KLM D3 60K",
@@ -65805,23 +65835,23 @@ const navkarMedicineData = [
         "Company Name": "KLM LABORATORIES PED"
     },
     {
-        "Product Name": "EXTEND TOTAL",
-        "Pack": "15TAB",
+        "Product Name": "EPISERT CREAM 20GM",
+        "Pack": "20GM",
+        "Company Name": "KLM LABORATORIES PED"
+    },
+    {
+        "Product Name": "EXTEND VITA SYRUP",
+        "Pack": "200ML",
+        "Company Name": "KLM LABORATORIES PED"
+    },
+    {
+        "Product Name": "IMXIA 5% LOTION",
+        "Pack": "60ML",
         "Company Name": "KLM LABORATORIES PED"
     },
     {
         "Product Name": "IMXIA PLUS SHAMPOO",
         "Pack": "150ML",
-        "Company Name": "KLM LABORATORIES PED"
-    },
-    {
-        "Product Name": "K-DOX CAP",
-        "Pack": "10CAP",
-        "Company Name": "KLM LABORATORIES PED"
-    },
-    {
-        "Product Name": "KLCLAV 625MG TAB",
-        "Pack": "TAB",
         "Company Name": "KLM LABORATORIES PED"
     },
     {
@@ -65845,11 +65875,6 @@ const navkarMedicineData = [
         "Company Name": "KLM LABORATORIES PED"
     },
     {
-        "Product Name": "KLM D3 NANO SHOTS",
-        "Pack": "5ML",
-        "Company Name": "KLM LABORATORIES PED"
-    },
-    {
         "Product Name": "KOFCATCH LD SYP",
         "Pack": "100ML",
         "Company Name": "KLM LABORATORIES PED"
@@ -65860,8 +65885,28 @@ const navkarMedicineData = [
         "Company Name": "KLM LABORATORIES PED"
     },
     {
+        "Product Name": "MELBOOST CAP",
+        "Pack": "TAB",
+        "Company Name": "KLM LABORATORIES PED"
+    },
+    {
+        "Product Name": "MFSUDIF CREAM",
+        "Pack": "10GM",
+        "Company Name": "KLM LABORATORIES PED"
+    },
+    {
         "Product Name": "MUPISOFT OINT",
         "Pack": "5GM",
+        "Company Name": "KLM LABORATORIES PED"
+    },
+    {
+        "Product Name": "NIOCLEAN AD GEL",
+        "Pack": "15GM",
+        "Company Name": "KLM LABORATORIES PED"
+    },
+    {
+        "Product Name": "NIOSALIC 6 LOTION",
+        "Pack": "50ML",
         "Company Name": "KLM LABORATORIES PED"
     },
     {
@@ -65980,18 +66025,13 @@ const navkarMedicineData = [
         "Company Name": "KLM LABORATORIES PED"
     },
     {
+        "Product Name": "ZYDIP C CREAM",
+        "Pack": "20GM",
+        "Company Name": "KLM LABORATORIES PED"
+    },
+    {
         "Product Name": "CETALORE M 10MG TAB",
         "Pack": "TAB",
-        "Company Name": "KLM LABORATORIES PHARMA"
-    },
-    {
-        "Product Name": "EKRAN 30 SILICON GEL",
-        "Pack": "30 GM",
-        "Company Name": "KLM LABORATORIES PHARMA"
-    },
-    {
-        "Product Name": "EPISERT CREAM 20GM",
-        "Pack": "20GM",
         "Company Name": "KLM LABORATORIES PHARMA"
     },
     {
@@ -66000,8 +66040,8 @@ const navkarMedicineData = [
         "Company Name": "KLM LABORATORIES PHARMA"
     },
     {
-        "Product Name": "EXTEND VITA SYRUP",
-        "Pack": "200ML",
+        "Product Name": "EXTEND TOTAL",
+        "Pack": "15TAB",
         "Company Name": "KLM LABORATORIES PHARMA"
     },
     {
@@ -66015,8 +66055,18 @@ const navkarMedicineData = [
         "Company Name": "KLM LABORATORIES PHARMA"
     },
     {
-        "Product Name": "IMXIA 5% LOTION",
-        "Pack": "60ML",
+        "Product Name": "K-DOX CAP",
+        "Pack": "10CAP",
+        "Company Name": "KLM LABORATORIES PHARMA"
+    },
+    {
+        "Product Name": "KLCLAV 625MG TAB",
+        "Pack": "TAB",
+        "Company Name": "KLM LABORATORIES PHARMA"
+    },
+    {
+        "Product Name": "KLM D3 NANO SHOTS",
+        "Pack": "5ML",
         "Company Name": "KLM LABORATORIES PHARMA"
     },
     {
@@ -66025,28 +66075,8 @@ const navkarMedicineData = [
         "Company Name": "KLM LABORATORIES PHARMA"
     },
     {
-        "Product Name": "MELBOOST CAP",
-        "Pack": "TAB",
-        "Company Name": "KLM LABORATORIES PHARMA"
-    },
-    {
-        "Product Name": "MFSUDIF CREAM",
-        "Pack": "10GM",
-        "Company Name": "KLM LABORATORIES PHARMA"
-    },
-    {
         "Product Name": "NEVSOFT CLEANSING LOTION 125ML",
         "Pack": "125ML",
-        "Company Name": "KLM LABORATORIES PHARMA"
-    },
-    {
-        "Product Name": "NIOCLEAN AD GEL",
-        "Pack": "15GM",
-        "Company Name": "KLM LABORATORIES PHARMA"
-    },
-    {
-        "Product Name": "NIOSALIC 6 LOTION",
-        "Pack": "50ML",
         "Company Name": "KLM LABORATORIES PHARMA"
     },
     {
@@ -91860,6 +91890,11 @@ const navkarMedicineData = [
         "Company Name": "NAVKAR LLP"
     },
     {
+        "Product Name": "MONCRYPT-LC TAB",
+        "Pack": "10TAB",
+        "Company Name": "NAVKAR LLP"
+    },
+    {
         "Product Name": "PARAD TAB 25GM",
         "Pack": "25GM",
         "Company Name": "NAVKAR LLP"
@@ -97510,6 +97545,11 @@ const navkarMedicineData = [
         "Company Name": "RAAY NEO PHARMA PVT LTD"
     },
     {
+        "Product Name": "D3RAAY TAB",
+        "Pack": "4TAB",
+        "Company Name": "RAAY NEO PHARMA PVT LTD"
+    },
+    {
         "Product Name": "EMPARAAY TAB",
         "Pack": "10TAB",
         "Company Name": "RAAY NEO PHARMA PVT LTD"
@@ -97561,6 +97601,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "MONTERAAY-L",
+        "Pack": "10TAB",
+        "Company Name": "RAAY NEO PHARMA PVT LTD"
+    },
+    {
+        "Product Name": "MONTERAAY-LA",
         "Pack": "10TAB",
         "Company Name": "RAAY NEO PHARMA PVT LTD"
     },
@@ -97655,6 +97700,11 @@ const navkarMedicineData = [
         "Company Name": "RAAY NEO PHARMA PVT LTD"
     },
     {
+        "Product Name": "RAAYNAC-TC TAB",
+        "Pack": "10TAB",
+        "Company Name": "RAAY NEO PHARMA PVT LTD"
+    },
+    {
         "Product Name": "RAAYQ10 CAP",
         "Pack": "10CAP",
         "Company Name": "RAAY NEO PHARMA PVT LTD"
@@ -97662,6 +97712,11 @@ const navkarMedicineData = [
     {
         "Product Name": "RAAYRAFT SYP",
         "Pack": "200ML",
+        "Company Name": "RAAY NEO PHARMA PVT LTD"
+    },
+    {
+        "Product Name": "RAAYRAFT TAB",
+        "Pack": "TAB",
         "Company Name": "RAAY NEO PHARMA PVT LTD"
     },
     {
@@ -99710,6 +99765,11 @@ const navkarMedicineData = [
         "Company Name": "REGALIA PHARMACEUTICALS"
     },
     {
+        "Product Name": "REGAPAN DSR CAP",
+        "Pack": "10CAP",
+        "Company Name": "REGALIA PHARMACEUTICALS"
+    },
+    {
         "Product Name": "REGAPOD 100 DS",
         "Pack": "30ML",
         "Company Name": "REGALIA PHARMACEUTICALS"
@@ -101430,6 +101490,11 @@ const navkarMedicineData = [
         "Company Name": "SENTISS PHARMA PVT.LTD."
     },
     {
+        "Product Name": "ISOFT EYE DROPS 0.1%",
+        "Pack": "10ML",
+        "Company Name": "SENTISS PHARMA PVT.LTD."
+    },
+    {
         "Product Name": "ISOFT HS EYE DROPS 0.3%",
         "Pack": "10ML",
         "Company Name": "SENTISS PHARMA PVT.LTD."
@@ -101865,209 +101930,214 @@ const navkarMedicineData = [
         "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
+        "Product Name": "RVS ASP 75 CAP",
+        "Pack": "CAP",
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
+    },
+    {
         "Product Name": "RVS CV 10 CAP",
         "Pack": "CAP",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "RVS CV 20 CAP",
         "Pack": "CAP",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "RVS FB TAB",
         "Pack": "10TAB",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "RVS GOLD 10 CAP",
         "Pack": "10CAP",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "RVS GOLD 20 CAP",
         "Pack": "CAP",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "SHICIL 10TAB",
         "Pack": "10'S",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "SHICIL 20 TAB",
         "Pack": "10'S",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "SHICOBAL GOLD TAB",
         "Pack": "10TAB",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "SHIDAPA 10 TAB",
         "Pack": "10TAB",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "SHIDAPA 5 TAB",
         "Pack": "10CAP",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "SHIDAPA M 10 TAB",
         "Pack": "TAB",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "SHIDAPA M 5 TAB",
         "Pack": "10TAB",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "SHIDAPA S 10/100 TAB",
         "Pack": "10'S",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "SHIDAPA S 5/50 TAB",
         "Pack": "10'S",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "SHIDAPA SM 1000 TAB",
         "Pack": "TAB",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "SHIDAPA SM 500",
         "Pack": "TAB",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "SHIEMPA L 25/5 TAB",
         "Pack": "10'S",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "SHIGLIP TAB",
         "Pack": "10'S",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "SHILIPTIN M 50/500",
         "Pack": "10'S",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "SHILOR 90 TAB",
         "Pack": "14'S",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "SHINOGAB NT 100 MG",
         "Pack": "10 TAB",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "SHINOGAB NT 400 TAB",
         "Pack": "TAB",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "SHINOLIV 150TAB",
         "Pack": "10TAB",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "SHINOLIV 300 TAB",
         "Pack": "10TAB",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "SHITRIL 100 TAB",
         "Pack": "14'S",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "SHITRIL 50 TAB",
         "Pack": "14'S",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "SKF O SUSPENSION",
         "Pack": "100ML",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "TLM 20 TAB",
         "Pack": "10 TAB",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "TLM 3D TAB",
         "Pack": "TAB",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "TLM 40 TAB",
         "Pack": "15TAB",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "TLM CL TAB",
         "Pack": "TAB",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "TLM MT 50 TAB",
         "Pack": "10'S",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "TVS 10TAB",
         "Pack": "10TAB",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "TVS 20 ASP 75 CAP",
         "Pack": "CAP",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "TVS 20 TAB",
         "Pack": "TAB",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "TVS 40 TAB",
         "Pack": "10TAB",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "TVS 80 TAB",
         "Pack": "5 TAB",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "TVS ASP 75 CAP",
         "Pack": "CAP",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "TVS CV 10 CAP",
         "Pack": "CAP",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "TVS CV 20 CAP",
         "Pack": "20CAP",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "TVS FB TAB",
         "Pack": "10TAB",
-        "Company Name": "RVS ASP 75 CAP"
+        "Company Name": "SHINE PHARMACEUTICALS LIMITED"
     },
     {
         "Product Name": "BENEFICIALE CAP",
@@ -124422,16 +124492,6 @@ const navkarMedicineData = [
     {
         "Product Name": "UMIFLO PLUS 100 RESPICAPS",
         "Pack": "15CAP",
-        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
-    },
-    {
-        "Product Name": "VANCOGRAM 1 GM INJ",
-        "Pack": "VIAL",
-        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
-    },
-    {
-        "Product Name": "VANCOGRAM 500MG INJ",
-        "Pack": "1VIAL",
         "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
     },
     {
