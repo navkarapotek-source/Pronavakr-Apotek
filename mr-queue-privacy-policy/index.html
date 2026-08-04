@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>MR Queue Privacy Policy - Navkar Apotek & Pronavkar Lifecare</title>
+<meta name="description" content="Privacy Policy for the MR Queue app by Navkar Apotek & Pronavkar Lifecare." />
+<meta name="keywords" content="privacy policy, MR Queue, Navkar Apotek, Pronavkar Lifecare, data protection" />
+<link rel="icon" type="image/png" href="../logo.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+<style>
+  @font-face {
+    font-family: 'Adam CG Pro';
+    src: url('../fonts/AdamCGPro.woff2') format('woff2'),
+         url('../fonts/AdamCGPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  html { overflow-x: hidden; }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy: #068586;
+    --navy-mid: #046667;
+    --teal: #068586;
+    --teal-light: #d0ebeb;
+    --cream: #f7f3ee;
+    --warm-white: #fefcf9;
+    --text: #1a1a1a;
+    --muted: #6b7280;
+    --border: #e5ddd3;
+    --accent: #f7d127;
+    --primary-color: #068586;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--warm-white);
+    color: var(--text);
+    line-height: 1.6;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    word-wrap: break-word;
+    position: relative;
+  }
+
+  nav {
+    background: #ffffff;
+    padding: 0 2rem;
+    display: flex; align-items: center;
+    height: 64px;
+    border-bottom: 2px solid var(--accent);
+    position: sticky; top: 0; z-index: 100;
+    gap: 1rem;
+  }
+
+  .nav-brand {
+    display: flex; flex-direction: column;
+  }
+  .nav-brand span:first-child {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px; font-weight: 600; color: #1A9E96;
+    line-height: 1.2;
+  }
+  .nav-brand span:last-child {
+    font-size: 10px; color: #F5C518; text-transform: uppercase;
+    line-height: 1.2;
+  }
+
+  .nav-links { display: flex; gap: 2rem; list-style: none; margin-left: auto; }
+  .nav-links a {
+    font-size: 13px; color: #373c44; text-decoration: none;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    transition: color 0.2s;
+    line-height: 1.3;
+  }
+  .nav-links a:hover { color: #000; }
+  .nav-links a.active { color: #000; font-weight: 600; }
+
+  .nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .login-btn {
+    padding: 8px 20px;
+    background: var(--accent);
+    color: #000;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    white-space: nowrap;
+    line-height: 1.3;
+  }
+  .login-btn:hover {
+    background: #000;
+    color: #fff;
+  }
+
+  /* Hamburger Menu CSS */
+  .menu-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; z-index: 1001; }
+  .menu-toggle span { width: 25px; height: 3px; background: #373c44; transition: 0.3s; border-radius: 2px; }
+  .nav-overlay {
+    position: fixed; top: 0; right: -100%; width: 250px; height: 100vh;
+    background: var(--navy); z-index: 1000; padding: 80px 2rem; transition: 0.4s ease-in-out;
+    box-shadow: -5px 0 15px rgba(0,0,0,0.3);
+  }
+  .nav-overlay.active { right: 0; }
+  .close-overlay {
+    position: absolute; top: 20px; right: 20px;
+    font-size: 40px; color: #fff; cursor: pointer;
+    line-height: 1;
+  }
+  .overlay-links { list-style: none; display: flex; flex-direction: column; gap: 1.5rem; }
+  .overlay-links a { color: #fff; text-decoration: none; font-size: 18px; text-transform: uppercase; }
+  .menu-toggle.active span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+  .menu-toggle.active span:nth-child(2) { opacity: 0; }
+  .menu-toggle.active span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+
+  header.legal-header {
+    background: var(--navy);
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  header.legal-header h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 3rem;
+    color: #1a1a1a;
+  }
+  header.legal-header .legal-sub {
+    font-size: 1.1rem;
+    color: #1a1a1a;
+    margin-top: 0.8rem;
+    font-weight: 500;
+  }
+
+  .content-section {
+    max-width: 800px;
+    margin: 4rem auto;
+    padding: 0 2rem;
+  }
+
+  .legal-box {
+    background: #fff;
+    padding: 3rem;
+    border-radius: 12px;
+    border: 1px solid #eee;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+  }
+
+  .policy-meta {
+    background: var(--cream);
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 1rem 1.4rem;
+    margin-bottom: 2rem;
+    font-size: 12px;
+    white-space: nowrap;
+    color: var(--muted);
+  }
+  .policy-meta strong { color: var(--text); }
+
+  h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: var(--navy);
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+  }
+  h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.15rem;
+    color: var(--navy);
+    margin: 1.2rem 0 0.5rem;
+  }
+  p { margin-bottom: 1.5rem; color: #444; }
+  .legal-box ul, .legal-box ol { margin: 0 0 1.5rem 1.4rem; color: #444; }
+  .legal-box li { margin-bottom: 0.4rem; font-size: 15px; line-height: 1.7; }
+  .legal-box ul li strong { color: var(--text); }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0 1.5rem;
+    font-size: 14px;
+  }
+  th, td {
+    border: 1px solid #eee;
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th { background: #eaf4f2; color: #043f40; font-weight: 700; }
+  tr:nth-child(even) td { background: #faf7f3; }
+
+  .note {
+    background: #fff8e6;
+    border-left: 4px solid var(--accent);
+    padding: 0.9rem 1.2rem;
+    border-radius: 0 8px 8px 0;
+    font-size: 14px;
+    color: #5b4a00;
+    margin: 1rem 0 1.5rem;
+  }
+
+  /* ── FOOTER STYLES ── */
+  footer {
+    background: #0f2c2a; color: #fff;
+    padding: 4rem 2rem 2rem;
+    margin-top: 4rem;
+  }
+  .footer-container {
+    max-width: 1100px; margin: 0 auto;
+    display: grid; grid-template-columns: 2fr 1fr 1.5fr; gap: 4rem;
+  }
+  .footer-col h4 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.4rem; color: var(--accent); margin-bottom: 1.5rem;
+  }
+  .footer-col p { font-size: 14px; color: #bbb; line-height: 1.8; margin-bottom: 1rem; }
+  .footer-links { list-style: none; }
+  .footer-links li { margin-bottom: 0.8rem; }
+  .footer-links a { color: #bbb; text-decoration: none; font-size: 14px; transition: color 0.2s; }
+  .footer-links a:hover { color: #fff; }
+  .footer-contact { display: flex; flex-direction: column; gap: 1rem; }
+
+  /* UPDATED Contact Icons Styling */
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+    color: #bbb;
+    min-width: 0;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    line-height: 1.4;
+  }
+  .contact-icon {
+    width: 42px;
+    height: 42px;
+    min-width: 42px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+  .contact-icon svg {
+    width: 20px;
+    height: 20px;
+  }
+  .contact-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .contact-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--accent);
+    font-weight: 700;
+  }
+
+  .footer-bottom {
+    max-width: 1100px; margin: 3rem auto 0;
+    border-top: 1px solid #333; padding-top: 2rem;
+    text-align: center;
+  }
+  .legal-info { font-size: 11px; color: #777; line-height: 2; margin-bottom: 1.5rem; }
+  .footer-credits { font-size: 12px; color: #555; }
+
+  @media (max-width: 768px) {
+    nav { padding: 0 1rem; }
+    .nav-brand span:first-child { font-size: 12px; }
+    .nav-brand span:last-child { display: none; }
+    .nav-links { display: none; }
+    .menu-toggle { display: flex; }
+    header.legal-header { padding: 3rem 1rem; }
+    header.legal-header h1 { font-size: 2.2rem; }
+    .legal-box { padding: 1.5rem; }
+    .content-section { margin: 2.5rem auto; }
+    .footer-container { grid-template-columns: 1fr; gap: 2rem; }
+    .contact-icon { width: 36px; height: 36px; min-width: 36px; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="../" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
+    <img src="../logo.png" alt="Logo" style="height: 45px; width: auto;">
+    <div class="nav-brand">
+      <span>Navkar Apotek &amp; Pronavkar Lifecare</span>
+      <span>Pharmaceutical Excellence</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="../">Home</a></li>
+    <li><a href="../products/">Products</a></li>
+    <li><a href="../companies/">Companies</a></li>
+    <li><a href="../about-us/">About</a></li>
+    <li><a href="../Media & Gallery/">Gallery</a></li>
+    <li><a href="../how-to-use-app/">How to Use App</a></li>
+    <li><a href="../Contact-us/">Contact</a></li>
+    <li><a href="../our-network/">Our Network</a></li>
+  </ul>
+  <div class="nav-actions">
+    <a href="../login/" class="login-btn">Login</a>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<div class="nav-overlay" id="navOverlay">
+  <span class="close-overlay" onclick="toggleMenu()">&times;</span>
+  <ul class="overlay-links">
+    <li><a href="../" onclick="toggleMenu()">Home</a></li>
+    <li><a href="../products/" onclick="toggleMenu()">Products</a></li>
+    <li><a href="../companies/" onclick="toggleMenu()">Companies</a></li>
+    <li><a href="../about-us/" onclick="toggleMenu()">About</a></li>
+    <li><a href="../Media & Gallery/" onclick="toggleMenu()">Gallery</a></li>
+    <li><a href="../how-to-use-app/" onclick="toggleMenu()">How to Use App</a></li>
+    <li><a href="../Contact-us/" onclick="toggleMenu()">Contact</a></li>
+    <li><a href="../our-network/" onclick="toggleMenu()">Our Network</a></li>
+    <li><a href="../login/" onclick="toggleMenu()">Login</a></li>
+  </ul>
+</div>
+
+<header class="legal-header">
+  <div class="hero-pill" style="display:inline-block; background:var(--accent); padding:6px 18px; border-radius:999px; font-size:11px; font-weight:700; text-transform:uppercase; margin-bottom:1rem;">Privacy Policy</div>
+  <h1>MR Queue App</h1>
+  <div class="legal-sub">Token & Queue Management for Medical Representatives</div>
+</header>
+
+<main class="content-section">
+  <div class="legal-box">
+    <div id="privacy-content">
+
+      <div class="policy-meta">
+        <strong>Effective Date:</strong> 31 July 2026 &nbsp;|&nbsp;
+        <strong>App:</strong> MR Queue &nbsp;|&nbsp;
+        <strong>Developer:</strong> Navkar Apotek &amp; Pronavkar Lifecare LLP
+      </div>
+
+      <h2>1. Overview</h2>
+      <p>This Privacy Policy describes how <strong>MR Queue</strong> ("the App"), operated by <strong>Navkar Apotek &amp; Pronavkar Lifecare LLP</strong> ("we", "our", "us", or "the Clinic"), collects, uses, stores, and protects information when you use our mobile application.</p>
+      <p>By installing, accessing, or using the App, you agree to the practices described in this Privacy Policy.</p>
+      <p>MR Queue is a token and queue management application designed for Medical Representatives (MRs) visiting our clinic. The App helps MRs check in digitally, informs partner representatives when an MR has arrived, and manages the waiting queue.</p>
+      <p>The App has three roles:</p>
+      <ul>
+        <li><strong>MR (Medical Representative):</strong> signs in and checks in to request a meeting with a partner.</li>
+        <li><strong>Partner:</strong> manages the queue and accepts, postpones, or rejects MR requests.</li>
+        <li><strong>Admin:</strong> manages partners, MR accounts, daily logs, analytics, and clinic operating settings.</li>
+      </ul>
+      <p>The App is provided to users in the context of their professional relationship with the Clinic. Accounts are created and managed by the Clinic's administrator.</p>
+
+      <h2>2. Information We Collect</h2>
+      <h3>2.1 Information You Provide Directly</h3>
+      <p>Depending on your role, we may collect the following information:</p>
+      <table>
+        <tr><th>Role</th><th>Information Collected</th></tr>
+        <tr><td><strong>MR</strong></td><td>Username, password, MR name, company name, division, email address (optional), mobile number (optional)</td></tr>
+        <tr><td><strong>Partner</strong></td><td>Name, mobile number, password (used for authentication)</td></tr>
+        <tr><td><strong>Admin</strong></td><td>Email address and password (used for authentication)</td></tr>
+      </table>
+
+      <h3>2.2 Information We Collect Automatically</h3>
+      <p>When you use the App, we collect information related to your check-in activity:</p>
+      <ul>
+        <li>Token numbers generated for each check-in</li>
+        <li>Check-in, call, and completion timestamps</li>
+        <li>Selected partner and queue position</li>
+        <li>Meeting purpose or rejection reason (if provided)</li>
+        <li>Notification read/dismissal state (stored locally on your device only)</li>
+      </ul>
+
+      <h3>2.3 Information We Do NOT Collect</h3>
+      <p>We do <strong>not</strong> collect:</p>
+      <ul>
+        <li>Precise location data</li>
+        <li>Contacts, photos, or media files</li>
+        <li>Device identifiers (e.g., IMEI, advertising ID)</li>
+        <li>Browsing or search history</li>
+        <li>Social media accounts</li>
+        <li>Payment or financial information</li>
+        <li>Voice recordings</li>
+      </ul>
+
+      <h2>3. How We Use the Information</h2>
+      <p>We use the collected information solely for the operation of the App:</p>
+      <ul>
+        <li>To authenticate you and secure your account.</li>
+        <li>To generate, display, and manage queue tokens.</li>
+        <li>To notify partners when an MR checks in.</li>
+        <li>To notify MRs when their request is accepted, postponed, or rejected.</li>
+        <li>To provide the Clinic's administrator with analytics (e.g., number of MRs per day, busiest hours, average wait time).</li>
+        <li>To maintain and improve the App's functionality and fix technical issues.</li>
+      </ul>
+      <p>We do <strong>not</strong> use your data for advertising, marketing, profiling, or automated decision-making that affects you.</p>
+
+      <h2>4. Storage of Information</h2>
+      <h3>4.1 Local Device Storage</h3>
+      <p>To work reliably even with a weak network connection, the App stores certain data directly on your device:</p>
+      <ul>
+        <li><strong>Database:</strong> recent tokens, partner list, and MR account details required to operate the App.</li>
+        <li><strong>Session preferences:</strong> session details (e.g., your role and partner/MR identifiers) and notification states.</li>
+      </ul>
+      <p>This data never leaves your device except as described in this policy.</p>
+
+      <h3>4.2 Cloud Storage</h3>
+      <p>We use <strong>Supabase</strong> (a hosted PostgreSQL database and authentication service) to store:</p>
+      <ul>
+        <li>Partner records</li>
+        <li>MR accounts</li>
+        <li>Token / queue records</li>
+        <li>Notifications</li>
+        <li>Clinic operating settings</li>
+      </ul>
+      <p>This data is stored on servers managed by Supabase. By using the App, your information may be processed and stored on servers that are located outside your country of residence. Data is transmitted over encrypted connections (HTTPS/TLS).</p>
+
+      <h2>5. Sharing and Disclosure</h2>
+      <p>We do <strong>not</strong> sell, rent, or trade your personal information.</p>
+      <p>We share information only in the following limited circumstances:</p>
+      <ol>
+        <li><strong>Within the Clinic:</strong> Token and queue information is visible to the relevant partners and the clinic administrator for the purpose of running the queue.</li>
+        <li><strong>Service Providers:</strong> We share necessary data with Supabase, which hosts our backend database and authentication. Supabase processes data on our behalf and may only use it to provide these services.</li>
+        <li><strong>Legal Requirements:</strong> We may disclose information if required by law, regulation, legal process, or governmental request, or to protect our rights, safety, or property.</li>
+      </ol>
+      <p>We do not share data with any third-party advertisers, analytics providers, or data brokers.</p>
+
+      <h2>6. App Permissions</h2>
+      <p>The App requests the following permissions, all of which are necessary for its core functionality:</p>
+      <table>
+        <tr><th>Permission</th><th>Purpose</th></tr>
+        <tr><td><strong>Internet</strong></td><td>To communicate with our cloud backend for queue synchronization</td></tr>
+        <tr><td><strong>Access Network State</strong></td><td>To detect network connectivity and manage syncing</td></tr>
+        <tr><td><strong>Post Notifications</strong></td><td>To notify MRs and partners about request status changes</td></tr>
+        <tr><td><strong>Schedule Exact Alarms</strong></td><td>To run background checks for request-status updates</td></tr>
+      </table>
+      <p>We do not request permission to access your camera, microphone, contacts, location, or storage.</p>
+
+      <h2>7. Data Security</h2>
+      <p>We take reasonable measures to protect your information:</p>
+      <ul>
+        <li>All data transmitted between the App and our servers is encrypted using HTTPS/TLS.</li>
+        <li>Access to the Clinic's administrative functions is restricted to authorized administrator accounts.</li>
+        <li>Authentication credentials for partner and admin accounts are managed through our secure authentication service.</li>
+      </ul>
+      <p>However, no method of transmission over the Internet or method of electronic storage is 100% secure. While we strive to protect your personal data, we cannot guarantee its absolute security.</p>
+
+      <h2>8. Data Retention</h2>
+      <ul>
+        <li><strong>Queue tokens and logs</strong> are retained for operational and analytical purposes and may be cleared by the Clinic administrator at any time.</li>
+        <li><strong>Account information</strong> is retained for as long as your account is active or as needed to provide the service.</li>
+        <li><strong>Local data</strong> on your device can be removed by uninstalling the App or clearing the App's data from your device settings.</li>
+      </ul>
+      <p>If you stop using the App, the Clinic administrator may delete your account and associated records.</p>
+
+      <h2>9. Your Rights and Choices</h2>
+      <p>Depending on your jurisdiction (including under the GDPR, UK GDPR, and applicable Indian law), you may have the right to:</p>
+      <ul>
+        <li><strong>Access</strong> the personal data we hold about you.</li>
+        <li><strong>Correct</strong> inaccurate or incomplete data.</li>
+        <li><strong>Request deletion</strong> of your data.</li>
+        <li><strong>Restrict or object</strong> to certain processing.</li>
+        <li><strong>Data portability</strong>, where applicable.</li>
+        <li><strong>Withdraw consent</strong> at any time, where processing is based on consent.</li>
+      </ul>
+      <p>Because accounts are created and managed by the Clinic administrator, please contact the Clinic administrator or us using the details below to exercise these rights. We will respond within a reasonable time (typically 30 days).</p>
+
+      <h2>10. Children's Privacy</h2>
+      <p>The App is not directed to children under the age of 13, and we do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us, and we will take steps to delete such information.</p>
+
+      <h2>11. Changes to This Privacy Policy</h2>
+      <p>We may update this Privacy Policy from time to time. When we make material changes, we will update the "Effective Date" at the top of this policy and, where appropriate, notify you through the App. Your continued use of the App after changes take effect constitutes acceptance of the revised policy.</p>
+
+      <h2>12. Contact Us</h2>
+      <p>If you have any questions, concerns, or requests regarding this Privacy Policy or your personal data, you can contact us at:</p>
+      <p><strong>Navkar Apotek &amp; Pronavkar Lifecare LLP</strong><br />
+      Baramati, Pune, Maharashtra - 413102, India</p>
+      <p>Email: <a href="mailto:info@navkarapotek.com" style="color: var(--teal);">info@navkarapotek.com</a></p>
+
+      <p style="margin-top: 2rem; font-size: 12px; color: #777;"><strong>Copyright &copy; 2026 NAVKAR APOTEK LLP &amp; PRONAVKAR LIFECARE LLP. All Rights Reserved.</strong></p>
+    </div>
+  </div>
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-container">
+    <div class="footer-col">
+      <h4>Navkar & Pronavkar</h4>
+      <p>Navkar Apotek LLP & Pronavkar Lifecare LLP are leading pharmaceutical distributors committed to delivering excellence in healthcare. We bridge the gap between quality manufacturers and healthcare providers across India.</p>
+      <div style="display: flex; gap: 15px; margin-top: 1.5rem;">
+        <a href="https://www.instagram.com/navkarapotekllp/" target="_blank"><img src="../Icons/instagram.png" alt="Instagram" style="height: 28px; width: auto;"></a>
+        <a href="https://in.linkedin.com/company/navkar-apotek-llp" target="_blank"><img src="../Icons/linkedin.png" alt="LinkedIn" style="height: 28px; width: auto;"></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul class="footer-links">
+        <li><a href="../careers/">Academic Careers</a></li>
+        <li><a href="../terms-conditions/">Terms & Conditions</a></li>
+        <li><a href="../privacy-policy/">Privacy Policy</a></li>
+        <li><a href="./">MR Queue Privacy Policy</a></li>
+        <li><a href="https://play.google.com/store/apps/details?id=in.relysoft.navkarapotekllp" target="_blank"><img src="../PlayStore.jpg" alt="Get it on Google Play" style="height:36px;width:auto;border-radius:4px;"></a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Get In Touch</h4>
+      <div class="footer-contact">
+        <!-- Location -->
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Address</span>
+            <span>Baramati, Pune, Maharashtra - 413102</span>
+          </div>
+        </div>
+
+        <!-- Phone -->
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Phone</span>
+            <span>+91 9529337113</span>
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Email</span>
+            <span>info@navkarapotek.com</span>
+          </div>
+        </div>
+
+        <!-- Working Hours -->
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+          </div>
+          <div class="contact-text">
+            <span class="contact-label">Working Hours</span>
+            <span>Mon - Sat: 10:00 AM - 7:00 PM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+  </div>
+</footer>
+
+<script>
+function toggleMenu() {
+  document.getElementById('navOverlay').classList.toggle('active');
+  document.querySelector('.menu-toggle').classList.toggle('active');
+}
+</script>
+
+</body>
+</html>
