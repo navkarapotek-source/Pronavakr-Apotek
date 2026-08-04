@@ -16635,6 +16635,11 @@ const navkarMedicineData = [
         "Company Name": "ARISTO PHARMA { TF3}"
     },
     {
+        "Product Name": "GLYCIGON M SR TAB",
+        "Pack": "TAB",
+        "Company Name": "ARISTO PHARMA { TF3}"
+    },
+    {
         "Product Name": "GLYCIGON M TAB",
         "Pack": "10 TAB",
         "Company Name": "ARISTO PHARMA { TF3}"
@@ -16787,6 +16792,11 @@ const navkarMedicineData = [
     {
         "Product Name": "DEFLARIMA 6 TAB",
         "Pack": "10TAB",
+        "Company Name": "ARIZMA LIFESCIENCES LLP"
+    },
+    {
+        "Product Name": "MAHIPROT PROTEIN POWDER",
+        "Pack": "200GM",
         "Company Name": "ARIZMA LIFESCIENCES LLP"
     },
     {
@@ -26301,7 +26311,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "GLYCOHALE 2 RESPULES 5*2ML",
-        "Pack": "5*2ML",
+        "Pack": "10*2ML",
         "Company Name": "CIPLA RESPI NEB1"
     },
     {
@@ -39920,6 +39930,11 @@ const navkarMedicineData = [
         "Company Name": "EVONEXT HEALTHCARE PRIVATE LIMITED"
     },
     {
+        "Product Name": "EVOCOLD P SUSPENSION",
+        "Pack": "60ML",
+        "Company Name": "EVONEXT HEALTHCARE PRIVATE LIMITED"
+    },
+    {
         "Product Name": "EVOCOLD SUSPENSION",
         "Pack": "60ML",
         "Company Name": "EVONEXT HEALTHCARE PRIVATE LIMITED"
@@ -43320,7 +43335,7 @@ const navkarMedicineData = [
         "Company Name": "GENEES PHARMA"
     },
     {
-        "Product Name": "DERMORIZE MOIS LOTION 200ML",
+        "Product Name": "DERMORIZE MOIS LOTION",
         "Pack": "250ML",
         "Company Name": "GENEES PHARMA"
     },
@@ -44430,114 +44445,119 @@ const navkarMedicineData = [
         "Company Name": "GENO (PHARMA)"
     },
     {
+        "Product Name": "CYPON SYRUP",
+        "Pack": "200ML",
+        "Company Name": "GENO (PHARMA)"
+    },
+    {
         "Product Name": "CYPON TAB",
         "Pack": "10 TAB",
-        "Company Name": "CYPON SYRUP"
+        "Company Name": "GENO (PHARMA)"
     },
     {
         "Product Name": "GENOFIX DT 200MG TAB",
         "Pack": "TAB",
-        "Company Name": "CYPON SYRUP"
+        "Company Name": "GENO (PHARMA)"
     },
     {
         "Product Name": "GENOMOX CV 625 TAB",
         "Pack": "TAB",
-        "Company Name": "CYPON SYRUP"
+        "Company Name": "GENO (PHARMA)"
     },
     {
         "Product Name": "GENOMOX CV DRY SYP",
         "Pack": "30ML",
-        "Company Name": "CYPON SYRUP"
+        "Company Name": "GENO (PHARMA)"
     },
     {
         "Product Name": "GENOMOX CV FORT DS SYS 30 ML",
         "Pack": "30 ML",
-        "Company Name": "CYPON SYRUP"
+        "Company Name": "GENO (PHARMA)"
     },
     {
         "Product Name": "GENOPLEX L SYP 200ML",
         "Pack": "200ML",
-        "Company Name": "CYPON SYRUP"
+        "Company Name": "GENO (PHARMA)"
     },
     {
         "Product Name": "GENOPLEX L SYP 60ML",
         "Pack": "60ML",
-        "Company Name": "CYPON SYRUP"
+        "Company Name": "GENO (PHARMA)"
     },
     {
         "Product Name": "GENOPOD CV 50 DS 30 ML",
         "Pack": "30 ML",
-        "Company Name": "CYPON SYRUP"
+        "Company Name": "GENO (PHARMA)"
     },
     {
         "Product Name": "GENOPOD DT 100MG TAB",
         "Pack": "TAB",
-        "Company Name": "CYPON SYRUP"
+        "Company Name": "GENO (PHARMA)"
     },
     {
         "Product Name": "GENOPOD DT 200MG TAB",
         "Pack": "TAB",
-        "Company Name": "CYPON SYRUP"
+        "Company Name": "GENO (PHARMA)"
     },
     {
         "Product Name": "GENOTHRAL 500 TAB",
         "Pack": "TAB",
-        "Company Name": "CYPON SYRUP"
+        "Company Name": "GENO (PHARMA)"
     },
     {
         "Product Name": "GENOZYME READYMIX SYS 100 ML",
         "Pack": "100 ML",
-        "Company Name": "CYPON SYRUP"
+        "Company Name": "GENO (PHARMA)"
     },
     {
         "Product Name": "PEPTICA GEL PLUS SACHET 10 ML",
         "Pack": "10 ML",
-        "Company Name": "CYPON SYRUP"
+        "Company Name": "GENO (PHARMA)"
     },
     {
         "Product Name": "PETICA GEL PLUS 200 ML",
         "Pack": "200 ML",
-        "Company Name": "CYPON SYRUP"
+        "Company Name": "GENO (PHARMA)"
     },
     {
         "Product Name": "RESPIRA [D] SYR",
         "Pack": "100ML",
-        "Company Name": "CYPON SYRUP"
+        "Company Name": "GENO (PHARMA)"
     },
     {
         "Product Name": "RESPIRA + SYP",
         "Pack": "100ML",
-        "Company Name": "CYPON SYRUP"
+        "Company Name": "GENO (PHARMA)"
     },
     {
         "Product Name": "RESPIRA LS 100 ML",
         "Pack": "100 ML",
-        "Company Name": "CYPON SYRUP"
+        "Company Name": "GENO (PHARMA)"
     },
     {
         "Product Name": "RESPIRA LS SYP",
         "Pack": "60ML",
-        "Company Name": "CYPON SYRUP"
+        "Company Name": "GENO (PHARMA)"
     },
     {
         "Product Name": "RESPIRA TAB",
         "Pack": "TAB",
-        "Company Name": "CYPON SYRUP"
+        "Company Name": "GENO (PHARMA)"
     },
     {
         "Product Name": "RESPIRA-LS DROPS",
         "Pack": "15ML",
-        "Company Name": "CYPON SYRUP"
+        "Company Name": "GENO (PHARMA)"
     },
     {
         "Product Name": "TRICOBAL OD RF TAB",
         "Pack": "TAB",
-        "Company Name": "CYPON SYRUP"
+        "Company Name": "GENO (PHARMA)"
     },
     {
         "Product Name": "TUSPIRA SYRUP",
         "Pack": "100ML",
-        "Company Name": "CYPON SYRUP"
+        "Company Name": "GENO (PHARMA)"
     },
     {
         "Product Name": "BETAHIST FORTE TAB",
@@ -45847,6 +45867,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ALTACEF 500MG",
         "Pack": "10TAB",
+        "Company Name": "GLENMARK (MAJESTA)"
+    },
+    {
+        "Product Name": "ALTACEF SYP",
+        "Pack": "30ML",
         "Company Name": "GLENMARK (MAJESTA)"
     },
     {
@@ -49817,6 +49842,16 @@ const navkarMedicineData = [
     {
         "Product Name": "DAPA GOLD V 5 TAB",
         "Pack": "TAB",
+        "Company Name": "HBC LIFESCIENCES QURA"
+    },
+    {
+        "Product Name": "DAPAGOLD GM FORTE 1 TAB",
+        "Pack": "10TAB",
+        "Company Name": "HBC LIFESCIENCES QURA"
+    },
+    {
+        "Product Name": "DAPAGOLD GM FORTE 2 TAB",
+        "Pack": "10TAB",
         "Company Name": "HBC LIFESCIENCES QURA"
     },
     {
@@ -86521,7 +86556,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "SACHET",
-        "Pack": "200",
+        "Pack": "60",
         "Company Name": "MEDIBLESS"
     },
     {
@@ -100245,6 +100280,11 @@ const navkarMedicineData = [
         "Company Name": "RPG LIFE SCIENCE  (PINNACLE)"
     },
     {
+        "Product Name": "CRITIPENEM 200MG CAP",
+        "Pack": "10CAP",
+        "Company Name": "RPG LIFE SCIENCE  (PINNACLE)"
+    },
+    {
         "Product Name": "DASLIN CDT SYP 100ML",
         "Pack": "100ML",
         "Company Name": "RPG LIFE SCIENCE  (PINNACLE)"
@@ -100362,6 +100402,11 @@ const navkarMedicineData = [
     {
         "Product Name": "NAPROSYN SYRUP",
         "Pack": "60 ML",
+        "Company Name": "RPG LIFE SCIENCE  (PINNACLE)"
+    },
+    {
+        "Product Name": "POLMACTIVE CAP",
+        "Pack": "10CAP",
         "Company Name": "RPG LIFE SCIENCE  (PINNACLE)"
     },
     {
@@ -110095,69 +110140,74 @@ const navkarMedicineData = [
         "Company Name": "TEVOS PHARMACEUTICALES"
     },
     {
+        "Product Name": "XEROFAST CR TAB",
+        "Pack": "10TAB",
+        "Company Name": "TEVOS PHARMACEUTICALES"
+    },
+    {
         "Product Name": "XEROFAST TAB",
         "Pack": "10 TAB",
-        "Company Name": "XEROFAST CR TAB"
+        "Company Name": "TEVOS PHARMACEUTICALES"
     },
     {
         "Product Name": "XEROFAST TH TAB",
         "Pack": "10 TAB",
-        "Company Name": "XEROFAST CR TAB"
+        "Company Name": "TEVOS PHARMACEUTICALES"
     },
     {
         "Product Name": "XEROFLAM 3 TAB",
         "Pack": "10 TAB",
-        "Company Name": "XEROFAST CR TAB"
+        "Company Name": "TEVOS PHARMACEUTICALES"
     },
     {
         "Product Name": "XEROFLAM 3D TAB",
         "Pack": "10 TAB",
-        "Company Name": "XEROFAST CR TAB"
+        "Company Name": "TEVOS PHARMACEUTICALES"
     },
     {
         "Product Name": "XEROFLAM GEL",
         "Pack": "30GM",
-        "Company Name": "XEROFAST CR TAB"
+        "Company Name": "TEVOS PHARMACEUTICALES"
     },
     {
         "Product Name": "XEROFLAM M TAB",
         "Pack": "10 TAB",
-        "Company Name": "XEROFAST CR TAB"
+        "Company Name": "TEVOS PHARMACEUTICALES"
     },
     {
         "Product Name": "XEROFLAM S TAB",
         "Pack": "TAB",
-        "Company Name": "XEROFAST CR TAB"
+        "Company Name": "TEVOS PHARMACEUTICALES"
     },
     {
         "Product Name": "XEROFLAM TAB",
         "Pack": "15 TAB",
-        "Company Name": "XEROFAST CR TAB"
+        "Company Name": "TEVOS PHARMACEUTICALES"
     },
     {
         "Product Name": "XEROFLAM TH GEL 30 GM",
         "Pack": "30 GM",
-        "Company Name": "XEROFAST CR TAB"
+        "Company Name": "TEVOS PHARMACEUTICALES"
     },
     {
         "Product Name": "ZEPODOX 250 TAB",
         "Pack": "10'S",
-        "Company Name": "XEROFAST CR TAB"
+        "Company Name": "TEVOS PHARMACEUTICALES"
     },
     {
         "Product Name": "ZEPODOX 500 TAB",
         "Pack": "10'S",
-        "Company Name": "XEROFAST CR TAB"
+        "Company Name": "TEVOS PHARMACEUTICALES"
     },
     {
         "Product Name": "ZERO SEPTIC SF",
         "Pack": "15 GM",
-        "Company Name": "XEROFAST CR TAB"
+        "Company Name": "TEVOS PHARMACEUTICALES"
     },
     {
         "Product Name": "ZEROSEFCTIC SF CREAM",
         "Pack": "10 TAB",
-        "Company Name": "XEROFAST CR TAB"
+        "Company Name": "TEVOS PHARMACEUTICALES"
     },
     {
         "Product Name": "CURO CYST TAB",
@@ -120657,6 +120707,11 @@ const navkarMedicineData = [
     {
         "Product Name": "FLOREAL CAP",
         "Pack": "10CAP",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "G CELL 400GM",
+        "Pack": "400GM",
         "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
     },
     {

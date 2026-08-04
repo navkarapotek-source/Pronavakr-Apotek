@@ -3565,58 +3565,8 @@ const otcData = [
         "Company Name": "INDUCARE"
     },
     {
-        "Product Name": "ADULSA SYS [INDU]",
-        "Pack": "100ML",
-        "Company Name": "INDUCARE"
-    },
-    {
-        "Product Name": "ANOCARE TAB",
-        "Pack": "10 TAB",
-        "Company Name": "INDUCARE"
-    },
-    {
         "Product Name": "AYUR PEN SYP",
         "Pack": "100ML",
-        "Company Name": "INDUCARE"
-    },
-    {
-        "Product Name": "FACEPRO CREAM",
-        "Pack": "40GM",
-        "Company Name": "INDUCARE"
-    },
-    {
-        "Product Name": "FUNGIWIN CREAM",
-        "Pack": "25GM",
-        "Company Name": "INDUCARE"
-    },
-    {
-        "Product Name": "MAHANARAYN TEL [INDU]50ML",
-        "Pack": "50ML",
-        "Company Name": "INDUCARE"
-    },
-    {
-        "Product Name": "PITTANTAK SYR",
-        "Pack": "200ML",
-        "Company Name": "INDUCARE"
-    },
-    {
-        "Product Name": "SAJ SYRUP [50SACHET]",
-        "Pack": "10ML",
-        "Company Name": "INDUCARE"
-    },
-    {
-        "Product Name": "SHATAVARI KALP CHOCO [INDU]",
-        "Pack": "250GM",
-        "Company Name": "INDUCARE"
-    },
-    {
-        "Product Name": "SHATDHAUT GHRUT [25GM]",
-        "Pack": "25GM",
-        "Company Name": "INDUCARE"
-    },
-    {
-        "Product Name": "VATARIL LINIMENT",
-        "Pack": "50ML",
         "Company Name": "INDUCARE"
     },
     {
@@ -5730,7 +5680,7 @@ const otcData = [
         "Company Name": "SBS BIOTECH"
     },
     {
-        "Product Name": "DR ORTHO OIL [3+1EYE MANTRA FREE]",
+        "Product Name": "DR ORTHO OIL [3+1 ORTHO OIL FREE]",
         "Pack": "120ML",
         "Company Name": "SBS BIOTECH"
     },
