@@ -700,6 +700,11 @@ const navkarColdchainData = [
         "Company Name": "EMCURE PHARMACEUTICALS (NUCRON)"
     },
     {
+        "Product Name": "NUCORIL OD TAB",
+        "Pack": "TAB",
+        "Company Name": "EMCURE PHARMACEUTICALS (NUCRON)"
+    },
+    {
         "Product Name": "LYRATO PEN",
         "Pack": "3 ML",
         "Company Name": "ERIS LIFE SCIENCES (MONTANA)"

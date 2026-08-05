@@ -12100,6 +12100,11 @@ const navkarMedicineData = [
         "Company Name": "ALTEUS BIOGENICS PVT LTD (CILIX 2)"
     },
     {
+        "Product Name": "CILIX C 10/12.5 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ALTEUS BIOGENICS PVT LTD (CILIX 2)"
+    },
+    {
         "Product Name": "CILIX M 10/25 TAB",
         "Pack": "15TAB",
         "Company Name": "ALTEUS BIOGENICS PVT LTD (CILIX 2)"
@@ -12472,6 +12477,11 @@ const navkarMedicineData = [
     {
         "Product Name": "NURO BETA PLUS 20",
         "Pack": "15TAB",
+        "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
+    },
+    {
+        "Product Name": "PYGLO SYRUP",
+        "Pack": "60ML",
         "Company Name": "ALTEUS BIOGENICS PVT LTD (DUPAX)"
     },
     {
@@ -19760,6 +19770,11 @@ const navkarMedicineData = [
         "Company Name": "NIRAMOL [DS] SUSP"
     },
     {
+        "Product Name": "PLACIREST TAB",
+        "Pack": "10TAB",
+        "Company Name": "NIRAMOL [DS] SUSP"
+    },
+    {
         "Product Name": "PRO-BH PROTEIN POWDER",
         "Pack": "200 GM",
         "Company Name": "NIRAMOL [DS] SUSP"
@@ -26755,6 +26770,11 @@ const navkarMedicineData = [
         "Company Name": "CIPLA VITALIS 4"
     },
     {
+        "Product Name": "DYTOR E 10GM TAB (FDC)",
+        "Pack": "10TAB",
+        "Company Name": "CIPLA VITALIS 4"
+    },
+    {
         "Product Name": "DYTOR E 10MG TAB",
         "Pack": "20 TAB",
         "Company Name": "CIPLA VITALIS 4"
@@ -26762,6 +26782,11 @@ const navkarMedicineData = [
     {
         "Product Name": "DYTOR E 20MG TAB",
         "Pack": "10 TAB",
+        "Company Name": "CIPLA VITALIS 4"
+    },
+    {
+        "Product Name": "DYTOR E 20MG TAB(FDC)",
+        "Pack": "10TAB",
         "Company Name": "CIPLA VITALIS 4"
     },
     {
@@ -36175,11 +36200,6 @@ const navkarMedicineData = [
         "Company Name": "EMCURE PHARMA UTH"
     },
     {
-        "Product Name": "NUCORIL OD TAB",
-        "Pack": "TAB",
-        "Company Name": "EMCURE PHARMACEUTICALS (NUCRON)"
-    },
-    {
         "Product Name": "ARTEZEM 60 INJ",
         "Pack": "1VIAL",
         "Company Name": "EMCURE(PHARMA)"
@@ -44095,8 +44115,28 @@ const navkarMedicineData = [
         "Company Name": "GENESIS (CLIX)"
     },
     {
+        "Product Name": "ROSUGEN ASP 10/75 CAP",
+        "Pack": "10CAP",
+        "Company Name": "GENESIS (CLIX)"
+    },
+    {
+        "Product Name": "ROSUGEN ASP 20/75 CAP",
+        "Pack": "10CAP",
+        "Company Name": "GENESIS (CLIX)"
+    },
+    {
         "Product Name": "ROSUGEN F 10 TAB",
         "Pack": "10TAB",
+        "Company Name": "GENESIS (CLIX)"
+    },
+    {
+        "Product Name": "ROSUGEN GOLD 10/75 CAP",
+        "Pack": "10CAP",
+        "Company Name": "GENESIS (CLIX)"
+    },
+    {
+        "Product Name": "ROSUGEN GOLD 20/75 CAP",
+        "Pack": "10CAP",
         "Company Name": "GENESIS (CLIX)"
     },
     {
@@ -45195,11 +45235,6 @@ const navkarMedicineData = [
         "Company Name": "GLENMARK  (SHWAS 1)"
     },
     {
-        "Product Name": "CYSTEO CREAM 15 GM",
-        "Pack": "15 GM",
-        "Company Name": "GLENMARK (COSMO CARE)"
-    },
-    {
         "Product Name": "ELOVERA AD LOTION 100 GM",
         "Pack": "100GM",
         "Company Name": "GLENMARK (COSMO CARE)"
@@ -45212,6 +45247,11 @@ const navkarMedicineData = [
     {
         "Product Name": "EPISOFT AC SPF 50+ 50GM",
         "Pack": "50 GM",
+        "Company Name": "GLENMARK (COSMO CARE)"
+    },
+    {
+        "Product Name": "GLENMARK CYSTEO CREAM 15 GM",
+        "Pack": "15 GM",
         "Company Name": "GLENMARK (COSMO CARE)"
     },
     {
@@ -46157,11 +46197,6 @@ const navkarMedicineData = [
     {
         "Product Name": "D ACNE SOFT FOAM FACE WASH",
         "Pack": "100GM",
-        "Company Name": "GLENMARK (PHARMA)"
-    },
-    {
-        "Product Name": "GLENMARK CYSTEO CREAM",
-        "Pack": "15GM",
         "Company Name": "GLENMARK (PHARMA)"
     },
     {
@@ -53210,7 +53245,7 @@ const navkarMedicineData = [
         "Company Name": "ICPA  LABORATORIES LIMITED"
     },
     {
-        "Product Name": "YOUNIFLOSS TWIN-LINE FLOSS",
+        "Product Name": "YOUNIFLOSS 50",
         "Pack": "1",
         "Company Name": "ICPA  LABORATORIES LIMITED"
     },
@@ -55425,6 +55460,11 @@ const navkarMedicineData = [
         "Company Name": "INTAS ATHENA"
     },
     {
+        "Product Name": "PREGABID-D 50/10 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "INTAS ATHENA"
+    },
+    {
         "Product Name": "RISDONE 1MG TAB",
         "Pack": "10 TAB",
         "Company Name": "INTAS ATHENA"
@@ -57050,6 +57090,11 @@ const navkarMedicineData = [
         "Company Name": "INTAS PHARMACEUTICALS (ARRON)"
     },
     {
+        "Product Name": "UNOJAK 15MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "INTAS PHARMACEUTICALS (ARRON)"
+    },
+    {
         "Product Name": "ACTOID 10MG CAP 10``S",
         "Pack": "TAB",
         "Company Name": "INTAS PHARMACEUTICALS (ASPIRA)"
@@ -57797,6 +57842,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ARVAST CV 10",
         "Pack": "10 CAP",
+        "Company Name": "INTAS PHARMACEUTICALS (SUPRIMA)"
+    },
+    {
+        "Product Name": "ARVAST CV 20 TAB",
+        "Pack": "10 TAB",
         "Company Name": "INTAS PHARMACEUTICALS (SUPRIMA)"
     },
     {
@@ -60267,11 +60317,6 @@ const navkarMedicineData = [
     {
         "Product Name": "CITINOVA 500MG TAB",
         "Pack": "10TAB",
-        "Company Name": "IPCA HEALTHCARE PVT. LTD."
-    },
-    {
-        "Product Name": "CTD AM 6.25/40/5MG TAB",
-        "Pack": "10 TAB",
         "Company Name": "IPCA HEALTHCARE PVT. LTD."
     },
     {
@@ -70740,8 +70785,8 @@ const navkarMedicineData = [
         "Company Name": "LLOYD HEALTHCARE (AURUS)"
     },
     {
-        "Product Name": "ROSYCAP 5 TAB",
-        "Pack": "15 TAB",
+        "Product Name": "REMETOR CV 10MG CAP",
+        "Pack": "TAB",
         "Company Name": "LLOYD HEALTHCARE (AURUS)"
     },
     {
@@ -71870,11 +71915,6 @@ const navkarMedicineData = [
         "Company Name": "LLOYDS HEALTHCARE"
     },
     {
-        "Product Name": "REMETOR CV 10MG CAP",
-        "Pack": "TAB",
-        "Company Name": "LLOYDS HEALTHCARE"
-    },
-    {
         "Product Name": "REMETOR CV 20 CAP",
         "Pack": "15S",
         "Company Name": "LLOYDS HEALTHCARE"
@@ -71922,6 +71962,11 @@ const navkarMedicineData = [
     {
         "Product Name": "LOYFENAC T4 TAB",
         "Pack": "15TAB",
+        "Company Name": "LOREAL INDIA PVT.LTD"
+    },
+    {
+        "Product Name": "ROSYCAP 5 TAB",
+        "Pack": "15 TAB",
         "Company Name": "LOREAL INDIA PVT.LTD"
     },
     {
@@ -118942,6 +118987,11 @@ const navkarMedicineData = [
     {
         "Product Name": "GESTANOL TAB",
         "Pack": "TAB",
+        "Company Name": "WALTER BUSHNELL LTD ACE"
+    },
+    {
+        "Product Name": "MARTIFOS SACHETS",
+        "Pack": "1 SACHET",
         "Company Name": "WALTER BUSHNELL LTD ACE"
     },
     {

@@ -9845,6 +9845,11 @@ const productData = [
         "Company Name": "GENERAL COMPANIES"
     },
     {
+        "Product Name": "ESTOZYME TAB",
+        "Pack": "10TAB",
+        "Company Name": "GENERAL COMPANIES"
+    },
+    {
         "Product Name": "EVEE 400MG CAPS",
         "Pack": "1X10C",
         "Company Name": "GENERAL COMPANIES"
@@ -11735,6 +11740,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "HEALING BOWL SET 12PCS",
+        "Pack": "12PC",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "HEALING CEILING FAN",
         "Pack": "PCS",
         "Company Name": "HEALING PHARMA"
@@ -12387,6 +12397,11 @@ const productData = [
     {
         "Product Name": "MACDERM-NF CREAM",
         "Pack": "1X15GM",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "MAGLYCI D3 TAB",
+        "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -24915,22 +24930,22 @@ const productData = [
         "Company Name": "ROMSON"
     },
     {
-        "Product Name": "SUCTION CATH G18",
+        "Product Name": "SUCTION CATHEETAR (18 NO)",
         "Pack": "1PC",
         "Company Name": "ROMSON"
     },
     {
-        "Product Name": "SUCTION CATHEETAR ROM (12NO )",
+        "Product Name": "SUCTION CATHEETAR(12NO)",
         "Pack": "1PIC",
         "Company Name": "ROMSON"
     },
     {
-        "Product Name": "SUCTION CATHEETAR ROM(16 NO)",
+        "Product Name": "SUCTION CATHEETAR(14NO)",
         "Pack": "1",
         "Company Name": "ROMSON"
     },
     {
-        "Product Name": "SUCTION CATHEETAR ROMS (14NO )",
+        "Product Name": "SUCTION CATHEETAR(16 NO)",
         "Pack": "1",
         "Company Name": "ROMSON"
     },
@@ -25477,6 +25492,11 @@ const productData = [
     {
         "Product Name": "RABIROS-DSR CAP",
         "Pack": "1X10TAB",
+        "Company Name": "ROUSSEL LABORATORIES"
+    },
+    {
+        "Product Name": "RIVONEXT 15MG TAB",
+        "Pack": "14TAB",
         "Company Name": "ROUSSEL LABORATORIES"
     },
     {
@@ -28130,11 +28150,6 @@ const productData = [
         "Company Name": "SMART LAB"
     },
     {
-        "Product Name": "5BOX/150PCS 6PC CELLO RICCA CUP SET 6PCS",
-        "Pack": "PC",
-        "Company Name": "SMART LAB"
-    },
-    {
         "Product Name": "ACECREST SR TAB",
         "Pack": "10TAB",
         "Company Name": "SMART LAB"
@@ -30170,6 +30185,11 @@ const productData = [
         "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
     },
     {
+        "Product Name": "ZZ 5BOX/150PCS 6PC CELLO RICCA CUP SET 6PCS",
+        "Pack": "PC",
+        "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
+    },
+    {
         "Product Name": "ACEZEAL MR TAB",
         "Pack": "10TAB",
         "Company Name": "SMARTWAY WELLNESS PVT.LTD."
@@ -31925,7 +31945,12 @@ const productData = [
         "Company Name": "TORRENT PHARMA(ETHICAL)"
     },
     {
-        "Product Name": "XTPARA COLD TAB",
+        "Product Name": "XTPARA COLD TAB (ALU-ALU)",
+        "Pack": "10TAB",
+        "Company Name": "TORRENT PHARMA(ETHICAL)"
+    },
+    {
+        "Product Name": "XTPARA COLD TAB (BLISTER)",
         "Pack": "1X10TAB",
         "Company Name": "TORRENT PHARMA(ETHICAL)"
     },

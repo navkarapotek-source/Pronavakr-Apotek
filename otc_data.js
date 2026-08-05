@@ -2180,6 +2180,11 @@ const otcData = [
         "Company Name": "GENERAL...A"
     },
     {
+        "Product Name": "KALCIYOG TAB",
+        "Pack": "30TAB",
+        "Company Name": "GENERAL...A"
+    },
+    {
         "Product Name": "KANTHA SUDHARAK VATI (DHANWANTARI)",
         "Pack": "1PC",
         "Company Name": "GENERAL...A"
@@ -2590,7 +2595,7 @@ const otcData = [
         "Company Name": "GLAXO SMITHKLINE (CONSUMER HC)"
     },
     {
-        "Product Name": "SENSODYNE TOOTH BRUSH [5+1]",
+        "Product Name": "SENSODYNE TOOTH BRUSH [7+2]",
         "Pack": "1`S",
         "Company Name": "GLAXO SMITHKLINE (CONSUMER HC)"
     },
@@ -3441,6 +3446,11 @@ const otcData = [
     },
     {
         "Product Name": "PONDS BB+ CREAM 9GM",
+        "Pack": "9GM",
+        "Company Name": "HINDUSTAN UNILEVER LIMITED"
+    },
+    {
+        "Product Name": "PONDS BB+ CREAM 9GM NATURAL",
         "Pack": "9GM",
         "Company Name": "HINDUSTAN UNILEVER LIMITED"
     },
