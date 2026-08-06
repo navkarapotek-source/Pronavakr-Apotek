@@ -168,6 +168,7 @@
     position: relative; z-index: 1;
     margin: 1rem auto 0;
     text-align: center;
+    max-width: 1100px;
   }
   .app-title {
     font-size: 1.1rem;
@@ -188,15 +189,22 @@
   .app-download-inner {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 1.5rem;
     flex-wrap: wrap;
+    width: 100%;
+  }
+  .app-download-inner > .app-side-group {
+    flex: 1 1 220px;
+    display: flex;
+    justify-content: center;
   }
   .qr-code-wrap {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 6px;
+    flex: 0 0 auto;
   }
   .qr-code-wrap img {
     width: 150px;
@@ -240,8 +248,11 @@
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(0,0,0,0.15);
   }
+  @media (max-width: 900px) {
+    .app-download-inner { flex-direction: column; gap: 1.5rem; justify-content: center; }
+    .app-download-inner > .app-side-group { flex: none; }
+  }
   @media (max-width: 500px) {
-    .app-download-inner { flex-direction: column; gap: 1.2rem; }
     .qr-code-wrap img { width: 120px; height: 120px; }
     .guide-btn { font-size: 0.8rem; padding: 10px 20px; }
   }
@@ -932,20 +943,29 @@
   <div class="app-download">
     <p class="app-title">Download Our App For Placing Orders</p>
     <div class="app-download-inner">
-      <div style="display:flex;flex-direction:column;align-items:center;gap:10px;">
-        <a href="https://play.google.com/store/apps/details?id=in.relysoft.navkarapotekllp" target="_blank">
-          <img src="PlayStore.jpg" alt="Get it on Google Play" class="play-store-badge">
-        </a>
-        <div>
-          <a href="how-to-use-app/" class="guide-btn">View Step-by-Step Guide ➔</a>
+      <!-- LEFT SIDE: Play Store badge + Step-by-Step Guide button -->
+      <div class="app-side-group">
+        <div style="display:flex;flex-direction:column;align-items:center;gap:10px;">
+          <a href="https://play.google.com/store/apps/details?id=in.relysoft.navkarapotekllp" target="_blank">
+            <img src="PlayStore.jpg" alt="Get it on Google Play" class="play-store-badge">
+          </a>
+          <div>
+            <a href="how-to-use-app/" class="guide-btn">View Step-by-Step Guide ➔</a>
+          </div>
         </div>
       </div>
+
+      <!-- CENTER: QR Code -->
       <div class="qr-code-wrap">
         <img src="qr_code.png" alt="Scan to Download App">
         <span class="qr-label">Scan to Download App</span>
       </div>
-      <div style="display:flex;flex-direction:column;align-items:center;gap:10px;">
-        <a href="https://github.com/navkarapotek-source/Pronavakr-Apotek/releases/download/v1.0.0/MrLLP.apk" class="guide-btn" download>Download MR Queue Navkar</a>
+
+      <!-- RIGHT SIDE: Download MR Queue Navkar button -->
+      <div class="app-side-group">
+        <div style="display:flex;flex-direction:column;align-items:center;gap:10px;">
+          <a href="https://github.com/navkarapotek-source/Pronavakr-Apotek/releases/download/v1.0.0/MrLLP.apk" class="guide-btn" download>Download MR Queue Navkar</a>
+        </div>
       </div>
     </div>
   </div>
