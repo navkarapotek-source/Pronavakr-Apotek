@@ -1435,6 +1435,11 @@ const navkarMedicineData = [
         "Company Name": "ABBOTT HEALTHCARE (ORTHO)"
     },
     {
+        "Product Name": "BILAZEST 40MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "ABBOTT HEALTHCARE (OSVITA)"
+    },
+    {
         "Product Name": "DURAPAIN TAB",
         "Pack": "TAB",
         "Company Name": "ABBOTT HEALTHCARE (OSVITA)"
@@ -13800,6 +13805,11 @@ const navkarMedicineData = [
         "Company Name": "ARINNA LIFESCI PVT LTD (ALEXA)"
     },
     {
+        "Product Name": "BACLESTA OD 30MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "ARINNA LIFESCI PVT LTD (ALEXA)"
+    },
+    {
         "Product Name": "BACLESTA TAB",
         "Pack": "10TAB",
         "Company Name": "ARINNA LIFESCI PVT LTD (ALEXA)"
@@ -22175,6 +22185,11 @@ const navkarMedicineData = [
         "Company Name": "CHARAK PHARMA"
     },
     {
+        "Product Name": "LIVOMYN FL TAB",
+        "Pack": "15*2TAB",
+        "Company Name": "CHARAK PHARMA"
+    },
+    {
         "Product Name": "LIVOMYN JAR 500 TAB",
         "Pack": "500 TAB",
         "Company Name": "CHARAK PHARMA"
@@ -23790,7 +23805,7 @@ const navkarMedicineData = [
         "Company Name": "CIPLA LIMITED (RESPI 3)"
     },
     {
-        "Product Name": "GLYCOHALE FB 400/25/12MCG",
+        "Product Name": "GLYCOHALE FB 400/25/12MCG 3*10 TAB",
         "Pack": "3*10 TAB",
         "Company Name": "CIPLA LIMITED (RESPI 3)"
     },
@@ -30467,47 +30482,47 @@ const navkarMedicineData = [
     {
         "Product Name": "CARTILOX GO CAP",
         "Pack": "15 CAP",
-        "Company Name": "BIXIBAT 5 MG TAB"
+        "Company Name": "DR REDDYS LAB (OPERA)"
     },
     {
         "Product Name": "CARTILOX SACHET 10.4GM",
         "Pack": "10.4GM",
-        "Company Name": "BIXIBAT 5 MG TAB"
+        "Company Name": "DR REDDYS LAB (OPERA)"
     },
     {
         "Product Name": "FLURISH 150 MG",
         "Pack": "1 TAB",
-        "Company Name": "BIXIBAT 5 MG TAB"
+        "Company Name": "DR REDDYS LAB (OPERA)"
     },
     {
         "Product Name": "HILIN GM TAB",
         "Pack": "10 TAB",
-        "Company Name": "BIXIBAT 5 MG TAB"
+        "Company Name": "DR REDDYS LAB (OPERA)"
     },
     {
         "Product Name": "RETOZ MR 4MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "BIXIBAT 5 MG TAB"
+        "Company Name": "DR REDDYS LAB (OPERA)"
     },
     {
         "Product Name": "RETOZ NEO 120MG TABN45",
         "Pack": "10 TAB",
-        "Company Name": "BIXIBAT 5 MG TAB"
+        "Company Name": "DR REDDYS LAB (OPERA)"
     },
     {
         "Product Name": "RETOZ NEO 60MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "BIXIBAT 5 MG TAB"
+        "Company Name": "DR REDDYS LAB (OPERA)"
     },
     {
         "Product Name": "RETOZ NEO 90MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "BIXIBAT 5 MG TAB"
+        "Company Name": "DR REDDYS LAB (OPERA)"
     },
     {
         "Product Name": "SUPAMOVE GEL",
         "Pack": "30GM",
-        "Company Name": "BIXIBAT 5 MG TAB"
+        "Company Name": "DR REDDYS LAB (OPERA)"
     },
     {
         "Product Name": "DAPLO BIS 2.5 TAB",
@@ -30753,156 +30768,6 @@ const navkarMedicineData = [
         "Product Name": "WHYT TOOTH PASTE",
         "Pack": "70 GM",
         "Company Name": "DR REDDYS LAB (RECURA GRACE)"
-    },
-    {
-        "Product Name": "AGNA 10000MG CAP 10``S",
-        "Pack": "10 CAP",
-        "Company Name": "DR REDDYS LAB (RECURA)"
-    },
-    {
-        "Product Name": "AGNA 25000MG CAP 10``S",
-        "Pack": "TAB",
-        "Company Name": "DR REDDYS LAB (RECURA)"
-    },
-    {
-        "Product Name": "ANTOXID CAP",
-        "Pack": "30 CAP",
-        "Company Name": "DR REDDYS LAB (RECURA)"
-    },
-    {
-        "Product Name": "ANTOXID P TAB",
-        "Pack": "10 TAB",
-        "Company Name": "DR REDDYS LAB (RECURA)"
-    },
-    {
-        "Product Name": "CELEVIDA LIV CHOCO POWDER",
-        "Pack": "390GM",
-        "Company Name": "DR REDDYS LAB (RECURA)"
-    },
-    {
-        "Product Name": "CELEVIDA LIV VANILLA",
-        "Pack": "210GM",
-        "Company Name": "DR REDDYS LAB (RECURA)"
-    },
-    {
-        "Product Name": "ECONORM CAP",
-        "Pack": "6 CAP",
-        "Company Name": "DR REDDYS LAB (RECURA)"
-    },
-    {
-        "Product Name": "ENTALIV 0.5MG TAB",
-        "Pack": "30 TAB",
-        "Company Name": "DR REDDYS LAB (RECURA)"
-    },
-    {
-        "Product Name": "FITTYDENT CREAM 20GM",
-        "Pack": "20GM",
-        "Company Name": "DR REDDYS LAB (RECURA)"
-    },
-    {
-        "Product Name": "FITTYDENT POWDER 20GM",
-        "Pack": "20GM",
-        "Company Name": "DR REDDYS LAB (RECURA)"
-    },
-    {
-        "Product Name": "FITTYDENT TAB",
-        "Pack": "32 TAB",
-        "Company Name": "DR REDDYS LAB (RECURA)"
-    },
-    {
-        "Product Name": "KINPRIDE 1MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "DR REDDYS LAB (RECURA)"
-    },
-    {
-        "Product Name": "MOREASE I SACH 1GM",
-        "Pack": "1GM",
-        "Company Name": "DR REDDYS LAB (RECURA)"
-    },
-    {
-        "Product Name": "MOREASE SR CAP",
-        "Pack": "10 CAP",
-        "Company Name": "DR REDDYS LAB (RECURA)"
-    },
-    {
-        "Product Name": "MOREASE TAB",
-        "Pack": "10 TAB",
-        "Company Name": "DR REDDYS LAB (RECURA)"
-    },
-    {
-        "Product Name": "PEGRED C SACHET",
-        "Pack": "138.4GM",
-        "Company Name": "DR REDDYS LAB (RECURA)"
-    },
-    {
-        "Product Name": "PEGRED POWDER",
-        "Pack": "119GM",
-        "Company Name": "DR REDDYS LAB (RECURA)"
-    },
-    {
-        "Product Name": "REBAHEAL 100 MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "DR REDDYS LAB (RECURA)"
-    },
-    {
-        "Product Name": "SIBOFIX 200MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "DR REDDYS LAB (RECURA)"
-    },
-    {
-        "Product Name": "SIBOFIX 400MG TAB",
-        "Pack": "TAB",
-        "Company Name": "DR REDDYS LAB (RECURA)"
-    },
-    {
-        "Product Name": "SIBOFIX 550MG TAB",
-        "Pack": "TAB",
-        "Company Name": "DR REDDYS LAB (RECURA)"
-    },
-    {
-        "Product Name": "SPARACID O SUSP",
-        "Pack": "200ML",
-        "Company Name": "DR REDDYS LAB (RECURA)"
-    },
-    {
-        "Product Name": "STOLIN PASTE 100GM",
-        "Pack": "100GM",
-        "Company Name": "DR REDDYS LAB (RECURA)"
-    },
-    {
-        "Product Name": "VEGAZ OD 1 GM SACHET",
-        "Pack": "1 GM",
-        "Company Name": "DR REDDYS LAB (RECURA)"
-    },
-    {
-        "Product Name": "VEGAZ OD 15TAB",
-        "Pack": "15TAB",
-        "Company Name": "DR REDDYS LAB (RECURA)"
-    },
-    {
-        "Product Name": "VEGAZ OD 2 GM SACHET",
-        "Pack": "2 GM",
-        "Company Name": "DR REDDYS LAB (RECURA)"
-    },
-    {
-        "Product Name": "VEGAZ OD TAB",
-        "Pack": "10 TAB",
-        "Company Name": "DR REDDYS LAB (RECURA)"
-    },
-    {
-        "Product Name": "VEGAZ SUPP",
-        "Pack": "5 SUPP",
-        "Company Name": "DR REDDYS LAB (RECURA)"
-    },
-    {
-        "Product Name": "VONO 10 TAB",
-        "Pack": "TAB",
-        "Company Name": "DR REDDYS LAB (RECURA)"
-    },
-    {
-        "Product Name": "VONO 20 TAB",
-        "Pack": "10 TAB",
-        "Company Name": "DR REDDYS LAB (RECURA)"
     },
     {
         "Product Name": "CETZINE SYP 60ML",
@@ -31245,6 +31110,156 @@ const navkarMedicineData = [
         "Company Name": "DR REDDYS LAB (ZENURA)"
     },
     {
+        "Product Name": "ANTOXID CAP",
+        "Pack": "30 CAP",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
+        "Product Name": "ANTOXID P TAB",
+        "Pack": "10 TAB",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
+        "Product Name": "BIXIBAT 5 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
+        "Product Name": "CELEVIDA LIV CHOCO POWDER",
+        "Pack": "390GM",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
+        "Product Name": "CELEVIDA LIV VANILLA",
+        "Pack": "210GM",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
+        "Product Name": "ENTALIV 0.5MG TAB",
+        "Pack": "30 TAB",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
+        "Product Name": "FITTYDENT CREAM 20GM",
+        "Pack": "20GM",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
+        "Product Name": "FITTYDENT POWDER 20GM",
+        "Pack": "20GM",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
+        "Product Name": "FITTYDENT TAB",
+        "Pack": "32 TAB",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
+        "Product Name": "KINPRIDE 1MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
+        "Product Name": "MOREASE I SACH 1GM",
+        "Pack": "1GM",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
+        "Product Name": "MOREASE SR CAP",
+        "Pack": "10 CAP",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
+        "Product Name": "MOREASE TAB",
+        "Pack": "10 TAB",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
+        "Product Name": "PCAB 25 MG TAB",
+        "Pack": "10'S",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
+        "Product Name": "PCAB 50 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
+        "Product Name": "PEGRED C SACHET",
+        "Pack": "138.4GM",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
+        "Product Name": "PEGRED POWDER",
+        "Pack": "119GM",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
+        "Product Name": "REBAHEAL 100 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
+        "Product Name": "SIBOFIX 200MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
+        "Product Name": "SIBOFIX 400MG TAB",
+        "Pack": "TAB",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
+        "Product Name": "SIBOFIX 550MG TAB",
+        "Pack": "TAB",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
+        "Product Name": "SPARACID O SUSP",
+        "Pack": "200ML",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
+        "Product Name": "STOLIN PASTE 100GM",
+        "Pack": "100GM",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
+        "Product Name": "VEGAZ OD 1 GM SACHET",
+        "Pack": "1 GM",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
+        "Product Name": "VEGAZ OD 15TAB",
+        "Pack": "15TAB",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
+        "Product Name": "VEGAZ OD 2 GM SACHET",
+        "Pack": "2 GM",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
+        "Product Name": "VEGAZ OD TAB",
+        "Pack": "10 TAB",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
+        "Product Name": "VEGAZ SUPP",
+        "Pack": "5 SUPP",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
+        "Product Name": "VONO 10 TAB",
+        "Pack": "TAB",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
+        "Product Name": "VONO 20 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
+    },
+    {
         "Product Name": "BECELAC FORTZ CAP",
         "Pack": "15 CAP",
         "Company Name": "DR REDDYS LAB AQURA MS"
@@ -31403,11 +31418,6 @@ const navkarMedicineData = [
         "Product Name": "WOKRIDE D CAP",
         "Pack": "15 CAP",
         "Company Name": "DR REDDYS LAB AQURA MS"
-    },
-    {
-        "Product Name": "ANTOXID [HC] CAP",
-        "Pack": "30 CAP",
-        "Company Name": "DR REDDYS LAB GRAND ERA"
     },
     {
         "Product Name": "ATARAX 10 TAB",
@@ -31685,34 +31695,39 @@ const navkarMedicineData = [
         "Company Name": "DR REDDYS LABORATORIES (OPTIMUS)"
     },
     {
+        "Product Name": "OLSERTAIN 40MG TAB",
+        "Pack": "15 TAB",
+        "Company Name": "DR REDDYS LABORATORIES (OPTIMUS)"
+    },
+    {
         "Product Name": "OLSERTAIN AM TAB",
         "Pack": "15 TAB",
-        "Company Name": "OLSERTAIN 40MG TAB"
+        "Company Name": "DR REDDYS LABORATORIES (OPTIMUS)"
     },
     {
         "Product Name": "OLSERTAIN CT 20MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "OLSERTAIN 40MG TAB"
+        "Company Name": "DR REDDYS LABORATORIES (OPTIMUS)"
     },
     {
         "Product Name": "OLSERTAIN CT 40 MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "OLSERTAIN 40MG TAB"
+        "Company Name": "DR REDDYS LABORATORIES (OPTIMUS)"
     },
     {
         "Product Name": "OLSERTAIN H 20MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "OLSERTAIN 40MG TAB"
+        "Company Name": "DR REDDYS LABORATORIES (OPTIMUS)"
     },
     {
         "Product Name": "OLSERTAIN H 40MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "OLSERTAIN 40MG TAB"
+        "Company Name": "DR REDDYS LABORATORIES (OPTIMUS)"
     },
     {
         "Product Name": "OPTIDOZ TAB",
         "Pack": "10 TAB",
-        "Company Name": "OLSERTAIN 40MG TAB"
+        "Company Name": "DR REDDYS LABORATORIES (OPTIMUS)"
     },
     {
         "Product Name": "STIG DM 500 TAB",
@@ -31720,8 +31735,23 @@ const navkarMedicineData = [
         "Company Name": "DR REDDYS LABORATORIES (XENURA)"
     },
     {
+        "Product Name": "AGNA 10000MG CAP 10``S",
+        "Pack": "10 CAP",
+        "Company Name": "DR REDDYS LABORATORIES LTD"
+    },
+    {
+        "Product Name": "AGNA 25000MG CAP 10``S",
+        "Pack": "TAB",
+        "Company Name": "DR REDDYS LABORATORIES LTD"
+    },
+    {
         "Product Name": "ALFOO T TAB",
         "Pack": "10 TAB",
+        "Company Name": "DR REDDYS LABORATORIES LTD"
+    },
+    {
+        "Product Name": "ANTOXID [HC] CAP",
+        "Pack": "30 CAP",
         "Company Name": "DR REDDYS LABORATORIES LTD"
     },
     {
@@ -31742,6 +31772,11 @@ const navkarMedicineData = [
     {
         "Product Name": "DELCYNISE TAB",
         "Pack": "10 TAB",
+        "Company Name": "DR REDDYS LABORATORIES LTD"
+    },
+    {
+        "Product Name": "ECONORM CAP",
+        "Pack": "6 CAP",
         "Company Name": "DR REDDYS LABORATORIES LTD"
     },
     {
@@ -31776,16 +31811,6 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "MYOCEIVE + TAB",
-        "Pack": "10 TAB",
-        "Company Name": "DR REDDYS LABORATORIES LTD"
-    },
-    {
-        "Product Name": "PCAB 25 MG TAB",
-        "Pack": "10'S",
-        "Company Name": "DR REDDYS LABORATORIES LTD"
-    },
-    {
-        "Product Name": "PCAB 50 TAB",
         "Pack": "10 TAB",
         "Company Name": "DR REDDYS LABORATORIES LTD"
     },
@@ -47575,6 +47600,11 @@ const navkarMedicineData = [
         "Company Name": "GROUP PHARMACEUTICALS LTD."
     },
     {
+        "Product Name": "OMNIDENT GEL",
+        "Pack": "25GM",
+        "Company Name": "GROUP PHARMACEUTICALS LTD."
+    },
+    {
         "Product Name": "OMNIDENT GEL 70GM",
         "Pack": "70GM",
         "Company Name": "GROUP PHARMACEUTICALS LTD."
@@ -60340,21 +60370,6 @@ const navkarMedicineData = [
         "Company Name": "IPCA HEALTHCARE PVT. LTD."
     },
     {
-        "Product Name": "EMNORM 25 MG TAB",
-        "Pack": "10TAB",
-        "Company Name": "IPCA HEALTHCARE PVT. LTD."
-    },
-    {
-        "Product Name": "FLOVAS 10 MG TAB",
-        "Pack": "10  TAB",
-        "Company Name": "IPCA HEALTHCARE PVT. LTD."
-    },
-    {
-        "Product Name": "FLOVAS 2.5 MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "IPCA HEALTHCARE PVT. LTD."
-    },
-    {
         "Product Name": "GLYFREE 3MG TAB",
         "Pack": "10TAB",
         "Company Name": "IPCA HEALTHCARE PVT. LTD."
@@ -61226,11 +61241,6 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "FASTCLAV 250MG TAB",
-        "Pack": "TAB",
-        "Company Name": "IPCA LABORATORIES (ALTUS)"
-    },
-    {
-        "Product Name": "TELMINORM AM 40/5MG TAB",
         "Pack": "TAB",
         "Company Name": "IPCA LABORATORIES (ALTUS)"
     },
@@ -62390,11 +62400,6 @@ const navkarMedicineData = [
         "Company Name": "IPCA LABORATORIES PVT LTD"
     },
     {
-        "Product Name": "FLOVAS 15MG TAB",
-        "Pack": "14TAB",
-        "Company Name": "IPCA LABORATORIES PVT LTD"
-    },
-    {
         "Product Name": "HYQ 300MG TAB",
         "Pack": "10TAB",
         "Company Name": "IPCA LABORATORIES PVT LTD"
@@ -62485,11 +62490,6 @@ const navkarMedicineData = [
         "Company Name": "IPCA LABORATORIES PVT LTD"
     },
     {
-        "Product Name": "TIKLEEN 90MG TAB",
-        "Pack": "TAB",
-        "Company Name": "IPCA LABORATORIES PVT LTD"
-    },
-    {
         "Product Name": "ZEMYA 15MG TAB",
         "Pack": "10TAB",
         "Company Name": "IPCA LABORATORIES PVT LTD"
@@ -62543,6 +62543,31 @@ const navkarMedicineData = [
         "Product Name": "MOVICAM GEL",
         "Pack": "30GM",
         "Company Name": "IPCA LABORATORIES(BIONOVA ACE)"
+    },
+    {
+        "Product Name": "EMNORM 25 MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "IPCA LABORTEORIS { CARDIMET}"
+    },
+    {
+        "Product Name": "FLOVAS 10 MG TAB",
+        "Pack": "10  TAB",
+        "Company Name": "IPCA LABORTEORIS { CARDIMET}"
+    },
+    {
+        "Product Name": "FLOVAS 15MG TAB",
+        "Pack": "14TAB",
+        "Company Name": "IPCA LABORTEORIS { CARDIMET}"
+    },
+    {
+        "Product Name": "FLOVAS 2.5 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "IPCA LABORTEORIS { CARDIMET}"
+    },
+    {
+        "Product Name": "TELMINORM AM 40/5MG TAB",
+        "Pack": "TAB",
+        "Company Name": "IPCA LABORTEORIS { CARDIMET}"
     },
     {
         "Product Name": "MIRBEG 25 MG TAB",
@@ -80401,7 +80426,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "COMBIHALE G DPI CAP",
-        "Pack": "CAP",
+        "Pack": "3*10CAP",
         "Company Name": "COMBIHALE FB 200 DPI CAP"
     },
     {
@@ -86066,7 +86091,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "BILAHIST COOL LOTION",
-        "Pack": "150 ML",
+        "Pack": "100 ML",
         "Company Name": "MED MANOR (GLORIA)"
     },
     {
@@ -92175,6 +92200,11 @@ const navkarMedicineData = [
         "Company Name": "NEUVOCARE PHARMACEUTICALS"
     },
     {
+        "Product Name": "ACILICK SR CAP",
+        "Pack": "10CAP",
+        "Company Name": "NEXT LIFE SCIENCE"
+    },
+    {
         "Product Name": "BREXACUF SYRUP",
         "Pack": "100ML",
         "Company Name": "NEXT LIFE SCIENCE"
@@ -92222,6 +92252,11 @@ const navkarMedicineData = [
     {
         "Product Name": "QNEX TAB",
         "Pack": "10TAB",
+        "Company Name": "NEXT LIFE SCIENCE"
+    },
+    {
+        "Product Name": "QUICKCURE GEL",
+        "Pack": "30GM",
         "Company Name": "NEXT LIFE SCIENCE"
     },
     {
@@ -93897,6 +93932,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ROZITAZ GOLD 10 MG CAP",
         "Pack": "10 TAB",
+        "Company Name": "OTHERS"
+    },
+    {
+        "Product Name": "TIKLEEN 90MG TAB",
+        "Pack": "TAB",
         "Company Name": "OTHERS"
     },
     {
@@ -98007,6 +98047,11 @@ const navkarMedicineData = [
     {
         "Product Name": "EPLEHEF 25 TAB",
         "Pack": "TAB",
+        "Company Name": "RANBAXY (CORONUS)"
+    },
+    {
+        "Product Name": "EPLEHEF T 10 TAB",
+        "Pack": "10TAB",
         "Company Name": "RANBAXY (CORONUS)"
     },
     {
@@ -108315,8 +108360,18 @@ const navkarMedicineData = [
         "Company Name": "SUNWAYS INDIA PVT LTD."
     },
     {
+        "Product Name": "HYVET EYE DROPS",
+        "Pack": "5ML",
+        "Company Name": "SUNWAYS INDIA PVT LTD."
+    },
+    {
         "Product Name": "JUST TEARS EYE DROPS",
         "Pack": "10ML",
+        "Company Name": "SUNWAYS INDIA PVT LTD."
+    },
+    {
+        "Product Name": "JUST TEARS EYE WIPES EN",
+        "Pack": "30TAB",
         "Company Name": "SUNWAYS INDIA PVT LTD."
     },
     {
@@ -108327,6 +108382,11 @@ const navkarMedicineData = [
     {
         "Product Name": "LEVOO EYE DROPS",
         "Pack": "5 ML",
+        "Company Name": "SUNWAYS INDIA PVT LTD."
+    },
+    {
+        "Product Name": "OCCUCOM EYE DROPS 10ML",
+        "Pack": "10ML",
         "Company Name": "SUNWAYS INDIA PVT LTD."
     },
     {
@@ -108370,6 +108430,11 @@ const navkarMedicineData = [
         "Company Name": "SUNWAYS INDIA PVT LTD."
     },
     {
+        "Product Name": "VORRIF EYE DROPS",
+        "Pack": "5ML",
+        "Company Name": "SUNWAYS INDIA PVT LTD."
+    },
+    {
         "Product Name": "VUEFERIN TAB",
         "Pack": "30TAB",
         "Company Name": "SUNWAYS INDIA PVT LTD."
@@ -108377,6 +108442,11 @@ const navkarMedicineData = [
     {
         "Product Name": "XLHA EYE DROPS",
         "Pack": "10ML",
+        "Company Name": "SUNWAYS INDIA PVT LTD."
+    },
+    {
+        "Product Name": "ZONAT EYE DROPS",
+        "Pack": "5ML",
         "Company Name": "SUNWAYS INDIA PVT LTD."
     },
     {
