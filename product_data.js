@@ -17495,6 +17495,11 @@ const productData = [
         "Company Name": "LEEFORD HEALTHCARE LTD"
     },
     {
+        "Product Name": "ENSHINE ADVANCE CLEAN TOOTHBRUSH",
+        "Pack": "PC",
+        "Company Name": "LEEFORD HEALTHCARE LTD"
+    },
+    {
         "Product Name": "ETOLID TAB",
         "Pack": "10TAB",
         "Company Name": "LEEFORD HEALTHCARE LTD"
@@ -25487,6 +25492,11 @@ const productData = [
     {
         "Product Name": "QTIMAX-50SR TAB",
         "Pack": "1X10TAB",
+        "Company Name": "ROUSSEL LABORATORIES"
+    },
+    {
+        "Product Name": "RABIROS D TAB",
+        "Pack": "10TAB",
         "Company Name": "ROUSSEL LABORATORIES"
     },
     {

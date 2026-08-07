@@ -6805,6 +6805,11 @@ const otcData = [
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
     {
+        "Product Name": "M POKO PANTS [M7] RS 80",
+        "Pack": "7PC",
+        "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
+    },
+    {
         "Product Name": "M POKO PANTS [M7] RS.93",
         "Pack": "8PIS",
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
@@ -6852,6 +6857,11 @@ const otcData = [
     {
         "Product Name": "M POKO PANTS [S74] RS.699",
         "Pack": "74PC",
+        "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
+    },
+    {
+        "Product Name": "M POKO PANTS [S9] RS 80",
+        "Pack": "9PC",
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
     {

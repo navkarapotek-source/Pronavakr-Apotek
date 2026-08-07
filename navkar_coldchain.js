@@ -565,6 +565,11 @@ const navkarColdchainData = [
         "Company Name": "CORONA LABORATORIES"
     },
     {
+        "Product Name": "TYVENZA 8MG/3ML PEN",
+        "Pack": "8/3ML",
+        "Company Name": "CORONA LABORATORIES"
+    },
+    {
         "Product Name": "MINIRIN MELT 120 TAB",
         "Pack": "TAB",
         "Company Name": "CORONA REMEDIES (BLEZE)"
