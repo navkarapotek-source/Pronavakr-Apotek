@@ -26975,6 +26975,11 @@ const productData = [
         "Company Name": "SMART ICONIC LAB"
     },
     {
+        "Product Name": "COLDPASS COLD & FLU TAB",
+        "Pack": "10TAB",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
         "Product Name": "COLDPASS SYRUP",
         "Pack": "1X60ML",
         "Company Name": "SMART ICONIC LAB"
@@ -29935,6 +29940,11 @@ const productData = [
         "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
     },
     {
+        "Product Name": "SMART LAB JAYPEE PLUS MEAL PLUS COMBO",
+        "Pack": "PC",
+        "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
+    },
+    {
         "Product Name": "SMART LAB MILTON STOOL",
         "Pack": "PC",
         "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
@@ -31580,6 +31590,11 @@ const productData = [
         "Company Name": "TARUN PHARMACUTICAL"
     },
     {
+        "Product Name": "G-PLATIC CASSEROLE",
+        "Pack": "PC",
+        "Company Name": "TARUN PHARMACUTICAL"
+    },
+    {
         "Product Name": "G-RAINT COAT",
         "Pack": "-",
         "Company Name": "TARUN PHARMACUTICAL"
@@ -31617,6 +31632,11 @@ const productData = [
     {
         "Product Name": "HARD CONDOMS 12PC",
         "Pack": "1X12PCS",
+        "Company Name": "TARUN PHARMACUTICAL"
+    },
+    {
+        "Product Name": "MANMOOD STRW CONDOM 10PC",
+        "Pack": "10PCS",
         "Company Name": "TARUN PHARMACUTICAL"
     },
     {

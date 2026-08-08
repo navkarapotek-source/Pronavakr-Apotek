@@ -3340,6 +3340,11 @@ const otcData = [
         "Company Name": "HINDUSTAN UNILEVER LIMITED"
     },
     {
+        "Product Name": "DOVE PEPTIDE BOND SHAMPOO",
+        "Pack": "5ML",
+        "Company Name": "HINDUSTAN UNILEVER LIMITED"
+    },
+    {
         "Product Name": "DOVE S&C DAILY SHINE [5RS]",
         "Pack": "5ML",
         "Company Name": "HINDUSTAN UNILEVER LIMITED"

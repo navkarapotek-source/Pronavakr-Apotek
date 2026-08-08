@@ -200,6 +200,11 @@ const navkarColdchainData = [
         "Company Name": "ALKEM LAB (GASTOKEM)"
     },
     {
+        "Product Name": "SEMASIZE 0.25/0.5MG INJ",
+        "Pack": "INJ",
+        "Company Name": "ALKEM LAB (METANEXT)"
+    },
+    {
         "Product Name": "OBESEMA 0.5MG INJ",
         "Pack": "INJ",
         "Company Name": "ALKEM LABORATORIES LIMITED"
@@ -618,6 +623,11 @@ const navkarColdchainData = [
         "Product Name": "OBEDA 4MG/3ML PREFILLED PEN",
         "Pack": "1 PEN",
         "Company Name": "DR REDDYS LAB (OTC)"
+    },
+    {
+        "Product Name": "OBEDA PRO INJ 0.25MG",
+        "Pack": "1S",
+        "Company Name": "DR REDDYS LAB (WINTURA)"
     },
     {
         "Product Name": "METHERGIN INJ",
@@ -1510,11 +1520,6 @@ const navkarColdchainData = [
         "Company Name": "ZUVENTUS (ATHENA DIV)"
     },
     {
-        "Product Name": "FIBRICOR IV",
-        "Pack": "10ML",
-        "Company Name": "ZUVENTUS (ATHENA DIV)"
-    },
-    {
         "Product Name": "OXYPTADIL INJ",
         "Pack": "1 VIAL",
         "Company Name": "ZUVENTUS (ATHENA DIV)"
@@ -1523,6 +1528,11 @@ const navkarColdchainData = [
         "Product Name": "TOSIBAN 37.5 MG INJ 5ML",
         "Pack": "5 ML",
         "Company Name": "ZUVENTUS (ATHENA DIV)"
+    },
+    {
+        "Product Name": "FIBRICOR IV",
+        "Pack": "10ML",
+        "Company Name": "ZUVENTUS (LIFE STYLE)"
     },
     {
         "Product Name": "FLORIMAX CAP 10'S",
