@@ -3930,11 +3930,6 @@ const otcData = [
         "Company Name": "KARKHANA ZINDA TILISMATH"
     },
     {
-        "Product Name": "ESKUF-DX SYP 100ML",
-        "Pack": "100ML",
-        "Company Name": "LABORATE PHARMA"
-    },
-    {
         "Product Name": "LOOKMAN HAYAT TEL [100ML]",
         "Pack": "100 ML",
         "Company Name": "M U AMRELIA"
@@ -5695,7 +5690,7 @@ const otcData = [
         "Company Name": "SBS BIOTECH"
     },
     {
-        "Product Name": "DR ORTHO OIL [3+1 ORTHO OIL FREE]",
+        "Product Name": "DR ORTHO OIL [7+1 DR ORTHO OIL FREE]",
         "Pack": "120ML",
         "Company Name": "SBS BIOTECH"
     },
@@ -6730,11 +6725,6 @@ const otcData = [
         "Company Name": "SUN HEALTHCARE"
     },
     {
-        "Product Name": "M POKO PANTS [2XL] RS.36",
-        "Pack": "2PIS",
-        "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
-    },
-    {
         "Product Name": "M POKO PANTS [L1] RS.14",
         "Pack": "1PIS",
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
@@ -6882,6 +6872,11 @@ const otcData = [
     {
         "Product Name": "M POKO PANTS [XL11] RS.210",
         "Pack": "11PACK",
+        "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
+    },
+    {
+        "Product Name": "M POKO PANTS [XL2] RS.36",
+        "Pack": "2PIS",
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
     {

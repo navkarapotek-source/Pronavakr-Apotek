@@ -10435,6 +10435,11 @@ const productData = [
         "Company Name": "GLENMARK PHARMACEUTICALS LTD"
     },
     {
+        "Product Name": "GLENMARK GILMORE OAK BACKPACK",
+        "Pack": "PC",
+        "Company Name": "GLENMARK PHARMACEUTICALS LTD"
+    },
+    {
         "Product Name": "GLENMARK HIM FW NEEM 15ML",
         "Pack": "15ML",
         "Company Name": "GLENMARK PHARMACEUTICALS LTD"
@@ -17272,6 +17277,11 @@ const productData = [
     {
         "Product Name": "DSP TABS (NEW)",
         "Pack": "10TAB",
+        "Company Name": "LABORATE PHARMA"
+    },
+    {
+        "Product Name": "ESKUF-DX SYP 100ML",
+        "Pack": "100ML",
         "Company Name": "LABORATE PHARMA"
     },
     {

@@ -9030,11 +9030,6 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LAB (DIABETOLOGY)"
     },
     {
-        "Product Name": "POLMAFORCE CAP",
-        "Pack": "10 CAP",
-        "Company Name": "ALKEM LAB (DIABETOLOGY)"
-    },
-    {
         "Product Name": "ROSUKEM 10MG TAB",
         "Pack": "TAB",
         "Company Name": "ALKEM LAB (DIABETOLOGY)"
@@ -10320,11 +10315,6 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LAB (VISTA)"
     },
     {
-        "Product Name": "SEMASIZE 1MG INJ",
-        "Pack": "1KIT",
-        "Company Name": "ALKEM LAB { METASMART}"
-    },
-    {
         "Product Name": "SEMASIZE PLUS 2.4MG INJ",
         "Pack": "INJ",
         "Company Name": "ALKEM LAB { METASMART}"
@@ -10692,6 +10682,11 @@ const navkarMedicineData = [
     {
         "Product Name": "SEMASIZE 0.5 INJ",
         "Pack": "VIAL",
+        "Company Name": "ALKEM LABORATORIES LIMITED"
+    },
+    {
+        "Product Name": "SEMASIZE 1MG INJ",
+        "Pack": "1KIT",
         "Company Name": "ALKEM LABORATORIES LIMITED"
     },
     {
@@ -12103,6 +12098,11 @@ const navkarMedicineData = [
         "Product Name": "VIVOZ SYP 200ML",
         "Pack": "200ML",
         "Company Name": "ALTEUS BIOGENICS PVT CILAPAM"
+    },
+    {
+        "Product Name": "ALTEN CA 40",
+        "Pack": "10TAB",
+        "Company Name": "ALTEUS BIOGENICS PVT LTD (CILIX 2)"
     },
     {
         "Product Name": "CILIX 10MG TAB",
@@ -28431,6 +28431,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "OBIMET GX SITA 2/50/1000 TAB",
+        "Pack": "10TAB",
+        "Company Name": "CORONA REMEDIES RADIANCE"
+    },
+    {
+        "Product Name": "OBIMET GX SITA 2/50/500 TAB",
         "Pack": "10TAB",
         "Company Name": "CORONA REMEDIES RADIANCE"
     },
@@ -45300,11 +45305,6 @@ const navkarMedicineData = [
         "Company Name": "GLENMARK  (SHWAS 1)"
     },
     {
-        "Product Name": "VILOR F 100 CAP",
-        "Pack": "30 CAP",
-        "Company Name": "GLENMARK  (SHWAS 1)"
-    },
-    {
         "Product Name": "VILOR F 100 INHALER",
         "Pack": "120 MD",
         "Company Name": "GLENMARK  (SHWAS 1)"
@@ -45992,6 +45992,11 @@ const navkarMedicineData = [
     {
         "Product Name": "NEBZMART L SMARTULES 0.63MG",
         "Pack": "2.5ML",
+        "Company Name": "GLENMARK (MAJESTA MAX)"
+    },
+    {
+        "Product Name": "VILOR F 100 CAP",
+        "Pack": "30 CAP",
         "Company Name": "GLENMARK (MAJESTA MAX)"
     },
     {
@@ -64640,9 +64645,19 @@ const navkarMedicineData = [
         "Company Name": "JOHNSON & JOHNSON (ETHNOR)"
     },
     {
+        "Product Name": "BENADRYL LOZENGES ORANGE",
+        "Pack": "1JAR",
+        "Company Name": "JOHNSON & JOHNSON (JANSSEN)"
+    },
+    {
         "Product Name": "TOPAMAC 100MG TAB",
         "Pack": "TAB",
         "Company Name": "JOHNSON & JOHNSON (JANSSEN)"
+    },
+    {
+        "Product Name": "IMMODIUM 2MG CAP",
+        "Pack": "4'S",
+        "Company Name": "JOHNSON & JOHNSON (OTC)"
     },
     {
         "Product Name": "ORSL [APPALE] LIQUID [ERZL]",
@@ -75675,6 +75690,11 @@ const navkarMedicineData = [
         "Company Name": "LUPIN PINNACLE CV"
     },
     {
+        "Product Name": "LUPISIT GM 2 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "LUPIN PINNACLE CV"
+    },
+    {
         "Product Name": "LUPISIT M 1000 TAB (10X10T)",
         "Pack": "1 tab",
         "Company Name": "LUPIN PINNACLE CV"
@@ -77770,11 +77790,6 @@ const navkarMedicineData = [
         "Company Name": "MACLEODS (PHARMA)"
     },
     {
-        "Product Name": "SEMAMAC INJ 8MG/3ML",
-        "Pack": "3ML",
-        "Company Name": "MACLEODS (PHARMA)"
-    },
-    {
         "Product Name": "SEMMAC INJ 4MG/3ML",
         "Pack": "3ML",
         "Company Name": "MACLEODS (PHARMA)"
@@ -78597,11 +78612,6 @@ const navkarMedicineData = [
     {
         "Product Name": "ROZUSTAT GOLD 20MG CAP",
         "Pack": "TAB",
-        "Company Name": "MACLEODS (PROCARE - AHT)"
-    },
-    {
-        "Product Name": "SEMAMAC INJ 2MG/1.5ML",
-        "Pack": "1.5ML",
         "Company Name": "MACLEODS (PROCARE - AHT)"
     },
     {
@@ -79870,6 +79880,16 @@ const navkarMedicineData = [
         "Company Name": "MACLEODS PROCARE HD"
     },
     {
+        "Product Name": "SEMAMAC INJ 2MG/1.5ML",
+        "Pack": "1.5ML",
+        "Company Name": "MACLEODS PROCARE HD"
+    },
+    {
+        "Product Name": "SEMAMAC INJ 8MG/3ML",
+        "Pack": "3ML",
+        "Company Name": "MACLEODS PROCARE HD"
+    },
+    {
         "Product Name": "TENLIMAC 20MG TAB",
         "Pack": "10 TAB",
         "Company Name": "MACLEODS PROCARE HD"
@@ -80582,6 +80602,11 @@ const navkarMedicineData = [
     {
         "Product Name": "NUROKIND D3 TAB",
         "Pack": "10 TAB",
+        "Company Name": "COMBIHALE FB 200 DPI CAP"
+    },
+    {
+        "Product Name": "POLMAFORCE CAP",
+        "Pack": "10 CAP",
         "Company Name": "COMBIHALE FB 200 DPI CAP"
     },
     {
@@ -86040,13 +86065,28 @@ const navkarMedicineData = [
         "Company Name": "MCRONUS LIFESCIENCES PVT LTD"
     },
     {
-        "Product Name": "ACNEREX FACE WASH 75ML",
-        "Pack": "75ML",
-        "Company Name": "MED MANOR ( GLORIA SPL )"
+        "Product Name": "TRICHOTON AT TAB",
+        "Pack": "TAB",
+        "Company Name": "MED INDIA (GENERAL)"
     },
     {
-        "Product Name": "BILAHIST 40 MG TAB",
-        "Pack": "10'S",
+        "Product Name": "TRICHOTON FORTE TAB",
+        "Pack": "10TAB",
+        "Company Name": "MED INDIA (GENERAL)"
+    },
+    {
+        "Product Name": "TRICHOTON SYP",
+        "Pack": "150ML",
+        "Company Name": "MED INDIA (GENERAL)"
+    },
+    {
+        "Product Name": "TRICHOTON TAB",
+        "Pack": "10TAB",
+        "Company Name": "MED INDIA (GENERAL)"
+    },
+    {
+        "Product Name": "ACNEREX FACE WASH 75ML",
+        "Pack": "75ML",
         "Company Name": "MED MANOR ( GLORIA SPL )"
     },
     {
@@ -86072,26 +86112,6 @@ const navkarMedicineData = [
     {
         "Product Name": "LANTRAZ SB 130 CAP",
         "Pack": "10",
-        "Company Name": "MED MANOR ( GLORIA SPL )"
-    },
-    {
-        "Product Name": "TRICHOTON AT TAB",
-        "Pack": "TAB",
-        "Company Name": "MED MANOR ( GLORIA SPL )"
-    },
-    {
-        "Product Name": "TRICHOTON FORTE TAB",
-        "Pack": "10TAB",
-        "Company Name": "MED MANOR ( GLORIA SPL )"
-    },
-    {
-        "Product Name": "TRICHOTON SYP",
-        "Pack": "150ML",
-        "Company Name": "MED MANOR ( GLORIA SPL )"
-    },
-    {
-        "Product Name": "TRICHOTON TAB",
-        "Pack": "10TAB",
         "Company Name": "MED MANOR ( GLORIA SPL )"
     },
     {
@@ -86308,6 +86328,11 @@ const navkarMedicineData = [
         "Product Name": "ZINCOMED TAB",
         "Pack": "15 TAB",
         "Company Name": "MED MANOR (GLORIA)"
+    },
+    {
+        "Product Name": "BILAHIST 40 MG TAB",
+        "Pack": "10'S",
+        "Company Name": "MED MANOR (MED SUN)"
     },
     {
         "Product Name": "SPADE [AP] TAB",
@@ -91645,9 +91670,24 @@ const navkarMedicineData = [
         "Company Name": "MSD PHARMACEUTICALS (METABOLIS)"
     },
     {
+        "Product Name": "DAPAONE M 2/500 TAB",
+        "Pack": "10TAB",
+        "Company Name": "MSN LABORATORIES (THF)"
+    },
+    {
+        "Product Name": "ELGOLIZ 200 TAB",
+        "Pack": "10TAB",
+        "Company Name": "MSN LABORATORIES (THF)"
+    },
+    {
         "Product Name": "UPADOZ 45MG TAB",
         "Pack": "10TAB",
         "Company Name": "MSN LABORATORIES (THF)"
+    },
+    {
+        "Product Name": "ALKAPAC 200ML",
+        "Pack": "200ML",
+        "Company Name": "MSN LABORATORIES LTD"
     },
     {
         "Product Name": "MIRABIG S 50 MG TAB",
@@ -91680,6 +91720,16 @@ const navkarMedicineData = [
         "Company Name": "MSN LABORATORIES LTD (OQM)"
     },
     {
+        "Product Name": "TAPAL 50 TAB",
+        "Pack": "15TAB",
+        "Company Name": "MSN LABORATORIES LTD (OQM)"
+    },
+    {
+        "Product Name": "APIBAN 5 TAB",
+        "Pack": "10TAB",
+        "Company Name": "MSN LABORATORIES LTD (TCP)"
+    },
+    {
         "Product Name": "DAPAONE SM 500 TAB",
         "Pack": "10TAB",
         "Company Name": "MSN LABORATORIES LTD (TCP)"
@@ -91690,6 +91740,11 @@ const navkarMedicineData = [
         "Company Name": "MSN LABORATORIES LTD (TCP)"
     },
     {
+        "Product Name": "FEPINK CR TAB",
+        "Pack": "10TAB",
+        "Company Name": "MSN LABORATORIES LTD (TCP)"
+    },
+    {
         "Product Name": "ROFUM TAB",
         "Pack": "10TAB",
         "Company Name": "MSN LABORATORIES LTD (TCP)"
@@ -91697,6 +91752,11 @@ const navkarMedicineData = [
     {
         "Product Name": "TADOVAS 20MG",
         "Pack": "10TAB",
+        "Company Name": "MSN LABORATORIES LTD (TCP)"
+    },
+    {
+        "Product Name": "UPADOZ 30MG TAB",
+        "Pack": "30TAB",
         "Company Name": "MSN LABORATORIES LTD (TCP)"
     },
     {
@@ -100487,11 +100547,6 @@ const navkarMedicineData = [
     {
         "Product Name": "UBITUS SOFTGEL",
         "Pack": "10 CAP",
-        "Company Name": "ROMATUS HEALTHCARE"
-    },
-    {
-        "Product Name": "UBITUS TAB",
-        "Pack": "10TAB",
         "Company Name": "ROMATUS HEALTHCARE"
     },
     {
