@@ -5025,6 +5025,11 @@ const navkarMedicineData = [
         "Company Name": "AKUMENTIS DELCURE LIFE"
     },
     {
+        "Product Name": "WELLMINIC P 250 SYR",
+        "Pack": "ML",
+        "Company Name": "AKUMENTIS DELCURE LIFE"
+    },
+    {
         "Product Name": "WELMINIC [DX] SYR",
         "Pack": "100ML",
         "Company Name": "AKUMENTIS DELCURE LIFE"
@@ -5366,6 +5371,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "ROSYCAP 40 TAB",
+        "Pack": "15 TAB",
+        "Company Name": "AKUMENTIS HEALTHCARE (NOVELTIS)"
+    },
+    {
+        "Product Name": "ROSYCAP 5 TAB",
         "Pack": "15 TAB",
         "Company Name": "AKUMENTIS HEALTHCARE (NOVELTIS)"
     },
@@ -29625,6 +29635,11 @@ const navkarMedicineData = [
         "Company Name": "DR REDDY`S LAB (AQURA SG)"
     },
     {
+        "Product Name": "VIVANISE KIWI FLAV POWDER",
+        "Pack": "8G",
+        "Company Name": "DR REDDY`S LAB (AQURA SG)"
+    },
+    {
         "Product Name": "ATARAX JR LOTION 50 ML",
         "Pack": "50 ML",
         "Company Name": "DR REDDY`S LAB (GRANDERA)"
@@ -30640,7 +30655,7 @@ const navkarMedicineData = [
         "Company Name": "DR REDDYS LAB (RECURA  ACE)"
     },
     {
-        "Product Name": "RELEASE TAB",
+        "Product Name": "REELEASE TAB",
         "Pack": "6'S",
         "Company Name": "DR REDDYS LAB (RECURA  ACE)"
     },
@@ -30982,6 +30997,11 @@ const navkarMedicineData = [
     {
         "Product Name": "METSMALL 500MG TAB 21``S",
         "Pack": "28 TAB",
+        "Company Name": "DR REDDYS LAB (ZENURA)"
+    },
+    {
+        "Product Name": "METSMALL GV1 TAB",
+        "Pack": "10 TAB",
         "Company Name": "DR REDDYS LAB (ZENURA)"
     },
     {
@@ -31872,11 +31892,6 @@ const navkarMedicineData = [
     {
         "Product Name": "VENUSIA ACNE FACEWASH",
         "Pack": "75GM",
-        "Company Name": "DR REDDYS LABORATORIES LTD"
-    },
-    {
-        "Product Name": "VIVANISE KIWI FLAV POWDER",
-        "Pack": "8G",
         "Company Name": "DR REDDYS LABORATORIES LTD"
     },
     {
@@ -33541,7 +33556,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "DRUPCAL SUSP",
-        "Pack": "TAB",
+        "Pack": "200ML",
         "Company Name": "EL DORADO(ZEALOUS)"
     },
     {
@@ -35437,6 +35452,11 @@ const navkarMedicineData = [
     {
         "Product Name": "GALACT GRANULES CHCO 400 GM",
         "Pack": "400 GM",
+        "Company Name": "EMCURE PHARMA (XENNEX)"
+    },
+    {
+        "Product Name": "GALACT GRANULES CHOCO",
+        "Pack": "200GM",
         "Company Name": "EMCURE PHARMA (XENNEX)"
     },
     {
@@ -43770,6 +43790,11 @@ const navkarMedicineData = [
         "Company Name": "GENERICS"
     },
     {
+        "Product Name": "CARPIN 5000 IU INJ",
+        "Pack": "5 ML",
+        "Company Name": "GENERICS"
+    },
+    {
         "Product Name": "CETRIVON TAB",
         "Pack": "10 TAB",
         "Company Name": "GENERICS"
@@ -43805,8 +43830,18 @@ const navkarMedicineData = [
         "Company Name": "GENERICS"
     },
     {
+        "Product Name": "DEFRIJET 500 MG AB",
+        "Pack": "10 TAB",
+        "Company Name": "GENERICS"
+    },
+    {
         "Product Name": "DERMIKEM OC PLUS CREAM",
         "Pack": "15GM",
+        "Company Name": "GENERICS"
+    },
+    {
+        "Product Name": "DOXY-100MG TAB",
+        "Pack": "8TAB",
         "Company Name": "GENERICS"
     },
     {
@@ -56572,11 +56607,6 @@ const navkarMedicineData = [
     {
         "Product Name": "LEVERA SOLUTION 200ML",
         "Pack": "200ML",
-        "Company Name": "INTAS PHARMACEUTICALS (ALTIMA)"
-    },
-    {
-        "Product Name": "LEVERA SYS [NEW]",
-        "Pack": "100ML",
         "Company Name": "INTAS PHARMACEUTICALS (ALTIMA)"
     },
     {
@@ -72105,11 +72135,6 @@ const navkarMedicineData = [
         "Company Name": "LOREAL INDIA PVT.LTD"
     },
     {
-        "Product Name": "ROSYCAP 5 TAB",
-        "Pack": "15 TAB",
-        "Company Name": "LOREAL INDIA PVT.LTD"
-    },
-    {
         "Product Name": "ONDERO 5 TAB",
         "Pack": "10TAB",
         "Company Name": "LUPIN (ONRISE)"
@@ -73410,29 +73435,34 @@ const navkarMedicineData = [
         "Company Name": "LUPIN NEW CVN"
     },
     {
+        "Product Name": "PRASUDOC 10MG TAB",
+        "Pack": "TAB",
+        "Company Name": "LUPIN NEW CVN"
+    },
+    {
         "Product Name": "RANCAD 1000MG TAB",
         "Pack": "15TAB",
-        "Company Name": "PRASUDOC 10MG TAB"
+        "Company Name": "LUPIN NEW CVN"
     },
     {
         "Product Name": "RANCAD TAB",
         "Pack": "15TAB",
-        "Company Name": "PRASUDOC 10MG TAB"
+        "Company Name": "LUPIN NEW CVN"
     },
     {
         "Product Name": "TIMZID [MR] TAB",
         "Pack": "15TAB",
-        "Company Name": "PRASUDOC 10MG TAB"
+        "Company Name": "LUPIN NEW CVN"
     },
     {
         "Product Name": "TIMZID OD 80 MG CAP",
         "Pack": "10X10",
-        "Company Name": "PRASUDOC 10MG TAB"
+        "Company Name": "LUPIN NEW CVN"
     },
     {
         "Product Name": "TIROFUSE IV INJ 5MG / 100ML",
         "Pack": "1 TAB",
-        "Company Name": "PRASUDOC 10MG TAB"
+        "Company Name": "LUPIN NEW CVN"
     },
     {
         "Product Name": "BISONEXT 10MG TAB",
@@ -76267,6 +76297,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ALGESIA CR 10",
         "Pack": "10 TAB",
+        "Company Name": "MACLEODS (GENCARE)"
+    },
+    {
+        "Product Name": "AMLEXA UN TAB",
+        "Pack": "10TAB",
         "Company Name": "MACLEODS (GENCARE)"
     },
     {
@@ -80725,8 +80760,18 @@ const navkarMedicineData = [
         "Company Name": "MANKIND PHARMA (CEREBRIS)"
     },
     {
+        "Product Name": "RIVOTRIL 0.25 MD",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (CEREBRIS)"
+    },
+    {
         "Product Name": "RIVOTRIL 0.25 TAB",
         "Pack": "10 TAB",
+        "Company Name": "MANKIND PHARMA (CEREBRIS)"
+    },
+    {
+        "Product Name": "RIVOTRIL 0.5 MD TAB",
+        "Pack": "10TAB",
         "Company Name": "MANKIND PHARMA (CEREBRIS)"
     },
     {
@@ -94095,7 +94140,7 @@ const navkarMedicineData = [
         "Company Name": "OTHERS"
     },
     {
-        "Product Name": "DET 50 ML",
+        "Product Name": "DETTOL 50 ML",
         "Pack": "50 ML",
         "Company Name": "OTHERS"
     },
@@ -114997,6 +115042,11 @@ const navkarMedicineData = [
     {
         "Product Name": "BEMPESTA R 40",
         "Pack": "TAB",
+        "Company Name": "TORRENT PHARMACEUTICALS LTD"
+    },
+    {
+        "Product Name": "BIZFER ELIXIR SYS",
+        "Pack": "200ML",
         "Company Name": "TORRENT PHARMACEUTICALS LTD"
     },
     {
