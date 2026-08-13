@@ -1300,6 +1300,11 @@ const otcData = [
         "Company Name": "DABUR INDIA LIMITED"
     },
     {
+        "Product Name": "GIPLA GRIPE WATER",
+        "Pack": "110ML",
+        "Company Name": "DABUR INDIA LIMITED"
+    },
+    {
         "Product Name": "INDULEKHA OIL [100ML]",
         "Pack": "100ML",
         "Company Name": "DABUR INDIA LIMITED"
@@ -2112,11 +2117,6 @@ const otcData = [
     {
         "Product Name": "DHARTIKA BACKPACK-P",
         "Pack": "-",
-        "Company Name": "GENERAL...A"
-    },
-    {
-        "Product Name": "DR ORTHO OIL [BIG]",
-        "Pack": "200 ML",
         "Company Name": "GENERAL...A"
     },
     {
@@ -5695,6 +5695,11 @@ const otcData = [
         "Company Name": "SBS BIOTECH"
     },
     {
+        "Product Name": "DR ORTHO OIL [BIG]",
+        "Pack": "200 ML",
+        "Company Name": "SBS BIOTECH"
+    },
+    {
         "Product Name": "DR ORTHO OINT [15GM]",
         "Pack": "15GM",
         "Company Name": "SBS BIOTECH"
@@ -6212,11 +6217,6 @@ const otcData = [
     {
         "Product Name": "ENO LEMON SACHET [60SACHET]",
         "Pack": "60'S",
-        "Company Name": "SHRIRAMA STORES YELLAPUR"
-    },
-    {
-        "Product Name": "GIPLA GRIPE WATER",
-        "Pack": "110ML",
         "Company Name": "SHRIRAMA STORES YELLAPUR"
     },
     {

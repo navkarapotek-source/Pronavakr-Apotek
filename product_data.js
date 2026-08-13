@@ -170,6 +170,11 @@ const productData = [
         "Company Name": "ABBOTT PHARMA"
     },
     {
+        "Product Name": "LUNABET SPRAY 30ML",
+        "Pack": "30ML",
+        "Company Name": "ABBOTT PHARMA"
+    },
+    {
         "Product Name": "MEGAMOX CV 375 TAB",
         "Pack": "1X10TAB",
         "Company Name": "ABBOTT PHARMA"
@@ -252,6 +257,11 @@ const productData = [
     {
         "Product Name": "PHENSEDYL-DX 100ML SYRUP",
         "Pack": "1X100ML",
+        "Company Name": "ABBOTT PHARMA"
+    },
+    {
+        "Product Name": "PIPRASHIELD 4.5GM INJ",
+        "Pack": "PC",
         "Company Name": "ABBOTT PHARMA"
     },
     {
@@ -7055,6 +7065,21 @@ const productData = [
         "Company Name": "DR.REDDY LABORATORIES LTD."
     },
     {
+        "Product Name": "DR.REDDY BOWL SET",
+        "Pack": "PC",
+        "Company Name": "DR.REDDY LABORATORIES LTD."
+    },
+    {
+        "Product Name": "DR.REDDY CALCULATOR",
+        "Pack": "PC",
+        "Company Name": "DR.REDDY LABORATORIES LTD."
+    },
+    {
+        "Product Name": "DR.REDDY SNACK SET",
+        "Pack": "PC",
+        "Company Name": "DR.REDDY LABORATORIES LTD."
+    },
+    {
         "Product Name": "ECLOSPAN M CREAM",
         "Pack": "10GM",
         "Company Name": "DR.REDDY LABORATORIES LTD."
@@ -9745,11 +9770,6 @@ const productData = [
         "Company Name": "GENERAL COMPANIES"
     },
     {
-        "Product Name": "CALCULATOR",
-        "Pack": "PC",
-        "Company Name": "GENERAL COMPANIES"
-    },
-    {
         "Product Name": "CIPRONIKA IV 100ML",
         "Pack": "100ML",
         "Company Name": "GENERAL COMPANIES"
@@ -10412,6 +10432,11 @@ const productData = [
     {
         "Product Name": "GLENDAN MD 4 TAB",
         "Pack": "1X10TAB",
+        "Company Name": "GLENMARK PHARMACEUTICALS LTD"
+    },
+    {
+        "Product Name": "GLENMARK  WIRELESS SPEAKER",
+        "Pack": "PC",
         "Company Name": "GLENMARK PHARMACEUTICALS LTD"
     },
     {
@@ -14070,6 +14095,31 @@ const productData = [
         "Company Name": "IKON REMEDIES PVT.LTD."
     },
     {
+        "Product Name": "DNS 250ML (CAP)",
+        "Pack": "250ML",
+        "Company Name": "IND"
+    },
+    {
+        "Product Name": "NS 100ML (CAP)",
+        "Pack": "100ML",
+        "Company Name": "IND"
+    },
+    {
+        "Product Name": "NS 250ML (CAP)",
+        "Pack": "250ML",
+        "Company Name": "IND"
+    },
+    {
+        "Product Name": "NS 500ML (CAP)",
+        "Pack": "500ML",
+        "Company Name": "IND"
+    },
+    {
+        "Product Name": "RL 250ML (CAP)",
+        "Pack": "250ML",
+        "Company Name": "IND"
+    },
+    {
         "Product Name": "RL 500ML (CAP)",
         "Pack": "500ML",
         "Company Name": "IND"
@@ -14201,7 +14251,7 @@ const productData = [
     },
     {
         "Product Name": "D-PROTITAS 220GM POWDER",
-        "Pack": "1X220GM",
+        "Pack": "1X200GM",
         "Company Name": "INTAS"
     },
     {
@@ -16095,6 +16145,11 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "AQUA WATCH FAST TRACK",
+        "Pack": "PC",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "AQUA WEIGHING SCALE",
         "Pack": "1",
         "Company Name": "LABORATE AQUA LAB"
@@ -17473,6 +17528,191 @@ const productData = [
         "Product Name": "ULTRA KING TAB",
         "Pack": "1X15TAB",
         "Company Name": "LABORATE PHARMA"
+    },
+    {
+        "Product Name": "AIRVEL POUCH (BERRY BLOSSOM)",
+        "Pack": "10GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "AIRVEL POUCH (CITRUS BLAST)",
+        "Pack": "10GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "AIRVEL POUCH (FRUITY PUNCH)",
+        "Pack": "10GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "AIRVEL POUCH (LAVENDER)",
+        "Pack": "10GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "AIRVEL ROOM SPRAY (FLORAL CRUSH)",
+        "Pack": "217ML",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "AIRVEL ROOM SPRAY (LAVENDER)",
+        "Pack": "217ML",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "AIRVEL ROOM SPRAY (LEMON)",
+        "Pack": "217ML",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "AIRVEL ROOM SPRAY (MAJESTIC ROSE)",
+        "Pack": "217ML",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "ALITE ANTI ACNE FACE WASH",
+        "Pack": "1X70GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "ALITE ANTI ACNE FOAMING FACE WASH 60ML",
+        "Pack": "60ML",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "ALITE ANTI ACNE GEL",
+        "Pack": "15GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "ALITE HAIR REMOVAL CREAM (MEN)",
+        "Pack": "60GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "ALITE HAIR REMOVAL CREAM (ROSE)",
+        "Pack": "30GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "ALITE HAIR REMOVAL SPRAY",
+        "Pack": "200ML",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "ALITE NEEM & ALOEVERA F/W",
+        "Pack": "70GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "GEOFRESH SPRAY (MINT)",
+        "Pack": "15GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "GEOFRESH SPRAY (PAN)",
+        "Pack": "15GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "HINDRATAN AMLA JUICE",
+        "Pack": "500ML",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "HINDRATAN APPLE CIDER VINEGAR",
+        "Pack": "500ML",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "HINDRATAN ASHWAGANDHA TABLET",
+        "Pack": "60TAB",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "HINDRATAN SHILAJIT GOLD RESIN",
+        "Pack": "20GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "HINDRATAN SHILAJIT TAB",
+        "Pack": "60TAB",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "MEGLOW ALOEVERA GEL",
+        "Pack": "100GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "MEGLOW ALOVERA GEL 125GM",
+        "Pack": "125GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "MEGLOW BEAUTY SOAP",
+        "Pack": "75GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "MEGLOW FAIRNESS F/W (M)",
+        "Pack": "70GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "MEGLOW FAIRNESS F/W (W)",
+        "Pack": "70GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "MEGLOW LIP SHINER",
+        "Pack": "15GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "MEGLOW LUXURIOUS CREAM SOAP",
+        "Pack": "75GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "MEGLOW REFRESHING BATHING BAR",
+        "Pack": "75GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "QUIK RELIF BALM",
+        "Pack": "10ML",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "QUIK RELIF HERBAL OIL",
+        "Pack": "50ML",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "QUIK RELIF HERBAL SPRAY",
+        "Pack": "55GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "QUIK RELIF INHALER",
+        "Pack": "0.5GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "SOFT SOLES CREAM",
+        "Pack": "30GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "WINTY GREEN TEA AQUA SLIM",
+        "Pack": "30PCS",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "WINTY GRREN TEA LEMON & HONEY",
+        "Pack": "30PC",
+        "Company Name": "LEEFORD COSMACIA"
     },
     {
         "Product Name": "AZIFORD 250 TAB 10",
@@ -20535,12 +20775,57 @@ const productData = [
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
+        "Product Name": "AMOROCRAFT CREAM",
+        "Pack": "30GM",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
         "Product Name": "BACTOFLORA SACHETS",
         "Pack": "1GM",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
+        "Product Name": "BACTOFLORA-BC CAP",
+        "Pack": "10CAP",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "BACTOFLORA-BC DRY SYP",
+        "Pack": "60ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "BETA ACTION 8 TAB",
+        "Pack": "15TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "BRUTASTRONG 100 DRY SYP",
+        "Pack": "30ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
         "Product Name": "BRUTASTRONG 100MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "BRUTASTRONG 200MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "BRUTASTRONG CV DRY SYP",
+        "Pack": "30ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "BRUTASTRONG-50 DRY SYP",
+        "Pack": "30ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "CEFAGRATE 250 TAB",
         "Pack": "10TAB",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
@@ -20550,8 +20835,38 @@ const productData = [
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
+        "Product Name": "CEFAGRATE CV TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "CEFASTAR 100 DRY SYP",
+        "Pack": "30ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "CEFASTAR 50 DRY SYP",
+        "Pack": "30ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
         "Product Name": "CIPROGYL-OFM SUSP",
         "Pack": "30ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "CLARIHUGE 250 TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "CLARIHUGE 500 TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "D3 GRATE 60K CAP",
+        "Pack": "12CAP",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
@@ -20562,6 +20877,16 @@ const productData = [
     {
         "Product Name": "DOLOBAN MR TAB",
         "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "DOLOKIND GEL",
+        "Pack": "20GM",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "DOLOKIND STRONG  SPRAY",
+        "Pack": "55GM",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
@@ -20595,6 +20920,16 @@ const productData = [
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
+        "Product Name": "ENTROYES SUSP",
+        "Pack": "5ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "EYEKIND 0.5% EYE DROP",
+        "Pack": "10ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
         "Product Name": "FLUKAYES-150 TAB",
         "Pack": "1 TAB",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
@@ -20602,6 +20937,66 @@ const productData = [
     {
         "Product Name": "FLUKAYES-200 TAB",
         "Pack": "1TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "FUTURELUT-N TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "GUDCLAV DRY SYP",
+        "Pack": "30ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "GUDCLAV-CV 625 TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "GUDGASTRO-MPS SUSP (ORANGE)",
+        "Pack": "170ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "GUDGASTRO-MPS SUSP MINT",
+        "Pack": "170ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "HAIR PRIDE 5% SOLUTION",
+        "Pack": "60ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "HAIR PRIDE-F SOLUTION",
+        "Pack": "60ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "HEPASTRONG-UD 150 TAB",
+        "Pack": "15TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "HEPASTRONG-UD 300 TAB",
+        "Pack": "15TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "HISTALIFE-120 TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "HUNGERNEED SYP (MIX FRUIT)",
+        "Pack": "200ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "HUNGERNEED SYP (ORANGE)",
+        "Pack": "200ML",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
@@ -20615,8 +21010,53 @@ const productData = [
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
+        "Product Name": "JU-KILLER LOTION",
+        "Pack": "50ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "KETOPROUD-DT TAB",
+        "Pack": "15TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "LAXIPRIME SOLUTION",
+        "Pack": "100ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "LEVOHUGE 250 TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "LEVOHUGE 500 TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "LINEZO-ACTION TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
         "Product Name": "MAHAKETO CREAM",
         "Pack": "30GM",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "MAHAKETO SOAP",
+        "Pack": "75GM",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "MAHAKETO-AD SHAMPOO",
+        "Pack": "110ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "MAHAZIN-M DUO TAB",
+        "Pack": "15TAB",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
@@ -20625,12 +21065,47 @@ const productData = [
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
+        "Product Name": "MEDISCAR CREAM",
+        "Pack": "20GM",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "MOXIYES EYE DROPS",
+        "Pack": "10ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "MOXIYES-D EYE DROP",
+        "Pack": "10ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "MOXIYES-KT EYE DROPS",
+        "Pack": "10ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
         "Product Name": "NASORYL JUNIOR SPRAY",
         "Pack": "10ML",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
+        "Product Name": "NIMULID A-MR TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "NIMULID AP TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
         "Product Name": "NIMULID ASP TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "NIMULID A-TH8 TAB",
         "Pack": "10TAB",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
@@ -20650,6 +21125,16 @@ const productData = [
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
+        "Product Name": "NIMULID TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "NIMULID-A TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
         "Product Name": "NORADAY 400 TAB",
         "Pack": "10TAB",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
@@ -20657,6 +21142,16 @@ const productData = [
     {
         "Product Name": "NORADAY TZ TAB",
         "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "NOSIPRIME NASAL SPRAY",
+        "Pack": "10ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "NOSIPRIME-S SALINE NASAL SPRAY",
+        "Pack": "20ML",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
@@ -20670,6 +21165,11 @@ const productData = [
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
+        "Product Name": "OTOYES-WAX EAR DROPS",
+        "Pack": "10ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
         "Product Name": "PANTAPOINT 40 TAB",
         "Pack": "15TAB",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
@@ -20680,8 +21180,33 @@ const productData = [
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
+        "Product Name": "POVIHELP-5% SOLUTION",
+        "Pack": "100ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
         "Product Name": "RABEPOINT DSR CAP",
         "Pack": "15CAP",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "RIFAOVER 200 TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "RIFAOVER 400 TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "SCABEDATE LOTION",
+        "Pack": "50ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "TUSSMARK ADVANCE TAB",
+        "Pack": "15TAB",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
@@ -20690,13 +21215,43 @@ const productData = [
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
+        "Product Name": "TUSSMARK DX SYP 60ML",
+        "Pack": "60ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
         "Product Name": "TUSSMARK LS DROP",
         "Pack": "15ML",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
+        "Product Name": "TUSSMARK LS JUNIOR SYP",
+        "Pack": "60ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
         "Product Name": "TUSSMARK LS SYP",
         "Pack": "100ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "TUSSMARK LS SYP 60ML",
+        "Pack": "60ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "TUSSMARK-D SYP",
+        "Pack": "100ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "TUSSMARK-Q DX TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "ZENKIND E/E DROP",
+        "Pack": "10ML",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
@@ -31942,6 +32497,16 @@ const productData = [
     {
         "Product Name": "TORMOXIN CLAV SRYRUP 228.5MG",
         "Pack": "1X30ML",
+        "Company Name": "TORRENT PHARMA(ETHICAL)"
+    },
+    {
+        "Product Name": "TORRENT  SCISSORS",
+        "Pack": "PC",
+        "Company Name": "TORRENT PHARMA(ETHICAL)"
+    },
+    {
+        "Product Name": "TORRENT CALCULATOR",
+        "Pack": "PC",
         "Company Name": "TORRENT PHARMA(ETHICAL)"
     },
     {
