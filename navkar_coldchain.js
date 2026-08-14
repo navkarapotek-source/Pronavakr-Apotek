@@ -615,19 +615,19 @@ const navkarColdchainData = [
         "Company Name": "CORONA REMIDIES PVT LTD ARUSH"
     },
     {
-        "Product Name": "OBEDA 2MG/1.5ML PREFILLED PEN",
-        "Pack": "1PEN",
-        "Company Name": "DR REDDYS LAB (OTC)"
-    },
-    {
-        "Product Name": "OBEDA 4MG/3ML PREFILLED PEN",
-        "Pack": "1 PEN",
-        "Company Name": "DR REDDYS LAB (OTC)"
-    },
-    {
         "Product Name": "OBEDA PRO INJ 0.25MG",
         "Pack": "1S",
         "Company Name": "DR REDDYS LAB (WINTURA)"
+    },
+    {
+        "Product Name": "OBEDA PRO  4MG/3ML PREFILLED PEN",
+        "Pack": "1 PEN",
+        "Company Name": "DR REDDYS LAB {SUPRIMUS}"
+    },
+    {
+        "Product Name": "OBEDA PRO 2MG/1.5ML PREFILLED PEN",
+        "Pack": "1PEN",
+        "Company Name": "DR REDDYS LAB {SUPRIMUS}"
     },
     {
         "Product Name": "METHERGIN INJ",

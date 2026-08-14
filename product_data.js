@@ -4800,11 +4800,6 @@ const productData = [
         "Company Name": "CARE TACH COMPANY"
     },
     {
-        "Product Name": "ALGICHEW TAB",
-        "Pack": "10TAB",
-        "Company Name": "CIPLA"
-    },
-    {
         "Product Name": "ALKACIP SYRUP 100ML",
         "Pack": "1X100ML",
         "Company Name": "CIPLA"
@@ -5100,21 +5095,6 @@ const productData = [
         "Company Name": "CIPLA"
     },
     {
-        "Product Name": "FOURDERM 15GM CREAM",
-        "Pack": "1X15GM",
-        "Company Name": "CIPLA"
-    },
-    {
-        "Product Name": "FOURDERM CREAM 10GM",
-        "Pack": "1X10GM",
-        "Company Name": "CIPLA"
-    },
-    {
-        "Product Name": "FOURDERM CREAM 5GM",
-        "Pack": "1X5GM",
-        "Company Name": "CIPLA"
-    },
-    {
         "Product Name": "GLIMDA 1MG TABS",
         "Pack": "1X10T",
         "Company Name": "CIPLA"
@@ -5390,16 +5370,6 @@ const productData = [
         "Company Name": "CIPLA"
     },
     {
-        "Product Name": "REXCOF DX NF 100ML",
-        "Pack": "1X100ML",
-        "Company Name": "CIPLA"
-    },
-    {
-        "Product Name": "REXCOF DX NF 60ML",
-        "Pack": "1X60ML",
-        "Company Name": "CIPLA"
-    },
-    {
         "Product Name": "ROSUGARD 10 TAB",
         "Pack": "1X10TAB",
         "Company Name": "CIPLA"
@@ -5442,11 +5412,6 @@ const productData = [
     {
         "Product Name": "ROSUGARD GOLD 20 CAP",
         "Pack": "10",
-        "Company Name": "CIPLA"
-    },
-    {
-        "Product Name": "SNUZ2NITE TAB",
-        "Pack": "30TAB",
         "Company Name": "CIPLA"
     },
     {
@@ -5970,184 +5935,224 @@ const productData = [
         "Company Name": "CIPLA OTC MAIN"
     },
     {
+        "Product Name": "ALGICHEW TAB",
+        "Pack": "10TAB",
+        "Company Name": "CIPLA VISTA"
+    },
+    {
         "Product Name": "BENDEX 10ML SUSP.",
         "Pack": "1X10ML",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "BENDEX 400 TABS",
         "Pack": "1X1T",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "CIPCAL CT TABS",
         "Pack": "15TAB",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "CIPCAL D3 SOFTGEL CAP",
         "Pack": "1X4CAPS",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "CIPCAL HD TABS",
         "Pack": "1X15T",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "CIPCAL SYRUP",
         "Pack": "1X150M",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "CIPCAL XT TAB",
         "Pack": "1X15 TAB",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "CLEARWAX EAR DROPS",
         "Pack": "1X10ML",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "EASYLAX-L 200ML SOLUTION",
         "Pack": "1X200ML",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "EASYLAX-L SOLUTION 100ML",
         "Pack": "1X100ML",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "FERICIP XT SUSP",
         "Pack": "150ML",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "FERICIP XT TABS",
         "Pack": "1X10T",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
+    },
+    {
+        "Product Name": "FOURDERM (NEW) 20GMS",
+        "Pack": "1X20GM",
+        "Company Name": "CIPLA VISTA"
+    },
+    {
+        "Product Name": "FOURDERM 15GM CREAM",
+        "Pack": "1X15GM",
+        "Company Name": "CIPLA VISTA"
+    },
+    {
+        "Product Name": "FOURDERM CREAM 10GM",
+        "Pack": "1X10GM",
+        "Company Name": "CIPLA VISTA"
+    },
+    {
+        "Product Name": "FOURDERM CREAM 5GM",
+        "Pack": "1X5GM",
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "KETOCIP 2% SHAMPOO",
         "Pack": "1X100ML",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "KETOCIP SHAMPOO 100ML",
         "Pack": "1X100ML",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "KETOCIP SOAP 75GM",
         "Pack": "1X75GM",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "KETOCIP TABS",
         "Pack": "1X10T",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "KETOCIP-CT SOAP 75GM",
         "Pack": "1X75GM",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "LULITEC CREAM 10GM",
         "Pack": "1X10GM",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "LULITEC CREAM 30GM",
         "Pack": "1X30GM",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "LULITEC SPRAY 30ML",
         "Pack": "1X30ML",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "MONTECIP LC TABS",
         "Pack": "1X10TAB",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "MUPICIP OINT 10GM",
         "Pack": "10GM",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "MUPICIP OINT 15GM",
         "Pack": "1X15 GM",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "MUPICIP OINT.5GM",
         "Pack": "1X5GM",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "NICIP ASP TAB",
         "Pack": "10TAB",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "NO DARAR CREAM",
         "Pack": "1X25GM",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "PANTOSEC-LS CAP",
         "Pack": "1X10C",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "REXCOF BM PLUS SYP",
         "Pack": "100ML",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
+    },
+    {
+        "Product Name": "REXCOF DX NF 100ML",
+        "Pack": "1X100ML",
+        "Company Name": "CIPLA VISTA"
+    },
+    {
+        "Product Name": "REXCOF DX NF 60ML",
+        "Pack": "1X60ML",
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "REXCOF DX PLUS SYP 125ML",
         "Pack": "125ML",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "REXCOF-LS 100ML SYRUP",
         "Pack": "1X100ML",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "ROKO CAP",
         "Pack": "1X10C",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
+    },
+    {
+        "Product Name": "SNUZ2NITE TAB",
+        "Pack": "30TAB",
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "SUHAGRA 25MG TABS",
         "Pack": "1X4T",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "SUHAGRA 50 TABS(SILDENAFIL)",
         "Pack": "1X4TAB",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "SUHAGRA DOTTED CHOC 3PC",
         "Pack": "3PC",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "SUHAGRA DOTTED STRAW 3PC",
         "Pack": "3PC",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "SUHAGRA-100MG TABS",
         "Pack": "1X4TAB",
-        "Company Name": "CIPLA RETAIL"
+        "Company Name": "CIPLA VISTA"
     },
     {
         "Product Name": "ALERGIN -L TABS",
@@ -6291,11 +6296,6 @@ const productData = [
     },
     {
         "Product Name": "FORACNE 20GM GEL",
-        "Pack": "1X20GM",
-        "Company Name": "CIPLA VITAL CARE"
-    },
-    {
-        "Product Name": "FOURDERM (NEW) 20GMS",
         "Pack": "1X20GM",
         "Company Name": "CIPLA VITAL CARE"
     },
