@@ -10370,7 +10370,7 @@ const productData = [
         "Company Name": "GLENMARK PHARMACEUTICALS LTD"
     },
     {
-        "Product Name": "CETIRIZINE SYP MONO CARTOON 60ML",
+        "Product Name": "CETIRIZINE SYP 60ML",
         "Pack": "60ML",
         "Company Name": "GLENMARK PHARMACEUTICALS LTD"
     },
@@ -14030,7 +14030,7 @@ const productData = [
         "Company Name": "HINDUSTAN MEDICAL DEVICES"
     },
     {
-        "Product Name": "INSULINE SYRINGE 40 IU (HMD)",
+        "Product Name": "INSULINE SYRINGE 40 IU (HMD) 10PCS",
         "Pack": "10PIECE",
         "Company Name": "HINDUSTAN MEDICAL DEVICES"
     },
@@ -16581,6 +16581,16 @@ const productData = [
     },
     {
         "Product Name": "DOXO 400 TAB",
+        "Pack": "10TAB",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "DOXO AM TAB",
+        "Pack": "10TAB",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "DOXO M TAB",
         "Pack": "10TAB",
         "Company Name": "LABORATE AQUA LAB"
     },
@@ -21060,7 +21070,7 @@ const productData = [
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
-        "Product Name": "MANKINDS PROTEIN PWD CHOC 200 GM",
+        "Product Name": "MANKINDS PROTEIN PWD CHOCOLATE PRIME",
         "Pack": "200 GM",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
@@ -21357,6 +21367,11 @@ const productData = [
     {
         "Product Name": "MAHAGESIC-TH4 TAB",
         "Pack": "1X10TAB",
+        "Company Name": "MANKIND PHARMA LTD."
+    },
+    {
+        "Product Name": "MANKINDS PROTEIN PWD CHOC 200 GM",
+        "Pack": "200 GM",
         "Company Name": "MANKIND PHARMA LTD."
     },
     {
@@ -26795,6 +26810,561 @@ const productData = [
         "Company Name": "SMART BFGF"
     },
     {
+        "Product Name": "ACEZEAL MR TAB",
+        "Pack": "10TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "ACEZEAL SP TAB",
+        "Pack": "10TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "ACIWAVE LEMON SACHET",
+        "Pack": "5GM",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "ACIWAVE NIMBU MASALA SACHET",
+        "Pack": "1X5GM",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "ACIWAVE REGULAR SUSP.170ML",
+        "Pack": "1X170ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "ACIWAVE SUSP",
+        "Pack": "170ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "ALKAPEAK SYP",
+        "Pack": "100ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "AYURMIST 4G LIVER TONIC",
+        "Pack": "1X300ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "AYURMIST 4G SF LIVER TONIC",
+        "Pack": "300ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "AYURMIST 6G SF LIVER TONIC",
+        "Pack": "300ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "AYURMIST BOWEL POWDER",
+        "Pack": "100GM",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "AYURMIST DIGESTIVE ENZYME",
+        "Pack": "200ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "BABYWAY BABY SOAP",
+        "Pack": "75GM",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "BABYWAY BABY WIPES 72PC",
+        "Pack": "72PC",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "BABYWAY GRIPE WATER",
+        "Pack": "150ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "BABYWAY HERBAL SOAP",
+        "Pack": "75GM",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "BABYWAY RASH CREAM",
+        "Pack": "100GM",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "BABYWAY VAPORIZING RUB 10ML",
+        "Pack": "10ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "BECLORUB CREAM",
+        "Pack": "15GM",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "BURNRUB CREAM 15GM",
+        "Pack": "1X15 GM",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "CALAWAY LOTION 100ML",
+        "Pack": "1X100ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "CASOIL CASTOR OIL",
+        "Pack": "100ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "CEFITREAT 50 SUSP",
+        "Pack": "30ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "CEFITREAT-200DT TABS",
+        "Pack": "1X10T",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "CEFTRIFLOX 1GM INJ",
+        "Pack": "1GM",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "CEFTRIFLOX 2GM INJ",
+        "Pack": "2GM",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "CEFTRIFLOX SB INJ",
+        "Pack": "1.5GM",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "CEFUWAY 250 TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "CEFUWAY 500 TAB",
+        "Pack": "1X10 TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "CEPOWAY 100 SUSPENSION",
+        "Pack": "30ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "CEPOWAY 100DT TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "CEPOWAY 200 DT TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "CEPOWAY 50 SUSPENSION",
+        "Pack": "30ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "CEPOWAY CV TAB",
+        "Pack": "10TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "CLORASH-GM CREAM",
+        "Pack": "10GM",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "CLORASH-GM LOTION 25ML",
+        "Pack": "1X25ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "CLORASH-OT CREAM 15GM",
+        "Pack": "1X15GM",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "COLDPUNCH FORTE TAB",
+        "Pack": "10TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "DEFUSPIN 6 TAB",
+        "Pack": "10TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "ESOTREAT 40 TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "ESOTREAT DSR CAP",
+        "Pack": "1X10CAP",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "FEBUWAY 40 TAB",
+        "Pack": "1X10 TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "FEXOWAY 120 TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "FEXOWAY 180 TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "FLULESS 150 TAB",
+        "Pack": "1TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "FLULESS 200 TAB",
+        "Pack": "1TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "FOOTTREAT CREAM 25GM",
+        "Pack": "1X25GM",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "FUNPLAY ALOEVERA 3PC",
+        "Pack": "1X3PCS",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "FUNPLAY BUBBLE GUM 10PC",
+        "Pack": "1X10PCS",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "FUNPLAY BUBBLE GUM 3PC",
+        "Pack": "1X3PCS",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "FUNPLAY CHOCOLATE 10PC",
+        "Pack": "1X10PCS",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "FUNPLAY CHOCOLATE 3PC",
+        "Pack": "1X3PCS",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "FUNPLAY EXTRATIME APPLE 10PC",
+        "Pack": "1X10PCS",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "FUNPLAY EXTRATIME APPLE 3PC",
+        "Pack": "1X3PCS",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "FUNPLAY STRAWBERRY 10PC",
+        "Pack": "1X10PCS",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "FUNPLAY STRAWBERRY 3PC",
+        "Pack": "1X3PCS",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "FUNPLAY ULTRATHIN CHOCOLATE 3PC",
+        "Pack": "1X3PCS",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "FUNPLAY ULTRATHIN STRAWBERRY 10PC",
+        "Pack": "1X10PCS",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "FUNPLAY ULTRATHIN STRAWBERRY 3PC",
+        "Pack": "1X3PCS",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "GYNOBLUSH TONIC SYP",
+        "Pack": "300ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "ITCHAWAY CREAM 15GM",
+        "Pack": "15GM",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "ITCHAWAY CREAM 25GM",
+        "Pack": "25GM",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "JOYMOL 500 TAB",
+        "Pack": "15TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "JOYMOL 650 TAB",
+        "Pack": "1X15TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "JOYMOL DS SYP",
+        "Pack": "60 ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "JOYMOL M DS SUSP.60ML",
+        "Pack": "60 ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "JOYMOL M SYP",
+        "Pack": "60 ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "KETOSPIN DT TAB",
+        "Pack": "15TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "LAXIFRESH PLUS SUSPENSION 170ML",
+        "Pack": "1X170ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "LAXIFRESH SUSP.170ML SUGAR FREE",
+        "Pack": "1X170ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "LYCOWAKE CAP",
+        "Pack": "10CAP",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "MEPREDWAY 1GM INJ",
+        "Pack": "1GM",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "MEPREDWAY 4 TAB",
+        "Pack": "1X10T",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "MEPREDWAY 8 TAB",
+        "Pack": "10TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "MIGRATREAT TAB",
+        "Pack": "1X10T",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "MUPISPIN OINT",
+        "Pack": "5GM",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "NAPROSPIN D TAB",
+        "Pack": "10TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "NASODASH NASAL DROPS",
+        "Pack": "1X10ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "NIMFRESH 100 TAB",
+        "Pack": "1X15TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "NIMFRESH COLD TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "NIMFRESH MD TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "NIMFRESH P TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "NIMFRESH P TAB (GOLDEN PVC)",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "NIMFRESH PLUS TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "NORTREAT-TZ TABS",
+        "Pack": "1X10T",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "OMENESS-20MG CAPS",
+        "Pack": "1X15C",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "OMENESS-D CAPS",
+        "Pack": "1X10C",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "ONDATREAT INJ",
+        "Pack": "2ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "ONDATREAT SYRUP",
+        "Pack": "1X30ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "OTRIDASH ADULT NASAL DROP 10ML",
+        "Pack": "10ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "OTRIDASH OXY FAST RELIEF NASAL DROP",
+        "Pack": "10ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "PANTORADIX IV INJ",
+        "Pack": "40MG",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "PILEZEAL NF OINT",
+        "Pack": "20GM",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "PILEZEAL TAB",
+        "Pack": "10TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "POVITREAT MOUTH GARGLE",
+        "Pack": "1X100ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "POVITREAT OINT.25GM",
+        "Pack": "1X25GM",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "POVITREAT OINTMENT 15GM",
+        "Pack": "1X15 GM",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "POVITREAT POWDER 10GM",
+        "Pack": "1X10GM",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "POVITREAT-OZ OINTMENT",
+        "Pack": "1X15GM",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "PRIMOWAY-N TABS",
+        "Pack": "1X10T",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "RABERADIX IV INJ",
+        "Pack": "20MG",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "RANITREAT 150 TAB",
+        "Pack": "10TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "THANDA BLISS HAIR OIL",
+        "Pack": "100ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "THIOTREAT A TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "THIOTREAT AP TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "TRANBEAT MF TAB",
+        "Pack": "10TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "WAYFENAC INJ",
+        "Pack": "1ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "WAYFENAC MR TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "WAYFENAC TAB",
+        "Pack": "-",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "WAYFENAC-SP TABS",
+        "Pack": "1X10T",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "ZZ CUREWAY BROCHURE",
+        "Pack": "PC",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
         "Product Name": "ACARECO 25 TAB",
         "Pack": "15TAB",
         "Company Name": "SMART ECO"
@@ -28820,13 +29390,13 @@ const productData = [
         "Company Name": "ALKAFRESH SODA EFFERVESCENT"
     },
     {
-        "Product Name": "AYUPASS NEEM OIL 50ML",
-        "Pack": "50ML",
+        "Product Name": "AYUPASS NEEM OIL",
+        "Pack": "100ML",
         "Company Name": "ALKAFRESH SODA EFFERVESCENT"
     },
     {
-        "Product Name": "AYUPASS NEEM OILF",
-        "Pack": "100ML",
+        "Product Name": "AYUPASS NEEM OIL 50ML",
+        "Pack": "50ML",
         "Company Name": "ALKAFRESH SODA EFFERVESCENT"
     },
     {
@@ -30773,561 +31343,6 @@ const productData = [
         "Product Name": "ZZ 5BOX/150PCS 6PC CELLO RICCA CUP SET 6PCS",
         "Pack": "PC",
         "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
-    },
-    {
-        "Product Name": "ACEZEAL MR TAB",
-        "Pack": "10TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "ACEZEAL SP TAB",
-        "Pack": "10TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "ACIWAVE LEMON SACHET",
-        "Pack": "5GM",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "ACIWAVE NIMBU MASALA SACHET",
-        "Pack": "1X5GM",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "ACIWAVE REGULAR SUSP.170ML",
-        "Pack": "1X170ML",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "ACIWAVE SUSP",
-        "Pack": "170ML",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "ALKAPEAK SYP",
-        "Pack": "100ML",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "AYURMIST 4G LIVER TONIC",
-        "Pack": "1X300ML",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "AYURMIST 4G SF LIVER TONIC",
-        "Pack": "300ML",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "AYURMIST 6G SF LIVER TONIC",
-        "Pack": "300ML",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "AYURMIST BOWEL POWDER",
-        "Pack": "100GM",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "AYURMIST DIGESTIVE ENZYME",
-        "Pack": "200ML",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "BABYWAY BABY SOAP",
-        "Pack": "75GM",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "BABYWAY BABY WIPES 72PC",
-        "Pack": "72PC",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "BABYWAY GRIPE WATER",
-        "Pack": "150ML",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "BABYWAY HERBAL SOAP",
-        "Pack": "75GM",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "BABYWAY RASH CREAM",
-        "Pack": "100GM",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "BABYWAY VAPORIZING RUB 10ML",
-        "Pack": "10ML",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "BECLORUB CREAM",
-        "Pack": "15GM",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "BURNRUB CREAM 15GM",
-        "Pack": "1X15 GM",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "CALAWAY LOTION 100ML",
-        "Pack": "1X100ML",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "CASOIL CASTOR OIL",
-        "Pack": "100ML",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "CEFITREAT 50 SUSP",
-        "Pack": "30ML",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "CEFITREAT-200DT TABS",
-        "Pack": "1X10T",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "CEFTRIFLOX 1GM INJ",
-        "Pack": "1GM",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "CEFTRIFLOX 2GM INJ",
-        "Pack": "2GM",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "CEFTRIFLOX SB INJ",
-        "Pack": "1.5GM",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "CEFUWAY 250 TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "CEFUWAY 500 TAB",
-        "Pack": "1X10 TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "CEPOWAY 100 SUSPENSION",
-        "Pack": "30ML",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "CEPOWAY 100DT TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "CEPOWAY 200 DT TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "CEPOWAY 50 SUSPENSION",
-        "Pack": "30ML",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "CEPOWAY CV TAB",
-        "Pack": "10TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "CLORASH-GM CREAM",
-        "Pack": "10GM",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "CLORASH-GM LOTION 25ML",
-        "Pack": "1X25ML",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "CLORASH-OT CREAM 15GM",
-        "Pack": "1X15GM",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "COLDPUNCH FORTE TAB",
-        "Pack": "10TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "DEFUSPIN 6 TAB",
-        "Pack": "10TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "ESOTREAT 40 TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "ESOTREAT DSR CAP",
-        "Pack": "1X10CAP",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "FEBUWAY 40 TAB",
-        "Pack": "1X10 TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "FEXOWAY 120 TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "FEXOWAY 180 TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "FLULESS 150 TAB",
-        "Pack": "1TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "FLULESS 200 TAB",
-        "Pack": "1TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "FOOTTREAT CREAM 25GM",
-        "Pack": "1X25GM",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "FUNPLAY ALOEVERA 3PC",
-        "Pack": "1X3PCS",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "FUNPLAY BUBBLE GUM 10PC",
-        "Pack": "1X10PCS",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "FUNPLAY BUBBLE GUM 3PC",
-        "Pack": "1X3PCS",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "FUNPLAY CHOCOLATE 10PC",
-        "Pack": "1X10PCS",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "FUNPLAY CHOCOLATE 3PC",
-        "Pack": "1X3PCS",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "FUNPLAY EXTRATIME APPLE 10PC",
-        "Pack": "1X10PCS",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "FUNPLAY EXTRATIME APPLE 3PC",
-        "Pack": "1X3PCS",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "FUNPLAY STRAWBERRY 10PC",
-        "Pack": "1X10PCS",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "FUNPLAY STRAWBERRY 3PC",
-        "Pack": "1X3PCS",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "FUNPLAY ULTRATHIN CHOCOLATE 3PC",
-        "Pack": "1X3PCS",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "FUNPLAY ULTRATHIN STRAWBERRY 10PC",
-        "Pack": "1X10PCS",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "FUNPLAY ULTRATHIN STRAWBERRY 3PC",
-        "Pack": "1X3PCS",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "GYNOBLUSH TONIC SYP",
-        "Pack": "300ML",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "ITCHAWAY CREAM 15GM",
-        "Pack": "15GM",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "ITCHAWAY CREAM 25GM",
-        "Pack": "25GM",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "JOYMOL 500 TAB",
-        "Pack": "15TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "JOYMOL 650 TAB",
-        "Pack": "1X15TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "JOYMOL DS SYP",
-        "Pack": "60 ML",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "JOYMOL M DS SUSP.60ML",
-        "Pack": "60 ML",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "JOYMOL M SYP",
-        "Pack": "60 ML",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "KETOSPIN DT TAB",
-        "Pack": "15TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "LAXIFRESH PLUS SUSPENSION 170ML",
-        "Pack": "1X170ML",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "LAXIFRESH SUSP.170ML SUGAR FREE",
-        "Pack": "1X170ML",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "LYCOWAKE CAP",
-        "Pack": "10CAP",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "MEPREDWAY 1GM INJ",
-        "Pack": "1GM",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "MEPREDWAY 4 TAB",
-        "Pack": "1X10T",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "MEPREDWAY 8 TAB",
-        "Pack": "10TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "MIGRATREAT TAB",
-        "Pack": "1X10T",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "MUPISPIN OINT",
-        "Pack": "5GM",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "NAPROSPIN D TAB",
-        "Pack": "10TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "NASODASH NASAL DROPS",
-        "Pack": "1X10ML",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "NIMFRESH 100 TAB",
-        "Pack": "1X15TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "NIMFRESH COLD TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "NIMFRESH MD TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "NIMFRESH P TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "NIMFRESH P TAB (GOLDEN PVC)",
-        "Pack": "1X10TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "NIMFRESH PLUS TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "NORTREAT-TZ TABS",
-        "Pack": "1X10T",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "OMENESS-20MG CAPS",
-        "Pack": "1X15C",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "OMENESS-D CAPS",
-        "Pack": "1X10C",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "ONDATREAT INJ",
-        "Pack": "2ML",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "ONDATREAT SYRUP",
-        "Pack": "1X30ML",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "OTRIDASH ADULT NASAL DROP 10ML",
-        "Pack": "10ML",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "OTRIDASH OXY FAST RELIEF NASAL DROP",
-        "Pack": "10ML",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "PANTORADIX IV INJ",
-        "Pack": "40MG",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "PILEZEAL NF OINT",
-        "Pack": "20GM",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "PILEZEAL TAB",
-        "Pack": "10TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "POVITREAT MOUTH GARGLE",
-        "Pack": "1X100ML",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "POVITREAT OINT.25GM",
-        "Pack": "1X25GM",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "POVITREAT OINTMENT 15GM",
-        "Pack": "1X15 GM",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "POVITREAT POWDER 10GM",
-        "Pack": "1X10GM",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "POVITREAT-OZ OINTMENT",
-        "Pack": "1X15GM",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "PRIMOWAY-N TABS",
-        "Pack": "1X10T",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "RABERADIX IV INJ",
-        "Pack": "20MG",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "RANITREAT 150 TAB",
-        "Pack": "10TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "THANDA BLISS HAIR OIL",
-        "Pack": "100ML",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "THIOTREAT A TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "THIOTREAT AP TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "TRANBEAT MF TAB",
-        "Pack": "10TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "WAYFENAC INJ",
-        "Pack": "1ML",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "WAYFENAC MR TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "WAYFENAC TAB",
-        "Pack": "-",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "WAYFENAC-SP TABS",
-        "Pack": "1X10T",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
-    },
-    {
-        "Product Name": "ZZ CUREWAY BROCHURE",
-        "Pack": "PC",
-        "Company Name": "SMARTWAY WELLNESS PVT.LTD."
     },
     {
         "Product Name": "NEOMYCIN CREAM USP",

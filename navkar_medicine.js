@@ -3420,6 +3420,11 @@ const navkarMedicineData = [
         "Company Name": "AJANTA PHARMA (AVECIA)"
     },
     {
+        "Product Name": "AQUASOFT GENTLE CLEANSER GEL",
+        "Pack": "125ML",
+        "Company Name": "AJANTA PHARMA (AVECIA)"
+    },
+    {
         "Product Name": "AQUASOFT LOTION 100 ML",
         "Pack": "100 ML",
         "Company Name": "AJANTA PHARMA (AVECIA)"
@@ -10597,6 +10602,16 @@ const navkarMedicineData = [
     {
         "Product Name": "MELTOLAN 15 TAB",
         "Pack": "TAB",
+        "Company Name": "ALKEM LABORATORIES LIMITED"
+    },
+    {
+        "Product Name": "MINOKEM 2.5MG TAB",
+        "Pack": "10'S",
+        "Company Name": "ALKEM LABORATORIES LIMITED"
+    },
+    {
+        "Product Name": "MINOKEM F 5%",
+        "Pack": "60ML",
         "Company Name": "ALKEM LABORATORIES LIMITED"
     },
     {
@@ -17860,6 +17875,11 @@ const navkarMedicineData = [
         "Company Name": "BHARAT SERUM (FEMICARE)"
     },
     {
+        "Product Name": "MIFIACT 25 TAB",
+        "Pack": "10TAB",
+        "Company Name": "BHARAT SERUM (FEMICARE)"
+    },
+    {
         "Product Name": "MIPROGEN 100MG CAP",
         "Pack": "10CAP",
         "Company Name": "BHARAT SERUM (FEMICARE)"
@@ -18452,6 +18472,11 @@ const navkarMedicineData = [
     {
         "Product Name": "BIOLMMUNE SYRUP 200 ML",
         "Pack": "200ML",
+        "Company Name": "BIOPLASMA BIOLOGICALS PRIVATE LIMITED"
+    },
+    {
+        "Product Name": "FEXOLUCK SUSPENSION",
+        "Pack": "60ML",
         "Company Name": "BIOPLASMA BIOLOGICALS PRIVATE LIMITED"
     },
     {
@@ -21136,6 +21161,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "FERBUSTER M TAB",
+        "Pack": "10TAB",
+        "Company Name": "CARNEO PHARMA (OPC) PRIVATE LIMITED"
+    },
+    {
+        "Product Name": "FERBUSTER Q 300 TAB",
         "Pack": "10TAB",
         "Company Name": "CARNEO PHARMA (OPC) PRIVATE LIMITED"
     },
@@ -27355,179 +27385,184 @@ const navkarMedicineData = [
         "Company Name": "CORONA LABORATORIES"
     },
     {
+        "Product Name": "B 29 TAB",
+        "Pack": "10TAB",
+        "Company Name": "CORONA LABORATORIES"
+    },
+    {
         "Product Name": "D3 HD GRANUALS 1GM",
         "Pack": "1GM",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "DARICTIV 100 MG GRANULES",
         "Pack": "1 STICK",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "DARICTIV 50 MG GRANULES",
         "Pack": "1 STICK",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "DILO [DX] SYR",
         "Pack": "100ML",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "DILO BM 30/50/1.25MG EXPT",
         "Pack": "100ML",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "DILO LS SYR",
         "Pack": "100ML",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "DILO NAC TAB",
         "Pack": "10 TAB",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "ETOWIN 120MG TAB",
         "Pack": "10TAB",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "ETOWIN 60MG TAB",
         "Pack": "10TAB",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "ETOWIN 90MG TAB",
         "Pack": "10TAB",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "ETOWIN MR 4 TAB",
         "Pack": "TAB",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "ETOWIN MR TAB",
         "Pack": "10 TAB",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "ETOWIN P TAB",
         "Pack": "10TAB",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "ETOWIN PG TAB",
         "Pack": "10TAB",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "STELBID 1 MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "STELBID 2MG TAB",
         "Pack": "10TAB",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "STELBID SPAS TAB",
         "Pack": "10TAB",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "ULPAN D TAB",
         "Pack": "10TAB",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "ULPAN DSR CAP",
         "Pack": "10CAP",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "ULPAN GEL",
         "Pack": "200ML",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "ULPAN L CAP",
         "Pack": "10CAP",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "ULPAN RFT SACHET 10ML",
         "Pack": "10ML",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "ULPAN RFT SYP",
         "Pack": "150ML",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "ULPAN TAB",
         "Pack": "10TAB",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "URSOBILE 150 TAB",
         "Pack": "10TAB",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "URSOBILE 300 TAB",
         "Pack": "10TAB",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "URSOBILE 450 TAB",
         "Pack": "10TAB",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "XECUTE S 1.5 GM INJ",
         "Pack": "1.5 GM",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "XECUTE SB 1.5 GM INJ",
         "Pack": "1 VIAL",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "XOLID TAB",
         "Pack": "10 TAB",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "XOXE 250MG TAB 10`SJ",
         "Pack": "10TAB",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "XOXE 500MG TAB 10`S",
         "Pack": "TAB",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "XOXE CV 250MG TAB",
         "Pack": "TAB",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "XOXE CV 500MG TAB",
         "Pack": "6TAB",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "XOXE DRY SYP",
         "Pack": "ML",
-        "Company Name": "B 29 TAB"
+        "Company Name": "CORONA LABORATORIES"
     },
     {
         "Product Name": "ALKA SHOT CP SYP",
@@ -30135,7 +30170,7 @@ const navkarMedicineData = [
         "Company Name": "DR REDDYS LAB (DERMA)"
     },
     {
-        "Product Name": "ALFOO 10MG TAB 30``S",
+        "Product Name": "ALFOO 10MG TAB",
         "Pack": "30 TAB",
         "Company Name": "DR REDDYS LAB (FUTURA LEMAX)"
     },
@@ -30210,12 +30245,12 @@ const navkarMedicineData = [
         "Company Name": "DR REDDYS LAB (FUTURA LEMAX)"
     },
     {
-        "Product Name": "TAZZLE 10MG TAB 10`S",
+        "Product Name": "TAZZLE 10MG TAB",
         "Pack": "10 TAB",
         "Company Name": "DR REDDYS LAB (FUTURA LEMAX)"
     },
     {
-        "Product Name": "TAZZLE 20MG TAB 10`S",
+        "Product Name": "TAZZLE 20MG TAB",
         "Pack": "10 TAB",
         "Company Name": "DR REDDYS LAB (FUTURA LEMAX)"
     },
@@ -30226,7 +30261,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "TAZZLE D 10/30 CAP",
-        "Pack": "10 TAB",
+        "Pack": "10 CAP",
         "Company Name": "DR REDDYS LAB (FUTURA LEMAX)"
     },
     {
@@ -31255,12 +31290,12 @@ const navkarMedicineData = [
         "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
     },
     {
-        "Product Name": "OBEDA PRO 7MG TAB",
+        "Product Name": "OBEDA  7MG TAB",
         "Pack": "10TAB",
         "Company Name": "DR REDDYS LAB {SUPRIMUS}"
     },
     {
-        "Product Name": "OBEDA PRRO  3MG TAB",
+        "Product Name": "OBEDA 3MG TAB",
         "Pack": "10TAB",
         "Company Name": "DR REDDYS LAB {SUPRIMUS}"
     },
@@ -50760,6 +50795,16 @@ const navkarMedicineData = [
         "Company Name": "HETERO HEALTHCARE LTD (KRIS)"
     },
     {
+        "Product Name": "FAROCE 200MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "HETERO HEALTHCARE LTD (KRIS)"
+    },
+    {
+        "Product Name": "FAROCE 300MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "HETERO HEALTHCARE LTD (KRIS)"
+    },
+    {
         "Product Name": "FEXONA 120MG TAB",
         "Pack": "10 TAB",
         "Company Name": "HETERO HEALTHCARE LTD (KRIS)"
@@ -58875,134 +58920,139 @@ const navkarMedicineData = [
         "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
     },
     {
+        "Product Name": "LIPICURE GOLD 10MG CAP",
+        "Pack": "15CAP",
+        "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
+    },
+    {
         "Product Name": "LIPICURE GOLD 20MG CAP",
         "Pack": "15TAB",
-        "Company Name": "LIPICURE GOLD 10MG CAP"
+        "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
     },
     {
         "Product Name": "LIPICURE GOLD 40MG TAB",
         "Pack": "TAB",
-        "Company Name": "LIPICURE GOLD 10MG CAP"
+        "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
     },
     {
         "Product Name": "LIPICURE TG TAB",
         "Pack": "TAB",
-        "Company Name": "LIPICURE GOLD 10MG CAP"
+        "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
     },
     {
         "Product Name": "MONIT 10MG TAB",
         "Pack": "15TAB",
-        "Company Name": "LIPICURE GOLD 10MG CAP"
+        "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
     },
     {
         "Product Name": "MONIT 20MG TAB",
         "Pack": "15TAB",
-        "Company Name": "LIPICURE GOLD 10MG CAP"
+        "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
     },
     {
         "Product Name": "MONIT GTN 6.4MG TAB",
         "Pack": "30`S",
-        "Company Name": "LIPICURE GOLD 10MG CAP"
+        "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
     },
     {
         "Product Name": "MONIT SR 30MG TAB",
         "Pack": "15TAB",
-        "Company Name": "LIPICURE GOLD 10MG CAP"
+        "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
     },
     {
         "Product Name": "MONIT SR 60MG TAB",
         "Pack": "10TAB",
-        "Company Name": "LIPICURE GOLD 10MG CAP"
+        "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
     },
     {
         "Product Name": "OLMARK 20 TAB",
         "Pack": "15TAB",
-        "Company Name": "LIPICURE GOLD 10MG CAP"
+        "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
     },
     {
         "Product Name": "OLMARK 40 TAB",
         "Pack": "TAB",
-        "Company Name": "LIPICURE GOLD 10MG CAP"
+        "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
     },
     {
         "Product Name": "OLMARK A TAB",
         "Pack": "TAB",
-        "Company Name": "LIPICURE GOLD 10MG CAP"
+        "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
     },
     {
         "Product Name": "OLMARK H TAB",
         "Pack": "15TAB",
-        "Company Name": "LIPICURE GOLD 10MG CAP"
+        "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
     },
     {
         "Product Name": "PRAZOPILL [XL] 2.5 TAB",
         "Pack": "30TAB",
-        "Company Name": "LIPICURE GOLD 10MG CAP"
+        "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
     },
     {
         "Product Name": "PRAZOPILL [XL] 5 TAB",
         "Pack": "30 TAB",
-        "Company Name": "LIPICURE GOLD 10MG CAP"
+        "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
     },
     {
         "Product Name": "SEMAWIN 0.25MG INJ",
         "Pack": "1.5ML",
-        "Company Name": "LIPICURE GOLD 10MG CAP"
+        "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
     },
     {
         "Product Name": "SEMAWIN 0.5MG INJ",
         "Pack": "1.5ML",
-        "Company Name": "LIPICURE GOLD 10MG CAP"
+        "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
     },
     {
         "Product Name": "SEMAWIN 1.7MG INJ",
         "Pack": "3ML",
-        "Company Name": "LIPICURE GOLD 10MG CAP"
+        "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
     },
     {
         "Product Name": "SEMAWIN 1MG INJ",
         "Pack": "3ML",
-        "Company Name": "LIPICURE GOLD 10MG CAP"
+        "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
     },
     {
         "Product Name": "SEMAWIN 2.4MG INJ",
         "Pack": "3ML",
-        "Company Name": "LIPICURE GOLD 10MG CAP"
+        "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
     },
     {
         "Product Name": "TOR 10MG TAB",
         "Pack": "TAB",
-        "Company Name": "LIPICURE GOLD 10MG CAP"
+        "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
     },
     {
         "Product Name": "TOR 5MG TAB",
         "Pack": "TAB",
-        "Company Name": "LIPICURE GOLD 10MG CAP"
+        "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
     },
     {
         "Product Name": "VASOGLAR A KIT (14+7)",
         "Pack": "10 TAB",
-        "Company Name": "LIPICURE GOLD 10MG CAP"
+        "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
     },
     {
         "Product Name": "VASOGLOR 60 MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "LIPICURE GOLD 10MG CAP"
+        "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
     },
     {
         "Product Name": "VASOGLOR 90MG TAB",
         "Pack": "10TAB",
-        "Company Name": "LIPICURE GOLD 10MG CAP"
+        "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
     },
     {
         "Product Name": "VOGLITAB 0.3MG TAB",
         "Pack": "TAB",
-        "Company Name": "LIPICURE GOLD 10MG CAP"
+        "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
     },
     {
         "Product Name": "VOGLITAB MD 0.3MG TAB 10`S",
         "Pack": "TAB",
-        "Company Name": "LIPICURE GOLD 10MG CAP"
+        "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
     },
     {
         "Product Name": "ABAXIS 2.5",
@@ -93280,6 +93330,11 @@ const navkarMedicineData = [
         "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
+        "Product Name": "SOLIWAX CP EAR DROP",
+        "Pack": "10ML",
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
+    },
+    {
         "Product Name": "SOLIWAX EAR DROPS",
         "Pack": "10 ML",
         "Company Name": "NULIFE PHARMACEUTICALS LTD."
@@ -117290,7 +117345,7 @@ const navkarMedicineData = [
         "Company Name": "USV LIMITED (CORVETTE)"
     },
     {
-        "Product Name": "GLYCOMET GP 3/850MG TAB 3",
+        "Product Name": "GLYCOMET GP 3/850MG TAB",
         "Pack": "10 TAB",
         "Company Name": "USV LIMITED (CORVETTE)"
     },
@@ -118955,6 +119010,16 @@ const navkarMedicineData = [
         "Company Name": "VICTORY GLOBAL CARE PVT LTD"
     },
     {
+        "Product Name": "VG BOOST PRO 200GM",
+        "Pack": "200GM",
+        "Company Name": "VICTORY GLOBAL CARE PVT LTD"
+    },
+    {
+        "Product Name": "VG BOOST PRO POWDER CHOCO",
+        "Pack": "200GM",
+        "Company Name": "VICTORY GLOBAL CARE PVT LTD"
+    },
+    {
         "Product Name": "VG FERR XT TAB",
         "Pack": "10'S",
         "Company Name": "VICTORY GLOBAL CARE PVT LTD"
@@ -118967,11 +119032,6 @@ const navkarMedicineData = [
     {
         "Product Name": "VG QH 10",
         "Pack": "10TAB",
-        "Company Name": "VICTORY GLOBAL CARE PVT LTD"
-    },
-    {
-        "Product Name": "VG-BOOST PRO 200GM",
-        "Pack": "200GM",
         "Company Name": "VICTORY GLOBAL CARE PVT LTD"
     },
     {
