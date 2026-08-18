@@ -1495,11 +1495,6 @@ const navkarMedicineData = [
         "Company Name": "ABBOTT HEALTHCARE (OSVITA)"
     },
     {
-        "Product Name": "ROCALTROL CAP",
-        "Pack": "10CAP",
-        "Company Name": "ABBOTT HEALTHCARE (OSVITA)"
-    },
-    {
         "Product Name": "ROCKBON D 400IU TAB",
         "Pack": "TAB",
         "Company Name": "ABBOTT HEALTHCARE (OSVITA)"
@@ -33325,11 +33320,6 @@ const navkarMedicineData = [
         "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
     },
     {
-        "Product Name": "TRIPTAMIN MC 5MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
-    },
-    {
         "Product Name": "TRIPTAMIN PR SEMI TAB",
         "Pack": "10 TAB",
         "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
@@ -33737,6 +33727,11 @@ const navkarMedicineData = [
     {
         "Product Name": "TANGRIDINE SYRUP",
         "Pack": "200 ML",
+        "Company Name": "EL DORADO(ZEALOUS)"
+    },
+    {
+        "Product Name": "TRIPTAMIN MC 5MG TAB",
+        "Pack": "10 TAB",
         "Company Name": "EL DORADO(ZEALOUS)"
     },
     {
@@ -46050,7 +46045,7 @@ const navkarMedicineData = [
         "Company Name": "GLENMARK (MAJESTA MAX)"
     },
     {
-        "Product Name": "MUCARYL AB",
+        "Product Name": "MUCARYL AB TAB",
         "Pack": "10 TAB",
         "Company Name": "GLENMARK (MAJESTA MAX)"
     },
@@ -63185,6 +63180,11 @@ const navkarMedicineData = [
         "Company Name": "J.B. (NOVA DIVISION)"
     },
     {
+        "Product Name": "OLTAVIR SYRUP",
+        "Pack": "75 ML",
+        "Company Name": "J.B. (NOVA DIVISION)"
+    },
+    {
         "Product Name": "PECEF 100 DT TAB",
         "Pack": "10 TAB",
         "Company Name": "J.B. (NOVA DIVISION)"
@@ -67323,6 +67323,16 @@ const navkarMedicineData = [
         "Product Name": "SIRACIT ULTRA MOIST LOTION",
         "Pack": "100 ML",
         "Company Name": "LA RENON HEALTH CARE (ORAL)"
+    },
+    {
+        "Product Name": "ZOBEFLUX 20",
+        "Pack": "10TAB",
+        "Company Name": "LA RENON HEALTH CARE (URGO)"
+    },
+    {
+        "Product Name": "ZOBEFLUX D 20 TAB",
+        "Pack": "10TAB",
+        "Company Name": "LA RENON HEALTH CARE (URGO)"
     },
     {
         "Product Name": "CRAMOSE TAB",
@@ -103395,6 +103405,11 @@ const navkarMedicineData = [
         "Company Name": "SPRENZA HEALTHCARE PRIVATE LIMITED"
     },
     {
+        "Product Name": "UFOCIUM TAB",
+        "Pack": "10TAB",
+        "Company Name": "SPRENZA HEALTHCARE PRIVATE LIMITED"
+    },
+    {
         "Product Name": "UFOCUF DX SYRUP",
         "Pack": "100ML",
         "Company Name": "SPRENZA HEALTHCARE PRIVATE LIMITED"
@@ -124325,8 +124340,8 @@ const navkarMedicineData = [
         "Company Name": "ZYDUS PHARMA (AEROFORCE)"
     },
     {
-        "Product Name": "ORCIBEST 10MG TAB 15``S",
-        "Pack": "TAB",
+        "Product Name": "ORCIBEST 10MG TAB",
+        "Pack": "15 TAB",
         "Company Name": "ZYDUS PHARMA (AEROFORCE)"
     },
     {
