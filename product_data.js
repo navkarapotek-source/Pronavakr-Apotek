@@ -7260,6 +7260,11 @@ const productData = [
         "Company Name": "DR.REDDY LABORATORIES LTD."
     },
     {
+        "Product Name": "TELMISTA 40 TAB",
+        "Pack": "1X15TAB",
+        "Company Name": "DR.REDDY LABORATORIES LTD."
+    },
+    {
         "Product Name": "THROATEASY DC PLUS SUSP 100ML",
         "Pack": "1X100ML",
         "Company Name": "DR.REDDY LABORATORIES LTD."

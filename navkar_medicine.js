@@ -415,6 +415,11 @@ const navkarMedicineData = [
         "Company Name": "ABBOTT HEALTHCARE (CARDIAC)"
     },
     {
+        "Product Name": "SIAGLIDE M OD 100/500 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ABBOTT HEALTHCARE (CARDIAC)"
+    },
+    {
         "Product Name": "STATOR 10MG TAB",
         "Pack": "15 TAB",
         "Company Name": "ABBOTT HEALTHCARE (CARDIAC)"
@@ -4130,6 +4135,11 @@ const navkarMedicineData = [
         "Company Name": "AJANTA PHARMA (MEXLON)"
     },
     {
+        "Product Name": "HYPOCLIN SOLUTION",
+        "Pack": "60ML",
+        "Company Name": "AJANTA PHARMA (MEXLON)"
+    },
+    {
         "Product Name": "LIDOCAM CT TAB",
         "Pack": "10 TAB",
         "Company Name": "AJANTA PHARMA (MEXLON)"
@@ -6936,7 +6946,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "COQ BLOOM 300MG",
-        "Pack": "10TAB",
+        "Pack": "15 CAP",
         "Company Name": "ALEMBIC (ELINA)"
     },
     {
@@ -20733,6 +20743,11 @@ const navkarMedicineData = [
         "Product Name": "HAEM UP GEMS CAP 100`S",
         "Pack": "100`S",
         "Company Name": "CADILA PHARMA (EVANEXT)"
+    },
+    {
+        "Product Name": "CALCIROL AQ INJ",
+        "Pack": "2 ML",
+        "Company Name": "CADILA PHARMA (MAGNA STAR)"
     },
     {
         "Product Name": "CALCIROL CAP 8`S",
@@ -36820,11 +36835,6 @@ const navkarMedicineData = [
         "Company Name": "ENTOD MEDEVA"
     },
     {
-        "Product Name": "AMORSKIN CREAM 30GM",
-        "Pack": "30GM",
-        "Company Name": "ENTOD MEDEVA"
-    },
-    {
         "Product Name": "CALOGON LOTION",
         "Pack": "100ML",
         "Company Name": "ENTOD MEDEVA"
@@ -36995,11 +37005,6 @@ const navkarMedicineData = [
         "Company Name": "ENTOD OPTHAMNIC"
     },
     {
-        "Product Name": "ENOCLAV 625 TAB",
-        "Pack": "10TAB",
-        "Company Name": "ENTOD OPTHAMNIC"
-    },
-    {
         "Product Name": "ENTOTHROCIN 500 TAB",
         "Pack": "5TAB",
         "Company Name": "ENTOD OPTHAMNIC"
@@ -37095,6 +37100,11 @@ const navkarMedicineData = [
         "Company Name": "ENTOD OPTHAMNIC"
     },
     {
+        "Product Name": "AMORSKIN CREAM 30GM",
+        "Pack": "30GM",
+        "Company Name": "ENTOD PHARMA (GENTECK)"
+    },
+    {
         "Product Name": "AZENATE M NASAL SPRAY",
         "Pack": "7.5GM",
         "Company Name": "ENTOD PHARMA (GENTECK)"
@@ -37162,6 +37172,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ENCLAVE 625MG TAB 10`S",
         "Pack": "10 TAB",
+        "Company Name": "ENTOD PHARMA (GENTECK)"
+    },
+    {
+        "Product Name": "ENOCLAV 625 TAB",
+        "Pack": "10TAB",
         "Company Name": "ENTOD PHARMA (GENTECK)"
     },
     {
@@ -39225,6 +39240,11 @@ const navkarMedicineData = [
         "Company Name": "ERIS LIFE SCIENCES (PHARMA)"
     },
     {
+        "Product Name": "SUNDAE PRO 1",
+        "Pack": "1'S",
+        "Company Name": "ERIS LIFE SCIENCES (PHARMA)"
+    },
+    {
         "Product Name": "TRIGLIMISAVE 1 MG TAB",
         "Pack": "TAB",
         "Company Name": "ERIS LIFE SCIENCES (PHARMA)"
@@ -39798,6 +39818,11 @@ const navkarMedicineData = [
         "Product Name": "TAYO SOFT 60 K TAB",
         "Pack": "8 TAB",
         "Company Name": "ERIS LIFE SCINECES (RISE)"
+    },
+    {
+        "Product Name": "CLOTRIYO PLUS DROP",
+        "Pack": "ML",
+        "Company Name": "ESSONITE PHARMACEUTICAL PVT"
     },
     {
         "Product Name": "ESSOFIBER TAB",
@@ -65410,6 +65435,11 @@ const navkarMedicineData = [
         "Company Name": "KEPLER HEALTHCARE PVT LTD"
     },
     {
+        "Product Name": "FERIFLOW M TAB",
+        "Pack": "10TAB",
+        "Company Name": "KEPLER HEALTHCARE PVT LTD"
+    },
+    {
         "Product Name": "FOLACTIB D TAB",
         "Pack": "10'TAB",
         "Company Name": "KEPLER HEALTHCARE PVT LTD"
@@ -65477,6 +65507,11 @@ const navkarMedicineData = [
     {
         "Product Name": "KEPODIL CV 200 TAB",
         "Pack": "TAB",
+        "Company Name": "KEPLER HEALTHCARE PVT LTD"
+    },
+    {
+        "Product Name": "LAXAPOT PEG ORAL SOLUTION",
+        "Pack": "200ML",
         "Company Name": "KEPLER HEALTHCARE PVT LTD"
     },
     {
@@ -66811,6 +66846,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "RUTOLEAD TAB",
+        "Pack": "10TAB",
+        "Company Name": "KRYPTOSIS PHARMA LLP"
+    },
+    {
+        "Product Name": "TENDOVESTIN-II",
         "Pack": "10TAB",
         "Company Name": "KRYPTOSIS PHARMA LLP"
     },
@@ -92220,6 +92260,11 @@ const navkarMedicineData = [
         "Company Name": "NEUVOCARE PHARMACEUTICALS"
     },
     {
+        "Product Name": "KENOFLAM TAB",
+        "Pack": "10'S",
+        "Company Name": "NEUVOCARE PHARMACEUTICALS"
+    },
+    {
         "Product Name": "NEOZEST SYRUP",
         "Pack": "100ML",
         "Company Name": "NEUVOCARE PHARMACEUTICALS"
@@ -102442,6 +102487,11 @@ const navkarMedicineData = [
     {
         "Product Name": "REZIZ SUS.",
         "Pack": "10ML",
+        "Company Name": "SHREYA LIFE SCIENCES (ACUCARE)"
+    },
+    {
+        "Product Name": "REZIZ TAB",
+        "Pack": "TAB",
         "Company Name": "SHREYA LIFE SCIENCES (ACUCARE)"
     },
     {
@@ -123985,6 +124035,11 @@ const navkarMedicineData = [
         "Company Name": "ZYDUS GERMEN GYNEXT (A.C.D)"
     },
     {
+        "Product Name": "MIOMET TAB",
+        "Pack": "10TAB",
+        "Company Name": "ZYDUS GERMEN GYNEXT (A.C.D)"
+    },
+    {
         "Product Name": "NATUROGEST INJ 0.50 MG 1ML",
         "Pack": "1 ML",
         "Company Name": "ZYDUS GERMEN GYNEXT (A.C.D)"
@@ -125227,11 +125282,6 @@ const navkarMedicineData = [
     {
         "Product Name": "HYLASTO S INJ",
         "Pack": "2 ML",
-        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
-    },
-    {
-        "Product Name": "MIOMET TAB",
-        "Pack": "10TAB",
         "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
     },
     {

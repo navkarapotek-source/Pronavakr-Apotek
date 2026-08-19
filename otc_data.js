@@ -5330,6 +5330,11 @@ const otcData = [
         "Company Name": "RECKITT BENCKISER INDIA"
     },
     {
+        "Product Name": "DETTOL LIQUID [125ML]",
+        "Pack": "125ML",
+        "Company Name": "RECKITT BENCKISER INDIA"
+    },
+    {
         "Product Name": "DETTOL LIQUID [1LITER]",
         "Pack": "1LTR",
         "Company Name": "RECKITT BENCKISER INDIA"
@@ -5342,6 +5347,11 @@ const otcData = [
     {
         "Product Name": "DETTOL LIQUID [550ML]",
         "Pack": "550ML",
+        "Company Name": "RECKITT BENCKISER INDIA"
+    },
+    {
+        "Product Name": "DETTOL LIQUID [60ML]",
+        "Pack": "60ML",
         "Company Name": "RECKITT BENCKISER INDIA"
     },
     {
@@ -5375,8 +5385,33 @@ const otcData = [
         "Company Name": "RECKITT BENCKISER INDIA"
     },
     {
+        "Product Name": "MOOV CREAM [10GM]",
+        "Pack": "10GM",
+        "Company Name": "RECKITT BENCKISER INDIA"
+    },
+    {
+        "Product Name": "MOOV CREAM [20GM]",
+        "Pack": "20GM",
+        "Company Name": "RECKITT BENCKISER INDIA"
+    },
+    {
         "Product Name": "MOOV CREAM [30GM]",
         "Pack": "30GM",
+        "Company Name": "RECKITT BENCKISER INDIA"
+    },
+    {
+        "Product Name": "MOOV CREAM [RS.15]",
+        "Pack": "5GM",
+        "Company Name": "RECKITT BENCKISER INDIA"
+    },
+    {
+        "Product Name": "MOOV SPRAY [15GM]",
+        "Pack": "15GM",
+        "Company Name": "RECKITT BENCKISER INDIA"
+    },
+    {
+        "Product Name": "MOOV SPRAY [35GM]",
+        "Pack": "35GM",
         "Company Name": "RECKITT BENCKISER INDIA"
     },
     {
@@ -6180,16 +6215,6 @@ const otcData = [
         "Company Name": "SHRIRAMA STORES YELLAPUR"
     },
     {
-        "Product Name": "DETTOL LIQUID [125ML]",
-        "Pack": "125ML",
-        "Company Name": "SHRIRAMA STORES YELLAPUR"
-    },
-    {
-        "Product Name": "DETTOL LIQUID [60ML]",
-        "Pack": "60ML",
-        "Company Name": "SHRIRAMA STORES YELLAPUR"
-    },
-    {
         "Product Name": "DETTOL SOAP [RS.10]",
         "Pack": "45GM",
         "Company Name": "SHRIRAMA STORES YELLAPUR"
@@ -6362,31 +6387,6 @@ const otcData = [
     {
         "Product Name": "MEDICLOR-M [30ML]",
         "Pack": "30ML",
-        "Company Name": "SHRIRAMA STORES YELLAPUR"
-    },
-    {
-        "Product Name": "MOOV CREAM [10GM]",
-        "Pack": "10GM",
-        "Company Name": "SHRIRAMA STORES YELLAPUR"
-    },
-    {
-        "Product Name": "MOOV CREAM [20GM]",
-        "Pack": "20GM",
-        "Company Name": "SHRIRAMA STORES YELLAPUR"
-    },
-    {
-        "Product Name": "MOOV CREAM [RS.15]",
-        "Pack": "5GM",
-        "Company Name": "SHRIRAMA STORES YELLAPUR"
-    },
-    {
-        "Product Name": "MOOV SPRAY [15GM]",
-        "Pack": "15GM",
-        "Company Name": "SHRIRAMA STORES YELLAPUR"
-    },
-    {
-        "Product Name": "MOOV SPRAY [35GM]",
-        "Pack": "35GM",
         "Company Name": "SHRIRAMA STORES YELLAPUR"
     },
     {
