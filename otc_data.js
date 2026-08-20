@@ -5665,6 +5665,11 @@ const otcData = [
         "Company Name": "SAIEE PHARMACHEM"
     },
     {
+        "Product Name": "WAJRALEP 10GM",
+        "Pack": "10 GM",
+        "Company Name": "SAIEE PHARMACHEM"
+    },
+    {
         "Product Name": "ZOLA BAG",
         "Pack": "BAG",
         "Company Name": "SAIEE PHARMACHEM"

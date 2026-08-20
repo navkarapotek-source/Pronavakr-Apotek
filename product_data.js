@@ -7955,6 +7955,11 @@ const productData = [
         "Company Name": "EMCURE PHARMACEUTICALS"
     },
     {
+        "Product Name": "CETIRIZINE TABLET(EMCURE)",
+        "Pack": "1X10T",
+        "Company Name": "EMCURE PHARMACEUTICALS"
+    },
+    {
         "Product Name": "CITRALEM SYP 100ML",
         "Pack": "1X100ML",
         "Company Name": "EMCURE PHARMACEUTICALS"
@@ -8117,6 +8122,11 @@ const productData = [
     {
         "Product Name": "NECTUS TOTAL TABS",
         "Pack": "1X10T",
+        "Company Name": "EMCURE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "NU ALERT PREGNENCY TEST KIT",
+        "Pack": "PC",
         "Company Name": "EMCURE PHARMACEUTICALS"
     },
     {
@@ -12825,6 +12835,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "P-NOLOL 20 TAB",
+        "Pack": "10TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "P-NOLOL 40 TAB",
         "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
@@ -12877,6 +12892,11 @@ const productData = [
     {
         "Product Name": "PRAZOBROOK XL 2.5 TAB",
         "Pack": "30TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "PREDNIHEAL 10 TAB",
+        "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -26415,11 +26435,6 @@ const productData = [
         "Company Name": "SAIEE PHARMACHEM"
     },
     {
-        "Product Name": "WAJRALEP 10GM\\",
-        "Pack": "10 GM",
-        "Company Name": "SAIEE PHARMACHEM"
-    },
-    {
         "Product Name": "CETFLAM TAB",
         "Pack": "1X15TAB",
         "Company Name": "SAINT MICHAEL BIOTECH"
@@ -29510,6 +29525,16 @@ const productData = [
         "Company Name": "ALKAFRESH SODA EFFERVESCENT"
     },
     {
+        "Product Name": "CALCIPUNCH D3 SACHET",
+        "Pack": "1GM",
+        "Company Name": "ALKAFRESH SODA EFFERVESCENT"
+    },
+    {
+        "Product Name": "CALCIPUNCH SUSP 200ML",
+        "Pack": "200ML",
+        "Company Name": "ALKAFRESH SODA EFFERVESCENT"
+    },
+    {
         "Product Name": "CALCIWAY 800 DROPS",
         "Pack": "30ML",
         "Company Name": "ALKAFRESH SODA EFFERVESCENT"
@@ -29567,6 +29592,11 @@ const productData = [
     {
         "Product Name": "CEFISMART O TAB",
         "Pack": "10TAB",
+        "Company Name": "ALKAFRESH SODA EFFERVESCENT"
+    },
+    {
+        "Product Name": "CEFOSCORE S 1.5 INJ",
+        "Pack": "20ML",
         "Company Name": "ALKAFRESH SODA EFFERVESCENT"
     },
     {
@@ -29800,6 +29830,21 @@ const productData = [
         "Company Name": "ALKAFRESH SODA EFFERVESCENT"
     },
     {
+        "Product Name": "CSCORE 1GM INJ",
+        "Pack": "10ML",
+        "Company Name": "ALKAFRESH SODA EFFERVESCENT"
+    },
+    {
+        "Product Name": "CSCORE SB 1.5GM INJ",
+        "Pack": "20ML",
+        "Company Name": "ALKAFRESH SODA EFFERVESCENT"
+    },
+    {
+        "Product Name": "CSCORE T 1.125 INJ",
+        "Pack": "20ML",
+        "Company Name": "ALKAFRESH SODA EFFERVESCENT"
+    },
+    {
         "Product Name": "CYCLOWAVE - SPAS SUSPENSION",
         "Pack": "30ML",
         "Company Name": "ALKAFRESH SODA EFFERVESCENT"
@@ -29987,6 +30032,11 @@ const productData = [
     {
         "Product Name": "DENTABLIST REPAIR C PROTECT",
         "Pack": "100GM",
+        "Company Name": "DARKROOM SUPER DOTTED"
+    },
+    {
+        "Product Name": "DENTABLIST SENSITIVE TOOTHBRUSH",
+        "Pack": "12PC",
         "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
@@ -30520,6 +30570,11 @@ const productData = [
         "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
+        "Product Name": "MOXIFRESH DX EYE DROP",
+        "Pack": "10ML",
+        "Company Name": "DARKROOM SUPER DOTTED"
+    },
+    {
         "Product Name": "MOXIFRESH EYE DROPS",
         "Pack": "5ML",
         "Company Name": "DARKROOM SUPER DOTTED"
@@ -30727,6 +30782,11 @@ const productData = [
     {
         "Product Name": "ORAWET PRO SACHET ORANGE",
         "Pack": "5.6 GM",
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
+    },
+    {
+        "Product Name": "OZEMARK CREAM",
+        "Pack": "5GM",
         "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {

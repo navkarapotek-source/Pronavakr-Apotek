@@ -1745,6 +1745,11 @@ const navkarMedicineData = [
         "Company Name": "ABBOTT HEALTHCARE PVT RESOTORA"
     },
     {
+        "Product Name": "CREMADIET PLUS POWDER 100GM",
+        "Pack": "100GM",
+        "Company Name": "ABBOTT HELATH CARE (EPTION)"
+    },
+    {
         "Product Name": "EPTOIN 100MG TAB",
         "Pack": "120 TAB",
         "Company Name": "ABBOTT HELATH CARE (EPTION)"
@@ -2037,11 +2042,6 @@ const navkarMedicineData = [
     {
         "Product Name": "CREMA-ANO CREAM",
         "Pack": "20 GM",
-        "Company Name": "ABBOTT INDIA LTD (GASTRO)"
-    },
-    {
-        "Product Name": "CREMADIET PLUS POWDER 100GM",
-        "Pack": "100GM",
         "Company Name": "ABBOTT INDIA LTD (GASTRO)"
     },
     {
@@ -9175,9 +9175,14 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LAB (GASTOKEM)"
     },
     {
+        "Product Name": "VONZAI  20 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ALKEM LAB (GASTOKEM)"
+    },
+    {
         "Product Name": "VONZAI 10 MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "VONZAI  20 MG TAB"
+        "Company Name": "ALKEM LAB (GASTOKEM)"
     },
     {
         "Product Name": "ALDIGESIC P",
@@ -21885,6 +21890,11 @@ const navkarMedicineData = [
         "Company Name": "CENTAUR PHARMACEUTICALS P LTD"
     },
     {
+        "Product Name": "HEALTEARS PINK EYE DROPS",
+        "Pack": "10ML",
+        "Company Name": "CENTAUR PHARMACEUTICALS P LTD"
+    },
+    {
         "Product Name": "OCUREST OL EYE DROP",
         "Pack": "5ML",
         "Company Name": "CENTAUR PHARMACEUTICALS P LTD"
@@ -31867,6 +31877,16 @@ const navkarMedicineData = [
     {
         "Product Name": "MYOCEIVE + TAB",
         "Pack": "10 TAB",
+        "Company Name": "DR REDDYS LABORATORIES LTD"
+    },
+    {
+        "Product Name": "OBEDA PRO INJ 0.5MG",
+        "Pack": "1'S",
+        "Company Name": "DR REDDYS LABORATORIES LTD"
+    },
+    {
+        "Product Name": "OBEDA PRO INJ 1MG",
+        "Pack": "1'S",
         "Company Name": "DR REDDYS LABORATORIES LTD"
     },
     {
@@ -50987,6 +51007,16 @@ const navkarMedicineData = [
     {
         "Product Name": "DASUTRA RED 50",
         "Pack": "4'S",
+        "Company Name": "HETERO HEALTHCARE LTD (ULTRA)"
+    },
+    {
+        "Product Name": "KWIK MINT BURST'S CASSTS",
+        "Pack": "10X20'",
+        "Company Name": "HETERO HEALTHCARE LTD (ULTRA)"
+    },
+    {
+        "Product Name": "KWIK MINT STRONG",
+        "Pack": "1X44'S",
         "Company Name": "HETERO HEALTHCARE LTD (ULTRA)"
     },
     {
@@ -77330,6 +77360,16 @@ const navkarMedicineData = [
         "Company Name": "MACLEODS (OXALIS)"
     },
     {
+        "Product Name": "AEROZEST RESPULES 0.31",
+        "Pack": "ML",
+        "Company Name": "MACLEODS (PHARMA)"
+    },
+    {
+        "Product Name": "AEROZEST RESPULES 0.63",
+        "Pack": "2.5ML",
+        "Company Name": "MACLEODS (PHARMA)"
+    },
+    {
         "Product Name": "AZUNATE 120 INJ",
         "Pack": "VAIL",
         "Company Name": "MACLEODS (PHARMA)"
@@ -77677,6 +77717,11 @@ const navkarMedicineData = [
     {
         "Product Name": "RACEDOT CAP",
         "Pack": "6CAP",
+        "Company Name": "MACLEODS (PHARMA)"
+    },
+    {
+        "Product Name": "RAPITUS TAB",
+        "Pack": "10TAB",
         "Company Name": "MACLEODS (PHARMA)"
     },
     {
@@ -113855,7 +113900,7 @@ const navkarMedicineData = [
         "Company Name": "TORRENT PHARMA (SPARSH)"
     },
     {
-        "Product Name": "UPADAVIO 15 TAB",
+        "Product Name": "UPADACOL 15 TAB",
         "Pack": "10'S",
         "Company Name": "TORRENT PHARMA (SPARSH)"
     },
