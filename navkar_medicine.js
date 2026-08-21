@@ -28205,11 +28205,6 @@ const navkarMedicineData = [
         "Company Name": "CORONA REMEDIES PVT.LTD.(PIONEER)"
     },
     {
-        "Product Name": "WOKADINE 10% OINT",
-        "Pack": "20GM",
-        "Company Name": "CORONA REMEDIES PVT.LTD.(PIONEER)"
-    },
-    {
         "Product Name": "WOKADINE 10% SOLU 100ML",
         "Pack": "100ML",
         "Company Name": "CORONA REMEDIES PVT.LTD.(PIONEER)"
@@ -31617,6 +31612,11 @@ const navkarMedicineData = [
     {
         "Product Name": "NORTRYPTOMER P TAB",
         "Pack": "10 TAB",
+        "Company Name": "DR REDDYS LAB(MERIND)"
+    },
+    {
+        "Product Name": "WOKADINE 10% OINT",
+        "Pack": "20GM",
         "Company Name": "DR REDDYS LAB(MERIND)"
     },
     {
@@ -56065,11 +56065,6 @@ const navkarMedicineData = [
         "Company Name": "INTAS PHARMACEUTICALS (ALAIRA)"
     },
     {
-        "Product Name": "DUVANTA 60 MG TAB",
-        "Pack": "10TAB",
-        "Company Name": "INTAS PHARMACEUTICALS (ALAIRA)"
-    },
-    {
         "Product Name": "EZICAS F 360 NASAL SPRAY 160MD",
         "Pack": "160MD",
         "Company Name": "INTAS PHARMACEUTICALS (ALAIRA)"
@@ -56081,16 +56076,6 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "LUKOTAS HD TAB",
-        "Pack": "TAB",
-        "Company Name": "INTAS PHARMACEUTICALS (ALAIRA)"
-    },
-    {
-        "Product Name": "MAGRIUM 10 TAB",
-        "Pack": "TAB",
-        "Company Name": "INTAS PHARMACEUTICALS (ALAIRA)"
-    },
-    {
-        "Product Name": "NORTIMER 25 MG TAB",
         "Pack": "TAB",
         "Company Name": "INTAS PHARMACEUTICALS (ALAIRA)"
     },
@@ -56107,16 +56092,6 @@ const navkarMedicineData = [
     {
         "Product Name": "QUTAN SR 300 MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "INTAS PHARMACEUTICALS (ALAIRA)"
-    },
-    {
-        "Product Name": "RRB 10 MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "INTAS PHARMACEUTICALS (ALAIRA)"
-    },
-    {
-        "Product Name": "SITARA D 50/10 MG TAB",
-        "Pack": "10'S",
         "Company Name": "INTAS PHARMACEUTICALS (ALAIRA)"
     },
     {
@@ -59210,6 +59185,11 @@ const navkarMedicineData = [
         "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
+        "Product Name": "DUVANTA 60 MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
+    },
+    {
         "Product Name": "DUVENTA NP 40 TAB",
         "Pack": "10 TAB",
         "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
@@ -59395,6 +59375,11 @@ const navkarMedicineData = [
         "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
+        "Product Name": "MAGRIUM 10 TAB",
+        "Pack": "TAB",
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
+    },
+    {
         "Product Name": "MECOFOL OD TAB",
         "Pack": "10 TAB",
         "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
@@ -59441,6 +59426,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "NALTIMA 50MG TAB",
+        "Pack": "TAB",
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
+    },
+    {
+        "Product Name": "NORTIMER 25 MG TAB",
         "Pack": "TAB",
         "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
@@ -59542,6 +59532,16 @@ const navkarMedicineData = [
     {
         "Product Name": "REXIPRA 10MG TAB",
         "Pack": "10 TAB",
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
+    },
+    {
+        "Product Name": "RRB 10 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
+    },
+    {
+        "Product Name": "SITARA D 50/10 MG TAB",
+        "Pack": "10'S",
         "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
@@ -77900,11 +77900,6 @@ const navkarMedicineData = [
         "Company Name": "MACLEODS (PHARMACORE )"
     },
     {
-        "Product Name": "DISPERAFT SYP",
-        "Pack": "200 ML",
-        "Company Name": "MACLEODS (PHARMACORE )"
-    },
-    {
         "Product Name": "DOXINAMAC OD TAB",
         "Pack": "TAB",
         "Company Name": "MACLEODS (PHARMACORE )"
@@ -78177,16 +78172,6 @@ const navkarMedicineData = [
     {
         "Product Name": "RABEMAC [MPS] SUSP",
         "Pack": "200ML",
-        "Company Name": "MACLEODS (PHARMACORE )"
-    },
-    {
-        "Product Name": "RABEMAC 10 MG TAB",
-        "Pack": "10",
-        "Company Name": "MACLEODS (PHARMACORE )"
-    },
-    {
-        "Product Name": "RABEMAC 20MG TAB",
-        "Pack": "10 TAB",
         "Company Name": "MACLEODS (PHARMACORE )"
     },
     {
@@ -79928,6 +79913,21 @@ const navkarMedicineData = [
         "Product Name": "VOGLIMAC GM2 TAB",
         "Pack": "10 TAB",
         "Company Name": "MACLEODS PROCARE HD"
+    },
+    {
+        "Product Name": "DISPERAFT SYP",
+        "Pack": "200 ML",
+        "Company Name": "MACLODS {GASTROMAXX}"
+    },
+    {
+        "Product Name": "RABEMAC 10 MG TAB",
+        "Pack": "10",
+        "Company Name": "MACLODS {GASTROMAXX}"
+    },
+    {
+        "Product Name": "RABEMAC 20MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "MACLODS {GASTROMAXX}"
     },
     {
         "Product Name": "ARBENALL",
@@ -83700,6 +83700,11 @@ const navkarMedicineData = [
         "Company Name": "MANKIND PHARMA (NOBELIS)"
     },
     {
+        "Product Name": "PIOHOPE 30 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "MANKIND PHARMA (NOBELIS)"
+    },
+    {
         "Product Name": "VOGLISTAR GM 1/0.3 TAB",
         "Pack": "15TAB",
         "Company Name": "MANKIND PHARMA (NOBELIS)"
@@ -84922,6 +84927,11 @@ const navkarMedicineData = [
     {
         "Product Name": "GLYKIND M  XR 60MG TAB",
         "Pack": "TAB",
+        "Company Name": "MANKIND PHARMA {VISTAR}"
+    },
+    {
+        "Product Name": "GLYKIND MV 0.2 TAB",
+        "Pack": "15TAB",
         "Company Name": "MANKIND PHARMA {VISTAR}"
     },
     {
@@ -94080,7 +94090,7 @@ const navkarMedicineData = [
         "Company Name": "OTHERS"
     },
     {
-        "Product Name": "DETTOL 50 ML",
+        "Product Name": "DET 50 ML",
         "Pack": "50 ML",
         "Company Name": "OTHERS"
     },
@@ -96510,8 +96520,23 @@ const navkarMedicineData = [
         "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
     },
     {
+        "Product Name": "CIR CLASSIC DIAP PANTS [M10]425",
+        "Pack": "10PIC",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
         "Product Name": "CIR DIAP PANTS [M]10",
         "Pack": "10PIC",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "CIR DIAP PANTS [M1]30",
+        "Pack": "1PIS",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "CIR PREM AD DIAP [M10]499",
+        "Pack": "10PIS",
         "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
     },
     {
@@ -96610,6 +96635,16 @@ const navkarMedicineData = [
         "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
     },
     {
+        "Product Name": "LACTO CALAMINE F/W BRIGHTEING VIT C",
+        "Pack": "50ML",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LACTO CALAMINE F/W OIL CONTROL KAOLIN CLAY",
+        "Pack": "50ML",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
         "Product Name": "LACTO CALAMINE FACE CTNS LOTION 60ML",
         "Pack": "60ML",
         "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
@@ -96647,6 +96682,21 @@ const navkarMedicineData = [
     {
         "Product Name": "LITTLE BABY WIPES [72`S]",
         "Pack": "72`S",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE COMFY NIGHT MILDLARGE M8",
+        "Pack": "M8",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE COMFY PANTS MID LARGE L8",
+        "Pack": "L8",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE COMFY PANTS MID LARGE XI7",
+        "Pack": "XI7",
         "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
     },
     {
@@ -96820,6 +96870,11 @@ const navkarMedicineData = [
         "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
     },
     {
+        "Product Name": "QUIK KOOL MOUTH ULCER GEL",
+        "Pack": "10GM",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
         "Product Name": "SLOAN SPRAY",
         "Pack": "55GM",
         "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
@@ -96965,11 +97020,6 @@ const navkarMedicineData = [
         "Company Name": "PIRAMAL PHARMA LIMITED"
     },
     {
-        "Product Name": "CIR CLASSIC DIAP PANTS [M10]425",
-        "Pack": "10PIC",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
         "Product Name": "CIR DIAP PANTS [L1]35",
         "Pack": "1PIS",
         "Company Name": "PIRAMAL PHARMA LIMITED"
@@ -96980,22 +97030,12 @@ const navkarMedicineData = [
         "Company Name": "PIRAMAL PHARMA LIMITED"
     },
     {
-        "Product Name": "CIR DIAP PANTS [M1]30",
-        "Pack": "1PIS",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
         "Product Name": "CIR DIAP PANTS [XL1]40",
         "Pack": "1PIS",
         "Company Name": "PIRAMAL PHARMA LIMITED"
     },
     {
         "Product Name": "CIR DIAP PANTS [XL10]599",
-        "Pack": "10PIS",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "CIR PREM AD DIAP [M10]499",
         "Pack": "10PIS",
         "Company Name": "PIRAMAL PHARMA LIMITED"
     },
@@ -97020,16 +97060,6 @@ const navkarMedicineData = [
         "Company Name": "PIRAMAL PHARMA LIMITED"
     },
     {
-        "Product Name": "LACTO CALAMINE F/W BRIGHTEING VIT C",
-        "Pack": "50ML",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LACTO CALAMINE F/W OIL CONTROL KAOLIN CLAY",
-        "Pack": "50ML",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
         "Product Name": "LACTO CALAMINE FACE CTNS LOTION 120ML",
         "Pack": "120ML",
         "Company Name": "PIRAMAL PHARMA LIMITED"
@@ -97037,26 +97067,6 @@ const navkarMedicineData = [
     {
         "Product Name": "LACTO CALAMINE FACE CTNS LOTION 30ML",
         "Pack": "30ML",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE COMFY NIGHT MILDLARGE M8",
-        "Pack": "M8",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE COMFY PANTS MID LARGE L8",
-        "Pack": "L8",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "LITTLE COMFY PANTS MID LARGE XI7",
-        "Pack": "XI7",
-        "Company Name": "PIRAMAL PHARMA LIMITED"
-    },
-    {
-        "Product Name": "QUIK KOOL MOUTH ULCER GEL",
-        "Pack": "10GM",
         "Company Name": "PIRAMAL PHARMA LIMITED"
     },
     {
@@ -101197,6 +101207,11 @@ const navkarMedicineData = [
     {
         "Product Name": "LORAPROJ MD 1",
         "Pack": "TAB",
+        "Company Name": "SAMPROJ PHARMA"
+    },
+    {
+        "Product Name": "OLASAM MD 1.25 TAB",
+        "Pack": "10TAB",
         "Company Name": "SAMPROJ PHARMA"
     },
     {

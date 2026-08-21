@@ -11710,11 +11710,6 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
-        "Product Name": "GUN MASSAGER",
-        "Pack": "-",
-        "Company Name": "HEALING PHARMA"
-    },
-    {
         "Product Name": "HAIRFREE CREAM",
         "Pack": "1X25GM",
         "Company Name": "HEALING PHARMA"
@@ -11842,6 +11837,11 @@ const productData = [
     {
         "Product Name": "HEALING FOOT CRACK CREAM",
         "Pack": "1X25GM",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "HEALING GUN MASSAGER",
+        "Pack": "-",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -13502,6 +13502,11 @@ const productData = [
     {
         "Product Name": "ZOVICLOVIR CREAM 5%",
         "Pack": "10GM",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "ZYZOLIDE 600 TAB",
+        "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -21255,6 +21260,11 @@ const productData = [
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
+        "Product Name": "TUSSMARK DXP JUNIOR SYP",
+        "Pack": "60ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
         "Product Name": "TUSSMARK LS DROP",
         "Pack": "15ML",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
@@ -22780,6 +22790,11 @@ const productData = [
         "Company Name": "NARENDRA MARKETING"
     },
     {
+        "Product Name": "NM CELLO MY DECKER 3 FOOD",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
         "Product Name": "NM HP DUOTONE BAGPACK",
         "Pack": "PC",
         "Company Name": "NARENDRA MARKETING"
@@ -22810,6 +22825,76 @@ const productData = [
         "Company Name": "NARENDRA MARKETING"
     },
     {
+        "Product Name": "ORTHO MIRF ABD BELT (L)",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "ORTHO MIRF ABD BELT(M)",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "ORTHO MIRF ABD BELT(S)",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "ORTHO MIRF ABD BELT(XL)",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "ORTHO MIRF CERVICAL COLLAR(L)",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "ORTHO MIRF CERVICAL COLLAR(S)",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "ORTHO MIRF CERVICAL COLLAR(XL)",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "ORTHO MIRF KNEE CAP(M)",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "ORTHO MIRF KNEE CAP(S)",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "ORTHO MIRF KNEE CAP(XL)",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "ORTHO MIRF LS BELT(L)",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "ORTHO MIRF LS BELT(M)",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "ORTHO MIRF LS BELT(S)",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "ORTHO MIRF LS BELT(XL)",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
         "Product Name": "SHEVASH CREAM",
         "Pack": "1X60GM",
         "Company Name": "NARENDRA MARKETING"
@@ -22827,6 +22912,11 @@ const productData = [
     {
         "Product Name": "SUN SCREEN LOTION",
         "Pack": "1X60GM",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "SUN SENSE AQUA GEL SPF50+",
+        "Pack": "50GM",
         "Company Name": "NARENDRA MARKETING"
     },
     {
@@ -29832,6 +29922,16 @@ const productData = [
     {
         "Product Name": "CSCORE 1GM INJ",
         "Pack": "10ML",
+        "Company Name": "ALKAFRESH SODA EFFERVESCENT"
+    },
+    {
+        "Product Name": "CSCORE 250 INJ",
+        "Pack": "7.5ML",
+        "Company Name": "ALKAFRESH SODA EFFERVESCENT"
+    },
+    {
+        "Product Name": "CSCORE 500 INJ",
+        "Pack": "7.5ML",
         "Company Name": "ALKAFRESH SODA EFFERVESCENT"
     },
     {
