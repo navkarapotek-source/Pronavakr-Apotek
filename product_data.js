@@ -11890,6 +11890,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "HEALING MUG SET (PACK OF6)",
+        "Pack": "-",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "HEALING MULTI COLOUR STEEL GLASS SET",
         "Pack": "6PCS",
         "Company Name": "HEALING PHARMA"
@@ -12582,11 +12587,6 @@ const productData = [
     {
         "Product Name": "MPHEAL-4MG TABS",
         "Pack": "1X10T",
-        "Company Name": "HEALING PHARMA"
-    },
-    {
-        "Product Name": "MUG SET (PACK OF6)",
-        "Pack": "-",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -20230,6 +20230,11 @@ const productData = [
         "Company Name": "LUPIN LIFESCIENCES LIMITED"
     },
     {
+        "Product Name": "LUPIN BLUPLAST CASSEROLE 15000ML",
+        "Pack": "PC",
+        "Company Name": "LUPIN LIFESCIENCES LIMITED"
+    },
+    {
         "Product Name": "LUPIN BOTTLE",
         "Pack": "-",
         "Company Name": "LUPIN LIFESCIENCES LIMITED"
@@ -20281,6 +20286,11 @@ const productData = [
     },
     {
         "Product Name": "LUPIN HEADPHONE",
+        "Pack": "PC",
+        "Company Name": "LUPIN LIFESCIENCES LIMITED"
+    },
+    {
+        "Product Name": "LUPIN INDUCTION",
         "Pack": "PC",
         "Company Name": "LUPIN LIFESCIENCES LIMITED"
     },
