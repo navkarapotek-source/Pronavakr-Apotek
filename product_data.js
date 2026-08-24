@@ -22755,6 +22755,121 @@ const productData = [
         "Company Name": "NARENDRA MARKETING"
     },
     {
+        "Product Name": "FIYU BREAST PUMP",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "FIYU FEEDIBG BOTTLE PREMIUM 250ML",
+        "Pack": "250ML",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "FIYU FEEDING BOTTLE DELUXE 250ML",
+        "Pack": "250ML",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "FIYU FEEDING BOTTLE DEXULE 125ML",
+        "Pack": "125ML",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "FIYU FEEDING BOTTLE PREMIUM 125ML",
+        "Pack": "125ML",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "FIYU FEEDING BOTTLE SUPER 125ML",
+        "Pack": "125ML",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "FIYU FEEDING BOTTLE SUPER 250ML",
+        "Pack": "250ML",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "FIYU FINGER TOOTH BRUSH",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "FIYU SUPER DELUXE NIPPLE",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "FIYU SUPER DELUXE SOOTHER",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "FIYU WATER TEETHER APPLE",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "FIYU WATER TEETHER CAR",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "FIYU WATER TEETHER DOUBLE CHERRY",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "FIYU WATER TEETHER FLOWER",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "FIYU WATER TEETHER GRAPES",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "FIYU WATER TEETHER ICE CREAM",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "FIYU WATER TEETHER MOBILE",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "FIYU WATER TEETHER ORANGE",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "FIYU WATER TEETHER SINGAL CHERRY",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "FIYU WATER TEETHER STRAWBEERY",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "FIYU WATER TEETHER TOMATO",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "FIYU WATER TEETHER WATERMELON",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
+        "Product Name": "FIYU WATER TEETHER YELLOW MANGO",
+        "Pack": "PC",
+        "Company Name": "NARENDRA MARKETING"
+    },
+    {
         "Product Name": "GLUCOSE D ORANGE (NM) 100GM",
         "Pack": "1X100GM",
         "Company Name": "NARENDRA MARKETING"
@@ -27575,6 +27690,11 @@ const productData = [
         "Company Name": "SMART ECO"
     },
     {
+        "Product Name": "BISOPECO AM 5 TAB",
+        "Pack": "15TAB",
+        "Company Name": "SMART ECO"
+    },
+    {
         "Product Name": "CHLORECO 12.5 TAB",
         "Pack": "15TAB",
         "Company Name": "SMART ECO"
@@ -27781,6 +27901,11 @@ const productData = [
     },
     {
         "Product Name": "METOLECO 50 XL TAB",
+        "Pack": "15TAB",
+        "Company Name": "SMART ECO"
+    },
+    {
+        "Product Name": "NEBIECO 5 TAB",
         "Pack": "15TAB",
         "Company Name": "SMART ECO"
     },
@@ -28857,6 +28982,11 @@ const productData = [
     {
         "Product Name": "ON 6BOX/180PC TATA SAMPANN TOOR DAL 1KG",
         "Pack": "1KG",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
+        "Product Name": "ON 6BOX/180PCS CROMPTON T LAMP",
+        "Pack": "PC",
         "Company Name": "SMART ICONIC LAB"
     },
     {

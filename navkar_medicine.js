@@ -3016,7 +3016,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "NEX AM 40 TAB",
-        "Pack": "10 TAB",
+        "Pack": "15 TAB",
         "Company Name": "AGNEX PHARMA"
     },
     {
@@ -10700,6 +10700,11 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LABORATORIES LIMITED"
     },
     {
+        "Product Name": "ROSUKEM CV 20 TAB",
+        "Pack": "10'S",
+        "Company Name": "ALKEM LABORATORIES LIMITED"
+    },
+    {
         "Product Name": "SACUVAL D 100 TAB",
         "Pack": "10'S",
         "Company Name": "ALKEM LABORATORIES LIMITED"
@@ -11920,11 +11925,6 @@ const navkarMedicineData = [
         "Company Name": "ALLERGAN INDIA LIMITED"
     },
     {
-        "Product Name": "VOXIN CR 150",
-        "Pack": "10CAP",
-        "Company Name": "ALLY LIFELINE"
-    },
-    {
         "Product Name": "ALTONIL 10MG TAB",
         "Pack": "15 TAB",
         "Company Name": "ALTEUS BIOGENICS PVT CILAPAM"
@@ -12132,6 +12132,11 @@ const navkarMedicineData = [
     {
         "Product Name": "VIVOZ SYP 200ML",
         "Pack": "200ML",
+        "Company Name": "ALTEUS BIOGENICS PVT CILAPAM"
+    },
+    {
+        "Product Name": "VOXIN CR 150",
+        "Pack": "10CAP",
         "Company Name": "ALTEUS BIOGENICS PVT CILAPAM"
     },
     {
@@ -12835,6 +12840,11 @@ const navkarMedicineData = [
         "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
     },
     {
+        "Product Name": "DEFLAMAX 12 TAB",
+        "Pack": "10TAB",
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
+    },
+    {
         "Product Name": "DEFLAMAX 6 MG TAB",
         "Pack": "10 TAB",
         "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
@@ -12867,6 +12877,11 @@ const navkarMedicineData = [
     {
         "Product Name": "TAPENFAST 50 TAB",
         "Pack": "10 TAB",
+        "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
+    },
+    {
+        "Product Name": "TAPENFAST ER 100 TAB",
+        "Pack": "10TAB",
         "Company Name": "ALTEUS BIOGENICS PVT. LTD [TOFANOX]"
     },
     {
@@ -18221,6 +18236,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "SUNDAE PRO 0.25 INJ",
+        "Pack": "1'S",
+        "Company Name": "BIOCON LIMITED (DIABETOLOGY) {ERIS}"
+    },
+    {
+        "Product Name": "SUNDAE PRO 0.5 INJ",
         "Pack": "1'S",
         "Company Name": "BIOCON LIMITED (DIABETOLOGY) {ERIS}"
     },
@@ -39265,11 +39285,6 @@ const navkarMedicineData = [
         "Company Name": "ERIS LIFE SCIENCES (PHARMA)"
     },
     {
-        "Product Name": "SUNDAE PRO 0.5 INJ",
-        "Pack": "1'S",
-        "Company Name": "ERIS LIFE SCIENCES (PHARMA)"
-    },
-    {
         "Product Name": "SUNDAE PRO 1",
         "Pack": "1'S",
         "Company Name": "ERIS LIFE SCIENCES (PHARMA)"
@@ -59150,6 +59165,11 @@ const navkarMedicineData = [
         "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
     },
     {
+        "Product Name": "CLAVINTAS 150 TAB",
+        "Pack": "10TAB",
+        "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
+    },
+    {
         "Product Name": "COGVIN DS SYRUP",
         "Pack": "ML",
         "Company Name": "INTAS PHARMACEUTICALS PVT LTD"
@@ -64680,6 +64700,11 @@ const navkarMedicineData = [
         "Company Name": "JUGGAT PHARMA LTD"
     },
     {
+        "Product Name": "BOTROCLOT TOPICAL SOLU 10ML",
+        "Pack": "10ML",
+        "Company Name": "JUGGAT PHARMA LTD"
+    },
+    {
         "Product Name": "BOTROCLOT TOPICAL SOLUTION",
         "Pack": "15ML",
         "Company Name": "JUGGAT PHARMA LTD"
@@ -68246,6 +68271,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "TELMODOR B 40/2.5",
+        "Pack": "10 TAB",
+        "Company Name": "LA RENON HELATHACRE LAUREL"
+    },
+    {
+        "Product Name": "TELMODOR B 40/5",
         "Pack": "10 TAB",
         "Company Name": "LA RENON HELATHACRE LAUREL"
     },
@@ -77660,6 +77690,21 @@ const navkarMedicineData = [
         "Company Name": "MACLEODS (PHARMA)"
     },
     {
+        "Product Name": "MEBETRA CAP",
+        "Pack": "10'S",
+        "Company Name": "MACLEODS (PHARMA)"
+    },
+    {
+        "Product Name": "MEBETRA SR CAP",
+        "Pack": "10'S",
+        "Company Name": "MACLEODS (PHARMA)"
+    },
+    {
+        "Product Name": "MEBETRA X CAP",
+        "Pack": "10'S",
+        "Company Name": "MACLEODS (PHARMA)"
+    },
+    {
         "Product Name": "MEGALIS 10 TAB",
         "Pack": "4 TAB",
         "Company Name": "MACLEODS (PHARMA)"
@@ -77722,6 +77767,16 @@ const navkarMedicineData = [
     {
         "Product Name": "ONDAMAC ORAL SOLUTION",
         "Pack": "30ML",
+        "Company Name": "MACLEODS (PHARMA)"
+    },
+    {
+        "Product Name": "PANCREDA 10000",
+        "Pack": "10'S",
+        "Company Name": "MACLEODS (PHARMA)"
+    },
+    {
+        "Product Name": "PANCREDA 25000",
+        "Pack": "10'S",
         "Company Name": "MACLEODS (PHARMA)"
     },
     {
@@ -86800,169 +86855,174 @@ const navkarMedicineData = [
         "Company Name": "MEDIBLESS"
     },
     {
+        "Product Name": "BONETAS K2 TAB",
+        "Pack": "15 TAB",
+        "Company Name": "MEDIBLESS"
+    },
+    {
         "Product Name": "CANDIGRACE CREAM 50 GM",
         "Pack": "50 GM",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "CEFIBLESS-200 TAB",
         "Pack": "10 TAB",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "CETMUST-M KID TAB",
         "Pack": "10 TAB",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "CETMUST-M TAB",
         "Pack": "10 TAB",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "CODEPURE CAP",
         "Pack": "10 CAP",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "COLLARITE UC-2 TAB",
         "Pack": "10 TAB",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "COXIMAC PG 10 TAB",
         "Pack": "10 TAB",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "DEFMUST-6 TAB",
         "Pack": "10 TAB",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "DOXYVIR 10 MG",
         "Pack": "10 CAP",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "DOXYVIR LB-CAPSULE",
         "Pack": "10 TAB",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "FERTIHELP F 10 TAB",
         "Pack": "TAB",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "FERTIHELP M 10 TAB",
         "Pack": "TAB",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "FINEDHEA SR TAB",
         "Pack": "10 TAB",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "FOLCAN NVP 30 TAB",
         "Pack": "30TAB",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "FOLCAN-D CAP",
         "Pack": "10 CAP",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "FOLCAN-NVP TAB",
         "Pack": "10 TAB",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "GLIMIACT M1",
         "Pack": "10 TAB",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "GLIMIACT M2",
         "Pack": "10 TAB",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "GLIMIACT MV 1/0.2",
         "Pack": "10 TAB",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "GLIMIACT MV 1/0.3",
         "Pack": "10 TAB",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "GLIMIACT MV 2/0.2",
         "Pack": "10 TAB",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "GLIMIACT MV 2/0.3",
         "Pack": "10 TAB",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "ITSMUST 200",
         "Pack": "10 CAP",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "ITSMUST-100 10*10",
         "Pack": "10 CAP",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "IVAMUST 5MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "L MYOFUR",
         "Pack": "10 TAB",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "LIPIGRACE GOLD CAP",
         "Pack": "10 CAP",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "MEDIGEST SR 200 TAB",
         "Pack": "10TAB",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "MOMACTIVE D3 10 TAB",
         "Pack": "10 TAB",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "MYODCAL TAB",
         "Pack": "15 TAB",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "MYOFER MAX TAB",
         "Pack": "10TAB",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "MYOFUR-XT TAB",
         "Pack": "10 TAB",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "MYOGRACE TAB",
         "Pack": "10 TAB",
-        "Company Name": "BONETAS K2 TAB"
+        "Company Name": "MEDIBLESS"
     },
     {
         "Product Name": "NACMUST [SP] TAB",
@@ -91816,6 +91876,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "DABIGAT 150MG CAP 10``S",
+        "Pack": "10 TAB",
+        "Company Name": "NATCO GENERICS"
+    },
+    {
+        "Product Name": "IVABRATCO 5 MG TAB",
         "Pack": "10 TAB",
         "Company Name": "NATCO GENERICS"
     },
@@ -108265,6 +108330,11 @@ const navkarMedicineData = [
         "Company Name": "DAPEFY 10 MG TAB"
     },
     {
+        "Product Name": "YUGARD EYE CREAM",
+        "Pack": "30GM",
+        "Company Name": "DAPEFY 10 MG TAB"
+    },
+    {
         "Product Name": "ZEMPRED 4MG TAB",
         "Pack": "10 TAB",
         "Company Name": "DAPEFY 10 MG TAB"
@@ -122500,6 +122570,11 @@ const navkarMedicineData = [
         "Company Name": "ZUVENTUS (FLORINA DIV )"
     },
     {
+        "Product Name": "BEVON SOFTULES CAP",
+        "Pack": "15 CAP",
+        "Company Name": "ZUVENTUS (FLORINA DIV )"
+    },
+    {
         "Product Name": "BEVON SYRUP",
         "Pack": "200ML",
         "Company Name": "ZUVENTUS (FLORINA DIV )"
@@ -122792,11 +122867,6 @@ const navkarMedicineData = [
     {
         "Product Name": "BEVON CD CAP",
         "Pack": "10 CAP",
-        "Company Name": "ZUVENTUS (LIFE STYLE)"
-    },
-    {
-        "Product Name": "BEVON SOFTULES CAP",
-        "Pack": "15 CAP",
         "Company Name": "ZUVENTUS (LIFE STYLE)"
     },
     {
