@@ -5140,6 +5140,11 @@ const navkarMedicineData = [
         "Company Name": "AKUMENTIS HEALTHCARE (ASPIRIS)"
     },
     {
+        "Product Name": "ARGENTA SACH",
+        "Pack": "8.5GM",
+        "Company Name": "AKUMENTIS HEALTHCARE (CREATIS)"
+    },
+    {
         "Product Name": "ADOVA CAP 5`S",
         "Pack": "TAB",
         "Company Name": "AKUMENTIS HEALTHCARE (CREATIS)"
@@ -5177,11 +5182,6 @@ const navkarMedicineData = [
     {
         "Product Name": "ALL 9 TL TAB",
         "Pack": "10TAB",
-        "Company Name": "AKUMENTIS HEALTHCARE (CREATIS)"
-    },
-    {
-        "Product Name": "ARGENTA SACH",
-        "Pack": "8.5GM",
         "Company Name": "AKUMENTIS HEALTHCARE (CREATIS)"
     },
     {
@@ -10450,6 +10450,11 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LAB(DERMA ONE)"
     },
     {
+        "Product Name": "OLESOFT LITE GEL",
+        "Pack": "75GM",
+        "Company Name": "ALKEM LAB(DERMA ONE)"
+    },
+    {
         "Product Name": "OLESOFT MAX CREAM 150GM",
         "Pack": "150GM",
         "Company Name": "ALKEM LAB(DERMA ONE)"
@@ -10657,11 +10662,6 @@ const navkarMedicineData = [
     {
         "Product Name": "OBESEMA 2.4MG INJ",
         "Pack": "INJ",
-        "Company Name": "ALKEM LABORATORIES LIMITED"
-    },
-    {
-        "Product Name": "OLESOFT LITE GEL",
-        "Pack": "75GM",
         "Company Name": "ALKEM LABORATORIES LIMITED"
     },
     {
@@ -24815,6 +24815,11 @@ const navkarMedicineData = [
         "Company Name": "CIPLA LIMITED IMPULSE"
     },
     {
+        "Product Name": "MIDACIP 1.25 IP",
+        "Pack": "1.2 ML",
+        "Company Name": "CIPLA LIMITED IMPULSE"
+    },
+    {
         "Product Name": "OXCARB 150MG TAB",
         "Pack": "TAB",
         "Company Name": "CIPLA LIMITED IMPULSE"
@@ -36950,6 +36955,11 @@ const navkarMedicineData = [
         "Company Name": "ENTOD MEDEVA"
     },
     {
+        "Product Name": "NEPATOP FREE EYE DROP",
+        "Pack": "5ML",
+        "Company Name": "ENTOD MEDEVA"
+    },
+    {
         "Product Name": "NUBASE AQUA SOFT FACIAL",
         "Pack": "50GM",
         "Company Name": "ENTOD MEDEVA"
@@ -37125,6 +37135,11 @@ const navkarMedicineData = [
         "Company Name": "ENTOD OPTHAMNIC"
     },
     {
+        "Product Name": "NEPATOP OD EYE DROPS",
+        "Pack": "3ML",
+        "Company Name": "ENTOD OPTHAMNIC"
+    },
+    {
         "Product Name": "OCUBIOME TAB",
         "Pack": "20TAB",
         "Company Name": "ENTOD OPTHAMNIC"
@@ -37297,6 +37312,11 @@ const navkarMedicineData = [
     {
         "Product Name": "GT-TOB EYE DROP",
         "Pack": "5ML",
+        "Company Name": "ENTOD PHARMA (GENTECK)"
+    },
+    {
+        "Product Name": "I BORIC CLEAR EYE DROPS",
+        "Pack": "10ML",
         "Company Name": "ENTOD PHARMA (GENTECK)"
     },
     {
@@ -67905,6 +67925,16 @@ const navkarMedicineData = [
         "Company Name": "LA RENON HELATHA LACTUS ALPHA"
     },
     {
+        "Product Name": "DIVAHENZ -3.125",
+        "Pack": "10TAB",
+        "Company Name": "LA RENON HELATHA LACTUS ALPHA"
+    },
+    {
+        "Product Name": "DIVAHENZ 6.25 TAB",
+        "Pack": "10TAB",
+        "Company Name": "LA RENON HELATHA LACTUS ALPHA"
+    },
+    {
         "Product Name": "ELAGOHENZ 150 TAB",
         "Pack": "10 TAB",
         "Company Name": "LA RENON HELATHA LACTUS ALPHA"
@@ -68552,6 +68582,11 @@ const navkarMedicineData = [
     {
         "Product Name": "CIRROSAM 400 TAB",
         "Pack": "15 TAB",
+        "Company Name": "LA RENON LAMBENT APLHA"
+    },
+    {
+        "Product Name": "CIRROSAM INJ",
+        "Pack": "1VIAL",
         "Company Name": "LA RENON LAMBENT APLHA"
     },
     {
@@ -78045,6 +78080,11 @@ const navkarMedicineData = [
         "Company Name": "MACLEODS (PHARMACORE )"
     },
     {
+        "Product Name": "MACBERY ACTIV SYS",
+        "Pack": "100ML",
+        "Company Name": "MACLEODS (PHARMACORE )"
+    },
+    {
         "Product Name": "MACBRITE D3 CAP 8`S",
         "Pack": "TAB",
         "Company Name": "MACLEODS (PHARMACORE )"
@@ -83350,6 +83390,16 @@ const navkarMedicineData = [
         "Company Name": "BANDY SYP"
     },
     {
+        "Product Name": "TELMIKIND BS 2.5 TAB",
+        "Pack": "10TAB",
+        "Company Name": "BANDY SYP"
+    },
+    {
+        "Product Name": "TELMIKIND BS 5 TAB",
+        "Pack": "10TAB",
+        "Company Name": "BANDY SYP"
+    },
+    {
         "Product Name": "TELMIKIND H 80 TAB",
         "Pack": "10TAB",
         "Company Name": "BANDY SYP"
@@ -88056,6 +88106,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "EVAQ CHILD SYP",
+        "Pack": "100ML",
+        "Company Name": "MEDLEY PHARMACEUTICAL PVT LTD"
+    },
+    {
+        "Product Name": "EVAQ SYS SYS",
         "Pack": "100ML",
         "Company Name": "MEDLEY PHARMACEUTICAL PVT LTD"
     },

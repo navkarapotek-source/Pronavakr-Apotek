@@ -615,6 +615,16 @@ const productData = [
         "Company Name": "AJANTA PHARMA LTD"
     },
     {
+        "Product Name": "PROLIDON OINT 15GM",
+        "Pack": "1X15GM",
+        "Company Name": "AJANTA PHARMA LTD"
+    },
+    {
+        "Product Name": "PROLIDON OINT 5% 25GM",
+        "Pack": "1X25GM",
+        "Company Name": "AJANTA PHARMA LTD"
+    },
+    {
         "Product Name": "PROLIDON POWDER",
         "Pack": "1X10GM",
         "Company Name": "AJANTA PHARMA LTD"
@@ -2507,16 +2517,6 @@ const productData = [
     {
         "Product Name": "PREGALEARN TEST KIT",
         "Pack": "1PC",
-        "Company Name": "ARISTO LABORATORIES PVT.LTD."
-    },
-    {
-        "Product Name": "PROLIDON OINT 15GM",
-        "Pack": "1X15GM",
-        "Company Name": "ARISTO LABORATORIES PVT.LTD."
-    },
-    {
-        "Product Name": "PROLIDON OINT 5% 25GM",
-        "Pack": "1X25GM",
         "Company Name": "ARISTO LABORATORIES PVT.LTD."
     },
     {
