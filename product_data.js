@@ -12895,6 +12895,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "PRAZOBROOK XL 5 TAB",
+        "Pack": "10TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "PREDNIHEAL 10 TAB",
         "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
@@ -15440,7 +15445,7 @@ const productData = [
         "Company Name": "KNOLL HEALTHCARE PVT LTD"
     },
     {
-        "Product Name": "METOPOLE-XL 12.5 TABS",
+        "Product Name": "METOPOLE-XL 12.5 TABSB",
         "Pack": "1X10T",
         "Company Name": "KNOLL HEALTHCARE PVT LTD"
     },
@@ -15620,7 +15625,7 @@ const productData = [
         "Company Name": "KNOLL HEALTHCARE PVT LTD"
     },
     {
-        "Product Name": "TELKONOL-M TABS",
+        "Product Name": "TELKONOL-M TABSB36",
         "Pack": "1X10T",
         "Company Name": "KNOLL HEALTHCARE PVT LTD"
     },
@@ -20950,11 +20955,6 @@ const productData = [
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
-        "Product Name": "DOMIPLAY DROP",
-        "Pack": "5ML",
-        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
-    },
-    {
         "Product Name": "ELECTROKIND ORS LIQUID (APPLE)",
         "Pack": "200ML",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
@@ -21360,6 +21360,11 @@ const productData = [
         "Company Name": "MANKIND PHARMA LTD."
     },
     {
+        "Product Name": "DOMIPLAY DROP",
+        "Pack": "5ML",
+        "Company Name": "MANKIND PHARMA LTD."
+    },
+    {
         "Product Name": "FUL-AID GOLD CAPS",
         "Pack": "1X10C",
         "Company Name": "MANKIND PHARMA LTD."
@@ -21453,6 +21458,21 @@ const productData = [
         "Product Name": "EMAZYME TAB",
         "Pack": "10 TAB",
         "Company Name": "MARTIN"
+    },
+    {
+        "Product Name": "GLUTAMIC RICH CREAMY FACEWASH",
+        "Pack": "70GM",
+        "Company Name": "MCROSS"
+    },
+    {
+        "Product Name": "GLUTAMIC SOAP",
+        "Pack": "75GM",
+        "Company Name": "MCROSS"
+    },
+    {
+        "Product Name": "GLUTAMIC TAB",
+        "Pack": "10TAB",
+        "Company Name": "MCROSS"
     },
     {
         "Product Name": "BED SHEET",

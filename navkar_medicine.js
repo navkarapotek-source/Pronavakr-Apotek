@@ -10735,6 +10735,11 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LABORATORIES LIMITED"
     },
     {
+        "Product Name": "SEMASIZE PLUS 1.7MG INJ",
+        "Pack": "1VIAL",
+        "Company Name": "ALKEM LABORATORIES LIMITED"
+    },
+    {
         "Product Name": "TAXIM O FORTE DRY SYP 60ML",
         "Pack": "60ML",
         "Company Name": "ALKEM LABORATORIES LIMITED"
@@ -13545,6 +13550,11 @@ const navkarMedicineData = [
         "Company Name": "APEX (YVO)"
     },
     {
+        "Product Name": "P 100 DROPS",
+        "Pack": "15ML",
+        "Company Name": "APEX (YVO)"
+    },
+    {
         "Product Name": "P 120MG SUSP",
         "Pack": "60ML",
         "Company Name": "APEX (YVO)"
@@ -13618,11 +13628,6 @@ const navkarMedicineData = [
         "Product Name": "ZINCOFER TAB",
         "Pack": "TAB",
         "Company Name": "APEX (YVO)"
-    },
-    {
-        "Product Name": "P 100 DROPS",
-        "Pack": "15ML",
-        "Company Name": "APEX LABORATORIES PRIVATE LIMITED"
     },
     {
         "Product Name": "AELIUS D3 ORAL SOLUTION",
@@ -14885,6 +14890,11 @@ const navkarMedicineData = [
         "Company Name": "ARISTO MF5"
     },
     {
+        "Product Name": "ARISTOZYME PRO DROPS",
+        "Pack": "10ML",
+        "Company Name": "ARISTO MF5"
+    },
+    {
         "Product Name": "ARISTOZYME SYP",
         "Pack": "200ML",
         "Company Name": "ARISTO MF5"
@@ -15035,6 +15045,16 @@ const navkarMedicineData = [
         "Company Name": "ARISTO MF5"
     },
     {
+        "Product Name": "PELABIOS SYS",
+        "Pack": "100ML",
+        "Company Name": "ARISTO MF5"
+    },
+    {
+        "Product Name": "PELABIOS TAB",
+        "Pack": "20TAB",
+        "Company Name": "ARISTO MF5"
+    },
+    {
         "Product Name": "SMUTH 500/100MG (600MG) CAP",
         "Pack": "10 CAP",
         "Company Name": "ARISTO MF5"
@@ -15136,11 +15156,6 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "MEGAGLIPTIN TAB",
-        "Pack": "10 TAB",
-        "Company Name": "ARISTO PHARMA"
-    },
-    {
-        "Product Name": "MELOSET 3MG TAB",
         "Pack": "10 TAB",
         "Company Name": "ARISTO PHARMA"
     },
@@ -16745,6 +16760,11 @@ const navkarMedicineData = [
         "Company Name": "ARISTO PHARMA { TF3}"
     },
     {
+        "Product Name": "MELOSET 3MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ARISTO PHARMA { TF3}"
+    },
+    {
         "Product Name": "NEBI 2.5MG TAB",
         "Pack": "10 TAB",
         "Company Name": "ARISTO PHARMA { TF3}"
@@ -16825,11 +16845,6 @@ const navkarMedicineData = [
         "Company Name": "ARISTO PHARMACEUTICALS"
     },
     {
-        "Product Name": "ARISTOZYME PRO DROPS",
-        "Pack": "10ML",
-        "Company Name": "ARISTO PHARMACEUTICALS"
-    },
-    {
         "Product Name": "FEMGOLIX 150MG TAB",
         "Pack": "10'S",
         "Company Name": "ARISTO PHARMACEUTICALS"
@@ -16857,16 +16872,6 @@ const navkarMedicineData = [
     {
         "Product Name": "O STAT 120MG CAP",
         "Pack": "10'S",
-        "Company Name": "ARISTO PHARMACEUTICALS"
-    },
-    {
-        "Product Name": "PELABIOS SYS",
-        "Pack": "100ML",
-        "Company Name": "ARISTO PHARMACEUTICALS"
-    },
-    {
-        "Product Name": "PELABIOS TAB",
-        "Pack": "20TAB",
         "Company Name": "ARISTO PHARMACEUTICALS"
     },
     {
@@ -53185,6 +53190,16 @@ const navkarMedicineData = [
         "Company Name": "ICON LIFE SCIENCES (MESMER)"
     },
     {
+        "Product Name": "ZOLNAP M 10 CAP",
+        "Pack": "10'S",
+        "Company Name": "ICON LIFE SCIENCES (MESMER)"
+    },
+    {
+        "Product Name": "ZOLNAP M 5 CAP",
+        "Pack": "10'S",
+        "Company Name": "ICON LIFE SCIENCES (MESMER)"
+    },
+    {
         "Product Name": "ZUPENOL DEPOT",
         "Pack": "VIAL",
         "Company Name": "ICON LIFE SCIENCES (MESMER)"
@@ -66385,11 +66400,6 @@ const navkarMedicineData = [
         "Company Name": "KOYE PHARMA (PRISMA DIVISION )"
     },
     {
-        "Product Name": "SEPTRAN PAED SUSP",
-        "Pack": "50ML",
-        "Company Name": "KOYE PHARMA (PRISMA DIVISION )"
-    },
-    {
         "Product Name": "ZOBACTIN 4.5 INJ",
         "Pack": "1 VIAL",
         "Company Name": "KOYE PHARMA (PRISMA DIVISION )"
@@ -66668,11 +66678,6 @@ const navkarMedicineData = [
         "Product Name": "SPIROVENT I RESPULES",
         "Pack": "2.5 ML",
         "Company Name": "KOYE PHARMA CAIR"
-    },
-    {
-        "Product Name": "SEPTRAN PAED SUSP",
-        "Pack": "100ML",
-        "Company Name": "KOYE PHARMACEUTICALS (CAIR)"
     },
     {
         "Product Name": "ADEFCORT 6 TAB",
@@ -78965,89 +78970,94 @@ const navkarMedicineData = [
         "Company Name": "MACLEODS (PROCARE - CV)"
     },
     {
+        "Product Name": "OLMESAR H 40 TAB",
+        "Pack": "15 TAB",
+        "Company Name": "MACLEODS (PROCARE - CV)"
+    },
+    {
         "Product Name": "OLMESAR PLUS 20 TAB",
         "Pack": "10 TAB",
-        "Company Name": "OLMESAR H 40 TAB"
+        "Company Name": "MACLEODS (PROCARE - CV)"
     },
     {
         "Product Name": "OLMESAR PLUS 40 TAB",
         "Pack": "10 TAB",
-        "Company Name": "OLMESAR H 40 TAB"
+        "Company Name": "MACLEODS (PROCARE - CV)"
     },
     {
         "Product Name": "ROSUMAC 10MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "OLMESAR H 40 TAB"
+        "Company Name": "MACLEODS (PROCARE - CV)"
     },
     {
         "Product Name": "ROSUMAC 20MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "OLMESAR H 40 TAB"
+        "Company Name": "MACLEODS (PROCARE - CV)"
     },
     {
         "Product Name": "ROSUMAC 40MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "OLMESAR H 40 TAB"
+        "Company Name": "MACLEODS (PROCARE - CV)"
     },
     {
         "Product Name": "ROSUMAC 5MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "OLMESAR H 40 TAB"
+        "Company Name": "MACLEODS (PROCARE - CV)"
     },
     {
         "Product Name": "ROSUMAC ASP 20/75 CAP",
         "Pack": "10 CAP",
-        "Company Name": "OLMESAR H 40 TAB"
+        "Company Name": "MACLEODS (PROCARE - CV)"
     },
     {
         "Product Name": "ROSUMAC CV 10MG TAB",
         "Pack": "TAB",
-        "Company Name": "OLMESAR H 40 TAB"
+        "Company Name": "MACLEODS (PROCARE - CV)"
     },
     {
         "Product Name": "ROSUMAC CV 20MG TAB",
         "Pack": "TAB",
-        "Company Name": "OLMESAR H 40 TAB"
+        "Company Name": "MACLEODS (PROCARE - CV)"
     },
     {
         "Product Name": "ROSUMAC EZ",
         "Pack": "10 TAB",
-        "Company Name": "OLMESAR H 40 TAB"
+        "Company Name": "MACLEODS (PROCARE - CV)"
     },
     {
         "Product Name": "ROSUMAC F 10/160 MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "OLMESAR H 40 TAB"
+        "Company Name": "MACLEODS (PROCARE - CV)"
     },
     {
         "Product Name": "ROSUMAC F 5 MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "OLMESAR H 40 TAB"
+        "Company Name": "MACLEODS (PROCARE - CV)"
     },
     {
         "Product Name": "TENGINOW M 500MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "OLMESAR H 40 TAB"
+        "Company Name": "MACLEODS (PROCARE - CV)"
     },
     {
         "Product Name": "TENGINOW TAB",
         "Pack": "10 TAB",
-        "Company Name": "OLMESAR H 40 TAB"
+        "Company Name": "MACLEODS (PROCARE - CV)"
     },
     {
         "Product Name": "TIGEMAC 90MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "OLMESAR H 40 TAB"
+        "Company Name": "MACLEODS (PROCARE - CV)"
     },
     {
         "Product Name": "TRIOLMESAR 20MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "OLMESAR H 40 TAB"
+        "Company Name": "MACLEODS (PROCARE - CV)"
     },
     {
         "Product Name": "TRIOLMESAR 40MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "OLMESAR H 40 TAB"
+        "Company Name": "MACLEODS (PROCARE - CV)"
     },
     {
         "Product Name": "ACUPENEM 1 G",
@@ -80600,6 +80610,11 @@ const navkarMedicineData = [
         "Company Name": "MANKIND PHARMA (3D)"
     },
     {
+        "Product Name": "ABEVIA  E TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (ASPIRIS)"
+    },
+    {
         "Product Name": "ABEVIA 100 CAP",
         "Pack": "10 CAP",
         "Company Name": "MANKIND PHARMA (ASPIRIS)"
@@ -80612,11 +80627,6 @@ const navkarMedicineData = [
     {
         "Product Name": "ABEVIA N TAB",
         "Pack": "10 TAB",
-        "Company Name": "MANKIND PHARMA (ASPIRIS)"
-    },
-    {
-        "Product Name": "ABEVIB E TAB",
-        "Pack": "10TAB",
         "Company Name": "MANKIND PHARMA (ASPIRIS)"
     },
     {
@@ -97935,6 +97945,16 @@ const navkarMedicineData = [
         "Company Name": "R.V.LIFESCIENCES"
     },
     {
+        "Product Name": "SEPTRAN PAED SUSP",
+        "Pack": "100ML",
+        "Company Name": "R.V.LIFESCIENCES"
+    },
+    {
+        "Product Name": "SEPTRAN PAED SUSP",
+        "Pack": "50ML",
+        "Company Name": "R.V.LIFESCIENCES"
+    },
+    {
         "Product Name": "SEPTRAN SUSP",
         "Pack": "100 ML",
         "Company Name": "R.V.LIFESCIENCES"
@@ -104812,6 +104832,11 @@ const navkarMedicineData = [
     {
         "Product Name": "OCTAHALER INHALER",
         "Pack": "1 PIC",
+        "Company Name": "SUN PHARMA (RADIANT)"
+    },
+    {
+        "Product Name": "RIVAFREE INH",
+        "Pack": "3ML",
         "Company Name": "SUN PHARMA (RADIANT)"
     },
     {
@@ -121807,6 +121832,11 @@ const navkarMedicineData = [
     {
         "Product Name": "PROLOP INJ",
         "Pack": "INJ",
+        "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
+    },
+    {
+        "Product Name": "RHINAM LC SYRUP",
+        "Pack": "60ML",
         "Company Name": "ZORVIA HEALTHCARE (FORCE 1)"
     },
     {
