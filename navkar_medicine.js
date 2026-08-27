@@ -1995,6 +1995,11 @@ const navkarMedicineData = [
         "Company Name": "ABBOTT INDIA LTD"
     },
     {
+        "Product Name": "EXTENSIOR 0.25MG PEN",
+        "Pack": "1.5ML",
+        "Company Name": "ABBOTT INDIA LTD"
+    },
+    {
         "Product Name": "GLUCAGEN HYPOKIT",
         "Pack": "KIT",
         "Company Name": "ABBOTT INDIA LTD"
@@ -17970,6 +17975,11 @@ const navkarMedicineData = [
         "Company Name": "BHARAT SERUMS & VACCINES LTD"
     },
     {
+        "Product Name": "TAMIK INJ",
+        "Pack": "5ML",
+        "Company Name": "BHARAT SERUMS & VACCINES LTD"
+    },
+    {
         "Product Name": "ENRIFOL 2 MG TAB",
         "Pack": "28 TAB",
         "Company Name": "BHARAT SERUMS (FEMINORA)"
@@ -18240,12 +18250,27 @@ const navkarMedicineData = [
         "Company Name": "BIOCON LIMITED (CARDIOLOGY)"
     },
     {
+        "Product Name": "MIX 30 PEN",
+        "Pack": "1'S",
+        "Company Name": "BIOCON LIMITED (DIABETOLOGY) {ERIS}"
+    },
+    {
+        "Product Name": "RAPID PEN",
+        "Pack": "1'S",
+        "Company Name": "BIOCON LIMITED (DIABETOLOGY) {ERIS}"
+    },
+    {
         "Product Name": "SUNDAE PRO 0.25 INJ",
         "Pack": "1'S",
         "Company Name": "BIOCON LIMITED (DIABETOLOGY) {ERIS}"
     },
     {
         "Product Name": "SUNDAE PRO 0.5 INJ",
+        "Pack": "1'S",
+        "Company Name": "BIOCON LIMITED (DIABETOLOGY) {ERIS}"
+    },
+    {
+        "Product Name": "SUNDAE PRO 1",
         "Pack": "1'S",
         "Company Name": "BIOCON LIMITED (DIABETOLOGY) {ERIS}"
     },
@@ -29040,6 +29065,16 @@ const navkarMedicineData = [
         "Company Name": "CORPORSANO MEDIAID"
     },
     {
+        "Product Name": "NIMDEX [P] TAB",
+        "Pack": "10 TAB",
+        "Company Name": "CORPORSANO MEDIAID"
+    },
+    {
+        "Product Name": "NIMDEX [SP] TAB",
+        "Pack": "10 TAB",
+        "Company Name": "CORPORSANO MEDIAID"
+    },
+    {
         "Product Name": "NIMDEX COLD NX TAB",
         "Pack": "10 TAB",
         "Company Name": "CORPORSANO MEDIAID"
@@ -29067,16 +29102,6 @@ const navkarMedicineData = [
     {
         "Product Name": "NIMDEX MP DS SUSP",
         "Pack": "60 ML",
-        "Company Name": "CORPORSANO MEDIAID"
-    },
-    {
-        "Product Name": "NIMDEX P TAB",
-        "Pack": "10 TAB",
-        "Company Name": "CORPORSANO MEDIAID"
-    },
-    {
-        "Product Name": "NIMDEX SP TAB",
-        "Pack": "10 TAB",
         "Company Name": "CORPORSANO MEDIAID"
     },
     {
@@ -31555,6 +31580,21 @@ const navkarMedicineData = [
         "Company Name": "DR REDDYS LAB GRAND ERA"
     },
     {
+        "Product Name": "STUGERON 25 TAB",
+        "Pack": "25TAB",
+        "Company Name": "DR REDDYS LAB GRAND ERA"
+    },
+    {
+        "Product Name": "STUGERON FORTE TAB",
+        "Pack": "25TAB",
+        "Company Name": "DR REDDYS LAB GRAND ERA"
+    },
+    {
+        "Product Name": "STUGERON PLUS TAB",
+        "Pack": "10TAB",
+        "Company Name": "DR REDDYS LAB GRAND ERA"
+    },
+    {
         "Product Name": "VISCODYNE COUGH SYP 100ML",
         "Pack": "100ML",
         "Company Name": "DR REDDYS LAB GRAND ERA"
@@ -33035,9 +33075,24 @@ const navkarMedicineData = [
         "Company Name": "EISAI  PHARMACEUTICALS INDI PV"
     },
     {
+        "Product Name": "DAYVIGO 10MG TAB",
+        "Pack": "14TAB",
+        "Company Name": "EISAI  PHARMACEUTICALS INDI PV"
+    },
+    {
+        "Product Name": "DAYVIGO 5MG TAB",
+        "Pack": "14TAB",
+        "Company Name": "EISAI  PHARMACEUTICALS INDI PV"
+    },
+    {
         "Product Name": "METHYCOBAL TAB",
         "Pack": "15 TAB",
         "Company Name": "EISAI  PHARMACEUTICALS INDI PV"
+    },
+    {
+        "Product Name": "QUICOBAL 1500 MCG STRIPS",
+        "Pack": "1",
+        "Company Name": "EISAI NULIFE"
     },
     {
         "Product Name": "ARICEP 10MG TAB",
@@ -33047,6 +33102,21 @@ const navkarMedicineData = [
     {
         "Product Name": "ARICEP 5MG TAB",
         "Pack": "10 TAB",
+        "Company Name": "EISAI PHARMA HILIFE"
+    },
+    {
+        "Product Name": "FYCOMPA 2MG TAB",
+        "Pack": "1*7",
+        "Company Name": "EISAI PHARMA HILIFE"
+    },
+    {
+        "Product Name": "FYCOMPA 4MG TAB",
+        "Pack": "1*14",
+        "Company Name": "EISAI PHARMA HILIFE"
+    },
+    {
+        "Product Name": "FYCOMPA 6MG TAB",
+        "Pack": "1*14",
         "Company Name": "EISAI PHARMA HILIFE"
     },
     {
@@ -36435,6 +36505,11 @@ const navkarMedicineData = [
         "Company Name": "EMCURE(PHARMA)"
     },
     {
+        "Product Name": "EIT PG TAB",
+        "Pack": "10TAB",
+        "Company Name": "EMCURE(PHARMA)"
+    },
+    {
         "Product Name": "EMANZEN AP TAB",
         "Pack": "10TAB",
         "Company Name": "EMCURE(PHARMA)"
@@ -36461,6 +36536,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "FULL 24 D3 TAB",
+        "Pack": "15TAB",
+        "Company Name": "EMCURE(PHARMA)"
+    },
+    {
+        "Product Name": "FULL 24 LC TAB",
         "Pack": "15TAB",
         "Company Name": "EMCURE(PHARMA)"
     },
@@ -36500,6 +36580,11 @@ const navkarMedicineData = [
         "Company Name": "EMCURE(PHARMA)"
     },
     {
+        "Product Name": "ORLE 75 CAP",
+        "Pack": "10CAP",
+        "Company Name": "EMCURE(PHARMA)"
+    },
+    {
         "Product Name": "OSLOCURE IV INFUSION",
         "Pack": "100ML",
         "Company Name": "EMCURE(PHARMA)"
@@ -36512,6 +36597,21 @@ const navkarMedicineData = [
     {
         "Product Name": "TAPICEM-4.5GM INJ",
         "Pack": "1VIAL",
+        "Company Name": "EMCURE(PHARMA)"
+    },
+    {
+        "Product Name": "TICONAZ P 4.5 INJ",
+        "Pack": "1VIAL",
+        "Company Name": "EMCURE(PHARMA)"
+    },
+    {
+        "Product Name": "TIKLA 250TAB",
+        "Pack": "10TAB",
+        "Company Name": "EMCURE(PHARMA)"
+    },
+    {
+        "Product Name": "TIKLA 500 TAB",
+        "Pack": "10TAB",
         "Company Name": "EMCURE(PHARMA)"
     },
     {
@@ -36893,6 +36993,11 @@ const navkarMedicineData = [
         "Product Name": "TREHATOD EYE DROPS",
         "Pack": "5ML",
         "Company Name": "ENTOD ENSIGHT"
+    },
+    {
+        "Product Name": "4QUIN EYE GEL",
+        "Pack": "5ML",
+        "Company Name": "ENTOD MEDEVA"
     },
     {
         "Product Name": "AMORSKIN CREAM",
@@ -39265,11 +39370,6 @@ const navkarMedicineData = [
         "Company Name": "ERIS LIFE SCIENCES (PHARMA)"
     },
     {
-        "Product Name": "MIX 30 PEN",
-        "Pack": "1'S",
-        "Company Name": "ERIS LIFE SCIENCES (PHARMA)"
-    },
-    {
         "Product Name": "RAMISAVE 2.5MG CAP",
         "Pack": "TAB",
         "Company Name": "ERIS LIFE SCIENCES (PHARMA)"
@@ -39282,11 +39382,6 @@ const navkarMedicineData = [
     {
         "Product Name": "RAMISAVE H 5MG CAP",
         "Pack": "15TAB",
-        "Company Name": "ERIS LIFE SCIENCES (PHARMA)"
-    },
-    {
-        "Product Name": "RAPIDPEN",
-        "Pack": "1'S",
         "Company Name": "ERIS LIFE SCIENCES (PHARMA)"
     },
     {
@@ -39307,11 +39402,6 @@ const navkarMedicineData = [
     {
         "Product Name": "SUNDAE PEN 4MG/3ML (1MG)",
         "Pack": "1 PFS",
-        "Company Name": "ERIS LIFE SCIENCES (PHARMA)"
-    },
-    {
-        "Product Name": "SUNDAE PRO 1",
-        "Pack": "1'S",
         "Company Name": "ERIS LIFE SCIENCES (PHARMA)"
     },
     {
@@ -64590,21 +64680,6 @@ const navkarMedicineData = [
         "Company Name": "JOHNSON & JOHNSON (ETHNOR)"
     },
     {
-        "Product Name": "STUGERON 25 TAB",
-        "Pack": "25TAB",
-        "Company Name": "JOHNSON & JOHNSON (ETHNOR)"
-    },
-    {
-        "Product Name": "STUGERON FORTE TAB",
-        "Pack": "25TAB",
-        "Company Name": "JOHNSON & JOHNSON (ETHNOR)"
-    },
-    {
-        "Product Name": "STUGERON PLUS TAB",
-        "Pack": "10TAB",
-        "Company Name": "JOHNSON & JOHNSON (ETHNOR)"
-    },
-    {
         "Product Name": "TOPAMAC 25MG TAB",
         "Pack": "TAB",
         "Company Name": "JOHNSON & JOHNSON (ETHNOR)"
@@ -84975,11 +85050,6 @@ const navkarMedicineData = [
         "Company Name": "MANKIND PHARMA (ZESTIVA)"
     },
     {
-        "Product Name": "TAMIK INJ",
-        "Pack": "5ML",
-        "Company Name": "MANKIND PHARMA (ZESTIVA)"
-    },
-    {
         "Product Name": "VOMILAST G TAB",
         "Pack": "TAB",
         "Company Name": "MANKIND PHARMA (ZESTIVA)"
@@ -91850,6 +91920,11 @@ const navkarMedicineData = [
         "Company Name": "MSN LABORATORIES LTD"
     },
     {
+        "Product Name": "SEMABEST 4MG INJ",
+        "Pack": "3ML",
+        "Company Name": "MSN LABORATORIES LTD"
+    },
+    {
         "Product Name": "TOLVAT 30 TAB",
         "Pack": "4 TAB",
         "Company Name": "MSN LABORATORIES LTD"
@@ -96875,6 +96950,26 @@ const navkarMedicineData = [
         "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
     },
     {
+        "Product Name": "LITTLE NIGHT STANDARD JUMBO L28",
+        "Pack": "1PACK",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE NIGHT STANDARD JUMBO M32",
+        "Pack": "1PACK",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE NIGHT STANDARD JUMBO S38",
+        "Pack": "1PACK",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
+        "Product Name": "LITTLE NIGHT STANDARD JUMBO XI24",
+        "Pack": "1PACK",
+        "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
+    },
+    {
         "Product Name": "LITTLE PANT [L1] RS.10",
         "Pack": "1 PACK",
         "Company Name": "PIRAMAL HEALTHCARE (SHAKTI)"
@@ -97215,6 +97310,11 @@ const navkarMedicineData = [
         "Company Name": "PIRAMAL PHARMA LIMITED"
     },
     {
+        "Product Name": "FERRADOL MALT 450GM",
+        "Pack": "450GM",
+        "Company Name": "PIRAMAL PHARMA LIMITED"
+    },
+    {
         "Product Name": "GV BOLTS FLOWWRAP ORANGE 18G",
         "Pack": "18G",
         "Company Name": "PIRAMAL PHARMA LIMITED"
@@ -97222,6 +97322,11 @@ const navkarMedicineData = [
     {
         "Product Name": "I KNOW PREGNANCY KIT",
         "Pack": "1KIT",
+        "Company Name": "PIRAMAL PHARMA LIMITED"
+    },
+    {
+        "Product Name": "LACTIV MENSTRUAL CUP STERILZER M CP",
+        "Pack": "1`S",
         "Company Name": "PIRAMAL PHARMA LIMITED"
     },
     {
@@ -109965,6 +110070,11 @@ const navkarMedicineData = [
         "Company Name": "HALOSYS S OINT"
     },
     {
+        "Product Name": "NEWTEL CIL TAB",
+        "Pack": "10TAB",
+        "Company Name": "HALOSYS S OINT"
+    },
+    {
         "Product Name": "NEWTEL H 80MG TAB",
         "Pack": "10TAB",
         "Company Name": "HALOSYS S OINT"
@@ -115957,6 +116067,11 @@ const navkarMedicineData = [
     {
         "Product Name": "UNIENZYME XT 15 TAB",
         "Pack": "TAB",
+        "Company Name": "TORRENT PHARMACEUTICALS LTD"
+    },
+    {
+        "Product Name": "UPADACOL 30 TAB",
+        "Pack": "10TAB",
         "Company Name": "TORRENT PHARMACEUTICALS LTD"
     },
     {

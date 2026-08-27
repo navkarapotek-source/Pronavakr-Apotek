@@ -6615,18 +6615,18 @@ const productData = [
         "Company Name": "CRISTAL"
     },
     {
-        "Product Name": "NEURODAN FORTE TAB",
-        "Pack": "10 TAB",
-        "Company Name": "DANISH HEALTHCARE"
-    },
-    {
-        "Product Name": "VIRAM SR-100 TAB",
-        "Pack": "10 TAB",
-        "Company Name": "DANISH HEALTHCARE"
-    },
-    {
         "Product Name": "ENTROCHLOR TABS (PAPER)",
         "Pack": "1X10T",
+        "Company Name": "DANISH HEALTHCARE (P) LTD."
+    },
+    {
+        "Product Name": "LOMO-D TABS",
+        "Pack": "1X10T",
+        "Company Name": "DANISH HEALTHCARE (P) LTD."
+    },
+    {
+        "Product Name": "NEURODAN FORTE TAB",
+        "Pack": "10 TAB",
         "Company Name": "DANISH HEALTHCARE (P) LTD."
     },
     {
@@ -9965,11 +9965,6 @@ const productData = [
         "Company Name": "GENERAL COMPANIES"
     },
     {
-        "Product Name": "LOMO-D TABS",
-        "Pack": "1X10T",
-        "Company Name": "GENERAL COMPANIES"
-    },
-    {
         "Product Name": "LOMOPEN TAB (YELLOW)",
         "Pack": "10TAB",
         "Company Name": "GENERAL COMPANIES"
@@ -9995,11 +9990,6 @@ const productData = [
         "Company Name": "GENERAL COMPANIES"
     },
     {
-        "Product Name": "MEDISALIC 20GM OINT.",
-        "Pack": "1X20GM",
-        "Company Name": "GENERAL COMPANIES"
-    },
-    {
         "Product Name": "M-GRIP CANNULA FIX",
         "Pack": "1X100PCS",
         "Company Name": "GENERAL COMPANIES"
@@ -10022,16 +10012,6 @@ const productData = [
     {
         "Product Name": "NOCOHOL TABS",
         "Pack": "1X4T",
-        "Company Name": "GENERAL COMPANIES"
-    },
-    {
-        "Product Name": "NO-SCARS CREAM 20GM",
-        "Pack": "1X20GM",
-        "Company Name": "GENERAL COMPANIES"
-    },
-    {
-        "Product Name": "NO-SCARS SOAP 150GM",
-        "Pack": "1X150GM",
         "Company Name": "GENERAL COMPANIES"
     },
     {
@@ -12896,7 +12876,7 @@ const productData = [
     },
     {
         "Product Name": "PRAZOBROOK XL 5 TAB",
-        "Pack": "10TAB",
+        "Pack": "30TAB",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -14720,6 +14700,11 @@ const productData = [
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
+        "Product Name": "CIDIPINE-M 10/25TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
         "Product Name": "CLARIFORD-250 TAB",
         "Pack": "1X10TAB",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
@@ -14891,6 +14876,11 @@ const productData = [
     },
     {
         "Product Name": "LONAX-OD 450 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "LOSALINE-H TAB",
         "Pack": "10TAB",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
@@ -15081,6 +15071,11 @@ const productData = [
     },
     {
         "Product Name": "TELGO-CC TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "TELGO-M 25 TAB",
         "Pack": "10TAB",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
@@ -17650,6 +17645,36 @@ const productData = [
         "Company Name": "LEEFORD COSMACIA"
     },
     {
+        "Product Name": "ENSHINE ADVANCE CLEAN TOOTHBRUSH",
+        "Pack": "PC",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "ENSHINE KIDS TOOTHBRUSH",
+        "Pack": "1PC",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "ENSHINE KIDS TOOTHPASTE",
+        "Pack": "80GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "ENSHINE TOOTHPASTE",
+        "Pack": "1X100GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "ENSHINE TOOTHPASTE 50GM",
+        "Pack": "1X50GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "ENSHINE XPERT PROTECTION TOOTHBRUSH",
+        "Pack": "1PC",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
         "Product Name": "GEOFRESH SPRAY (MINT)",
         "Pack": "15GM",
         "Company Name": "LEEFORD COSMACIA"
@@ -17787,11 +17812,6 @@ const productData = [
     {
         "Product Name": "DIPLOMAX PLUS OINT",
         "Pack": "30GM",
-        "Company Name": "LEEFORD HEALTHCARE LTD"
-    },
-    {
-        "Product Name": "ENSHINE ADVANCE CLEAN TOOTHBRUSH",
-        "Pack": "PC",
         "Company Name": "LEEFORD HEALTHCARE LTD"
     },
     {
@@ -18337,16 +18357,6 @@ const productData = [
     {
         "Product Name": "ELOWAY ALOVERA GEL",
         "Pack": "1X100GM",
-        "Company Name": "LEEFORD HEALTHCARE LTD."
-    },
-    {
-        "Product Name": "ENSHINE TOOTHPASTE",
-        "Pack": "1X100GM",
-        "Company Name": "LEEFORD HEALTHCARE LTD."
-    },
-    {
-        "Product Name": "ENSHINE TOOTHPASTE 50GM",
-        "Pack": "1X50GM",
         "Company Name": "LEEFORD HEALTHCARE LTD."
     },
     {
@@ -20955,6 +20965,11 @@ const productData = [
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
+        "Product Name": "DOMIPLAY DROP",
+        "Pack": "5ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
         "Product Name": "ELECTROKIND ORS LIQUID (APPLE)",
         "Pack": "200ML",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
@@ -21190,7 +21205,12 @@ const productData = [
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
-        "Product Name": "NORADAY TZ TAB",
+        "Product Name": "NORADAY TZ NF TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "NORADAY TZ RF TAB",
         "Pack": "10TAB",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
@@ -21357,11 +21377,6 @@ const productData = [
     {
         "Product Name": "CEFACLASS DROP 10ML",
         "Pack": "1X10ML",
-        "Company Name": "MANKIND PHARMA LTD."
-    },
-    {
-        "Product Name": "DOMIPLAY DROP",
-        "Pack": "5ML",
         "Company Name": "MANKIND PHARMA LTD."
     },
     {
@@ -24190,11 +24205,6 @@ const productData = [
         "Company Name": "OMEGA BIOTECH"
     },
     {
-        "Product Name": "ERYTHRO 250 TABS (BROWN)",
-        "Pack": "1X10T",
-        "Company Name": "OMEGA BIOTECH"
-    },
-    {
         "Product Name": "ERYTHRO 500MG TABS",
         "Pack": "1X10T",
         "Company Name": "OMEGA BIOTECH"
@@ -26675,6 +26685,36 @@ const productData = [
         "Company Name": "SAINT MICHAEL BIOTECH"
     },
     {
+        "Product Name": "COLDCAP CAPS (1X10CAP)",
+        "Pack": "1X10C",
+        "Company Name": "SAINT MICHAEL BIOTECH"
+    },
+    {
+        "Product Name": "COLDCAP CAPS (NEW PACK)",
+        "Pack": "1X15C",
+        "Company Name": "SAINT MICHAEL BIOTECH"
+    },
+    {
+        "Product Name": "DEEMOL 500 TABS(GREEN)",
+        "Pack": "1X10T",
+        "Company Name": "SAINT MICHAEL BIOTECH"
+    },
+    {
+        "Product Name": "DEEMOL 500 TABS(RED)",
+        "Pack": "1X10T",
+        "Company Name": "SAINT MICHAEL BIOTECH"
+    },
+    {
+        "Product Name": "DOXY-100MG TABS",
+        "Pack": "1X8T",
+        "Company Name": "SAINT MICHAEL BIOTECH"
+    },
+    {
+        "Product Name": "VIRAM SR-100 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "SAINT MICHAEL BIOTECH"
+    },
+    {
         "Product Name": "SAMVOL PLUS CAP",
         "Pack": "10CAP",
         "Company Name": "SAM NOVA"
@@ -28630,6 +28670,11 @@ const productData = [
         "Company Name": "SMART ICONIC LAB"
     },
     {
+        "Product Name": "LIVART 4G SYP 300ML",
+        "Pack": "300 ML",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
         "Product Name": "LIVART ADVANCE TAB",
         "Pack": "100TAB",
         "Company Name": "SMART ICONIC LAB"
@@ -29512,6 +29557,36 @@ const productData = [
     {
         "Product Name": "TRUDRYL SYP 100MLF 41",
         "Pack": "1X100ML",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
+        "Product Name": "TWELUP 1500 INJ",
+        "Pack": "1ML",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
+        "Product Name": "TWELUP 2500 INJ",
+        "Pack": "1ML",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
+        "Product Name": "TWELUP AQ PFS INJ 1ML",
+        "Pack": "1ML",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
+        "Product Name": "TWELUP C INJ",
+        "Pack": "3ML",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
+        "Product Name": "TWELUP FORTE INJ",
+        "Pack": "1X2ML",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
+        "Product Name": "TWELUP SL TAB",
+        "Pack": "1X10TAB",
         "Company Name": "SMART ICONIC LAB"
     },
     {
@@ -30715,11 +30790,6 @@ const productData = [
         "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
-        "Product Name": "LIVART 4G SYP 300ML",
-        "Pack": "300 ML",
-        "Company Name": "DARKROOM SUPER DOTTED"
-    },
-    {
         "Product Name": "LOPLOCK CAP",
         "Pack": "15CAP",
         "Company Name": "DARKROOM SUPER DOTTED"
@@ -31535,36 +31605,6 @@ const productData = [
         "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
     },
     {
-        "Product Name": "TWELUP 1500 INJ",
-        "Pack": "1ML",
-        "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
-    },
-    {
-        "Product Name": "TWELUP 2500 INJ",
-        "Pack": "1ML",
-        "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
-    },
-    {
-        "Product Name": "TWELUP AQ PFS INJ 1ML",
-        "Pack": "1ML",
-        "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
-    },
-    {
-        "Product Name": "TWELUP C INJ",
-        "Pack": "3ML",
-        "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
-    },
-    {
-        "Product Name": "TWELUP FORTE INJ",
-        "Pack": "1X2ML",
-        "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
-    },
-    {
-        "Product Name": "TWELUP SL TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
-    },
-    {
         "Product Name": "UDICREST 150 TAB",
         "Pack": "15TAB",
         "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
@@ -32260,31 +32300,6 @@ const productData = [
         "Company Name": "SUN PHARMACEUTICALS LTD."
     },
     {
-        "Product Name": "COLDCAP CAPS (1X10CAP)",
-        "Pack": "1X10C",
-        "Company Name": "SUNNY DRUGS & PHARMA"
-    },
-    {
-        "Product Name": "COLDCAP CAPS (NEW PACK)",
-        "Pack": "1X15C",
-        "Company Name": "SUNNY DRUGS & PHARMA"
-    },
-    {
-        "Product Name": "DEEMOL 500 TABS(GREEN)",
-        "Pack": "1X10T",
-        "Company Name": "SUNNY DRUGS & PHARMA"
-    },
-    {
-        "Product Name": "DEEMOL 500 TABS(RED)",
-        "Pack": "1X10T",
-        "Company Name": "SUNNY DRUGS & PHARMA"
-    },
-    {
-        "Product Name": "DOXY-100MG TABS",
-        "Pack": "1X8T",
-        "Company Name": "SUNNY DRUGS & PHARMA"
-    },
-    {
         "Product Name": "ENTROQUINE TABS",
         "Pack": "1X10T",
         "Company Name": "SUNNY DRUGS & PHARMA"
@@ -32680,8 +32695,23 @@ const productData = [
         "Company Name": "TOP"
     },
     {
+        "Product Name": "MEDISALIC 20GM OINT.",
+        "Pack": "1X20GM",
+        "Company Name": "TORQUE"
+    },
+    {
         "Product Name": "MONTOR LC KID SYP",
         "Pack": "1X60ML",
+        "Company Name": "TORQUE"
+    },
+    {
+        "Product Name": "NO-SCARS CREAM 20GM",
+        "Pack": "1X20GM",
+        "Company Name": "TORQUE"
+    },
+    {
+        "Product Name": "NO-SCARS SOAP 150GM",
+        "Pack": "1X150GM",
         "Company Name": "TORQUE"
     },
     {
