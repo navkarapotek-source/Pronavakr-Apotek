@@ -210,6 +210,11 @@ const navkarColdchainData = [
         "Company Name": "ALKEM LABORATORIES LIMITED"
     },
     {
+        "Product Name": "SEMASIZE 1MG INJ",
+        "Pack": "1KIT",
+        "Company Name": "ALKEM LABORATORIES LIMITED"
+    },
+    {
         "Product Name": "PULMOSMART PULMULES",
         "Pack": "2 ML",
         "Company Name": "ALKEM PULMOCARE"
@@ -633,6 +638,11 @@ const navkarColdchainData = [
         "Product Name": "METHERGIN INJ",
         "Pack": "10ML",
         "Company Name": "DR REDDYS LAB AQURA MS"
+    },
+    {
+        "Product Name": "OBEDA PRO INJ 0.5MG",
+        "Pack": "1'S",
+        "Company Name": "DR REDDYS LABORATORIES LTD"
     },
     {
         "Product Name": "REPATHA SURECLICK PREFILLED PEN",

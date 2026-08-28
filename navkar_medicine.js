@@ -1190,11 +1190,6 @@ const navkarMedicineData = [
         "Company Name": "ABBOTT HEALTHCARE (GENERICS)"
     },
     {
-        "Product Name": "ANASPAS INJ 2ML",
-        "Pack": "2ML",
-        "Company Name": "ABBOTT HEALTHCARE (GENERICS)"
-    },
-    {
         "Product Name": "JANUMET 50/1000 TAB",
         "Pack": "15TAB",
         "Company Name": "ABBOTT HEALTHCARE (GENERICS)"
@@ -1607,6 +1602,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ANAFORTAN TAB",
         "Pack": "15 TAB",
+        "Company Name": "ABBOTT HEALTHCARE PVT RESOTORA"
+    },
+    {
+        "Product Name": "ANASPAS INJ 2ML",
+        "Pack": "2ML",
         "Company Name": "ABBOTT HEALTHCARE PVT RESOTORA"
     },
     {
@@ -5330,6 +5330,11 @@ const navkarMedicineData = [
         "Company Name": "AKUMENTIS HEALTHCARE (EXCELLIS)"
     },
     {
+        "Product Name": "ARGENTA 8.5GM SACHET",
+        "Pack": "8.5GM",
+        "Company Name": "AKUMENTIS HEALTHCARE (GRACIA)"
+    },
+    {
         "Product Name": "ENDOFINE TAB",
         "Pack": "TAB",
         "Company Name": "AKUMENTIS HEALTHCARE (GRACIA)"
@@ -8520,6 +8525,11 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LAB (ALTIS-ASCENDA)"
     },
     {
+        "Product Name": "REGONEU TAB",
+        "Pack": "10'S",
+        "Company Name": "ALKEM LAB (ALTIS-ASCENDA)"
+    },
+    {
         "Product Name": "SATROGYL 300MG TAB",
         "Pack": "10 TAB",
         "Company Name": "ALKEM LAB (ALTIS-ASCENDA)"
@@ -10690,11 +10700,6 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LABORATORIES LIMITED"
     },
     {
-        "Product Name": "REGONEU TAB",
-        "Pack": "10'S",
-        "Company Name": "ALKEM LABORATORIES LIMITED"
-    },
-    {
         "Product Name": "RIZ PLUS TAB'10S",
         "Pack": "10 TAB",
         "Company Name": "ALKEM LABORATORIES LIMITED"
@@ -10727,11 +10732,6 @@ const navkarMedicineData = [
     {
         "Product Name": "SEMASIZE 0.5 INJ",
         "Pack": "VIAL",
-        "Company Name": "ALKEM LABORATORIES LIMITED"
-    },
-    {
-        "Product Name": "SEMASIZE 1MG INJ",
-        "Pack": "1KIT",
         "Company Name": "ALKEM LABORATORIES LIMITED"
     },
     {
@@ -24745,8 +24745,8 @@ const navkarMedicineData = [
         "Company Name": "CIPLA LIMITED GENERIC"
     },
     {
-        "Product Name": "AMANTREL CAP 15`S",
-        "Pack": "15 CAP",
+        "Product Name": "AMANTREL TAB",
+        "Pack": "15 TAB",
         "Company Name": "CIPLA LIMITED IMPULSE"
     },
     {
@@ -28860,7 +28860,7 @@ const navkarMedicineData = [
         "Company Name": "CORONA SOLIS"
     },
     {
-        "Product Name": "C HOPE 100 INJ J",
+        "Product Name": "C HOPE 100 INJ",
         "Pack": "ML",
         "Company Name": "CORONA SOLIS"
     },
@@ -31957,11 +31957,6 @@ const navkarMedicineData = [
     {
         "Product Name": "MYOCEIVE + TAB",
         "Pack": "10 TAB",
-        "Company Name": "DR REDDYS LABORATORIES LTD"
-    },
-    {
-        "Product Name": "OBEDA PRO INJ 0.5MG",
-        "Pack": "1'S",
         "Company Name": "DR REDDYS LABORATORIES LTD"
     },
     {
@@ -37225,6 +37220,11 @@ const navkarMedicineData = [
         "Company Name": "ENTOD OPTHAMNIC"
     },
     {
+        "Product Name": "I BORIC CLEAR EYE DROPS",
+        "Pack": "10ML",
+        "Company Name": "ENTOD OPTHAMNIC"
+    },
+    {
         "Product Name": "I BORIC PLUS EYE DROPS",
         "Pack": "10ML",
         "Company Name": "ENTOD OPTHAMNIC"
@@ -37422,11 +37422,6 @@ const navkarMedicineData = [
     {
         "Product Name": "GT-TOB EYE DROP",
         "Pack": "5ML",
-        "Company Name": "ENTOD PHARMA (GENTECK)"
-    },
-    {
-        "Product Name": "I BORIC CLEAR EYE DROPS",
-        "Pack": "10ML",
         "Company Name": "ENTOD PHARMA (GENTECK)"
     },
     {
@@ -37880,7 +37875,7 @@ const navkarMedicineData = [
         "Company Name": "ERIS LIFE SCIENCES (ADURA)"
     },
     {
-        "Product Name": "CREVAST 40MG TAB 15",
+        "Product Name": "CREVAST 40MG TAB",
         "Pack": "15 TAB",
         "Company Name": "ERIS LIFE SCIENCES (ADURA)"
     },
@@ -39630,8 +39625,8 @@ const navkarMedicineData = [
         "Company Name": "ERIS LIFE SCIENCES (VICTUS)"
     },
     {
-        "Product Name": "CREVAST A 20 CAP 10``S",
-        "Pack": "TAB",
+        "Product Name": "CREVAST A 20 CAP",
+        "Pack": "10 CAP",
         "Company Name": "ERIS LIFE SCIENCES (VICTUS)"
     },
     {
@@ -46597,6 +46592,11 @@ const navkarMedicineData = [
     {
         "Product Name": "SCABOMA LOTION 50ML",
         "Pack": "50ML",
+        "Company Name": "GLENMARK (PHARMA)"
+    },
+    {
+        "Product Name": "SUPRAZINC TAB",
+        "Pack": "10'S",
         "Company Name": "GLENMARK (PHARMA)"
     },
     {
@@ -54350,6 +54350,11 @@ const navkarMedicineData = [
         "Company Name": "INDOCO REMEDIES (SPADE)"
     },
     {
+        "Product Name": "FEBREX PLUS AF SYP",
+        "Pack": "60ML",
+        "Company Name": "INDOCO REMEDIES (SPADE)"
+    },
+    {
         "Product Name": "FEBREX PLUS DROPS",
         "Pack": "15ML",
         "Company Name": "INDOCO REMEDIES (SPADE)"
@@ -61005,6 +61010,11 @@ const navkarMedicineData = [
         "Company Name": "IPCA LABORATORIES ( CARDIMAX )"
     },
     {
+        "Product Name": "SUITGLIP M 50/500",
+        "Pack": "10TAB",
+        "Company Name": "IPCA LABORATORIES ( CARDIMAX )"
+    },
+    {
         "Product Name": "BLOCPRO 1.25",
         "Pack": "10'S",
         "Company Name": "IPCA LABORATORIES (3C)"
@@ -67290,6 +67300,16 @@ const navkarMedicineData = [
         "Company Name": "LA RENON (LAMBET-GAMMA)"
     },
     {
+        "Product Name": "ZOBEFLUX 20 TAB",
+        "Pack": "10TAB",
+        "Company Name": "LA RENON (LAMBET-GAMMA)"
+    },
+    {
+        "Product Name": "ZOBEFLUX D 20 TAB",
+        "Pack": "10TAB",
+        "Company Name": "LA RENON (LAMBET-GAMMA)"
+    },
+    {
         "Product Name": "CIROZE 200 TAB",
         "Pack": "TAB",
         "Company Name": "LA RENON HEALTH CARE (CNS)"
@@ -67543,16 +67563,6 @@ const navkarMedicineData = [
         "Product Name": "SIRACIT ULTRA MOIST LOTION",
         "Pack": "100 ML",
         "Company Name": "LA RENON HEALTH CARE (ORAL)"
-    },
-    {
-        "Product Name": "ZOBEFLUX 20",
-        "Pack": "10TAB",
-        "Company Name": "LA RENON HEALTH CARE (URGO)"
-    },
-    {
-        "Product Name": "ZOBEFLUX D 20 TAB",
-        "Pack": "10TAB",
-        "Company Name": "LA RENON HEALTH CARE (URGO)"
     },
     {
         "Product Name": "CRAMOSE TAB",
@@ -84790,6 +84800,11 @@ const navkarMedicineData = [
         "Company Name": "MANKIND PHARMA (STAR)"
     },
     {
+        "Product Name": "LANSONEED 15 TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (STAR)"
+    },
+    {
         "Product Name": "MAHAFARO 200 TAB",
         "Pack": "6 TAB",
         "Company Name": "MANKIND PHARMA (STAR)"
@@ -99445,11 +99460,6 @@ const navkarMedicineData = [
         "Company Name": "RANBAXY LAB (STAN LIFE)"
     },
     {
-        "Product Name": "MOX CLAV DS 457MG SUSP",
-        "Pack": "30ML",
-        "Company Name": "RANBAXY LAB (STAN LIFE)"
-    },
-    {
         "Product Name": "TUFFPRO FAST SUSP",
         "Pack": "10 TAB",
         "Company Name": "RANBAXY LAB (STAN LIFE)"
@@ -99865,6 +99875,11 @@ const navkarMedicineData = [
         "Company Name": "RANBAXY(STANLIFE)"
     },
     {
+        "Product Name": "MOX CLAV DS 457MG SUSP",
+        "Pack": "30ML",
+        "Company Name": "RANBAXY(STANLIFE)"
+    },
+    {
         "Product Name": "MOX CLAV DS 457MG TAB 10`S",
         "Pack": "TAB",
         "Company Name": "RANBAXY(STANLIFE)"
@@ -99947,6 +99962,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ZOFER MD 8",
         "Pack": "TAB",
+        "Company Name": "RANBAXY(STANLIFE)"
+    },
+    {
+        "Product Name": "ZOFER SYP.",
+        "Pack": "30ML",
         "Company Name": "RANBAXY(STANLIFE)"
     },
     {
@@ -101897,6 +101917,11 @@ const navkarMedicineData = [
     {
         "Product Name": "DULCOFLEX 5MG TAB",
         "Pack": "15 TAB",
+        "Company Name": "SANOFI MSCDA"
+    },
+    {
+        "Product Name": "DULCOFLEX LIQUID",
+        "Pack": "150ML",
         "Company Name": "SANOFI MSCDA"
     },
     {
@@ -104035,6 +104060,11 @@ const navkarMedicineData = [
         "Company Name": "SUN PHARMA (AKUNA)"
     },
     {
+        "Product Name": "OLMEZEST 10MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "SUN PHARMA (AKUNA)"
+    },
+    {
         "Product Name": "ROZALET 20MG CAP",
         "Pack": "TAB",
         "Company Name": "SUN PHARMA (AKUNA)"
@@ -104075,12 +104105,42 @@ const navkarMedicineData = [
         "Company Name": "SUN PHARMA (ALTAN )"
     },
     {
+        "Product Name": "AZTOLET 10MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "SUN PHARMA (ALTAN )"
+    },
+    {
         "Product Name": "AZTOLET 20MG TAB",
         "Pack": "10 TAB",
         "Company Name": "SUN PHARMA (ALTAN )"
     },
     {
+        "Product Name": "AZTOLET 40 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "SUN PHARMA (ALTAN )"
+    },
+    {
+        "Product Name": "AZTOR 10MG TAB",
+        "Pack": "15 TAB",
+        "Company Name": "SUN PHARMA (ALTAN )"
+    },
+    {
+        "Product Name": "AZTOR 20MG TAB",
+        "Pack": "15 TAB",
+        "Company Name": "SUN PHARMA (ALTAN )"
+    },
+    {
+        "Product Name": "AZTOR 40MG TAB",
+        "Pack": "15 TAB",
+        "Company Name": "SUN PHARMA (ALTAN )"
+    },
+    {
         "Product Name": "AZTOR 5MG TAB",
+        "Pack": "15 TAB",
+        "Company Name": "SUN PHARMA (ALTAN )"
+    },
+    {
+        "Product Name": "AZTOR 80MG TAB",
         "Pack": "15 TAB",
         "Company Name": "SUN PHARMA (ALTAN )"
     },
@@ -104125,7 +104185,22 @@ const navkarMedicineData = [
         "Company Name": "SUN PHARMA (ALTAN )"
     },
     {
-        "Product Name": "OLMEZEST 10MG TAB",
+        "Product Name": "KORANDIL 10MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "SUN PHARMA (ALTAN )"
+    },
+    {
+        "Product Name": "KORANDIL 5MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "SUN PHARMA (ALTAN )"
+    },
+    {
+        "Product Name": "OLMEZEST 20MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "SUN PHARMA (ALTAN )"
+    },
+    {
+        "Product Name": "OLMEZEST 40MG TAB",
         "Pack": "10 TAB",
         "Company Name": "SUN PHARMA (ALTAN )"
     },
@@ -104140,8 +104215,33 @@ const navkarMedicineData = [
         "Company Name": "SUN PHARMA (ALTAN )"
     },
     {
+        "Product Name": "OLMEZEST CH 20MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "SUN PHARMA (ALTAN )"
+    },
+    {
+        "Product Name": "OLMEZEST CH 40MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "SUN PHARMA (ALTAN )"
+    },
+    {
+        "Product Name": "OLMEZEST H 20MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "SUN PHARMA (ALTAN )"
+    },
+    {
         "Product Name": "OXRAMET S IR 5/50/500 TAB",
         "Pack": "10 TAB",
+        "Company Name": "SUN PHARMA (ALTAN )"
+    },
+    {
+        "Product Name": "OXRAMET S XR 1000 MG TAB",
+        "Pack": "10'S",
+        "Company Name": "SUN PHARMA (ALTAN )"
+    },
+    {
+        "Product Name": "OXRAMET S XR 500 TAB",
+        "Pack": "TAB",
         "Company Name": "SUN PHARMA (ALTAN )"
     },
     {
@@ -105270,11 +105370,6 @@ const navkarMedicineData = [
         "Company Name": "SUN PHARMA (SIRIUS)"
     },
     {
-        "Product Name": "AZTOLET 40 MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "SUN PHARMA (SOLARES)"
-    },
-    {
         "Product Name": "BETAVERT 24 TAB",
         "Pack": "10 TAB",
         "Company Name": "SUN PHARMA (SOLARES)"
@@ -106150,31 +106245,6 @@ const navkarMedicineData = [
         "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
-        "Product Name": "AZTOLET 10MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
-    },
-    {
-        "Product Name": "AZTOR 10MG TAB",
-        "Pack": "15 TAB",
-        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
-    },
-    {
-        "Product Name": "AZTOR 20MG TAB",
-        "Pack": "15 TAB",
-        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
-    },
-    {
-        "Product Name": "AZTOR 40MG TAB",
-        "Pack": "15 TAB",
-        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
-    },
-    {
-        "Product Name": "AZTOR 80MG TAB",
-        "Pack": "15 TAB",
-        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
-    },
-    {
         "Product Name": "AZTOR ASP 75MG CAP",
         "Pack": "10 CAP",
         "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
@@ -106680,16 +106750,6 @@ const navkarMedicineData = [
         "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
-        "Product Name": "KORANDIL 10MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
-    },
-    {
-        "Product Name": "KORANDIL 5MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
-    },
-    {
         "Product Name": "KRIMSON 35MCG TAB",
         "Pack": "21 TAB",
         "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
@@ -107145,16 +107205,6 @@ const navkarMedicineData = [
         "Company Name": "LEVIPIL XR 500MG TAB"
     },
     {
-        "Product Name": "OLMEZEST 20MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "LEVIPIL XR 500MG TAB"
-    },
-    {
-        "Product Name": "OLMEZEST 40MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "LEVIPIL XR 500MG TAB"
-    },
-    {
         "Product Name": "OLMEZEST AM 20MG TAB",
         "Pack": "10 TAB",
         "Company Name": "LEVIPIL XR 500MG TAB"
@@ -107171,21 +107221,6 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "OLMEZEST BETA 50MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "LEVIPIL XR 500MG TAB"
-    },
-    {
-        "Product Name": "OLMEZEST CH 20MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "LEVIPIL XR 500MG TAB"
-    },
-    {
-        "Product Name": "OLMEZEST CH 40MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "LEVIPIL XR 500MG TAB"
-    },
-    {
-        "Product Name": "OLMEZEST H 20MG TAB",
         "Pack": "10 TAB",
         "Company Name": "LEVIPIL XR 500MG TAB"
     },
@@ -107242,16 +107277,6 @@ const navkarMedicineData = [
     {
         "Product Name": "OXRA S 10/100 MG TAB",
         "Pack": "10'S",
-        "Company Name": "OXETOL 450 TAB"
-    },
-    {
-        "Product Name": "OXRAMET S XR 1000 MG TAB",
-        "Pack": "10'S",
-        "Company Name": "OXETOL 450 TAB"
-    },
-    {
-        "Product Name": "OXRAMET S XR 500 TAB",
-        "Pack": "TAB",
         "Company Name": "OXETOL 450 TAB"
     },
     {
@@ -108542,11 +108567,6 @@ const navkarMedicineData = [
     {
         "Product Name": "ZOFER MD 4MG TAB",
         "Pack": "TAB",
-        "Company Name": "DAPEFY 10 MG TAB"
-    },
-    {
-        "Product Name": "ZOFER SYP.",
-        "Pack": "30ML",
         "Company Name": "DAPEFY 10 MG TAB"
     },
     {
@@ -119315,17 +119335,17 @@ const navkarMedicineData = [
         "Company Name": "VERSE LIFESCIENCES"
     },
     {
-        "Product Name": "TORSEGOLD 10TAB",
+        "Product Name": "TORSE GOLD 5 TAB",
+        "Pack": "15TAB",
+        "Company Name": "VERSE LIFESCIENCES"
+    },
+    {
+        "Product Name": "TORSEGOLD 10 TAB",
         "Pack": "15TAB",
         "Company Name": "VERSE LIFESCIENCES"
     },
     {
         "Product Name": "TORSEGOLD 20 TAB",
-        "Pack": "15TAB",
-        "Company Name": "VERSE LIFESCIENCES"
-    },
-    {
-        "Product Name": "TORSEGOLD 5 TAB",
         "Pack": "15TAB",
         "Company Name": "VERSE LIFESCIENCES"
     },

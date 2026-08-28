@@ -4811,7 +4811,7 @@ const otcData = [
     },
     {
         "Product Name": "WHISPER REGULAR [MRP 115]",
-        "Pack": "120PCS",
+        "Pack": "20PCS",
         "Company Name": "PROCTER & GAMBLE HEALTH LTD."
     },
     {

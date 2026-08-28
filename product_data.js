@@ -5270,6 +5270,11 @@ const productData = [
         "Company Name": "CIPLA"
     },
     {
+        "Product Name": "OKACET SYP 30ML",
+        "Pack": "1X30ML",
+        "Company Name": "CIPLA"
+    },
+    {
         "Product Name": "OKACET-L TABS",
         "Pack": "1X10T",
         "Company Name": "CIPLA"
@@ -6405,11 +6410,6 @@ const productData = [
         "Company Name": "CIPLA VITAL CARE"
     },
     {
-        "Product Name": "OKACET SYP 30ML",
-        "Pack": "1X30ML",
-        "Company Name": "CIPLA VITAL CARE"
-    },
-    {
         "Product Name": "OLOX-200 MG TABS",
         "Pack": "1X10T",
         "Company Name": "CIPLA VITAL CARE"
@@ -6750,6 +6750,11 @@ const productData = [
         "Company Name": "DR.MOREPEN LABORATORIES LTD"
     },
     {
+        "Product Name": "BLUETOOTH SPEAKER",
+        "Pack": "PC",
+        "Company Name": "DR.MOREPEN LABORATORIES LTD"
+    },
+    {
         "Product Name": "BT QUICK-5MG TAB",
         "Pack": "1X10T",
         "Company Name": "DR.MOREPEN LABORATORIES LTD"
@@ -6782,6 +6787,11 @@ const productData = [
     {
         "Product Name": "CLINRIGHT-CT VAGINAL CAPS",
         "Pack": "1X7C",
+        "Company Name": "DR.MOREPEN LABORATORIES LTD"
+    },
+    {
+        "Product Name": "CLODOC-V6 TAB",
+        "Pack": "10TAB",
         "Company Name": "DR.MOREPEN LABORATORIES LTD"
     },
     {
@@ -8116,11 +8126,6 @@ const productData = [
     },
     {
         "Product Name": "MONAST-LC TABS",
-        "Pack": "1X10T",
-        "Company Name": "EMCURE PHARMACEUTICALS"
-    },
-    {
-        "Product Name": "NECTUS TOTAL TABS",
         "Pack": "1X10T",
         "Company Name": "EMCURE PHARMACEUTICALS"
     },
@@ -10705,6 +10710,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "AMISTAB 200 TAB",
+        "Pack": "10TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "AMLOHEAL-5MG TAB",
         "Pack": "30TAB",
         "Company Name": "HEALING PHARMA"
@@ -10747,6 +10757,11 @@ const productData = [
     {
         "Product Name": "APISMART-5MG TABS",
         "Pack": "1X10T",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "APREXA 30 TAB",
+        "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -10830,6 +10845,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "BACLOHEAL 10 TAB",
+        "Pack": "10TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "BACLOHEAL OD 30 TAB",
         "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
@@ -10862,6 +10882,11 @@ const productData = [
     {
         "Product Name": "BENZO 5% GEL",
         "Pack": "1X30GM",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "BETABLOCK XL 25 TAB",
+        "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -11082,6 +11107,11 @@ const productData = [
     {
         "Product Name": "CETRIHEAL TAB",
         "Pack": "1X15TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "CHYMOFORCE AP TAB",
+        "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -12265,6 +12295,16 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "IVERHEAL-12MG TAB",
+        "Pack": "1X10T",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "IVERHEAL-6MG TABS",
+        "Pack": "1X10T",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "JUG 2.1 LITER",
         "Pack": "1",
         "Company Name": "HEALING PHARMA"
@@ -12740,6 +12780,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "PANCREZYME HP 25000 TAB",
+        "Pack": "10TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "PANTODICE 20 TAB",
         "Pack": "15TAB",
         "Company Name": "HEALING PHARMA"
@@ -12907,6 +12952,11 @@ const productData = [
     {
         "Product Name": "PREGARICA D CAP",
         "Pack": "10CAP",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "PREGARICA-50 CAPS",
+        "Pack": "1X10C",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -13352,6 +13402,11 @@ const productData = [
     {
         "Product Name": "VALCLOVIR-500MG TABS",
         "Pack": "1X10T",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "VALPODIUM 200 TAB",
+        "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -23290,6 +23345,11 @@ const productData = [
         "Company Name": "NAVA HEALTHCARE PVT LTD"
     },
     {
+        "Product Name": "NECTUS TOTAL TABS",
+        "Pack": "1X10T",
+        "Company Name": "NECTOR LIFESCIENCES LIMITED"
+    },
+    {
         "Product Name": "NIMTAR COLD & FLU TAB",
         "Pack": "10TAB",
         "Company Name": "NECTOR LIFESCIENCES LIMITED"
@@ -28630,7 +28690,7 @@ const productData = [
         "Company Name": "SMART ICONIC LAB"
     },
     {
-        "Product Name": "ISOTRUE CAP",
+        "Product Name": "ISOTRUE 20 CAP",
         "Pack": "1X10CAP",
         "Company Name": "SMART ICONIC LAB"
     },
@@ -28787,6 +28847,16 @@ const productData = [
     {
         "Product Name": "MEGAPICK 369 SOFTGEL CAP",
         "Pack": "1X10CAP",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
+        "Product Name": "MELONIC PLUS BOLUS (VET)",
+        "Pack": "4BOLUS",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
+        "Product Name": "MELONIC SP BOLUS (VET)",
+        "Pack": "4BOLUS",
         "Company Name": "SMART ICONIC LAB"
     },
     {
@@ -29275,7 +29345,7 @@ const productData = [
         "Company Name": "SMART ICONIC LAB"
     },
     {
-        "Product Name": "SMARTAID ANTISEPTIC LIQUID 200MLF26",
+        "Product Name": "SMARTAID ANTISEPTIC LIQUID 200ML",
         "Pack": "200ML",
         "Company Name": "SMART ICONIC LAB"
     },
@@ -29412,6 +29482,16 @@ const productData = [
     {
         "Product Name": "SMARTAID NEBULIZER KIT",
         "Pack": "1PC",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
+        "Product Name": "SMARTAID NEBULIZER MASK ADULT",
+        "Pack": "PC",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
+        "Product Name": "SMARTAID NEBULIZER MASK CHILD",
+        "Pack": "PC",
         "Company Name": "SMART ICONIC LAB"
     },
     {
@@ -29565,11 +29645,6 @@ const productData = [
         "Company Name": "SMART ICONIC LAB"
     },
     {
-        "Product Name": "TWELUP 2500 INJ",
-        "Pack": "1ML",
-        "Company Name": "SMART ICONIC LAB"
-    },
-    {
         "Product Name": "TWELUP AQ PFS INJ 1ML",
         "Pack": "1ML",
         "Company Name": "SMART ICONIC LAB"
@@ -29577,11 +29652,6 @@ const productData = [
     {
         "Product Name": "TWELUP C INJ",
         "Pack": "3ML",
-        "Company Name": "SMART ICONIC LAB"
-    },
-    {
-        "Product Name": "TWELUP FORTE INJ",
-        "Pack": "1X2ML",
         "Company Name": "SMART ICONIC LAB"
     },
     {
@@ -31602,6 +31672,16 @@ const productData = [
     {
         "Product Name": "TUSSTHIK DX15 SYRUP",
         "Pack": "60ML",
+        "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
+    },
+    {
+        "Product Name": "TWELUP 2500 INJ",
+        "Pack": "1ML",
+        "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
+    },
+    {
+        "Product Name": "TWELUP FORTE INJ",
+        "Pack": "1X2ML",
         "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
     },
     {
