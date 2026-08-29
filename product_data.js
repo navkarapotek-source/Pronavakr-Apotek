@@ -13950,6 +13950,21 @@ const productData = [
         "Company Name": "HETERO HEALTHCARE LIMITED"
     },
     {
+        "Product Name": "HIM SHILAJIT RESIN 20GM",
+        "Pack": "20GM",
+        "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
+    },
+    {
+        "Product Name": "KOFLET H HOT DRINK GINGER",
+        "Pack": "20ML",
+        "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
+    },
+    {
+        "Product Name": "RUMA LINIMNENT ROLL ON 50ML",
+        "Pack": "50ML",
+        "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
+    },
+    {
         "Product Name": "CATHY 18 NO",
         "Pack": "PIECE",
         "Company Name": "HINDUSTAN MEDICAL DEVICES"
