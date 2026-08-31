@@ -9745,6 +9745,11 @@ const productData = [
         "Company Name": "GENERAL COMPANIES"
     },
     {
+        "Product Name": "ALIDE 100MG TAB YELLOW",
+        "Pack": "100TAB",
+        "Company Name": "GENERAL COMPANIES"
+    },
+    {
         "Product Name": "ALOESOFT GEL",
         "Pack": "1X120GM",
         "Company Name": "GENERAL COMPANIES"
@@ -9752,6 +9757,11 @@ const productData = [
     {
         "Product Name": "ANGEL TUCH LIP BALM",
         "Pack": "1X10GM",
+        "Company Name": "GENERAL COMPANIES"
+    },
+    {
+        "Product Name": "ATINE 20MG TAB",
+        "Pack": "100TAB",
         "Company Name": "GENERAL COMPANIES"
     },
     {
@@ -9787,6 +9797,11 @@ const productData = [
     {
         "Product Name": "BURNCARE CREAM",
         "Pack": "20GM",
+        "Company Name": "GENERAL COMPANIES"
+    },
+    {
+        "Product Name": "CETIRIZINE DIHYDROCHLORIDE",
+        "Pack": "10TAB",
         "Company Name": "GENERAL COMPANIES"
     },
     {

@@ -10380,6 +10380,11 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LAB(DERMA ONE)"
     },
     {
+        "Product Name": "CLINDAC A MIST NASAL SPRAY",
+        "Pack": "100ML",
+        "Company Name": "ALKEM LAB(DERMA ONE)"
+    },
+    {
         "Product Name": "CLINDAC A SOLUTION",
         "Pack": "30ML",
         "Company Name": "ALKEM LAB(DERMA ONE)"
@@ -14111,6 +14116,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "AD SLEEP 5MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "ARINNA LIFESCIENCES (ALANZA)"
+    },
+    {
+        "Product Name": "CLOZA BEST 50MG TAB",
         "Pack": "10TAB",
         "Company Name": "ARINNA LIFESCIENCES (ALANZA)"
     },
@@ -30815,11 +30825,6 @@ const navkarMedicineData = [
         "Company Name": "DR REDDYS LAB (RECURA  ACE)"
     },
     {
-        "Product Name": "COLOZO 72 MCG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "DR REDDYS LAB (RECURA GEM)"
-    },
-    {
         "Product Name": "VIBOLIV 500MG TAB",
         "Pack": "10 TAB",
         "Company Name": "DR REDDYS LAB (RECURA GEM)"
@@ -30862,11 +30867,6 @@ const navkarMedicineData = [
     {
         "Product Name": "CLOHEX INTRADENTAL BRUSH W/S",
         "Pack": "1 PACK",
-        "Company Name": "DR REDDYS LAB (RECURA GRACE)"
-    },
-    {
-        "Product Name": "COLOZO 145 MCG TAB",
-        "Pack": "10 TAB",
         "Company Name": "DR REDDYS LAB (RECURA GRACE)"
     },
     {
@@ -32147,6 +32147,16 @@ const navkarMedicineData = [
     {
         "Product Name": "CITRO MACALVIT TAB",
         "Pack": "TAB",
+        "Company Name": "DR REDDYS RECURA TITAN"
+    },
+    {
+        "Product Name": "COLOZO 145 MCG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "DR REDDYS RECURA TITAN"
+    },
+    {
+        "Product Name": "COLOZO 72 MCG TAB",
+        "Pack": "10 TAB",
         "Company Name": "DR REDDYS RECURA TITAN"
     },
     {
@@ -44095,6 +44105,11 @@ const navkarMedicineData = [
         "Company Name": "GENERICS"
     },
     {
+        "Product Name": "ENDOPAR TAB",
+        "Pack": "10 TAB",
+        "Company Name": "GENERICS"
+    },
+    {
         "Product Name": "ENTEROSHIELD INJ",
         "Pack": "0.5ML",
         "Company Name": "GENERICS"
@@ -53885,7 +53900,7 @@ const navkarMedicineData = [
         "Company Name": "INDCHEMIE HEALTH CARE"
     },
     {
-        "Product Name": "ZECAL XT",
+        "Product Name": "ZECAL XT TAB",
         "Pack": "15 TAB",
         "Company Name": "INDCHEMIE HEALTH CARE"
     },
@@ -63998,6 +64013,11 @@ const navkarMedicineData = [
         "Product Name": "RUTRIXA [B] TAB",
         "Pack": "10TAB",
         "Company Name": "JAGSONPAL PHARMA (FEMBON)"
+    },
+    {
+        "Product Name": "CLADOXIM TAB",
+        "Pack": "10TAB",
+        "Company Name": "JAGSONPAL PHARMACEUTICALS LTD"
     },
     {
         "Product Name": "COLLA 2 TAB",
@@ -75620,8 +75640,8 @@ const navkarMedicineData = [
         "Company Name": "LUPIN PHARMA (RESPIRA SPECIALITY)"
     },
     {
-        "Product Name": "FLUTIFLO [FT] TAB",
-        "Pack": "10TAB",
+        "Product Name": "FLUTIFLO [FT] SPRAY",
+        "Pack": "SPRAY",
         "Company Name": "LUPIN PHARMA (RESPIRA SPECIALITY)"
     },
     {
@@ -91810,6 +91830,16 @@ const navkarMedicineData = [
         "Company Name": "MOREPEN RX LIMITED"
     },
     {
+        "Product Name": "ATORBOND 10MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "MOREPEN RX LIMITED"
+    },
+    {
+        "Product Name": "ATORBOND 20MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "MOREPEN RX LIMITED"
+    },
+    {
         "Product Name": "AZENAS 500 TAB",
         "Pack": "5'S",
         "Company Name": "MOREPEN RX LIMITED"
@@ -91850,8 +91880,18 @@ const navkarMedicineData = [
         "Company Name": "MOREPEN RX LIMITED"
     },
     {
+        "Product Name": "ERADCLAV DS DRY SYRUP",
+        "Pack": "ML",
+        "Company Name": "MOREPEN RX LIMITED"
+    },
+    {
         "Product Name": "ERADCLAV DUO 625 TAB",
         "Pack": "10TAB",
+        "Company Name": "MOREPEN RX LIMITED"
+    },
+    {
+        "Product Name": "ERADICLAV DUO DRY SYRUP",
+        "Pack": "ML",
         "Company Name": "MOREPEN RX LIMITED"
     },
     {
@@ -91875,8 +91915,18 @@ const navkarMedicineData = [
         "Company Name": "MOREPEN RX LIMITED"
     },
     {
+        "Product Name": "KOMPACT ADVANCE CHOCOLATE POW",
+        "Pack": "200GM",
+        "Company Name": "MOREPEN RX LIMITED"
+    },
+    {
         "Product Name": "KOMPACT JUNIOR VANILLA 200GM",
         "Pack": "200GM",
+        "Company Name": "MOREPEN RX LIMITED"
+    },
+    {
+        "Product Name": "MECOMORE OD TAB",
+        "Pack": "10TAB",
         "Company Name": "MOREPEN RX LIMITED"
     },
     {
@@ -91900,6 +91950,11 @@ const navkarMedicineData = [
         "Company Name": "MOREPEN RX LIMITED"
     },
     {
+        "Product Name": "SALTUM DS TAB",
+        "Pack": "6TAB",
+        "Company Name": "MOREPEN RX LIMITED"
+    },
+    {
         "Product Name": "SALTUM KID TAB",
         "Pack": "10TAB",
         "Company Name": "MOREPEN RX LIMITED"
@@ -91917,6 +91972,11 @@ const navkarMedicineData = [
     {
         "Product Name": "UDOFIX ORAL SUSPENSION",
         "Pack": "100ML",
+        "Company Name": "MOREPEN RX LIMITED"
+    },
+    {
+        "Product Name": "VOMIPEN P SYRUP",
+        "Pack": "30ML",
         "Company Name": "MOREPEN RX LIMITED"
     },
     {
@@ -95120,16 +95180,6 @@ const navkarMedicineData = [
         "Company Name": "PFIZER LTD"
     },
     {
-        "Product Name": "PENIDURE LA 12INJ",
-        "Pack": "1 VIAL",
-        "Company Name": "PFIZER LTD"
-    },
-    {
-        "Product Name": "PENIDURE LA 6 VAIL",
-        "Pack": "5VAIL",
-        "Company Name": "PFIZER LTD"
-    },
-    {
         "Product Name": "TARGIT 80 MG TAB",
         "Pack": "15 TAB",
         "Company Name": "PFIZER LTD"
@@ -95322,6 +95372,16 @@ const navkarMedicineData = [
     {
         "Product Name": "MEDROL 8MG TAB",
         "Pack": "14 TAB",
+        "Company Name": "GELUSIL [MPS] SYR"
+    },
+    {
+        "Product Name": "PENIDURE LA 12INJ",
+        "Pack": "1 VIAL",
+        "Company Name": "GELUSIL [MPS] SYR"
+    },
+    {
+        "Product Name": "PENIDURE LA 6 VAIL",
+        "Pack": "5VAIL",
         "Company Name": "GELUSIL [MPS] SYR"
     },
     {
@@ -96407,6 +96467,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ARNOPEN CAP",
         "Pack": "30 CAP",
+        "Company Name": "PHYTO PHARMA"
+    },
+    {
+        "Product Name": "ARNOPEN FORTE CAP",
+        "Pack": "30CAP",
         "Company Name": "PHYTO PHARMA"
     },
     {
@@ -100880,8 +100945,8 @@ const navkarMedicineData = [
         "Company Name": "RPG LIFE SCIENCE  (PINNACLE)"
     },
     {
-        "Product Name": "CRITIPENEM 200MG CAP",
-        "Pack": "10CAP",
+        "Product Name": "CRITIPENEM 200MG TAB",
+        "Pack": "10 TAB",
         "Company Name": "RPG LIFE SCIENCE  (PINNACLE)"
     },
     {
@@ -102815,8 +102880,13 @@ const navkarMedicineData = [
         "Company Name": "SHREYA LIFE SCIENCES (ACUCARE)"
     },
     {
-        "Product Name": "HEALEX PLUS SPRAY",
-        "Pack": "100GM",
+        "Product Name": "CEFERA CV TAB",
+        "Pack": "10'S",
+        "Company Name": "SHREYA LIFE SCIENCES (ACUCARE)"
+    },
+    {
+        "Product Name": "CT-SPRD CREAM 20G",
+        "Pack": "20GM",
         "Company Name": "SHREYA LIFE SCIENCES (ACUCARE)"
     },
     {
@@ -102925,13 +102995,13 @@ const navkarMedicineData = [
         "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
     },
     {
-        "Product Name": "CEFERA CV TAB",
-        "Pack": "10'S",
+        "Product Name": "DEXAMET INJ 2ML",
+        "Pack": "2ML",
         "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
     },
     {
-        "Product Name": "CT-SPRD CREAM 20G",
-        "Pack": "20GM",
+        "Product Name": "DOLCERA 650 TAB",
+        "Pack": "15'S",
         "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
     },
     {
@@ -102940,8 +103010,23 @@ const navkarMedicineData = [
         "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
     },
     {
+        "Product Name": "HEALEX PLUS SPRAY",
+        "Pack": "100GM",
+        "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
+    },
+    {
+        "Product Name": "HIBRID 228.5 DRY SYRUP",
+        "Pack": "30ML",
+        "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
+    },
+    {
         "Product Name": "HIBRID 625 TAB",
         "Pack": "10 TAB",
+        "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
+    },
+    {
+        "Product Name": "HIBRID FORTE 457 DRY SYRUPH",
+        "Pack": "30ML",
         "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
     },
     {
@@ -102965,8 +103050,33 @@ const navkarMedicineData = [
         "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
     },
     {
+        "Product Name": "LEE 500 TAB",
+        "Pack": "5'S",
+        "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
+    },
+    {
+        "Product Name": "NIMI RAPI TAB",
+        "Pack": "10'S",
+        "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
+    },
+    {
         "Product Name": "RALLIDEX D 500ML",
         "Pack": "500 ML",
+        "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
+    },
+    {
+        "Product Name": "RELYTE 5 SACHET",
+        "Pack": "4.2GM",
+        "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
+    },
+    {
+        "Product Name": "RELYTE ENERGY APPLE 200ML",
+        "Pack": "200ML",
+        "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
+    },
+    {
+        "Product Name": "RELYTE ENERGY LEMON",
+        "Pack": "200ML",
         "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
     },
     {
@@ -102982,6 +103092,11 @@ const navkarMedicineData = [
     {
         "Product Name": "SWIFTOLAC SYP",
         "Pack": "150ML",
+        "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
+    },
+    {
+        "Product Name": "XENOBID NEW 275 TABH",
+        "Pack": "10'S",
         "Company Name": "SHREYA LIFE SCIENCES (AMADEUS)"
     },
     {
@@ -103060,16 +103175,6 @@ const navkarMedicineData = [
         "Company Name": "SHREYA LIFE SCIENCES PVT. LTD."
     },
     {
-        "Product Name": "DEXAMET INJ 2ML",
-        "Pack": "2ML",
-        "Company Name": "SHREYA LIFE SCIENCES PVT. LTD."
-    },
-    {
-        "Product Name": "DOLCERA 650 TAB",
-        "Pack": "15'S",
-        "Company Name": "SHREYA LIFE SCIENCES PVT. LTD."
-    },
-    {
         "Product Name": "GLYCIFIT 1000 TAB",
         "Pack": "10TAB",
         "Company Name": "SHREYA LIFE SCIENCES PVT. LTD."
@@ -103077,26 +103182,6 @@ const navkarMedicineData = [
     {
         "Product Name": "GLYCIFIT 500 TAB",
         "Pack": "10TAB",
-        "Company Name": "SHREYA LIFE SCIENCES PVT. LTD."
-    },
-    {
-        "Product Name": "HIBRID 228.5 DRY SYRUP",
-        "Pack": "30ML",
-        "Company Name": "SHREYA LIFE SCIENCES PVT. LTD."
-    },
-    {
-        "Product Name": "HIBRID FORTE 457 DRY SYRUPH",
-        "Pack": "30ML",
-        "Company Name": "SHREYA LIFE SCIENCES PVT. LTD."
-    },
-    {
-        "Product Name": "LEE 500 TAB",
-        "Pack": "5'S",
-        "Company Name": "SHREYA LIFE SCIENCES PVT. LTD."
-    },
-    {
-        "Product Name": "NIMI RAPI TAB",
-        "Pack": "10'S",
         "Company Name": "SHREYA LIFE SCIENCES PVT. LTD."
     },
     {
@@ -103110,28 +103195,8 @@ const navkarMedicineData = [
         "Company Name": "SHREYA LIFE SCIENCES PVT. LTD."
     },
     {
-        "Product Name": "RELYTE 5 SACHET",
-        "Pack": "4.2GM",
-        "Company Name": "SHREYA LIFE SCIENCES PVT. LTD."
-    },
-    {
-        "Product Name": "RELYTE ENERGY APPLE 200ML",
-        "Pack": "200ML",
-        "Company Name": "SHREYA LIFE SCIENCES PVT. LTD."
-    },
-    {
-        "Product Name": "RELYTE ENERGY LEMON",
-        "Pack": "200ML",
-        "Company Name": "SHREYA LIFE SCIENCES PVT. LTD."
-    },
-    {
         "Product Name": "REZ Q SUSPENSION",
         "Pack": "60ML",
-        "Company Name": "SHREYA LIFE SCIENCES PVT. LTD."
-    },
-    {
-        "Product Name": "XENOBID NEW 275 TABH",
-        "Pack": "10'S",
         "Company Name": "SHREYA LIFE SCIENCES PVT. LTD."
     },
     {
@@ -119150,6 +119215,11 @@ const navkarMedicineData = [
         "Company Name": "VERITAZ HEALTH CARE LTD ( AUROBINDO PHARMA LTD)"
     },
     {
+        "Product Name": "FEPANIL MEF DS 100 ML",
+        "Pack": "100 ML",
+        "Company Name": "VERITAZ HEALTH CARE LTD ( AUROBINDO PHARMA LTD)"
+    },
+    {
         "Product Name": "FEPANIL MEF DS SUSP",
         "Pack": "60ML",
         "Company Name": "VERITAZ HEALTH CARE LTD ( AUROBINDO PHARMA LTD)"
@@ -120285,49 +120355,54 @@ const navkarMedicineData = [
         "Company Name": "WALTER BUSHNELL LTD STAR"
     },
     {
+        "Product Name": "MARTIFUR 100MG TAB",
+        "Pack": "TAB",
+        "Company Name": "WALTER BUSHNELL LTD STAR"
+    },
+    {
         "Product Name": "MARTIFUR MR 100MG TAB",
         "Pack": "TAB",
-        "Company Name": "MARTIFUR 100MG TAB"
+        "Company Name": "WALTER BUSHNELL LTD STAR"
     },
     {
         "Product Name": "MARTIFUR MR 50MG TAB",
         "Pack": "TAB",
-        "Company Name": "MARTIFUR 100MG TAB"
+        "Company Name": "WALTER BUSHNELL LTD STAR"
     },
     {
         "Product Name": "MARTIVIT D3 NANO  DROPS",
         "Pack": "15 ML",
-        "Company Name": "MARTIFUR 100MG TAB"
+        "Company Name": "WALTER BUSHNELL LTD STAR"
     },
     {
         "Product Name": "MARTIVIT D3 NANO SYR",
         "Pack": "5 ML",
-        "Company Name": "MARTIFUR 100MG TAB"
+        "Company Name": "WALTER BUSHNELL LTD STAR"
     },
     {
         "Product Name": "MARTIVON 10MG TAB",
         "Pack": "10TAB",
-        "Company Name": "MARTIFUR 100MG TAB"
+        "Company Name": "WALTER BUSHNELL LTD STAR"
     },
     {
         "Product Name": "POTKLOR LIQUID 200ML",
         "Pack": "200ML",
-        "Company Name": "MARTIFUR 100MG TAB"
+        "Company Name": "WALTER BUSHNELL LTD STAR"
     },
     {
         "Product Name": "URILISER LIQUID 100ML",
         "Pack": "100ML",
-        "Company Name": "MARTIFUR 100MG TAB"
+        "Company Name": "WALTER BUSHNELL LTD STAR"
     },
     {
         "Product Name": "URILISER MB6 SYP",
         "Pack": "200ML",
-        "Company Name": "MARTIFUR 100MG TAB"
+        "Company Name": "WALTER BUSHNELL LTD STAR"
     },
     {
         "Product Name": "URISPAS TAB",
         "Pack": "15 TAB",
-        "Company Name": "MARTIFUR 100MG TAB"
+        "Company Name": "WALTER BUSHNELL LTD STAR"
     },
     {
         "Product Name": "NOCK TH 8 TAB",
@@ -121178,6 +121253,16 @@ const navkarMedicineData = [
         "Product Name": "NUTRAMIL STAGE 3-400 TAB",
         "Pack": "TAB",
         "Company Name": "WIN MEDICARE UTF"
+    },
+    {
+        "Product Name": "DICLOWIN PLUS TAB 10``S",
+        "Pack": "10 TAB",
+        "Company Name": "WINGS BIOTECH OTC (GENERIC)"
+    },
+    {
+        "Product Name": "ORASORE GEL 10GM",
+        "Pack": "10GM",
+        "Company Name": "WINGS BIOTECH OTC (GENERIC)"
     },
     {
         "Product Name": "GLARITUS 100IU CARTRIDE INJ",
@@ -125702,6 +125787,11 @@ const navkarMedicineData = [
     {
         "Product Name": "BILOVAS TAB 10`S",
         "Pack": "TAB",
+        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
+    },
+    {
+        "Product Name": "COMBIMIST L RESPULES 2.5ML",
+        "Pack": "2.5ML",
         "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
     },
     {
