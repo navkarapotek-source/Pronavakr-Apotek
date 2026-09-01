@@ -7835,11 +7835,6 @@ const productData = [
         "Company Name": "ELDER PHARMACEUTICALS LTD"
     },
     {
-        "Product Name": "TENEBETIC-M TABS",
-        "Pack": "1X10T",
-        "Company Name": "ELDER PHARMACEUTICALS LTD"
-    },
-    {
         "Product Name": "TOOTHCARE BRUSH",
         "Pack": "-",
         "Company Name": "ELDER PHARMACEUTICALS LTD"
@@ -9190,6 +9185,11 @@ const productData = [
         "Company Name": "FLEMINGO PRODUCTS"
     },
     {
+        "Product Name": "FLA CALF SUPPORT(M)BLACK",
+        "Pack": "PC",
+        "Company Name": "FLEMINGO PRODUCTS"
+    },
+    {
         "Product Name": "FLA CALF SUPPORT(S)BLACK",
         "Pack": "PC",
         "Company Name": "FLEMINGO PRODUCTS"
@@ -9547,6 +9547,11 @@ const productData = [
     {
         "Product Name": "FLA SHOULDER SUPOORT (SMALL )",
         "Pack": "1",
+        "Company Name": "FLEMINGO PRODUCTS"
+    },
+    {
+        "Product Name": "FLA SILICON FOOT INSOLE (L)",
+        "Pack": "PIC",
         "Company Name": "FLEMINGO PRODUCTS"
     },
     {
@@ -15990,6 +15995,11 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "AQUA AID CORN CAP",
+        "Pack": "4PC",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "AQUA ANKLE WRAP (NEO)",
         "Pack": "PC",
         "Company Name": "LABORATE AQUA LAB"
@@ -16380,6 +16390,11 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "AQUAKOLD VAPORUB 25ML",
+        "Pack": "25ML",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "AQUAKOLD VAPOUR RUB 10ML",
         "Pack": "10ML",
         "Company Name": "LABORATE AQUA LAB"
@@ -16555,6 +16570,11 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "CALVIN K2-7 SOFT CAP",
+        "Pack": "10CAP",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "CALVIN SUSP",
         "Pack": "200ML",
         "Company Name": "LABORATE AQUA LAB"
@@ -16646,6 +16666,11 @@ const productData = [
     },
     {
         "Product Name": "CLARICHEST 250 TAB",
+        "Pack": "10TAB",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "CLARICHEST 500 TAB",
         "Pack": "10TAB",
         "Company Name": "LABORATE AQUA LAB"
     },
@@ -16825,6 +16850,11 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "KUF RELIEF DX SYP",
+        "Pack": "100ML",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "KUF RELIEF TAB",
         "Pack": "10TAB",
         "Company Name": "LABORATE AQUA LAB"
@@ -16857,6 +16887,11 @@ const productData = [
     {
         "Product Name": "LABOLIA BODY LOTION HONEY ALMOND 650ML",
         "Pack": "650ML",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "LINHEXA D/S 30ML",
+        "Pack": "30ML",
         "Company Name": "LABORATE AQUA LAB"
     },
     {
@@ -16947,6 +16982,11 @@ const productData = [
     {
         "Product Name": "MOCZIN-LC KID SYP",
         "Pack": "60ML",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "MYGERMINA 5ML",
+        "Pack": "5ML",
         "Company Name": "LABORATE AQUA LAB"
     },
     {
@@ -25690,6 +25730,11 @@ const productData = [
         "Company Name": "ROMSON"
     },
     {
+        "Product Name": "ROM ECG ELECTRODE 1800 OVAL",
+        "Pack": "PC",
+        "Company Name": "ROMSON"
+    },
+    {
         "Product Name": "ROM EETA ECG LEAD ROUND",
         "Pack": "PC",
         "Company Name": "ROMSON"
@@ -29000,7 +29045,7 @@ const productData = [
         "Company Name": "SMART ICONIC LAB"
     },
     {
-        "Product Name": "NICOSHOT GUM 2MG",
+        "Product Name": "NICOSHOT GUM 2MGI",
         "Pack": "1X10TAB",
         "Company Name": "SMART ICONIC LAB"
     },

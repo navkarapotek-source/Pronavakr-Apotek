@@ -620,11 +620,6 @@ const navkarColdchainData = [
         "Company Name": "CORONA REMIDIES PVT LTD ARUSH"
     },
     {
-        "Product Name": "OBEDA PRO INJ 0.25MG",
-        "Pack": "1S",
-        "Company Name": "DR REDDYS LAB (WINTURA)"
-    },
-    {
         "Product Name": "OBEDA PRO  4MG/3ML PREFILLED PEN",
         "Pack": "1 PEN",
         "Company Name": "DR REDDYS LAB {SUPRIMUS}"
@@ -635,14 +630,19 @@ const navkarColdchainData = [
         "Company Name": "DR REDDYS LAB {SUPRIMUS}"
     },
     {
-        "Product Name": "METHERGIN INJ",
-        "Pack": "10ML",
-        "Company Name": "DR REDDYS LAB AQURA MS"
+        "Product Name": "OBEDA PRO INJ 0.25MG",
+        "Pack": "1S",
+        "Company Name": "DR REDDYS LAB {SUPRIMUS}"
     },
     {
         "Product Name": "OBEDA PRO INJ 0.5MG",
         "Pack": "1'S",
-        "Company Name": "DR REDDYS LABORATORIES LTD"
+        "Company Name": "DR REDDYS LAB {SUPRIMUS}"
+    },
+    {
+        "Product Name": "METHERGIN INJ",
+        "Pack": "10ML",
+        "Company Name": "DR REDDYS LAB AQURA MS"
     },
     {
         "Product Name": "REPATHA SURECLICK PREFILLED PEN",
