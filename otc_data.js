@@ -2130,6 +2130,16 @@ const otcData = [
         "Company Name": "GENERAL...A"
     },
     {
+        "Product Name": "GANDHAV HARITAKI 100GM",
+        "Pack": "100GM",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "GANDHAV HARITAKI 50GM",
+        "Pack": "50GM",
+        "Company Name": "GENERAL...A"
+    },
+    {
         "Product Name": "HAPPYDENT [WAVE]",
         "Pack": "1JAR",
         "Company Name": "GENERAL...A"

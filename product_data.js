@@ -415,11 +415,6 @@ const productData = [
         "Company Name": "AJANTA PHARMA LTD"
     },
     {
-        "Product Name": "APECTROLYTE ORS POWDER 21.8GM",
-        "Pack": "21.8GM",
-        "Company Name": "AJANTA PHARMA LTD"
-    },
-    {
         "Product Name": "APLEV-M TAB 5/10MG",
         "Pack": "10TAB",
         "Company Name": "AJANTA PHARMA LTD"
@@ -525,11 +520,6 @@ const productData = [
         "Company Name": "AJANTA PHARMA LTD"
     },
     {
-        "Product Name": "JUNIOR APLANSO TAB 15MG",
-        "Pack": "15TAB",
-        "Company Name": "AJANTA PHARMA LTD"
-    },
-    {
         "Product Name": "KAMAGRA JELLY (NEW PACK)",
         "Pack": "1X1SACHET",
         "Company Name": "AJANTA PHARMA LTD"
@@ -580,11 +570,6 @@ const productData = [
         "Company Name": "AJANTA PHARMA LTD"
     },
     {
-        "Product Name": "MUGARD FORTE GEL",
-        "Pack": "15GM",
-        "Company Name": "AJANTA PHARMA LTD"
-    },
-    {
         "Product Name": "OMEFOR CAP",
         "Pack": "1X20CAPS",
         "Company Name": "AJANTA PHARMA LTD"
@@ -592,16 +577,6 @@ const productData = [
     {
         "Product Name": "OMEFOR-D CAP",
         "Pack": "1X15CAP",
-        "Company Name": "AJANTA PHARMA LTD"
-    },
-    {
-        "Product Name": "ONDAPLUS MD TAB 4MG",
-        "Pack": "10TAB",
-        "Company Name": "AJANTA PHARMA LTD"
-    },
-    {
-        "Product Name": "ONDAPLUS SYP",
-        "Pack": "30ML",
         "Company Name": "AJANTA PHARMA LTD"
     },
     {
@@ -755,6 +730,11 @@ const productData = [
         "Company Name": "AJANTA PHARMA LTD GENCARE"
     },
     {
+        "Product Name": "APECTROLYTE ORS POWDER 21.8GM",
+        "Pack": "21.8GM",
+        "Company Name": "AJANTA PHARMA LTD GENCARE"
+    },
+    {
         "Product Name": "APNICID TAB 40MG",
         "Pack": "15TAB",
         "Company Name": "AJANTA PHARMA LTD GENCARE"
@@ -762,6 +742,26 @@ const productData = [
     {
         "Product Name": "FOLIVIA TAB 5MG",
         "Pack": "30TAB",
+        "Company Name": "AJANTA PHARMA LTD GENCARE"
+    },
+    {
+        "Product Name": "JUNIOR APLANSO TAB 15MG",
+        "Pack": "15TAB",
+        "Company Name": "AJANTA PHARMA LTD GENCARE"
+    },
+    {
+        "Product Name": "MUGARD FORTE GEL",
+        "Pack": "15GM",
+        "Company Name": "AJANTA PHARMA LTD GENCARE"
+    },
+    {
+        "Product Name": "ONDAPLUS MD TAB 4MG",
+        "Pack": "10TAB",
+        "Company Name": "AJANTA PHARMA LTD GENCARE"
+    },
+    {
+        "Product Name": "ONDAPLUS SYP",
+        "Pack": "30ML",
         "Company Name": "AJANTA PHARMA LTD GENCARE"
     },
     {
@@ -1622,6 +1622,11 @@ const productData = [
     {
         "Product Name": "OMEE-FIZ TABS",
         "Pack": "1X2T",
+        "Company Name": "ALKEM"
+    },
+    {
+        "Product Name": "OPTIBEX TEAR DROPS 10ML",
+        "Pack": "1X10ML",
         "Company Name": "ALKEM"
     },
     {
@@ -3395,6 +3400,11 @@ const productData = [
         "Company Name": "CADILA PHARMA (OTC)"
     },
     {
+        "Product Name": "UDICYTE-300 TABLET",
+        "Pack": "1X15TAB",
+        "Company Name": "CADILA PHARMA (OTC)"
+    },
+    {
         "Product Name": "ZEROCOF-AT SYRUP 100ML",
         "Pack": "100ML",
         "Company Name": "CADILA PHARMA (OTC)"
@@ -4158,6 +4168,11 @@ const productData = [
         "Product Name": "VOLICAD GEL 30GM",
         "Pack": "1X30GM",
         "Company Name": "CADILA PHARMA(PRIDE)"
+    },
+    {
+        "Product Name": "MUPIDAC OINT",
+        "Pack": "5GM",
+        "Company Name": "CADILA PHARMACEUTICALS LTD."
     },
     {
         "Product Name": "OFLOSTAR 200MG TAB",
@@ -8070,6 +8085,11 @@ const productData = [
         "Company Name": "EMCURE PHARMACEUTICALS"
     },
     {
+        "Product Name": "HAVELLS HAIR DRYER",
+        "Pack": "1",
+        "Company Name": "EMCURE PHARMACEUTICALS"
+    },
+    {
         "Product Name": "KEMCURE-DT TAB",
         "Pack": "1X15T",
         "Company Name": "EMCURE PHARMACEUTICALS"
@@ -8907,11 +8927,6 @@ const productData = [
     {
         "Product Name": "MEFCARE-P DS (STRAW)W/CARTON 60ML",
         "Pack": "1X60ML",
-        "Company Name": "EUROCARE"
-    },
-    {
-        "Product Name": "MUPIDAC OINT",
-        "Pack": "5GM",
         "Company Name": "EUROCARE"
     },
     {
@@ -11545,6 +11560,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "EVIBROOK-LC TAB",
+        "Pack": "10TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "EVIZONE LC TAB",
         "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
@@ -11862,6 +11882,11 @@ const productData = [
     {
         "Product Name": "HEALING ELECTROLYTE 2Z ORS (ORANGE)",
         "Pack": "1X22GM",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "HEALING FOLDING TABLE",
+        "Pack": "PC",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -12800,11 +12825,6 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
-        "Product Name": "PANCREZYME HP 25000 TAB",
-        "Pack": "10TAB",
-        "Company Name": "HEALING PHARMA"
-    },
-    {
         "Product Name": "PANTODICE 20 TAB",
         "Pack": "15TAB",
         "Company Name": "HEALING PHARMA"
@@ -12957,6 +12977,11 @@ const productData = [
     {
         "Product Name": "PREDNIHEAL-40MG TABS",
         "Pack": "1X10T",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "PREDNIHEAL-5 TAB",
+        "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -13187,6 +13212,11 @@ const productData = [
     {
         "Product Name": "SITASMART-M50/500 TABS",
         "Pack": "1X15T",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "SLIMTOP 60 CAP",
+        "Pack": "10CAP",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -15910,6 +15940,11 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "AMICADON 500 INJ",
+        "Pack": "2ML",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "AQ OF 200 TAB",
         "Pack": "10TAB",
         "Company Name": "LABORATE AQUA LAB"
@@ -17072,6 +17107,11 @@ const productData = [
     {
         "Product Name": "PAIGESIC-MD TAB",
         "Pack": "10TAB",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "PAITOR 40 INJ",
+        "Pack": "10ML",
         "Company Name": "LABORATE AQUA LAB"
     },
     {
@@ -18445,6 +18485,21 @@ const productData = [
         "Company Name": "LEEFORD HEALTHCARE LTD."
     },
     {
+        "Product Name": "DURITE PLUS-20 TABS",
+        "Pack": "1X10T",
+        "Company Name": "LEEFORD HEALTHCARE LTD."
+    },
+    {
+        "Product Name": "DURITE-10MG TABS",
+        "Pack": "1X10T",
+        "Company Name": "LEEFORD HEALTHCARE LTD."
+    },
+    {
+        "Product Name": "DURITE-20MG TABS",
+        "Pack": "1X10T",
+        "Company Name": "LEEFORD HEALTHCARE LTD."
+    },
+    {
         "Product Name": "DYNACID SYRUP 170ML (AIC FL)",
         "Pack": "170 ML",
         "Company Name": "LEEFORD HEALTHCARE LTD."
@@ -18562,6 +18617,11 @@ const productData = [
     {
         "Product Name": "FREELEX PLUS SYP 170ML",
         "Pack": "170 ML",
+        "Company Name": "LEEFORD HEALTHCARE LTD."
+    },
+    {
+        "Product Name": "FREELEX SYP 170ML",
+        "Pack": "170ML",
         "Company Name": "LEEFORD HEALTHCARE LTD."
     },
     {
@@ -24410,6 +24470,11 @@ const productData = [
         "Company Name": "OSWAL CHEMICALS"
     },
     {
+        "Product Name": "GLYCERINE 400ML",
+        "Pack": "400ML",
+        "Company Name": "OSWAL CHEMICALS"
+    },
+    {
         "Product Name": "GLYCERINE IP",
         "Pack": "100ML",
         "Company Name": "OSWAL CHEMICALS"
@@ -24607,16 +24672,6 @@ const productData = [
     {
         "Product Name": "GLUCOSE-D REGULAR (OSWAL) 100GM",
         "Pack": "1X100GM",
-        "Company Name": "OSWAL PHARMACEUTICALS"
-    },
-    {
-        "Product Name": "GLYCERIN PURE 100ML",
-        "Pack": "1X100ML",
-        "Company Name": "OSWAL PHARMACEUTICALS"
-    },
-    {
-        "Product Name": "GLYCERIN PURE 400ML",
-        "Pack": "1X400ML",
         "Company Name": "OSWAL PHARMACEUTICALS"
     },
     {
@@ -24972,6 +25027,11 @@ const productData = [
     {
         "Product Name": "IVERACTIN 12 TAB",
         "Pack": "1X10TAB",
+        "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
+    },
+    {
+        "Product Name": "IVERACTIN 3MG TAB",
+        "Pack": "10TAB",
         "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
     },
     {
@@ -27250,6 +27310,11 @@ const productData = [
         "Company Name": "SMART CURE WAY"
     },
     {
+        "Product Name": "ACIWAVE JEERA SACHET",
+        "Pack": "5GM",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
         "Product Name": "ACIWAVE LEMON SACHET",
         "Pack": "5GM",
         "Company Name": "SMART CURE WAY"
@@ -27520,6 +27585,11 @@ const productData = [
         "Company Name": "SMART CURE WAY"
     },
     {
+        "Product Name": "FUNPLAY ULTRATHIN CHOCOLATE 10PC",
+        "Pack": "1X10PCS",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
         "Product Name": "FUNPLAY ULTRATHIN CHOCOLATE 3PC",
         "Pack": "1X3PCS",
         "Company Name": "SMART CURE WAY"
@@ -27592,6 +27662,11 @@ const productData = [
     {
         "Product Name": "LYCOWAKE CAP",
         "Pack": "10CAP",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "MECOBLIST SL TAB",
+        "Pack": "1X10T",
         "Company Name": "SMART CURE WAY"
     },
     {
@@ -27680,6 +27755,11 @@ const productData = [
         "Company Name": "SMART CURE WAY"
     },
     {
+        "Product Name": "ONDATREAT MD TAB",
+        "Pack": "10TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
         "Product Name": "ONDATREAT SYRUP",
         "Pack": "1X30ML",
         "Company Name": "SMART CURE WAY"
@@ -27697,6 +27777,16 @@ const productData = [
     {
         "Product Name": "PANTORADIX IV INJ",
         "Pack": "40MG",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "PEDIWAY-AT JUNIOR SYRUP",
+        "Pack": "1X60ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "PEDIWAY-LS JUNIOR 60ML",
+        "Pack": "1X60ML",
         "Company Name": "SMART CURE WAY"
     },
     {
@@ -27750,6 +27840,11 @@ const productData = [
         "Company Name": "SMART CURE WAY"
     },
     {
+        "Product Name": "SMARTWAY OLIVE OIL",
+        "Pack": "100ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
         "Product Name": "THANDA BLISS HAIR OIL",
         "Pack": "100ML",
         "Company Name": "SMART CURE WAY"
@@ -27767,6 +27862,16 @@ const productData = [
     {
         "Product Name": "TRANBEAT MF TAB",
         "Pack": "10TAB",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "WAYFENAC 2% 55GM SPRAY",
+        "Pack": "1X55GM",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "WAYFENAC 2% SPRAY 35GM",
+        "Pack": "1X35GM",
         "Company Name": "SMART CURE WAY"
     },
     {
@@ -30560,6 +30665,11 @@ const productData = [
         "Company Name": "DARKROOM SUPER DOTTED"
     },
     {
+        "Product Name": "DOLOFRESH SP15",
+        "Pack": "10TAB",
+        "Company Name": "DARKROOM SUPER DOTTED"
+    },
+    {
         "Product Name": "DOXYTREAT LB CAP",
         "Pack": "10CAP",
         "Company Name": "DARKROOM SUPER DOTTED"
@@ -33035,12 +33145,27 @@ const productData = [
         "Company Name": "TORRENT PHARMA(ETHICAL)"
     },
     {
+        "Product Name": "TORRENT CATLOGUS",
+        "Pack": "PC",
+        "Company Name": "TORRENT PHARMA(ETHICAL)"
+    },
+    {
         "Product Name": "TORRENT HAND POUCH",
         "Pack": "PC",
         "Company Name": "TORRENT PHARMA(ETHICAL)"
     },
     {
         "Product Name": "TORRENT MOBILE STAND METAL",
+        "Pack": "PC",
+        "Company Name": "TORRENT PHARMA(ETHICAL)"
+    },
+    {
+        "Product Name": "TORRENT PEN FLAIR",
+        "Pack": "PC",
+        "Company Name": "TORRENT PHARMA(ETHICAL)"
+    },
+    {
+        "Product Name": "TORRENT STOOL MILTON BACKREST",
         "Pack": "PC",
         "Company Name": "TORRENT PHARMA(ETHICAL)"
     },
