@@ -1705,6 +1705,11 @@ const otcData = [
         "Company Name": "DKT INDIA"
     },
     {
+        "Product Name": "FIESTA LUBRICANT STRAWBEERY",
+        "Pack": "60ML",
+        "Company Name": "DKT INDIA"
+    },
+    {
         "Product Name": "ZAROOR CONDOMS [RS.10]",
         "Pack": "3PIS",
         "Company Name": "DKT INDIA"
@@ -6645,7 +6650,7 @@ const otcData = [
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
     {
-        "Product Name": "M POKO PANTS [L26] RS.399",
+        "Product Name": "M POKO PANTS [L26] RS.299",
         "Pack": "30PIS",
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },

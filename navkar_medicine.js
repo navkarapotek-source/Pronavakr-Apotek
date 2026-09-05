@@ -17945,6 +17945,11 @@ const navkarMedicineData = [
         "Company Name": "BHARAT SERUM (FEMICARE)"
     },
     {
+        "Product Name": "MAGNIKIND TAB",
+        "Pack": "10TAB",
+        "Company Name": "BHARAT SERUM (FEMICARE)"
+    },
+    {
         "Product Name": "MIFIACT 25 TAB",
         "Pack": "10TAB",
         "Company Name": "BHARAT SERUM (FEMICARE)"
@@ -18307,6 +18312,16 @@ const navkarMedicineData = [
     {
         "Product Name": "SUNDAE PRO 1",
         "Pack": "1'S",
+        "Company Name": "BIOCON LIMITED (DIABETOLOGY) {ERIS}"
+    },
+    {
+        "Product Name": "SUNDAE PRO 1.7 INJ",
+        "Pack": "1VIAL",
+        "Company Name": "BIOCON LIMITED (DIABETOLOGY) {ERIS}"
+    },
+    {
+        "Product Name": "SUNDAE PRO 2.4 INJ",
+        "Pack": "1VIAL",
         "Company Name": "BIOCON LIMITED (DIABETOLOGY) {ERIS}"
     },
     {
@@ -28085,7 +28100,7 @@ const navkarMedicineData = [
         "Company Name": "CORONA REMEDIES PVT. LTD AURA"
     },
     {
-        "Product Name": "ROSULESS 20MG TAB 10`S",
+        "Product Name": "ROSULESS 20MG TAB",
         "Pack": "15TAB",
         "Company Name": "CORONA REMEDIES PVT. LTD AURA"
     },
@@ -31425,6 +31440,11 @@ const navkarMedicineData = [
         "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
     },
     {
+        "Product Name": "OBEDA 14 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "DR REDDYS LAB {SUPRIMUS}"
+    },
+    {
         "Product Name": "OBEDA 3 MG TAB",
         "Pack": "10TAB",
         "Company Name": "DR REDDYS LAB {SUPRIMUS}"
@@ -31952,6 +31972,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ANTOXID [HC] CAP",
         "Pack": "30 CAP",
+        "Company Name": "DR REDDYS LABORATORIES LTD"
+    },
+    {
+        "Product Name": "BIXIBAT 10MG TAB",
+        "Pack": "10TAB",
         "Company Name": "DR REDDYS LABORATORIES LTD"
     },
     {
@@ -33480,7 +33505,7 @@ const navkarMedicineData = [
         "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
     },
     {
-        "Product Name": "GMM 1 TAB",
+        "Product Name": "GMM 1 PR TAB",
         "Pack": "10 TAB",
         "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
     },
@@ -37090,11 +37115,6 @@ const navkarMedicineData = [
         "Company Name": "ENTOD ENSIGHT"
     },
     {
-        "Product Name": "4QUIN EYE GEL",
-        "Pack": "5ML",
-        "Company Name": "ENTOD MEDEVA"
-    },
-    {
         "Product Name": "AMORSKIN CREAM",
         "Pack": "10GM",
         "Company Name": "ENTOD MEDEVA"
@@ -37251,6 +37271,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "4QUIN EYE DROPS 5ML",
+        "Pack": "5ML",
+        "Company Name": "ENTOD OPTHAMNIC"
+    },
+    {
+        "Product Name": "4QUIN EYE GEL",
         "Pack": "5ML",
         "Company Name": "ENTOD OPTHAMNIC"
     },
@@ -58530,6 +58555,11 @@ const navkarMedicineData = [
         "Company Name": "INTAS PHARMACEUTICALS (SUPRIMA)"
     },
     {
+        "Product Name": "IMMUTAS-IG 0.33G/2ML",
+        "Pack": "2ML",
+        "Company Name": "INTAS PHARMACEUTICALS (SUPRIMA)"
+    },
+    {
         "Product Name": "INTAGLIP M OD 1000 TAB",
         "Pack": "10'S",
         "Company Name": "INTAS PHARMACEUTICALS (SUPRIMA)"
@@ -70835,6 +70865,11 @@ const navkarMedicineData = [
         "Company Name": "LEBEN LIFE SCIENCES PVT LTD"
     },
     {
+        "Product Name": "PLATIGEN CAP",
+        "Pack": "10 CAP",
+        "Company Name": "LEEFORD HEALTHCARE LTD"
+    },
+    {
         "Product Name": "CARMIL DROP",
         "Pack": "30 ML",
         "Company Name": "LIBRA DRUGS (INDIA)"
@@ -74390,94 +74425,99 @@ const navkarMedicineData = [
         "Company Name": "LUPIN NEW MIND VISION"
     },
     {
+        "Product Name": "EPILIVE 500 TAB",
+        "Pack": "15TAB",
+        "Company Name": "LUPIN NEW MIND VISION"
+    },
+    {
         "Product Name": "EPILIVE 750 TAB",
         "Pack": "10TAB",
-        "Company Name": "EPILIVE 500 TAB"
+        "Company Name": "LUPIN NEW MIND VISION"
     },
     {
         "Product Name": "EPILIVE ER 1000 TAB",
         "Pack": "10TAB",
-        "Company Name": "EPILIVE 500 TAB"
+        "Company Name": "LUPIN NEW MIND VISION"
     },
     {
         "Product Name": "EPILIVE ER 500 TAB",
         "Pack": "10TAB",
-        "Company Name": "EPILIVE 500 TAB"
+        "Company Name": "LUPIN NEW MIND VISION"
     },
     {
         "Product Name": "EPILIVE ER 750 TAB",
         "Pack": "10TAB",
-        "Company Name": "EPILIVE 500 TAB"
+        "Company Name": "LUPIN NEW MIND VISION"
     },
     {
         "Product Name": "EPILIVE IV 5ML",
         "Pack": "5ML",
-        "Company Name": "EPILIVE 500 TAB"
+        "Company Name": "LUPIN NEW MIND VISION"
     },
     {
         "Product Name": "EPILIVE PREMIX 1000 MG",
         "Pack": "100ML",
-        "Company Name": "EPILIVE 500 TAB"
+        "Company Name": "LUPIN NEW MIND VISION"
     },
     {
         "Product Name": "EPILIVE PREMIX 500 MG",
         "Pack": "100ML",
-        "Company Name": "EPILIVE 500 TAB"
+        "Company Name": "LUPIN NEW MIND VISION"
     },
     {
         "Product Name": "EPILIVE SYRUP 100ML",
         "Pack": "100ML",
-        "Company Name": "EPILIVE 500 TAB"
+        "Company Name": "LUPIN NEW MIND VISION"
     },
     {
         "Product Name": "GOODFLO CAPS 110MG CAP",
         "Pack": "10X10",
-        "Company Name": "EPILIVE 500 TAB"
+        "Company Name": "LUPIN NEW MIND VISION"
     },
     {
         "Product Name": "GOODFLO CAPS 150MG CAP",
         "Pack": "10X10",
-        "Company Name": "EPILIVE 500 TAB"
+        "Company Name": "LUPIN NEW MIND VISION"
     },
     {
         "Product Name": "HEADSET TAB",
         "Pack": "5 X 3 X 2",
-        "Company Name": "EPILIVE 500 TAB"
+        "Company Name": "LUPIN NEW MIND VISION"
     },
     {
         "Product Name": "NITRAVET 5 MG TABLETS 20X15 (S)",
         "Pack": "1 TAB",
-        "Company Name": "EPILIVE 500 TAB"
+        "Company Name": "LUPIN NEW MIND VISION"
     },
     {
         "Product Name": "PREGADOC [M] 75 CAP",
         "Pack": "15CAP",
-        "Company Name": "EPILIVE 500 TAB"
+        "Company Name": "LUPIN NEW MIND VISION"
     },
     {
         "Product Name": "PREGADOC D 50/20 CAP",
         "Pack": "10CAP",
-        "Company Name": "EPILIVE 500 TAB"
+        "Company Name": "LUPIN NEW MIND VISION"
     },
     {
         "Product Name": "PREGADOC D 75/20 CAP",
         "Pack": "10CAP",
-        "Company Name": "EPILIVE 500 TAB"
+        "Company Name": "LUPIN NEW MIND VISION"
     },
     {
         "Product Name": "PREGADOC NT TAB",
         "Pack": "10TAB",
-        "Company Name": "EPILIVE 500 TAB"
+        "Company Name": "LUPIN NEW MIND VISION"
     },
     {
         "Product Name": "PREGADOC PLUS CAP",
         "Pack": "10CAP",
-        "Company Name": "EPILIVE 500 TAB"
+        "Company Name": "LUPIN NEW MIND VISION"
     },
     {
         "Product Name": "RESTFULL TAB",
         "Pack": "10X10T",
-        "Company Name": "EPILIVE 500 TAB"
+        "Company Name": "LUPIN NEW MIND VISION"
     },
     {
         "Product Name": "ARZU 10 TAB (10X10 T)",
@@ -82612,6 +82652,11 @@ const navkarMedicineData = [
     {
         "Product Name": "GUDCEF CV 50MG DRY SYP 30ML",
         "Pack": "30ML",
+        "Company Name": "MANKIND PHARMA (GRAVITAS)"
+    },
+    {
+        "Product Name": "HEALTH OK HMB PROTEIN POWDER",
+        "Pack": "200GM",
         "Company Name": "MANKIND PHARMA (GRAVITAS)"
     },
     {
@@ -107056,7 +107101,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "ISTAMET D XR 500 TAB",
-        "Pack": "15 TAB",
+        "Pack": "7  TAB",
         "Company Name": "SUN PHARMA BHIWANDI FAST MOVING"
     },
     {
@@ -109607,6 +109652,11 @@ const navkarMedicineData = [
     {
         "Product Name": "FEMARELLE 60+ CAP",
         "Pack": "15 CAP",
+        "Company Name": "SVIZERA HEALTHCARE (ACE)"
+    },
+    {
+        "Product Name": "FEMARELLE REJUENATE TAB",
+        "Pack": "15'S",
         "Company Name": "SVIZERA HEALTHCARE (ACE)"
     },
     {

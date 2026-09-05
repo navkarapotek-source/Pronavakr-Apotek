@@ -7065,6 +7065,11 @@ const productData = [
         "Company Name": "DR.REDDY LABORATORIES LTD."
     },
     {
+        "Product Name": "CEFALADEX 500 CAP",
+        "Pack": "10CAP",
+        "Company Name": "DR.REDDY LABORATORIES LTD."
+    },
+    {
         "Product Name": "CHYMOPATH-FORTE TAB",
         "Pack": "20TAB",
         "Company Name": "DR.REDDY LABORATORIES LTD."
@@ -7135,6 +7140,11 @@ const productData = [
         "Company Name": "DR.REDDY LABORATORIES LTD."
     },
     {
+        "Product Name": "METOGRIL XL 50 TAB",
+        "Pack": "15TAB",
+        "Company Name": "DR.REDDY LABORATORIES LTD."
+    },
+    {
         "Product Name": "NICETAMOL AP TAB",
         "Pack": "10TAB",
         "Company Name": "DR.REDDY LABORATORIES LTD."
@@ -7182,6 +7192,11 @@ const productData = [
     {
         "Product Name": "NISE D GEL 30GM",
         "Pack": "1X30GM",
+        "Company Name": "DR.REDDY LABORATORIES LTD."
+    },
+    {
+        "Product Name": "NISE D SPRAY 20GM",
+        "Pack": "20GM",
         "Company Name": "DR.REDDY LABORATORIES LTD."
     },
     {
@@ -7287,6 +7302,11 @@ const productData = [
     {
         "Product Name": "TELMISTA 40 TAB",
         "Pack": "1X15TAB",
+        "Company Name": "DR.REDDY LABORATORIES LTD."
+    },
+    {
+        "Product Name": "TELMISTA CT 80 TAB",
+        "Pack": "10TAB",
         "Company Name": "DR.REDDY LABORATORIES LTD."
     },
     {
@@ -17790,6 +17810,11 @@ const productData = [
         "Company Name": "LEEFORD COSMACIA"
     },
     {
+        "Product Name": "ALITE ANTI ACNE SOAP",
+        "Pack": "75GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
         "Product Name": "ALITE HAIR REMOVAL CREAM (MEN)",
         "Pack": "60GM",
         "Company Name": "LEEFORD COSMACIA"
@@ -17810,8 +17835,28 @@ const productData = [
         "Company Name": "LEEFORD COSMACIA"
     },
     {
+        "Product Name": "ALITE OIL CONTROL F/W",
+        "Pack": "70GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "DRYVEL ULTRA (XXL)",
+        "Pack": "8PC",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
         "Product Name": "ENSHINE ADVANCE CLEAN TOOTHBRUSH",
         "Pack": "PC",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "ENSHINE DENTAL PAIN EXPERT GEL",
+        "Pack": "15GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "ENSHINE HAIR OIL",
+        "Pack": "100ML",
         "Company Name": "LEEFORD COSMACIA"
     },
     {
@@ -17887,6 +17932,21 @@ const productData = [
     {
         "Product Name": "MEGLOW BEAUTY SOAP",
         "Pack": "75GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "MEGLOW FAIRNESS CREAM (M)",
+        "Pack": "30GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "MEGLOW FAIRNESS CREAM (W)",
+        "Pack": "15GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "MEGLOW FAIRNESS CREAM 15GM(M)",
+        "Pack": "15GM",
         "Company Name": "LEEFORD COSMACIA"
     },
     {
@@ -28005,27 +28065,27 @@ const productData = [
         "Company Name": "SMART ECO"
     },
     {
-        "Product Name": "CLINIPECO 10 TAB",
+        "Product Name": "CILNIPECO 10 TAB",
+        "Pack": "15 TAB",
+        "Company Name": "SMART ECO"
+    },
+    {
+        "Product Name": "CILNIPECO M 25 TAB",
         "Pack": "15TAB",
         "Company Name": "SMART ECO"
     },
     {
-        "Product Name": "CLINIPECO M 25 TAB",
+        "Product Name": "CILNIPECO M 50 TAB",
         "Pack": "15TAB",
         "Company Name": "SMART ECO"
     },
     {
-        "Product Name": "CLINIPECO M 50 TAB",
+        "Product Name": "CILNIPECO T 40 TAB",
         "Pack": "15TAB",
         "Company Name": "SMART ECO"
     },
     {
-        "Product Name": "CLINIPECO T 40 TAB",
-        "Pack": "15TAB",
-        "Company Name": "SMART ECO"
-    },
-    {
-        "Product Name": "CLINIPECO TM TAB",
+        "Product Name": "CILNIPECO TM TAB",
         "Pack": "10TAB",
         "Company Name": "SMART ECO"
     },
@@ -30220,6 +30280,11 @@ const productData = [
         "Company Name": "ALKAFRESH SODA EFFERVESCENT"
     },
     {
+        "Product Name": "CILNIPECO TRIO TAB",
+        "Pack": "10TAB",
+        "Company Name": "ALKAFRESH SODA EFFERVESCENT"
+    },
+    {
         "Product Name": "CIPROFRESH B DROPS",
         "Pack": "10ML",
         "Company Name": "ALKAFRESH SODA EFFERVESCENT"
@@ -30261,11 +30326,6 @@ const productData = [
     },
     {
         "Product Name": "CLAVCREST KID TAB",
-        "Pack": "10TAB",
-        "Company Name": "ALKAFRESH SODA EFFERVESCENT"
-    },
-    {
-        "Product Name": "CLINIPECO TRIO TAB",
         "Pack": "10TAB",
         "Company Name": "ALKAFRESH SODA EFFERVESCENT"
     },
