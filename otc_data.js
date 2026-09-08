@@ -4200,7 +4200,7 @@ const otcData = [
         "Company Name": "NUTRICIA INTERNATIONAL PVT LTD"
     },
     {
-        "Product Name": "EASUM BABY CEREAL 400 GM",
+        "Product Name": "EASUM BABY CEREAL 400 GM\\",
         "Pack": "400 GM",
         "Company Name": "NUTRICIA INTERNATIONAL PVT LTD"
     },

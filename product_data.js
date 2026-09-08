@@ -5105,8 +5105,23 @@ const productData = [
         "Company Name": "CIPLA"
     },
     {
+        "Product Name": "FERICIP XT TOTAL TAB",
+        "Pack": "10TAB",
+        "Company Name": "CIPLA"
+    },
+    {
         "Product Name": "FLUKA TAB",
         "Pack": "1X1TAB",
+        "Company Name": "CIPLA"
+    },
+    {
+        "Product Name": "FOURDERM RF CREAM 10GM",
+        "Pack": "10GM",
+        "Company Name": "CIPLA"
+    },
+    {
+        "Product Name": "FOURDERM RF CREAM 20GM",
+        "Pack": "20GM",
         "Company Name": "CIPLA"
     },
     {
@@ -6077,6 +6092,11 @@ const productData = [
     {
         "Product Name": "LULITEC SPRAY 30ML",
         "Pack": "1X30ML",
+        "Company Name": "CIPLA VISTA"
+    },
+    {
+        "Product Name": "MONTECIP DL TAB",
+        "Pack": "10TAB",
         "Company Name": "CIPLA VISTA"
     },
     {
@@ -9945,6 +9965,11 @@ const productData = [
         "Company Name": "GENERAL COMPANIES"
     },
     {
+        "Product Name": "ETHON SPIRIT 400ML",
+        "Pack": "1X400ML",
+        "Company Name": "GENERAL COMPANIES"
+    },
+    {
         "Product Name": "EVEE 400MG CAPS",
         "Pack": "1X10C",
         "Company Name": "GENERAL COMPANIES"
@@ -11931,6 +11956,11 @@ const productData = [
     },
     {
         "Product Name": "HEALING JUG 7 LIT",
+        "Pack": "PC",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "HEALING JUTE BAG",
         "Pack": "PC",
         "Company Name": "HEALING PHARMA"
     },
@@ -14950,7 +14980,7 @@ const productData = [
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
-        "Product Name": "GLIMITH-MP2",
+        "Product Name": "GLIMITH-MP2 TAB",
         "Pack": "10TAB",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
@@ -27210,6 +27240,16 @@ const productData = [
         "Company Name": "SHRIRAMA STORES YELLAPUR"
     },
     {
+        "Product Name": "10BOX/300PC FOLDABLE PLASTIC STOOL",
+        "Pack": "PC",
+        "Company Name": "SMART BFGF"
+    },
+    {
+        "Product Name": "10BOX/300PC THE MENS PERFUME",
+        "Pack": "20 ML",
+        "Company Name": "SMART BFGF"
+    },
+    {
         "Product Name": "ACECREST SP15 TAB",
         "Pack": "10TAB",
         "Company Name": "SMART BFGF"
@@ -27357,6 +27397,36 @@ const productData = [
     {
         "Product Name": "SIOGRA GOLD TAB",
         "Pack": "4TAB",
+        "Company Name": "SMART BFGF"
+    },
+    {
+        "Product Name": "SMART LAB BASMATI RICE",
+        "Pack": "5KG",
+        "Company Name": "SMART BFGF"
+    },
+    {
+        "Product Name": "SMART LAB CELLO AMORE GLASS JUICE 6PC SET",
+        "Pack": "6PC",
+        "Company Name": "SMART BFGF"
+    },
+    {
+        "Product Name": "SMART LAB JAYPEE PLUS MEAL PLUS COMBO",
+        "Pack": "PC",
+        "Company Name": "SMART BFGF"
+    },
+    {
+        "Product Name": "SMART LAB MILTON STOOL",
+        "Pack": "PC",
+        "Company Name": "SMART BFGF"
+    },
+    {
+        "Product Name": "SMART LAB PERFUME GIFT SET 20ML",
+        "Pack": "4PCS",
+        "Company Name": "SMART BFGF"
+    },
+    {
+        "Product Name": "ZZ 5BOX/150PCS 6PC CELLO RICCA CUP SET 6PCS",
+        "Pack": "PC",
         "Company Name": "SMART BFGF"
     },
     {
@@ -29300,6 +29370,11 @@ const productData = [
         "Company Name": "SMART ICONIC LAB"
     },
     {
+        "Product Name": "ON 24/720PC GOBLIN DUFFLE TROLLY BAG",
+        "Pack": "1",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
         "Product Name": "ON 2500 AFFINITO ICE CREAM CUP SET",
         "Pack": "PC",
         "Company Name": "SMART ICONIC LAB"
@@ -29943,16 +30018,6 @@ const productData = [
         "Product Name": "ZZ ICONIC MR BAG",
         "Pack": "1PC",
         "Company Name": "SMART ICONIC LAB"
-    },
-    {
-        "Product Name": "10BOX/300PC FOLDABLE PLASTIC STOOL",
-        "Pack": "PC",
-        "Company Name": "SMART LAB"
-    },
-    {
-        "Product Name": "10BOX/300PC THE MENS PERFUME",
-        "Pack": "20 ML",
-        "Company Name": "SMART LAB"
     },
     {
         "Product Name": "ACECREST SR TAB",
@@ -31770,33 +31835,8 @@ const productData = [
         "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
     },
     {
-        "Product Name": "SMART LAB BASMATI RICE",
-        "Pack": "5KG",
-        "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
-    },
-    {
         "Product Name": "SMART LAB BODYMORE POWDER",
         "Pack": "PC",
-        "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
-    },
-    {
-        "Product Name": "SMART LAB CELLO AMORE GLASS JUICE 6PC SET",
-        "Pack": "6PC",
-        "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
-    },
-    {
-        "Product Name": "SMART LAB JAYPEE PLUS MEAL PLUS COMBO",
-        "Pack": "PC",
-        "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
-    },
-    {
-        "Product Name": "SMART LAB MILTON STOOL",
-        "Pack": "PC",
-        "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
-    },
-    {
-        "Product Name": "SMART LAB PERFUME GIFT SET 20ML",
-        "Pack": "4PCS",
         "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
     },
     {
@@ -32027,11 +32067,6 @@ const productData = [
     {
         "Product Name": "ZEROZERO HAIR REMOVAL(ROSE)CREAM 60GM",
         "Pack": "60GM",
-        "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
-    },
-    {
-        "Product Name": "ZZ 5BOX/150PCS 6PC CELLO RICCA CUP SET 6PCS",
-        "Pack": "PC",
         "Company Name": "RIGHTPICK SUNSCREEN SPF-55"
     },
     {
@@ -32692,6 +32727,11 @@ const productData = [
     {
         "Product Name": "NEOGRAS CHLOHEXIDINE GAUZE",
         "Pack": "1X10PCS",
+        "Company Name": "SURGICAL ITEM"
+    },
+    {
+        "Product Name": "URIN POT UCARE (2 IN 1)",
+        "Pack": "PIECE",
         "Company Name": "SURGICAL ITEM"
     },
     {
@@ -33527,6 +33567,11 @@ const productData = [
     {
         "Product Name": "ABDOMINAL BELT XXL (UCARE)",
         "Pack": "PC",
+        "Company Name": "UCARE"
+    },
+    {
+        "Product Name": "CERVICAL COLLAR L (UCARE)",
+        "Pack": "LARGE",
         "Company Name": "UCARE"
     },
     {
