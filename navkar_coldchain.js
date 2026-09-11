@@ -955,28 +955,23 @@ const navkarColdchainData = [
         "Company Name": "LUPIN NEW LUPIN INSPIRE"
     },
     {
-        "Product Name": "LUPISULIN - M 30/70  (5X3ML CARTRIDGE)",
+        "Product Name": "LUPISULIN M 30/70 (5X3ML CARTRIDGE)",
         "Pack": "1INJ",
         "Company Name": "LUPIN NEW LUPIN INSPIRE"
     },
     {
-        "Product Name": "LUPISULIN - R (5 X 3 ML CARTRIDGE)",
-        "Pack": "1 TAB",
-        "Company Name": "LUPIN NEW LUPIN INSPIRE"
-    },
-    {
-        "Product Name": "LUPISULIN M 30/70 (1 VIAL)",
-        "Pack": "1 TAB",
-        "Company Name": "LUPIN NEW LUPIN INSPIRE"
-    },
-    {
-        "Product Name": "LUPISULIN M 50/50 (1 VIAL)",
-        "Pack": "1 TAB",
+        "Product Name": "LUPISULIN M 30/70 INJ",
+        "Pack": "1VAIL",
         "Company Name": "LUPIN NEW LUPIN INSPIRE"
     },
     {
         "Product Name": "LUPISULIN M 50/50 CARTR",
         "Pack": "5*3 ML CAR",
+        "Company Name": "LUPIN NEW LUPIN INSPIRE"
+    },
+    {
+        "Product Name": "LUPISULIN M 50/50 INJ",
+        "Pack": "1VAIL",
         "Company Name": "LUPIN NEW LUPIN INSPIRE"
     },
     {
@@ -992,6 +987,11 @@ const navkarColdchainData = [
     {
         "Product Name": "LUPISULIN R (1 VIAL)",
         "Pack": "40ML",
+        "Company Name": "LUPIN NEW LUPIN INSPIRE"
+    },
+    {
+        "Product Name": "LUPISULIN-R [5*3 CART]",
+        "Pack": "5*3CART",
         "Company Name": "LUPIN NEW LUPIN INSPIRE"
     },
     {
@@ -1120,7 +1120,7 @@ const navkarColdchainData = [
         "Company Name": "LUPIN NEW PRIMUS"
     },
     {
-        "Product Name": "LUPISULIN M30 30/70 100IU CARTRIDGE 3ML",
+        "Product Name": "LUPISULIN M30 30/70 100IU CARTR",
         "Pack": "3ML",
         "Company Name": "LUPIN PHARMA (DIABETES CARE)"
     },

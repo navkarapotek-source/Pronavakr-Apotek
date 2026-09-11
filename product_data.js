@@ -1346,7 +1346,7 @@ const productData = [
     },
     {
         "Product Name": "KETOKEM SHAMPOO",
-        "Pack": "1X110ML",
+        "Pack": "100ML",
         "Company Name": "ALKEM"
     },
     {
@@ -3360,13 +3360,13 @@ const productData = [
         "Company Name": "CADILA PHARMA (OTC)"
     },
     {
-        "Product Name": "SKINSHINE GLOW FACE WASH",
-        "Pack": "60 GM",
+        "Product Name": "SKINSHINE GLOW & LIGHT SOAP",
+        "Pack": "1NOS",
         "Company Name": "CADILA PHARMA (OTC)"
     },
     {
-        "Product Name": "SKINSHINE GLOWING & LIGHTNING SOAP",
-        "Pack": "1NOS",
+        "Product Name": "SKINSHINE GLOW FACE WASH",
+        "Pack": "60 GM",
         "Company Name": "CADILA PHARMA (OTC)"
     },
     {
@@ -5105,11 +5105,6 @@ const productData = [
         "Company Name": "CIPLA"
     },
     {
-        "Product Name": "FERICIP XT TOTAL TAB",
-        "Pack": "10TAB",
-        "Company Name": "CIPLA"
-    },
-    {
         "Product Name": "FLUKA TAB",
         "Pack": "1X1TAB",
         "Company Name": "CIPLA"
@@ -6032,6 +6027,11 @@ const productData = [
     {
         "Product Name": "FERICIP XT TABS",
         "Pack": "1X10T",
+        "Company Name": "CIPLA VISTA"
+    },
+    {
+        "Product Name": "FERICIP XT TOTAL TAB",
+        "Pack": "10TAB",
         "Company Name": "CIPLA VISTA"
     },
     {
@@ -10620,6 +10620,11 @@ const productData = [
         "Company Name": "GLENMARK PHARMACEUTICALS LTD"
     },
     {
+        "Product Name": "NASORYL JUNIOR SPRAY",
+        "Pack": "10ML",
+        "Company Name": "GLENMARK PHARMACEUTICALS LTD"
+    },
+    {
         "Product Name": "OFLOFINE 200MG TAB",
         "Pack": "10TAB",
         "Company Name": "GLENMARK PHARMACEUTICALS LTD"
@@ -11586,6 +11591,11 @@ const productData = [
     },
     {
         "Product Name": "ETORIZOX 120 TAB",
+        "Pack": "10TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "ETORIZOX 60 TAB",
         "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
     },
@@ -12702,6 +12712,11 @@ const productData = [
     {
         "Product Name": "MPHEAL-4MG TABS",
         "Pack": "1X10T",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "MULTIBROOK FORTE TAB",
+        "Pack": "30TAB",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -14057,11 +14072,6 @@ const productData = [
     {
         "Product Name": "KOFLET H HOT DRINK GINGER",
         "Pack": "20ML",
-        "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
-    },
-    {
-        "Product Name": "RUMA LINIMNENT ROLL ON 50ML",
-        "Pack": "50ML",
         "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
     },
     {
@@ -21425,11 +21435,6 @@ const productData = [
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
-        "Product Name": "NASORYL JUNIOR SPRAY",
-        "Pack": "10ML",
-        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
-    },
-    {
         "Product Name": "NIMULID A-MR TAB",
         "Pack": "10TAB",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
@@ -21475,12 +21480,7 @@ const productData = [
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
-        "Product Name": "NORADAY 400 TAB",
-        "Pack": "10TAB",
-        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
-    },
-    {
-        "Product Name": "NORADAY TZ NF TAB",
+        "Product Name": "NORADAY 400 RF TAB",
         "Pack": "10TAB",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
@@ -21612,137 +21612,147 @@ const productData = [
     {
         "Product Name": "BRUTACROSS  200 TAB",
         "Pack": "1X10TAB",
-        "Company Name": "MANKIND PHARMA LTD."
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
     },
     {
         "Product Name": "BRUTACROSS 100 DRY SYRUP",
         "Pack": "1X30ML",
-        "Company Name": "MANKIND PHARMA LTD."
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
     },
     {
         "Product Name": "BRUTACROSS 100 TAB",
         "Pack": "1X10TAB",
-        "Company Name": "MANKIND PHARMA LTD."
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
     },
     {
         "Product Name": "BRUTACROSS 50 DRY SYRUP",
         "Pack": "1X30ML",
-        "Company Name": "MANKIND PHARMA LTD."
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
     },
     {
         "Product Name": "CEFABLAST 250 TAB",
         "Pack": "1X10TAB",
-        "Company Name": "MANKIND PHARMA LTD."
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
     },
     {
         "Product Name": "CEFABLAST 500 TAB",
         "Pack": "1X10TAB",
-        "Company Name": "MANKIND PHARMA LTD."
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
     },
     {
         "Product Name": "CEFACLASS 100 TAB",
         "Pack": "1X10TAB",
-        "Company Name": "MANKIND PHARMA LTD."
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
     },
     {
         "Product Name": "CEFACLASS 200 TAB",
         "Pack": "1X10TAB",
-        "Company Name": "MANKIND PHARMA LTD."
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
     },
     {
         "Product Name": "CEFACLASS DROP 10ML",
         "Pack": "1X10ML",
-        "Company Name": "MANKIND PHARMA LTD."
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
     },
     {
         "Product Name": "FUL-AID GOLD CAPS",
         "Pack": "1X10C",
-        "Company Name": "MANKIND PHARMA LTD."
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
     },
     {
         "Product Name": "GLIMIHELP-M1 TABS",
         "Pack": "1X15T",
-        "Company Name": "MANKIND PHARMA LTD."
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
     },
     {
         "Product Name": "GLIMIHELP-PM-1 TABS",
         "Pack": "1X15T",
-        "Company Name": "MANKIND PHARMA LTD."
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
     },
     {
         "Product Name": "GLIMIHELP-PM-2 TAB",
         "Pack": "1X15TAB",
-        "Company Name": "MANKIND PHARMA LTD."
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
     },
     {
         "Product Name": "KOLDKIND TABLET",
         "Pack": "1X10TAB",
-        "Company Name": "MANKIND PHARMA LTD."
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
     },
     {
         "Product Name": "KOLDKIND-P DROP",
         "Pack": "1X15ML",
-        "Company Name": "MANKIND PHARMA LTD."
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
     },
     {
         "Product Name": "LULIHIGH CREAM 10GM",
         "Pack": "10GM",
-        "Company Name": "MANKIND PHARMA LTD."
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
     },
     {
         "Product Name": "MAGNAKOF DX 60ML SY",
         "Pack": "60ML",
-        "Company Name": "MANKIND PHARMA LTD."
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
     },
     {
         "Product Name": "MAGNAKOF LS JR 60ML SYP",
         "Pack": "60ML",
-        "Company Name": "MANKIND PHARMA LTD."
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
     },
     {
         "Product Name": "MAHAGESIC P TAB",
         "Pack": "10TAB",
-        "Company Name": "MANKIND PHARMA LTD."
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
     },
     {
         "Product Name": "MAHAGESIC-TH4 TAB",
         "Pack": "1X10TAB",
-        "Company Name": "MANKIND PHARMA LTD."
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
     },
     {
         "Product Name": "MANKINDS PROTEIN PWD CHOC 200 GM",
         "Pack": "200 GM",
-        "Company Name": "MANKIND PHARMA LTD."
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
+    },
+    {
+        "Product Name": "NORADAY 400 NF TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
+    },
+    {
+        "Product Name": "NORADAY TZ NF TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
     },
     {
         "Product Name": "TELMIBLESS 40 TAB",
         "Pack": "1X15TAB",
-        "Company Name": "MANKIND PHARMA LTD."
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
     },
     {
         "Product Name": "TELMIBLESS AM TAB",
         "Pack": "1X15TAB",
-        "Company Name": "MANKIND PHARMA LTD."
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
     },
     {
         "Product Name": "TELMIBLESS AMH TAB",
         "Pack": "1X15TAB",
-        "Company Name": "MANKIND PHARMA LTD."
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
     },
     {
         "Product Name": "TELMIBLESS H TAB",
         "Pack": "1X15TAB",
-        "Company Name": "MANKIND PHARMA LTD."
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
     },
     {
         "Product Name": "TELMIBLESS-CT TABS",
         "Pack": "1X15T",
-        "Company Name": "MANKIND PHARMA LTD."
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
     },
     {
         "Product Name": "VOMIOVER SY 30ML",
         "Pack": "30ML",
-        "Company Name": "MANKIND PHARMA LTD."
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
     },
     {
         "Product Name": "EMAZYME TAB",
@@ -24775,11 +24785,6 @@ const productData = [
         "Company Name": "OSWAL PHARMACEUTICALS"
     },
     {
-        "Product Name": "GRAINFOS INJ",
-        "Pack": "3ML",
-        "Company Name": "OSWAL PHARMACEUTICALS"
-    },
-    {
         "Product Name": "HYDROGEN PEROXIDE",
         "Pack": "100ML",
         "Company Name": "OSWAL PHARMACEUTICALS"
@@ -24862,6 +24867,11 @@ const productData = [
     {
         "Product Name": "ROSE WATER(PET)60ML",
         "Pack": "12X60ML",
+        "Company Name": "OSWAL PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "SAFETY GRAINS INJ",
+        "Pack": "3ML",
         "Company Name": "OSWAL PHARMACEUTICALS"
     },
     {
@@ -30350,6 +30360,16 @@ const productData = [
         "Company Name": "ALKAFRESH SODA EFFERVESCENT"
     },
     {
+        "Product Name": "CIPROFRESH 250 TAB",
+        "Pack": "10TAB",
+        "Company Name": "ALKAFRESH SODA EFFERVESCENT"
+    },
+    {
+        "Product Name": "CIPROFRESH 500 TAB",
+        "Pack": "10TAB",
+        "Company Name": "ALKAFRESH SODA EFFERVESCENT"
+    },
+    {
         "Product Name": "CIPROFRESH B DROPS",
         "Pack": "10ML",
         "Company Name": "ALKAFRESH SODA EFFERVESCENT"
@@ -31500,6 +31520,11 @@ const productData = [
         "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {
+        "Product Name": "PANTOCOAT  RAFT SUSP",
+        "Pack": "150ML",
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
+    },
+    {
         "Product Name": "PANTOCOAT 40 TAB",
         "Pack": "10TAB",
         "Company Name": "ORAWET ORS APPLE TETRAPACK"
@@ -31542,6 +31567,11 @@ const productData = [
     {
         "Product Name": "PARASQUARE DS SUSPENSION",
         "Pack": "60ML",
+        "Company Name": "ORAWET ORS APPLE TETRAPACK"
+    },
+    {
+        "Product Name": "PARASQUARE INJ",
+        "Pack": "3ML",
         "Company Name": "ORAWET ORS APPLE TETRAPACK"
     },
     {

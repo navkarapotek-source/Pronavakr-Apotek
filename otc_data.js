@@ -940,13 +940,13 @@ const otcData = [
         "Company Name": "CIPLA OTC"
     },
     {
-        "Product Name": "AB AYURVEDIC ONION OIL [200ML]",
-        "Pack": "200ML",
+        "Product Name": "AB AYURVEDIC ONION OIL",
+        "Pack": "100ML",
         "Company Name": "CIPLA OTC"
     },
     {
-        "Product Name": "AB AYURVEDIC ONOIN OIL",
-        "Pack": "100ML",
+        "Product Name": "AB AYURVEDIC ONION OIL [200ML]",
+        "Pack": "200ML",
         "Company Name": "CIPLA OTC"
     },
     {
@@ -1841,7 +1841,7 @@ const otcData = [
     },
     {
         "Product Name": "SODIUM BI CARBONATE [FOURTUNE]",
-        "Pack": "20GM",
+        "Pack": "400GM",
         "Company Name": "FOURTUNE PHARMA GST"
     },
     {
@@ -2442,6 +2442,11 @@ const otcData = [
     {
         "Product Name": "WARTOSIN",
         "Pack": "3ML",
+        "Company Name": "GENERAL...A"
+    },
+    {
+        "Product Name": "ZADPOLA [100GM]",
+        "Pack": "100GM",
         "Company Name": "GENERAL...A"
     },
     {
@@ -3247,6 +3252,11 @@ const otcData = [
     {
         "Product Name": "KOFLET-H LOZE [JAR]",
         "Pack": "1JAR",
+        "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
+    },
+    {
+        "Product Name": "RUMA LINIMNENT ROLL ON 50ML",
+        "Pack": "50ML",
         "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
     },
     {
@@ -4565,11 +4575,6 @@ const otcData = [
         "Company Name": "PROCTER & GAMBLE HEALTH LTD."
     },
     {
-        "Product Name": "GILLETE CREAM 30GM [MRP 40]",
-        "Pack": "30GM",
-        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
-    },
-    {
         "Product Name": "GILLETE CREAM REGULAR 70GM [MRP 71]",
         "Pack": "70GM",
         "Company Name": "PROCTER & GAMBLE HEALTH LTD."
@@ -4590,6 +4595,11 @@ const otcData = [
         "Company Name": "PROCTER & GAMBLE HEALTH LTD."
     },
     {
+        "Product Name": "GILLETE GUARD RAZOR [MRP 30]",
+        "Pack": "PC",
+        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
+    },
+    {
         "Product Name": "GILLETE LIME CREAM 30GM [MRP 40]",
         "Pack": "30GM",
         "Company Name": "PROCTER & GAMBLE HEALTH LTD."
@@ -4597,6 +4607,11 @@ const otcData = [
     {
         "Product Name": "GILLETE LIME CREAM 70GM [MRP 71]",
         "Pack": "70GM",
+        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
+    },
+    {
+        "Product Name": "GILLETE REGULAR CREAM (MRP 40)",
+        "Pack": "30GM",
         "Company Name": "PROCTER & GAMBLE HEALTH LTD."
     },
     {
@@ -4627,11 +4642,6 @@ const otcData = [
     {
         "Product Name": "GILLETTE GAURD [RS99]3IN1",
         "Pack": "3IN1",
-        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
-    },
-    {
-        "Product Name": "GILLETTE GAURD RAZOR [28RS]",
-        "Pack": "1PC",
         "Company Name": "PROCTER & GAMBLE HEALTH LTD."
     },
     {
@@ -4833,6 +4843,11 @@ const otcData = [
         "Product Name": "WHISPER REGULAR [MRP 115]",
         "Pack": "20PCS",
         "Company Name": "PROCTER & GAMBLE HEALTH LTD."
+    },
+    {
+        "Product Name": "GILLETTE GAURD RAZOR [28RS]",
+        "Pack": "1PC",
+        "Company Name": "PROCTER & GAMBLE INDIA LTD (P & G)"
     },
     {
         "Product Name": "VICKS BABY RUB [10ML]",
