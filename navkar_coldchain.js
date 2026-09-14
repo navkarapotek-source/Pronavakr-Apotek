@@ -390,6 +390,11 @@ const navkarColdchainData = [
         "Company Name": "INSUGEN R 40IU INJ 10ML"
     },
     {
+        "Product Name": "RAPID PEN",
+        "Pack": "1'S",
+        "Company Name": "INSUGEN R 40IU INJ 10ML"
+    },
+    {
         "Product Name": "SUNDAE VIAL 2MG/1.5ML",
         "Pack": "1.5ML",
         "Company Name": "INSUGEN R 40IU INJ 10ML"
@@ -1178,6 +1183,11 @@ const navkarColdchainData = [
         "Product Name": "BUDETROL 0.5 MG RESP",
         "Pack": "5*2.5  ML",
         "Company Name": "MACLEODS (TB CARE)"
+    },
+    {
+        "Product Name": "SEMAMAC INJ 2MG/1.5ML",
+        "Pack": "1.5ML",
+        "Company Name": "MACLEODS PROCARE HD"
     },
     {
         "Product Name": "COMBIHALE-FB 0.5 MG RESPULES",

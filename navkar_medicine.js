@@ -20,16 +20,6 @@ const navkarMedicineData = [
         "Company Name": "A"
     },
     {
-        "Product Name": "C3AG CREAM",
-        "Pack": "25GM",
-        "Company Name": "AARUX PHARMA"
-    },
-    {
-        "Product Name": "ENZOHAPPY FORTE TAB",
-        "Pack": "10TAB",
-        "Company Name": "AARUX PHARMA"
-    },
-    {
         "Product Name": "ENZORUX FORTE",
         "Pack": "10TAB",
         "Company Name": "AARUX PHARMA"
@@ -213,6 +203,16 @@ const navkarMedicineData = [
         "Product Name": "VEINFLUX WRAP-10CM*4M",
         "Pack": "M",
         "Company Name": "AARUX PHARMA"
+    },
+    {
+        "Product Name": "C3AG CREAM",
+        "Pack": "25GM",
+        "Company Name": "AARUX PHARMA {INSPIRE}"
+    },
+    {
+        "Product Name": "ENZOHAPPY FORTE TAB",
+        "Pack": "10TAB",
+        "Company Name": "AARUX PHARMA {INSPIRE}"
     },
     {
         "Product Name": "NERVUP INJ",
@@ -1062,6 +1062,11 @@ const navkarMedicineData = [
     {
         "Product Name": "NEO MERCAZOLE 5 TAB",
         "Pack": "130TAB",
+        "Company Name": "ABBOTT HEALTHCARE (DIABETES)"
+    },
+    {
+        "Product Name": "ROCALTROL CAP",
+        "Pack": "10CAP",
         "Company Name": "ABBOTT HEALTHCARE (DIABETES)"
     },
     {
@@ -5235,11 +5240,6 @@ const navkarMedicineData = [
         "Company Name": "AKUMENTIS HEALTHCARE (ASPIRIS)"
     },
     {
-        "Product Name": "ARGENTA SACH",
-        "Pack": "8.5GM",
-        "Company Name": "AKUMENTIS HEALTHCARE (CREATIS)"
-    },
-    {
         "Product Name": "ADOVA CAP 5`S",
         "Pack": "TAB",
         "Company Name": "AKUMENTIS HEALTHCARE (CREATIS)"
@@ -9175,6 +9175,11 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LAB (DIABETOLOGY)"
     },
     {
+        "Product Name": "ROSUKEM CV 20 TAB",
+        "Pack": "10'S",
+        "Company Name": "ALKEM LAB (DIABETOLOGY)"
+    },
+    {
         "Product Name": "ROSUKEM EZ 20MG TAB",
         "Pack": "TAB",
         "Company Name": "ALKEM LAB (DIABETOLOGY)"
@@ -10812,11 +10817,6 @@ const navkarMedicineData = [
     {
         "Product Name": "ROMISET 250 MCG INJ",
         "Pack": "VIAL",
-        "Company Name": "ALKEM LABORATORIES LIMITED"
-    },
-    {
-        "Product Name": "ROSUKEM CV 20 TAB",
-        "Pack": "10'S",
         "Company Name": "ALKEM LABORATORIES LIMITED"
     },
     {
@@ -17135,7 +17135,12 @@ const navkarMedicineData = [
         "Company Name": "ASTRELLA PHARMA"
     },
     {
-        "Product Name": "COXRELLA 60 MG TAB",
+        "Product Name": "COXRELLA [MR] TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ASTRELLA PHARMA"
+    },
+    {
+        "Product Name": "COXRELLA 60 TAB",
         "Pack": "10 TAB",
         "Company Name": "ASTRELLA PHARMA"
     },
@@ -17145,7 +17150,7 @@ const navkarMedicineData = [
         "Company Name": "ASTRELLA PHARMA"
     },
     {
-        "Product Name": "COXRELLA MR TAB",
+        "Product Name": "DOTSHINE [D3] TAB",
         "Pack": "10 TAB",
         "Company Name": "ASTRELLA PHARMA"
     },
@@ -17157,11 +17162,6 @@ const navkarMedicineData = [
     {
         "Product Name": "DOTSHINE 60K NANO SHOTS",
         "Pack": "5ML",
-        "Company Name": "ASTRELLA PHARMA"
-    },
-    {
-        "Product Name": "DOTSHINE D3 TAB",
-        "Pack": "10 TAB",
         "Company Name": "ASTRELLA PHARMA"
     },
     {
@@ -18371,11 +18371,6 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "MIX 30 PEN",
-        "Pack": "1'S",
-        "Company Name": "BIOCON LIMITED (DIABETOLOGY) {ERIS}"
-    },
-    {
-        "Product Name": "RAPID PEN",
         "Pack": "1'S",
         "Company Name": "BIOCON LIMITED (DIABETOLOGY) {ERIS}"
     },
@@ -21097,6 +21092,11 @@ const navkarMedicineData = [
     {
         "Product Name": "LULISVISS CREAM",
         "Pack": "30GM",
+        "Company Name": "CAFOLI LIFECARE PVT LTD"
+    },
+    {
+        "Product Name": "MONCLIP LC TAB",
+        "Pack": "10TAB",
         "Company Name": "CAFOLI LIFECARE PVT LTD"
     },
     {
@@ -31435,6 +31435,11 @@ const navkarMedicineData = [
         "Company Name": "DR REDDYS LAB (ZENURA)"
     },
     {
+        "Product Name": "PROGYNOVA 2MG TAB",
+        "Pack": "28`S",
+        "Company Name": "DR REDDYS LAB {ACURA WH}"
+    },
+    {
         "Product Name": "ANTOXID CAP",
         "Pack": "30 CAP",
         "Company Name": "DR REDDYS LAB {RECURA GINIVA }"
@@ -32157,11 +32162,6 @@ const navkarMedicineData = [
     {
         "Product Name": "PRACTIN SYP",
         "Pack": "200ML",
-        "Company Name": "DR REDDYS LABORATORIES LTD"
-    },
-    {
-        "Product Name": "PROGYNOVA 2MG TAB",
-        "Pack": "28`S",
         "Company Name": "DR REDDYS LABORATORIES LTD"
     },
     {
@@ -33565,21 +33565,6 @@ const navkarMedicineData = [
         "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
     },
     {
-        "Product Name": "ELDOTEL 40 TRIO 6.25 TAB",
-        "Pack": "10TAB",
-        "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
-    },
-    {
-        "Product Name": "ELDOTEL 50MT TAB",
-        "Pack": "10TAB",
-        "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
-    },
-    {
-        "Product Name": "ELDOTEL- CH 20/6.25 TAB",
-        "Pack": "10TAB",
-        "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
-    },
-    {
         "Product Name": "EL-TOR 40 TAB",
         "Pack": "10TAB",
         "Company Name": "EL DORADO BIOTECH (PHARMA DIV)"
@@ -33740,8 +33725,18 @@ const navkarMedicineData = [
         "Company Name": "EL DORADO BIOTECHCPVT.(ZENITH)"
     },
     {
+        "Product Name": "ELDOTEL 40 TRIO 6.25 TAB",
+        "Pack": "10TAB",
+        "Company Name": "EL DORADO BIOTECHCPVT.(ZENITH)"
+    },
+    {
         "Product Name": "ELDOTEL 40 TRIO TAB",
         "Pack": "10 TAB",
+        "Company Name": "EL DORADO BIOTECHCPVT.(ZENITH)"
+    },
+    {
+        "Product Name": "ELDOTEL 50MT TAB",
+        "Pack": "10TAB",
         "Company Name": "EL DORADO BIOTECHCPVT.(ZENITH)"
     },
     {
@@ -33752,6 +33747,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ELDOTEL AM TAB",
         "Pack": "10'S",
+        "Company Name": "EL DORADO BIOTECHCPVT.(ZENITH)"
+    },
+    {
+        "Product Name": "ELDOTEL- CH 20/6.25 TAB",
+        "Pack": "10TAB",
         "Company Name": "EL DORADO BIOTECHCPVT.(ZENITH)"
     },
     {
@@ -34430,7 +34430,7 @@ const navkarMedicineData = [
         "Company Name": "ELEMENT PHARMA PVT LTD"
     },
     {
-        "Product Name": "LILICAL TAB",
+        "Product Name": "LILICAL TAB3",
         "Pack": "15 TAB",
         "Company Name": "ELEMENT PHARMA PVT LTD"
     },
@@ -35796,11 +35796,6 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "EPITRIL 0.25MG TAB",
-        "Pack": "TAB",
-        "Company Name": "EMCURE PHARMA (VERTEX)"
-    },
-    {
-        "Product Name": "EPITRIL 0.5MG TAB",
         "Pack": "TAB",
         "Company Name": "EMCURE PHARMA (VERTEX)"
     },
@@ -42000,6 +41995,11 @@ const navkarMedicineData = [
         "Company Name": "FEM CARE (A DABUR COMPANY)"
     },
     {
+        "Product Name": "DERMOTRIAD + SKIN CREAM",
+        "Pack": "20G",
+        "Company Name": "FEM CARE (A DABUR COMPANY)"
+    },
+    {
         "Product Name": "DERMOTRIAD PLUS CREAM",
         "Pack": "10GM",
         "Company Name": "FEM CARE (A DABUR COMPANY)"
@@ -42017,6 +42017,11 @@ const navkarMedicineData = [
     {
         "Product Name": "FEMCINOL [A] GEL",
         "Pack": "20GM",
+        "Company Name": "FEM CARE (A DABUR COMPANY)"
+    },
+    {
+        "Product Name": "FEMCINOL ADP GEL",
+        "Pack": "15GM",
         "Company Name": "FEM CARE (A DABUR COMPANY)"
     },
     {
@@ -43575,8 +43580,8 @@ const navkarMedicineData = [
         "Company Name": "FRANCOINDIA PHARMA (FIP)"
     },
     {
-        "Product Name": "ETICORT 6MG TAB 6`S",
-        "Pack": "TAB",
+        "Product Name": "ETICORT 6MG TAB",
+        "Pack": "6 TAB",
         "Company Name": "FRANCOINDIA PHARMA (FIP)"
     },
     {
@@ -43745,7 +43750,7 @@ const navkarMedicineData = [
         "Company Name": "GALACUS HEALTHCAREPVT.LTD"
     },
     {
-        "Product Name": "DOBEDOTE -ANO CREAMF10",
+        "Product Name": "DOBEDOTE -ANO CREAM",
         "Pack": "30 GM",
         "Company Name": "GALACUS HEALTHCAREPVT.LTD"
     },
@@ -45048,6 +45053,11 @@ const navkarMedicineData = [
         "Product Name": "YACCA-LYTE LS",
         "Pack": "100ML",
         "Company Name": "GENESIS BIOTECH INC"
+    },
+    {
+        "Product Name": "EPITRIL 0.5MG TAB",
+        "Pack": "TAB",
+        "Company Name": "GENNOVA BIO PHARMACEUTICALS LT"
     },
     {
         "Product Name": "BENCID 500 TAB",
@@ -46912,6 +46922,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ALEX P PEADIATRIC DROPS",
         "Pack": "15 ML",
+        "Company Name": "GLENMARK (RESPICARE)"
+    },
+    {
+        "Product Name": "ALEX SF COUGH LOZENGES 10``S",
+        "Pack": "TAB",
         "Company Name": "GLENMARK (RESPICARE)"
     },
     {
@@ -50970,6 +50985,11 @@ const navkarMedicineData = [
         "Company Name": "HETERO HEALTHCARE LTD (ASRA)"
     },
     {
+        "Product Name": "UPATERO ER 15MG TAB",
+        "Pack": "10'S",
+        "Company Name": "HETERO HEALTHCARE LTD (ASRA)"
+    },
+    {
         "Product Name": "ACOTOP ER",
         "Pack": "10 TAB",
         "Company Name": "HETERO HEALTHCARE LTD (GENX)"
@@ -51365,13 +51385,13 @@ const navkarMedicineData = [
         "Company Name": "HETERO HEALTHCARE LTD (KRIS)"
     },
     {
-        "Product Name": "RABEZ 20 TAB",
-        "Pack": "10 TAB",
+        "Product Name": "RABEZ [L] CAP",
+        "Pack": "10 CAP",
         "Company Name": "HETERO HEALTHCARE LTD (KRIS)"
     },
     {
-        "Product Name": "RABEZ L CAP",
-        "Pack": "10 CAP",
+        "Product Name": "RABEZ 20 TAB",
+        "Pack": "10 TAB",
         "Company Name": "HETERO HEALTHCARE LTD (KRIS)"
     },
     {
@@ -51707,11 +51727,6 @@ const navkarMedicineData = [
     {
         "Product Name": "TEDIRATE 200MG TAB",
         "Pack": "6'S",
-        "Company Name": "HETERO HEALTHCARE LTD."
-    },
-    {
-        "Product Name": "UPATERO ER 15MG TAB",
-        "Pack": "10'S",
         "Company Name": "HETERO HEALTHCARE LTD."
     },
     {
@@ -54797,6 +54812,11 @@ const navkarMedicineData = [
     {
         "Product Name": "SENSODENT K PLUS PASTE 100GM",
         "Pack": "100GM",
+        "Company Name": "INDOCO REMEDIES (WARREN ACE )"
+    },
+    {
+        "Product Name": "SENSOFORM GUM PAINT",
+        "Pack": "25ML",
         "Company Name": "INDOCO REMEDIES (WARREN ACE )"
     },
     {
@@ -58050,6 +58070,11 @@ const navkarMedicineData = [
         "Company Name": "INTAS PHARMACEUTICALS (ASTERA)"
     },
     {
+        "Product Name": "TREMIDON TAB",
+        "Pack": "10TAB",
+        "Company Name": "INTAS PHARMACEUTICALS (ASTERA)"
+    },
+    {
         "Product Name": "VALPROL CR 200MG TAB",
         "Pack": "15TAB",
         "Company Name": "INTAS PHARMACEUTICALS (ASTERA)"
@@ -58117,6 +58142,11 @@ const navkarMedicineData = [
     {
         "Product Name": "DESOADD LOTION",
         "Pack": "30ML",
+        "Company Name": "INTAS PHARMACEUTICALS (AYOKKA)"
+    },
+    {
+        "Product Name": "DUMAN TAB",
+        "Pack": "TAB",
         "Company Name": "INTAS PHARMACEUTICALS (AYOKKA)"
     },
     {
@@ -58222,6 +58252,11 @@ const navkarMedicineData = [
     {
         "Product Name": "TEBINA 500MG TAB 7`S",
         "Pack": "TAB",
+        "Company Name": "INTAS PHARMACEUTICALS (AYOKKA)"
+    },
+    {
+        "Product Name": "TOFATAS",
+        "Pack": "15GM",
         "Company Name": "INTAS PHARMACEUTICALS (AYOKKA)"
     },
     {
@@ -59226,6 +59261,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "CILNY 10MG TAB 15`S",
+        "Pack": "TAB",
+        "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
+    },
+    {
+        "Product Name": "CILNY 20MG TAB",
         "Pack": "TAB",
         "Company Name": "INTAS PHARMACEUTICALS (XENITH)"
     },
@@ -62760,7 +62800,7 @@ const navkarMedicineData = [
         "Company Name": "IPCA LABORATORIES (PHARMA)"
     },
     {
-        "Product Name": "ZERODOL TH 4 TAB",
+        "Product Name": "ZERODOL TH 4 TAB.",
         "Pack": "10 TAB",
         "Company Name": "IPCA LABORATORIES (PHARMA)"
     },
@@ -63735,7 +63775,7 @@ const navkarMedicineData = [
         "Company Name": "J.B. (NOVA DIVISION)"
     },
     {
-        "Product Name": "OFM DS SYPV7",
+        "Product Name": "OFM DS SYP",
         "Pack": "60ML",
         "Company Name": "J.B. (NOVA DIVISION)"
     },
@@ -78100,21 +78140,6 @@ const navkarMedicineData = [
         "Company Name": "MACLEODS (PHARMA)"
     },
     {
-        "Product Name": "GEMINOR MS 1/50/1000 TAB",
-        "Pack": "10TAB",
-        "Company Name": "MACLEODS (PHARMA)"
-    },
-    {
-        "Product Name": "GEMINOR MS 2/50/500 TAB",
-        "Pack": "10TAB",
-        "Company Name": "MACLEODS (PHARMA)"
-    },
-    {
-        "Product Name": "GEMINOR MS 2-50-1000 TAB",
-        "Pack": "TAB",
-        "Company Name": "MACLEODS (PHARMA)"
-    },
-    {
         "Product Name": "IT MAC 100 CAP",
         "Pack": "10 CAP",
         "Company Name": "MACLEODS (PHARMA)"
@@ -78567,11 +78592,6 @@ const navkarMedicineData = [
     {
         "Product Name": "DOXINAMAC TAB",
         "Pack": "TAB",
-        "Company Name": "MACLEODS (PHARMACORE )"
-    },
-    {
-        "Product Name": "GEMINOR MS 1/50/500 TAB",
-        "Pack": "10TAB",
         "Company Name": "MACLEODS (PHARMACORE )"
     },
     {
@@ -79062,6 +79082,26 @@ const navkarMedicineData = [
     {
         "Product Name": "GEMINOR M4 FORTE TAB",
         "Pack": "15 TAB",
+        "Company Name": "MACLEODS (PROCARE - AHT)"
+    },
+    {
+        "Product Name": "GEMINOR MS 1/50/1000 TAB",
+        "Pack": "10TAB",
+        "Company Name": "MACLEODS (PROCARE - AHT)"
+    },
+    {
+        "Product Name": "GEMINOR MS 1/50/500 TAB",
+        "Pack": "10TAB",
+        "Company Name": "MACLEODS (PROCARE - AHT)"
+    },
+    {
+        "Product Name": "GEMINOR MS 2/50/500 TAB",
+        "Pack": "10TAB",
+        "Company Name": "MACLEODS (PROCARE - AHT)"
+    },
+    {
+        "Product Name": "GEMINOR MS 2-50-1000 TAB",
+        "Pack": "TAB",
         "Company Name": "MACLEODS (PROCARE - AHT)"
     },
     {
@@ -80515,11 +80555,6 @@ const navkarMedicineData = [
         "Company Name": "MACLEODS PROCARE HD"
     },
     {
-        "Product Name": "SEMAMAC INJ 2MG/1.5ML",
-        "Pack": "1.5ML",
-        "Company Name": "MACLEODS PROCARE HD"
-    },
-    {
         "Product Name": "SEMAMAC INJ 8MG/3ML",
         "Pack": "3ML",
         "Company Name": "MACLEODS PROCARE HD"
@@ -81887,6 +81922,11 @@ const navkarMedicineData = [
     {
         "Product Name": "GRANIFORCE SYP 10ML",
         "Pack": "10ML",
+        "Company Name": "MANKIND PHARMA (DISCOVERY)"
+    },
+    {
+        "Product Name": "HEALTH OK (PRO+VANIILA)",
+        "Pack": "400GM",
         "Company Name": "MANKIND PHARMA (DISCOVERY)"
     },
     {
@@ -85296,6 +85336,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "LANSONEED 15 TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (STAR)"
+    },
+    {
+        "Product Name": "LANSONEED-30 TAB",
         "Pack": "10TAB",
         "Company Name": "MANKIND PHARMA (STAR)"
     },
@@ -98305,6 +98350,11 @@ const navkarMedicineData = [
         "Company Name": "PRISTINO PHARMA PVT LTD"
     },
     {
+        "Product Name": "LETRIVIA-2.5 TAB",
+        "Pack": "10TAB",
+        "Company Name": "PRISTINO PHARMA PVT LTD"
+    },
+    {
         "Product Name": "NAUMACARE 200GM",
         "Pack": "200GM",
         "Company Name": "PRISTINO PHARMA PVT LTD"
@@ -99730,6 +99780,16 @@ const navkarMedicineData = [
         "Company Name": "RANBAXY LAB (CROSLANDS)"
     },
     {
+        "Product Name": "FUCIBET CREAM 15GM",
+        "Pack": "15GM",
+        "Company Name": "RANBAXY LAB (CROSLANDS)"
+    },
+    {
+        "Product Name": "FUCIDIN CREAM 15GM",
+        "Pack": "15GM",
+        "Company Name": "RANBAXY LAB (CROSLANDS)"
+    },
+    {
         "Product Name": "FUCIDIN CREAM 5GM",
         "Pack": "5GM",
         "Company Name": "RANBAXY LAB (CROSLANDS)"
@@ -100072,6 +100132,11 @@ const navkarMedicineData = [
     {
         "Product Name": "CHERICOF 12 SF SYP",
         "Pack": "100ML",
+        "Company Name": "RANBAXY LAB (STAN LIFE)"
+    },
+    {
+        "Product Name": "COGNITGREY SYRUP",
+        "Pack": "200ML",
         "Company Name": "RANBAXY LAB (STAN LIFE)"
     },
     {
@@ -101462,6 +101527,11 @@ const navkarMedicineData = [
     {
         "Product Name": "UBITUS SOFTGEL",
         "Pack": "10 CAP",
+        "Company Name": "ROMATUS HEALTHCARE"
+    },
+    {
+        "Product Name": "UBITUS TAB",
+        "Pack": "10TAB",
         "Company Name": "ROMATUS HEALTHCARE"
     },
     {
@@ -108787,16 +108857,6 @@ const navkarMedicineData = [
     {
         "Product Name": "FLOTRAL 10MG TAB",
         "Pack": "TAB",
-        "Company Name": "DAPEFY 10 MG TAB"
-    },
-    {
-        "Product Name": "FUCIBET CREAM 15GM",
-        "Pack": "15GM",
-        "Company Name": "DAPEFY 10 MG TAB"
-    },
-    {
-        "Product Name": "FUCIDIN CREAM 15GM",
-        "Pack": "15GM",
         "Company Name": "DAPEFY 10 MG TAB"
     },
     {
@@ -118265,6 +118325,11 @@ const navkarMedicineData = [
         "Company Name": "USV LIMITED (CONQUER)"
     },
     {
+        "Product Name": "PIOZ [V] TAB",
+        "Pack": "15 TAB",
+        "Company Name": "USV LIMITED (CONQUER)"
+    },
+    {
         "Product Name": "PIOZ 15 TAB",
         "Pack": "10 TAB",
         "Company Name": "USV LIMITED (CONQUER)"
@@ -118290,13 +118355,8 @@ const navkarMedicineData = [
         "Company Name": "USV LIMITED (CONQUER)"
     },
     {
-        "Product Name": "PIOZ V 15/50 TABLET",
+        "Product Name": "PIOZ V 15/50 TAB",
         "Pack": "10 TAB",
-        "Company Name": "USV LIMITED (CONQUER)"
-    },
-    {
-        "Product Name": "PIOZ V TAB",
-        "Pack": "15 TAB",
         "Company Name": "USV LIMITED (CONQUER)"
     },
     {
@@ -120702,6 +120762,21 @@ const navkarMedicineData = [
     {
         "Product Name": "FLUCOLD AF1 ORAL DROPS",
         "Pack": "15ML",
+        "Company Name": "WALLACE PHARMACEUTICALS LTD"
+    },
+    {
+        "Product Name": "FUSIWAL B CREAM 10GM",
+        "Pack": "10GM",
+        "Company Name": "WALLACE PHARMACEUTICALS LTD"
+    },
+    {
+        "Product Name": "FUSIWAL CREAM 5GM",
+        "Pack": "5GM",
+        "Company Name": "WALLACE PHARMACEUTICALS LTD"
+    },
+    {
+        "Product Name": "FUSIWAL OINT 5GM",
+        "Pack": "5GM",
         "Company Name": "WALLACE PHARMACEUTICALS LTD"
     },
     {
@@ -125300,6 +125375,11 @@ const navkarMedicineData = [
         "Company Name": "ZYDUS GERMEN GYNEXT (A.C.D)"
     },
     {
+        "Product Name": "RELAGIX PLUS TAB",
+        "Pack": "3*10TAB",
+        "Company Name": "ZYDUS GERMEN GYNEXT (A.C.D)"
+    },
+    {
         "Product Name": "SKINLITE BRIGHT FW GEL",
         "Pack": "50GM",
         "Company Name": "ZYDUS GERMEN GYNEXT (A.C.D)"
@@ -126475,11 +126555,6 @@ const navkarMedicineData = [
         "Company Name": "ZYDUS PHARMA(ZIVA)"
     },
     {
-        "Product Name": "RELAGIX PLUS TAB",
-        "Pack": "3*10TAB",
-        "Company Name": "ZYDUS PHARMA(ZIVA)"
-    },
-    {
         "Product Name": "AEROHALE SPACER INHALER DEVICE",
         "Pack": "1UNIT",
         "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
@@ -126507,6 +126582,11 @@ const navkarMedicineData = [
     {
         "Product Name": "GLOBAC ACTIVE CAP",
         "Pack": "10CAP",
+        "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
+    },
+    {
+        "Product Name": "GRD SLIM VANILLA POW",
+        "Pack": "60G",
         "Company Name": "ZYDUS PHARMACEUTICALS LTD ACD"
     },
     {

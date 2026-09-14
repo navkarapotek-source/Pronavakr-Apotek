@@ -4525,6 +4525,216 @@ const otcData = [
         "Company Name": "PARAS CHEMICAL"
     },
     {
+        "Product Name": "ALOEVERA GEL (PATANJALI)(2+1 F/W FREE)",
+        "Pack": "150ML",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "ALOEVERA KANTI BODY CLEANSER",
+        "Pack": "150GM",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "ALOEVERA KANTI BODY CLEANSER 75GM",
+        "Pack": "75GM",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "ANTI WRINKLE CREAM",
+        "Pack": "50GM",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "BALM 10GM",
+        "Pack": "10GM",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "BALM 25GM",
+        "Pack": "25GM",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "BEAUTY ADVANCE CREAM 50GM",
+        "Pack": "50GM",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "DANTKANTI 100GM",
+        "Pack": "100GM",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "DANTKANTI 18GM",
+        "Pack": "18GM",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "DANTKANTI 40GM",
+        "Pack": "40GM",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "DANTKANTI ADVANCE 100GM",
+        "Pack": "100GM",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "DANTKANTI MEDICATED O GEL",
+        "Pack": "PC",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "DANTKANTI NAT 200GM",
+        "Pack": "200GM",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "HAIR COND.COLOUR PROTECTION",
+        "Pack": "PC",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "HAIR CONDITIONER ALMOND 100GM",
+        "Pack": "100GM",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "HAIR CONDITIONER DAMAGE CONTROL",
+        "Pack": "100GM",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "HAIR CONDITIONER PROTIEN",
+        "Pack": "100GM",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "HALDI CHANDAN 75GM",
+        "Pack": "75GM",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "HALDI CHANDAN BODY CLEANSER",
+        "Pack": "150ML",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "HERBAL FACIAL FOAM",
+        "Pack": "60GM",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "KESHKANTI ALOEVERA H.C.",
+        "Pack": "180ML",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "KESHKANTI ALOEVERA+NEEM H.C.",
+        "Pack": "5.5ML",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "KESHKANTI H.C.NATURAL",
+        "Pack": "180ML",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "KESHKANTI NATURAL H.C",
+        "Pack": "5.5ML",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "KESHKANTI SHIKAKAI H.C.",
+        "Pack": "180ML",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "KESHKANTI SILK SHINE H.C.",
+        "Pack": "180ML",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "KESHKANTI TEL",
+        "Pack": "120ML",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "MULTANI MITTI F.P(PATANJALI)",
+        "Pack": "100GM",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "NEEMKANTI BODY CLEANSER",
+        "Pack": "150GM",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "NEEMKANTI BODY CLEANSER 75GM",
+        "Pack": "75GM",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "ORANGE ALOEVERA F/W",
+        "Pack": "60ML",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "ORANGE HONEY F/W",
+        "Pack": "60ML",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "ROSE FACE WASH",
+        "Pack": "60ML",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "ROSE KANTI B.C. 150GM",
+        "Pack": "150GM",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "ROSE KANTI B.C.75GM",
+        "Pack": "75GM",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "SAUNDRYA A.GEL KESAR CHANDAN",
+        "Pack": "60ML",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "SAUNDRYA ALOEVERA GEL",
+        "Pack": "60GM",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "SAUNDRYA FACE WASH (5+1 GEL FREE)",
+        "Pack": "60ML",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "SAUNDRYA NEEM TULSI F/W",
+        "Pack": "60ML",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "SAUNDRYA.A.GEL KEASAR CHANDAN 150ML",
+        "Pack": "150ML",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "SUN SCREEN SPF 30 (PATANJALI)",
+        "Pack": "50GM",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "UBTAN F/W (PATANJALI)",
+        "Pack": "60GM",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
         "Product Name": "CENTER FRUIT [WATER MELONE]",
         "Pack": "1JAR",
         "Company Name": "PERFETI"

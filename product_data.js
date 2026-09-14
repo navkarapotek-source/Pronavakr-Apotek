@@ -5996,7 +5996,7 @@ const productData = [
     },
     {
         "Product Name": "CIPCAL SYRUP",
-        "Pack": "1X150M",
+        "Pack": "1X150ML",
         "Company Name": "CIPLA VISTA"
     },
     {
@@ -9805,7 +9805,7 @@ const productData = [
         "Company Name": "GENERAL COMPANIES"
     },
     {
-        "Product Name": "ALIDE 100MG TAB YELLOW",
+        "Product Name": "ALIDE 100MG TAB (NIMESULIDE LOOSE)",
         "Pack": "100TAB",
         "Company Name": "GENERAL COMPANIES"
     },
@@ -9820,7 +9820,7 @@ const productData = [
         "Company Name": "GENERAL COMPANIES"
     },
     {
-        "Product Name": "ATINE 20MG TAB",
+        "Product Name": "ATINE 20MG TAB (FAMOTIDINE LOOSE)",
         "Pack": "100TAB",
         "Company Name": "GENERAL COMPANIES"
     },
@@ -9860,7 +9860,7 @@ const productData = [
         "Company Name": "GENERAL COMPANIES"
     },
     {
-        "Product Name": "CETIRIZINE DIHYDROCHLORIDE",
+        "Product Name": "CETIRIZINE LOOSE",
         "Pack": "10TAB",
         "Company Name": "GENERAL COMPANIES"
     },
@@ -17910,6 +17910,11 @@ const productData = [
         "Company Name": "LEEFORD COSMACIA"
     },
     {
+        "Product Name": "ENSHINE SENSITIVITY TOOTHPASTE",
+        "Pack": "100GM",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
         "Product Name": "ENSHINE TOOTHPASTE",
         "Pack": "1X100GM",
         "Company Name": "LEEFORD COSMACIA"
@@ -17922,6 +17927,11 @@ const productData = [
     {
         "Product Name": "ENSHINE XPERT PROTECTION TOOTHBRUSH",
         "Pack": "1PC",
+        "Company Name": "LEEFORD COSMACIA"
+    },
+    {
+        "Product Name": "GEOFRESH SPRAY (ELACHI)",
+        "Pack": "15GM",
         "Company Name": "LEEFORD COSMACIA"
     },
     {
@@ -24938,6 +24948,21 @@ const productData = [
         "Product Name": "ZYPON SYRUP",
         "Pack": "1X200ML",
         "Company Name": "PARTH"
+    },
+    {
+        "Product Name": "KESHKANTI K.M.PROTIN H.C.",
+        "Pack": "180ML",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "KESHKANTI REETHA H.C.",
+        "Pack": "180ML",
+        "Company Name": "PATANJALI COMPANY"
+    },
+    {
+        "Product Name": "LEMON HONEY F/W 60ML",
+        "Pack": "60ML",
+        "Company Name": "PATANJALI COMPANY"
     },
     {
         "Product Name": "ONDON ING ( ONDANSETRON ) 30ML",
