@@ -10630,6 +10630,11 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LABORATORIES (ALTIS)"
     },
     {
+        "Product Name": "ALNESOL OD 0.3% SOLUTION",
+        "Pack": "5ML",
+        "Company Name": "ALKEM LABORATORIES LIMITED"
+    },
+    {
         "Product Name": "ALSITA E 10 TAB",
         "Pack": "10'S",
         "Company Name": "ALKEM LABORATORIES LIMITED"
@@ -10727,6 +10732,16 @@ const navkarMedicineData = [
     {
         "Product Name": "HEPAGLIDE ONE 0.25MG INJ (PFS)",
         "Pack": "0.19ML",
+        "Company Name": "ALKEM LABORATORIES LIMITED"
+    },
+    {
+        "Product Name": "HYDRAKEM EYE DROPS 0.5%",
+        "Pack": "10ML",
+        "Company Name": "ALKEM LABORATORIES LIMITED"
+    },
+    {
+        "Product Name": "HYSODEW EYE DROPS 0.1%",
+        "Pack": "ML",
         "Company Name": "ALKEM LABORATORIES LIMITED"
     },
     {
@@ -17990,7 +18005,7 @@ const navkarMedicineData = [
         "Company Name": "BHARAT SERUM (FEMICARE)"
     },
     {
-        "Product Name": "DOXEBET JR TAB 30'S",
+        "Product Name": "DOXEBET JR TAB",
         "Pack": "30TAB",
         "Company Name": "BHARAT SERUM (FEMICARE)"
     },
@@ -30790,6 +30805,11 @@ const navkarMedicineData = [
         "Company Name": "DR REDDYS LAB (MIND)"
     },
     {
+        "Product Name": "ROZAT EZ 40 TAB",
+        "Pack": "10'S",
+        "Company Name": "DR REDDYS LAB (MIND)"
+    },
+    {
         "Product Name": "SPARACID [DS] SYP",
         "Pack": "100ML",
         "Company Name": "DR REDDYS LAB (MIND)"
@@ -31402,11 +31422,6 @@ const navkarMedicineData = [
     {
         "Product Name": "STAMLO T 40MG TAB",
         "Pack": "10 TAB",
-        "Company Name": "DR REDDYS LAB (ZENURA)"
-    },
-    {
-        "Product Name": "STAMLO T TAB",
-        "Pack": "15TAB",
         "Company Name": "DR REDDYS LAB (ZENURA)"
     },
     {
@@ -87270,7 +87285,7 @@ const navkarMedicineData = [
         "Company Name": "MED MANOR PED & GP"
     },
     {
-        "Product Name": "KUFRIL LS EXPT 100 ML",
+        "Product Name": "KUFRIL LS EXPT",
         "Pack": "100ML",
         "Company Name": "MED MANOR PED & GP"
     },
@@ -115781,7 +115796,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "CILACAR 20 TAB",
-        "Pack": "10 TAB",
+        "Pack": "15 TAB",
         "Company Name": "TORRENT PHARMA {ORION}"
     },
     {

@@ -5866,7 +5866,7 @@ const productData = [
     },
     {
         "Product Name": "OMNIGEL SPRAY 2% 55GM",
-        "Pack": "1X78.6ML",
+        "Pack": "55GM",
         "Company Name": "CIPLA OTC MAIN"
     },
     {
@@ -15800,7 +15800,7 @@ const productData = [
         "Company Name": "KNOLL HEALTHCARE PVT LTD"
     },
     {
-        "Product Name": "TELKONOL-M TABSB36",
+        "Product Name": "TELKONOL-M TAB",
         "Pack": "1X10T",
         "Company Name": "KNOLL HEALTHCARE PVT LTD"
     },
@@ -20720,12 +20720,12 @@ const productData = [
         "Company Name": "LUPIN LIFESCIENCES LIMITED"
     },
     {
-        "Product Name": "LUPISCAB SOL 100ML",
+        "Product Name": "LUPISCAB LOTION 100ML",
         "Pack": "100ML",
         "Company Name": "LUPIN LIFESCIENCES LIMITED"
     },
     {
-        "Product Name": "LUPISCAB SOLUTION 50ML",
+        "Product Name": "LUPISCAB LOTION 50ML",
         "Pack": "1X50ML",
         "Company Name": "LUPIN LIFESCIENCES LIMITED"
     },
