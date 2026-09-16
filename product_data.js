@@ -16200,6 +16200,11 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "AQUA ELBOW SUPPORT (MEDIUM)",
+        "Pack": "PC",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "AQUA ELECTRIC KETTLE SKYLINE",
         "Pack": "PC",
         "Company Name": "LABORATE AQUA LAB"
@@ -25055,6 +25060,11 @@ const productData = [
         "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
     },
     {
+        "Product Name": "ALLYRENOL 5 TAB",
+        "Pack": "10TAB",
+        "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
+    },
+    {
         "Product Name": "ALPHA KETONAVAG-DS TABS",
         "Pack": "1X10T",
         "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
@@ -25067,6 +25077,11 @@ const productData = [
     {
         "Product Name": "APIXAVAC 5 TAB",
         "Pack": "1X10TAB",
+        "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
+    },
+    {
+        "Product Name": "AZELSKIN 10% CREAM",
+        "Pack": "20GM",
         "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
     },
     {
@@ -25100,8 +25115,33 @@ const productData = [
         "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
     },
     {
+        "Product Name": "CINARZET D TAB",
+        "Pack": "10TAB",
+        "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
+    },
+    {
+        "Product Name": "CORTIVAC 10 TAB",
+        "Pack": "10TAB",
+        "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
+    },
+    {
+        "Product Name": "CORTIVAC CREAM",
+        "Pack": "15GM",
+        "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
+    },
+    {
         "Product Name": "DABITOR-150MG CAPS",
         "Pack": "1X10C",
+        "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
+    },
+    {
+        "Product Name": "DEBRIVAC OINT 15GM",
+        "Pack": "1X15GM",
+        "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
+    },
+    {
+        "Product Name": "DEFLAVAC 30 TAB",
+        "Pack": "10TAB",
         "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
     },
     {
@@ -25115,6 +25155,11 @@ const productData = [
         "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
     },
     {
+        "Product Name": "EMAGLIFLOZIN 25TAB",
+        "Pack": "10TAB",
+        "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
+    },
+    {
         "Product Name": "ENTEROGEM SUSP 10ML",
         "Pack": "1X5ML",
         "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
@@ -25122,6 +25167,11 @@ const productData = [
     {
         "Product Name": "FERISOMAL TABLETS",
         "Pack": "1X10T",
+        "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
+    },
+    {
+        "Product Name": "FLUTICAVAC 0.5 CREAM",
+        "Pack": "10GM",
         "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
     },
     {
@@ -25145,6 +25195,16 @@ const productData = [
         "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
     },
     {
+        "Product Name": "HALOBETAS 0.5 CREAM",
+        "Pack": "30GM",
+        "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
+    },
+    {
+        "Product Name": "HEPAEITZ L SACHETS",
+        "Pack": "5GM",
+        "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
+    },
+    {
         "Product Name": "ISONITRATE 20TAB",
         "Pack": "10TAB",
         "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
@@ -25156,6 +25216,11 @@ const productData = [
     },
     {
         "Product Name": "IVERACTIN 3MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
+    },
+    {
+        "Product Name": "MEGESTRIAL 40 TAB",
         "Pack": "10TAB",
         "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
     },
@@ -25205,13 +25270,28 @@ const productData = [
         "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
     },
     {
+        "Product Name": "OSELTAVAC 12 DS SUSP",
+        "Pack": "75ML",
+        "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
+    },
+    {
         "Product Name": "OSELTAVAC-75 CAPS",
         "Pack": "1X10C",
         "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
     },
     {
+        "Product Name": "POTAVAC 200ML SOLUTION",
+        "Pack": "200ML",
+        "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
+    },
+    {
         "Product Name": "SENSODIUM TOOTHBRUSH",
         "Pack": "-",
+        "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
+    },
+    {
+        "Product Name": "SILVAMOR 15GM GEL",
+        "Pack": "15GM",
         "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
     },
     {
@@ -29441,6 +29521,11 @@ const productData = [
     },
     {
         "Product Name": "ON 35000 CELLO IMPERIAL DINNER SET 33PC",
+        "Pack": "PC",
+        "Company Name": "SMART ICONIC LAB"
+    },
+    {
+        "Product Name": "ON 36BOX/1080PC CELLO CUB 6PC BATHROOM SET",
         "Pack": "PC",
         "Company Name": "SMART ICONIC LAB"
     },

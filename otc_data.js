@@ -2315,6 +2315,11 @@ const otcData = [
         "Company Name": "GENERAL...A"
     },
     {
+        "Product Name": "ORAL B CAVITY DEFENCE BRUSH (9+3)",
+        "Pack": "PC",
+        "Company Name": "GENERAL...A"
+    },
+    {
         "Product Name": "ORAL B DEEP CLEAN CAVITY DEFENSE [9+3]",
         "Pack": "PC",
         "Company Name": "GENERAL...A"
@@ -5835,7 +5840,17 @@ const otcData = [
         "Company Name": "SAPAT COMPANY PVT LTD"
     },
     {
+        "Product Name": "AMRITA BINDU",
+        "Pack": "120ML",
+        "Company Name": "SBS BIOTECH"
+    },
+    {
         "Product Name": "ARSH KALP KIT",
+        "Pack": "PC",
+        "Company Name": "SBS BIOTECH"
+    },
+    {
+        "Product Name": "DR ORTHO ACCUPRESSURE SLIPPER (NO.8)",
         "Pack": "PC",
         "Company Name": "SBS BIOTECH"
     },
@@ -5867,6 +5882,11 @@ const otcData = [
     {
         "Product Name": "DR ORTHO OIL [BIG]",
         "Pack": "200 ML",
+        "Company Name": "SBS BIOTECH"
+    },
+    {
+        "Product Name": "DR ORTHO OIL [STRONG]",
+        "Pack": "60ML",
         "Company Name": "SBS BIOTECH"
     },
     {
@@ -5907,6 +5927,11 @@ const otcData = [
     {
         "Product Name": "PET SAFFA GRANULES 120GM",
         "Pack": "120 GM",
+        "Company Name": "SBS BIOTECH"
+    },
+    {
+        "Product Name": "PET SAFFA GRANULES 90GM",
+        "Pack": "90GM",
         "Company Name": "SBS BIOTECH"
     },
     {

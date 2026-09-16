@@ -25,33 +25,13 @@ const navkarMedicineData = [
         "Company Name": "AARUX PHARMA"
     },
     {
-        "Product Name": "GREYSMART ALA TAB",
-        "Pack": "10TAB",
-        "Company Name": "AARUX PHARMA"
-    },
-    {
         "Product Name": "GREYSMART FORTE",
         "Pack": "10TAB",
         "Company Name": "AARUX PHARMA"
     },
     {
-        "Product Name": "IGEALT 16B CREAM",
-        "Pack": "10GM",
-        "Company Name": "AARUX PHARMA"
-    },
-    {
-        "Product Name": "IGEALT 8B CREAM",
-        "Pack": "10GM",
-        "Company Name": "AARUX PHARMA"
-    },
-    {
         "Product Name": "LOCKFREE GIN",
         "Pack": "1GM",
-        "Company Name": "AARUX PHARMA"
-    },
-    {
-        "Product Name": "PULMOEASY TAB",
-        "Pack": "10TAB",
         "Company Name": "AARUX PHARMA"
     },
     {
@@ -65,42 +45,7 @@ const navkarMedicineData = [
         "Company Name": "AARUX PHARMA"
     },
     {
-        "Product Name": "THICKSHOOT CARE TAB",
-        "Pack": "10TAB",
-        "Company Name": "AARUX PHARMA"
-    },
-    {
-        "Product Name": "THICKSHOOT GLOW TAB",
-        "Pack": "10TAB",
-        "Company Name": "AARUX PHARMA"
-    },
-    {
-        "Product Name": "THICKSHOOT HS (HAIR SERUM)",
-        "Pack": "50ML",
-        "Company Name": "AARUX PHARMA"
-    },
-    {
-        "Product Name": "THICKSHOOT ONE TAB",
-        "Pack": "10TAB",
-        "Company Name": "AARUX PHARMA"
-    },
-    {
-        "Product Name": "TROLIUM-CC TAB",
-        "Pack": "10TAB",
-        "Company Name": "AARUX PHARMA"
-    },
-    {
-        "Product Name": "TYPE 2D-FIT TAB",
-        "Pack": "10TAB",
-        "Company Name": "AARUX PHARMA"
-    },
-    {
         "Product Name": "VEINFLUX",
-        "Pack": "10TAB",
-        "Company Name": "AARUX PHARMA"
-    },
-    {
-        "Product Name": "VEINFLUX 1000 TAB",
         "Pack": "10TAB",
         "Company Name": "AARUX PHARMA"
     },
@@ -121,16 +66,6 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "VEINFLUX GEL",
-        "Pack": "30GM",
-        "Company Name": "AARUX PHARMA"
-    },
-    {
-        "Product Name": "VEINFLUX GENTA CREAM",
-        "Pack": "15GM",
-        "Company Name": "AARUX PHARMA"
-    },
-    {
-        "Product Name": "VEINFLUX GENTA CREAM",
         "Pack": "30GM",
         "Company Name": "AARUX PHARMA"
     },
@@ -212,6 +147,71 @@ const navkarMedicineData = [
     {
         "Product Name": "ENZOHAPPY FORTE TAB",
         "Pack": "10TAB",
+        "Company Name": "AARUX PHARMA {INSPIRE}"
+    },
+    {
+        "Product Name": "GREYSMART ALA TAB",
+        "Pack": "10TAB",
+        "Company Name": "AARUX PHARMA {INSPIRE}"
+    },
+    {
+        "Product Name": "IGEALT 16B CREAM",
+        "Pack": "10GM",
+        "Company Name": "AARUX PHARMA {INSPIRE}"
+    },
+    {
+        "Product Name": "IGEALT 8B CREAM",
+        "Pack": "10GM",
+        "Company Name": "AARUX PHARMA {INSPIRE}"
+    },
+    {
+        "Product Name": "PULMOEASY TAB",
+        "Pack": "10TAB",
+        "Company Name": "AARUX PHARMA {INSPIRE}"
+    },
+    {
+        "Product Name": "THICKSHOOT CARE TAB",
+        "Pack": "10TAB",
+        "Company Name": "AARUX PHARMA {INSPIRE}"
+    },
+    {
+        "Product Name": "THICKSHOOT GLOW TAB",
+        "Pack": "10TAB",
+        "Company Name": "AARUX PHARMA {INSPIRE}"
+    },
+    {
+        "Product Name": "THICKSHOOT HS (HAIR SERUM)",
+        "Pack": "50ML",
+        "Company Name": "AARUX PHARMA {INSPIRE}"
+    },
+    {
+        "Product Name": "THICKSHOOT ONE TAB",
+        "Pack": "10TAB",
+        "Company Name": "AARUX PHARMA {INSPIRE}"
+    },
+    {
+        "Product Name": "TROLIUM-CC TAB",
+        "Pack": "10TAB",
+        "Company Name": "AARUX PHARMA {INSPIRE}"
+    },
+    {
+        "Product Name": "TYPE 2D-FIT TAB",
+        "Pack": "10TAB",
+        "Company Name": "AARUX PHARMA {INSPIRE}"
+    },
+    {
+        "Product Name": "VEINFLUX 1000 TAB",
+        "Pack": "10TAB",
+        "Company Name": "AARUX PHARMA {INSPIRE}"
+    },
+    {
+        "Product Name": "VEINFLUX GENTA CREAM",
+        "Pack": "15GM",
+        "Company Name": "AARUX PHARMA {INSPIRE}"
+    },
+    {
+        "Product Name": "VEINFLUX GENTA CREAM",
+        "Pack": "30GM",
         "Company Name": "AARUX PHARMA {INSPIRE}"
     },
     {
@@ -7205,11 +7205,6 @@ const navkarMedicineData = [
         "Company Name": "ALEMBIC (ENTERON)"
     },
     {
-        "Product Name": "SITALEMBIC MD  500 MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "ALEMBIC (ENTERON)"
-    },
-    {
         "Product Name": "ULGEL A SUSP 200ML",
         "Pack": "200ML",
         "Company Name": "ALEMBIC (ENTERON)"
@@ -7330,11 +7325,6 @@ const navkarMedicineData = [
         "Company Name": "ALEMBIC (GASTRON)"
     },
     {
-        "Product Name": "SITALEMBIC M 500 MG TAB",
-        "Pack": "15 TAB",
-        "Company Name": "ALEMBIC (GASTRON)"
-    },
-    {
         "Product Name": "MONORIN 150 TAB",
         "Pack": "TAB",
         "Company Name": "ALEMBIC (GENERICS)"
@@ -7347,11 +7337,6 @@ const navkarMedicineData = [
     {
         "Product Name": "PENTAB D TAB",
         "Pack": "TAB",
-        "Company Name": "ALEMBIC (GENERICS)"
-    },
-    {
-        "Product Name": "SITALEMBIC M 1000 TAB",
-        "Pack": "15 TAB",
         "Company Name": "ALEMBIC (GENERICS)"
     },
     {
@@ -7657,16 +7642,6 @@ const navkarMedicineData = [
     {
         "Product Name": "RESYNC EYE DROPS",
         "Pack": "5ML",
-        "Company Name": "ALEMBIC (OSTEOFIT)"
-    },
-    {
-        "Product Name": "SITALEMBIC M 100/1000 SR",
-        "Pack": "10 TAB",
-        "Company Name": "ALEMBIC (OSTEOFIT)"
-    },
-    {
-        "Product Name": "SITALEMBIC M 100/500 SR",
-        "Pack": "15TAB",
         "Company Name": "ALEMBIC (OSTEOFIT)"
     },
     {
@@ -8040,8 +8015,43 @@ const navkarMedicineData = [
         "Company Name": "ALEMBIC (SPECIA)"
     },
     {
+        "Product Name": "SITALEMBIC 100 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ALEMBIC (SPECIA)"
+    },
+    {
+        "Product Name": "SITALEMBIC 50 MG TAB",
+        "Pack": "10 TAB",
+        "Company Name": "ALEMBIC (SPECIA)"
+    },
+    {
         "Product Name": "SITALEMBIC D TAB",
         "Pack": "15 TAB",
+        "Company Name": "ALEMBIC (SPECIA)"
+    },
+    {
+        "Product Name": "SITALEMBIC M 100/1000 SR",
+        "Pack": "10 TAB",
+        "Company Name": "ALEMBIC (SPECIA)"
+    },
+    {
+        "Product Name": "SITALEMBIC M 100/500 SR",
+        "Pack": "15TAB",
+        "Company Name": "ALEMBIC (SPECIA)"
+    },
+    {
+        "Product Name": "SITALEMBIC M 1000 TAB",
+        "Pack": "15 TAB",
+        "Company Name": "ALEMBIC (SPECIA)"
+    },
+    {
+        "Product Name": "SITALEMBIC M 500 MG TAB",
+        "Pack": "15 TAB",
+        "Company Name": "ALEMBIC (SPECIA)"
+    },
+    {
+        "Product Name": "SITALEMBIC MD  500 MG TAB",
+        "Pack": "10 TAB",
         "Company Name": "ALEMBIC (SPECIA)"
     },
     {
@@ -8287,16 +8297,6 @@ const navkarMedicineData = [
     {
         "Product Name": "PENTAB 40 MG TAB",
         "Pack": "15 TAB",
-        "Company Name": "ALEMBIC PHARMACEUTICALS P.LTD"
-    },
-    {
-        "Product Name": "SITALEMBIC 100 MG TAB",
-        "Pack": "10 TAB",
-        "Company Name": "ALEMBIC PHARMACEUTICALS P.LTD"
-    },
-    {
-        "Product Name": "SITALEMBIC 50 MG TAB",
-        "Pack": "10 TAB",
         "Company Name": "ALEMBIC PHARMACEUTICALS P.LTD"
     },
     {
@@ -26670,7 +26670,7 @@ const navkarMedicineData = [
         "Company Name": "CIPLA RESPI NEB1"
     },
     {
-        "Product Name": "GLYCOHALE 2 RESPULES 5*2ML",
+        "Product Name": "GLYCOHALE 2 RESPULES 10*2ML",
         "Pack": "10*2ML",
         "Company Name": "CIPLA RESPI NEB1"
     },
@@ -37893,6 +37893,156 @@ const navkarMedicineData = [
         "Product Name": "WAXONIL MIC EAR SPRAY",
         "Pack": "10ML",
         "Company Name": "ENTOD SENTCK"
+    },
+    {
+        "Product Name": "ANKINAC P TAB",
+        "Pack": "10TAB",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
+    },
+    {
+        "Product Name": "BERRYMOL MF SUSP",
+        "Pack": "60ML",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
+    },
+    {
+        "Product Name": "BERRYMOL-250 SUSP",
+        "Pack": "60ML",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
+    },
+    {
+        "Product Name": "BERRYMOL-500 SUSP",
+        "Pack": "60ML",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
+    },
+    {
+        "Product Name": "CARNOSMILE SYRUP",
+        "Pack": "200ML",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
+    },
+    {
+        "Product Name": "COL IMMUNE POWDER (CHOCO 5%)",
+        "Pack": "90GM",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
+    },
+    {
+        "Product Name": "COL-IMMUNE CAP 5%",
+        "Pack": "10CAP",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
+    },
+    {
+        "Product Name": "COL-IMMUNE POWDER (VANILLA) SUGAR FR 5%",
+        "Pack": "90GM",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
+    },
+    {
+        "Product Name": "DROTALGIA 20 SUSP",
+        "Pack": "60ML",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
+    },
+    {
+        "Product Name": "E-24 SACHET",
+        "Pack": "15GM",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
+    },
+    {
+        "Product Name": "E-75 SACHET",
+        "Pack": "82.5GM",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
+    },
+    {
+        "Product Name": "EPIDOR-D CAP",
+        "Pack": "10CAP",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
+    },
+    {
+        "Product Name": "EPIONE 369 VEG CAP",
+        "Pack": "10CAP",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
+    },
+    {
+        "Product Name": "EPIONE D3 DROPS",
+        "Pack": "30ML",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
+    },
+    {
+        "Product Name": "EPIPOD 100 DT TAB",
+        "Pack": "10TAB",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
+    },
+    {
+        "Product Name": "FEMSMART BG DROPS",
+        "Pack": "30ML",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
+    },
+    {
+        "Product Name": "FEMSMART BG SYRUP",
+        "Pack": "150ML",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
+    },
+    {
+        "Product Name": "LABIGUT SUSP",
+        "Pack": "5ML",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
+    },
+    {
+        "Product Name": "MAGSPEED TAB",
+        "Pack": "10TAB",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
+    },
+    {
+        "Product Name": "PEDIFOS SYRUP",
+        "Pack": "30ML",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
+    },
+    {
+        "Product Name": "RESTOSMART MD TAB",
+        "Pack": "10TAB",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
+    },
+    {
+        "Product Name": "SMICAL TAB",
+        "Pack": "10TAB",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
+    },
+    {
+        "Product Name": "SUBNEURO AQ PFS",
+        "Pack": "1'S",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
+    },
+    {
+        "Product Name": "SUBNEURO B6 TAB",
+        "Pack": "10TAB",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
+    },
+    {
+        "Product Name": "SUBNEURO DHA DROPS",
+        "Pack": "30ML",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
+    },
+    {
+        "Product Name": "SUBNEURO PLUS SYRUP",
+        "Pack": "100ML",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
+    },
+    {
+        "Product Name": "SUBNEURO TAB",
+        "Pack": "10TAB",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
+    },
+    {
+        "Product Name": "SUBNEURO-B6 SYRUP",
+        "Pack": "200ML",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
+    },
+    {
+        "Product Name": "UTIWIPE SUSP",
+        "Pack": "100ML",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
+    },
+    {
+        "Product Name": "VITALIME TAB",
+        "Pack": "10TAB",
+        "Company Name": "EPIONE PHARMACEUTICALS PVT. LTD"
     },
     {
         "Product Name": "FERTIGAIN TAB",
@@ -64265,6 +64415,11 @@ const navkarMedicineData = [
         "Company Name": "JAGSONPAL PHARMA (FEMBON)"
     },
     {
+        "Product Name": "CLADOXIM TAB",
+        "Pack": "10TAB",
+        "Company Name": "JAGSONPAL PHARMA (FEMBON)"
+    },
+    {
         "Product Name": "CYCLOREG [CR] TAB",
         "Pack": "10 TAB",
         "Company Name": "JAGSONPAL PHARMA (FEMBON)"
@@ -64365,9 +64520,9 @@ const navkarMedicineData = [
         "Company Name": "JAGSONPAL PHARMA (FEMBON)"
     },
     {
-        "Product Name": "CLADOXIM TAB",
+        "Product Name": "UPACINIB 15MG TAB",
         "Pack": "10TAB",
-        "Company Name": "JAGSONPAL PHARMACEUTICALS LTD"
+        "Company Name": "JAGSONPAL PHARMA (FEMBON)"
     },
     {
         "Product Name": "COLLA 2 TAB",
@@ -64451,11 +64606,6 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "TRIVITALIN TAB",
-        "Pack": "10TAB",
-        "Company Name": "JAGSONPAL PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "UPACINIB 15MG TAB",
         "Pack": "10TAB",
         "Company Name": "JAGSONPAL PHARMACEUTICALS LTD"
     },
@@ -121651,12 +121801,12 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "MEDERMA ADVANCED PLUS SCAR GEL",
-        "Pack": "5GM",
+        "Pack": "5 GM",
         "Company Name": "WIN MEDICARE (OTC - WHC)"
     },
     {
-        "Product Name": "MEDERMA ADVANCED PLUS SCAR GEL 10GM",
-        "Pack": "10GM",
+        "Product Name": "MEDERMA ADVANCED PLUS SCAR GEL",
+        "Pack": "5GM",
         "Company Name": "WIN MEDICARE (OTC - WHC)"
     },
     {
