@@ -200,6 +200,11 @@ const navkarColdchainData = [
         "Company Name": "ALKEM LAB (METANEXT)"
     },
     {
+        "Product Name": "GEMTIDE 600MCG/2.4ML",
+        "Pack": "2.4ML",
+        "Company Name": "ALKEM LABORATORIES LIMITED"
+    },
+    {
         "Product Name": "OBESEMA 0.5MG INJ",
         "Pack": "INJ",
         "Company Name": "ALKEM LABORATORIES LIMITED"

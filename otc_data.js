@@ -6285,7 +6285,12 @@ const otcData = [
         "Company Name": "SHETH BROS."
     },
     {
-        "Product Name": "KAYAM STRIP",
+        "Product Name": "KAYAM CHURNA 50GM FREE",
+        "Pack": "50GM",
+        "Company Name": "SHETH BROS."
+    },
+    {
+        "Product Name": "KAYAM STRIP FREE",
         "Pack": "1BLS",
         "Company Name": "SHETH BROS."
     },

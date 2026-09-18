@@ -765,7 +765,7 @@ const productData = [
         "Company Name": "AJANTA PHARMA LTD GENCARE"
     },
     {
-        "Product Name": "PALOMBA CAP",
+        "Product Name": "PALOMBA 2 CAP",
         "Pack": "10CAP",
         "Company Name": "AJANTA PHARMA LTD GENCARE"
     },
@@ -7755,6 +7755,11 @@ const productData = [
         "Company Name": "ELDER PHARMACEUTICALS LTD"
     },
     {
+        "Product Name": "MONTEDER-L TAB",
+        "Pack": "10TAB",
+        "Company Name": "ELDER PHARMACEUTICALS LTD"
+    },
+    {
         "Product Name": "MULTI-VT DROP 30ML",
         "Pack": "1X30ML",
         "Company Name": "ELDER PHARMACEUTICALS LTD"
@@ -9902,11 +9907,6 @@ const productData = [
     {
         "Product Name": "DICLOFENAC SODIUM 50",
         "Pack": "100TAB",
-        "Company Name": "GENERAL COMPANIES"
-    },
-    {
-        "Product Name": "DISP BLACK FACE MASK(3PLY)",
-        "Pack": "1X100",
         "Company Name": "GENERAL COMPANIES"
     },
     {
@@ -17335,6 +17335,11 @@ const productData = [
         "Company Name": "LABORATE AQUA LAB"
     },
     {
+        "Product Name": "SUPRAMOX LB CAP",
+        "Pack": "10CAP",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
         "Product Name": "TEARCARE EYE DROP",
         "Pack": "10ML",
         "Company Name": "LABORATE AQUA LAB"
@@ -21215,6 +21220,11 @@ const productData = [
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
+        "Product Name": "CIPROGYL OF TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
         "Product Name": "CIPROGYL-OFM SUSP",
         "Pack": "30ML",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
@@ -21292,6 +21302,16 @@ const productData = [
     {
         "Product Name": "EYEKIND 0.5% EYE DROP",
         "Pack": "10ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "FARO ACTION 200 TAB",
+        "Pack": "6TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "FARO ACTION 300ER TAB",
+        "Pack": "6TAB",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
@@ -21412,6 +21432,11 @@ const productData = [
     {
         "Product Name": "MAHAKETO SOAP",
         "Pack": "75GM",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "MAHAKETO-5 RF CREAM",
+        "Pack": "15GM",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
@@ -21610,6 +21635,11 @@ const productData = [
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
+        "Product Name": "TUSSMARK-DXP SYP 60ML",
+        "Pack": "60ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
         "Product Name": "TUSSMARK-Q DX TAB",
         "Pack": "10TAB",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
@@ -21617,6 +21647,11 @@ const productData = [
     {
         "Product Name": "ZENKIND E/E DROP",
         "Pack": "10ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "ZORAZYME SYP 200ML",
+        "Pack": "200ML",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
@@ -27720,6 +27755,11 @@ const productData = [
         "Company Name": "SMART CURE WAY"
     },
     {
+        "Product Name": "CLORASH DUSTING POWDER 75GM",
+        "Pack": "75GM",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
         "Product Name": "CLORASH-GM CREAM",
         "Pack": "10GM",
         "Company Name": "SMART CURE WAY"
@@ -27887,6 +27927,11 @@ const productData = [
     {
         "Product Name": "JOYMOL M SYP",
         "Pack": "60 ML",
+        "Company Name": "SMART CURE WAY"
+    },
+    {
+        "Product Name": "KETOCOTIC CT CREAM 15GM",
+        "Pack": "15GM",
         "Company Name": "SMART CURE WAY"
     },
     {
@@ -33742,6 +33787,11 @@ const productData = [
     {
         "Product Name": "CREPE BANDAGE 8CMX4M (UCARE)",
         "Pack": "8CMX4M",
+        "Company Name": "UCARE"
+    },
+    {
+        "Product Name": "DISP BLACK FACE MASK(3PLY)(UCARE)",
+        "Pack": "1X100",
         "Company Name": "UCARE"
     },
     {
