@@ -5900,7 +5900,7 @@ const productData = [
         "Company Name": "CIPLA OTC MAIN"
     },
     {
-        "Product Name": "PARACIP SYRUP 60ML",
+        "Product Name": "PARACIP SYRUP 60ML 125MG",
         "Pack": "1X60ML",
         "Company Name": "CIPLA OTC MAIN"
     },
@@ -14065,11 +14065,6 @@ const productData = [
         "Company Name": "HETERO HEALTHCARE LIMITED"
     },
     {
-        "Product Name": "HIM SHILAJIT RESIN 20GM",
-        "Pack": "20GM",
-        "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
-    },
-    {
         "Product Name": "KOFLET H HOT DRINK GINGER",
         "Pack": "20ML",
         "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
@@ -21450,7 +21445,7 @@ const productData = [
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
-        "Product Name": "MANKINDS PROTEIN PWD CHOCOLATE PRIME",
+        "Product Name": "MANKINDS PROTEIN PWD CHOCOLATE HEALTHCARE",
         "Pack": "200 GM",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
@@ -29870,7 +29865,7 @@ const productData = [
         "Company Name": "SMART ICONIC LAB"
     },
     {
-        "Product Name": "SMARTAID CAPSICUM PLASTERF",
+        "Product Name": "SMARTAID CAPSICUM PLASTER",
         "Pack": "1PC",
         "Company Name": "SMART ICONIC LAB"
     },

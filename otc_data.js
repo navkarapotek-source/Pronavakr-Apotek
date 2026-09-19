@@ -3240,6 +3240,11 @@ const otcData = [
         "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
     },
     {
+        "Product Name": "HIM SHILAJIT RESIN 20GM",
+        "Pack": "20GM",
+        "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
+    },
+    {
         "Product Name": "KOFLET LOZENGES (160+40)",
         "Pack": "JAR",
         "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
@@ -5885,18 +5890,18 @@ const otcData = [
         "Company Name": "SBS BIOTECH"
     },
     {
-        "Product Name": "DR ORTHO OIL [STRONG]",
+        "Product Name": "DR ORTHO OIL FREE (STRONG)",
         "Pack": "60ML",
-        "Company Name": "SBS BIOTECH"
-    },
-    {
-        "Product Name": "DR ORTHO OINT [15GM]",
-        "Pack": "15GM",
         "Company Name": "SBS BIOTECH"
     },
     {
         "Product Name": "DR ORTHO OINT [30GM]",
         "Pack": "30GM",
+        "Company Name": "SBS BIOTECH"
+    },
+    {
+        "Product Name": "DR ORTHO OINT FREE [15GM]",
+        "Pack": "15GM",
         "Company Name": "SBS BIOTECH"
     },
     {
@@ -5925,13 +5930,13 @@ const otcData = [
         "Company Name": "SBS BIOTECH"
     },
     {
-        "Product Name": "PET SAFFA GRANULES 120GM",
-        "Pack": "120 GM",
+        "Product Name": "PET SAFFA GRANULES (FREE)",
+        "Pack": "90GM",
         "Company Name": "SBS BIOTECH"
     },
     {
-        "Product Name": "PET SAFFA GRANULES 90GM",
-        "Pack": "90GM",
+        "Product Name": "PET SAFFA GRANULES 120GM",
+        "Pack": "120 GM",
         "Company Name": "SBS BIOTECH"
     },
     {

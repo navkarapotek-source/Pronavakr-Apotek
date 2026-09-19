@@ -2310,11 +2310,6 @@ const navkarMedicineData = [
         "Company Name": "ABBOTT INDIA LTD (GENERAL CARE)"
     },
     {
-        "Product Name": "ZOLFRESH  ER 6.25",
-        "Pack": "15 TAB",
-        "Company Name": "ABBOTT INDIA LTD (GENERAL CARE)"
-    },
-    {
         "Product Name": "ZOLFRESH 10 TAB",
         "Pack": "15 TAB",
         "Company Name": "ABBOTT INDIA LTD (GENERAL CARE)"
@@ -2326,6 +2321,11 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "ZOLFRESH ER 12.5 TAB",
+        "Pack": "15 TAB",
+        "Company Name": "ABBOTT INDIA LTD (GENERAL CARE)"
+    },
+    {
+        "Product Name": "ZOLFRESH ER 6.25 TAB",
         "Pack": "15 TAB",
         "Company Name": "ABBOTT INDIA LTD (GENERAL CARE)"
     },
@@ -15905,7 +15905,7 @@ const navkarMedicineData = [
         "Company Name": "ARISTO PHARMA (M F 4 )"
     },
     {
-        "Product Name": "GABAMAX SR 75MG TAB 10`S",
+        "Product Name": "GABAMAX SR 75MG TAB",
         "Pack": "10 TAB",
         "Company Name": "ARISTO PHARMA (M F 4 )"
     },
@@ -18650,7 +18650,7 @@ const navkarMedicineData = [
         "Company Name": "BESTOZYME PAED SYP 60ML"
     },
     {
-        "Product Name": "MEGACEF 100MG DS SYRUP",
+        "Product Name": "MEGACEF 100 DS SYR",
         "Pack": "30ML",
         "Company Name": "BESTOZYME PAED SYP 60ML"
     },
@@ -21650,11 +21650,6 @@ const navkarMedicineData = [
         "Company Name": "CELAGENEX RESEARCH INDIA PVT"
     },
     {
-        "Product Name": "BRITESITE EYE DROPS",
-        "Pack": "10ML",
-        "Company Name": "CENTAUR PHARMA (PRAGGYA)"
-    },
-    {
         "Product Name": "CATAREST EYE DROPS 10ML",
         "Pack": "10ML",
         "Company Name": "CENTAUR PHARMA (PRAGGYA)"
@@ -21662,11 +21657,6 @@ const navkarMedicineData = [
     {
         "Product Name": "EY 7 KID GUMMY 30 GUM",
         "Pack": "30 GUM",
-        "Company Name": "CENTAUR PHARMA (PRAGGYA)"
-    },
-    {
-        "Product Name": "GLUCOTIM LA EYE DROPS",
-        "Pack": "5ML",
         "Company Name": "CENTAUR PHARMA (PRAGGYA)"
     },
     {
@@ -21685,27 +21675,12 @@ const navkarMedicineData = [
         "Company Name": "CENTAUR PHARMA (PRAGGYA)"
     },
     {
-        "Product Name": "OCUBLESS PLUS TAB",
-        "Pack": "15 TAB",
-        "Company Name": "CENTAUR PHARMA (PRAGGYA)"
-    },
-    {
         "Product Name": "OCUBLESS TAB",
         "Pack": "10TAB",
         "Company Name": "CENTAUR PHARMA (PRAGGYA)"
     },
     {
         "Product Name": "OCUPOL DX E/E DROPS",
-        "Pack": "5ML",
-        "Company Name": "CENTAUR PHARMA (PRAGGYA)"
-    },
-    {
-        "Product Name": "OCUPOL DX EYE OINT",
-        "Pack": "5GM",
-        "Company Name": "CENTAUR PHARMA (PRAGGYA)"
-    },
-    {
-        "Product Name": "OCUPOL E/E DROPS",
         "Pack": "5ML",
         "Company Name": "CENTAUR PHARMA (PRAGGYA)"
     },
@@ -21726,11 +21701,6 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "OCUREST PLUS NEO EYE DROPS",
-        "Pack": "10ML",
-        "Company Name": "CENTAUR PHARMA (PRAGGYA)"
-    },
-    {
-        "Product Name": "RELUB EYE DROPS",
         "Pack": "10ML",
         "Company Name": "CENTAUR PHARMA (PRAGGYA)"
     },
@@ -22105,9 +22075,49 @@ const navkarMedicineData = [
         "Company Name": "CENTAUR PHARMA (SHUBHAM)"
     },
     {
+        "Product Name": "ATROKID EYE DROP",
+        "Pack": "5ML",
+        "Company Name": "CENTAUR PHARMA(PRAGGYA VISION)"
+    },
+    {
+        "Product Name": "BRITSITE EYE DROPS",
+        "Pack": "10ML",
+        "Company Name": "CENTAUR PHARMA(PRAGGYA VISION)"
+    },
+    {
         "Product Name": "CENTAFLOX DX  EYE DROPS",
         "Pack": "5ML",
-        "Company Name": "CENTAUR PHARMACEUTICALS P LTD"
+        "Company Name": "CENTAUR PHARMA(PRAGGYA VISION)"
+    },
+    {
+        "Product Name": "GLUCOTIM LA EYE DROPS",
+        "Pack": "5ML",
+        "Company Name": "CENTAUR PHARMA(PRAGGYA VISION)"
+    },
+    {
+        "Product Name": "HEALTEARS PLUS EYE DROPS",
+        "Pack": "10ML",
+        "Company Name": "CENTAUR PHARMA(PRAGGYA VISION)"
+    },
+    {
+        "Product Name": "OCUBLESS PLUS TAB",
+        "Pack": "15 TAB",
+        "Company Name": "CENTAUR PHARMA(PRAGGYA VISION)"
+    },
+    {
+        "Product Name": "OCUPOL DX EYE OINT",
+        "Pack": "5GM",
+        "Company Name": "CENTAUR PHARMA(PRAGGYA VISION)"
+    },
+    {
+        "Product Name": "OCUPOL E/E DROPS",
+        "Pack": "5ML",
+        "Company Name": "CENTAUR PHARMA(PRAGGYA VISION)"
+    },
+    {
+        "Product Name": "RELUB EYE DROPS",
+        "Pack": "10ML",
+        "Company Name": "CENTAUR PHARMA(PRAGGYA VISION)"
     },
     {
         "Product Name": "HEALTEARS PINK EYE DROPS",
@@ -22130,11 +22140,6 @@ const navkarMedicineData = [
         "Company Name": "CENTAUR PHARMACEUTICALS P LTD"
     },
     {
-        "Product Name": "ATROKID EYE DROP",
-        "Pack": "5ML",
-        "Company Name": "CENTAUR PHARMACEUTICALS PVT. LTD."
-    },
-    {
         "Product Name": "BRIMOPRESS T EYE DROPS",
         "Pack": "5ML",
         "Company Name": "CENTAUR PHARMACEUTICALS PVT. LTD."
@@ -22142,11 +22147,6 @@ const navkarMedicineData = [
     {
         "Product Name": "CENTAFLOX 0.5% EYE DROPS",
         "Pack": "5ML",
-        "Company Name": "CENTAUR PHARMACEUTICALS PVT. LTD."
-    },
-    {
-        "Product Name": "HEALTEARS PLUS EYE DROPS",
-        "Pack": "10ML",
         "Company Name": "CENTAUR PHARMACEUTICALS PVT. LTD."
     },
     {
@@ -34553,6 +34553,11 @@ const navkarMedicineData = [
         "Product Name": "ZI-500 MG TAB",
         "Pack": "3 TAB",
         "Company Name": "ELEMENT PHARMA PVT LTD"
+    },
+    {
+        "Product Name": "MOUNJARO 10MG KWIKPEN",
+        "Pack": "2.4ML",
+        "Company Name": "ELI LILLY AND COMPANY INDIA PV"
     },
     {
         "Product Name": "MOUNJARO 15 MG KWIPWN",
@@ -55990,6 +55995,11 @@ const navkarMedicineData = [
         "Company Name": "INTAS (AVANTA)"
     },
     {
+        "Product Name": "REJUNEX PFS INJ",
+        "Pack": "1ML",
+        "Company Name": "INTAS (AVANTA)"
+    },
+    {
         "Product Name": "REJUNEX PLUS CAP 10``S",
         "Pack": "10TAB",
         "Company Name": "INTAS (AVANTA)"
@@ -57402,11 +57412,6 @@ const navkarMedicineData = [
     {
         "Product Name": "REJUNEX CD 3 CAP",
         "Pack": "10CAP",
-        "Company Name": "INTAS PHARMACEUTICALS (ALTIMA)"
-    },
-    {
-        "Product Name": "REJUNEX PFS INJ",
-        "Pack": "1ML",
         "Company Name": "INTAS PHARMACEUTICALS (ALTIMA)"
     },
     {
@@ -87110,11 +87115,6 @@ const navkarMedicineData = [
         "Company Name": "MED MANOR ( GLORIA SPL )"
     },
     {
-        "Product Name": "KETO CREAM 15GM",
-        "Pack": "15GM",
-        "Company Name": "MED MANOR ( GLORIA SPL )"
-    },
-    {
         "Product Name": "KETO GOLD PREMIUM SOAP",
         "Pack": "100GM",
         "Company Name": "MED MANOR ( GLORIA SPL )"
@@ -87132,6 +87132,11 @@ const navkarMedicineData = [
     {
         "Product Name": "LANTRAZ SB 130 CAP",
         "Pack": "10",
+        "Company Name": "MED MANOR ( GLORIA SPL )"
+    },
+    {
+        "Product Name": "UV RAZE TOTAL KIT",
+        "Pack": "COMBO",
         "Company Name": "MED MANOR ( GLORIA SPL )"
     },
     {
@@ -87307,6 +87312,11 @@ const navkarMedicineData = [
     {
         "Product Name": "KETO COOL LOTION 100ML",
         "Pack": "100 ML",
+        "Company Name": "MED MANOR (GLORIA)"
+    },
+    {
+        "Product Name": "KETO CREAM 15GM",
+        "Pack": "15GM",
         "Company Name": "MED MANOR (GLORIA)"
     },
     {
@@ -100740,23 +100750,23 @@ const navkarMedicineData = [
         "Company Name": "RANBAXY(STANLIFE)"
     },
     {
+        "Product Name": "CHERICOF [LS] SYR",
+        "Pack": "100ML",
+        "Company Name": "RANBAXY(STANLIFE)"
+    },
+    {
         "Product Name": "CHERICOF 12 SYP 60ML",
         "Pack": "60ML",
         "Company Name": "RANBAXY(STANLIFE)"
     },
     {
-        "Product Name": "CHERICOF JUNIOR SYP",
+        "Product Name": "CHERICOF JUNIOR SYR",
         "Pack": "60ML",
         "Company Name": "RANBAXY(STANLIFE)"
     },
     {
-        "Product Name": "CHERICOF LS JR 60ML",
+        "Product Name": "CHERICOF LS JR SYR",
         "Pack": "60 ML",
-        "Company Name": "RANBAXY(STANLIFE)"
-    },
-    {
-        "Product Name": "CHERICOF LS SYP",
-        "Pack": "100ML",
         "Company Name": "RANBAXY(STANLIFE)"
     },
     {
@@ -106900,8 +106910,8 @@ const navkarMedicineData = [
         "Company Name": "SUN PHARMA (SYMBIOSIS)"
     },
     {
-        "Product Name": "TRAZINE H TAB",
-        "Pack": "TAB",
+        "Product Name": "TRAZINE [H] TAB",
+        "Pack": "10 TAB",
         "Company Name": "SUN PHARMA (SYMBIOSIS)"
     },
     {
@@ -113200,6 +113210,11 @@ const navkarMedicineData = [
         "Company Name": "TORRENT PHARMA (CV-LIFE)"
     },
     {
+        "Product Name": "LOSAR [H] TAB",
+        "Pack": "15 TAB",
+        "Company Name": "TORRENT PHARMA (CV-LIFE)"
+    },
+    {
         "Product Name": "LOSAR 25 TAB",
         "Pack": "15 TAB",
         "Company Name": "TORRENT PHARMA (CV-LIFE)"
@@ -113232,11 +113247,6 @@ const navkarMedicineData = [
     {
         "Product Name": "LOSAR CH 6.25MG TAB",
         "Pack": "TAB",
-        "Company Name": "TORRENT PHARMA (CV-LIFE)"
-    },
-    {
-        "Product Name": "LOSAR H TAB",
-        "Pack": "15 TAB",
         "Company Name": "TORRENT PHARMA (CV-LIFE)"
     },
     {
@@ -126275,12 +126285,12 @@ const navkarMedicineData = [
         "Company Name": "ZYDUS PHARMA (MEDICA)"
     },
     {
-        "Product Name": "CLOPIATORVA 10 MG TAB",
+        "Product Name": "CLOPIATORVA 10 TAB",
         "Pack": "10 TAB",
         "Company Name": "ZYDUS PHARMA (MEDICA)"
     },
     {
-        "Product Name": "CLOPIATORVA 20 MG TAB",
+        "Product Name": "CLOPIATORVA 20 TAB",
         "Pack": "10 TAB",
         "Company Name": "ZYDUS PHARMA (MEDICA)"
     },
