@@ -195,6 +195,11 @@ const navkarColdchainData = [
         "Company Name": "ALKEM LAB (GASTOKEM)"
     },
     {
+        "Product Name": "HEPAGLIDE ONE 0.25MG INJ (PFS)",
+        "Pack": "0.19ML",
+        "Company Name": "ALKEM LAB (GASTOKEM)"
+    },
+    {
         "Product Name": "SEMASIZE 0.25/0.5MG INJ",
         "Pack": "INJ",
         "Company Name": "ALKEM LAB (METANEXT)"

@@ -5455,7 +5455,7 @@ const navkarMedicineData = [
         "Company Name": "AKUMENTIS HEALTHCARE (NOVELTIS)"
     },
     {
-        "Product Name": "CILNICAB 20MG TAB3",
+        "Product Name": "CILNICAB 20MG TAB",
         "Pack": "10 TAB",
         "Company Name": "AKUMENTIS HEALTHCARE (NOVELTIS)"
     },
@@ -5655,7 +5655,7 @@ const navkarMedicineData = [
         "Company Name": "AKUMENTIS HEALTHCARE (NOVEXA)"
     },
     {
-        "Product Name": "BENITOWA TM 8",
+        "Product Name": "BENITOWA TM 8 TAB",
         "Pack": "10 TAB",
         "Company Name": "AKUMENTIS HEALTHCARE (NOVEXA)"
     },
@@ -9260,11 +9260,6 @@ const navkarMedicineData = [
         "Company Name": "ALKEM LAB (GASTOKEM)"
     },
     {
-        "Product Name": "HEPAGLIDE ONE 0.25MG INJ (PFS)",
-        "Pack": "0.19ML",
-        "Company Name": "ALKEM LAB (GASTOKEM)"
-    },
-    {
         "Product Name": "OBETOHEP 10MG TAB",
         "Pack": "10 TAB",
         "Company Name": "ALKEM LAB (GASTOKEM)"
@@ -10418,6 +10413,11 @@ const navkarMedicineData = [
         "Product Name": "VOXITIN 5 TAB",
         "Pack": "10 TAB",
         "Company Name": "ALKEM LAB (PRIZMA)"
+    },
+    {
+        "Product Name": "SKINFAY BODY WASH",
+        "Pack": "175ML",
+        "Company Name": "ALKEM LAB (ULTICARE)"
     },
     {
         "Product Name": "DENU 60 INJ",
@@ -25551,7 +25551,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "MONTAIR [LC] TAB",
-        "Pack": "TAB",
+        "Pack": "15 TAB",
         "Company Name": "CIPLA LIMITED RESPIRATORY ORAL"
     },
     {
@@ -36320,6 +36320,11 @@ const navkarMedicineData = [
         "Company Name": "EMCURE PHARMA CV DIVISION"
     },
     {
+        "Product Name": "CARDACE H 10 MG TAB",
+        "Pack": "TAB",
+        "Company Name": "EMCURE PHARMA CV DIVISION"
+    },
+    {
         "Product Name": "CARDACE H 10 TAB",
         "Pack": "15 TAB",
         "Company Name": "EMCURE PHARMA CV DIVISION"
@@ -41035,39 +41040,44 @@ const navkarMedicineData = [
         "Company Name": "FDC LTD (ELECTRAL)"
     },
     {
+        "Product Name": "ELECTRAL ORANGE POWDER",
+        "Pack": "21.8GM",
+        "Company Name": "FDC LTD (ELECTRAL)"
+    },
+    {
         "Product Name": "ELECTRAL ORANGE SACHET",
         "Pack": "4.40GM",
-        "Company Name": "ELECTRAL ORANGE POWDER"
+        "Company Name": "FDC LTD (ELECTRAL)"
     },
     {
         "Product Name": "ELECTRAL PINEAPPLE 21.8GM",
         "Pack": "21.8GM",
-        "Company Name": "ELECTRAL ORANGE POWDER"
+        "Company Name": "FDC LTD (ELECTRAL)"
     },
     {
         "Product Name": "ELECTRAL POWDER [BIG SACHET]",
         "Pack": "21.8 GM",
-        "Company Name": "ELECTRAL ORANGE POWDER"
+        "Company Name": "FDC LTD (ELECTRAL)"
     },
     {
         "Product Name": "ELECTRAL POWDER 4.4GM",
         "Pack": "4 .4 GM",
-        "Company Name": "ELECTRAL ORANGE POWDER"
+        "Company Name": "FDC LTD (ELECTRAL)"
     },
     {
         "Product Name": "ELECTRAL Z PLUS LIQ",
         "Pack": "200ML",
-        "Company Name": "ELECTRAL ORANGE POWDER"
+        "Company Name": "FDC LTD (ELECTRAL)"
     },
     {
         "Product Name": "ELECTRAL Z+ SACHETS",
         "Pack": "4.38 GM",
-        "Company Name": "ELECTRAL ORANGE POWDER"
+        "Company Name": "FDC LTD (ELECTRAL)"
     },
     {
         "Product Name": "ZIORAL ORAL SOLU",
         "Pack": "100ML",
-        "Company Name": "ELECTRAL ORANGE POWDER"
+        "Company Name": "FDC LTD (ELECTRAL)"
     },
     {
         "Product Name": "ARFLUR 100 TAB",
@@ -44000,18 +44010,263 @@ const navkarMedicineData = [
         "Company Name": "GALCARE PHARMACEUETICAL PVT. LTD (DERMA)"
     },
     {
+        "Product Name": "ADAFERIN GEL 0.1% 15GM",
+        "Pack": "15GM",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
         "Product Name": "BENZAC AC 2.5% GEL 20GM",
         "Pack": "20GM",
         "Company Name": "GALDERMA INDIA PVT LTD"
     },
     {
-        "Product Name": "CETAPHIL DAM LOTION",
+        "Product Name": "BENZAC AC 5% GEL 30GM",
+        "Pack": "30GM",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "BILUMA ADVANCE  BRIGHTENING LOTION 45GM",
+        "Pack": "45ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "BILUMA ADVANCE NIGHT CREAM 45GM",
+        "Pack": "45GM",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL ADVANCED DEFENSE SERUM AM 30ML",
         "Pack": "30ML",
         "Company Name": "GALDERMA INDIA PVT LTD"
     },
     {
-        "Product Name": "DESOWEN LOTION",
+        "Product Name": "CETAPHIL ADVANCED RECOVERY SERUM PM 30ML",
         "Pack": "30ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL BABY  DAIPER CREAM 70GM",
+        "Pack": "70GM",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL BABY ADVANCE PROTECTION CREAM 85GM",
+        "Pack": "85GM",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL BABY DAILYLOTION CALENDULA 400ML",
+        "Pack": "400ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL BABY GENTLE WASH & SHAMPOO 230ML",
+        "Pack": "230ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL BABY MOISTURISING BABY OIL 200ML",
+        "Pack": "200ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL BABY MOISTURISING BATH & WASH 230ML",
+        "Pack": "230ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL BABY SOOTHING MOIST CREAM 100GM",
+        "Pack": "100GM",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL BABY WASH & SHAMPOO CALENDULA 400ML",
+        "Pack": "400ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL BHR BRIGHTNESS REFRESH TONER 150ML",
+        "Pack": "150ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL BHR DAY PROTECT SPF15 50GM",
+        "Pack": "50GM",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL BHR NIGHT COMFORT CREAM 50GM",
+        "Pack": "50GM",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL BHR PERFECTING SERUM 10ML",
+        "Pack": "10ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL BHR PERFECTING SERUM 30ML",
+        "Pack": "50ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL DAILY EXFOLIATING CLEANSER 178ML",
+        "Pack": "178ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL DAM ULTRA HYDRATING LOTION 50GM",
+        "Pack": "50GM",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL EXFOLIATING SA CLEANSER 236ML",
+        "Pack": "236ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL EXFOLIATING SA LOTION 236ML",
+        "Pack": "236ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL GENTLE SKIN CLEANSEER 473ML",
+        "Pack": "473ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL GENTLE SKIN CLEANSER 1LTR",
+        "Pack": "1LTR",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL GENTLE SKIN CLEANSER 59ML",
+        "Pack": "59ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL HEALTHY EYE SERUM",
+        "Pack": "15GM",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL HEALTHY FACIAL SERUM 30GM",
+        "Pack": "30GM",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL HEALTHY RENEW MICELLAR CLEANSER",
+        "Pack": "160ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL HYDRATING FOAMING CLANSER 236ML",
+        "Pack": "236ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL MOISTURISING  CREAM 250GM",
+        "Pack": "250GM",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL MOISTURISING CREAM 453GM",
+        "Pack": "453GM",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL MOISTURISING LOTION 236ML",
+        "Pack": "236ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL MOISTURISING LOTION 473ML",
+        "Pack": "473ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL OILY SKIN CLEANSER 118ML",
+        "Pack": "118ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL OILY SKIN CLEANSER 59ML",
+        "Pack": "59ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL OLIY SKIN CLEANSER 236ML",
+        "Pack": "236ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL PRO OIL CONT FOAM WASH 236ML",
+        "Pack": "236ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL PRO UREA 10% LOTION",
+        "Pack": "200ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL PRO UREA 4% LOTION",
+        "Pack": "200ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL RESTORADER BODYMOISTURIZER 295ML",
+        "Pack": "295ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL RESTORADERM BODY WASH",
+        "Pack": "295ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL SUN SPF30+ GEL 100ML",
+        "Pack": "100ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "CETAPHIL SUNKIDS LIPO LOTION SPF50 150ML",
+        "Pack": "150ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "DESOWEN AF LOTION 50ML",
+        "Pack": "50ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "DESOWEN CREAM 10GM",
+        "Pack": "10GM",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "DESOWEN LOTION 30ML",
+        "Pack": "30ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "EPIDUO GEL 15GM",
+        "Pack": "15GM",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "LOCERYL NAIL LACQUER 2.5ML APPLICATOR",
+        "Pack": "2.5ML",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "SOAPEX CLASSIC BAR",
+        "Pack": "75GM",
+        "Company Name": "GALDERMA INDIA PVT LTD"
+    },
+    {
+        "Product Name": "TRILUMA CREAM 15GM",
+        "Pack": "15GM",
         "Company Name": "GALDERMA INDIA PVT LTD"
     },
     {
@@ -52786,7 +53041,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "LIV 52 TAB",
-        "Pack": "TAB",
+        "Pack": "100 TAB",
         "Company Name": "LIV 52 SYRUP"
     },
     {
@@ -56017,6 +56272,11 @@ const navkarMedicineData = [
     {
         "Product Name": "TERIFRAC SOLO INJ",
         "Pack": "1 PFS",
+        "Company Name": "INTAS (AVANTA)"
+    },
+    {
+        "Product Name": "UDYNOR 500 MG TAB",
+        "Pack": "30 TAB",
         "Company Name": "INTAS (AVANTA)"
     },
     {
@@ -68867,6 +69127,11 @@ const navkarMedicineData = [
     {
         "Product Name": "EMPASHIELD L 25/5",
         "Pack": "10TAB",
+        "Company Name": "LA RENON HELATHACRE LAUREL"
+    },
+    {
+        "Product Name": "EMPASHIELD M 12.5/1000 MG TAB",
+        "Pack": "10 TAB",
         "Company Name": "LA RENON HELATHACRE LAUREL"
     },
     {
@@ -87801,7 +88066,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "SACHET",
-        "Pack": "345",
+        "Pack": "205",
         "Company Name": "MEDIBLESS"
     },
     {
@@ -92805,11 +93070,6 @@ const navkarMedicineData = [
         "Company Name": "MSN LABORATORIES LTD (OQM)"
     },
     {
-        "Product Name": "PLECTIDE TAB",
-        "Pack": "3MG",
-        "Company Name": "MSN LABORATORIES LTD (OQM)"
-    },
-    {
         "Product Name": "TAPAL 50 TAB",
         "Pack": "15TAB",
         "Company Name": "MSN LABORATORIES LTD (OQM)"
@@ -94517,6 +94777,11 @@ const navkarMedicineData = [
     {
         "Product Name": "NULIFE LATEX SURG GLOVES 6.5",
         "Pack": "1 PAIR",
+        "Company Name": "NULIFE PHARMACEUTICALS LTD."
+    },
+    {
+        "Product Name": "NULIFE SUNSREEN LOTION RAYBLO",
+        "Pack": "ML",
         "Company Name": "NULIFE PHARMACEUTICALS LTD."
     },
     {
@@ -110335,7 +110600,7 @@ const navkarMedicineData = [
         "Company Name": "SVIZERA HEALTHCARE (INSPIRA)"
     },
     {
-        "Product Name": "FEBRINIL INJ 3ML",
+        "Product Name": "FEBRINIL INJ 3ML.",
         "Pack": "3ML",
         "Company Name": "SVIZERA HEALTHCARE (INSPIRA)"
     },
@@ -117800,6 +118065,11 @@ const navkarMedicineData = [
         "Company Name": "TROIKAA PHARMACEUTICALS LTD"
     },
     {
+        "Product Name": "KETOSWIFT-SL TAB",
+        "Pack": "10TAB",
+        "Company Name": "TROIKAA PHARMACEUTICALS LTD"
+    },
+    {
         "Product Name": "REDHAEM  XT TOTAL TAB",
         "Pack": "10TAB",
         "Company Name": "TROIKAA PHARMACEUTICALS LTD"
@@ -121860,16 +122130,6 @@ const navkarMedicineData = [
         "Company Name": "WIN MEDICARE (ANTISEPTIC)"
     },
     {
-        "Product Name": "NUSPOR ORANGE 400GM",
-        "Pack": "400GM",
-        "Company Name": "WIN MEDICARE (ANTISEPTIC)"
-    },
-    {
-        "Product Name": "RESURREC VANILLA POWDER",
-        "Pack": "400GM",
-        "Company Name": "WIN MEDICARE (ANTISEPTIC)"
-    },
-    {
         "Product Name": "BETASEPTIC ANTISEPTIC HANDGEL",
         "Pack": "500 ML",
         "Company Name": "WIN MEDICARE (OTC - WHC)"
@@ -122055,8 +122315,18 @@ const navkarMedicineData = [
         "Company Name": "WIN MEDICARE (THERAPEUTICS)"
     },
     {
+        "Product Name": "NUSPOR ORANGE 400GM",
+        "Pack": "400GM",
+        "Company Name": "WIN MEDICARE (THERAPEUTICS)"
+    },
+    {
         "Product Name": "ONCE HEEL BALM(DERMATONICS)",
         "Pack": "50GM",
+        "Company Name": "WIN MEDICARE (THERAPEUTICS)"
+    },
+    {
+        "Product Name": "RESURREC VANILLA POWDER",
+        "Pack": "400GM",
         "Company Name": "WIN MEDICARE (THERAPEUTICS)"
     },
     {
