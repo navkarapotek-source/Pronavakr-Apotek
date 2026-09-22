@@ -14066,7 +14066,7 @@ const productData = [
     },
     {
         "Product Name": "KOFLET H HOT DRINK GINGER",
-        "Pack": "20ML",
+        "Pack": "10 SACHET",
         "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
     },
     {
@@ -14890,6 +14890,11 @@ const productData = [
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
+        "Product Name": "DAFLORA 10 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
         "Product Name": "DAFLORA M 10/500 TAB",
         "Pack": "10TAB",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
@@ -14920,12 +14925,22 @@ const productData = [
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
+        "Product Name": "GLICLIZE-M 80 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
         "Product Name": "GLIMITH MF-1 1000SR",
         "Pack": "10TAB",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
     {
         "Product Name": "GLIMITH MF-2 1000SR",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "GLIMITH MF4 1000SR TAB",
         "Pack": "10TAB",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
@@ -15211,6 +15226,11 @@ const productData = [
     },
     {
         "Product Name": "TELGO H40 TAB",
+        "Pack": "10TAB",
+        "Company Name": "JOHNLEE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "TELGO TRIO 25 TAB",
         "Pack": "10TAB",
         "Company Name": "JOHNLEE PHARMACEUTICALS"
     },
@@ -18080,6 +18100,11 @@ const productData = [
         "Company Name": "LEEFORD HEALTHCARE LTD"
     },
     {
+        "Product Name": "CALCIJOINT D3 DROP 15ML",
+        "Pack": "15ML",
+        "Company Name": "LEEFORD HEALTHCARE LTD"
+    },
+    {
         "Product Name": "CEFITAXE CV TAB",
         "Pack": "10TAB",
         "Company Name": "LEEFORD HEALTHCARE LTD"
@@ -18087,6 +18112,11 @@ const productData = [
     {
         "Product Name": "DEBISTAL GM2 TAB",
         "Pack": "10TAB",
+        "Company Name": "LEEFORD HEALTHCARE LTD"
+    },
+    {
+        "Product Name": "DIPLOMAX OINT 30GM",
+        "Pack": "30GM",
         "Company Name": "LEEFORD HEALTHCARE LTD"
     },
     {
@@ -18170,6 +18200,16 @@ const productData = [
         "Company Name": "LEEFORD HEALTHCARE LTD"
     },
     {
+        "Product Name": "METAPOL 50 AM TAB",
+        "Pack": "10TAB",
+        "Company Name": "LEEFORD HEALTHCARE LTD"
+    },
+    {
+        "Product Name": "METAPOL 50 XL TAB",
+        "Pack": "10TAB",
+        "Company Name": "LEEFORD HEALTHCARE LTD"
+    },
+    {
         "Product Name": "NAXPERSURE-PLUS",
         "Pack": "10 TAB",
         "Company Name": "LEEFORD HEALTHCARE LTD"
@@ -18202,6 +18242,11 @@ const productData = [
     {
         "Product Name": "ORTHO AID ROLL ON 50ML",
         "Pack": "50ML",
+        "Company Name": "LEEFORD HEALTHCARE LTD"
+    },
+    {
+        "Product Name": "REDNISOL 8 TAB",
+        "Pack": "10TAB",
         "Company Name": "LEEFORD HEALTHCARE LTD"
     },
     {
@@ -18241,6 +18286,11 @@ const productData = [
     },
     {
         "Product Name": "VOMIRAP MD TAB",
+        "Pack": "10TAB",
+        "Company Name": "LEEFORD HEALTHCARE LTD"
+    },
+    {
+        "Product Name": "VOVEDIC-MRX TAB",
         "Pack": "10TAB",
         "Company Name": "LEEFORD HEALTHCARE LTD"
     },
@@ -18545,6 +18595,21 @@ const productData = [
         "Company Name": "LEEFORD HEALTHCARE LTD."
     },
     {
+        "Product Name": "DEBIFALL TABS",
+        "Pack": "1X10T",
+        "Company Name": "LEEFORD HEALTHCARE LTD."
+    },
+    {
+        "Product Name": "DEBISTAL GM1 TAB",
+        "Pack": "10TAB",
+        "Company Name": "LEEFORD HEALTHCARE LTD."
+    },
+    {
+        "Product Name": "DEBISTAL-M2 TAB",
+        "Pack": "10TAB",
+        "Company Name": "LEEFORD HEALTHCARE LTD."
+    },
+    {
         "Product Name": "DERMIFORD 25GM OINT.",
         "Pack": "1X25GM",
         "Company Name": "LEEFORD HEALTHCARE LTD."
@@ -18652,6 +18717,11 @@ const productData = [
     {
         "Product Name": "ELOWAY ALOVERA GEL",
         "Pack": "1X100GM",
+        "Company Name": "LEEFORD HEALTHCARE LTD."
+    },
+    {
+        "Product Name": "ESOMEFOL-DSR CAPS",
+        "Pack": "1X10C",
         "Company Name": "LEEFORD HEALTHCARE LTD."
     },
     {
@@ -19056,6 +19126,11 @@ const productData = [
     },
     {
         "Product Name": "METAPOL-25-AM TABS",
+        "Pack": "1X10T",
+        "Company Name": "LEEFORD HEALTHCARE LTD."
+    },
+    {
+        "Product Name": "METAPOL-XL 25 TAB",
         "Pack": "1X10T",
         "Company Name": "LEEFORD HEALTHCARE LTD."
     },
@@ -21445,6 +21520,11 @@ const productData = [
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
+        "Product Name": "MANKINDS MADHUR SUGAR",
+        "Pack": "PC",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
         "Product Name": "MANKINDS PROTEIN PWD CHOCOLATE HEALTHCARE",
         "Pack": "200 GM",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
@@ -21481,6 +21561,11 @@ const productData = [
     },
     {
         "Product Name": "NIMULID ASP TAB",
+        "Pack": "10TAB",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "NIMULID A-TH4 PLUS TAB",
         "Pack": "10TAB",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
@@ -21630,6 +21715,11 @@ const productData = [
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
+        "Product Name": "TUSSMARK-DXP SYP 100ML",
+        "Pack": "100ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
         "Product Name": "TUSSMARK-DXP SYP 60ML",
         "Pack": "60ML",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
@@ -21641,6 +21731,11 @@ const productData = [
     },
     {
         "Product Name": "ZENKIND E/E DROP",
+        "Pack": "10ML",
+        "Company Name": "MANKIND PHARMA (HEALTHCARE)"
+    },
+    {
+        "Product Name": "ZENKIND-D EYE DROP",
         "Pack": "10ML",
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
@@ -25100,6 +25195,11 @@ const productData = [
         "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
     },
     {
+        "Product Name": "ACYLOVIR EYE OINT 5GM",
+        "Pack": "5GM",
+        "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
+    },
+    {
         "Product Name": "ALLYRENOL 5 TAB",
         "Pack": "10TAB",
         "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
@@ -25120,6 +25220,11 @@ const productData = [
         "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
     },
     {
+        "Product Name": "ARIPRAZINE 10 TAB",
+        "Pack": "10TAB",
+        "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
+    },
+    {
         "Product Name": "AZELSKIN 10% CREAM",
         "Pack": "20GM",
         "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
@@ -25127,6 +25232,11 @@ const productData = [
     {
         "Product Name": "BACLOVAC-10 TABS",
         "Pack": "1X10T",
+        "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
+    },
+    {
+        "Product Name": "BREATHALER DPI DEVICE",
+        "Pack": "1PCS",
         "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
     },
     {
@@ -25275,6 +25385,16 @@ const productData = [
         "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
     },
     {
+        "Product Name": "MOXISTAT 400 TAB",
+        "Pack": "5TAB",
+        "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
+    },
+    {
+        "Product Name": "MOXISTAT EYE OINT 5GM",
+        "Pack": "5GM",
+        "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
+    },
+    {
         "Product Name": "MULTIVEIN-AZ TABS",
         "Pack": "1X15T",
         "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
@@ -25282,6 +25402,11 @@ const productData = [
     {
         "Product Name": "MYGESTERON-400 MG CAP",
         "Pack": "1X10C",
+        "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
+    },
+    {
+        "Product Name": "NAPROZEN S TAB",
+        "Pack": "2TAB",
         "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
     },
     {
@@ -25325,6 +25450,11 @@ const productData = [
         "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
     },
     {
+        "Product Name": "PRE-FRESH TEARS DROP",
+        "Pack": "10ML",
+        "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
+    },
+    {
         "Product Name": "SENSODIUM TOOTHBRUSH",
         "Pack": "-",
         "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
@@ -25350,6 +25480,11 @@ const productData = [
         "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
     },
     {
+        "Product Name": "SULFAZEE 500 TAB",
+        "Pack": "15TAB",
+        "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
+    },
+    {
         "Product Name": "SUPRAVAC TABS",
         "Pack": "1X15T",
         "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
@@ -25370,8 +25505,23 @@ const productData = [
         "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
     },
     {
+        "Product Name": "THIONOS 4 CAP",
+        "Pack": "10CAP",
+        "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
+    },
+    {
+        "Product Name": "THIONOS 8 CAP",
+        "Pack": "10CAP",
+        "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
+    },
+    {
         "Product Name": "UBIK-Q10 CAPS",
         "Pack": "1X10T",
+        "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
+    },
+    {
+        "Product Name": "VALPROVAL SYRUP",
+        "Pack": "200ML",
         "Company Name": "PREVEGO HEALTHCARE & RESEARCH  PVT.LTD."
     },
     {
@@ -27625,16 +27775,6 @@ const productData = [
         "Company Name": "SMART CURE WAY"
     },
     {
-        "Product Name": "AMLOWAVE AT TAB",
-        "Pack": "1X14TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "ATOWAY ASP 10 CAP",
-        "Pack": "1X10CAP",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
         "Product Name": "AYURMIST 4G LIVER TONIC",
         "Pack": "1X300ML",
         "Company Name": "SMART CURE WAY"
@@ -27657,31 +27797,6 @@ const productData = [
     {
         "Product Name": "AYURMIST DIGESTIVE ENZYME",
         "Pack": "200ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "AZITREAT 200 SUSPENSION",
-        "Pack": "15 ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "AZITREAT 250 TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "AZITREAT 500 TAB",
-        "Pack": "1X5 TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "AZITREAT-250MG TABS (6 TAB)",
-        "Pack": "1X6T",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "AZITREAT-500MG TABS (3 TAB)",
-        "Pack": "1X3T",
         "Company Name": "SMART CURE WAY"
     },
     {
@@ -27717,26 +27832,6 @@ const productData = [
     {
         "Product Name": "BECLORUB CREAM",
         "Pack": "15GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "BLUSHWAY GLYCERINE 100GM",
-        "Pack": "100GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "BLUSHWAY HAIR REMOVE 60GM",
-        "Pack": "60GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "BODYFAB POWDER 500GM",
-        "Pack": "1X500GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "BREATHBLISS SOFT CAPS",
-        "Pack": "1X10C",
         "Company Name": "SMART CURE WAY"
     },
     {
@@ -27830,51 +27925,6 @@ const productData = [
         "Company Name": "SMART CURE WAY"
     },
     {
-        "Product Name": "CETRITREATE TABS",
-        "Pack": "1X10T",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "CETRITREATE-L SYRUP 30ML",
-        "Pack": "1X30ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "CETRITREATE-L TABS",
-        "Pack": "1X10T",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "CETRITREATE-LM TABS",
-        "Pack": "1X10T",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "CIPRODASH EYE & EAR DROPS",
-        "Pack": "1X10ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "CLINFAB CREAM 15GM",
-        "Pack": "1X15GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "CLINFRESH FACE WASH 75GM",
-        "Pack": "75GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "CLINFRESH GEL 20GM",
-        "Pack": "20GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "CLINFRESH SOAP 75GM",
-        "Pack": "75GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
         "Product Name": "CLORASH DUSTING POWDER 75GM",
         "Pack": "75GM",
         "Company Name": "SMART CURE WAY"
@@ -27895,103 +27945,13 @@ const productData = [
         "Company Name": "SMART CURE WAY"
     },
     {
-        "Product Name": "CLOTRITREAT DUSTING POW.100GM",
-        "Pack": "1X100GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "CLOTRITREAT DUSTING POW.75GM",
-        "Pack": "1X75GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "CODIFRESH DX 100ML SYP",
-        "Pack": "100 ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "CODIFRESH DX 60ML SYP",
-        "Pack": "60 ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
         "Product Name": "COLDPUNCH FORTE TAB",
         "Pack": "10TAB",
         "Company Name": "SMART CURE WAY"
     },
     {
-        "Product Name": "COLDTREAT PRO TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "COLDTREAT-DS SUPS.60ML",
-        "Pack": "1X60ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "COLDTREAT-P TABS",
-        "Pack": "1X10T",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "CYCLOTREAT SUSP.60ML",
-        "Pack": "1X60ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "CYCLOTREAT TABS",
-        "Pack": "1X10T",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
         "Product Name": "DEFUSPIN 6 TAB",
         "Pack": "10TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "DICLOSPIN FORTE GEL 30GM",
-        "Pack": "1X30GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "DICLOSPIN GEL 10GM",
-        "Pack": "1X10GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "DICLOSPIN STRONG GEL 30GM",
-        "Pack": "1X30GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "DICLOSPIN TABS (GREEN)",
-        "Pack": "1X10T",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "DICLOSPIN TABS (PINK)",
-        "Pack": "1X10T",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "DICLOSPIN-MR TABS",
-        "Pack": "1X10T",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "DOLOFAB SP TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "DOLOFAB TAB",
-        "Pack": "1X10T",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "DOLOFAB TABS (ALU-ALU)",
-        "Pack": "1X10T",
         "Company Name": "SMART CURE WAY"
     },
     {
@@ -28002,31 +27962,6 @@ const productData = [
     {
         "Product Name": "ESOTREAT DSR CAP",
         "Pack": "1X10CAP",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "ETODASH 90 TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "ETODASH P TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "EVERCLAV FORTE SUSP.30ML",
-        "Pack": "30 ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "EVERCLAV SUSP.30ML",
-        "Pack": "30 ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "E-WAVE 400 SOFT CAPS",
-        "Pack": "1X10C",
         "Company Name": "SMART CURE WAY"
     },
     {
@@ -28125,78 +28060,8 @@ const productData = [
         "Company Name": "SMART CURE WAY"
     },
     {
-        "Product Name": "GABAFAB M TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "GABAFAB NT TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "GLIMBLIST M2 TAB",
-        "Pack": "1X15TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "GLUCOFAB -C 500GM",
-        "Pack": "500 GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "GLUCOFAB D 500GM",
-        "Pack": "500 GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "GLUCOFAB-C 100GM",
-        "Pack": "1X100GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "GLUCOFAB-C 200GM",
-        "Pack": "1X200GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "GLUCOFAB-D 100GM",
-        "Pack": "1X100GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "GLUCOFAB-D 200GM",
-        "Pack": "1X200GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
         "Product Name": "GYNOBLUSH TONIC SYP",
         "Pack": "300ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "HAIRFLY HAIR OIL",
-        "Pack": "100 ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "HAIRFLY ONION HAIR OIL 100ML",
-        "Pack": "1X100ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "HAIRFLY TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "HAIRFLY-5 SOLUTION 60ML",
-        "Pack": "1X60ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "HEMOWAY SYRUP 300ML",
-        "Pack": "1X300ML",
         "Company Name": "SMART CURE WAY"
     },
     {
@@ -28207,21 +28072,6 @@ const productData = [
     {
         "Product Name": "ITCHAWAY CREAM 25GM",
         "Pack": "25GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "ITROCAP 100 TEN CAP",
-        "Pack": "1X10CAP",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "ITROCAP 200 TEN CAP",
-        "Pack": "1X10CAP",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "JOINTWELD SOFTGEL CAPS",
-        "Pack": "1X15C",
         "Company Name": "SMART CURE WAY"
     },
     {
@@ -28255,38 +28105,8 @@ const productData = [
         "Company Name": "SMART CURE WAY"
     },
     {
-        "Product Name": "KETOFRESH ACTIVE CREAM 15GM",
-        "Pack": "15 GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "KETOFRESH CREAM 30GM",
-        "Pack": "30 GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "KETOFRESH CT SOAP",
-        "Pack": "75GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "KETOFRESH SHAMPOO",
-        "Pack": "100ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "KETOFRESH Z SHAMPOO",
-        "Pack": "100ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
         "Product Name": "KETOSPIN DT TAB",
         "Pack": "15TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "KUFFWAY-Q TABS",
-        "Pack": "1X10T",
         "Company Name": "SMART CURE WAY"
     },
     {
@@ -28300,31 +28120,6 @@ const productData = [
         "Company Name": "SMART CURE WAY"
     },
     {
-        "Product Name": "LOWPRESS 50 TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "LOWPRESS H TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "LOWSTEROL F TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "LULIFRESH CREAM 20GM",
-        "Pack": "20GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "LULIFRESH LOTION 25ML",
-        "Pack": "25ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
         "Product Name": "LYCOWAKE CAP",
         "Pack": "10CAP",
         "Company Name": "SMART CURE WAY"
@@ -28332,16 +28127,6 @@ const productData = [
     {
         "Product Name": "MECOBLIST SL TAB",
         "Pack": "1X10T",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "MEFIWAY TABS",
-        "Pack": "1X10T",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "MEGACARE-369 SOFT CAP 15 CAP",
-        "Pack": "15 CAP",
         "Company Name": "SMART CURE WAY"
     },
     {
@@ -28362,31 +28147,6 @@ const productData = [
     {
         "Product Name": "MIGRATREAT TAB",
         "Pack": "1X10T",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "MONTEBLIST LA TAB",
-        "Pack": "1X10 TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "MOXISPIN 250 CAP",
-        "Pack": "1X10 TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "MOXISPIN 500 CAP",
-        "Pack": "1X10CAP",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "MOXISPIN D CAP",
-        "Pack": "1X10CAP",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "MULTIBLIST SOFT CAPS",
-        "Pack": "1X15C",
         "Company Name": "SMART CURE WAY"
     },
     {
@@ -28440,21 +28200,6 @@ const productData = [
         "Company Name": "SMART CURE WAY"
     },
     {
-        "Product Name": "OFLOTREAT 200 TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "OFLOTREAT OZ TABS",
-        "Pack": "1X10T",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "OFLOTREAT-M SUSP.30ML",
-        "Pack": "1X30ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
         "Product Name": "OMENESS-20MG CAPS",
         "Pack": "1X15C",
         "Company Name": "SMART CURE WAY"
@@ -28480,41 +28225,6 @@ const productData = [
         "Company Name": "SMART CURE WAY"
     },
     {
-        "Product Name": "ORACOOL GEL 10GM",
-        "Pack": "10 GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "ORACOOL GEL 15GM",
-        "Pack": "15 GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "ORACOOL MOUTHWASH",
-        "Pack": "100ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "ORACOOL TAB",
-        "Pack": "1X15TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "ORAWAVE ORS 21GM POWDER",
-        "Pack": "21GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "ORAWAVE ORS APPLE TETRAPACK",
-        "Pack": "200 ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "ORAWAVE ORS ORANGE TETRAPACK",
-        "Pack": "200 ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
         "Product Name": "OTRIDASH ADULT NASAL DROP 10ML",
         "Pack": "10ML",
         "Company Name": "SMART CURE WAY"
@@ -28522,16 +28232,6 @@ const productData = [
     {
         "Product Name": "OTRIDASH OXY FAST RELIEF NASAL DROP",
         "Pack": "10ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "PANTOFRESH DSR CAP",
-        "Pack": "1X10",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "PANTOFRESH LS CAP",
-        "Pack": "1X10CAP",
         "Company Name": "SMART CURE WAY"
     },
     {
@@ -28585,53 +28285,8 @@ const productData = [
         "Company Name": "SMART CURE WAY"
     },
     {
-        "Product Name": "PREGAFAB M CAP",
-        "Pack": "1X10CAP",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "PREGAFAB NT TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "PREGAFAB NTM TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
         "Product Name": "PRIMOWAY-N TABS",
         "Pack": "1X10T",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "PROMINENT ANTI ACNE FACE WASH",
-        "Pack": "60 GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "PROMINENT CHARCOAL FACE WASH",
-        "Pack": "100GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "PROMINENT CHARCOAL FACE WASH 60GM",
-        "Pack": "60 GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "PROMINENT WALNUT SCRUB 60GM",
-        "Pack": "1X60GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "PROTIFLOW DHA POWDER",
-        "Pack": "1X200GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "RABENESS-DSR CAP",
-        "Pack": "1X10C",
         "Company Name": "SMART CURE WAY"
     },
     {
@@ -28642,91 +28297,6 @@ const productData = [
     {
         "Product Name": "RANITREAT 150 TAB",
         "Pack": "10TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "RESPIDRYL 100ML SYP",
-        "Pack": "100 ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "RESPIFRESH A 100ML SYP",
-        "Pack": "100 ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "RESPIFRESH AD 100ML SYP",
-        "Pack": "100 ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "RESPIFRESH AD 60ML SYP",
-        "Pack": "60 ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "RESPIFRESH D 100ML SYP",
-        "Pack": "100ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "RESPIFRESH D 60ML SYP",
-        "Pack": "60 ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "RESPIFRESH D SOFT CAP",
-        "Pack": "1X10CAP",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "RESPIFRESH LOZENGES",
-        "Pack": "1X10T",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "RESPIFRESH LS 100ML SYP",
-        "Pack": "100 ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "RESPIFRESH TR 100ML SYP",
-        "Pack": "100 ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "RESPIRUB INHALER",
-        "Pack": "1UNIT",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "RESPIRUB PAIN BALM 10ML",
-        "Pack": "1X10ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "RESPIRUB VAPORUB 10ML",
-        "Pack": "10 ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "RESPIRUB VAPORUB 25ML",
-        "Pack": "25ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "RESPIRUB VAPORUB 50ML",
-        "Pack": "50 ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "RESPIRUB VAPORUB 5ML",
-        "Pack": "5 ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "SCABITREAT SOAP 75GM",
-        "Pack": "1X75GM",
         "Company Name": "SMART CURE WAY"
     },
     {
@@ -28752,56 +28322,6 @@ const productData = [
     {
         "Product Name": "TRANBEAT MF TAB",
         "Pack": "10TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "UDIFAB 300 TAB",
-        "Pack": "1X15TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "VERTITREAT 16 TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "VERTITREAT 24 TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "VERTITREAT 8 TAB",
-        "Pack": "1X10TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "VIGORWAY GOLD TABS",
-        "Pack": "1X4T",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "VILDATREAT 50 TAB",
-        "Pack": "1X15TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "VILDATREAT-M TAB",
-        "Pack": "1X15TAB",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "VITADASH Z POWDER 105GM",
-        "Pack": "105GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "VITADASH Z POWDER 210GM",
-        "Pack": "210GM",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "VOMIPRO MD TAB",
-        "Pack": "1X10TAB",
         "Company Name": "SMART CURE WAY"
     },
     {
@@ -28831,16 +28351,6 @@ const productData = [
     },
     {
         "Product Name": "WAYFENAC-SP TABS",
-        "Pack": "1X10T",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "WORMTREAT-A SYRUP",
-        "Pack": "1X10ML",
-        "Company Name": "SMART CURE WAY"
-    },
-    {
-        "Product Name": "WORMTREAT-A TABS",
         "Pack": "1X10T",
         "Company Name": "SMART CURE WAY"
     },
@@ -32950,6 +32460,11 @@ const productData = [
         "Company Name": "SMART WAY WELLNESS"
     },
     {
+        "Product Name": "AMLOWAVE AT TAB",
+        "Pack": "1X14TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
         "Product Name": "ATEBEAT 25 TAB",
         "Pack": "14TAB",
         "Company Name": "SMART WAY WELLNESS"
@@ -32975,6 +32490,11 @@ const productData = [
         "Company Name": "SMART WAY WELLNESS"
     },
     {
+        "Product Name": "ATOWAY ASP 10 CAP",
+        "Pack": "1X10CAP",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
         "Product Name": "ATOWAY CV 10 CAP",
         "Pack": "10CAP",
         "Company Name": "SMART WAY WELLNESS"
@@ -32995,6 +32515,21 @@ const productData = [
         "Company Name": "SMART WAY WELLNESS"
     },
     {
+        "Product Name": "AZITREAT 200 SUSPENSION",
+        "Pack": "15 ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "AZITREAT 250 TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "AZITREAT 500 TAB",
+        "Pack": "1X5 TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
         "Product Name": "AZITREAT XL 100 SUSP",
         "Pack": "30ML",
         "Company Name": "SMART WAY WELLNESS"
@@ -33005,8 +32540,28 @@ const productData = [
         "Company Name": "SMART WAY WELLNESS"
     },
     {
+        "Product Name": "AZITREAT-250MG TABS (6 TAB)",
+        "Pack": "1X6T",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "AZITREAT-500MG TABS (3 TAB)",
+        "Pack": "1X3T",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "BLUSHWAY GLYCERINE 100GM",
+        "Pack": "100GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
         "Product Name": "BLUSHWAY HAIR RAMOVE 30GM",
         "Pack": "30GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "BLUSHWAY HAIR REMOVE 60GM",
+        "Pack": "60GM",
         "Company Name": "SMART WAY WELLNESS"
     },
     {
@@ -33017,6 +32572,16 @@ const productData = [
     {
         "Product Name": "BLUSHWAY INTIMATE WASH 100ML",
         "Pack": "100ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "BODYFAB POWDER 500GM",
+        "Pack": "1X500GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "BREATHBLISS SOFT CAPS",
+        "Pack": "1X10C",
         "Company Name": "SMART WAY WELLNESS"
     },
     {
@@ -33050,6 +32615,71 @@ const productData = [
         "Company Name": "SMART WAY WELLNESS"
     },
     {
+        "Product Name": "CETRITREATE TABS",
+        "Pack": "1X10T",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "CETRITREATE-L SYRUP 30ML",
+        "Pack": "1X30ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "CETRITREATE-L TABS",
+        "Pack": "1X10T",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "CETRITREATE-LM TABS",
+        "Pack": "1X10T",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "CIPRODASH EYE & EAR DROPS",
+        "Pack": "1X10ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "CLINFAB CREAM 15GM",
+        "Pack": "1X15GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "CLINFRESH FACE WASH 75GM",
+        "Pack": "75GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "CLINFRESH GEL 20GM",
+        "Pack": "20GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "CLINFRESH SOAP 75GM",
+        "Pack": "75GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "CLOTRITREAT DUSTING POW.100GM",
+        "Pack": "1X100GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "CLOTRITREAT DUSTING POW.75GM",
+        "Pack": "1X75GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "CODIFRESH DX 100ML SYP",
+        "Pack": "100 ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "CODIFRESH DX 60ML SYP",
+        "Pack": "60 ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
         "Product Name": "COLDTREAT FORTE SUSP",
         "Pack": "60ML",
         "Company Name": "SMART WAY WELLNESS"
@@ -33062,6 +32692,21 @@ const productData = [
     {
         "Product Name": "COLDTREAT PLUS NF TAB",
         "Pack": "10TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "COLDTREAT PRO TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "COLDTREAT-DS SUPS.60ML",
+        "Pack": "1X60ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "COLDTREAT-P TABS",
+        "Pack": "1X10T",
         "Company Name": "SMART WAY WELLNESS"
     },
     {
@@ -33080,6 +32725,16 @@ const productData = [
         "Company Name": "SMART WAY WELLNESS"
     },
     {
+        "Product Name": "CYCLOTREAT SUSP.60ML",
+        "Pack": "1X60ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "CYCLOTREAT TABS",
+        "Pack": "1X10T",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
         "Product Name": "CYPROBEAT 4MG TAB",
         "Pack": "10TAB",
         "Company Name": "SMART WAY WELLNESS"
@@ -33095,6 +32750,36 @@ const productData = [
         "Company Name": "SMART WAY WELLNESS"
     },
     {
+        "Product Name": "DICLOSPIN FORTE GEL 30GM",
+        "Pack": "1X30GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "DICLOSPIN GEL 10GM",
+        "Pack": "1X10GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "DICLOSPIN STRONG GEL 30GM",
+        "Pack": "1X30GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "DICLOSPIN TABS (GREEN)",
+        "Pack": "1X10T",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "DICLOSPIN TABS (PINK)",
+        "Pack": "1X10T",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "DICLOSPIN-MR TABS",
+        "Pack": "1X10T",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
         "Product Name": "DIGIWAY NEBULIZER",
         "Pack": "PC",
         "Company Name": "SMART WAY WELLNESS"
@@ -33107,6 +32792,21 @@ const productData = [
     {
         "Product Name": "DOLOFAB COLD TAB",
         "Pack": "10TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "DOLOFAB SP TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "DOLOFAB TAB",
+        "Pack": "1X10T",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "DOLOFAB TABS (ALU-ALU)",
+        "Pack": "1X10T",
         "Company Name": "SMART WAY WELLNESS"
     },
     {
@@ -33130,12 +32830,47 @@ const productData = [
         "Company Name": "SMART WAY WELLNESS"
     },
     {
+        "Product Name": "ETODASH 90 TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "ETODASH P TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
         "Product Name": "EVERCLAV 625 TAB",
         "Pack": "10TAB",
         "Company Name": "SMART WAY WELLNESS"
     },
     {
         "Product Name": "EVERCLAV 625 TAB (ALU-ALU)",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "EVERCLAV FORTE SUSP.30ML",
+        "Pack": "30 ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "EVERCLAV SUSP.30ML",
+        "Pack": "30 ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "E-WAVE 400 SOFT CAPS",
+        "Pack": "1X10C",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "GABAFAB M TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "GABAFAB NT TAB",
         "Pack": "1X10TAB",
         "Company Name": "SMART WAY WELLNESS"
     },
@@ -33147,6 +32882,11 @@ const productData = [
     {
         "Product Name": "GLIMBLIST M2 PLUS TAB",
         "Pack": "15TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "GLIMBLIST M2 TAB",
+        "Pack": "1X15TAB",
         "Company Name": "SMART WAY WELLNESS"
     },
     {
@@ -33170,8 +32910,38 @@ const productData = [
         "Company Name": "SMART WAY WELLNESS"
     },
     {
+        "Product Name": "GLUCOFAB -C 500GM",
+        "Pack": "500 GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
         "Product Name": "GLUCOFAB C 500GM (LEMON)",
         "Pack": "500GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "GLUCOFAB D 500GM",
+        "Pack": "500 GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "GLUCOFAB-C 100GM",
+        "Pack": "1X100GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "GLUCOFAB-C 200GM",
+        "Pack": "1X200GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "GLUCOFAB-D 100GM",
+        "Pack": "1X100GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "GLUCOFAB-D 200GM",
+        "Pack": "1X200GM",
         "Company Name": "SMART WAY WELLNESS"
     },
     {
@@ -33185,6 +32955,31 @@ const productData = [
         "Company Name": "SMART WAY WELLNESS"
     },
     {
+        "Product Name": "HAIRFLY HAIR OIL",
+        "Pack": "100 ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "HAIRFLY ONION HAIR OIL 100ML",
+        "Pack": "1X100ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "HAIRFLY TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "HAIRFLY-5 SOLUTION 60ML",
+        "Pack": "1X60ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "HEMOWAY SYRUP 300ML",
+        "Pack": "1X300ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
         "Product Name": "IBUWAY P SUSP",
         "Pack": "60ML",
         "Company Name": "SMART WAY WELLNESS"
@@ -33195,13 +32990,58 @@ const productData = [
         "Company Name": "SMART WAY WELLNESS"
     },
     {
+        "Product Name": "ITROCAP 100 TEN CAP",
+        "Pack": "1X10CAP",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "ITROCAP 200 TEN CAP",
+        "Pack": "1X10CAP",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "JOINTWELD SOFTGEL CAPS",
+        "Pack": "1X15C",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
         "Product Name": "KETOFRESH 200 TAB",
         "Pack": "10TAB",
         "Company Name": "SMART WAY WELLNESS"
     },
     {
+        "Product Name": "KETOFRESH ACTIVE CREAM 15GM",
+        "Pack": "15 GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "KETOFRESH CREAM 30GM",
+        "Pack": "30 GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "KETOFRESH CT SOAP",
+        "Pack": "75GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
         "Product Name": "KETOFRESH NF CT CREAM 30GM",
         "Pack": "30GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "KETOFRESH SHAMPOO",
+        "Pack": "100ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "KETOFRESH Z SHAMPOO",
+        "Pack": "100ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "KUFFWAY-Q TABS",
+        "Pack": "1X10T",
         "Company Name": "SMART WAY WELLNESS"
     },
     {
@@ -33220,8 +33060,18 @@ const productData = [
         "Company Name": "SMART WAY WELLNESS"
     },
     {
+        "Product Name": "LOWPRESS 50 TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
         "Product Name": "LOWPRESS AM TAB",
         "Pack": "10TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "LOWPRESS H TAB",
+        "Pack": "1X10TAB",
         "Company Name": "SMART WAY WELLNESS"
     },
     {
@@ -33252,6 +33102,11 @@ const productData = [
     {
         "Product Name": "LOWSTEROL C CAP",
         "Pack": "10CAP",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "LOWSTEROL F TAB",
+        "Pack": "1X10TAB",
         "Company Name": "SMART WAY WELLNESS"
     },
     {
@@ -33295,6 +33150,16 @@ const productData = [
         "Company Name": "SMART WAY WELLNESS"
     },
     {
+        "Product Name": "LULIFRESH CREAM 20GM",
+        "Pack": "20GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "LULIFRESH LOTION 25ML",
+        "Pack": "25ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
         "Product Name": "LUVAIRE PERFUME BLUSH 100ML",
         "Pack": "100ML",
         "Company Name": "SMART WAY WELLNESS"
@@ -33302,6 +33167,16 @@ const productData = [
     {
         "Product Name": "LUVAIRE PERFUME NOIR 100ML",
         "Pack": "100ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "MEFIWAY TABS",
+        "Pack": "1X10T",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "MEGACARE-369 SOFT CAP 15 CAP",
+        "Pack": "15 CAP",
         "Company Name": "SMART WAY WELLNESS"
     },
     {
@@ -33330,6 +33205,11 @@ const productData = [
         "Company Name": "SMART WAY WELLNESS"
     },
     {
+        "Product Name": "MONTEBLIST LA TAB",
+        "Pack": "1X10 TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
         "Product Name": "MOXIDASH D EYE DROP",
         "Pack": "10ML",
         "Company Name": "SMART WAY WELLNESS"
@@ -33340,8 +33220,28 @@ const productData = [
         "Company Name": "SMART WAY WELLNESS"
     },
     {
+        "Product Name": "MOXISPIN 250 CAP",
+        "Pack": "1X10 TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
         "Product Name": "MOXISPIN 250 DT TAB",
         "Pack": "10TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "MOXISPIN 500 CAP",
+        "Pack": "1X10CAP",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "MOXISPIN D CAP",
+        "Pack": "1X10CAP",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "MULTIBLIST SOFT CAPS",
+        "Pack": "1X15C",
         "Company Name": "SMART WAY WELLNESS"
     },
     {
@@ -33375,6 +33275,66 @@ const productData = [
         "Company Name": "SMART WAY WELLNESS"
     },
     {
+        "Product Name": "OFLOTREAT 200 TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "OFLOTREAT OZ TABS",
+        "Pack": "1X10T",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "OFLOTREAT-M SUSP.30ML",
+        "Pack": "1X30ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "ORACOOL GEL 10GM",
+        "Pack": "10 GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "ORACOOL GEL 15GM",
+        "Pack": "15 GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "ORACOOL MOUTHWASH",
+        "Pack": "100ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "ORACOOL TAB",
+        "Pack": "1X15TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "ORAWAVE ORS 21GM POWDER",
+        "Pack": "21GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "ORAWAVE ORS APPLE TETRAPACK",
+        "Pack": "200 ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "ORAWAVE ORS ORANGE TETRAPACK",
+        "Pack": "200 ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "PANTOFRESH DSR CAP",
+        "Pack": "1X10",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "PANTOFRESH LS CAP",
+        "Pack": "1X10CAP",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
         "Product Name": "PREGABLUSH",
         "Pack": "1UNIT",
         "Company Name": "SMART WAY WELLNESS"
@@ -33390,8 +33350,38 @@ const productData = [
         "Company Name": "SMART WAY WELLNESS"
     },
     {
+        "Product Name": "PREGAFAB M CAP",
+        "Pack": "1X10CAP",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "PREGAFAB NT TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "PREGAFAB NTM TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
         "Product Name": "PROMINENT  SUNSCREEN 50SPF GEL 50GM",
         "Pack": "50GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "PROMINENT ANTI ACNE FACE WASH",
+        "Pack": "60 GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "PROMINENT CHARCOAL FACE WASH",
+        "Pack": "100GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "PROMINENT CHARCOAL FACE WASH 60GM",
+        "Pack": "60 GM",
         "Company Name": "SMART WAY WELLNESS"
     },
     {
@@ -33420,6 +33410,16 @@ const productData = [
         "Company Name": "SMART WAY WELLNESS"
     },
     {
+        "Product Name": "PROMINENT WALNUT SCRUB 60GM",
+        "Pack": "1X60GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "PROTIFLOW DHA POWDER",
+        "Pack": "1X200GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
         "Product Name": "PROTIFLOW KESAR PISTA PROTIEN POWDER",
         "Pack": "200GM",
         "Company Name": "SMART WAY WELLNESS"
@@ -33435,6 +33435,91 @@ const productData = [
         "Company Name": "SMART WAY WELLNESS"
     },
     {
+        "Product Name": "RABENESS-DSR CAP",
+        "Pack": "1X10C",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "RESPIDRYL 100ML SYP",
+        "Pack": "100 ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "RESPIFRESH A 100ML SYP",
+        "Pack": "100 ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "RESPIFRESH AD 100ML SYP",
+        "Pack": "100 ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "RESPIFRESH AD 60ML SYP",
+        "Pack": "60 ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "RESPIFRESH D 100ML SYP",
+        "Pack": "100ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "RESPIFRESH D 60ML SYP",
+        "Pack": "60 ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "RESPIFRESH D SOFT CAP",
+        "Pack": "1X10CAP",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "RESPIFRESH LOZENGES",
+        "Pack": "1X10T",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "RESPIFRESH LS 100ML SYP",
+        "Pack": "100 ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "RESPIFRESH TR 100ML SYP",
+        "Pack": "100 ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "RESPIRUB INHALER",
+        "Pack": "1UNIT",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "RESPIRUB PAIN BALM 10ML",
+        "Pack": "1X10ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "RESPIRUB VAPORUB 10ML",
+        "Pack": "10 ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "RESPIRUB VAPORUB 25ML",
+        "Pack": "25ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "RESPIRUB VAPORUB 50ML",
+        "Pack": "50 ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "RESPIRUB VAPORUB 5ML",
+        "Pack": "5 ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
         "Product Name": "SALBUSHIFT RESPULES",
         "Pack": "2.5ML",
         "Company Name": "SMART WAY WELLNESS"
@@ -33445,18 +33530,68 @@ const productData = [
         "Company Name": "SMART WAY WELLNESS"
     },
     {
+        "Product Name": "SCABITREAT SOAP 75GM",
+        "Pack": "1X75GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
         "Product Name": "SUGARCRUSH SUGAR FREE PELLELTS",
         "Pack": "PC",
         "Company Name": "SMART WAY WELLNESS"
     },
     {
-        "Product Name": "VIGROWAY 100 TAB",
+        "Product Name": "UDIFAB 300 TAB",
+        "Pack": "1X15TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "VERTITREAT 16 TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "VERTITREAT 24 TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "VERTITREAT 8 TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "VIGORWAY 100 TAB",
         "Pack": "4TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "VIGORWAY GOLD TABS",
+        "Pack": "1X4T",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "VILDATREAT 50 TAB",
+        "Pack": "1X15TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "VILDATREAT-M TAB",
+        "Pack": "1X15TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "VITADASH Z POWDER 105GM",
+        "Pack": "105GM",
         "Company Name": "SMART WAY WELLNESS"
     },
     {
         "Product Name": "VITADASH Z POWDER 105GM (MANGO)",
         "Pack": "105GM",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "VITADASH Z POWDER 210GM",
+        "Pack": "210GM",
         "Company Name": "SMART WAY WELLNESS"
     },
     {
@@ -33482,6 +33617,21 @@ const productData = [
     {
         "Product Name": "VOGLIWAY GM2 TAB",
         "Pack": "15TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "VOMIPRO MD TAB",
+        "Pack": "1X10TAB",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "WORMTREAT-A SYRUP",
+        "Pack": "1X10ML",
+        "Company Name": "SMART WAY WELLNESS"
+    },
+    {
+        "Product Name": "WORMTREAT-A TABS",
+        "Pack": "1X10T",
         "Company Name": "SMART WAY WELLNESS"
     },
     {

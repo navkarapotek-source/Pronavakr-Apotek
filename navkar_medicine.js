@@ -2080,6 +2080,11 @@ const navkarMedicineData = [
         "Company Name": "ABBOTT INDIA LTD"
     },
     {
+        "Product Name": "EZYBIXY 10MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "ABBOTT INDIA LTD"
+    },
+    {
         "Product Name": "GLUCAGEN HYPOKIT",
         "Pack": "KIT",
         "Company Name": "ABBOTT INDIA LTD"
@@ -38090,11 +38095,6 @@ const navkarMedicineData = [
         "Company Name": "EQUITAS PHARMA"
     },
     {
-        "Product Name": "3-VC CAP",
-        "Pack": "3 CAP",
-        "Company Name": "ERA PHARMACEUTICALS PVT LTD"
-    },
-    {
         "Product Name": "3VC VAG PESSARIES 3``S",
         "Pack": "3`S",
         "Company Name": "ERA PHARMACEUTICALS PVT LTD"
@@ -47287,6 +47287,11 @@ const navkarMedicineData = [
     {
         "Product Name": "SCABOMA LOTION 50ML",
         "Pack": "50ML",
+        "Company Name": "GLENMARK (PHARMA)"
+    },
+    {
+        "Product Name": "TELMA LN 40/20 TAB",
+        "Pack": "15'S",
         "Company Name": "GLENMARK (PHARMA)"
     },
     {
@@ -61820,6 +61825,11 @@ const navkarMedicineData = [
         "Company Name": "IPCA LABORATORIES ( CARDIMAX )"
     },
     {
+        "Product Name": "SUITGLIP D 100/10 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "IPCA LABORATORIES ( CARDIMAX )"
+    },
+    {
         "Product Name": "SUITGLIP M 50/500",
         "Pack": "10TAB",
         "Company Name": "IPCA LABORATORIES ( CARDIMAX )"
@@ -68215,6 +68225,11 @@ const navkarMedicineData = [
         "Company Name": "LA RENON HEALTH CARE (CAM2/URO"
     },
     {
+        "Product Name": "CENOBAREN 12.5 TAB",
+        "Pack": "10TAB",
+        "Company Name": "LA RENON HEALTH CARE (CAM2/URO"
+    },
+    {
         "Product Name": "SMOOBIX-10 TAB",
         "Pack": "10TAB",
         "Company Name": "LA RENON HEALTH CARE (CAM2/URO"
@@ -68282,6 +68297,16 @@ const navkarMedicineData = [
     {
         "Product Name": "BACLOREN 20MG TAB",
         "Pack": "TAB",
+        "Company Name": "LA RENON HEALTH CARE (LAUREUS-ALFA)"
+    },
+    {
+        "Product Name": "BREPIREN 0.25 TAB",
+        "Pack": "10TAB",
+        "Company Name": "LA RENON HEALTH CARE (LAUREUS-ALFA)"
+    },
+    {
+        "Product Name": "CENOBAREN 25 TAB",
+        "Pack": "10TAB",
         "Company Name": "LA RENON HEALTH CARE (LAUREUS-ALFA)"
     },
     {
@@ -68703,6 +68728,11 @@ const navkarMedicineData = [
         "Product Name": "WOMERAFT SYP",
         "Pack": "200ML",
         "Company Name": "LA RENON HELATH CARE LAUREATE"
+    },
+    {
+        "Product Name": "CENOBAREN 50 TAB",
+        "Pack": "10TAB",
+        "Company Name": "LA RENON HELATH CARE LAUREUS"
     },
     {
         "Product Name": "CEREHENZ 60 INJ",
@@ -70807,11 +70837,6 @@ const navkarMedicineData = [
     {
         "Product Name": "CONSTEZ SACHETS",
         "Pack": "10 GM",
-        "Company Name": "LA RENON(NEPHRO)LACONIC"
-    },
-    {
-        "Product Name": "CUDO FORTE TAB",
-        "Pack": "TAB",
         "Company Name": "LA RENON(NEPHRO)LACONIC"
     },
     {
@@ -92666,7 +92691,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "SITAPRIDE M 100/500 TAB",
-        "Pack": "10 TAB",
+        "Pack": "15 TAB",
         "Company Name": "MICRO LABS LIMITED"
     },
     {
@@ -112627,6 +112652,11 @@ const navkarMedicineData = [
     {
         "Product Name": "LACOSAM INJ",
         "Pack": "20ML",
+        "Company Name": "TORRENT PHARMA (AXON)"
+    },
+    {
+        "Product Name": "LACOSAM SYRUP",
+        "Pack": "100 ML",
         "Company Name": "TORRENT PHARMA (AXON)"
     },
     {
