@@ -5400,6 +5400,16 @@ const productData = [
         "Company Name": "CIPLA"
     },
     {
+        "Product Name": "REXCOF DX NF 100ML",
+        "Pack": "1X100ML",
+        "Company Name": "CIPLA"
+    },
+    {
+        "Product Name": "REXCOF DX NF 60ML",
+        "Pack": "1X60ML",
+        "Company Name": "CIPLA"
+    },
+    {
         "Product Name": "ROSUGARD 10 TAB",
         "Pack": "1X10TAB",
         "Company Name": "CIPLA"
@@ -6137,16 +6147,6 @@ const productData = [
     {
         "Product Name": "REXCOF BM PLUS SYP",
         "Pack": "100ML",
-        "Company Name": "CIPLA VISTA"
-    },
-    {
-        "Product Name": "REXCOF DX NF 100ML",
-        "Pack": "1X100ML",
-        "Company Name": "CIPLA VISTA"
-    },
-    {
-        "Product Name": "REXCOF DX NF 60ML",
-        "Pack": "1X60ML",
         "Company Name": "CIPLA VISTA"
     },
     {
@@ -16522,6 +16522,11 @@ const productData = [
     {
         "Product Name": "AQUALAB CALAMINE LOTION 110ML",
         "Pack": "110ML",
+        "Company Name": "LABORATE AQUA LAB"
+    },
+    {
+        "Product Name": "AQUALAB HAIR REMOVAL CREAM (ROSE) 25GM",
+        "Pack": "25GM",
         "Company Name": "LABORATE AQUA LAB"
     },
     {
@@ -28100,7 +28105,7 @@ const productData = [
         "Company Name": "SMART CURE WAY"
     },
     {
-        "Product Name": "KETOCOTIC CT CREAM 15GM",
+        "Product Name": "KETOCOTIC CT CREAM 15GM.",
         "Pack": "15GM",
         "Company Name": "SMART CURE WAY"
     },

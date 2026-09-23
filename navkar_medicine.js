@@ -37265,6 +37265,11 @@ const navkarMedicineData = [
         "Company Name": "ENTOD MEDEVA"
     },
     {
+        "Product Name": "ENTOSEPTIC GARGLE",
+        "Pack": "100ML",
+        "Company Name": "ENTOD MEDEVA"
+    },
+    {
         "Product Name": "EYECIRQUE ADVANCE UNDER EYE GEL SERUM",
         "Pack": "30GM",
         "Company Name": "ENTOD MEDEVA"
@@ -37392,6 +37397,11 @@ const navkarMedicineData = [
     {
         "Product Name": "TOFAMMUNE TAB",
         "Pack": "6'S",
+        "Company Name": "ENTOD MEDEVA"
+    },
+    {
+        "Product Name": "WAXONIL O EAR DROPS",
+        "Pack": "10ML",
         "Company Name": "ENTOD MEDEVA"
     },
     {
@@ -44730,6 +44740,11 @@ const navkarMedicineData = [
         "Company Name": "GENERICS"
     },
     {
+        "Product Name": "DENOCI 60 MG INJ",
+        "Pack": "1 PFS",
+        "Company Name": "GENERICS"
+    },
+    {
         "Product Name": "DERMIKEM OC PLUS CREAM",
         "Pack": "15GM",
         "Company Name": "GENERICS"
@@ -48167,11 +48182,6 @@ const navkarMedicineData = [
     {
         "Product Name": "BEPOZAL M TAB",
         "Pack": "10TAB",
-        "Company Name": "GLOWDERMA LAB PVT LTD"
-    },
-    {
-        "Product Name": "CETAPHIL CLEANSING SOLUTION 125 ML",
-        "Pack": "125 ML",
         "Company Name": "GLOWDERMA LAB PVT LTD"
     },
     {
@@ -53045,69 +53055,74 @@ const navkarMedicineData = [
         "Company Name": "HIMALAYA DRUG CO (ZEAL)"
     },
     {
+        "Product Name": "LIV 52 SYRUP",
+        "Pack": "100ML",
+        "Company Name": "HIMALAYA DRUG CO (ZEAL)"
+    },
+    {
         "Product Name": "LIV 52 TAB",
         "Pack": "100 TAB",
-        "Company Name": "LIV 52 SYRUP"
+        "Company Name": "HIMALAYA DRUG CO (ZEAL)"
     },
     {
         "Product Name": "ORO T ORAL MOUTH WASH",
         "Pack": "100ML",
-        "Company Name": "LIV 52 SYRUP"
+        "Company Name": "HIMALAYA DRUG CO (ZEAL)"
     },
     {
         "Product Name": "PILEX FORTE OINT",
         "Pack": "30GM",
-        "Company Name": "LIV 52 SYRUP"
+        "Company Name": "HIMALAYA DRUG CO (ZEAL)"
     },
     {
         "Product Name": "PILEX FORTE TAB",
         "Pack": "30TAB",
-        "Company Name": "LIV 52 SYRUP"
+        "Company Name": "HIMALAYA DRUG CO (ZEAL)"
     },
     {
         "Product Name": "PILEX TAB",
         "Pack": "60TAB",
-        "Company Name": "LIV 52 SYRUP"
+        "Company Name": "HIMALAYA DRUG CO (ZEAL)"
     },
     {
         "Product Name": "PURIM TAB",
         "Pack": "60 TAB",
-        "Company Name": "LIV 52 SYRUP"
+        "Company Name": "HIMALAYA DRUG CO (ZEAL)"
     },
     {
         "Product Name": "SHALLAKI TAB",
         "Pack": "60`S",
-        "Company Name": "LIV 52 SYRUP"
+        "Company Name": "HIMALAYA DRUG CO (ZEAL)"
     },
     {
         "Product Name": "TALEKT SYRUP 120 ML",
         "Pack": "120 ML",
-        "Company Name": "LIV 52 SYRUP"
+        "Company Name": "HIMALAYA DRUG CO (ZEAL)"
     },
     {
         "Product Name": "TALEKT TAB",
         "Pack": "60 TAB",
-        "Company Name": "LIV 52 SYRUP"
+        "Company Name": "HIMALAYA DRUG CO (ZEAL)"
     },
     {
         "Product Name": "TENTEX FORTE TAB",
         "Pack": "10 TAB",
-        "Company Name": "LIV 52 SYRUP"
+        "Company Name": "HIMALAYA DRUG CO (ZEAL)"
     },
     {
         "Product Name": "TRIPHALA SYP",
         "Pack": "200ML",
-        "Company Name": "LIV 52 SYRUP"
+        "Company Name": "HIMALAYA DRUG CO (ZEAL)"
     },
     {
         "Product Name": "TRIPHALA TAB",
         "Pack": "60`S",
-        "Company Name": "LIV 52 SYRUP"
+        "Company Name": "HIMALAYA DRUG CO (ZEAL)"
     },
     {
         "Product Name": "VEGECORT CREAM",
         "Pack": "30 GM",
-        "Company Name": "LIV 52 SYRUP"
+        "Company Name": "HIMALAYA DRUG CO (ZEAL)"
     },
     {
         "Product Name": "ASHVAGANDHA CAP [HIMALYA]",
@@ -76855,16 +76870,6 @@ const navkarMedicineData = [
         "Company Name": "LUPIN PINNACLE CV"
     },
     {
-        "Product Name": "PLANEP T-10 COMBIKIT",
-        "Pack": "20 TAB",
-        "Company Name": "LUPIN PINNACLE CV"
-    },
-    {
-        "Product Name": "PLANEP T-20 COMBIKIT",
-        "Pack": "20TAB",
-        "Company Name": "LUPIN PINNACLE CV"
-    },
-    {
         "Product Name": "RAMISTAR 1.25 TAB",
         "Pack": "15TAB",
         "Company Name": "LUPIN PINNACLE CV"
@@ -83455,6 +83460,11 @@ const navkarMedicineData = [
         "Company Name": "MANKIND PHARMA (GRAVITAS)"
     },
     {
+        "Product Name": "D3 MUST SYS",
+        "Pack": "100ML",
+        "Company Name": "MANKIND PHARMA (GRAVITAS)"
+    },
+    {
         "Product Name": "GLIMESTAR MV 1 TAB",
         "Pack": "15 TAB",
         "Company Name": "MANKIND PHARMA (GRAVITAS)"
@@ -83742,6 +83752,11 @@ const navkarMedicineData = [
     {
         "Product Name": "ASTHAKIND CQ PASTILLES",
         "Pack": "10PAS",
+        "Company Name": "MANKIND PHARMA (LIFE MANKIND )"
+    },
+    {
+        "Product Name": "ASTHAKIND DX COUGH LOZENGES",
+        "Pack": "6 LOZE",
         "Company Name": "MANKIND PHARMA (LIFE MANKIND )"
     },
     {
@@ -92880,7 +92895,17 @@ const navkarMedicineData = [
         "Company Name": "MOREPEN RX LIMITED"
     },
     {
+        "Product Name": "ALLERIPEN B TAB",
+        "Pack": "10'S",
+        "Company Name": "MOREPEN RX LIMITED"
+    },
+    {
         "Product Name": "ALLERIPEN L KID",
+        "Pack": "10TAB",
+        "Company Name": "MOREPEN RX LIMITED"
+    },
+    {
+        "Product Name": "ALLERIPEN L TAB",
         "Pack": "10TAB",
         "Company Name": "MOREPEN RX LIMITED"
     },
@@ -92980,6 +93005,11 @@ const navkarMedicineData = [
         "Company Name": "MOREPEN RX LIMITED"
     },
     {
+        "Product Name": "LYCOMORE SYRUP",
+        "Pack": "200ML",
+        "Company Name": "MOREPEN RX LIMITED"
+    },
+    {
         "Product Name": "MECOMORE OD TAB",
         "Pack": "10TAB",
         "Company Name": "MOREPEN RX LIMITED"
@@ -92990,8 +93020,18 @@ const navkarMedicineData = [
         "Company Name": "MOREPEN RX LIMITED"
     },
     {
+        "Product Name": "RYTHIMIX KID SYRUP",
+        "Pack": "100ML",
+        "Company Name": "MOREPEN RX LIMITED"
+    },
+    {
         "Product Name": "RYTHMIX DHA DROP",
         "Pack": "ML",
+        "Company Name": "MOREPEN RX LIMITED"
+    },
+    {
+        "Product Name": "RYTHMIX KID DROPS",
+        "Pack": "15ML",
         "Company Name": "MOREPEN RX LIMITED"
     },
     {
@@ -99005,16 +99045,6 @@ const navkarMedicineData = [
         "Company Name": "PROCTER & GAMBLE HEALTH LTD."
     },
     {
-        "Product Name": "LIVOGEN CAPTABS 30(TABI)",
-        "Pack": "30 TAB",
-        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
-    },
-    {
-        "Product Name": "LIVOGEN IORN TONIC SYS",
-        "Pack": "200ML",
-        "Company Name": "PROCTER & GAMBLE HEALTH LTD."
-    },
-    {
         "Product Name": "NASIVION MINI  10ML",
         "Pack": "10ML",
         "Company Name": "PROCTER & GAMBLE HEALTH LTD."
@@ -99096,6 +99126,16 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "LIVOGEN ADULT SYP H",
+        "Pack": "200ML",
+        "Company Name": "PROCTER & GAMBLE HEALTH LTD.RX"
+    },
+    {
+        "Product Name": "LIVOGEN CAPTABS 30(TABI)",
+        "Pack": "30 TAB",
+        "Company Name": "PROCTER & GAMBLE HEALTH LTD.RX"
+    },
+    {
+        "Product Name": "LIVOGEN IORN TONIC SYS",
         "Pack": "200ML",
         "Company Name": "PROCTER & GAMBLE HEALTH LTD.RX"
     },
@@ -106282,6 +106322,11 @@ const navkarMedicineData = [
     {
         "Product Name": "BESVIL TRIO 100 30 CAPS",
         "Pack": "30 CAP",
+        "Company Name": "SUN PHARMA (RADIANT)"
+    },
+    {
+        "Product Name": "BESVIL TRIO 200 CAP",
+        "Pack": "30'S",
         "Company Name": "SUN PHARMA (RADIANT)"
     },
     {
@@ -119705,12 +119750,12 @@ const navkarMedicineData = [
         "Company Name": "VASU PHARMACEUTICALS PVT LTD (C MARK)"
     },
     {
-        "Product Name": "VILPIN 50 PACK OF 2",
+        "Product Name": "VILPIN [M] TAB",
         "Pack": "15 TAB",
         "Company Name": "VASU PHARMACEUTICALS PVT LTD (C MARK)"
     },
     {
-        "Product Name": "VILPIN M PACK OF 6",
+        "Product Name": "VILPIN 50 TAB",
         "Pack": "15 TAB",
         "Company Name": "VASU PHARMACEUTICALS PVT LTD (C MARK)"
     },
@@ -119766,7 +119811,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "JUAMET DM 1000 TAB",
-        "Pack": "TAB",
+        "Pack": "10 TAB",
         "Company Name": "VASU PHARMACEUTICALS PVT LTD (D MARK)"
     },
     {
@@ -119866,7 +119911,7 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "ROZUDOSE-ASP 10/75 CAP",
-        "Pack": "CAP",
+        "Pack": "10 CAP",
         "Company Name": "VASU PHARMACEUTICALS PVT LTD (D MARK)"
     },
     {
@@ -119906,12 +119951,12 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "VASUPRIDE VG1/0.3 TAB",
-        "Pack": "TAB",
+        "Pack": "10 TAB",
         "Company Name": "VASU PHARMACEUTICALS PVT LTD (D MARK)"
     },
     {
         "Product Name": "VASUPRIDE VG2 TAB",
-        "Pack": "TAB",
+        "Pack": "10 TAB",
         "Company Name": "VASU PHARMACEUTICALS PVT LTD (D MARK)"
     },
     {
@@ -122152,6 +122197,11 @@ const navkarMedicineData = [
     {
         "Product Name": "BETADINE STD MICRO SOLUTION",
         "Pack": "1000ML",
+        "Company Name": "WIN MEDICARE (ANTISEPTIC)"
+    },
+    {
+        "Product Name": "BETADINE THROAT SPRAY",
+        "Pack": "20ML",
         "Company Name": "WIN MEDICARE (ANTISEPTIC)"
     },
     {
@@ -126617,6 +126667,11 @@ const navkarMedicineData = [
     {
         "Product Name": "LOSACAR 50MG TAB",
         "Pack": "TAB",
+        "Company Name": "ZYDUS PHARMA (MEDICA)"
+    },
+    {
+        "Product Name": "SEMAGLYN INJ",
+        "Pack": "1ML",
         "Company Name": "ZYDUS PHARMA (MEDICA)"
     },
     {
