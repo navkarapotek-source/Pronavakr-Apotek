@@ -3345,6 +3345,11 @@ const navkarMedicineData = [
         "Company Name": "AJANTA PHARMA (ANSCA)"
     },
     {
+        "Product Name": "NETALO L OPH SOLN",
+        "Pack": "2.5ML",
+        "Company Name": "AJANTA PHARMA (ANSCA)"
+    },
+    {
         "Product Name": "PANTHE GEL",
         "Pack": "5GM",
         "Company Name": "AJANTA PHARMA (ANSCA)"
@@ -20460,7 +20465,7 @@ const navkarMedicineData = [
         "Company Name": "CACHET PHARMMACEUTICALS LTD"
     },
     {
-        "Product Name": "CADBE TABLETS'10",
+        "Product Name": "CADBE TAB",
         "Pack": "15 TAB",
         "Company Name": "CACHET PHARMMACEUTICALS LTD"
     },
@@ -21110,6 +21115,26 @@ const navkarMedicineData = [
         "Company Name": "CAFOLI LIFECARE PVT LTD"
     },
     {
+        "Product Name": "FLUTOFIX 30 CAP",
+        "Pack": "10CAP",
+        "Company Name": "CAFOLI LIFECARE PVT LTD"
+    },
+    {
+        "Product Name": "FLUTOFIX 75MG CAP",
+        "Pack": "10CAP",
+        "Company Name": "CAFOLI LIFECARE PVT LTD"
+    },
+    {
+        "Product Name": "FLUTOFIX DRY SYP",
+        "Pack": "75ML",
+        "Company Name": "CAFOLI LIFECARE PVT LTD"
+    },
+    {
+        "Product Name": "FLUTOFIX JUNIOR DRY SYP",
+        "Pack": "30ML",
+        "Company Name": "CAFOLI LIFECARE PVT LTD"
+    },
+    {
         "Product Name": "ITALOM SB 130 TAB",
         "Pack": "10TAB",
         "Company Name": "CAFOLI LIFECARE PVT LTD"
@@ -21130,13 +21155,18 @@ const navkarMedicineData = [
         "Company Name": "CAFOLI LIFECARE PVT LTD"
     },
     {
+        "Product Name": "MUCOBAT TAB",
+        "Pack": "10TAB",
+        "Company Name": "CAFOLI LIFECARE PVT LTD"
+    },
+    {
         "Product Name": "TERBISVISS 250 TAB",
         "Pack": "10TAB",
         "Company Name": "CAFOLI LIFECARE PVT LTD"
     },
     {
-        "Product Name": "WAVEFLU 75 TAB",
-        "Pack": "10TAB",
+        "Product Name": "WAVEFLU 75 CAP",
+        "Pack": "10CAP",
         "Company Name": "CAFOLI LIFECARE PVT LTD"
     },
     {
@@ -29530,7 +29560,7 @@ const navkarMedicineData = [
         "Company Name": "CURATIO HEALTH CARE (SANORA)"
     },
     {
-        "Product Name": "ZYNDET BAR 3",
+        "Product Name": "ZYNDET BAR SOAP",
         "Pack": "125 GM",
         "Company Name": "CURATIO HEALTH CARE (SANORA)"
     },
@@ -34460,7 +34490,7 @@ const navkarMedicineData = [
         "Company Name": "ELEMENT PHARMA PVT LTD"
     },
     {
-        "Product Name": "LILICAL TAB3",
+        "Product Name": "LILICAL TAB",
         "Pack": "15 TAB",
         "Company Name": "ELEMENT PHARMA PVT LTD"
     },
@@ -51155,13 +51185,13 @@ const navkarMedicineData = [
         "Company Name": "HETERO BLISS"
     },
     {
-        "Product Name": "LYCEFT PLUS 1.5 GM INJ",
-        "Pack": "1.5 GM",
+        "Product Name": "LYCEFT PLUS 1.5 INJ",
+        "Pack": "1 VAIL",
         "Company Name": "HETERO BLISS"
     },
     {
-        "Product Name": "LYCEFT PLUS 375 MG INJ",
-        "Pack": "INJ",
+        "Product Name": "LYCEFT PLUS 375MG INJ",
+        "Pack": "1 VAIL",
         "Company Name": "HETERO BLISS"
     },
     {
@@ -51765,18 +51795,18 @@ const navkarMedicineData = [
         "Company Name": "HETERO HEALTHCARE LTD (KRIS)"
     },
     {
-        "Product Name": "LYCEFT  250 MG INJ",
-        "Pack": "VIAL",
+        "Product Name": "LYCEFT 1GM INJ",
+        "Pack": "1 VAIL",
         "Company Name": "HETERO HEALTHCARE LTD (KRIS)"
     },
     {
-        "Product Name": "LYCEFT 1 GM",
-        "Pack": "VAIL",
+        "Product Name": "LYCEFT 250MG INJ",
+        "Pack": "1 VAIL",
         "Company Name": "HETERO HEALTHCARE LTD (KRIS)"
     },
     {
-        "Product Name": "LYCEFT 500 MG ING",
-        "Pack": "VAIL",
+        "Product Name": "LYCEFT 500MG INJ",
+        "Pack": "1 VAIL",
         "Company Name": "HETERO HEALTHCARE LTD (KRIS)"
     },
     {
@@ -54085,11 +54115,6 @@ const navkarMedicineData = [
         "Company Name": "ICON LIFE SCIENCES ITTRIA"
     },
     {
-        "Product Name": "COSATUS SYS",
-        "Pack": "ML",
-        "Company Name": "ICON LIFE SCIENCES ITTRIA"
-    },
-    {
         "Product Name": "DESFAX ER 100MG",
         "Pack": "TAB",
         "Company Name": "ICON LIFE SCIENCES ITTRIA"
@@ -54257,6 +54282,11 @@ const navkarMedicineData = [
     {
         "Product Name": "COOLORA SPRAY 25ML",
         "Pack": "25ML",
+        "Company Name": "ICPA  LABORATORIES LIMITED"
+    },
+    {
+        "Product Name": "COSATUS SYS",
+        "Pack": "ML",
         "Company Name": "ICPA  LABORATORIES LIMITED"
     },
     {
@@ -55252,11 +55282,6 @@ const navkarMedicineData = [
     {
         "Product Name": "DENTOGEL LIQUID 20GM",
         "Pack": "20GM",
-        "Company Name": "INDOCO REMEDIES (WARREN ACE )"
-    },
-    {
-        "Product Name": "RENOLEN EYE DROPS",
-        "Pack": "10ML",
         "Company Name": "INDOCO REMEDIES (WARREN ACE )"
     },
     {
@@ -58725,7 +58750,7 @@ const navkarMedicineData = [
         "Company Name": "INTAS PHARMACEUTICALS (AYOKKA)"
     },
     {
-        "Product Name": "TOFATAS",
+        "Product Name": "TOFATAS OINT",
         "Pack": "15GM",
         "Company Name": "INTAS PHARMACEUTICALS (AYOKKA)"
     },
@@ -63425,7 +63450,7 @@ const navkarMedicineData = [
         "Company Name": "IPCA LABORATORIES (PHARMANEXT)"
     },
     {
-        "Product Name": "SOLVIN COLD AF SYR",
+        "Product Name": "SOLVIN COLD AF SYR.",
         "Pack": "60 ML",
         "Company Name": "IPCA LABORATORIES (PHARMANEXT)"
     },
@@ -69405,6 +69430,11 @@ const navkarMedicineData = [
         "Company Name": "LA RENON HELATHACRE LAUREL"
     },
     {
+        "Product Name": "TELMODOR C 40/6.25",
+        "Pack": "10 TAB",
+        "Company Name": "LA RENON HELATHACRE LAUREL"
+    },
+    {
         "Product Name": "TELMODOR M 40/25 TAB",
         "Pack": "10 TAB",
         "Company Name": "LA RENON HELATHACRE LAUREL"
@@ -72840,8 +72870,8 @@ const navkarMedicineData = [
         "Company Name": "LLOYD HELATHCARE PORUS"
     },
     {
-        "Product Name": "TELZOX AM TABC",
-        "Pack": "TAB",
+        "Product Name": "TELZOX AM TAB",
+        "Pack": "15TAB",
         "Company Name": "LLOYD HELATHCARE PORUS"
     },
     {
@@ -78945,11 +78975,6 @@ const navkarMedicineData = [
         "Company Name": "MACLEODS (PHARMA)"
     },
     {
-        "Product Name": "SEMMAC INJ 4MG/3ML",
-        "Pack": "3ML",
-        "Company Name": "MACLEODS (PHARMA)"
-    },
-    {
         "Product Name": "SENSICLAV 1.2 INJ",
         "Pack": "VIAL",
         "Company Name": "MACLEODS (PHARMA)"
@@ -81092,6 +81117,11 @@ const navkarMedicineData = [
     {
         "Product Name": "PTU 50MG TAB",
         "Pack": "100`S",
+        "Company Name": "MACLEODS PROCARE HD"
+    },
+    {
+        "Product Name": "SEMAMAC INJ 4MG/3ML",
+        "Pack": "3ML",
         "Company Name": "MACLEODS PROCARE HD"
     },
     {
@@ -83460,7 +83490,7 @@ const navkarMedicineData = [
         "Company Name": "MANKIND PHARMA (GRAVITAS)"
     },
     {
-        "Product Name": "D3 MUST SYS",
+        "Product Name": "D3 MUST SYRUP",
         "Pack": "100ML",
         "Company Name": "MANKIND PHARMA (GRAVITAS)"
     },
@@ -83502,6 +83532,11 @@ const navkarMedicineData = [
     {
         "Product Name": "LIZOFORCE DRY SYP",
         "Pack": "30ML",
+        "Company Name": "MANKIND PHARMA (GRAVITAS)"
+    },
+    {
+        "Product Name": "MAHAGABA D 50/20 CAP",
+        "Pack": "10CAP",
         "Company Name": "MANKIND PHARMA (GRAVITAS)"
     },
     {
@@ -105135,11 +105170,6 @@ const navkarMedicineData = [
         "Company Name": "SPRENZA HEALTHCARE PRIVATE LIMITED"
     },
     {
-        "Product Name": "UFOCIUM TAB",
-        "Pack": "10TAB",
-        "Company Name": "SPRENZA HEALTHCARE PRIVATE LIMITED"
-    },
-    {
         "Product Name": "UFOCUF DX SYRUP",
         "Pack": "100ML",
         "Company Name": "SPRENZA HEALTHCARE PRIVATE LIMITED"
@@ -110340,6 +110370,11 @@ const navkarMedicineData = [
         "Company Name": "SUNWAYS INDIA PVT LTD."
     },
     {
+        "Product Name": "RENOLEN EYE DROPS",
+        "Pack": "10ML",
+        "Company Name": "SUNWAYS INDIA PVT LTD."
+    },
+    {
         "Product Name": "T PLUS ULTRA",
         "Pack": "1*2MLING",
         "Company Name": "SUNWAYS INDIA PVT LTD."
@@ -113097,6 +113132,31 @@ const navkarMedicineData = [
     {
         "Product Name": "SEMALIX 8MG/3ML INJ",
         "Pack": "VIAL",
+        "Company Name": "TORRENT PHARMA (AZUCA)"
+    },
+    {
+        "Product Name": "SEMALIX XL 0.25MG INJ",
+        "Pack": "1VIAL",
+        "Company Name": "TORRENT PHARMA (AZUCA)"
+    },
+    {
+        "Product Name": "SEMALIX XL 0.5MG INJ",
+        "Pack": "1INJ",
+        "Company Name": "TORRENT PHARMA (AZUCA)"
+    },
+    {
+        "Product Name": "SEMALIX XL 1.7MG INJ",
+        "Pack": "1VIAL",
+        "Company Name": "TORRENT PHARMA (AZUCA)"
+    },
+    {
+        "Product Name": "SEMALIX XL 1MG INJ",
+        "Pack": "1INJ",
+        "Company Name": "TORRENT PHARMA (AZUCA)"
+    },
+    {
+        "Product Name": "SEMALIX XL 2.4MG INJ",
+        "Pack": "1VIAL",
         "Company Name": "TORRENT PHARMA (AZUCA)"
     },
     {
@@ -117245,31 +117305,6 @@ const navkarMedicineData = [
         "Company Name": "TORRENT PHARMACEUTICALS LTD"
     },
     {
-        "Product Name": "SEMALIX XL 0.25MG INJ",
-        "Pack": "1VIAL",
-        "Company Name": "TORRENT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "SEMALIX XL 0.5MG INJ",
-        "Pack": "1INJ",
-        "Company Name": "TORRENT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "SEMALIX XL 1.7MG INJ",
-        "Pack": "1VIAL",
-        "Company Name": "TORRENT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "SEMALIX XL 1MG INJ",
-        "Pack": "1INJ",
-        "Company Name": "TORRENT PHARMACEUTICALS LTD"
-    },
-    {
-        "Product Name": "SEMALIX XL 2.4MG INJ",
-        "Pack": "1VIAL",
-        "Company Name": "TORRENT PHARMACEUTICALS LTD"
-    },
-    {
         "Product Name": "SITAXA GM IR 50/1/1000 TAB",
         "Pack": "TAB",
         "Company Name": "TORRENT PHARMACEUTICALS LTD"
@@ -117415,13 +117450,13 @@ const navkarMedicineData = [
         "Company Name": "TORRENT PHARMACEUTICALS LTD"
     },
     {
-        "Product Name": "UNIENZYME MPS TAB",
+        "Product Name": "UNIENZYME [XT] TAB",
         "Pack": "15 TAB",
         "Company Name": "TORRENT PHARMACEUTICALS LTD"
     },
     {
-        "Product Name": "UNIENZYME XT 15 TAB",
-        "Pack": "TAB",
+        "Product Name": "UNIENZYME MPS TAB",
+        "Pack": "15 TAB",
         "Company Name": "TORRENT PHARMACEUTICALS LTD"
     },
     {
@@ -120590,6 +120625,16 @@ const navkarMedicineData = [
         "Company Name": "VERITAZ HEALTH CARE LTD ( AUROBINDO PHARMA LTD)"
     },
     {
+        "Product Name": "ACARVERSE 50 TAB",
+        "Pack": "10TAB",
+        "Company Name": "VERSE LIFESCIENCES"
+    },
+    {
+        "Product Name": "ACARVERSE M 25 TAB",
+        "Pack": "10TAB",
+        "Company Name": "VERSE LIFESCIENCES"
+    },
+    {
         "Product Name": "APIXAHEART 2.5 TAB",
         "Pack": "10TAB",
         "Company Name": "VERSE LIFESCIENCES"
@@ -120605,6 +120650,16 @@ const navkarMedicineData = [
         "Company Name": "VERSE LIFESCIENCES"
     },
     {
+        "Product Name": "EMPAVERSE L 25/5 TAB",
+        "Pack": "10TAB",
+        "Company Name": "VERSE LIFESCIENCES"
+    },
+    {
+        "Product Name": "EMPAVERSE SM 25/100/1000 TAB",
+        "Pack": "10TAB",
+        "Company Name": "VERSE LIFESCIENCES"
+    },
+    {
         "Product Name": "GEMIDIPINE 10 TAB",
         "Pack": "15TAB",
         "Company Name": "VERSE LIFESCIENCES"
@@ -120612,6 +120667,11 @@ const navkarMedicineData = [
     {
         "Product Name": "GEMIDIPINE 20 TAB",
         "Pack": "15TAB",
+        "Company Name": "VERSE LIFESCIENCES"
+    },
+    {
+        "Product Name": "GEMIDIPINE TCH 12.5 TAB",
+        "Pack": "10TAB",
         "Company Name": "VERSE LIFESCIENCES"
     },
     {
@@ -120635,8 +120695,28 @@ const navkarMedicineData = [
         "Company Name": "VERSE LIFESCIENCES"
     },
     {
+        "Product Name": "GEMISARTAN R 10 TAB",
+        "Pack": "15TAB",
+        "Company Name": "VERSE LIFESCIENCES"
+    },
+    {
         "Product Name": "GTN HEART 2.6 (30CAP)",
         "Pack": "30CAP",
+        "Company Name": "VERSE LIFESCIENCES"
+    },
+    {
+        "Product Name": "HUMIGLIM M1 SITA 500/50 TAB",
+        "Pack": "10TAB",
+        "Company Name": "VERSE LIFESCIENCES"
+    },
+    {
+        "Product Name": "HUMIGLIM M1 TAB",
+        "Pack": "15TAB",
+        "Company Name": "VERSE LIFESCIENCES"
+    },
+    {
+        "Product Name": "HUMIGLIM M2 TAB",
+        "Pack": "15TAB",
         "Company Name": "VERSE LIFESCIENCES"
     },
     {
@@ -120670,6 +120750,11 @@ const navkarMedicineData = [
         "Company Name": "VERSE LIFESCIENCES"
     },
     {
+        "Product Name": "KETONUWA DS TAB",
+        "Pack": "10TAB",
+        "Company Name": "VERSE LIFESCIENCES"
+    },
+    {
         "Product Name": "LOBEVERSE 0.5 TAB",
         "Pack": "15TAB",
         "Company Name": "VERSE LIFESCIENCES"
@@ -120681,6 +120766,31 @@ const navkarMedicineData = [
     },
     {
         "Product Name": "NEXACOBAL GOLD 10 TAB",
+        "Pack": "15TAB",
+        "Company Name": "VERSE LIFESCIENCES"
+    },
+    {
+        "Product Name": "NEXACOBAL LC TAB",
+        "Pack": "10TAB",
+        "Company Name": "VERSE LIFESCIENCES"
+    },
+    {
+        "Product Name": "NEXACOBAL NPG TAB",
+        "Pack": "10TAB",
+        "Company Name": "VERSE LIFESCIENCES"
+    },
+    {
+        "Product Name": "NEXACOBAL PG OD TAB",
+        "Pack": "10TAB",
+        "Company Name": "VERSE LIFESCIENCES"
+    },
+    {
+        "Product Name": "REPAVANCE 1 TAB",
+        "Pack": "15TAB",
+        "Company Name": "VERSE LIFESCIENCES"
+    },
+    {
+        "Product Name": "REPAVANCE 2 TAB",
         "Pack": "15TAB",
         "Company Name": "VERSE LIFESCIENCES"
     },
@@ -120705,7 +120815,17 @@ const navkarMedicineData = [
         "Company Name": "VERSE LIFESCIENCES"
     },
     {
+        "Product Name": "SITAVERSE M 100/1000 TAB",
+        "Pack": "15TAB",
+        "Company Name": "VERSE LIFESCIENCES"
+    },
+    {
         "Product Name": "SITAVERSE M 100TAB",
+        "Pack": "15TAB",
+        "Company Name": "VERSE LIFESCIENCES"
+    },
+    {
+        "Product Name": "SITAVERSE M 50 TAB",
         "Pack": "15TAB",
         "Company Name": "VERSE LIFESCIENCES"
     },
@@ -126747,6 +126867,11 @@ const navkarMedicineData = [
     {
         "Product Name": "GRD GOLD CHOCO POWDER",
         "Pack": "200 GM",
+        "Company Name": "ZYDUS PHARMA (NUTRIVA)MAHAVIR"
+    },
+    {
+        "Product Name": "GRD LITE (SUGAR FREE)BIX",
+        "Pack": "250GM",
         "Company Name": "ZYDUS PHARMA (NUTRIVA)MAHAVIR"
     },
     {

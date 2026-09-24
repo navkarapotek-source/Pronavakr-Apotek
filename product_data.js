@@ -420,6 +420,11 @@ const productData = [
         "Company Name": "AJANTA PHARMA LTD"
     },
     {
+        "Product Name": "APLINT 5MG TAB",
+        "Pack": "10TAB",
+        "Company Name": "AJANTA PHARMA LTD"
+    },
+    {
         "Product Name": "BESIFLAM SUSP",
         "Pack": "60ML",
         "Company Name": "AJANTA PHARMA LTD"
@@ -427,6 +432,11 @@ const productData = [
     {
         "Product Name": "BESIFLAM TABS (IBU+PARA)",
         "Pack": "1X15T",
+        "Company Name": "AJANTA PHARMA LTD"
+    },
+    {
+        "Product Name": "BILATOP 40 TAB",
+        "Pack": "10TAB",
         "Company Name": "AJANTA PHARMA LTD"
     },
     {
@@ -4580,6 +4590,11 @@ const productData = [
         "Company Name": "CARE"
     },
     {
+        "Product Name": "MOXIYAST T DROPS",
+        "Pack": "5ML",
+        "Company Name": "CARE"
+    },
+    {
         "Product Name": "MOXIYST-LP EYE DROP",
         "Pack": "1X5ML",
         "Company Name": "CARE"
@@ -7500,6 +7515,11 @@ const productData = [
         "Company Name": "ELDER PHARMACEUTICALS LTD"
     },
     {
+        "Product Name": "CLININOVA 10 TAB",
+        "Pack": "10TAB",
+        "Company Name": "ELDER PHARMACEUTICALS LTD"
+    },
+    {
         "Product Name": "CLOPIZEN 75 TABS",
         "Pack": "1X10T",
         "Company Name": "ELDER PHARMACEUTICALS LTD"
@@ -7882,6 +7902,11 @@ const productData = [
     {
         "Product Name": "SILODOZEN-8D CAP",
         "Pack": "10CAP",
+        "Company Name": "ELDER PHARMACEUTICALS LTD"
+    },
+    {
+        "Product Name": "SNEHCAL 500 TAB",
+        "Pack": "15TAB",
         "Company Name": "ELDER PHARMACEUTICALS LTD"
     },
     {
@@ -12887,6 +12912,11 @@ const productData = [
     {
         "Product Name": "PAINHEAL ULTRA SPRAY",
         "Pack": "55GM",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "PANCREZYME HP 25000 TAB",
+        "Pack": "10TAB",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -24705,6 +24735,11 @@ const productData = [
         "Company Name": "OMEGA BIOTECH"
     },
     {
+        "Product Name": "BP MONITOR HEM-7090 OMRON",
+        "Pack": "PC",
+        "Company Name": "OMRON"
+    },
+    {
         "Product Name": "BORAX GLYCERIN",
         "Pack": "100ML",
         "Company Name": "OSWAL CHEMICALS"
@@ -27308,6 +27343,11 @@ const productData = [
         "Product Name": "VIRAM SR-100 TAB",
         "Pack": "10 TAB",
         "Company Name": "SAINT MICHAEL BIOTECH"
+    },
+    {
+        "Product Name": "ACECLOSAM P TAB",
+        "Pack": "10TAB",
+        "Company Name": "SAM NOVA"
     },
     {
         "Product Name": "SAMVOL PLUS CAP",
