@@ -3250,6 +3250,11 @@ const otcData = [
         "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
     },
     {
+        "Product Name": "KOFLET H HOT DRINK GINGER",
+        "Pack": "10 SACHET",
+        "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
+    },
+    {
         "Product Name": "KOFLET LOZENGES (160+40)",
         "Pack": "JAR",
         "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
@@ -4776,6 +4781,11 @@ const otcData = [
     },
     {
         "Product Name": "CURE ON OIL [60ML]",
+        "Pack": "60ML",
+        "Company Name": "PITAMBARI PRODUCTS PVT. LTD."
+    },
+    {
+        "Product Name": "CURE ON PLUS ROLL ON",
         "Pack": "60ML",
         "Company Name": "PITAMBARI PRODUCTS PVT. LTD."
     },
@@ -6915,8 +6925,8 @@ const otcData = [
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
     {
-        "Product Name": "M POKO PANTS [L26] RS.299",
-        "Pack": "30PIS",
+        "Product Name": "M POKO PANTS [L26] RS.399",
+        "Pack": "26PCS",
         "Company Name": "UNICHARM INDIA PRIVATE LIMITED"
     },
     {

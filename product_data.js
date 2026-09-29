@@ -6125,8 +6125,18 @@ const productData = [
         "Company Name": "CIPLA VISTA"
     },
     {
+        "Product Name": "MONTECIP FX TAB",
+        "Pack": "10TAV",
+        "Company Name": "CIPLA VISTA"
+    },
+    {
         "Product Name": "MONTECIP LC TABS",
         "Pack": "1X10TAB",
+        "Company Name": "CIPLA VISTA"
+    },
+    {
+        "Product Name": "MONTECIP-BL TAB",
+        "Pack": "10TAB",
         "Company Name": "CIPLA VISTA"
     },
     {
@@ -6202,6 +6212,11 @@ const productData = [
     {
         "Product Name": "SUHAGRA DOTTED STRAW 3PC",
         "Pack": "3PC",
+        "Company Name": "CIPLA VISTA"
+    },
+    {
+        "Product Name": "SUHAGRA DURALONG",
+        "Pack": "20GM",
         "Company Name": "CIPLA VISTA"
     },
     {
@@ -7905,7 +7920,7 @@ const productData = [
         "Company Name": "ELDER PHARMACEUTICALS LTD"
     },
     {
-        "Product Name": "SNEHCAL 500 TAB",
+        "Product Name": "SNEHCAL 500 TAB FREE",
         "Pack": "15TAB",
         "Company Name": "ELDER PHARMACEUTICALS LTD"
     },
@@ -8237,6 +8252,11 @@ const productData = [
     {
         "Product Name": "OROFER SYRUP 150ML",
         "Pack": "1X150ML",
+        "Company Name": "EMCURE PHARMACEUTICALS"
+    },
+    {
+        "Product Name": "ORPAT HAND BLENDER",
+        "Pack": "PC",
         "Company Name": "EMCURE PHARMACEUTICALS"
     },
     {
@@ -10915,6 +10935,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "AZACAN 50 TAB",
+        "Pack": "10 TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "AZEETOP 100 DT TAB",
         "Pack": "1X10TAB",
         "Company Name": "HEALING PHARMA"
@@ -10992,6 +11017,11 @@ const productData = [
     {
         "Product Name": "BENZO 5% GEL",
         "Pack": "1X30GM",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "BENZO 5% SOAP",
+        "Pack": "75 GM",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -12420,6 +12450,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "INFECGYL 400 TAB",
+        "Pack": "20 TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "IPRAHEAL L RESPULES",
         "Pack": "1X5ML",
         "Company Name": "HEALING PHARMA"
@@ -12610,6 +12645,11 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
+        "Product Name": "MEBENZA 100 SYP",
+        "Pack": "30 ML",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
         "Product Name": "MEBENZA 100 TAB",
         "Pack": "5TAB",
         "Company Name": "HEALING PHARMA"
@@ -12717,6 +12757,11 @@ const productData = [
     {
         "Product Name": "MONTAHEAL AXL TAB",
         "Pack": "1X10TAB",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "MONTAHEAL LC KID TAB",
+        "Pack": "10 TAB",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -13175,7 +13220,7 @@ const productData = [
         "Company Name": "HEALING PHARMA"
     },
     {
-        "Product Name": "RIVASMART-20MG TABS",
+        "Product Name": "RIVASMART-20MG TAB",
         "Pack": "1X14T",
         "Company Name": "HEALING PHARMA"
     },
@@ -13307,6 +13352,11 @@ const productData = [
     {
         "Product Name": "SITASMART-M50/500 TABS",
         "Pack": "1X15T",
+        "Company Name": "HEALING PHARMA"
+    },
+    {
+        "Product Name": "SLIMTOP 120 CAP",
+        "Pack": "10 CAP",
         "Company Name": "HEALING PHARMA"
     },
     {
@@ -14095,11 +14145,6 @@ const productData = [
         "Company Name": "HETERO HEALTHCARE LIMITED"
     },
     {
-        "Product Name": "KOFLET H HOT DRINK GINGER",
-        "Pack": "10 SACHET",
-        "Company Name": "HIMALAYA DRUG CO (ZINDEL)"
-    },
-    {
         "Product Name": "CATHY 18 NO",
         "Pack": "PIECE",
         "Company Name": "HINDUSTAN MEDICAL DEVICES"
@@ -14315,39 +14360,49 @@ const productData = [
         "Company Name": "IKON REMEDIES PVT.LTD."
     },
     {
+        "Product Name": "ALCONOL TAB",
+        "Pack": "1X4TAB",
+        "Company Name": "IND SWIFT LTD(MEGACARE)"
+    },
+    {
+        "Product Name": "D5 250ML (CAP)",
+        "Pack": "250ML",
+        "Company Name": "INDBEST HEALTHCARE PRIVATE LIMITED"
+    },
+    {
         "Product Name": "DNS 250ML (CAP)",
         "Pack": "250ML",
-        "Company Name": "IND"
+        "Company Name": "INDBEST HEALTHCARE PRIVATE LIMITED"
+    },
+    {
+        "Product Name": "DNS 500ML (CAP)",
+        "Pack": "500ML",
+        "Company Name": "INDBEST HEALTHCARE PRIVATE LIMITED"
     },
     {
         "Product Name": "NS 100ML (CAP)",
         "Pack": "100ML",
-        "Company Name": "IND"
+        "Company Name": "INDBEST HEALTHCARE PRIVATE LIMITED"
     },
     {
         "Product Name": "NS 250ML (CAP)",
         "Pack": "250ML",
-        "Company Name": "IND"
+        "Company Name": "INDBEST HEALTHCARE PRIVATE LIMITED"
     },
     {
         "Product Name": "NS 500ML (CAP)",
         "Pack": "500ML",
-        "Company Name": "IND"
+        "Company Name": "INDBEST HEALTHCARE PRIVATE LIMITED"
     },
     {
         "Product Name": "RL 250ML (CAP)",
         "Pack": "250ML",
-        "Company Name": "IND"
+        "Company Name": "INDBEST HEALTHCARE PRIVATE LIMITED"
     },
     {
         "Product Name": "RL 500ML (CAP)",
         "Pack": "500ML",
-        "Company Name": "IND"
-    },
-    {
-        "Product Name": "ALCONOL TAB",
-        "Pack": "1X4TAB",
-        "Company Name": "IND SWIFT LTD(MEGACARE)"
+        "Company Name": "INDBEST HEALTHCARE PRIVATE LIMITED"
     },
     {
         "Product Name": "ABZ SUSPENSION",
@@ -21780,11 +21835,6 @@ const productData = [
         "Company Name": "MANKIND PHARMA (HEALTHCARE)"
     },
     {
-        "Product Name": "NIMEKIND PLUS GOLD TAB",
-        "Pack": "10TAB",
-        "Company Name": "MANKIND PHARMA (SPECIAL)"
-    },
-    {
         "Product Name": "BRUTACROSS  200 TAB",
         "Pack": "1X10TAB",
         "Company Name": "MANKIND PHARMA LTD.(PRIME)"
@@ -21887,6 +21937,11 @@ const productData = [
     {
         "Product Name": "MANKINDS PROTEIN PWD CHOC 200 GM",
         "Pack": "200 GM",
+        "Company Name": "MANKIND PHARMA LTD.(PRIME)"
+    },
+    {
+        "Product Name": "NIMEKIND PLUS GOLD TAB",
+        "Pack": "10TAB",
         "Company Name": "MANKIND PHARMA LTD.(PRIME)"
     },
     {
@@ -32135,7 +32190,7 @@ const productData = [
         "Company Name": "PROTIFRESH ADVANCE POWDER"
     },
     {
-        "Product Name": "RESPITHIK LS DROP",
+        "Product Name": "RESPITHIK LS JR DROP",
         "Pack": "15ML",
         "Company Name": "PROTIFRESH ADVANCE POWDER"
     },
@@ -34395,6 +34450,16 @@ const productData = [
         "Company Name": "TANAY"
     },
     {
+        "Product Name": "METRO 100ML (TARA)",
+        "Pack": "100ML",
+        "Company Name": "TARA BIOSCIENCES PRIVATE LIMITED"
+    },
+    {
+        "Product Name": "NS 100ML (TARA)",
+        "Pack": "100ML",
+        "Company Name": "TARA BIOSCIENCES PRIVATE LIMITED"
+    },
+    {
         "Product Name": "ACNETOP SOAP",
         "Pack": "75GM",
         "Company Name": "TARUN PHARMACUTICAL"
@@ -34572,6 +34637,11 @@ const productData = [
     {
         "Product Name": "UNLOCK-RD ZOXX CONDOM",
         "Pack": "1X10PCS",
+        "Company Name": "TARUN PHARMACUTICAL"
+    },
+    {
+        "Product Name": "VINRAL-Z (AAMPANA) 500ML",
+        "Pack": "500ML",
         "Company Name": "TARUN PHARMACUTICAL"
     },
     {

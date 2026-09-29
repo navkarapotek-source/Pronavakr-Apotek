@@ -405,6 +405,21 @@ const navkarColdchainData = [
         "Company Name": "INSUGEN R 40IU INJ 10ML"
     },
     {
+        "Product Name": "SUNDAE PRO 0.25 INJ",
+        "Pack": "1'S",
+        "Company Name": "INSUGEN R 40IU INJ 10ML"
+    },
+    {
+        "Product Name": "SUNDAE PRO 0.5 INJ",
+        "Pack": "1'S",
+        "Company Name": "INSUGEN R 40IU INJ 10ML"
+    },
+    {
+        "Product Name": "SUNDAE PRO 2.4 INJ",
+        "Pack": "1VIAL",
+        "Company Name": "INSUGEN R 40IU INJ 10ML"
+    },
+    {
         "Product Name": "SUNDAE VIAL 2MG/1.5ML",
         "Pack": "1.5ML",
         "Company Name": "INSUGEN R 40IU INJ 10ML"
@@ -1502,6 +1517,11 @@ const navkarColdchainData = [
     {
         "Product Name": "SEMALIX 4MG/3ML INJ",
         "Pack": "INJ",
+        "Company Name": "TORRENT PHARMA (AZUCA)"
+    },
+    {
+        "Product Name": "SEMALIX XL 0.5MG INJ",
+        "Pack": "1INJ",
         "Company Name": "TORRENT PHARMA (AZUCA)"
     },
     {
