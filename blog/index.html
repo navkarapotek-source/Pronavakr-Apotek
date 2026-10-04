@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Blog - Navkar Apotek LLP | एका स्वप्नाचा, संघर्षाचा आणि विश्वासाचा प्रवास</title>
+<meta name="description" content="Navkar Apotek LLP - एका स्वप्नाचा, संघर्षाचा आणि विश्वासाचा प्रवास. 5 ऑक्टोबर 2022 ते 5 ऑक्टोबर 2026 - 4 वर्षांचा यशस्वी प्रवास." />
+<link rel="icon" type="image/png" href="../favicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --navy: #1A9E8F;
+    --navy-mid: #148074;
+    --teal: #1A9E8F;
+    --teal-light: #d2f0ec;
+    --cream: #f7f3ee;
+    --warm-white: #fefcf9;
+    --text: #1a1a1a;
+    --muted: #6b7280;
+    --border: #e5ddd3;
+    --accent: #F5C125;
+  }
+  html { overflow-x: hidden; scroll-behavior: smooth; }
+  body {
+    font-family: 'DM Sans', 'Noto Sans Devanagari', sans-serif;
+    background: var(--warm-white);
+    color: var(--text);
+    line-height: 1.6;
+    overflow-x: hidden;
+    width: 100%; max-width: 100%;
+    word-wrap: break-word;
+    position: relative;
+  }
+  nav {
+    position: sticky; top: 0; z-index: 100;
+    background: #ffffff;
+    padding: 0 2rem;
+    display: flex; align-items: center;
+    height: 64px;
+    border-bottom: 2px solid var(--accent);
+    gap: 1rem;
+  }
+  .nav-brand { display: flex; flex-direction: column; }
+  .nav-brand span:first-child {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px; font-weight: 600; color: #1A9E96;
+    line-height: 1.2;
+  }
+  .nav-brand span:last-child {
+    font-size: 10px; color: #F5C518; text-transform: uppercase;
+    line-height: 1.2;
+  }
+  .nav-links { display: flex; gap: 2rem; list-style: none; margin-left: auto; }
+  .nav-links a {
+    font-size: 13px; color: #373c44; text-decoration: none;
+    letter-spacing: 0.04em; text-transform: uppercase;
+    transition: color 0.2s; line-height: 1.3;
+  }
+  .nav-links a:hover { color: #000; }
+  .nav-links a.active { color: #000; font-weight: 600; }
+  .nav-actions { display: flex; align-items: center; gap: 12px; }
+  .login-btn {
+    padding: 8px 20px; background: var(--accent); color: #000;
+    text-decoration: none; border-radius: 8px; font-size: 13px;
+    font-weight: 700; text-transform: uppercase; transition: all 0.3s;
+    white-space: nowrap; line-height: 1.3;
+  }
+  .login-btn:hover { background: #000; color: #fff; }
+  .menu-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; z-index: 1001; }
+  .menu-toggle span { width: 25px; height: 3px; background: #373c44; transition: 0.3s; border-radius: 2px; }
+  .nav-overlay {
+    position: fixed; top: 0; right: -100%; width: 250px; height: 100vh;
+    background: var(--navy); z-index: 1000; padding: 80px 2rem; transition: 0.4s ease-in-out;
+    box-shadow: -5px 0 15px rgba(0,0,0,0.3);
+  }
+  .nav-overlay.active { right: 0; }
+  .close-overlay { position: absolute; top: 20px; right: 20px; font-size: 40px; color: #fff; cursor: pointer; line-height: 1; }
+  .overlay-links { list-style: none; display: flex; flex-direction: column; gap: 1.5rem; }
+  .overlay-links a { color: #fff; text-decoration: none; font-size: 18px; text-transform: uppercase; }
+  .overlay-links a.active { color: var(--accent); font-weight: 700; }
+
+  .hero {
+    background: var(--navy);
+    padding: 5rem 2rem 4rem;
+    text-align: center;
+    position: relative; overflow: hidden;
+  }
+  .hero::before {
+    content: ''; position: absolute; inset: 0;
+    background-image: radial-gradient(rgba(255,255,255,0.1) 1px, transparent 1px);
+    background-size: 20px 20px; opacity: 0.3;
+  }
+  .hero-pill {
+    display: inline-block; background: #F5C125;
+    border: 1px solid rgba(0,0,0,0.1); color: #000;
+    font-size: 11px; text-transform: uppercase;
+    padding: 6px 18px; border-radius: 999px;
+    margin-bottom: 1.5rem; font-weight: 700;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: relative; z-index: 1;
+  }
+  .hero h1 {
+    font-family: 'DM Sans', 'Noto Sans Devanagari', sans-serif;
+    font-size: clamp(1.8rem, 4.5vw, 2.8rem); font-weight: 600; color: #fff;
+    line-height: 1.3; max-width: 860px; margin: 0 auto 1rem;
+    position: relative; z-index: 1;
+  }
+  .hero h1 em { font-style: italic; color: var(--accent); }
+  .hero p {
+    color: rgba(255,255,255,0.85); font-size: 15px;
+    max-width: 700px; margin: 0 auto;
+    position: relative; z-index: 1; line-height: 1.6;
+  }
+  .hero-divider { width: 48px; height: 2px; background: var(--accent); margin: 1.2rem auto 0; position: relative; z-index: 1; }
+
+  .meta-bar {
+    background: #fff; border-bottom: 1px solid var(--border);
+    padding: 1rem 2rem;
+  }
+  .meta-inner {
+    max-width: 900px; margin: 0 auto;
+    display: flex; flex-wrap: wrap; gap: 0.8rem 2rem;
+    align-items: center; justify-content: center;
+    font-size: 13px; color: var(--muted);
+  }
+  .meta-inner strong { color: var(--text); }
+  .meta-badge {
+    display: inline-block; background: var(--teal-light); color: #0b5f56;
+    font-weight: 700; font-size: 12px; padding: 4px 14px; border-radius: 999px;
+    text-transform: uppercase; letter-spacing: 0.05em;
+  }
+
+  .toc-section { background: var(--cream); border-bottom: 1px solid var(--border); padding: 2.5rem 2rem; }
+  .toc-inner { max-width: 900px; margin: 0 auto; }
+  .toc-inner h2 { font-size: 1.4rem; color: var(--navy-mid); text-align: center; margin-bottom: 1.5rem; }
+  .toc-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.8rem; }
+  .toc-card {
+    background: #fff; border: 1px solid var(--border); border-radius: 12px;
+    padding: 1rem 0.8rem; text-align: center; text-decoration: none;
+    transition: transform 0.25s, box-shadow 0.25s;
+    display: block;
+  }
+  .toc-card:hover { transform: translateY(-4px); box-shadow: 0 8px 22px rgba(0,0,0,0.1); }
+  .toc-num { font-size: 11px; font-weight: 700; color: var(--navy-mid); text-transform: uppercase; letter-spacing: 0.08em; }
+  .toc-card span:last-child { display: block; font-size: 13px; font-weight: 600; color: var(--text); margin-top: 4px; line-height: 1.4; }
+
+  .article-wrap { max-width: 900px; margin: 0 auto; padding: 3rem 2rem; }
+  .chapter {
+    background: #fff; border: 1px solid var(--border); border-radius: 16px;
+    padding: 2.2rem 2rem; margin-bottom: 1.8rem;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.05);
+    scroll-margin-top: 90px;
+  }
+  .chapter-tag {
+    display: inline-block; background: var(--navy); color: #fff;
+    font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+    padding: 5px 16px; border-radius: 999px; margin-bottom: 1rem;
+  }
+  .chapter h2 { font-size: 1.35rem; color: var(--text); margin-bottom: 1.2rem; line-height: 1.4; }
+  .chapter p {
+    font-family: 'Noto Sans Devanagari', 'DM Sans', sans-serif;
+    font-size: 16px; line-height: 1.9; color: #2b2b2b; margin-bottom: 1.1rem;
+  }
+  .quote {
+    border-left: 4px solid var(--accent);
+    background: #fffbe8;
+    padding: 1rem 1.3rem; border-radius: 0 12px 12px 0;
+    font-family: 'Noto Sans Devanagari', 'DM Sans', sans-serif;
+    font-size: 17px; font-weight: 600; color: #111;
+    line-height: 1.7; margin: 1.3rem 0;
+  }
+  .quote.center { text-align: center; border-left: none; border-top: 3px solid var(--accent); border-bottom: 3px solid var(--accent); border-radius: 12px; background: #fff; }
+
+  .stats-band { background: var(--navy); border-radius: 16px; padding: 2rem; margin-bottom: 1.8rem; text-align: center; }
+  .stats-band h3 { color: var(--accent); font-size: 1.3rem; margin-bottom: 1.2rem; }
+  .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.8rem; }
+  .stat-box { background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.2); border-radius: 12px; padding: 1rem 0.5rem; }
+  .stat-box .n { font-size: 1.6rem; font-weight: 700; color: #fff; }
+  .stat-box .l { font-size: 11px; color: rgba(255,255,255,0.85); text-transform: uppercase; letter-spacing: 0.05em; margin-top: 2px; }
+
+  .sign-box {
+    background: var(--cream); border: 1px solid var(--border); border-radius: 16px;
+    padding: 2rem; text-align: center; margin-bottom: 1.8rem;
+  }
+  .sign-box p {
+    font-family: 'Noto Sans Devanagari', 'DM Sans', sans-serif;
+    font-size: 16px; line-height: 1.9; color: #2b2b2b; margin-bottom: 1rem;
+  }
+  .sign-name { font-size: 1.2rem; font-weight: 700; color: var(--navy-mid); margin-top: 1rem; }
+  .sign-role { font-size: 13px; color: var(--muted); }
+  .brand-end { margin-top: 1.2rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
+  .brand-end span:first-child { color: var(--navy-mid); display: block; font-size: 1.1rem; }
+  .brand-end span:last-child { color: #b7950b; display: block; font-size: 0.85rem; margin-top: 2px; }
+
+  footer { background: #0f2c2a; color: #fff; padding: 3rem 2rem 1.5rem; }
+  .footer-container { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1.5fr; gap: 3rem; }
+  .footer-col h4 { font-size: 1.3rem; color: var(--accent); margin-bottom: 1.2rem; }
+  .footer-col p { font-size: 13px; color: #bbb; line-height: 1.6; margin-bottom: 0.8rem; }
+  .footer-links { list-style: none; }
+  .footer-links li { margin-bottom: 0.6rem; }
+  .footer-links a { color: #bbb; text-decoration: none; font-size: 13px; }
+  .footer-links a:hover { color: #fff; }
+  .privacy-policy-btn {
+    display: inline-flex; align-items: center; gap: 8px; padding: 10px 22px;
+    background: #0f2c2a; color: #fff; text-decoration: none; border-radius: 50px;
+    font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+    margin-bottom: 1rem; border: 1px solid rgba(255,255,255,0.2);
+  }
+  .footer-contact { display: flex; flex-direction: column; gap: 0.8rem; }
+  .contact-item { display: flex; align-items: center; gap: 12px; font-size: 13px; color: #bbb; }
+  .contact-icon { width: 42px; height: 42px; min-width: 42px; border-radius: 50%; background: var(--navy); color: #fff; display: flex; align-items: center; justify-content: center; font-size: 18px; }
+  .contact-text { display: flex; flex-direction: column; gap: 2px; }
+  .contact-label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent); font-weight: 700; }
+  .footer-bottom { max-width: 1100px; margin: 2rem auto 0; border-top: 1px solid #333; padding-top: 1.5rem; text-align: center; font-size: 12px; color: #777; }
+
+  .whatsapp-float {
+    position: fixed; bottom: 20px; right: 20px; background-color: #25d366; color: #fff;
+    border-radius: 50%; padding: 14px; display: flex; align-items: center; justify-content: center;
+    text-decoration: none; box-shadow: 0 4px 15px rgba(0,0,0,0.2); z-index: 1000; width: 56px; height: 56px;
+  }
+  .back-to-top {
+    position: fixed; bottom: 85px; right: 25px; background: var(--navy); color: #fff;
+    width: 40px; height: 40px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.2);
+    cursor: pointer; display: none; z-index: 999; font-size: 20px; font-weight: bold;
+  }
+
+  @media (max-width: 768px) {
+    nav { padding: 0 1rem; }
+    .nav-brand span:first-child { font-size: 12px; }
+    .nav-brand span:last-child { display: none; }
+    .nav-links { display: none; }
+    .menu-toggle { display: flex; }
+    .hero { padding: 3.5rem 1.2rem 3rem; }
+    .toc-grid { grid-template-columns: repeat(2, 1fr); }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .article-wrap { padding: 2rem 1rem; }
+    .chapter { padding: 1.6rem 1.2rem; }
+    .chapter p { font-size: 15px; }
+    .footer-container { grid-template-columns: 1fr; gap: 2rem; }
+  }
+  @media (max-width: 480px) {
+    .toc-grid { grid-template-columns: 1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="../" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
+    <img src="../logo.png" alt="Logo" style="height: 45px; width: auto;">
+    <div class="nav-brand">
+      <span>Navkar Apotek &amp; Pronavkar Lifecare</span>
+      <span>Pharmaceutical Excellence</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="../">Home</a></li>
+    <li><a href="../products/">Products</a></li>
+    <li><a href="../companies/">Companies</a></li>
+    <li><a href="../about-us/">About</a></li>
+    <li><a href="../Media & Gallery/">Gallery</a></li>
+    <li><a href="../how-to-use-app/">How to Use App</a></li>
+    <li><a href="../Contact-us/">Contact</a></li>
+    <li><a href="../our-network/">Our Network</a></li>
+    <li><a href="./" class="active">Blog</a></li>
+  </ul>
+  <div class="nav-actions">
+    <a href="../login/" class="login-btn">Login</a>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<div class="nav-overlay" id="navOverlay">
+  <span class="close-overlay" onclick="toggleMenu()">&times;</span>
+  <ul class="overlay-links">
+    <li><a href="../" onclick="toggleMenu()">Home</a></li>
+    <li><a href="../products/" onclick="toggleMenu()">Products</a></li>
+    <li><a href="../companies/" onclick="toggleMenu()">Companies</a></li>
+    <li><a href="../about-us/" onclick="toggleMenu()">About Us</a></li>
+    <li><a href="../Media & Gallery/" onclick="toggleMenu()">Gallery</a></li>
+    <li><a href="../how-to-use-app/" onclick="toggleMenu()">How to Use App</a></li>
+    <li><a href="../Contact-us/" onclick="toggleMenu()">Contact Us</a></li>
+    <li><a href="../our-network/" onclick="toggleMenu()">Our Network</a></li>
+    <li><a href="./" onclick="toggleMenu()" class="active">Blog</a></li>
+    <li><a href="../login/" onclick="toggleMenu()">Login</a></li>
+  </ul>
+</div>
+
+<section class="hero">
+  <div class="hero-pill">Navkar Blog &bull; 4 Years Journey</div>
+  <h1>Navkar Apotek LLP- <em>एका स्वप्नाचा, संघर्षाचा आणि विश्वासाचा प्रवास.</em></h1>
+  <p>5 ऑक्टोबर 2022 ते 5 ऑक्टोबर 2026 — चार वर्षांचा खरा प्रवास, त्याच शब्दांत.</p>
+  <div class="hero-divider"></div>
+</section>
+
+<div class="meta-bar">
+  <div class="meta-inner">
+    <span class="meta-badge">5 October 2026 &bull; 4th Anniversary</span>
+    <span><strong>Date:</strong> 5 ऑक्टोबर 2026</span>
+    <span><strong>Author:</strong> Akash Suvarna Suryakant Khatke ( Partner - Navkar Apotek LLP &amp; Pronavkar Lifecare LLP )</span>
+    <span><strong>Reading:</strong> 8 Parts</span>
+  </div>
+</div>
+
+<section class="toc-section">
+  <div class="toc-inner">
+    <h2>या ब्लॉगमध्ये — 8 भाग</h2>
+    <div class="toc-grid">
+      <a class="toc-card" href="#part1"><span class="toc-num">Part 1</span><span>स्वप्नाची सुरुवात</span></a>
+      <a class="toc-card" href="#part2"><span class="toc-num">Part 2</span><span>सुरुवातीचा संघर्ष</span></a>
+      <a class="toc-card" href="#part3"><span class="toc-num">Part 3</span><span>टीमची ताकद</span></a>
+      <a class="toc-card" href="#part4"><span class="toc-num">Part 4</span><span>सेवा आणि वेळ</span></a>
+      <a class="toc-card" href="#part5"><span class="toc-num">Part 5</span><span>विश्वासाची कमाई</span></a>
+      <a class="toc-card" href="#part6"><span class="toc-num">Part 6</span><span>सात महिन्यांचा धडा</span></a>
+      <a class="toc-card" href="#part7"><span class="toc-num">Part 7</span><span>प्रोनवकारची सुरुवात</span></a>
+      <a class="toc-card" href="#part8"><span class="toc-num">Part 8</span><span>आजचा Navkar परिवार</span></a>
+    </div>
+  </div>
+</section>
+
+<main class="article-wrap">
+
+  <article class="chapter" id="part1">
+    <span class="chapter-tag">Part 1 / 8 — सुरुवात</span>
+    <h2>Navkar Apotek LLP- एका स्वप्नाचा, संघर्षाचा आणि विश्वासाचा प्रवास.</h2>
+    <p>आज 5 ऑक्टोबर बरोबर 4 वर्षपूर्वी 5 ऑक्टोबर 2022 ला सुरुवात झाली अश्या स्वप्नवंत यशस्वी प्रवासाला......</p>
+    <div class="quote">“५ ऑक्टोबर २०२२ - एक तारीख नाही, एका नव्या अध्यायाची सुरुवात.”</div>
+    <div class="quote">“हा फक्त Navkar चा प्रवास नाही… हा त्या प्रत्येक माणसाचा प्रवास आहे, ज्याने कठीण काळात Navkar वर विश्वास ठेवला.”</div>
+    <p>प्रवास Navkar Apotek LLP चा, काळाची गरज आणि समोर येणाऱ्या संकटाना मात देण्यासाठी बारामती मधील आम्ही काही मेडिकल होलसेल व्यवसायिक यांनी मिळून एकत्र येण्याचा एक मोठा निर्णय घेतला, त्यातून उभारली ती म्हणजे आपली Navkar Apotek LLP.</p>
+  </article>
+
+  <article class="chapter" id="part2">
+    <span class="chapter-tag">Part 2 / 8 — सुरुवातीचा संघर्ष</span>
+    <h2>बिलिंग बंद ते नव्या प्रवासाची सुरुवात</h2>
+    <p>30 सप्टेंबर 2022 ला आम्ही आमच्या जुन्या फर्म चे बिलिंग बंद केले आणि तिथून पुढे तिथला राहिलेला सगळा माल हा नावकर मध्ये घेऊन आलो आणि मग 5 ऑक्टोबर 2022 ला नवकारचे आपण बिलिंग चालू केले आणि तिथून चालू झाला तो एक नवकार चा प्रवास. खर तर सुरवातीला खूप त्रास झाला म्हणजे आमच्या जुन्या फर्म चा माल नवकार ला आणणे सगळ्या कडे बऱ्यापैकी रनिंग कंपनी चा माल होता त्यामुळे वेगवेगळ्या बॅच नंबर नुसार माल होता तसेच प्रत्येक प्रॉडक्ट च सॉफ्टवेअर ला मॅपिंग नव्हते त्यामुळे प्रत्येक प्रोडक्ट हा मॅन्युअल भरावा लागत होता, कंपनी डिव्हिजन नुसार भरणे या प्रकार च्या असंख्य अडचणी होत्या पण प्रत्येक गोष्टी वर मात करत आम्ही पुढे निघालो, अडचणी मोठ्या होत्या... पण आमची जिद्द त्याहून मोठी होती, नवकार मधील प्रत्येक पार्टनर ने सुरवातीला खूप कष्ट केले, काही जणांनी तर सुरवातीला सकाळी 10 ते रात्री 2 वाजेपर्यंत कामे केली पण कितीही अडचण आली तरी त्यावर मात करून पुढे जायचं हे निश्चित केलं होतं आणि त्याप्रमाणे च आम्ही पुढे आलो,</p>
+    <div class="quote">“घड्याळात वेळ रात्रीची होती... पण डोळ्यांसमोर पहाटेचं स्वप्न होतं.”</div>
+    <p>सुरवातीला खूप चुका झाल्या आमच्या कडून त्या चुका मध्ये आम्ही सुधारणा केली, आजही आमच्या कडून काही चुका होतात आम्ही त्या मध्ये सुधारणा करण्याचा प्रयत्न करतो आणि पुढे चालतो. त्या सुरवातीच्या काळात काही जणांनी आमची खूप गोड शब्दात मापे काढली याची खंत मात्र कायम मनात राहिली आहे. हा असा प्रयोग या मेडिकल फिल्ड साठी नवीन होता त्यावेळी लोकांकडून कौतुक व्हावे ही अपेक्षा होती पण ते त्यावेळी झाली नाही. आज खूप कौतुक होत त्याचा आनंद आहे पण त्यावेळी appreciation ची खूप गरज होती पण नाही झाले कदाचित तीच आमची ताकद झाली आणि त्यातूनच फर्म ला यशस्वी रीत्या चालवायला प्रेरणा मिळाली.</p>
+  </article>
+
+  <article class="chapter" id="part3">
+    <span class="chapter-tag">Part 3 / 8 — टीम</span>
+    <h2>इतिहास घडवण्यासाठी टीम लागते</h2>
+    <div class="quote">“एकट्याने सुरुवात करता येते... पण इतिहास घडवण्यासाठी टीम लागते.”</div>
+    <p>नवकार चालू केले त्यावेळी आम्हला खूप चांगली टीम मिळाली तुम्हाला सांगितले त्याप्रमाणे सुरवातीला आम्ही काही पार्टनर रात्री 2 पर्यंत काम करत होतो त्या वेळी आमच्या सोबत आमचा काही स्टाफ पण असायचा ( पार्श्व, द्विप , सागर, ऋषी ) त्यांनी पण खूप योगदान दिले, या चार जणांनी purches ची जबाबदारी घेतली तर सेल ची जबाबदारी अक्षय फाळके ,महेश काळे, विकी पवार, अजय लांडगे, अथर्व पंडितराव, राहुल बनसोडे यांनी जबाबदारी घेतली. सेल purches चालू झाले पण खरी मजा होती ती जिथं माल होता त्या फ्लोअर ला सुरवातीला तिथं जबाबदारी घेतली ती किशोर गायकवाड ( काका ) , चंदू , सुरज , अवि , संदीप वायसे, तसेच सुरवातीच्या अवघड काळात रेसिपशन ची जबाबदारी शुभांगी मॅडम ने घेतली अकाउंट ची जबाबदारी ही अभि निलाखे आणि प्रसाद खुटाळे यांनी घेतली, अश्या प्रकारे वेगवेगळ्या डिपार्टमेंट ला सगळ्या स्टाफ ने घेतली आता हीत सगळ्याची नाव नाही टाकू शकत कारण तेवढं सांगणे कठीण जाईल मला, नंतर ह्या मधील काही जण आम्हला सोडून गेले पण</p>
+    <div class="quote">“आज ते सोबत नसले, तरी Navkar च्या सुरुवातीच्या पानांमध्ये त्यांचा वाटा कायम आहे.”</div>
+    <p>ज्यांची नाव आहेत वर घेतली आहेत त्यातील काही जण आता नवकार मध्ये वेगवेगळ्या डिपार्टमेंट चे हेड आहेत.</p>
+    <p>आम्हाला आमच्या टीम ने खुप साथ दिली हा काहींनी त्रास पण दिला ठीक आहे तो एक प्रवासा चा पार्ट च आहे.</p>
+  </article>
+
+  <article class="chapter" id="part4">
+    <span class="chapter-tag">Part 4 / 8 — सेवा</span>
+    <h2>Tracks वाढले, पण जिद्द कायम राहिली</h2>
+    <p>सुरवातीला आम्ही दर आठवड्यात प्रत्येक ट्रॅक ला एक दिवस गाडी पाठवायचो मग नंतर हळू हुळू ते दोन वेळा केलं नंतर काही ट्रॅक हे एकदिवसआड केले आणि आता काही ट्रॅक ला रोज गाडी जाते,</p>
+    <div class="quote">“दिवस बदलले, Tracks वाढले... पण Service देण्याची जिद्द कायम राहिली.”</div>
+    <p>सुरवातीला आम्ही बारामती मध्ये लोकल ला दिवसातून दोन वेळा माल पाठवायचो मग तो 3 वेळा झाला आता आम्ही लोकल बारामती मध्ये दिवसात 4 वेळा माल पाठवतो. आम्ही एकच ठरवलं होतं की नवकार ची ओळख ही प्रोडक्ट ची उपलब्धता आणि डिलिव्हरी सर्विस बनवायची आज त्यामध्ये थोड्या पार प्रमाणात यश आलेले आहे पण आजुन आम्ही त्यामध्ये सुधारणा करत आहोत.</p>
+    <p>सुरवातीच 1 वर्ष पूर्ण झाल्या वर काही रिटेलर यांनी सांगितले की तुम्हाला वेळ पुरत नसेल तर तुम्ही time वाढवा सगळा नीट विचार केल्यावर नवकार चे कामाचे time वाढवला तो आधी सकाळी 10 ते 7 होता तो आता 10 ते रात्री 10 केला याचा आम्हला नक्कीच चांगला फायदा पण झाला नंतर सगळा विचार करून आम्ही रविवारी पण काम चालू केले हा रविवारी फक्त 5 वाजेपर्यंत च काम चालू असते, रिटेल ला जितका वेळ नवकार चालू ठेवून सर्विस देता येइल तो आम्ही प्रयत्न करत आहोत.</p>
+  </article>
+
+  <article class="chapter" id="part5">
+    <span class="chapter-tag">Part 5 / 8 — विश्वास</span>
+    <h2>व्यवसाय मिळाला, पण त्याहून मौल्यवान मिळाला तो विश्वास</h2>
+    <p>आम्हाला काही retailers ने सुरवाती पासून खूप चांगलं व्यवसाय दिला पण ज्यांना काही जणांना भीती होती की आपण ह्याच्या कडून माल घेतला आणि ह्याचं पुढे नीट नाही चालले तर बाकी कडून माल उपलब्ध करताना त्रास होईल पण जशी वेळ पुढे पुढे गेली आणि नवकार च काम पाहिले किंवा हितली प्रोडक्ट ची उपलब्धता पाहीली , सर्विस पाहीली त्यांना ही विश्वास आला की आपल्याला काही प्रोब्लेम येणार नाही त्यात नेमके च्या बायलॉज मध्ये आहे की आम्ही माल हा फक्त कंपनी कडून घेणार बाहेरून कोणत्या unauthorised फर्म काढून माल घेणार नाही हे ज्यावेळी retailer&#39;s ला समजले त्यावेळी त्यांचा आमच्या वरचा विश्वस जास्त वाढला हे आमच्या साठी खूप महत्त्वाचे होते.</p>
+    <div class="quote">“व्यवसाय आम्हाला मिळाला... पण त्याहून मौल्यवान मिळाला तो विश्वास.”</div>
+    <div class="quote">“Retailer चा विश्वास - Navkar ची खरी कमाई.”</div>
+    <div class="quote">“विश्वास मागून मिळत नाही... तो कामातून कमवावा लागतो.”</div>
+    <p>नवकार ची टीम मेहनत घेत होतीच त्याच सोबत आम्हाला आमच्या सर्व retailers नि पण खूप साथ दिली, तसेच कठीण काळात आम्हाला वैद्यकीय प्रतिनिधी ( MR ) यांनी पण साथ दिली. हा काही कंपनी ने कोड शिफ्ट करायला त्रास दिला पण नवकार चे चाललेले कामकाज पाहून त्यांना कोड शिफ्ट करणे त्यांना भाग पडले, हे काम पाहून ज्या सुरवातीला आमच्या कडे कंपनी नव्हत्या त्या पण आम्हाला मा. अप्पासाहेब शिंदे यांच्या सहकार्याने मिळाल्या.</p>
+    <p>आधी काही MR लोकांना टार्गेट पूर्ण करायला त्रास होयचा आता मात्र खूप जण Month send असो किंवा Quarter end ला सर ऑर्डर नका टाकू टार्गेट झाले आहे 1 तारखेला ऑर्डर टाका हे सांगायला येतात किंवा एवढीच ऑर्डर टाका तेवढीच गरज आहे हे सांगतात , हा आजून पण काहींना टार्गेट पूर्ण होण्यासाठी त्रास होतो ते पण लवकरच टार्गेट वर येतील ही अपेक्षा करतो.</p>
+  </article>
+
+  <article class="chapter" id="part6">
+    <span class="chapter-tag">Part 6 / 8 — संघर्ष</span>
+    <h2>सात महिने लागले, पण विश्वास शिकवला</h2>
+    <p>सगळ्यात पहिले आमच्या साठी महत्त्वाचा टप्पा होता तो म्हणजे की आम्ही एकत्र येण्या आधी जेवढा सेल होता तेवढा गाठणे ते करत असताना आम्हला unethical practice ला सामोरे जावे लागले, काही आमच्या सोबत न येता बाहेर राहिलेल्या होलसेलर ने डिस्काउंट वाढवला तसेच वेगवेगळ्या स्कीम काढल्या काहींनी तर उधारी ची साइट वाढवली फक्त हेच नाही तर आमचे internal प्रॉब्लेम्स मुळे आम्हला आमचा जुना सेल परत मिळवायला 7 महिने लागले पण तोपर्यंत आमच्या वर खूप दबाव होता की आम्ही जो निर्णय घेतला तो बरोबर आहे का नाही याचा पण जसा आमचा जुना सेल आम्हाला मिळाला तिथं आमचा विश्वास मात्र दुप्पट झाला,</p>
+    <div class="quote">“सात महिने लागले... पण सात महिन्यांनी आम्हाला स्वतःवर विश्वास शिकवला.”</div>
+    <div class="quote">“हरलो नाही... फक्त स्वतःला सिद्ध करण्यासाठी थोडा वेळ लागला.”</div>
+    <p>त्यावेळी आमच्या लक्षात आले की आपण करू शकतो आणि तिथून पुढे खरी मजा सुरू झाली ती म्हणजे</p>
+    <div class="quote">“आमची स्पर्धा इतरांशी नव्हती... आमची स्पर्धा कालच्या Navkar सोबत होती, आहे आणि राहणार.”</div>
+    <p>आणि त्यावेळी एक गोष्ट चांगली च कळली ती म्हणजे Records are made to be broken ✌️.</p>
+  </article>
+
+  <article class="chapter" id="part7">
+    <span class="chapter-tag">Part 7 / 8 — विस्तार</span>
+    <h2>एक स्वप्न यशस्वी झालं, दुसऱ्या स्वप्नाची सुरुवात झाली</h2>
+    <p>2 वर्ष संपल्यावर काही आमच्या retailers नी आम्हाला सांगितले की तुम्ही हे standard ethical मध्ये काम करता आता तुम्ही जेनेरिक कॉस्मेटिक मध्ये पण काम चालू करावे मग आम्ही पूर्ण विचार करून आधी थोड्या प्रमाणात कॉस्मेटिक मध्ये काम चालू केले आणि मग प्रोनवकार ही जेनेरिक ची फर्म चालू केली आणि थोड्या कालावधी ने त्यामध्ये आम्ही कॉस्मेटिक शिफ्ट केले, नवकार ची दुसरी फर्म चालू होणे ही खूप मोठी उपलब्धी होती, प्रोनवकार चालू करत असताना आम्ही काही बाहेर चे पार्टनर सोबत घेणायचा प्रयत्न केला पण त्यात आम्हाला यश आले नाही पण कस असत ते कधी कधी होते ते चांगल्या साठीच होते हे त्याप्रकार पैकी एक समजून आम्ही तिथं पुढे गेलो आज प्रोनवकार पण चांगलं काम करत आहे.</p>
+    <div class="quote">“एक स्वप्न यशस्वी झालं... आणि दुसऱ्या स्वप्नाची सुरुवात झाली.”</div>
+    <div class="quote">“Navkar थांबला नाही... त्याने स्वतःला आणखी विस्तारलं.”</div>
+    <p>नवकार च्या या प्रवासात आमच्या कडून चुका झाल्या आणि आजही होतात पण आम्ही त्यावर मार्ग काढून पुढे जात आहोत, हे सगळं करत असताना पार्टनर मध्ये थोडे फार मतभेत पण झाले पण प्रत्येक पार्टनर च मत हे नवकार च्या हितासाठीच होत.</p>
+    <p>नवकार च्या या प्रवासात मा. आप्पासाहेब शिंदे , रवी पाटील साहेब ( इचलकरंजी ) यांचे विशेष मार्गदर्शन मिळाले तसेच पुणे जिल्हा संघटना , बारामती तालुका संघटना, वैद्यकीय प्रतिनिधी संघटना बारामती युनिट , बारामती व परिसरातील काही retailers च आम्हाला विशेष सहकार्य आणि मार्गदर्शन मिळाले.</p>
+  </article>
+
+  <article class="chapter" id="part8">
+    <span class="chapter-tag">Part 8 / 8 — परिवार</span>
+    <h2>हा फक्त Staff नाही… हा Navkar परिवार आहे</h2>
+    <p>नवकार आणि प्रोनवकार मिळून आमचा 210 स्टाफ आहे , आज नवकार दर आठवड्याला 18 ट्रॅक करतात काही रोज तर काही एक दिवसाआड तर काही आठवड्यात 2 वेळा आहेत, आपल्या कडे आता नवकार ला 300+ ह्या डायरेक्ट कंपनी आहेत आणि नवकार आता 2200+ retailers सोबत जोडले गेले आहे.</p>
+  </article>
+
+  <div class="stats-band">
+    <h3>आजचा Navkar — आकड्यांमध्ये</h3>
+    <div class="stats-grid">
+      <div class="stat-box"><div class="n">210</div><div class="l">Staff</div></div>
+      <div class="stat-box"><div class="n">300+</div><div class="l">Direct Companies</div></div>
+      <div class="stat-box"><div class="n">2200+</div><div class="l">Retailers</div></div>
+      <div class="stat-box"><div class="n">18</div><div class="l">Tracks / Week</div></div>
+    </div>
+  </div>
+
+  <div class="sign-box">
+    <div class="quote center">“आकडे यश सांगतात... पण हा प्रवास त्यामागची मेहनत सांगतो.”</div>
+    <div class="quote center">“हा फक्त व्यवसायाचा प्रवास नाही… हा विश्वासाने उभ्या राहिलेल्या एका परिवाराचा प्रवास आहे.”</div>
+    <p>नवकार ला 4 वर्षे यशस्वीरीत्या पार पाडण्यासाठी ज्याने ज्याने जे काही दिले त्याला ते दुप्पट मिळो हीच मनापासून इच्छा आहे.</p>
+    <p>4 वर्ष यशस्वीरीत्या पार पाडण्यासाठी ज्यांनी मदत केली त्या सर्व लोकांचे मनापासून धन्यवाद तसेच आमच्या सर्व retailer बंधू चे तसेच सर्व वैद्यकीय प्रतिनिधी यांचे पण मनापासून धन्यवाद. आम्हाला या संपूर्ण प्रवासात नवकार ला त्याच्या कठीण प्रसंगात पण साथ देणाऱ्या आमच्या सर्व स्टाफ चे मनापासून आभार,</p>
+    <div class="quote center">“हा फक्त Staff नाही… हा Navkar परिवार आहे.” ❤️</div>
+    <div class="quote center">“चार वर्षे पूर्ण झाली... पण स्वप्न अजूनही तितकंच मोठं आहे.”</div>
+    <p>Thank you so much everyone for everything you give in these 4 years.</p>
+    <div class="sign-name">Akash Suvarna Suryakant Khatke ( Partner - Navkar Apotek LLP &amp; Pronavkar Lifecare LLP )</div>
+    <div class="brand-end"><span>NAVKAR APOTEK LLP</span><span>Together for you</span></div>
+  </div>
+
+</main>
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-col">
+      <h4>Navkar &amp; Pronavkar</h4>
+      <p>Navkar Apotek LLP &amp; Pronavkar Lifecare LLP are leading pharmaceutical distributors committed to delivering excellence in healthcare. We bridge the gap between quality manufacturers and healthcare providers across India.</p>
+      <div style="display: flex; gap: 15px; margin-top: 1.5rem;">
+        <a href="https://www.instagram.com/navkarapotekllp/" target="_blank"><img src="../Icons/instagram.png" alt="Instagram" style="height: 28px; width: auto;"></a>
+        <a href="https://in.linkedin.com/company/navkar-apotek-llp" target="_blank"><img src="../Icons/linkedin.png" alt="LinkedIn" style="height: 28px; width: auto;"></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <a href="../privacy-policy/index.html" class="privacy-policy-btn">Privacy Policy</a>
+      <ul class="footer-links">
+        <li><a href="../careers/">Academic Careers</a></li>
+        <li><a href="../terms-conditions/">Terms &amp; Conditions</a></li>
+        <li><a href="../privacy-policy/index.html">Privacy Policy</a></li>
+        <li><a href="../blog/">Blog</a></li>
+        <li><a href="https://play.google.com/store/apps/details?id=in.relysoft.navkarapotekllp" target="_blank"><img src="../PlayStore.jpg" alt="Get it on Google Play" style="height:36px;width:auto;border-radius:4px;"></a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Get In Touch</h4>
+      <div class="footer-contact">
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div class="contact-text"><span class="contact-label">Address</span><span>Baramati, Pune, Maharashtra - 413102</span></div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div class="contact-text"><span class="contact-label">Phone</span><span>+91 9529337113</span></div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <div class="contact-text"><span class="contact-label">Email</span><span>info@navkarapotek.com</span></div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">🕙</div>
+          <div class="contact-text"><span class="contact-label">Working Hours</span><span>Mon - Sat: 10:00 AM - 7:00 PM</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom"><p>&copy; 2026 Navkar Apotek LLP &amp; Pronavkar Lifecare LLP. All rights reserved.</p></div>
+</footer>
+
+<a href="https://wa.me/919529337113" class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.246 2.248 3.484 5.232 3.483 8.412-.003 6.557-5.338 11.892-11.893 11.892-1.997-.001-3.951-.499-5.702-1.445l-6.194 1.654zm6.755-3.917c1.448.859 2.995 1.312 4.59 1.313 5.503 0 9.975-4.472 9.977-9.977.001-2.669-1.038-5.176-2.927-7.065-1.889-1.889-4.396-2.928-7.062-2.929-5.505 0-9.979 4.472-9.981 9.978-.001 1.77.449 3.502 1.306 5.047l-1.014 3.704 6.299-1.681-.188-.11zm11.362-7.108c-.312-.156-1.848-.912-2.134-1.017-.286-.105-.494-.156-.702.156-.208.312-.806 1.017-.988 1.222-.182.205-.364.231-.677.075-.312-.156-1.318-.486-2.51-1.548-.928-.827-1.554-1.849-1.736-2.161-.182-.312-.019-.481.137-.635.141-.139.312-.364.468-.547.156-.182.208-.312.312-.52.105-.208.052-.39-.026-.547-.052-.156-.702-1.691-.962-2.315-.253-.608-.51-.525-.702-.535-.181-.01-.39-.01-.599-.01-.208 0-.546.078-.832.39-.286.312-1.092 1.067-1.092 2.603 0 1.536 1.118 3.02 1.274 3.228.156.208 2.2 3.359 5.328 4.707.744.321 1.325.512 1.778.656.748.237 1.429.204 1.967.124.6-.089 1.848-.755 2.108-1.485.26-.73.26-1.353.182-1.485-.078-.13-.286-.208-.598-.364z"/></svg>
+</a>
+<button id="backToTop" class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" title="Back to top">↑</button>
+
+<script>
+function toggleMenu() {
+  document.getElementById('navOverlay').classList.toggle('active');
+  document.querySelector('.menu-toggle').classList.toggle('active');
+}
+window.onscroll = function() {
+  const btn = document.getElementById('backToTop');
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    btn.style.display = 'block';
+  } else {
+    btn.style.display = 'none';
+  }
+};
+</script>
+
+</body>
+</html>
