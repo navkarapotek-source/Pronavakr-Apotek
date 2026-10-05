@@ -489,8 +489,78 @@
   }
 
 </style>
+<style>
+/* ANNIVERSARY-START: 4th Anniversary celebration theme (set ANNIVERSARY_ON=false in snippet below to turn off) */
+.anniv-ribbon{background:linear-gradient(90deg,#F5C125,#ffe066,#F5C125);color:#1a1a1a;text-align:center;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:8px 12px;line-height:1.4}
+.anniv-badge{display:inline-block;background:#F5C125;color:#000;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;padding:5px 12px;border-radius:999px;white-space:nowrap}
+.anniv-hero-pill{display:inline-block;background:#F5C125;color:#000;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;padding:6px 18px;border-radius:999px;margin-bottom:1rem;box-shadow:0 2px 10px rgba(0,0,0,.12)}
+.anniv-footer-note{text-align:center;font-size:12px;color:#F5C125;letter-spacing:.04em;padding:10px 12px 0}
+.anniv-confetti{position:fixed;inset:0;z-index:10000;pointer-events:none;overflow:hidden}
+.anniv-confetti i{position:absolute;top:-20px;display:block;opacity:0;animation-name:anniv-fall;animation-timing-function:linear;animation-fill-mode:forwards}
+@keyframes anniv-fall{0%{opacity:1;transform:translateY(-10px) rotate(0deg)}100%{opacity:.9;transform:translateY(105vh) rotate(720deg)}}
+@media (max-width:768px){.anniv-ribbon{font-size:11px}.anniv-badge{font-size:10px;padding:4px 10px}}
+@media (prefers-reduced-motion:reduce){.anniv-confetti{display:none}}
+/* ANNIVERSARY-END */
+</style>
 </head>
 <body>
+<!-- ANNIVERSARY-START -->
+<div class="anniv-ribbon">Celebrating 4 Years of Trust &#8212; Thanks to Everyone</div>
+<div class="anniv-confetti" id="annivConfetti" aria-hidden="true"></div>
+<script>
+(function(){
+  var ANNIVERSARY_ON = true;
+  var ribbon = document.querySelector('.anniv-ribbon');
+  if(!ANNIVERSARY_ON){ if(ribbon) ribbon.remove(); return; }
+  document.addEventListener('DOMContentLoaded', function(){
+    try{
+      var loginBtn = document.querySelector('.nav-actions .login-btn');
+      if(loginBtn){
+        var b = document.createElement('span');
+        b.className = 'anniv-badge';
+        b.textContent = '4 Years';
+        loginBtn.parentNode.insertBefore(b, loginBtn);
+      }
+      var hero = document.querySelector('.hero');
+      if(hero){
+        var p = document.createElement('div');
+        p.className = 'anniv-hero-pill';
+        p.textContent = '4 Years Completed';
+        hero.insertBefore(p, hero.firstChild);
+      }
+      var footer = document.querySelector('footer');
+      if(footer){
+        var n = document.createElement('div');
+        n.className = 'anniv-footer-note';
+        n.textContent = 'Proudly celebrating 4 years of trust and service';
+        footer.appendChild(n);
+      }
+    }catch(e){}
+    try{
+      if(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      var box = document.getElementById('annivConfetti');
+      if(!box) return;
+      var colors = ['#1A9E96','#F5C125','#148074','#ffe066','#0f2c2a'];
+      var count = (window.innerWidth < 768) ? 30 : 60;
+      for(var i = 0; i < count; i++){
+        var s = document.createElement('i');
+        var size = 6 + Math.random() * 8;
+        s.style.left = (Math.random() * 100) + 'vw';
+        s.style.width = size + 'px';
+        s.style.height = (size * (Math.random() < 0.5 ? 0.5 : 1)) + 'px';
+        s.style.background = colors[i % colors.length];
+        if(Math.random() < 0.3) s.style.borderRadius = '50%';
+        s.style.animationDuration = (2.8 + Math.random() * 2.2) + 's';
+        s.style.animationDelay = (Math.random() * 1.2) + 's';
+        box.appendChild(s);
+      }
+      setTimeout(function(){ if(box && box.parentNode) box.parentNode.removeChild(box); }, 7000);
+    }catch(e){}
+  });
+})();
+</script>
+<!-- ANNIVERSARY-END -->
+
 
 <nav>
   <a href="../" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
