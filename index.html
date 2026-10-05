@@ -712,16 +712,7 @@
     visibility: hidden;
   }
 
-  .intro-med-float {
-    position: absolute;
-    pointer-events: none;
-    z-index: 1;
-    opacity: 0;
-    overflow: visible;
-    filter: blur(0.5px);
-  }
-
-  /* Main content block — logo + names */
+  /* Main content block — anniversary image only */
   .intro-container {
     display: flex;
     flex-direction: column;
@@ -732,31 +723,17 @@
     padding: 20px;
   }
 
-  .intro-logo {
-    width: 420px;
-    max-width: 85vw;
+  .intro-anniversary {
+    width: min(520px, 88vw);
+    max-height: 72vh;
+    object-fit: contain;
     height: auto;
     opacity: 0;
     animation: introZoomPulse 1.2s 0.2s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
     filter: drop-shadow(0 20px 35px rgba(16, 132, 132, 0.25));
+    border-radius: 12px;
+    background: #fff;
   }
-
-  .intro-text-group {
-    margin-top: 40px;
-    opacity: 0;
-    animation: introTextReveal 0.8s 1.5s forwards;
-  }
-
-  .intro-firm-name {
-    font-size: clamp(24px, 5vw, 34px);
-    font-weight: 700;
-    letter-spacing: 3px;
-    margin: 12px 0;
-    line-height: 1.15;
-    font-family: 'DM Sans', sans-serif;
-  }
-  .intro-navkar   { color: #108484; }
-  .intro-pronavkar{ color: #F7D02B; }
 
   /* ── Skip Button — perfectly centered below names ── */
   .skip-btn {
@@ -775,9 +752,9 @@
     box-shadow: 0 4px 18px rgba(0,0,0,0.15);
     transition: background 0.2s, color 0.2s, transform 0.2s;
     z-index: 1002;
-    /* fade-in after text group appears */
+    /* fade-in after image appears */
     opacity: 0;
-    animation: introTextReveal 0.5s 2s forwards;
+    animation: introTextReveal 0.5s 1s forwards;
   }
   .skip-btn:hover {
     background: #000;
@@ -787,13 +764,11 @@
 
   /* Mobile tweaks */
   @media (max-width: 768px) {
-    .intro-logo { width: 300px; }
-    .intro-text-group { margin-top: 28px; }
-    .intro-firm-name { font-size: clamp(18px, 6vw, 26px); letter-spacing: 2px; }
+    .intro-anniversary { width: min(340px, 86vw); max-height: 62vh; }
     .skip-btn { margin-top: 22px; padding: 9px 28px; font-size: 13px; }
   }
   @media (max-width: 400px) {
-    .intro-logo { width: 240px; }
+    .intro-anniversary { width: min(280px, 86vw); max-height: 58vh; }
     .skip-btn { padding: 8px 22px; font-size: 12px; }
   }
 
@@ -807,19 +782,6 @@
     0%   { opacity: 0; transform: translateY(20px); }
     100% { opacity: 1; transform: translateY(0); }
   }
-  @keyframes introMedAppear {
-    0%   { opacity: 0; transform: scale(0) rotate(0deg); }
-    60%  { opacity: 0.22; transform: scale(1.15) rotate(5deg); }
-    100% { opacity: 0.18; transform: scale(1) rotate(0deg); }
-  }
-  @keyframes introFloatMed {
-    0%   { transform: translateY(0px) rotate(0deg); }
-    50%  { transform: translateY(-16px) rotate(8deg); }
-    100% { transform: translateY(0px) rotate(0deg); }
-  }
-
-  .intro-med-float.visible  { animation: introMedAppear 0.8s forwards; }
-  .intro-med-float.floating { animation: introFloatMed linear infinite; opacity: 0.18; }
 
   .privacy-policy-btn {
     display: inline-flex; align-items: center; gap: 8px;
@@ -850,62 +812,9 @@
 ══════════════════════════════════════ -->
 <div id="intro-overlay">
 
-  <!-- Floating pill decorations -->
-  <svg class="intro-med-float" id="m1" style="left:33%;top:10%;" width="72" height="34" viewBox="0 0 120 56">
-    <rect x="0" y="0" width="120" height="56" rx="28" ry="28" fill="#108484"/>
-    <clipPath id="cp1"><rect x="0" y="0" width="60" height="56"/></clipPath>
-    <rect x="0" y="0" width="120" height="56" rx="28" ry="28" fill="#0a5f5f" clip-path="url(#cp1)"/>
-    <line x1="60" y1="4" x2="60" y2="52" stroke="white" stroke-width="3" opacity="0.6"/>
-  </svg>
-  <svg class="intro-med-float" id="m3" style="left:16%;top:24%;" width="68" height="30" viewBox="0 0 120 52">
-    <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#F7D02B"/>
-    <clipPath id="cp3"><rect x="60" y="0" width="60" height="52"/></clipPath>
-    <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#d4af1f" clip-path="url(#cp3)"/>
-    <line x1="60" y1="4" x2="60" y2="48" stroke="white" stroke-width="3" opacity="0.6"/>
-  </svg>
-  <svg class="intro-med-float" id="m4" style="left:24%;top:36%;" width="30" height="56" viewBox="0 0 52 100">
-    <rect x="0" y="0" width="52" height="100" rx="26" ry="26" fill="#108484"/>
-    <clipPath id="cp4"><rect x="0" y="50" width="52" height="50"/></clipPath>
-    <rect x="0" y="0" width="52" height="100" rx="26" ry="26" fill="#F7D02B" clip-path="url(#cp4)"/>
-    <line x1="4" y1="50" x2="48" y2="50" stroke="white" stroke-width="3" opacity="0.6"/>
-  </svg>
-  <svg class="intro-med-float" id="m5" style="left:18%;top:52%;" width="68" height="30" viewBox="0 0 120 52">
-    <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#F7D02B"/>
-    <clipPath id="cp5"><rect x="0" y="0" width="60" height="52"/></clipPath>
-    <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#108484" clip-path="url(#cp5)"/>
-    <line x1="60" y1="4" x2="60" y2="48" stroke="white" stroke-width="3" opacity="0.6"/>
-  </svg>
-  <svg class="intro-med-float" id="m6" style="left:37%;top:66%;" width="38" height="38" viewBox="0 0 80 80">
-    <circle cx="40" cy="40" r="38" fill="#F7D02B"/>
-    <circle cx="40" cy="40" r="28" fill="#d4af1f"/>
-    <line x1="8" y1="40" x2="72" y2="40" stroke="white" stroke-width="3" opacity="0.6"/>
-  </svg>
-  <svg class="intro-med-float" id="m7" style="left:63%;top:56%;" width="62" height="28" viewBox="0 0 120 52">
-    <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#108484"/>
-    <clipPath id="cp7"><rect x="60" y="0" width="60" height="52"/></clipPath>
-    <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#F7D02B" clip-path="url(#cp7)"/>
-    <line x1="60" y1="4" x2="60" y2="48" stroke="white" stroke-width="3" opacity="0.6"/>
-  </svg>
-  <svg class="intro-med-float" id="m8" style="left:71%;top:17%;" width="56" height="26" viewBox="0 0 120 52">
-    <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#108484"/>
-    <clipPath id="cp8"><rect x="0" y="0" width="60" height="52"/></clipPath>
-    <rect x="0" y="0" width="120" height="52" rx="26" ry="26" fill="#F7D02B" clip-path="url(#cp8)"/>
-    <line x1="60" y1="4" x2="60" y2="48" stroke="white" stroke-width="3" opacity="0.6"/>
-  </svg>
-  <svg class="intro-med-float" id="m9" style="left:67%;top:72%;" width="30" height="56" viewBox="0 0 52 100">
-    <rect x="0" y="0" width="52" height="100" rx="26" ry="26" fill="#F7D02B"/>
-    <clipPath id="cp9"><rect x="0" y="0" width="52" height="50"/></clipPath>
-    <rect x="0" y="0" width="52" height="100" rx="26" ry="26" fill="#108484" clip-path="url(#cp9)"/>
-    <line x1="4" y1="50" x2="48" y2="50" stroke="white" stroke-width="3" opacity="0.6"/>
-  </svg>
-
-  <!-- ✅ intro-container: logo + names + skip button — all center aligned -->
+  <!-- ✅ intro-container: anniversary image + skip button — center aligned -->
   <div class="intro-container">
-    <img src="logo.png" alt="Navkar Logo" class="intro-logo">
-    <div class="intro-text-group">
-      <div class="intro-firm-name intro-navkar">NAVKAR APOTEK LLP</div>
-      <div class="intro-firm-name intro-pronavkar">PRONAVKAR LIFECARE LLP</div>
-    </div>
+    <img src="Animation.jpeg" alt="Navkar Apotek LLP - 4 Years Completed, Thanks to everyone" class="intro-anniversary">
     <!-- Skip button placed INSIDE intro-container so it aligns with content -->
     <button id="skipIntro" class="skip-btn">Skip ➔</button>
   </div>
@@ -1214,7 +1123,7 @@ function toggleMenu() {
   document.querySelector('.menu-toggle').classList.toggle('active');
 }
 
-// Intro Animation Handler
+// Intro Overlay Handler — anniversary image, once per session
 window.addEventListener('load', () => {
   // Show intro only once per browser session
   if (sessionStorage.getItem('introSeen') === 'true') {
@@ -1225,34 +1134,6 @@ window.addEventListener('load', () => {
     document.body.classList.remove('no-scroll');
     return;
   }
-
-  const meds = [
-    { id: 'm1', delay: 0,    floatDur: '5.2s' },
-    { id: 'm3', delay: 200,  floatDur: '7.0s' },
-    { id: 'm4', delay: 400,  floatDur: '5.8s' },
-    { id: 'm5', delay: 600,  floatDur: '6.5s' },
-    { id: 'm6', delay: 800,  floatDur: '5.5s' },
-    { id: 'm7', delay: 1000, floatDur: '6.8s' },
-    { id: 'm8', delay: 1200, floatDur: '7.5s' },
-    { id: 'm9', delay: 1400, floatDur: '5.0s' },
-  ];
-
-  const START_AFTER = 1000;
-
-  meds.forEach(({ id, delay, floatDur }) => {
-    setTimeout(() => {
-      const el = document.getElementById(id);
-      if (el) {
-        el.classList.add('visible');
-        setTimeout(() => {
-          el.classList.remove('visible');
-          el.classList.add('floating');
-          el.style.animationDuration = floatDur;
-          el.style.animationDelay = '0s';
-        }, 850);
-      }
-    }, START_AFTER + delay);
-  });
 
   // Auto-hide after full sequence and mark as seen for this session
   setTimeout(() => {
